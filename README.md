@@ -5,13 +5,9 @@ description: >-
   know advanced features, and more
 ---
 
-# Welcome to Quantower Help
-
-
+# Добро пожаловать в справочную систему Quantower
 
 ![](.gitbook/assets/main-workspace-for-help.png)
-
-
 
 For the answers you can't find in the Knowledge Base, please contact us via the following options:
 
