@@ -1,8 +1,8 @@
 ---
 description: >-
-  Here you’ll find all the detailed documentation for Quantower features, learn
-  how to create and customize your Workspace, understand all settings, get to
-  know advanced features, and more
+  Здесь вы найдете полную информацию о возможностях торговой платформы
+  Quantower, узнаете как создать и настроить ваш торговый воркспейс, как
+  пользоваться настройками и многое другое.
 ---
 
 # Добро пожаловать в справочную систему Quantower
