@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Добро пожаловать в справочную систему](README.md)
+* [Добро пожаловать в справочную систему аукцу](README.md)
 * [Getting Started](getting-started/README.md)
   * [What's new](getting-started/latest-version.md)
   * [Installation](getting-started/installation.md)
