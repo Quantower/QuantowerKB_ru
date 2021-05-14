@@ -6,9 +6,8 @@ description: >-
 
 # Установка программы и требования к ПК
 
-* [**Требования к ПК**](installation.md#trebovaniya-k-pk)\*\*\*\*
-* \*\*\*\*[**Установка пошагово**](installation.md#ustanovka-poshagovo)\*\*\*\*
-* [**Удаление программы** ](installation.md#udalenie-programmy)\*\*\*\*
+* * \*\*\*\*[**Installation Steps**](installation.md#installation-steps)\*\*\*\*
+* \*\*\*\*[**Uninstallation**](installation.md#uninstall)\*\*\*\*
 
 После того, как вы загрузили приложение Quantower с [официального сайта Quantower,](https://www.quantower.com/) вы готовы начать процесс установки. С этого момента мы должны прояснить основные различия между "процессом установки" Quantower и стандартным Windows® процессом установки, к которому привыкло большинство пользователей.
 
@@ -42,19 +41,19 @@ Quantower не копирует свои файлы в системные пап
 
 ![&#x42D;&#x43A;&#x440;&#x430;&#x43D; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x449;&#x438;&#x43A;&#x430; Quantower](../.gitbook/assets/extract-files-quantower.png)
 
-1. [**Загрузите установщик приложения**](https://updates.quantower.com/Quantower/x64/latest/Quantower.exe) ****и запустите _**Quantower.exe**_ файл.
-2. Выберите папку для извлечения файлов приложения
-3. После завершения процесса извлечения платформа автоматически запустится с подключением к **Binance** в информационном режиме и с рабочим пространством по умолчанию.
+1. [**Download the app installer**](https://updates.quantower.com/Quantower/x64/latest/Quantower.exe) and launch the _**Quantower.exe**_ file
+2. Select the folder to extract application files
+3. Once an extraction process being finished the platform will start automatically with **Binance connection** in Info Mode and with the default workspace
 
 {% hint style="warning" %}
-Обратите внимание, что вам может потребоваться разрешить входящее и исходящее соединение для файла **Starter.exe** \(основного исполняемого файла терминала Quantower\) в настройках брандмауэра.
+Please note, that you may need to allow an in-going and outgoing connection for _**Starter.exe**_ file \(the main executable of Quantower terminal\) in your Firewall settings
 {% endhint %}
 
 ![](../.gitbook/assets/default-workspace.png)
 
-## Удаление программы
+## Uninstall
 
-Если вам нужно удалить приложение, просто **удалите папку со всеми файлами приложения**. Вы также можете сохранить свои личные настройки \(информацию о подключении и рабочие области\), скопировав папку настроек \(находится прямо в папке **Quantower**\) перед удалением приложения. Эту папку настроек можно позже вставить в любую другую папку Quantower.
+If you need to uninstall the application, just _**delete the folder with all application files**_. You may also keep your personal settings \(connection information & workspaces\) by copying the Settings folder \(can be found right in Quantower folder\) before application delete. These Settings folder can be pasted to any other Quantower folder later.
 
-Вы также можете обратиться к [**диспетчеру резервного копирования и восстановления**](backup-and-restore-manager.md)**,** чтобы сделать резервную копию ваших настроек в одном файле и восстановить их позже.
+You may also refer to [**Backup & Restore manager**](backup-and-restore-manager.md) to backup your settings in one file and restore them later.
 
