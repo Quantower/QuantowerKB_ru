@@ -8,7 +8,7 @@ description: >-
 
 * [**Требования к ПК**](installation.md#trebovaniya-k-pk)\*\*\*\*
 * \*\*\*\*[**Установка пошагово**](installation.md#ustanovka-poshagovo)\*\*\*\*
-* [**Удаление программы**](installation.md#uninstall)\*\*\*\*
+* [**Удаление программы** ](installation.md#udalenie-programmy)\*\*\*\*
 
 После того, как вы загрузили приложение Quantower с [официального сайта Quantower,](https://www.quantower.com/) вы готовы начать процесс установки. С этого момента мы должны прояснить основные различия между "процессом установки" Quantower и стандартным Windows® процессом установки, к которому привыкло большинство пользователей.
 

@@ -1,13 +1,15 @@
 ---
-description: History of Quantower updates shows the changes that were in each version.
+description: >-
+  История обновлений Quantower показывает изменения, которые были в каждой
+  версии.
 ---
 
-# What's new
+# Обновления
 
-Each update of Quantower includes the addition of new features, bug fixes and performance optimization. In case of critical issues or errors that occur due to our fault, we immediately fix them and release a new update.
+Каждое обновление Quantower включает в себя добавление новых функций, исправление ошибок и оптимизацию производительности. В случае возникновения критических проблем или ошибок, возникших по нашей вине, мы немедленно их исправляем и выпускаем новое обновление.
 
-For a detailed overview of what has changed in each update, please see the Release Notes on our website:
+Подробный обзор того, что изменилось в каждом обновлении, можно найти в описаниях к выпуску на нашем веб-сайте:
 
-* \*\*\*\*[**Quantower Release Notes**](https://www.quantower.com/release-notes)\*\*\*\*
-* \*\*\*\*[**Quantower Blog**](https://www.quantower.com/blog)\*\*\*\*
+* [**Quantower обновления**](https://www.quantower.com/release-notes)
+* [**Quantower Блог**](https://www.quantower.com/blog)
 
