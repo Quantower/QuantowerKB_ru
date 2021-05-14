@@ -6,10 +6,10 @@ description: >-
 
 # Установка программы и требования к ПК
 
-* [**System Requirements**](installation.md#pc-requirements)\*\*\*\*
+* **\*\*\*\*** [**Требования к ПК** \*](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-M_ewe-u5jKJ-0IilF23/getting-started/installation#trebovaniya-k-pk)\*\*\*
 * \*\*\*\*[**Installation Steps**](installation.md#installation-steps)\*\*\*\*
 * \*\*\*\*[**Uninstallation**](installation.md#uninstall)\*\*\*\*
-
+* 
 Once you downloaded Quantower application from Quantower official website — you are ready to start an installation process. From this point we must clarify the main differences between Quantower "installation process" and default Windows® install process, that most users are accustomed to.
 
 {% embed url="https://youtu.be/155Ha6Rku0E" caption="" %}
@@ -22,7 +22,7 @@ What does it mean? The program doesn't violate the integrity of the OS, and in c
 
 This approach allows you to store \(and launch\) the Quantower on removable drive for use on any other computer as the portable application. It can be convenient when you need to move Quantower with all of its settings to another PC; just copy Quantower folder and paste where you need.
 
-Требования к ПК
+## `Требования к ПК`
 
 {% hint style="info" %}
 * Windows 10
