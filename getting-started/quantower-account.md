@@ -36,15 +36,17 @@ Quantower аккаунт \(Учетная запись\) является час
 После того, как вы отправите регистрационную форму, вы получите электронное письмо с подтверждением на указанный вами электронный адрес. Перейдите по ссылке из этого электронного письма, чтобы завершить процесс регистрации.
 {% endhint %}
 
-## Account management
+## Управление аккаунтом
 
-You can manage your account after registration in your personal cabinet — [https://accounts.quantower.com/](https://accounts.quantower.com/). Here you can:
+Вы можете управлять своим аккаунтом после регистрации в личном кабинете— [https://accounts.quantower.com/](https://accounts.quantower.com/)   
+  
+В кабинете будет доступна следующая информация:
 
-* see you currently active licenses;
-* buy or prolong licenses;
-* change your Account password.
+* действующие Лицензии;
+* дату покупки и сроки продления Лицензий;
+* управление личными данными \(смена пароля\).
 
-## Account removal
+## Удаление аккаунта
 
-You can apply for removing your account by contacting Quantower Support via any applicable way: [https://www.quantower.com/contact-us](https://www.quantower.com/contact-us).
+Вы можете подать заявку на удаление своей учетной записи, связавшись со службой поддержки Quantower любым доступным способом: [https://www.quantower.com/contact-us](https://www.quantower.com/contact-us).
 
