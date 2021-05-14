@@ -17,23 +17,23 @@ Quantower аккаунт \(Учетная запись\) является час
 
 {% embed url="https://www.youtube.com/watch?v=sQVm6Pikz1E" caption="" %}
 
-## Account creation
+## Регистрация учетной записи
 
-There are two ways to get yourself an Account:
+Два способа регистрации аккаунта:
 
-* proceed to Log in when you have been asked for in Quantower application; 
-* go to [https://accounts.quantower.com](https://accounts.quantower.com) via your favorite browser.
+* установить приложение Quantower и когда он предложит Вам регистрацию, перейти по ссылке и зарегистрировать учетную запись; 
+* сразу перейти по ссылке [https://accounts.quantower.com](https://accounts.quantower.com) через Ваш любимый браузер.
 
 ![Quantower Account Log in form](https://lh5.googleusercontent.com/W4Plz6PIEosVP3gIaprdWE3wDWsKDTZlSCG8fh3a47hM9Mx9jxgq6nmj_x8yI02fa2ykPKfa73g79EOc9Jv7DzP15saDc6S-V4rNA_VCKGCFerll6we2m5M1odzBIJjtlBtTbYmA)
 
-In both ways you will get to Account log in form.
+В обоих случаях вы попадете на страницу с формой входа в учетную запись.
 
-| If you don’t have an account | Already have an Account |
+| Если у вас нет учетной записи | Уже есть аккаунт |
 | :--- | :--- |
-| Press the **GET STARTED** link in the footer. | Enter your credentials and press **SIGN ME IN** |
+| Нажмите "**GET STARTED"** ссылку в нижнем колонтитуле | Введите свои учетные данные и нажмите "**SIGN ME IN"** |
 
 {% hint style="warning" %}
-After you submit the Registration form, you will get a verification email on the address, you have specified. You should follow the link from that email to complete the Registration process.
+После того, как вы отправите регистрационную форму, вы получите электронное письмо с подтверждением на указанный вами электронный адрес. Перейдите по ссылке из этого электронного письма, чтобы завершить процесс регистрации.
 {% endhint %}
 
 ## Account management
