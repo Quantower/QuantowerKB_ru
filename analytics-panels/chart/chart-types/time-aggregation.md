@@ -1,4 +1,2 @@
 # Time aggregation
 
-
-

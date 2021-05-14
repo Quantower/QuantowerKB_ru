@@ -2,7 +2,7 @@
 
 ## Description
 
-  The Commodity Channel Index​ \(CCI\) is a momentum based technical indicator first time introduced by Donald Lambert in 1980, the most often user case is an identifying market cycles, reaching a condition of being overbought or oversold. From technical perspective CCI measures the change in an instrument's price relative to a pre-defined moving average \(MA\) of the price divided by 1.5% of a normal deviation \(D\) from that average.
+The Commodity Channel Index​ \(CCI\) is a momentum based technical indicator first time introduced by Donald Lambert in 1980, the most often user case is an identifying market cycles, reaching a condition of being overbought or oversold. From technical perspective CCI measures the change in an instrument's price relative to a pre-defined moving average \(MA\) of the price divided by 1.5% of a normal deviation \(D\) from that average.
 
 ![](../../../../.gitbook/assets/image%20%2846%29.png)
 
@@ -24,10 +24,4 @@ Where:
 * **Divergence/Convergence** - Divergence/Convergence pattern is a form of price action when new high\(low\) of the price not confirmed with a new high/low of  CCI. Such price and indicator’s behavior can be interpreted as the weakness of current existing trend.
 
 ![](../../../../.gitbook/assets/image%20%2814%29.png)
-
-
-
-
-
-
 

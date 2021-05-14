@@ -1,10 +1,10 @@
 # Localization
 
-Quantower offers users several languages, which greatly simplifies the process of working with the platform. In addition to English, there are 14 other languages available, which we are constantly updating and adding new ones. 
+Quantower offers users several languages, which greatly simplifies the process of working with the platform. In addition to English, there are 14 other languages available, which we are constantly updating and adding new ones.
 
 In case of errors or inaccuracies in translation, any user can make changes to the text. To do this, write to us in the support or change the text in the file, which is located on the Github repository. The next time you upgrade the platform, all your changes will be automatically applied.
 
-### How to make changes to the localization file on Github <a id="how-to-make-changes-to-the-localization-file-on-github"></a>
+## How to make changes to the localization file on Github <a id="how-to-make-changes-to-the-localization-file-on-github"></a>
 
 * Go to the [**Quantower/Localization**](https://github.com/Quantower/Localization) section on Github, where the translation files for each panel are located. Here is the link [https://github.com/Quantower/Localization](https://github.com/Quantower/Localization) 
 * Register the account or log in to Github using your login and password. We can provide you with an account for making changes to localization files. To do this, write to us in support. 

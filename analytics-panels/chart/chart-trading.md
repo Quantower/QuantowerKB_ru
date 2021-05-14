@@ -28,5 +28,3 @@ Next comes a block of buttons for **quickly placing an orde**r into the betting 
 
 Next comes a large block of functions for managing the current position. You can delete or limit orders or stops. You can also reverse your position with one button or set it to no loss. These are very functional buttons, do not miss them.
 
-
-

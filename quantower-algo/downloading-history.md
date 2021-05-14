@@ -44,9 +44,9 @@ double bidPrice = ((HistoryItemTick)historicalData[0]).Bid;
 double askPrice = ((HistoryItemTick)historicalData[0]).Ask;
 ```
 
-If you need to download history from a current symbol of indicator, you can use its property Symbol. If you need history from another symbol, that should be specified in settings - you can use **InputParameter** attribute and our article describing this. 
+If you need to download history from a current symbol of indicator, you can use its property Symbol. If you need history from another symbol, that should be specified in settings - you can use **InputParameter** attribute and our article describing this.
 
-It is a time to create some practical example using knowledge from the current topic. Let's assume we need an indicator that downloads 5min,15 min and 30 min history for the main symbol and for an additional one, that can be specified by the user. Then calculates simple moving average on this history and displays results on the chart. 
+It is a time to create some practical example using knowledge from the current topic. Let's assume we need an indicator that downloads 5min,15 min and 30 min history for the main symbol and for an additional one, that can be specified by the user. Then calculates simple moving average on this history and displays results on the chart.
 
 At first, we need to specify variables for required indicators and Symbol variable and mark it with **InputParameter**:
 
@@ -83,7 +83,7 @@ protected override void OnInit()
     // 30 min
     IHistoricalData data30MinCurrent = this.Symbol.GetHistory(Period.MIN30, HistoryType.Bid, DateTime.UtcNow.AddDays(-1));            
     data30MinCurrent.AddIndicator(sma30MinMainCurrent = Core.Indicators.BuiltIn.SMA(10, PriceType.Close));
-            
+
     // Download history for additional symbol (if specified) for different timeframes and apply SMA indicator
 
     if (AdditionalSymbol != null)

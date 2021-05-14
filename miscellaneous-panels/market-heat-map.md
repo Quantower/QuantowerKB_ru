@@ -4,7 +4,7 @@ description: 'A market heat map, is a real-time visual representation of market 
 
 # Market Heat map
 
-### What is the quantower Heat map
+## What is the quantower Heat map
 
 You can use these maps as an investment research tool to view the performance of various market indices, sectors, asset classes or individual stocks. You can compare the stock market of a particular country with that of another country.
 
@@ -14,9 +14,7 @@ In addition to their attractive appearance, Quantower market heat maps have feat
 
 ![](../.gitbook/assets/image%20%28190%29.png)
 
-### How Quantower heat map works.
-
-
+## How Quantower heat map works.
 
 ![](../.gitbook/assets/image%20%28194%29.png)
 
@@ -29,8 +27,4 @@ You can change the Quantower heat map display. Setup - Threemap shows the fastes
 ![](../.gitbook/assets/123.gif)
 
 You can choose the type of sorting by largest volume or percentage change.
-
-
-
-
 

@@ -2,7 +2,7 @@
 
 ## Description
 
-Accelerator Oscillator was introduced by Bill Williams in his book "Trading Chaos", according Bill Williams theory market price is latest element which will be changed and prior to this change the market driven forces will change its direction.  The AC indicator measures acceleration and deceleration of these forces.  If indicator rises it means that market is inbalanced now and buy power is greater than sell one and vice versa.  
+Accelerator Oscillator was introduced by Bill Williams in his book "Trading Chaos", according Bill Williams theory market price is latest element which will be changed and prior to this change the market driven forces will change its direction. The AC indicator measures acceleration and deceleration of these forces. If indicator rises it means that market is inbalanced now and buy power is greater than sell one and vice versa.
 
 ![](../../../../.gitbook/assets/image%20%2830%29.png)
 
@@ -10,8 +10,7 @@ Accelerator Oscillator was introduced by Bill Williams in his book "Trading Chao
 
 MEDIAN PRICE = \(HIGH + LOW\) / 2  
 AO = SMA \(MEDIAN PRICE, 5\) - SMA \(MEDIAN PRICE, 34\)  
-AC = AO - SMA \(AO, 5\)  
-
+AC = AO - SMA \(AO, 5\)
 
 Where:  
 MEDIAN PRICE — median price;  
@@ -19,8 +18,6 @@ HIGH — the highest price of the bar;
 LOW — the lowest price of the bar;  
 SMA — Simple Moving Average;  
 AO — Awesome Oscillator.
-
-
 
 ## Most useful cases
 

@@ -8,13 +8,13 @@ description: >-
 
 {% embed url="https://www.youtube.com/watch?v=\_1tnBDlyDbY" caption="How to work with Connections manager in Quantower" %}
 
-Connections are integrations with third-party providers that supply various data: trading quotes, symbols history etc. 
+Connections are integrations with third-party providers that supply various data: trading quotes, symbols history etc.
 
 ![Launch the Connections Manager to select necessary connection](../.gitbook/assets/connections-manager.png)
 
 ## General information
 
-**Connections manager** — is a screen that allows you to select from available integrations the ones you are trading with and connect to them using your accounts. While connecting to any integration, Connections manager remembers your login credentials and will use them for further auto-connects \(reconnects in case of errors\). If you don’t want to store your login credentials in manager, just click the “Lock” icon in the login form. 
+**Connections manager** — is a screen that allows you to select from available integrations the ones you are trading with and connect to them using your accounts. While connecting to any integration, Connections manager remembers your login credentials and will use them for further auto-connects \(reconnects in case of errors\). If you don’t want to store your login credentials in manager, just click the “Lock” icon in the login form.
 
 ![Connections manager screen with multiple accounts](../.gitbook/assets/multiple-accounts.gif)
 

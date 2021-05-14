@@ -82,5 +82,3 @@ $$
 
 You can setup as many conditions as you like. Due to the possible complex logic of filtering, you are required to apply the changes once you finished the filter set up.
 
-
-

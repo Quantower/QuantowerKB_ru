@@ -10,7 +10,7 @@ description: >-
 
 ![Quantower Main toolbar](../.gitbook/assets/image%20%2873%29.png)
 
-Main Toolbar technically is a panel, but behaves something differently: it can be dragged among your screens \(if you have more than one\) and it will be always stuck at the top of the screen. It adapts own width up to the screen width and it participates in the workspace, meaning, that other panels can be stuck to it. 
+Main Toolbar technically is a panel, but behaves something differently: it can be dragged among your screens \(if you have more than one\) and it will be always stuck at the top of the screen. It adapts own width up to the screen width and it participates in the workspace, meaning, that other panels can be stuck to it.
 
 ![](../.gitbook/assets/main-toolbar.png)
 
@@ -30,13 +30,13 @@ Due to the fact that Toolbar is the main controlling panel it has the ability to
 
 The “_**Close**_” icon just closes the platform. You may set up the “_not to ask to confirm the closing_” setting in the pop-up screen while the first closing.
 
-### Customization of Main Toolbar
+## Customization of Main Toolbar
 
 For optimal use of the space on the Main Toolbar, we have added the ability to display/hide some controls. For example, to hide the Timezones, Workspaces, Connections, etc., **Right-click** on the context menu and go to the View section. By clicking on the ticks, the controls will appear at the Toolbar.
 
 ![Right click on the Main Toolbar will bring up the addtional settings window](../.gitbook/assets/image%20%2876%29.png)
 
-### Main Menu with all panels
+## Main Menu with all panels
 
 All of the panels are placed in the _“Sidebar”_ screen, which is popping out once you click the **Logo icon** on the toolbar. The Main Menu consists of panel icons, grouped by functionality. Actually, in this menu, you can find all panels.
 
@@ -53,7 +53,7 @@ The footer of the Main Menu contains several functions:
 The list of links in footer can contain more or fewer items, depending on current application requirements.
 {% endhint %}
 
-### Favorite panels
+## Favorite panels
 
 You might already have seen the Star icon in the right top corners of some panels tiles in Sidebar. This is the “**Favorite panels**” functionality, allowing you to select the most usable panels and place their icons on the Main Toolbar.
 
@@ -61,7 +61,7 @@ You might already have seen the Star icon in the right top corners of some panel
 
 The way to use it very simple — hover over the right top corner of any panel tile in Sidebar and click the Star icon that appeared. That is all: panel appears in Favorite panels bar in Main Toolbar. To remove from favorites just click the activated Star icon on Panel's tile or right-click on the icon in Favorites panel and select “_**Hide from toolbar**_”.
 
-### Lock trading
+## Lock trading
 
 If you would like to prevent manual trading operations occur, you may use the “_**Lock trading**_” button on Main Toolbar. Once clicked it displays the confirmation message that trading being locked and all of the functions, related to the opening or closing orders and positions will be disabled. Unlock trading can be done the vice-versa way.
 
@@ -69,7 +69,7 @@ If you would like to prevent manual trading operations occur, you may use the �
 
 This feature is useful in case you would like to only analyze the market or while editing your workspace \(mostly to avoid misclicks\).
 
-### Workspaces manager
+## Workspaces manager
 
 {% embed url="https://www.youtube.com/watch?v=A\_2gJdeP-08&t=20s" caption="Create and save your workspace in Quantower" %}
 
@@ -85,13 +85,13 @@ The currently active workspace is marked with the color and has a blue dot on th
 
 ![New workspace creation window](../.gitbook/assets/ccnewworkspace.png)
 
-When creating the new workspace, you have an ability to specify its future name and select whether it should be Blank, once created, or should contain some predefined panels set. 
+When creating the new workspace, you have an ability to specify its future name and select whether it should be Blank, once created, or should contain some predefined panels set.
 
 You can also remove any of Workspaces by clicking the “_**Trash**_” icon on the right side from Workspace name \(icon appears while hovering the name\).
 
-### Favorite connections
+## Favorite connections
 
-The list of active connections can be seen on Main Toolbar in Favorite connections block. By default, you will see several items here, each representing one of the available connections. The [Connection manager](../connections/connections-manager.md) screen will be opened by clicking any of the items in Favorite connections block. 
+The list of active connections can be seen on Main Toolbar in Favorite connections block. By default, you will see several items here, each representing one of the available connections. The [Connection manager](../connections/connections-manager.md) screen will be opened by clicking any of the items in Favorite connections block.
 
 ![Add favorite connections by clicking the &quot;Star&quot; icon](../.gitbook/assets/favorite-connections.png)
 
@@ -105,31 +105,31 @@ Being added to Favorites bar, each connection will be displayed as a tile, conta
 
 You can remove a connection from Favorites by right-clicking on it and selecting “_**Hide from toolbar**_” item. Here you can also ask to connect or disconnect.
 
-### Notifications center
+## Notifications center
 
-Most actions during the platform use generate various notifications. There can be system notifications \(some connection problems or errors\) and Deal tickets. 
+Most actions during the platform use generate various notifications. There can be system notifications \(some connection problems or errors\) and Deal tickets.
 
-The **Deal tickets** — are the notifications about the trading operations. Each time you create an order or opening a new position — we will create a deal ticket for this. \(you can [disable deat tickets in general settings](general-settings-1.md#confirmations)\)
+The **Deal tickets** — are the notifications about the trading operations. Each time you create an order or opening a new position — we will create a deal ticket for this. \(you can [disable deat tickets in general settings](general-settings-1.md#confirmations)\)
 
-While some trading actions may be done in one click at the first sight, they usually consist of several related operations, each of them will be displayed via the Deal tickets. That is why you can see much more items in Notifications center than you did actions. 
+While some trading actions may be done in one click at the first sight, they usually consist of several related operations, each of them will be displayed via the Deal tickets. That is why you can see much more items in Notifications center than you did actions.
 
-The **Notifications center** — is the place where all notifications are stored in one list. You can open that list by clicking the Notifications icon in Control center. 
+The **Notifications center** — is the place where all notifications are stored in one list. You can open that list by clicking the Notifications icon in Control center.
 
 ![Notifications center](../.gitbook/assets/image%20%2877%29.png)
 
-When you have a set of new notifications, the small number will appear in the left top corner of Notification center icon. It displays how many unread notifications you have. Once you open the list — it understands that you have read them and the number will disappear. 
+When you have a set of new notifications, the small number will appear in the left top corner of Notification center icon. It displays how many unread notifications you have. Once you open the list — it understands that you have read them and the number will disappear.
 
 You will see all notifications just from the platform start. You may also clear this list by clicking the “_**Clear all**_” link. This action will hide all of the currently seen notifications from this list \(but they will be still available in Event Log panel\).
 
 By clicking one of the notifications you will see the window with the detailed info.
 
-### General settings
+## General settings
 
 The “_**Gear**_” icon opens a general settings screen, where you can set up the most common parameters of our terminal. [More details about the **Settings**](general-settings-1.md) screen are available in the corresponding section of this documentation.
 
 ![Access to general settings](../.gitbook/assets/image%20%28134%29.png)
 
-### Time & Time zones
+## Time & Time zones
 
 The Time bar is also displayed on the Main Toolbar toolbar showing you time in the selected timezone. By default, your local timezone is used. You can change the time zones list by clicking the "_**Gear**_" icon and then select the required ones in [**General settings screen**](general-settings-1.md#time-zones). You may also select several time zones and they will appear as a list in a drop-down panel, allowing you to switch among them quickly.
 

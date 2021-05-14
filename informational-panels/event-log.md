@@ -30,8 +30,6 @@ By right-clicking on each row of Event Log panel, you will get a context menu wi
 | **Columns visibility** | Allows to toggle the columns visibility |
 
 {% hint style="info" %}
-"Clear table" action removes only data from current table, but not files from your drive. All history logs are still available - you can refill table via "Range selector" on panel tool bar. 
+"Clear table" action removes only data from current table, but not files from your drive. All history logs are still available - you can refill table via "Range selector" on panel tool bar.
 {% endhint %}
-
-
 

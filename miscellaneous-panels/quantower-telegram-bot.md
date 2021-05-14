@@ -26,7 +26,7 @@ To add a bot to the Telegram, open the platform's **General Settings -&gt; Messe
 
 Telegram Bot sends notifications about alerts that you have set on active Charts or through a Watchlist. If you don't have any alerts yet, the bot will be in standby mode.
 
-Once your alert is triggered, you will receive a telegram notification with the following text: 
+Once your alert is triggered, you will receive a telegram notification with the following text:
 
 _**"Alert on ENQM21: price 13,379.00 reached."**_
 

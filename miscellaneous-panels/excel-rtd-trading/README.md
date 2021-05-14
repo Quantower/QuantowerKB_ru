@@ -4,7 +4,7 @@ description: How to export Real-Time data to Exel
 
 # Excel and RTD function
 
-Start from version 1.39 Quantower supports **Real-Time Data \(RTD\)** for sending data and other market information to Microsoft Excel®. This feature opens up many opportunities for creating custom displays and other ways to better manage your workflow. 
+Start from version 1.39 Quantower supports **Real-Time Data \(RTD\)** for sending data and other market information to Microsoft Excel®. This feature opens up many opportunities for creating custom displays and other ways to better manage your workflow.
 
 RTD is a newer protocol that offers several advantages over DDE, including more flexibility and better performance and reliability.
 
@@ -14,7 +14,7 @@ Here is the General Syntax for getting symbol info via RTD function:
 
 ![](../../.gitbook/assets/screenshot_128%20%281%29.png)
 
-{% embed url="https://www.youtube.com/watch?v=k1pbtSadX8I" %}
+{% embed url="https://www.youtube.com/watch?v=k1pbtSadX8I" caption="" %}
 
 ## **How to activate RTD function in Quantower platform**
 
@@ -71,11 +71,11 @@ The second parameter is the name of the external server running the RTD Server. 
 
 ### **How to check argument separator?**
 
-For Windows 10: 
+For Windows 10:
 
 * go to **Start &gt;type Control Panel  and press enter &gt; Region**
 * click **Additional Settings**
-* for **List Separator** check the argument. ****It must be the same as in RTD settings.
+* for **List Separator** check the argument. _\*\*_It must be the same as in RTD settings.
 
 ![](../../.gitbook/assets/regional_settings.png)
 

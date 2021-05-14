@@ -16,7 +16,7 @@ If the crypto exchange is connected in the **Info mode**, the panel will not be 
 
 ![General view of Crypto Order Entry panel](../.gitbook/assets/crypto-oe-panel_general_view.png)
 
-### **Order types and restrictions**
+## **Order types and restrictions**
 
 Crypto Order Entry automatically lists all exchange-supported order types available for the associated instrument under the selected connection. Within our existed connections we support:
 

@@ -25,7 +25,7 @@ Here we would like to share some advice:
 
 ## Purchase details page
 
-Next, you will be redirected to the temporary payment page that will be active for 2 hours. During this time you should transfer the selected coin to complete the purchase. We recommend you to stay on this page until you will see the successful purchase message. 
+Next, you will be redirected to the temporary payment page that will be active for 2 hours. During this time you should transfer the selected coin to complete the purchase. We recommend you to stay on this page until you will see the successful purchase message.
 
 ![Payment details page](../.gitbook/assets/screenshot_2%20%281%29.png)
 
@@ -46,7 +46,7 @@ Let’s say that you’ve sent your coins and now waiting for the license assign
 
 ## License assignment check
 
-There are some technical processes in the Coinpayments that should be accomplished before they inform us about the successful payment. These require time, so **your license can’t be assigned to your account until we get approval from Coinpayments**. Even if there is a Completed status.
+There are some technical processes in the Coinpayments that should be accomplished before they inform us about the successful payment. These require time, so **your license can’t be assigned to your account until we get approval from Coinpayments**. Even if there is a Completed status.
 
 ![Completed transaction](../.gitbook/assets/screenshot_6.png)
 
@@ -55,10 +55,7 @@ Let’s say that you’ve sent your coins and now waiting for the license assign
 * your account’s email address, where you should receive a notification about the successful payment;
 * in your [Quantower account panel](http://accounts.quantower.com), in the Payments History section.
 
-Once we receive approval from Coinpayments, we will immediately assign you a license and send you a confirmation email about the successful purchase. From this moment you can use your advanced feature.  
-
+Once we receive approval from Coinpayments, we will immediately assign you a license and send you a confirmation email about the successful purchase. From this moment you can use your advanced feature.
 
 ![Quantower license payment is successfull](../.gitbook/assets/screenshot_9.png)
-
-
 

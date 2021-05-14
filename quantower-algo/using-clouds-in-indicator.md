@@ -79,7 +79,7 @@ this.SlowAboveCloudColor = Color.FromArgb(127, Color.Red);
 
 ### OnInit method
 
-In the ‘OnInit ‘ method we create two SMA indicators and attach them to our main ‘HistoricalData’. 
+In the ‘OnInit ‘ method we create two SMA indicators and attach them to our main ‘HistoricalData’.
 
 > Notice, we use Quantower built-in indicator collection.
 
@@ -94,12 +94,11 @@ protected override void OnInit()
      this.AddIndicator(this.fastSma);
      this.AddIndicator(this.slowSma);
 }
-
 ```
 
 ### OnUpdate method
 
-The main calculation is performed in the "OnUpdate" method. 
+The main calculation is performed in the "OnUpdate" method.
 
 > Notice the line '20'. When lines are crossed we invoke the ‘EndCloud’ method to close the last area. After that we invoke ‘BeginCloud’ to start drawing the new area with specified color.
 

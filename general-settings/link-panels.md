@@ -8,5 +8,3 @@ description: Set the same color for multiple panels for applying Linking.
 
 ![Panels linking](../.gitbook/assets/panel-linking.gif)
 
-
-

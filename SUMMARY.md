@@ -6,7 +6,7 @@
   * [Установка программы и требования к ПК](getting-started/installation.md)
   * [First start](getting-started/first-start.md)
   * [Platform update](getting-started/application-updates.md)
-  * [Quantower Account](getting-started/quantower-account.md)
+  * [Учетная запись Quantower](getting-started/quantower-account.md)
   * [Quantower Licenses](getting-started/quantower-licenses.md)
   * [License Comparison](getting-started/license-comparison.md)
   * [Менеджер резервного копирования и восстановления](getting-started/backup-and-restore-manager.md)

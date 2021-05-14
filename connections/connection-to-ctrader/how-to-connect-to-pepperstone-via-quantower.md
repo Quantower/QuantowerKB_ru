@@ -2,7 +2,7 @@
 
 To connect Quantower platform to Pepperstone broker and send trading orders, you need to use cTrader Gateway. If you already have a trading account with Pepperstone, then go to the penultimate step in this manual.
 
-{% embed url="https://youtu.be/FqR1nqsjMrI" %}
+{% embed url="https://youtu.be/FqR1nqsjMrI" caption="" %}
 
 * Go to the official [**Pepperstone**](https://pepperstone.com) website and **Create a trading account** by filling out the registration form. Pepperstone provides a demo account for a period of 30 days.
 

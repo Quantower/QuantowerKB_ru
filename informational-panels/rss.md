@@ -40,5 +40,3 @@ The **\[ CLEAR HISTORY \]** button removes all of the previously imported news f
 You may apply the Table actions to the RSS panel. It can be convenient to color some rows, containing the particular word or by the feed source.
 {% endhint %}
 
-
-

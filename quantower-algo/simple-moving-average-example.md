@@ -6,7 +6,7 @@ In this example we will develop a simple moving average indicator. Let's, create
 See examples of some strategies, integrations and indicators in our [Github repository](https://github.com/Quantower/Examples)
 {% endhint %}
 
-### Input parameters
+## Input parameters
 
 First of all it is important to decide what parameters will our indicator have. We are building a simple moving average, so it will have only two parameters: **Period** and **Price type,** that will be used for calculations
 
@@ -30,9 +30,9 @@ public PriceType SourcePrice = PriceType.Close;
 #endregion Parameters
 ```
 
-Ok, done let's go ahead 
+Ok, done let's go ahead
 
-### Indicator's general info
+## Indicator's general info
 
 Our next step is to set a general indicators info, all this information you will see in Indicator's lookup, when you decide to select it. Also, here we need to define how many data series will our indicator have and should it be drawn in separate window or directly on a chart.
 
@@ -55,7 +55,7 @@ public SMA()
 }
 ```
 
-### Core logic
+## Core logic
 
 We will save **OnInit** function empty, because our indicator does not require any one-time logic that should be executed when we add indicator on a chart
 
@@ -87,7 +87,7 @@ protected override void OnUpdate(UpdateArgs args)
 }
 ```
 
-Pay your attention at: 
+Pay your attention at:
 
 ```csharp
 if (Count <= Period)
@@ -109,7 +109,7 @@ Once, all calculations are done we set the result value to indicators data serie
 SetValue(sum / Period);
 ```
 
-### All source code
+## All source code
 
 That is all, that was easy. As a conclusion take a look at all source code
 
@@ -127,7 +127,7 @@ namespace MovingAverages
         // First input parameter
         [InputParameter("Period of Simple Moving Average", 0, 1, 999, 1, 1)]
         public int Period = 10;
-        
+
         // Second input parameter
         [InputParameter("Sources prices for MA", 1, variants: new object[]{
             "Close", PriceType.Close,
@@ -151,10 +151,10 @@ namespace MovingAverages
             Name = "Simple Moving Average Example";
             Description = "Average price for the last N periods";
             ShortName = "SMA (" + Period + ":" + SourcePrice.ToString() + ")";
-        
+
             // Our indicator has only one line 
             AddLineSeries("SMA", Color.Red, 1, LineStyle.Solid);
-        
+
             //Indicator will be drawn directly on chart 
             SeparateWindow = false;
         }
@@ -192,6 +192,5 @@ namespace MovingAverages
         }
     }
 }
-
 ```
 

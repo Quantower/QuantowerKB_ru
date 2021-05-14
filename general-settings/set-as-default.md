@@ -8,9 +8,9 @@ description: >-
 
 Flexible platform settings allow you to customize any panel on your own. Change the font, color, add indicators, determine the displaying of the required columns in the table, etc.
 
-But if you don’t want to configure the newly opened panels of this type every time, we have created the "_**Set as Default**_**"** option that redefines the factory settings. 
+But if you don’t want to configure the newly opened panels of this type every time, we have created the "_**Set as Default**_**"** option that redefines the factory settings.
 
-### How Set as Default works?
+## How Set as Default works?
 
 * **Open the panel** for which you want to assign new settings.
 * **Customize the panel**. For example, on the chart panel, add any indicator, change the font size of the price axis, change the background color.

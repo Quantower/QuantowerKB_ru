@@ -1,6 +1,6 @@
 # Line break
 
-### General info
+## General info
 
 **Line Break** is quite similar to other time-independent charts like Kagi, P & F, Range Bars. Line break chart prints the series of bars which represent increasing and falling prices. The key parameter that participates in the chart plotting is the number of the last bars for building the current bar.
 
@@ -8,9 +8,9 @@
 
 It is important to note that the bars on this chart are usually called "lines". Line Break based on closing prices so it takes the current price and compares it with the closing prices of the previous bars \(lines\). The number of the previous bars that participate in the calculation specified in the chart settings.
 
-### Line Break calculation
+## Line Break calculation
 
-The most common number of Line Break setting is 3. It means that the closing price of the current line is compared to the closing price of the third line ago. 
+The most common number of Line Break setting is 3. It means that the closing price of the current line is compared to the closing price of the third line ago.
 
 ![Chart settings for Line Break](../../../.gitbook/assets/line-break-settings.png)
 

@@ -19,7 +19,7 @@ Note, that in the platform, you can connect to the exchange in two modes:
 
 ![](../.gitbook/assets/bybit-modes.gif)
 
-### Open an account on Bybit to get personal API keys
+## Open an account on Bybit to get personal API keys
 
 {% hint style="info" %}
 For **REAL Trading** please create an account on Bybit.com [https://www.bybit.com/en-US/invite/?ref=n9X0D](https://www.bybit.com/en-US/invite/?ref=n9X0D)
@@ -29,7 +29,7 @@ For **DEMO Trading** please create an account on Testnet.Bybit.com [https://test
 
 Go to the [**Bybit official website** using this link](https://www.bybit.com/en-US/invite?ref=n9X0D) and go through the procedure for registering a new account on the exchange.
 
-For email registration, please enter your email, preferred password and \(!\) referral code **n9X0D**   
+For email registration, please enter your email, preferred password and \(!\) referral code **n9X0D**  
 Swipe the verification page then enter the verification code sent to your email inbox.
 
 ![](../.gitbook/assets/image%20%2882%29.png)
@@ -43,7 +43,7 @@ Click on **'Create New Key'** located on the right side of the **'API Management
 ![](../.gitbook/assets/image%20%2886%29.png)
 
 {% hint style="warning" %}
- **You need to configure two-factor authorization on Bybit. It is necessary for creating keys.**
+**You need to configure two-factor authorization on Bybit. It is necessary for creating keys.**
 {% endhint %}
 
 The following pop-out window will appear. Please configure your API key according to your trading needs. Enter your Google Authenticator 2FA and click on 'Confirm' to proceed
@@ -60,7 +60,7 @@ Use your personal API Keys to login into your trading account in Quantower platf
 
 ![](../.gitbook/assets/bybit-connected.gif)
 
-### Possible Errors with Bybit connection
+## Possible Errors with Bybit connection
 
 **"Timestamp error"** means that your local time on PC is not the same as on Bybit servers and it should be synchronized.
 
@@ -69,6 +69,4 @@ Use your personal API Keys to login into your trading account in Quantower platf
 To solve it, please, go to **Windows Settings &gt; Time & Language &gt;** and click on **Sync Now** button**.**
 
 ![](../.gitbook/assets/image%20%2892%29.png)
-
-
 

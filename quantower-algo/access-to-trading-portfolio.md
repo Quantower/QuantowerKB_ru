@@ -78,7 +78,7 @@ protected override List<StrategyMetric> OnGetMetrics()
                 Log($"Account name: {account.Name},  Account Balance: {account.Balance.ToString()}");
         }
         Log($"Accounts:", StrategyLoggingLevel.Trading);
-               
+
         // Display information about symbols             
         foreach (Symbol symbol in Core.Symbols)
         {

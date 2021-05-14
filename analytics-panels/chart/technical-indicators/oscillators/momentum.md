@@ -2,7 +2,7 @@
 
 ## Description
 
- Momentum indicator shows an acceleration of price movement. From technical point of view it is the difference between current price and close price N-periods ago. Firstly introduced by John J. Murphy in "Technical Analysis of the Financial Markets" Momentum fixedly joined to traders arsenal. In spite of age this indicator is still actual and widely used
+Momentum indicator shows an acceleration of price movement. From technical point of view it is the difference between current price and close price N-periods ago. Firstly introduced by John J. Murphy in "Technical Analysis of the Financial Markets" Momentum fixedly joined to traders arsenal. In spite of age this indicator is still actual and widely used
 
 ![](../../../../.gitbook/assets/image%20%2812%29.png)
 

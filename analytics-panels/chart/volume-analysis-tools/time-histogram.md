@@ -26,7 +26,7 @@ Click on the **Time Histogram** and switch the button **"Enable"** to activate t
 * **Data types** — various types of volume data that can be displayed on a chart. There are trades, volume, bid & ask trades and volume, filtered data, etc. The full list with descriptions of these data types you can find in our Help documentation that describes general information about [**Volume Analysis Tools**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools).
 * **Value label and Data type color** — here you set the color settings for the font and the histogram, respectively.
 
-### The main Data Types for Time Histogram:
+## The main Data Types for Time Histogram:
 
 * **Trades** — it's the number of contracts \(trades\) that executed at each price level.
 * **Buy \(or Sell\) trades** — it's the number of Buy \(or Sell\) trades that executed at each price level.

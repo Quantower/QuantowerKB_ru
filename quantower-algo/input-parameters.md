@@ -8,7 +8,7 @@ description: Modify your indicators or strategies behavior using a set of Input 
 
 In the previous topic, we showed you [how to create a basic indicator](simple-indicator.md) using Visual Studio with Quantower Algo extension and use it on the chart in the trading platform. We created a Simple Moving Average indicator with hardcoded parameters. But what if we need to change these parameters? For example, we want to use Open prices instead of Close or use another Period. It is not very convenient to recompile your indicator each time and we provide you a possibility of easy tuning your scripts via so-called Input Parameters.
 
-## **What is input parameter?** 
+## **What is input parameter?**
 
 After adding an indicator on the chart you can find Setting menu item on it displaying "Settings" window. Indicators usually have some common settings, for customizing lines, and specific settings, that related to their algorithm or calculations.
 
@@ -46,7 +46,6 @@ public string secondText;
 public string thirdText;
 ```
 
-  
 As you can see, parameters displayed in specified order:
 
 ![Sorted Input Parameters](../.gitbook/assets/few-text_example.png)
@@ -114,7 +113,7 @@ public Color color;
 
 ### **List with options**
 
-List with options Input parameter allows to select the value from the predefined list of possible states   
+List with options Input parameter allows to select the value from the predefined list of possible states
 
 ```csharp
 [InputParameter("Simple price types list", 1, variants: new object[]{

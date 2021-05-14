@@ -1,4 +1,2 @@
 # Exponential Moving Average
 
-
-

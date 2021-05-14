@@ -4,14 +4,14 @@ description: Get access to current crypto account information.
 
 # Access to crypto account and balances
 
-While developing a trading strategy, you will definitely need information about the current balance of the selected account. To get this value, you need to use the **Balance** property of [Account ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Account.html)class. 
+While developing a trading strategy, you will definitely need information about the current balance of the selected account. To get this value, you need to use the **Balance** property of [Account ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Account.html)class.
 
 ```csharp
 public class TestStrategy : Strategy
 {
     [InputParameter("Selected account", 10)]
     public Account inputAccount;
-          
+
     protected override void OnRun()
     {
         if (inputAccount != null)
@@ -27,16 +27,16 @@ But what about crypto balances? For example, if we have some crypto connection a
 
 ## **CryptoAccount class**
 
-Quantower API supports a special [**CryptoAccount**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.CryptoAccount.html) class for most crypto connections.  This class is derived from the base [Account](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Account.html) class and extends its functionality with additional property - [**Balances**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.CryptoAccount.html#TradingPlatform_BusinessLayer_CryptoAccount_Balances) and special [**BalanceUpdated**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.CryptoAccount.html#TradingPlatform_BusinessLayer_CryptoAccount_BalanceUpdated) event. In your code, you need to make sure the account you choose implements the [**CryptoAccount**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.CryptoAccount.html) ****class.
+Quantower API supports a special [**CryptoAccount**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.CryptoAccount.html) class for most crypto connections. This class is derived from the base [Account](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Account.html) class and extends its functionality with additional property - [**Balances**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.CryptoAccount.html#TradingPlatform_BusinessLayer_CryptoAccount_Balances) and special [**BalanceUpdated**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.CryptoAccount.html#TradingPlatform_BusinessLayer_CryptoAccount_BalanceUpdated) event. In your code, you need to make sure the account you choose implements the [**CryptoAccount**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.CryptoAccount.html) _\*\*_class.
 
 ```csharp
 public class TestStrategy : Strategy
 {
     [InputParameter("Selected account", 10)]
     public Account inputAccount;
-    
+
     private CryptoAccount cryptoAccount;
-               
+
     public TestStrategy()
         : base()
     {
@@ -44,7 +44,7 @@ public class TestStrategy : Strategy
         this.Name = "TestStrategy";
         this.Description = "My strategy's annotation";
     }
-         
+
     protected override void OnRun()
     {
         // 
@@ -54,16 +54,16 @@ public class TestStrategy : Strategy
             Stop();
             return;
         }
-    
+
         // check if selected account implements 'CryptoAccount' class
         if (inputAccount is CryptoAccount)
         {
             // cast to 'CryptoAccount' type and store as a variable
             cryptoAccount = (CryptoAccount)inputAccount;
-            
+
             // subscribe to 'BalanceUpdated' event
             cryptoAccount.BalanceUpdated += CryptoAccount_BalanceUpdated;
-            
+
             // log coin name and available balance
             foreach (CryptoAssetBalances coin in cryptoAccount.Balances)
             {
@@ -72,7 +72,7 @@ public class TestStrategy : Strategy
             }
         }
     }
-    
+
     protected override void OnStop()
     {
         // unsubscribe from 'BalanceUpdated' event
@@ -81,9 +81,9 @@ public class TestStrategy : Strategy
             cryptoAccount.BalanceUpdated -= CryptoAccount_BalanceUpdated;
             cryptoAccount = null;
         }
-        
+
     }
-    
+
     private void CryptoAccount_BalanceUpdated(object sender, CryptoAccountEventArgs e)
     {
         if (e.Reason == AccountBalanceEventReason.Update)
@@ -129,11 +129,11 @@ public class TestStrategy : Strategy
 {
     // const
     private const string BYBIT_BTC_WALLET_BALANCE = "BTC wallet balance";
-    
+
     // input parameter
     [InputParameter("Selected account", 10)]
     public Account inputAccount;
-    
+
     public TestStrategy()
        : base()
     {
@@ -141,7 +141,7 @@ public class TestStrategy : Strategy
         Name = "TestStrategy";
         Description = "My strategy's annotation";
     }
-    
+
     protected override void OnRun()
     {
         if (inputAccount == null)
@@ -150,14 +150,14 @@ public class TestStrategy : Strategy
             Stop();
             return;
         }
-        
+
         if (inputAccount.AdditionalInfo == null || inputAccount.AdditionalInfo.Count == 0)
         {
             Log("AdditionalInfo collection is empty", StrategyLoggingLevel.Error);
             Stop();
             return;
         }
-        
+
         // try to get 'BTC wallet balance' item       
         if (inputAccount.AdditionalInfo.TryGetItem(BYBIT_BTC_WALLET_BALANCE, out AdditionalInfoItem btcWalletBalance))
         {

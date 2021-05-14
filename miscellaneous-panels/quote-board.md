@@ -1,4 +1,2 @@
 # Quote Board
 
-
-
