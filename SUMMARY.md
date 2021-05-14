@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Добро пожаловать в справочную систему](README.md)
-* [Getting Started](getting-started/README.md)
+* [Первый старт Quantower](getting-started/README.md)
   * [What's new](getting-started/latest-version.md)
   * [Installation](getting-started/installation.md)
   * [First start](getting-started/first-start.md)
