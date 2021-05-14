@@ -1,8 +1,10 @@
 ---
-description: System requirements and 3 simple steps to successfully install the platform
+description: >-
+  Системные требования Quantower и 3 простых шага для успешной установки
+  платформы
 ---
 
-# Installation
+# Установка программы и требования к ПК
 
 * [**System Requirements**](installation.md#pc-requirements)\*\*\*\*
 * \*\*\*\*[**Installation Steps**](installation.md#installation-steps)\*\*\*\*
@@ -10,7 +12,7 @@ description: System requirements and 3 simple steps to successfully install the 
 
 Once you downloaded Quantower application from Quantower official website — you are ready to start an installation process. From this point we must clarify the main differences between Quantower "installation process" and default Windows® install process, that most users are accustomed to.
 
-{% embed url="https://youtu.be/155Ha6Rku0E" %}
+{% embed url="https://youtu.be/155Ha6Rku0E" caption="" %}
 
 {% hint style="success" %}
 Quantower does not copy its files to the system folders \(AppData or Program Files\) of the OS, nor does write changes to the system registry
@@ -20,7 +22,7 @@ What does it mean? The program doesn't violate the integrity of the OS, and in c
 
 This approach allows you to store \(and launch\) the Quantower on removable drive for use on any other computer as the portable application. It can be convenient when you need to move Quantower with all of its settings to another PC; just copy Quantower folder and paste where you need.
 
-### PC requirements
+Требования к ПК
 
 {% hint style="info" %}
 * Windows 10
@@ -31,12 +33,12 @@ This approach allows you to store \(and launch\) the Quantower on removable driv
 {% endhint %}
 
 {% hint style="warning" %}
-**Microsoft has officially stopped supporting Windows 8 and Windows 7**. Therefore, the platform may not start or may work incorrectly. [More information on supported versions, please check on official Microsoft website.](https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet)  
-  
+**Microsoft has officially stopped supporting Windows 8 and Windows 7**. Therefore, the platform may not start or may work incorrectly. [More information on supported versions, please check on official Microsoft website.](https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet)
+
 We recommend using Windows 10.
 {% endhint %}
 
-### Installation steps
+## Installation steps
 
 ![Quantower installer screen](../.gitbook/assets/extract-files-quantower.png)
 
@@ -50,7 +52,7 @@ Please note, that you may need to allow an in-going and outgoing connection for 
 
 ![](../.gitbook/assets/default-workspace.png)
 
-### Uninstall
+## Uninstall
 
 If you need to uninstall the application, just _**delete the folder with all application files**_. You may also keep your personal settings \(connection information & workspaces\) by copying the Settings folder \(can be found right in Quantower folder\) before application delete. These Settings folder can be pasted to any other Quantower folder later.
 

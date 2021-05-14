@@ -1,9 +1,9 @@
 # Table of contents
 
-* [Добро пожаловать в справочную систему](README.md)
-* [Первый старт Quantower](getting-started/README.md)
-  * [Что нового](getting-started/latest-version.md)
-  * [Installation](getting-started/installation.md)
+* [Добро пожаловать в справочную систему Quantower](README.md)
+* [Первый старт](getting-started/README.md)
+  * [Обновления](getting-started/latest-version.md)
+  * [Установка программы и требования к ПК](getting-started/installation.md)
   * [First start](getting-started/first-start.md)
   * [Platform update](getting-started/application-updates.md)
   * [Quantower Account](getting-started/quantower-account.md)
