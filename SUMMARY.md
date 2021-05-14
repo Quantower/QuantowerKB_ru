@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Добро пожаловать в справочную систему Quantower](README.md)
+* [Добро пожаловать в базу знаний Quantower](README.md)
 * [Первый старт](getting-started/README.md)
   * [Обновления](getting-started/latest-version.md)
   * [Установка программы и требования к ПК](getting-started/installation.md)

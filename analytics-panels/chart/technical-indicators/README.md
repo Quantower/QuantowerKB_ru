@@ -6,7 +6,9 @@ description: >-
 
 # Technical indicators
 
-{% embed url="https://www.youtube.com/watch?v=vnMvHggnYv0" caption="" %}
+{% embed url="https://www.youtube.com/watch?v=vnMvHggnYv0" %}
+
+
 
 {% page-ref page="channels/" %}
 
@@ -19,4 +21,6 @@ description: >-
 {% page-ref page="volatility/" %}
 
 {% page-ref page="volume/" %}
+
+
 

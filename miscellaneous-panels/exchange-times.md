@@ -14,12 +14,12 @@ Many traders are watching several Exchanges in different time zones and need to 
 
 Currently, it allows to select any number of items from the list of 44 exchanges \(from America, Europe, Asia & Oceania\) and reorder them as you like. Each active item has “Name” & “Time last” values, while closed Exchanges has “Duration time” value together with “Name”.
 
-_**Time last**_ — shows how much time left until the Exchange will be close for trading.  
+_**Time last**_ — shows how much time left until the Exchange will be close for trading.   
 _**Duration time**_ — shows how much time this Exchange is usually opened for trading.
 
 ## Add/remove
 
-You can manage the list of exchanges as you like. Right-click on any visible exchange tile and select the required action to perform:
+You can manage the list of exchanges as you like. Right-click on any visible exchange tile and select the required action to perform: 
 
 * _**Move to the top**_. Places this exchange on top of the list. 
 * _**Hide this bar**_. Hides exchange from list.

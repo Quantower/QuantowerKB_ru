@@ -10,7 +10,7 @@ Click on the **Gear icon** on the [main toolbar](main-toolbar.md) to open Genera
 
 ![General Settings are placed on the platform&apos;s main toolbar \(Gear Icon\)](../.gitbook/assets/image%20%28134%29.png)
 
-It is logically grouped into several tabs:
+It is logically grouped into several tabs: 
 
 * [**General**](general-settings-1.md#general)\*\*\*\*
 * \*\*\*\*[**Control Center**](general-settings-1.md#control-center)\*\*\*\*
@@ -66,7 +66,7 @@ Most settings are applied automatically, once you change them, but, in some case
 
 **Beta Version.** When this option is activated, you will receive updates to new functionality that is still in testing. We strive for our traders to use fully working functionality, but for this, we need the help of each user. Therefore, we ask as many people as possible to use the Beta version to inform us about possible bugs that eluded our testers.
 
-{% embed url="https://www.youtube.com/watch?v=L21kFXQaWQ0" caption="" %}
+{% embed url="https://www.youtube.com/watch?v=L21kFXQaWQ0" %}
 
 ## Control Center
 
@@ -82,7 +82,7 @@ Sounds are a good way of additional interaction with user allowing to inform abo
 
 **Enable sounds** — activates or disables all of the application sounds globally
 
-The group of actions in Quantower, when the sound should be played consists of the most vital situations in application usage. This list is not final and can be extended or changed later. Each option has a set of controls:
+The group of actions in Quantower, when the sound should be played consists of the most vital situations in application usage. This list is not final and can be extended or changed later. Each option has a set of controls: 
 
 * enable/disable checkbox
 * action name
@@ -133,4 +133,6 @@ Enter your chat ID in the corresponding field and then connect to the Quantower 
 ## Global Hotkeys
 
 ![](../.gitbook/assets/image%20%2874%29.png)
+
+
 

@@ -12,7 +12,7 @@ See examples of some strategies, integrations and indicators in our [Github repo
 
 ## What is a Strategy?
 
-We use the name "Strategy" for code, that can implement absolutely any logic and can be executed in Quantower. You can use strategies for the realization of trading algorithms, a specific logic of controlling closing orders \(for example Trailing stop\), for arbitrage between different connections, etc. We don't have any restrictions or limitations for this, moreover, we provide you access to almost all functions from our trading core.
+We use the name "Strategy" for code, that can implement absolutely any logic and can be executed in Quantower. You can use strategies for the realization of trading algorithms, a specific logic of controlling closing orders \(for example Trailing stop\), for arbitrage between different connections, etc. We don't have any restrictions or limitations for this, moreover, we provide you access to almost all functions from our trading core. 
 
 Quantower Algo provides you with two predefined templates of strategies. We will start from a blank template, which contains only basic functions. Use "_**File -&gt; New project**_" in the main menu of Visual Studio to open "**New project**" window. Type "Strategy" and you will see special project type for blank strategy:
 
@@ -22,7 +22,7 @@ You will get generated code with a few empty functions:
 
 ![Source code for Strategy template](../.gitbook/assets/empty-code.png)
 
-As you can see, this blank version is not related to any trading functionality - it is a just general code-basis. It is inherited of class Strategy, by this Quantower recognize that your code is compatible and can be executed in Quantower.
+As you can see, this blank version is not related to any trading functionality - it is a just general code-basis. It is inherited of class Strategy, by this Quantower recognize that your code is compatible and can be executed in Quantower. 
 
 ## Basic methods
 

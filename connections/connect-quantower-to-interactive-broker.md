@@ -11,7 +11,7 @@ description: >-
 * \*\*\*\*[**Necessary steps for successful connection to Quantower**](connect-quantower-to-interactive-broker.md#necessary-steps-for-successful-connection-to-quantower)\*\*\*\*
 * \*\*\*\*[**Problems during the connection to Interactive Brokers**](connect-quantower-to-interactive-broker.md#problems-during-the-connection-to-interactive-brokers)\*\*\*\*
 
-## Data Limitations
+### Data Limitations
 
 Interactive Brokers places the following limitations on real-time and historical data accessible to 3rd party applications
 
@@ -26,22 +26,22 @@ For more details on these limitations see [IB Data Limitations](https://interact
 * Market data updates are not frequent; therefore, we do not recommend using IB data \(instead we recommend using dxFeed or Iqfeed as market data provider\).
 {% endhint %}
 
-## Necessary steps for a successful connection to Quantower
+### Necessary steps for a successful connection to Quantower
 
 This guide will help you to configure the connection to the Interactive Brokers and start working on Quantower platform.
 
 {% embed url="https://youtu.be/dhz2OkwfDSg" caption="Video connection guide to Interactive Brokers" %}
 
-1. [**Download**](https://www.quantower.com/) **\*\*and install Quantower trading platform \(if you haven’t it yet\) of an appropriate version \(32 bit or 64 bit\), and make sure that your PC complies with the \[**minimum requirements\*\*\]\(../getting-started/installation.md\#pc-requirements\) 
+1. [**Download**](https://www.quantower.com/) ****and install Quantower trading platform \(if you haven’t it yet\) of an appropriate version \(32 bit or 64 bit\), and make sure that your PC complies with the [**minimum requirements**](../getting-started/installation.md#pc-requirements) 
 2. After installing the platform, you need to create a [**demo**](https://www.interactivebrokers.co.uk/en/index.php?f=1286) or [**real account**](https://www.interactivebrokers.com/en/home.php) by clicking the appropriate links on the Interactive Brokers official website.
 
 ![Creating a demo or real account on Interactive Brokers](../.gitbook/assets/create-demo-and-real-account-interactive-brokers.png)
 
-1. Download and install IB Software — [**TWS \(Trader Workstation\)**](https://www.interactivebrokers.co.uk/en/index.php?f=14099#tws-software) or [**IB Gateway**](https://www.interactivebrokers.co.uk/en/index.php?f=16454) on their website. The difference between IB Gateway and TWS is that IB Gateway has a lighter and less sophisticated graphical user interface \(GUI\) than TWS.
+     3. Download and install IB Software — [**TWS \(Trader Workstation\)**](https://www.interactivebrokers.co.uk/en/index.php?f=14099#tws-software) or [**IB Gateway**](https://www.interactivebrokers.co.uk/en/index.php?f=16454) on their website. The difference between IB Gateway and TWS is that IB Gateway has a lighter and less sophisticated graphical user interface \(GUI\) than TWS.
 
 ![Download Trader Workstation \(TWS\) or IB Gateway](../.gitbook/assets/download-tws-or-ib-gateway.png)
 
-1. Launch TWS or IB Gateway and enter your **User name** and **Password** into it, that you received from the broker and click **Login** button.
+     4.  Launch TWS or IB Gateway and enter your **User name** and **Password** into it, that you received from the broker and click **Login** button.
 
 {% hint style="warning" %}
 For **IB Gateway** in the API Type section select **IB API** only!
@@ -49,21 +49,21 @@ For **IB Gateway** in the API Type section select **IB API** only!
 
 ![Select API type and enter Login and password for IB Gateway](../.gitbook/assets/ib-gateway-credentials.png)
 
-1. Once you are logged in, open the additional settings in IB Gateway or TWS:  **Configure**-&gt; **Settings**. Select **API** section - &gt;  **Precautions** and activate all checkboxes.
+     5. Once you are logged in, open the additional settings in IB Gateway or TWS:  **Configure**-&gt; **Settings**. Select **API** section - &gt;  **Precautions** and activate all checkboxes.
 
 Also necessary in the **Settings** section deactivate the **Read-Only API** to perform trading operations.
 
 ![Activate all checkboxes in the IB Gateway or TWS API settings](../.gitbook/assets/api-settings-for-ib.png)
 
-1. If you connect via the TWS platform, please select **API** section - &gt; **Settings** and check to **Enable ActiveX and Socket Clients** box as well **\*\*uncheck** Read-Only API\*\*:
+     6. If you connect via the TWS platform, please select **API** section - &gt; **Settings** and check to **Enable ActiveX and Socket Clients** box as well ****uncheck **Read-Only API**:
 
 ![Diactivate Read-Only API and check Socket Clients in TWS platform](../.gitbook/assets/trader-workstation-api-settings.png)
 
-1. Open the [**Connections Manager**](connections-manager.md) in Quantower platform, select Interactive Brokers connection and click on the **CONNECT** button. 
+     7. Open the [**Connections Manager**](connections-manager.md) in Quantower platform, select Interactive Brokers connection and click on the **CONNECT** button. 
 
 ![Click on the Connect button once you are logged in to TWS or IB Gateway](../.gitbook/assets/connections-manager-for-ib.png)
 
-## Problems during the connection to Interactive Brokers
+### Problems during the connection to Interactive Brokers
 
 * _**Wrong Connection Parameters**_
 * _**Trader Workstation is not running \(below\)**_
@@ -77,7 +77,7 @@ In this case, you need to check the connection settings in our platform and in t
 
 ![Connection settings in Quantower for Interactive Brokers](../.gitbook/assets/connections-manager-for-ib_settings.png)
 
-Select the application through which you are connecting — TWS platform or IB Gateway.
+Select the application through which you are connecting  — TWS platform or IB Gateway.
 
 ![Select the necessary connection port type](../.gitbook/assets/connection-settings-for-ib.png)
 
@@ -89,7 +89,7 @@ Select the _**Custom**_ connection port type in the Connection settings of Quant
 
 ![This Socket port in Quantower should be the same as in TWS \(or IB gateway\)](../.gitbook/assets/custom-socket-port.png)
 
-1. _**Trader Workstation is not running**_
+    2. _**Trader Workstation is not running**_
 
 ![Trader Workstation is not running. Please launch it to connect to IB](../.gitbook/assets/connections-manager-for-ib_tws_error.png)
 
@@ -97,15 +97,17 @@ Connection to Interactive Brokers is made through their TWS trading platform or 
 
 If you have any other problems during the connection to Interactive Brokers, please contact us in support and we will help you. [https://www.quantower.com/contact-us](https://www.quantower.com/contact-us)
 
-1. _**The Price Does Not Conform to the minimum price variation for this contract \(FOREX symbols\)**_
+3. _**The Price Does Not Conform to the minimum price variation for this contract \(FOREX symbols\)**_
 
 By default, placing orders on Forex pairs in IB is carried out at prices equal to 1/2 pip. Like on the screenshot below:
 
 ![](../.gitbook/assets/image%20%2899%29.png)
 
-If you place orders in Quantower at prices between those specified, for example 1.19382, you will get a message: _**The Price Does Not Conform to the minimum price variation for this contract \(FOREX symbols\).**_
+If you place orders in Quantower at prices between those specified, for example 1.19382, you will get a message: _**The Price Does Not Conform to the minimum price variation for this contract \(FOREX symbols\).**_ 
 
 To solve this problem and to be able to place orders at any desired prices, you need to activate the setting in the TWS platform \(or in IB Gateway\)
 
 ![](../.gitbook/assets/image%20%2898%29.png)
+
+
 

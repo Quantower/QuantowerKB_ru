@@ -6,7 +6,7 @@ description: >-
 
 # Install for Visual Studio
 
-**Visual Studio** — is an integrated development environment \(IDE\) from Microsoft, which includes a code editor with IntelliSense, debugger, supporting source control systems, and many other professional features. **The currently supported Visual Studio version is 2019**.
+**Visual Studio** — is an integrated development environment \(IDE\) from Microsoft, which includes a code editor with IntelliSense, debugger, supporting source control systems, and many other professional features. **The currently supported Visual Studio version is 2019**. 
 
 {% hint style="success" %}
 We recommend you to use the most basic version of **Visual Studio — the Community edition**, which is available free of charge.
@@ -14,7 +14,7 @@ We recommend you to use the most basic version of **Visual Studio — the Commun
 
 You can [**download Visual Studio from an official website**](https://visualstudio.microsoft.com/ru/thank-you-downloading-visual-studio/?sku=Community&rel=16). It requires about 10 minutes to install and 2.5 Gb of free space on your hard drive.
 
-{% embed url="https://www.youtube.com/watch?v=CelIt\_F0Wuw" caption="" %}
+{% embed url="https://www.youtube.com/watch?v=CelIt\_F0Wuw" %}
 
 Download the web installer and run it. After initialization, you will be prompted to select the required components. For using with Quantower Algo extension we need only the "**NET desktop development**" workload. You can uncheck optional components also, to reduce installation size:
 

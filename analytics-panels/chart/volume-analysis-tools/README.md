@@ -14,23 +14,23 @@ Volume analysis tools include proprietary and well-known analytics:
 * \*\*\*\*[**Cluster Chart**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/cluster-chart) \(a.k.a. Footprint chart or OrderFlow chart\)
 * [**Volume Profiles**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/volume-profiles) — Step, Right, Left and Custom volume profiles
 * [**Time Statistics**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/time-statistics) — volume data per each bar in table form
-* [**Time Histogram**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/time-histogram) _\*\*_— volume data per each bar in the form of a vertical histogram
+* [**Time Histogram**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/time-histogram) ****— volume data per each bar in the form of a vertical histogram
 * \*\*\*\*[**Custom VWAP \(Anchored VWAP\)**](../anchored-vwap.md) — can be attached to any selected bar as a starting calculation point
 * \*\*\*\*[**VWAP**](../vwap.md) — multiple VWAP lines for a single chart
-* [**Historical Time & Sales**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/historical-time-and-sales) _\*\*_— the table of all trades for the any selected bar
+* [**Historical Time & Sales**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/historical-time-and-sales) ****— the table of all trades for the any selected bar
 
-{% embed url="https://youtu.be/duOmadSFN4Y" caption="" %}
+{% embed url="https://youtu.be/duOmadSFN4Y" %}
 
-The GIF below shows how you can activate the toolbar of volume analysis tools:
+ The GIF below shows how you can activate the toolbar of volume analysis tools:
 
 ![Enable the toolbar of Volume Analysis Tools ](../../../.gitbook/assets/volume-analysis-tools.gif)
 
 {% hint style="info" %}
-**Green color** indicates that seleced volume analysis tool has entirely downloaded the data.  
+**Green color** indicates that seleced volume analysis tool has entirely downloaded the data.   
 **Yellow color** indicates that selected tool is dowloading the data.
 {% endhint %}
 
-## Data types of Volume Analysis Tools
+### Data types of Volume Analysis Tools
 
 Almost all volume analysis tools have the same **Data Types**, which can be specified in the settings:
 

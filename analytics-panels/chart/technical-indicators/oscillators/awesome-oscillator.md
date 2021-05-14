@@ -18,3 +18,5 @@ Owesome oscillator is an another kind of Moving average convergence/divergence i
 
 * **Crossing zero line** - this is a trend reversing signal and it can be very useful in case of determining a correction of existing trend, beginning of a new trend wave or starting a new trend.
 
+
+

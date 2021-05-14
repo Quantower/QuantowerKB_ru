@@ -17,7 +17,7 @@ public override void OnPaintChart(PaintChartEventArgs args)
 {
     // Use args.Hdc to create Graphics which give us acces to chart canvas
     Graphics gr = Graphics.FromHdc(args.Hdc);                        
-
+    
     // Add your custom drawings here...
 }
 ```
@@ -28,7 +28,7 @@ That's all - now you have full access to chart's canvas and can draw anything yo
 public override void OnPaintChart(PaintChartEventArgs args)
 {
     Graphics gr = Graphics.FromHdc(args.Hdc);
-
+            
     // Draw a line using predefined Red pen
     gr.DrawLine(Pens.Red, 100,100,200,200);
 
@@ -76,7 +76,7 @@ protected override void OnInit()
     // Subscribe for level 2 quotes            
     this.Symbol.Subscribe(SubscribeQuoteType.Level2);
 }
-
+        
 public override void OnPaintChart(PaintChartEventArgs args)
 {
     Graphics gr = Graphics.FromHdc(args.Hdc);
@@ -86,11 +86,11 @@ public override void OnPaintChart(PaintChartEventArgs args)
 
     // Request current Level2 data
     var level2Collections =  this.Symbol.DepthOfMarket.GetDepthOfMarketAggregatedCollections();
-
+            
     // Draw bids
     for (int i = 0; i < level2Collections.Bids.Length; i++)
         gr.DrawString(level2Collections.Bids[i].Price.ToString(), font, Brushes.LightGray, 20, 23 * i + 30);
-
+            
     // Draw asks
     for (int i = 0; i < level2Collections.Asks.Length; i++)
         gr.DrawString(level2Collections.Asks[i].Price.ToString(), font, Brushes.LightGray, 100, 23 * i + 30);
@@ -101,5 +101,6 @@ And this is how our chart looks now. You can compare results with Market Depth p
 
 ![Display bids and asks on the chart](../.gitbook/assets/level2.png)
 
-It is a great possibility of chart features extending, isn't it? You can add your own Info Window, Track Cursor or even Volume Analysis visualization. There are no limitations in our API, only your fantasy.
+It is a great possibility of chart features extending, isn't it? You can add your own Info Window, Track Cursor or even Volume Analysis visualization. There are no limitations in our API, only your fantasy.  
+
 

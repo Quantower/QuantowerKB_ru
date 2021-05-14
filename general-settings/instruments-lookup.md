@@ -6,11 +6,11 @@ description: >-
 
 # Symbols lookup
 
-Symbols lookup manager — is a special screen, allowing to search and select any available symbol from active connections. There are various panels in Quantower terminal, that require to have a Symbol parameter being set up \(Watchlist, Chart, Symbol info etc.\). Depending on the requirements, symbols lookup can allow single or multiple symbols selection.
+Symbols lookup manager — is a special screen, allowing to search and select any available symbol from active connections. There are various panels in Quantower terminal, that require to have a Symbol parameter being set up \(Watchlist, Chart, Symbol info etc.\). Depending on the requirements, symbols lookup can allow single or multiple symbols selection. 
 
-Each time you successfully connect with some integration, you will get a list of its symbols in Symbol lookup manager screen. Due to Quantower allows a multiple integrations connection, you may have several similar symbols with data, that can vary a bit. This is normal because different providers can give us different quotes data.
+Each time you successfully connect with some integration, you will get a list of its symbols in Symbol lookup manager screen. Due to Quantower allows a multiple integrations connection, you may have several similar symbols with data, that can vary a bit. This is normal because different providers can give us different quotes data. 
 
-## Lookup field
+### Lookup field
 
 Symbols lookup screen usually invoked from a lookup field. This field consists of two parts that allow you to open a lookup screen:
 
@@ -33,7 +33,7 @@ Anyway, you will get the Lookup screen, ready for Symbol selection. Lookup scree
 
 If you want to close it just click outside of it.
 
-## Searching & Filtering
+### Searching & Filtering
 
 Usually, each connection gives you a numerous list of trading Symbols to select from. If you know name, you can start typing it in “_**Search field**_”, and the below list will be instantly filtered to the items, containing the entered phrase.
 
@@ -49,32 +49,32 @@ Here you will be able to filter the list by three parameters:
 * Symbol type \(FOREX, CFD’s, Options etc.\)
 * Exchange \(Off-Exchange, NYSE, NASDAQ etc.\)
 
-Once selecting some items among filtering parameters, the list becomes filtered to the selected values only.
+Once selecting some items among filtering parameters, the list becomes filtered to the selected values only. 
 
 {% hint style="warning" %}
 Be careful. While the Searchfield is become reset each Lookup screen invokes, the second level filters stay as they were set up last time. So if you can’t find the required Symbol type — please check if you have this type enabled.
 {% endhint %}
 
-## Symbols list
+### Symbols list
 
-The list of symbols is a result of filtering in Lookup screen. Here you can see the nested tree of Symbols, grouped in the following order:
+The list of symbols is a result of filtering in Lookup screen. Here you can see the nested tree of Symbols, grouped in the following order: 
 
 * Connection
 * Exchange
 * Type
 * Subtypes
 
-The Symbol types are marked with additional icons to help you identify the required one more quickly. The Symbol item row consists of Name and description.
+The Symbol types are marked with additional icons to help you identify the required one more quickly. The Symbol item row consists of Name and description. 
 
 To select the Symbol — click on it; to apply the symbol to the required panel, just double-click on it. This action closes the Lookup screen
 
-## Multiple symbols select
+### Multiple symbols select
 
 In some cases, when panel can accept more than one Symbol item from lookup \(like the Watchlist\), you have an ability to select multiple items by holding the "_**Ctrl key**_" and clicking on the list. Once you ready to apply multiple items — press the "_**blue circle icon**_" on the right bottom corner of the list. You may also select any category level item to apply all its contents to the required panel.
 
 ![Multiple Symbols select](../.gitbook/assets/lookupmultiple.png)
 
-## List footer
+### List footer
 
 To help you deal with the big lists of Symbols, there is a footer toolbar with a set of mass actions. It allows to:
 

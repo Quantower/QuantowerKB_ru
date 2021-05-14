@@ -13,7 +13,7 @@ To connect Quantower to a broker that uses Rithmic technology, it is sufficient 
 * \*\*\*\*[**Connection for New Accounts**](connection-to-rithmic.md#connection-for-new-accounts)\*\*\*\*
 * \*\*\*\*[**Problems during the connection to Rithmic**](connection-to-rithmic.md#problems-during-the-connection-to-rithmic)\*\*\*\*
 
-## Connection for Existed Accounts
+### Connection for Existed Accounts
 
 * \*\*\*\*[**Download and install R Trader Pro**](http://yyy3.rithmic.com/?page_id=16) from Rithmic official website.
 * Open connection manager, select **Rithmic** and specify the type of connection \(**Demo / Real**\). 
@@ -30,18 +30,18 @@ To avoid additional fees for subscription to market data, a trader needs to logi
 
 ![Activate Use RTrader option to avoid additonal fees for subscription to market data](../.gitbook/assets/rithmic-plugin.gif)
 
-## Creating a New Accounts and further connection
+### Creating a New Accounts and further connection
 
 * \*\*\*\*[**Create a new demo**](https://rithmic.com/demo.html#sign-up) or open a real account with any broker supporting Rithmic technology, accept agreements, and start using our platform.
 
-{% embed url="https://youtu.be/3kpiOCiqE5Q" caption="" %}
+{% embed url="https://youtu.be/3kpiOCiqE5Q" %}
 
-* To register [**Rithmic Demo**](https://rithmic.com/demo.html#sign-up) **go to their official website or** follow this [link](https://rithmic.com/demo.html#sign-up)
+* To register [**Rithmic Demo**](https://rithmic.com/demo.html#sign-up) ****go to their official website or ****follow this [link](https://rithmic.com/demo.html#sign-up)
 * Fill in all the required fields
 * Accept _**"Market Data Subscription Agreement"**_ and _"**Market Data Self-Certification"**_
 * Account will be activated within 30-60 minutes.
 
-## **Problems during the connection to Rithmic**
+### **Problems during the connection to Rithmic**
 
 Sometimes, when connecting to the Rithmic, you may see the error **"**_**Market Data Connection Closed".**_
 

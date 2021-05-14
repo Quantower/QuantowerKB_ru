@@ -4,7 +4,7 @@ description: Use advanced Volume Analysis technique in your indicators
 
 # Access Volume analysis data from indicators
 
-Quantower trading platform has a wide set of [**Volume analysis tools**](https://www.quantower.com/volumeanalysistools), an advanced analytical functionality, which allows you to see the traded volume at each price level, assess the balance between buyers and sellers and understand the intentions of traders regarding the future price.
+Quantower trading platform has a wide set of [**Volume analysis tools**](https://www.quantower.com/volumeanalysistools), an advanced analytical functionality, which allows you to see the traded volume at each price level, assess the balance between buyers and sellers and understand the intentions of traders regarding the future price. 
 
 You can easily access all volume analysis data from your indicator. By default charts does not loading such data, as it requires time to get full trades history. You need to notify chart, that your indicator need it for calculations and you can do this by implementing a special Interface **IVolumeAnalysisIndicator**:
 
@@ -35,14 +35,14 @@ When loading is finished **Total** object will be available for each **HistoryIt
 ```csharp
 HistoricalData[0].VolumeAnalysisData.Total.Volume
 HistoricalData[0].VolumeAnalysisData.Total.Trades
-HistoricalData[0].VolumeAnalysisData.Total.AverageBuySize
+HistoricalData[0].VolumeAnalysisData.Total.AverageBuySize 
 ```
 
 List of all available data types:
 
 | Data type | Description |
 | :--- | :--- |
-| Volume | The total size of all positions that executed at each price level or price range |
+| Volume | The total size of all positions that executed at each price level or price range  |
 | BuyVolume | The total size of all Buy positions that executed at each price level or price range |
 | SellVolume | The total size of all Sell positions that executed at each price level or price range |
 | Trades | The number of contracts \(trades\) that executed at each price level. |
@@ -74,7 +74,7 @@ using TradingPlatform.BusinessLayer.Modules.Indicators;
 
 namespace IndicatorVolumeAnalysis
 {   
-    public class IndicatorVolumeAnalysis : Indicator, IVolumeAnalysisIndicator
+	public class IndicatorVolumeAnalysis : Indicator, IVolumeAnalysisIndicator
     {
         public IndicatorVolumeAnalysis()
             : base()
@@ -100,7 +100,7 @@ namespace IndicatorVolumeAnalysis
                 SetValue(this.HistoricalData[i].VolumeAnalysisData.Total.AverageSellSize, 1, i);
             }
         }
-
+        
         protected override void OnUpdate(UpdateArgs args)
         {            
             // Volume analysis data not loaded yet

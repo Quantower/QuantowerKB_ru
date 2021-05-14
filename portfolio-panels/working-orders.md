@@ -50,9 +50,9 @@ By right-clicking on each row of Working orders panel, you will get a context me
 
 ### Common actions
 
-| **Group by** | Groups all rows by the selected column |
+| **Group by** |  Groups all rows by the selected column |
 | :--- | :--- |
-| **Columns visibility** | Allows to toggle the columns visibility |
+| **Columns visibility** |  Allows to toggle the columns visibility |
 
 ## Hot buttons toolbar
 
@@ -62,7 +62,7 @@ In order to manage your orders efficiently, there is a Hot buttons toolbar in Wo
 Depending on the panel settings, hot buttons can proceed without confirmation screen. Please be careful while using them.
 {% endhint %}
 
-### Hot buttons list
+###  Hot buttons list
 
 | **Cancel all** | Cancel all orders |
 | :--- | :--- |

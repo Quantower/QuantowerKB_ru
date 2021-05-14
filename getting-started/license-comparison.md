@@ -172,7 +172,7 @@ Licenses that are marked with the symbol **\(\*\)** can be purchased separately.
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><a href="../quantower-algo/">Access to free API for developing</a>
+        <p><a href="../quantower-algo/">Access to free API for developing </a>
         </p>
         <p><a href="../quantower-algo/">custom indicators, strategies</a>
         </p>
@@ -197,7 +197,7 @@ Licenses that are marked with the symbol **\(\*\)** can be purchased separately.
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.quantower.com/advancedfeatures"><b>ADVANCED FEATURES</b></a>  <b>*</b>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.quantower.com/advancedfeatures"><b>ADVANCED FEATURES</b></a><b> *</b>
       </td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
@@ -330,7 +330,7 @@ Licenses that are marked with the symbol **\(\*\)** can be purchased separately.
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.quantower.com/volumeanalysistools"><b>VOLUME ANALYSIS TOOLS</b></a>  <b>*</b>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.quantower.com/volumeanalysistools"><b>VOLUME ANALYSIS TOOLS</b></a><b> *</b>
       </td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
@@ -354,7 +354,7 @@ Licenses that are marked with the symbol **\(\*\)** can be purchased separately.
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><a href="../analytics-panels/chart/volume-analysis-tools/volume-profiles.md">All types of Volume Profiles</a>
+        <p><a href="../analytics-panels/chart/volume-analysis-tools/volume-profiles.md">All types of Volume Profiles </a>
         </p>
         <p><a href="../analytics-panels/chart/volume-analysis-tools/volume-profiles.md">(Right, Left, Custom, Step)</a>
         </p>
@@ -412,7 +412,7 @@ Licenses that are marked with the symbol **\(\*\)** can be purchased separately.
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="../analytics-panels/tpo-chart.md"><b>TPO Chart</b></a>  <b>*</b>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="../analytics-panels/tpo-chart.md"><b>TPO Chart</b></a><b> *</b>
       </td>
       <td style="text-align:left">&#x2716;</td>
       <td style="text-align:left">&#x2716;</td>

@@ -14,7 +14,7 @@ description: >-
 
 ## Trading with DOM Trader
 
-DOM Trader allows to send trading orders in three ways — **Mouse Trading mode,** **Order Entry and Hotkeys.**
+DOM Trader allows to send trading orders in three ways  — **Mouse Trading mode,** **Order Entry and Hotkeys.**
 
 To place an order via Mouse Trading mode:
 
@@ -69,7 +69,7 @@ The general view of DOM Trader settings menu has the following subsections. Let'
 
 ### Position Bar settings
 
-At the bottom of the DOM Trader is the Position Bar, which displays brief info about an open position on the current trading instrument — the number of contracts, the average open price, current Profit/Loss and Liquidation price.
+At the bottom of the DOM Trader is the Position Bar, which displays brief info about an open position on the current trading instrument  — the number of contracts, the average open price, current Profit/Loss and Liquidation price.
 
 ![Position Bar in DOM trading](../../.gitbook/assets/dom-position-bar1.png)
 
@@ -80,4 +80,6 @@ At the bottom of the DOM Trader is the Position Bar, which displays brief info a
 This tab is for configuring your keyboard shortcuts. Here you can configure the order size with one button and place it to the market. Cancel orders and many other useful functions.
 
 ![](../../.gitbook/assets/image%20%28146%29.png)
+
+
 

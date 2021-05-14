@@ -14,13 +14,13 @@ The Quantower API divides the information they display into two categories - **b
 
 The basic information includes fields without which the selected object cannot exist. For successfull integration with Quntower each broker must provide these fields. For example, each symbol must have **Id**, **Name**, **Tick size**, **Product/Quoting currencies,** **Min lot** etc. Also each account must have **Id**, **Name**, **Balance**, **Asset** etc.
 
-Quantower API supports [**Symbol** ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Symbol.html)and [**Account**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Account.html) _\*\*_classes and you can get all the basic information using their properties members.
+Quantower API supports [**Symbol** ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Symbol.html)and [**Account**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Account.html) ****classes and you can get all the basic information using their properties members.
 
 ### Additional information
 
-The additional information includes fields which are specific for selected broker/data feed. At any time, the broker can stop sending these fields, and if it happens, you can continue to use this connection without any problems. For examle, **Bybit** crypto-connection provides for each symbols **Maker** and **Taker fees** fields.
+The additional information includes fields which are specific for selected broker/data feed. At any time, the broker can stop sending these fields, and if it happens, you can continue to use this connection without any problems. For examle, **Bybit** crypto-connection provides for each symbols **Maker** and **Taker fees** fields. 
 
-Since these fields may be unique to concrete broker, we don’t add new properties to our objects, but we store them in a special collection.
+Since these fields may be unique to concrete broker, we don’t add new properties to our objects, but we store them in a special collection. 
 
 Each Account and Symbol object contains an **AdditionalInfo** collection, which stores instances of the **AdditionalInfoItem** class. Let's take a look at the main properties of this class.
 

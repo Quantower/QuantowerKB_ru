@@ -12,9 +12,9 @@ In order to save your work on workspace customization, we have developed a _**�
 
 You can _**save any**_ [_**Panel**_](standalone-panels.md)_**,**_ [_**Group**_](group-of-panels.md) _**or**_ [_**Bind**_](binds.md) _**as a template**_, so its usefulness is very promising.
 
-## How to create the template?
+### How to create the template?
 
-The process of Template creation is as simple as 1-2-3:
+The process of Template creation is as simple as 1-2-3: 
 
 1. Open any panel \(or use Group / Bind\)
 2. Customize it according to your needs
@@ -41,4 +41,6 @@ If the separate panel is in the Bind, the template saving cannot be applied to i
 {% hint style="success" %}
 You can **share your templates** with other Quantower traders by sharing the template files with them. Template files can be found in “Quantower -&gt; Settings -&gt; Templates” folder.
 {% endhint %}
+
+
 

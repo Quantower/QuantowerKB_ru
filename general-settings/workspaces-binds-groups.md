@@ -12,7 +12,7 @@ The highest level of trading area organization — is a **Workspace**. This is t
 **Quantower auto-saves each workspace** into its local file every 5 mins, in order to keep them safe.
 {% endhint %}
 
-As a top-level grouping layer, Workspaces store all their contents in special local files. These files can be found in _**Quantower -&gt; Settings -&gt; Workspaces**_ folder. Each file represents some workspace; both have the similar names. Technically, the workspace file is an XML-document containing all of the settings of all panels that are in the workspace.
+As a top-level grouping layer, Workspaces store all their contents in special local files. These files can be found in _**Quantower -&gt; Settings -&gt; Workspaces**_ folder. Each file represents some workspace; both have the similar names. Technically, the workspace file is an XML-document containing all of the settings of all panels that are in the workspace. 
 
 {% embed url="https://www.youtube.com/watch?v=A\_2gJdeP-08&t=20s" caption="How to create and save your custom workspace" %}
 
@@ -28,10 +28,10 @@ The currently active workspace is marked with the color and has a blue dot on th
 
 ![New workspace creation window](../.gitbook/assets/ccnewworkspace.png)
 
-When creating the new workspace, you have an ability to specify its future name and select whether it should be Blank, once created, or should contain some predefined panels set.
+When creating the new workspace, you have an ability to specify its future name and select whether it should be Blank, once created, or should contain some predefined panels set. 
 
 {% hint style="success" %}
-The list of Workspace templates will be constantly growing.
+The list of Workspace templates will be constantly growing. 
 {% endhint %}
 
 You can also Remove any of Workspaces by clicking the “_**Trash**_” icon on the right side from Workspace name \(icon appears while hovering the name\).

@@ -13,7 +13,7 @@ Settings folder contains all the workspaces, saved templates, as well as all the
 
 {% embed url="https://www.youtube.com/watch?v=n0lUFu8FNN8&t=168s" caption="Quantower Settings. How to Save, Copy, Restore, Reset" %}
 
-## How to Reset All Settings to default
+### How to Reset All Settings to default
 
 Sometimes all platform's settings need to be reset to default. To do this, close the platform, **Right-click** on Quantower icon and select **Open File Location** from the context menu.
 
@@ -23,7 +23,7 @@ You can save the current settings if you want to return to them later. Just rena
 
 ![](../.gitbook/assets/screenshot_39.png)
 
-A folder with the main files of the latest \(installed\) version of the program will open.  
+A folder with the main files of the latest \(installed\) version of the program will open.   
 _**Go to the main folder of the platform.**_
 
 ![](../.gitbook/assets/screenshot_40.png)

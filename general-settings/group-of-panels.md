@@ -6,7 +6,7 @@ description: >-
 
 # Group of panels
 
-The simplest level of combining several panels together is a **Group**. This layer allows to arrange several panels as nested tabs and then move the created group as one panel.
+The simplest level of combining several panels together is a **Group**. This layer allows to arrange several panels as nested tabs and then move the created group as one panel. 
 
 ![Panels grouping](../.gitbook/assets/groups.gif)
 

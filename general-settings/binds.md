@@ -6,7 +6,7 @@ description: Binds allow to create any combination of panels in any required way
 
 The most innovative and, we are sure, a useful layer of panels organization — is **Binds** \(binding\). It was developed to allow a user to create its own “**Super-panels**” — the sets of basic panels that should be stuck together. Generally, Binds allows you to create any combination of panels in any required way; the only limit is your fantasy.
 
-## How to Bind several panels
+### How to Bind several panels
 
 1. place several panels on your workspace close to each other;
 2. select “_**Create bind**_” from any panel’s context menu \(this turns the Bind mode on\);

@@ -7,9 +7,9 @@ description: >-
 # Market Replay
 
 \*\*\*\*[**First launch of the Market Replay**](history-player.md#first-launch-of-the-market-replay)  
-**\*\*\[**General and instruments settings_\*\]\(history-player.md\#general-and-instruments-settings\)\_\*\*\*
+****[**General and instruments settings**](history-player.md#general-and-instruments-settings)\*\*\*\*
 
-## What is Market Replay
+### What is Market Replay
 
 Testing of trading strategies is one of the most important and necessary steps for successful trading. If you are an experienced algotrader, then the automatic testing method is ideal and you can use our Extension for Visual Studio. But unfortunately, many traders don't know the programming language, which makes testing their strategies difficult.
 
@@ -21,7 +21,7 @@ Market Replay allows you to test on any trading instruments with any vendor or b
 
 {% embed url="https://www.youtube.com/watch?v=za-eE8ZSmV8" caption="How to backtest a trading strategy with Market Replay panel" %}
 
-## First launch of the Market Replay
+### First launch of the Market Replay
 
 * Start the panel from the main application menu
 * Add a trading instrument for testing
@@ -43,7 +43,7 @@ When the testing is started you can open all the necessary panels for testing by
 
 ![Open necessary panels to create a workspace for backtesting](../.gitbook/assets/market-replay-in-action.gif)
 
-## General and instruments settings
+### General and instruments settings
 
 Before you start testing the strategy, you need to set up an initial trading balance, a simulation \(or modeling\) scheme for downloaded data, a commission size for a trading instrument, and the netting type.
 
