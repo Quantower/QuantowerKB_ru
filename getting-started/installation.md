@@ -52,7 +52,7 @@ Please note, that you may need to allow an in-going and outgoing connection for 
 
 ![](../.gitbook/assets/default-workspace.png)
 
-## Uninstall
+## Удаление программы
 
 If you need to uninstall the application, just _**delete the folder with all application files**_. You may also keep your personal settings \(connection information & workspaces\) by copying the Settings folder \(can be found right in Quantower folder\) before application delete. These Settings folder can be pasted to any other Quantower folder later.
 
