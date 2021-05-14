@@ -6,41 +6,41 @@ description: >-
 
 # Установка программы и требования к ПК
 
-* **\*\*\*\*** [**Требования к ПК** \*](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-M_ewe-u5jKJ-0IilF23/getting-started/installation#trebovaniya-k-pk)\*\*\*
+* **\*\*\*\* Требования к ПК** \*\*\*\*
 * \*\*\*\*[**Installation Steps**](installation.md#installation-steps)\*\*\*\*
 * \*\*\*\*[**Uninstallation**](installation.md#uninstall)\*\*\*\*
-* 
-Once you downloaded Quantower application from Quantower official website — you are ready to start an installation process. From this point we must clarify the main differences between Quantower "installation process" and default Windows® install process, that most users are accustomed to.
+
+После того, как вы загрузили приложение Quantower с [официального сайта Quantower,](https://www.quantower.com/) вы готовы начать процесс установки. С этого момента мы должны прояснить основные различия между "процессом установки" Quantower и стандартным Windows® процессом установки, к которому привыкло большинство пользователей.
 
 {% embed url="https://youtu.be/155Ha6Rku0E" caption="" %}
 
 {% hint style="success" %}
-Quantower does not copy its files to the system folders \(AppData or Program Files\) of the OS, nor does write changes to the system registry
+Quantower не копирует свои файлы в системные папки \(AppData или Program Files\) ОС и не записывает изменения в системный реестр.
 {% endhint %}
 
-What does it mean? The program doesn't violate the integrity of the OS, and in case of removal, it will not leave any prints of its presence on your computer. Quantower’s "installer" literally extracts files to the user-specified folder.
+Что это значит? Программа не нарушает целостность ОС, и в случае удаления не оставит никаких отпечатков своего присутствия на вашем компьютере. Программа установки Quantower буквально извлекает файлы в указанную пользователем папку.
 
-This approach allows you to store \(and launch\) the Quantower on removable drive for use on any other computer as the portable application. It can be convenient when you need to move Quantower with all of its settings to another PC; just copy Quantower folder and paste where you need.
+Такой подход позволяет сохранять \(и запускать\) Quantower на съемном диске для использования на любом другом компьютере в качестве переносного приложения. Это может быть удобно, когда вам нужно перенести Quantower со всеми его настройками на другой компьютер; просто скопируйте папку Quantower и вставьте туда, где вам нужно.
 
 ## `Требования к ПК`
 
 {% hint style="info" %}
 * Windows 10
 * [.NET Framework v.4.8](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-web-installer)
-* Available disk space — 1 GB \(depends on the volume of loaded history\)
-* **The hardware requirements for Quantower depends upon what you are doing with it.** Most desktop systems can run Quantower without any difficulty. 
-* The following hardware specifications, are very much recommended for a fast system: 16 GB RAM, minimum of 4 core CPU, and a SSD \(solid-state drive\).
+* Доступное дисковое пространство— 1 GB \(зависит от объема загруженной истории\)
+* **Требования к оборудованию для Quantower зависят от того, что вы с ним делаете**. Большинство настольных систем могут запускать Quantower без каких-либо проблем.
+* Следующие технические характеристики оборудования настоятельно рекомендуются для скорости системы:16 GB RAM, минимум  4 core CPU, и SSD.
 {% endhint %}
 
 {% hint style="warning" %}
-**Microsoft has officially stopped supporting Windows 8 and Windows 7**. Therefore, the platform may not start or may work incorrectly. [More information on supported versions, please check on official Microsoft website.](https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet)
+**Microsoft официально прекратила поддержку Windows 8 и Windows 7**. Поэтому платформа может не запускаться или работать некорректно. Более подробную информацию о поддерживаемых версиях смотрите на официальном сайте Microsoft.
 
-We recommend using Windows 10.
+Мы рекомендуем использовать Windows 10.
 {% endhint %}
 
-## Installation steps
+## Установка пошагово
 
-![Quantower installer screen](../.gitbook/assets/extract-files-quantower.png)
+![&#x42D;&#x43A;&#x440;&#x430;&#x43D; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x449;&#x438;&#x43A;&#x430; Quantower](../.gitbook/assets/extract-files-quantower.png)
 
 1. [**Download the app installer**](https://updates.quantower.com/Quantower/x64/latest/Quantower.exe) and launch the _**Quantower.exe**_ file
 2. Select the folder to extract application files
