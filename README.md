@@ -9,13 +9,13 @@ description: >-
 
 ![](.gitbook/assets/main-workspace-for-help.png)
 
-For the answers you can't find in the Knowledge Base, please contact us via the following options:
+Чтобы получить ответы на вопросы, которые вы не можете найти в Базе знаний, свяжитесь с нами, используя следующие способы:
 
-* \*\*\*\*[**Telegram Support Chat**](https://t.me/quantower)\*\*\*\*
-* \*\*\*\*[**Live Chat on our website**](https://www.quantower.com/) \(pop-up window in the lower right\)
-* Email us at **info@quantower.com**
+* \*\*\*\*[**Telegram чат поддержки**](https://t.me/quantower)\*\*\*\*
+* \*\*\*\*[**Живой чат на нашем сайте** ](https://www.quantower.com/)\(всплывающее окно в правом нижнем углу\)
+* По почте:  **info@quantower.com**
 
-For ease of navigation, the Knowledge Base is divided into several categories that will allow you to quickly find the information you need:
+Для удобства навигации База знаний разделена на несколько категорий, которые позволят вам быстро найти нужную информацию:
 
 {% page-ref page="getting-started/" %}
 
