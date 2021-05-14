@@ -2,7 +2,7 @@
 
 * [Добро пожаловать в справочную систему](README.md)
 * [Первый старт Quantower](getting-started/README.md)
-  * [What's new](getting-started/latest-version.md)
+  * [Что нового](getting-started/latest-version.md)
   * [Installation](getting-started/installation.md)
   * [First start](getting-started/first-start.md)
   * [Platform update](getting-started/application-updates.md)
