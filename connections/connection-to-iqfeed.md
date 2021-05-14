@@ -12,7 +12,7 @@ You can benefit from market data provided by IQFeed while trading on Quantower p
 * \*\*\*\*[**How to register and open demo account with IQFeed?**](connection-to-iqfeed.md#how-to-register-and-open-demo-account-with-iqfeed)\*\*\*\*
 * \*\*\*\*[**DTN Calculated Indicators & Market Statistics**](connection-to-iqfeed.md#dtn-calculated-indicators-and-market-statistics)  **\(**[**link to document**](http://www.iqfeed.net/symbolguide/DTNCalculatedIndicators.pdf)**\)**
 
-### How to connect IQFeed to Quantower
+## How to connect IQFeed to Quantower
 
 * Create a [**demo account**](https://www.iqfeed.net/index.cfm?displayaction=start) on the IQFeed official website. If you already have an account, skip this step.
 * Download and install the latest version of [**IQFeed client**](http://www.iqfeed.net/index.cfm?displayaction=support&section=download) on your PC.
@@ -20,7 +20,7 @@ You can benefit from market data provided by IQFeed while trading on Quantower p
 
 ![Enter your credintials for conneting to IQFeed](../.gitbook/assets/iqfeed-connection.png)
 
-### How to register and open demo account with IQFeed?
+## How to register and open demo account with IQFeed?
 
 It may seem some confused issue for newbies to open demo account with IQFeed data provider. Nevertheless it becomes considerably easier when doing that with the usage of our instructions!
 
@@ -75,7 +75,7 @@ Only data with NO dollar sign \(as it is indicated in the left side of the scree
 * Click on the respective Remove button to sign off your credit card.
 {% endhint %}
 
-### DTN Calculated Indicators & Market Statistics
+## DTN Calculated Indicators & Market Statistics
 
 DTN’s Ticker Plant gives traders an edge by calculating thousands of indicators not available elsewhere that provide insight into historical trends and real-time market dynamics. [**How to request these stats in the platform?**](http://www.iqfeed.net/symbolguide/DTNCalculatedIndicators.pdf)\*\*\*\*
 

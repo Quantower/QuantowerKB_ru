@@ -14,9 +14,11 @@ The indicator is calculated for any period of time according to the following al
 
 * the average price \(AP\) is calculated for each bar or candle. The calculation is made for each price change for the current candle.  AP = \(H+L+C\)/3
 * the average price is multiplied by the volume that has passed in the current candlestick or bar. For example, in real time new trade will increase the volume and thus weigh the price. Thus, for each price or volume change we will get value AP \* V.
-* the above values are summed up and divided by the total volume for the specified period. 
+* the above values are summed up and divided by the total volume for the specified period.
 
-                            **VWAP = \(Sum of Average Price \* Traded Volume\) / Cumulative Volume**
+  ```text
+                        **VWAP = \(Sum of Average Price \* Traded Volume\) / Cumulative Volume**
+  ```
 
 ## **How to add VWAP to the chart?**
 
@@ -31,11 +33,11 @@ The quick settings menu contains:
 
 ### Advanced indicator settings
 
-By clicking on the "**Gear"** icon, additional settings will open. 
+By clicking on the "**Gear"** icon, additional settings will open.
 
 ![Additional settings for VWAP Indicator](../../.gitbook/assets/image%20%28107%29.png)
 
-**1. Switch between different VWAPs** and set the settings for each of them 
+**1. Switch between different VWAPs** and set the settings for each of them
 
 Quantower platform provides 5 separate VWAPs, that can be placed simultaneously on a single chart.
 
@@ -69,7 +71,7 @@ VWAP has numerous application in the trading world. It is helpful for both insti
 
 ### \#1 Return to 1 Hour VWAP
 
-For intraday trading we have found that it is possible to trade the return of the price to VWAP on small timeframes. For example, let's consider ES \(e-mini S&P500\) futures on 5-minute chart with an hourly VWAP. 
+For intraday trading we have found that it is possible to trade the return of the price to VWAP on small timeframes. For example, let's consider ES \(e-mini S&P500\) futures on 5-minute chart with an hourly VWAP.
 
 ![Trading with VWAP in Quantower platform](../../.gitbook/assets/vwap-trading.png)
 
@@ -79,7 +81,7 @@ An important point in this tactic is that the distance between the VWAP value an
 
 ### \#2 Trading with STD bands
 
-**Standard deviations** are an objective statistical measurement that quantify variance in a data set, with a small value indicating that most data points are close to the average and a larger value indicating a wider spread. 
+**Standard deviations** are an objective statistical measurement that quantify variance in a data set, with a small value indicating that most data points are close to the average and a larger value indicating a wider spread.
 
 By applying this tool to trading with VWAP serving as our average, we can plot these deviations as bands to create a visible unit of measurement to characterize market movement and gauge volatility
 

@@ -4,9 +4,9 @@
 
 Using **Power Trades** you can see the execution of a large number of orders in a very short time, which will affect the price change with a high probability.
 
-{% embed url="https://youtu.be/\_4mCYtfUkgw" %}
+{% embed url="https://youtu.be/\_4mCYtfUkgw" caption="" %}
 
-### What is **Power Trades** show?
+## What is **Power Trades** show?
 
 **Power Trades** shows the zones with the execution of a large number of orders in a very short time, which will affect the price change with a high probability. Let's take a look at a few examples.
 
@@ -16,12 +16,12 @@ Using **Power Trades** you can see the execution of a large number of orders in 
 
 ![Power Trades on Euro Futures](../../.gitbook/assets/power-trades-on-euro-futures.png)
 
-### How does Power Trades find the zones?
+## How does Power Trades find the zones?
 
-There is a continuous process of placing, changing and executing orders in the market. All this affects the price change and the expectations of traders regarding the future price.  
-  
-When a large order appears at a certain level, the price is more likely to come to this order and it will be executed because the market is always looking for levels with liquidity. This already applies to the order flow and the mechanics of orders matching, so we will omit the principles on which the orders are matched.  
-  
+There is a continuous process of placing, changing and executing orders in the market. All this affects the price change and the expectations of traders regarding the future price.
+
+When a large order appears at a certain level, the price is more likely to come to this order and it will be executed because the market is always looking for levels with liquidity. This already applies to the order flow and the mechanics of orders matching, so we will omit the principles on which the orders are matched.
+
 It is only important to understand that "**abnormal events**" occur in the market at certain times. _Execution of a significant volume of orders in a very short time is one of such events._
 
 For example, let's set the _Total Volume of 2'000 contracts and Time Interval in 3 seconds_ on the E-mini SP500 futures. This means that the scan will be based on the available history and will show on the chart only those zones that have such a volume for the specified time.
@@ -32,7 +32,7 @@ Additionally, it is worth to set a delta value to filter out the zones with one-
 
 ![](../../.gitbook/assets/screenshot_46.png)
 
-### Main settings of Power Trades
+## Main settings of Power Trades
 
 The following settings are involved in the calculation of the indicator, and directly affect the results.
 
@@ -55,11 +55,7 @@ Settings that do not affect the indicator calculation. These are mostly visual a
 * **Highlight area color** — set color for the selected area on the chart
 * **Show Market Depth** — the option shows / hides the Market Depth at the bottom of the table.
 
-### Power Trades and DOM tables
+## Power Trades and DOM tables
 
 When the Power Trades is enabled, it immediately starts searching for zones according to the settings. The search for zones takes place throughout the entire history available on the chart, so at a significant depth of history its calculation can take a long time.
-
-
-
-
 

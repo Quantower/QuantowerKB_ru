@@ -38,10 +38,10 @@ protected override void OnUpdate(UpdateArgs args)
 {
     // Use open price as a source for our indicator
     SetValue(Open());
-    
+
     // We are looking for 5 bars with same direction
     int amountofBars = 5;
-            
+
     // Not enough data yet - skip calculations
     if (Count < amountofBars)
         return;
@@ -53,7 +53,7 @@ protected override void OnUpdate(UpdateArgs args)
         // Is it growing bar?
         if (Close(i) > Open(i))
             trendValue += 1;
-                
+
         // Is it falling bars?
         else if (Open(i) > Close(i))
             trendValue += -1;

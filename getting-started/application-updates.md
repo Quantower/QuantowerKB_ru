@@ -36,5 +36,3 @@ The rollback function allows you to go back to any previously supported version 
 
 ![Rollback to previous Quantower version \(here is how the old version of this window looked like\)](../.gitbook/assets/rollbackto-previous-version.png)
 
-
-

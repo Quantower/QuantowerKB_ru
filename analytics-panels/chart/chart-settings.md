@@ -49,7 +49,7 @@ General view of Chart settings menu has the following subsections. Let's take a 
 
 ![](../../.gitbook/assets/image%20%28114%29.png)
 
-{% embed url="https://www.youtube.com/watch?v=BtC9iJEOcjY" %}
+{% embed url="https://www.youtube.com/watch?v=BtC9iJEOcjY" caption="" %}
 
 * **Custom session.** This item is for displaying trading sessions.
 * **Window colors.**  Settings for the background color on the chart.
@@ -87,7 +87,7 @@ These settings allow you to customize the price scale. There are 3 important poi
 
 ![](../../.gitbook/assets/image%20%28110%29.png)
 
-## Visual trading 
+## Visual trading
 
 This tab allows you to include settings to display the current position on the chart and display already completed trades.
 
@@ -95,7 +95,7 @@ This tab allows you to include settings to display the current position on the c
 
 ## Order entry
 
-These are the settings of the order entry panel. The most interesting thing here is that you can set the standard number of entry orders which correspond to your risks. This is very convenient for manual trading. 
+These are the settings of the order entry panel. The most interesting thing here is that you can set the standard number of entry orders which correspond to your risks. This is very convenient for manual trading.
 
 [How to use the order entry panel read here](../../trading-panels/order-entry/)
 

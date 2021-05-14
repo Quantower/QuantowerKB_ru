@@ -6,7 +6,7 @@ description: Instantiate a custom indicator with input parameters.
 
 ## General
 
-Quantower API provides a huge collection of built-in indicators. But sometimes we need to use our own indicator that we developed before or downloaded from the Internet. 
+Quantower API provides a huge collection of built-in indicators. But sometimes we need to use our own indicator that we developed before or downloaded from the Internet.
 
 In this article, we will create an instance of the custom indicator and pass the input parameters in different ways.
 
@@ -53,8 +53,8 @@ public class CustomIndicator : Indicator
 
 ## Use class constructor \(Beginner\)
 
-The easiest way to create and pass parameters is to use the class constructor. At this moment, our custom indicator has сonstructor that takes no parameters \(parameterless constructor\). Each indicator must have such a constructor.  
-  
+The easiest way to create and pass parameters is to use the class constructor. At this moment, our custom indicator has сonstructor that takes no parameters \(parameterless constructor\). Each indicator must have such a constructor.
+
 Let's add a new constructor for the **"CustomIndicator"** class in which we will override the default input parameters.
 
 ```csharp
@@ -84,7 +84,7 @@ public class CustomIndicator : Indicator
         this.PriceType = priceType;
         this.Period = period;
     }
-    
+
     // ...
 }
 ```
@@ -95,17 +95,17 @@ Now, in other indicators, we can use this constructor instead of default. For ex
 class BestIndicator : Indicator
 {       
     private Indicator customIndicator;
-    
+
     protected override void OnInit()
     {
         this.customIndicator = new CustomIndicator(10, 500, PriceType.High, Period.DAY1);
         this.AddIndicator(this.customIndicator);
     }
-      
+
     protected override void OnUpdate()
     {
         var indicatorValue = this.customIndicator.GetValue();
-        
+
         // something usefull
     }
 }
@@ -121,7 +121,7 @@ To modify any of the parameters, you need to invoke the **"UpdateItemValue"** me
 class BestIndicator : Indicator
 {       
     private Indicator customIndicator;
-    
+
     //    
     protected override void OnInit()
     {
@@ -134,14 +134,14 @@ class BestIndicator : Indicator
             settings.UpdateItemValue("Slow period", 55);
             settings.UpdateItemValue("Price type", new SelectItem("Open", PriceType.Open));
             settings.UpdateItemValue("Period", Period.MONTH1);
-    
+
             this.AddIndicator(this.customIndicator);
         }
         catch (Exception ex)
         {
             // log exception
         }
-    
+
         indicator.Settings = settings;
     }
 
@@ -149,10 +149,9 @@ class BestIndicator : Indicator
     protected override void OnUpdate()
     {
         var indicatorValue = customIndicator.GetValue();
-        
+
         // something usefull
     }
 }
-
 ```
 

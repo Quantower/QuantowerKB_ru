@@ -10,7 +10,7 @@ Quantower offers a variety of chart types to help you display chart data in diff
 
 ![Switch between different time frames in one click](../../../.gitbook/assets/image%20%28180%29.png)
 
-### Chart types and styles
+## Chart types and styles
 
 Quantower provides **10 chart types**:
 

@@ -28,7 +28,7 @@ In general, to start automated trading you should:
 
 ## Strategy parameters
 
-The strategy usually has its own input parameters, that were declared in its code. Usually, there are Symbol, Account, and some other parameters. 
+The strategy usually has its own input parameters, that were declared in its code. Usually, there are Symbol, Account, and some other parameters.
 
 {% hint style="warning" %}
 Before launching the strategy in Live mode, **you must carefully check** and provide all of the required data. Please note that improperly configured ATS can lead to a huge money loss.
@@ -42,7 +42,7 @@ The **Run** button in the footer of the panel initiates the selected strategy la
 
 ## Results
 
-This section displays the general statistics of strategy operation, such as **Run Date/Time** \(when it was launched\), **Working time** \(how much time it works\), and any additional parameters, that are specific per each different strategy. The lowest section of the Results block is the **Logs** list, where the strategy will output all of the actions that it performs while working. 
+This section displays the general statistics of strategy operation, such as **Run Date/Time** \(when it was launched\), **Working time** \(how much time it works\), and any additional parameters, that are specific per each different strategy. The lowest section of the Results block is the **Logs** list, where the strategy will output all of the actions that it performs while working.
 
 ## Backtesting mode
 
@@ -85,7 +85,7 @@ There is also an **additional settings screen** allowing to set up some Exchange
 
 ### **Backtesting controllers**
 
-Another feature of the "Strategy runner" panel is an **Interactive mode**. It is situated in the footer of the panel and is enabled by default. This mode allows us to track the testing process more precisely and even control its speed. 
+Another feature of the "Strategy runner" panel is an **Interactive mode**. It is situated in the footer of the panel and is enabled by default. This mode allows us to track the testing process more precisely and even control its speed.
 
 The interactive mode gives a possibility to visualize the strategy’s actions using various panels of the Quantower terminal. The **Speed slider** slows down or makes faster the process of historical data playback. The lowest value of Speed pauses the strategy and activates the “per-tick” \(actually per “Build from” value\) playback button.
 
@@ -95,9 +95,9 @@ Please note, when you click the Stop button in backtesting mode, your strategy�
 
 ### **Backtesting results**
 
-When you launch your strategy in backtesting mode, the backtesting environment section converts to the Progress section. Here you can see the history playback progress bar and **Visualizer button** on the right side of each symbol row. 
+When you launch your strategy in backtesting mode, the backtesting environment section converts to the Progress section. Here you can see the history playback progress bar and **Visualizer button** on the right side of each symbol row.
 
-The Visualizer button allows us to open some Quantower panels and visually track the strategy operation during the history playback. The most interesting panels are Account performance, showing the trading results of your strategy, and Chart panel, which will display trades using a visual trading interface. You can also visualize the backtesting process in various panels such as Time&Sales, DOM Surface, and TPO Chart, etc. 
+The Visualizer button allows us to open some Quantower panels and visually track the strategy operation during the history playback. The most interesting panels are Account performance, showing the trading results of your strategy, and Chart panel, which will display trades using a visual trading interface. You can also visualize the backtesting process in various panels such as Time&Sales, DOM Surface, and TPO Chart, etc.
 
 ![Backtesting playback process](../.gitbook/assets/playback.png)
 

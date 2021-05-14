@@ -10,9 +10,9 @@ description: >-
 
 ![General view of Price Statistic panel](../.gitbook/assets/price-statistic-general-view.png)
 
-### Price Statistic & Volume Profile. What's the difference?
+## Price Statistic & Volume Profile. What's the difference?
 
-As we have already said, the Price Statistic panel contains data in the form of a table that shows the volume profile. Below is an image showing how the panel is linked to the volumetric profile. 
+As we have already said, the Price Statistic panel contains data in the form of a table that shows the volume profile. Below is an image showing how the panel is linked to the volumetric profile.
 
 The main difference and advantage of the Price Statistic is that the table presents all available volume data for a particular price, which can be sorted or uploaded to an external csv file for further analysis.
 
@@ -20,13 +20,13 @@ The main difference and advantage of the Price Statistic is that the table prese
 
 Volume profile and data in the Price Statistic table are built for the current day. If you sort the volume column in descending order, the price in the table \($2,766\) will correspond to the POC line on the volume profile.
 
-### How to enable it?
+## How to enable it?
 
 In the main menu of the platform in the _**Analytics category**_, find the Price Statistic panel and click on it to launch it.
 
 ![Launch the Price Statistic panel](../.gitbook/assets/launch-price-statistic.png)
 
-### Availalbe Data types in Price Statistic
+## Availalbe Data types in Price Statistic
 
 Each column in the table corresponds to a specific data type that you can show / hide through the panel settings or by right-clicking on the table.
 

@@ -6,9 +6,9 @@ description: >-
 
 # Cluster chart
 
-{% embed url="https://youtu.be/xnUxEjMrKKM" %}
+{% embed url="https://youtu.be/xnUxEjMrKKM" caption="" %}
 
-### What is Cluster chart?
+## What is Cluster chart?
 
 **Cluster chart**, known as Footprint chart in other trading platforms, is an advanced chart type that shows a comprehensive view of the candle chart. It allows to look inside the price and see all market actions. Cluster chart combines several important characteristics like time, OHLC prices, trading volume, number of buy and sell trades.
 
@@ -21,7 +21,7 @@ Using this information, a trader can evaluate:
 
 ![Cluster chart with Imbalance view ](../../../.gitbook/assets/cluster-chart.png)
 
-### How to enable cluster chart?
+## How to enable cluster chart?
 
 Before activating a cluster chart, you need to enable the Volume Analysis Toolbar. To do this, in the upper right corner of the chart panel, click on the "_**Magnifier**_" icon. A toolbar with Volume Analysis tools will appear at the bottom of the chart — _Cluster,_ [_Step Profile, Left Profile, Right Profile_](volume-profiles.md)_,_ [_Time Statistics_](time-statistics.md)_,_ [_Time Histogram_](time-histogram.md)_,_ [_Historical Time & Sales_](historical-time-and-sales.md)_,_ [_Custom Volume Profile_](volume-profiles.md#custom-volume-profile).
 
@@ -36,7 +36,7 @@ Before activating a cluster chart, you need to enable the Volume Analysis Toolba
 For more efficient analysis with cluster chart, you can display two different data types on one bar at once.
 {% endhint %}
 
-### General settings of cluster chart
+## General settings of cluster chart
 
 Cluster chart has various settings allowing to display volume data from different sides. For example, you can choose different types of data for each bar, as well as configure colors, which will simplify the perception and analysis of volumes, trades, etc.
 
@@ -57,7 +57,7 @@ The main Data Types for cluster chart:
 * **Filtered volume \(value and %\)** — this parameter displays volumes that exceed the size specified in the filter. If the volume size is smaller than the one specified in the filter, then the values will be zero.
 * **Buy \(or Sell\) filtered volume** — the parameter displays Buy \(or Sell\) volumes that exceed the size specified in the filter.
 
-### How to set the filtered volume?
+## How to set the filtered volume?
 
 For all volume analysis tools, there are general settings that allow you to set Filtered volume, and configure the step for aggregating volume data. On highly liquidity assets like Bitcoin or futures on the S&P500, the trading volume for a trading session is large. Set the minimum volume values that will be displayed on the chart. This will allow you to focus on significant price levels and more clearly see zones of support/resistance.
 
@@ -71,9 +71,9 @@ Select **Filtered Volume** as the data type in clusters to display them on the c
 
 ![](../../../.gitbook/assets/image%20%2879%29.png)
 
-### What is Custom step and how to set it properly?
+## What is Custom step and how to set it properly?
 
-Cluster chart shows volume data at each price level for a specified period. But with a large number of levels, the cluster chart becomes difficult to read. 
+Cluster chart shows volume data at each price level for a specified period. But with a large number of levels, the cluster chart becomes difficult to read.
 
 **Custom step** summarizes the volume data of as many price levels as specified in the setting. By default, the value of the custom step is set to 1 tick, which means the volume data are shown at each price level.
 

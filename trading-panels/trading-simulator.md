@@ -7,7 +7,7 @@ description: >-
 
 # Trading simulator
 
-### What is Trading Simulator?
+## What is Trading Simulator?
 
 Trading Simulator is a specially designed trading tool that allows emulating the execution of orders for any connection, including those that do not allow trading.
 
@@ -15,7 +15,7 @@ For whom it will be useful? For any trader - from beginner to pros, trading in w
 
 ![General view of Trading Simulator panel](../.gitbook/assets/trading-simulator.png)
 
-### How to start trading simulation?
+## How to start trading simulation?
 
 * Launch the **Trading Simulator** from the Control Center. The panel is located in the _Trading_ category.
 * Add desired symbols on which the trading simulation will take place.
@@ -29,7 +29,7 @@ For whom it will be useful? For any trader - from beginner to pros, trading in w
 "**Stop**" button will abort the simulation process as well as cancel all positions and orders.
 {% endhint %}
 
-### General settings
+## General settings
 
 In the general settings, you can set the initial balance for the test account, set the delay in execution, and configure the settings of netting for each instrument.
 

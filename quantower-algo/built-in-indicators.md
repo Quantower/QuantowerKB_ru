@@ -8,7 +8,7 @@ description: >-
 
 ## General
 
-During development of your own indicators or strategy, you may require using some standard indicators, for example Moving Averages. You don't need to write any code for this, as Quantower trading platform provides you a wide set of predefined indicators. At the moment there are about 50 built-in indicators, among them: 
+During development of your own indicators or strategy, you may require using some standard indicators, for example Moving Averages. You don't need to write any code for this, as Quantower trading platform provides you a wide set of predefined indicators. At the moment there are about 50 built-in indicators, among them:
 
 * EMA
 * ADX
@@ -70,7 +70,7 @@ protected override void OnInit()
 {
     // Create EMA indicator
     EMA = Core.Indicators.BuiltIn.EMA(10, PriceType.Open);
-             
+
     // Add created EMA indicator as a child to our script
     AddIndicator(EMA);
 }
@@ -86,13 +86,13 @@ protected override void OnUpdate(UpdateArgs args)
 {
      // Get EMA value for current bar from first line
      double valueFromEMA = EMA.GetValue();
-     
+
      // Using EMA value in parent indicator
      SetValue(valueFromEMA);            
 }
 ```
 
-In case you need to access value for previous bars or value from other indicators line you can use the offset and a **lineIndex** parameter of a [**GetValue**](http://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_GetValue_System_Int32_System_Int32_TradingPlatform_BusinessLayer_SeekOriginHistory_) ****method:
+In case you need to access value for previous bars or value from other indicators line you can use the offset and a **lineIndex** parameter of a [**GetValue**](http://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_GetValue_System_Int32_System_Int32_TradingPlatform_BusinessLayer_SeekOriginHistory_) _\*\*_method:
 
 ```csharp
 /// <summary>
@@ -102,7 +102,7 @@ protected override void OnUpdate(UpdateArgs args)
 {
      // Get EMA value for current bar from second line
      double valueFromEMA = EMA.GetValue(5, 1);
-     
+
      // Using EMA value in parent indicator
      SetValue(valueFromEMA);            
 }
@@ -117,7 +117,7 @@ using TradingPlatform.BusinessLayer;
 
 namespace IndicatorWithBuiltIn
 {   
-	public class IndicatorWithBuiltIn : Indicator
+    public class IndicatorWithBuiltIn : Indicator
     {
         /// <summary>
         /// Built in indicators
@@ -169,7 +169,6 @@ namespace IndicatorWithBuiltIn
         }
     }
 }
-
 ```
 
 And a result of this indicator on the chart:

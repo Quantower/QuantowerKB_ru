@@ -13,7 +13,7 @@ description: >-
 CQG provides access to more than [75 world exchanges](https://www.cqg.com/partners/exchanges), allowing you to trade futures, options, stocks, bonds, commodity spreads, and much more.  
 Besides, traders get the opportunity to work with a wide range of analytical tools, like [volume profiles](../../analytics-panels/chart/volume-analysis-tools/volume-profiles.md), [footprint \(cluster chart\)](../../analytics-panels/chart/volume-analysis-tools/cluster-chart.md), [VWAP](../../analytics-panels/chart/vwap.md), [Power Trades](../../analytics-panels/chart/power-trades.md), [TPO chart](../../analytics-panels/tpo-chart.md), [DOM Trader](../../trading-panels/dom-trader/), [Option Analytics](../../analytics-panels/option-analytics.md) and [DOM Surface](../../analytics-panels/dom-surface.md) panels.
 
-### How to start trading via AMP/CQG connection?
+## How to start trading via AMP/CQG connection?
 
 By [**following this link**](https://vip.ampfutures.com/quantower-cqg) you can register a demo account for 28 days and try all the functionality of the platform at work. If you already have a live trading account, you can start your trading directly via Quantower.
 
@@ -21,9 +21,7 @@ Fill out the form on the AMP website and within several minutes you will get an 
 
 ![](../../.gitbook/assets/image%20%2862%29.png)
 
-
-
-### How to add trading symbols from the CQG connection?
+## How to add trading symbols from the CQG connection?
 
 By default, we do not provide a predefined list of symbols \(maybe in the next updates we will add default symbols\). To find the desired symbol, go to the [**Tradable Symbols**](https://www.cqg.com/partners/exchanges/tradable-symbols) page on the CQG site where you can find a correct ticker. Also, we’ve prepared a list of the most frequent trading symbols for the futures market.
 

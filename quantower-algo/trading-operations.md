@@ -14,17 +14,17 @@ As we wrote in the previous topic, [**Core**](https://api.quantower.com/docs/Tra
 
 | Parameter | Description |
 | :--- | :--- |
-| Account  | An account for order  |
-| Symbol  | A symbol for order  |
-| Side  | Side of order: Buy or Sell |
+| Account | An account for order |
+| Symbol | A symbol for order |
+| Side | Side of order: Buy or Sell |
 | Price | Price for Limit or Stop Limit order |
-| TriggerPrice | Trigger price for Stop or Stop Limit Order  |
+| TriggerPrice | Trigger price for Stop or Stop Limit Order |
 | Quantity | Amount of the order \(in lots\) |
-| StopLoss | An instance of SlTpHolder object, where you can specify price or offset for Stop Loss order  |
+| StopLoss | An instance of SlTpHolder object, where you can specify price or offset for Stop Loss order |
 | TakeProfit | An instance of SlTpHolder object, where you can specify price or offset for Take Profit order |
 | OrderTypeID | An ID of required order type. For most cases you will need only basic types, so you can use predefined constants: OrderType.Limit, OrderType.Stop, OrderType.Market and OrderType.StopLimit |
 
-   And code example of using this method:
+And code example of using this method:
 
 ```csharp
 // Full form, allows you to specify all parameters
@@ -114,12 +114,12 @@ If allowed by your current connection, you can request partial closing of positi
 
 ## Result of trading operations
 
-All trading operations return special object **TradingOperationResult** which contains information about the result of the processing request: 
+All trading operations return special object **TradingOperationResult** which contains information about the result of the processing request:
 
 | Parameter | Description |
 | :--- | :--- |
 | Status | **Success** if a request was sent to server or **Failure** if some problems occurred |
-| Message  | Text with detail information in case of errors |
+| Message | Text with detail information in case of errors |
 
 Using these set of trading functions you can simply create any algorithm for your trading strategy. In our further articles, we will cover more specific and practical cases, such as specifying parameters for advanced order types and creating universal trading logic, for different connections.
 

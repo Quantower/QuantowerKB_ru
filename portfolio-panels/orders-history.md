@@ -6,7 +6,7 @@ description: >-
 
 # Orders History
 
- Order History panel is related to Portfolio group of Control Center sidebar.
+Order History panel is related to Portfolio group of Control Center sidebar.
 
 ![The common look of Order History panel](../.gitbook/assets/orderhistory.png)
 

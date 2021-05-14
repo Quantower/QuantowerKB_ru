@@ -4,7 +4,7 @@
 
 ![](../.gitbook/assets/image%20%28164%29.png)
 
-The easiest method is starting troubleshooting with simply **disabling Game Bar**. This could be helpful to remove the key combination and use it for other purposes. Now, you can take these steps:
+The easiest method is starting troubleshooting with simply **disabling Game Bar**. This could be helpful to remove the key combination and use it for other purposes. Now, you can take these steps:
 
 * Press the **Win + I** combination key to open Windows Settings
 * Go to **Gaming &gt; Gaming bar**.
@@ -25,7 +25,7 @@ More details you can find here [https://www.minitool.com/news/ms-gaming-overlay-
 
 ## An error occurred during platform initialization: Exception has been thrown by the target of an invocation
 
-This error occurs due to the removal of the file by the **Avast antivirus or AVG antivirus**, which is necessary for the correct work of the platform. 
+This error occurs due to the removal of the file by the **Avast antivirus or AVG antivirus**, which is necessary for the correct work of the platform.
 
 ![](../.gitbook/assets/image%20%28196%29.png)
 

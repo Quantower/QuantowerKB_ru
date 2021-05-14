@@ -13,7 +13,7 @@ Standalone panels are the minor elements of any Workspace and they behave just l
 * can stick its size to repeat the dimensions of other panels, while resizing;
 * can be collapsed to the OS taskbar as usual windows
 
-### Panel's context menu
+## Panel's context menu
 
 Each panel has its own **context menu**, situated on the left upper corner, right before the Panel’s title.
 

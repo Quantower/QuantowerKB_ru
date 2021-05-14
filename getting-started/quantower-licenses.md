@@ -14,13 +14,13 @@ In case of any problems with your Quantower Account or License purchase — plea
 
 To use any paid License, the trader needs to have an active [Quantower Account](quantower-account.md). If you don’t have one, you can create it during your License purchase process.
 
-{% embed url="https://www.youtube.com/watch?v=sQVm6Pikz1E" %}
+{% embed url="https://www.youtube.com/watch?v=sQVm6Pikz1E" caption="" %}
 
-{% embed url="https://www.youtube.com/watch?v=a-mp3TIZEXc" %}
+{% embed url="https://www.youtube.com/watch?v=a-mp3TIZEXc" caption="" %}
 
 ## License types
 
-We offer a user with a Free license, three packages as well as licenses for separate features. 
+We offer a user with a Free license, three packages as well as licenses for separate features.
 
 ![](../.gitbook/assets/pricing-page.png)
 
@@ -30,7 +30,7 @@ We offer a user with a Free license, three packages as well as licenses for sepa
 * 2 indicators per chart
 * 1 symbol overlay per chart
 
-**Crypto Package** contains the necessary functionality for professional analysis and trading in the cryptocurrency market. For this package are available: 
+**Crypto Package** contains the necessary functionality for professional analysis and trading in the cryptocurrency market. For this package are available:
 
 * all connected crypto exchanges, 
 * simultaneous connection to several exchanges, 

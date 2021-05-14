@@ -12,7 +12,7 @@ In order to use Quantower features from the All-in-one package for free, you jus
 
 Just **enter your API Key and Secret Key** and login to the trading mode. That's all! It doesn't matter to us when your account was created.
 
-{% embed url="https://youtu.be/MeYLkvCmZco" %}
+{% embed url="https://youtu.be/MeYLkvCmZco" caption="" %}
 
 ## **How to switch between Main and Sub-Accounts in FTX?**
 
