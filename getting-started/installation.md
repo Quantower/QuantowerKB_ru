@@ -6,7 +6,7 @@ description: >-
 
 # Установка программы и требования к ПК
 
-* **\*\*\*\* Требования к ПК** \* [\#trebovaniya-k-pk](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-M_f4Pyk7Mw4Z7lmMs7_/getting-started/installation) ``  
+*  **** [Требования к ПК](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-M_f4Pyk7Mw4Z7lmMs7_/getting-started/installation)
 * \*\*\*\*[**Installation Steps**](installation.md#installation-steps)\*\*\*\*
 * \*\*\*\*[**Uninstallation**](installation.md#uninstall)\*\*\*\*
 
