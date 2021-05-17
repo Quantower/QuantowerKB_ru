@@ -1,2 +1,2 @@
-# General Settings
+# Общие Настройки
 

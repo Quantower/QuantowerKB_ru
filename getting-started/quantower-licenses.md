@@ -1,18 +1,18 @@
 ---
 description: >-
-  We offer a user with a Free license, two packages as well as licenses for
-  separate features.
+  Мы предлагаем пользователям бесплатную лицензию, пакет Crypto, два пакета, а
+  также лицензии на отдельные функции.
 ---
 
-# Quantower Licenses
+# Лицензии Quantower
 
-We deliver the most popular trading and analytics functionality for free, but some valuable and market-specific features are available under the paid License.
+Мы предоставляем самые популярные функции торговли и аналитики бесплатно, но некоторые ценные и специфичные для рынка функции доступны по платной лицензии.
 
 {% hint style="info" %}
-In case of any problems with your Quantower Account or License purchase — please [contact our Support team](https://www.quantower.com/contact-us)
+В случае возникновения проблем с вашей учетной записью Quantower или покупкой лицензии - обратитесь в [нашу службу поддержки](https://www.quantower.com/contact-us).
 {% endhint %}
 
-To use any paid License, the trader needs to have an active [Quantower Account](quantower-account.md). If you don’t have one, you can create it during your License purchase process.
+Чтобы использовать любую платную Лицензию, трейдер должен иметь активную учетную запись Quantower. Если у вас ее нет, вы можете [создать аккаунт ](https://accounts.quantower.com/)в процессе покупки лицензии.
 
 {% embed url="https://www.youtube.com/watch?v=sQVm6Pikz1E" caption="" %}
 
