@@ -73,19 +73,19 @@ description: >-
 
 ![&#x41E;&#x43F;&#x43B;&#x430;&#x442;&#x430; &#x437;&#x430;&#x43A;&#x430;&#x437;&#x430; &#x43B;&#x438;&#x446;&#x435;&#x43D;&#x437;&#x438;&#x438; Quantower](../.gitbook/assets/kvantouer-stranica-oplaty.jpg)
 
-After that, you will be redirected to the provider’s payment page. Once you complete all the payment steps, you will be redirected back to the confirmation page of Quantower Accounts. Follow the **GO TO DASHBOARD** link to get to your Quantower Account dashboard, where you should see you current Core License information and Payment transactions history.
+После выбора способа оплаты, вы будете перенаправлены на страницу провайдера. После того, как вы выполните все этапы оплаты, вы будете перенаправлены обратно на страницу подтверждения учетных записей Quantower. Перейдите по ссылке «ПЕРЕЙТИ НА ПАНЕЛЬ УПРАВЛЕНИЯ», чтобы перейти на панель управления учетной записи Quantower, где вы должны увидеть текущую информацию о базовой лицензии и историю платежных транзакций.
 
-## License terms
+## Условия лицензии
 
-Currently, all licenses can be purchased for a 1-month term minimum. You can also get any Quantower paid License for the LIFETIME period — [contact our support](https://www.quantower.com/contact-us) for this.
+На данный момент все лицензии можно приобрести на срок не менее **1 месяца.** Так же, Вы можете получить любую платную лицензию Quantower на ПОЖИЗНЕННЫЙ период, для этого свяжитесь с нашей службой поддержки удобным для Вас способом.
 
-![Status of your licenses in Account dashboard](../.gitbook/assets/account-dashboard-quantower.png)
+![&#x421;&#x442;&#x430;&#x442;&#x443;&#x441; &#x432;&#x430;&#x448;&#x438;&#x445; &#x43B;&#x438;&#x446;&#x435;&#x43D;&#x437;&#x438;&#x439; &#x432; &#x41B;&#x438;&#x447;&#x43D;&#x43E;&#x43C; &#x43A;&#x430;&#x431;&#x438;&#x43D;&#x435;&#x442;&#x435;](../.gitbook/assets/kvantauer-kabinet.jpg)
 
-## Quick tips on License purchase
+## Быстрые советы по покупке Лицензии
 
-* A free License is valid ALL THE TIME while your Quantower Account is active.
-* Any paid License is active from the purchase date till the end date \(“Available till”\).
-* Once your paid License is expired, the Account will be automatically downgraded to the Free License.
-* Every new purchase for the similar license type extends the “Available till” date on the purchasing term.
-* Subscription and automatic payments are currently unavailable.
+* Бесплатная лицензия действительна ВСЕ ВРЕМЯ, пока активна ваша учетная запись Quantower.
+* Любая платная лицензия активна с даты покупки до даты окончания. \(“Доступно до”\).
+* По истечении срока действия вашей платной Лицензии, Аккаунт будет автоматически переведен на бесплатную лицензию.
+* Каждая новая покупка аналогичного типа лицензии продлевает дату «Доступно до» в сроке покупки.
+* Подписка и автоматические платежи в настоящее время недоступны.
 
