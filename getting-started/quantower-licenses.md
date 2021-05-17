@@ -1,7 +1,7 @@
 ---
 description: >-
-  Мы предлагаем пользователям бесплатную лицензию, пакет Crypto, два пакета, а
-  также лицензии на отдельные функции.
+  Мы предлагаем пользователям бесплатную лицензию, пакет Crypto, два комплексных
+  пакета, а также лицензии на отдельные функции.
 ---
 
 # Лицензии Quantower
@@ -18,61 +18,60 @@ description: >-
 
 {% embed url="https://www.youtube.com/watch?v=a-mp3TIZEXc" caption="" %}
 
-## License types
+## Типы лицензий
 
-We offer a user with a Free license, three packages as well as licenses for separate features.
+Мы предлагаем пользователям бесплатную лицензию, пакет Crypto, два комплексных пакета, а также лицензии на отдельные функции.
 
 ![](../.gitbook/assets/pricing-page.png)
 
-**Free license** is granted by default once you have created a Quantower Account. Also, it will be available all the time when you don’t have any active paid License. Using Free license you will get:
+**Бесплатная лицензия** предоставляется по умолчанию после создания учетной записи Quantower. Кроме того, она будет доступна постоянно, если у вас нет активной платной лицензии. Используя бесплатную лицензию, вы получите:
 
-* one active connection to any broker, data feed or exchange
-* 2 indicators per chart
-* 1 symbol overlay per chart
+* одно активное подключение к любому брокеру, каналу данных или бирже
+* 2 индикатора на график
+* 1 наложение символа на график
 
-**Crypto Package** contains the necessary functionality for professional analysis and trading in the cryptocurrency market. For this package are available:
+**Crypto package** содержит необходимый функционал для профессионального анализа и торговли на рынке криптовалют. Для этого пакета доступны:
 
-* all connected crypto exchanges, 
-* simultaneous connection to several exchanges, 
-* [volume analysis tools](https://www.quantower.com/volumeanalysistools) — Cluster chart, Volume Profile, Time Statistics, Time Histogram, VWAP
-* [advanced features](https://www.quantower.com/advancedfeatures) — Renko, Kagi, P&F and Heikin-Ashi chart types, Unlimited Overlays, Unlimited Indicators, Trading Simulator, Chart and Indicator Alerts
+* все подключенные [криптовалютные биржи](https://www.quantower.com/connections)
+* одновременное подключение к нескольким биржам
+* [Инструменты объемного анализа ](https://www.quantower.com/volumeanalysistools)— Кластерные диаграммы, Профиль объема, Статистика по времени, Гистограмма по времени, VWAP
+* [Набор расширенных функций](https://www.quantower.com/advancedfeatures)—  Ренко, Каги, P&F и Хейкен Аши виды графиков, неограниченное количество Overlays, безлимитные индикаторы, торговый симулятор, уведомления с графика и по индикаторам.
 
-**Multi-Asset Package** includes all options that are available in the Crypto Package, plus gives access to Forex, Futures, Stock brokers and other data feeds.
+**Multi-Asset Package** включает все опции, доступные в Crypto Package, а также предоставляет доступ к Forex, Futures, Stock брокерам и другим каналам данных.
 
-**All-in-One Package** includes all available features and connections. Also, all new features will be automatically added and available while your subscription is active.
+**All-in-One Package** включает в себя все доступные функции и подключения. Кроме того, все новые функции будут автоматически добавлены и доступны, пока действует ваша подписка.
 
-\*\*\*\*[**DOM Surface**](https://www.quantower.com/blog/dom-surface-panel-for-deep-order-flow-analysis) license activates full access to the DOM Surface panel. In the free version of the panel, all accumulated data disappears after 3 minutes.
+[**DOM Surface**](https://www.quantower.com/blog/dom-surface-panel-for-deep-order-flow-analysis) лицензия активирует полный доступ к панели DOM Surface. В бесплатной версии панели все накопленные данные исчезают через 3 минуты.
 
-[**Power Trades Scanner**](https://help.quantower.com/analytics-panels/chart/power-trades) license activates the scanner that shows the execution of big amount of orders during the short time.
+[**Power Trades Scanner**](https://help.quantower.com/analytics-panels/chart/power-trades) лицензия активирует сканер, который показывает выполнение большого количества заказов за короткое время.
 
-[**Volume Analysis**](https://www.quantower.com/volumeanalysistools) license activates all available volume tools:
+[**Volume Analysis**](https://www.quantower.com/volumeanalysistools) лицензия активирует все доступные инструменты объема:
 
-* Cluster chart
-* Volume profiles \(Right & Left, Custom, Step profiles\)
-* Time Histogram
-* Time Statistics
-* VWAP tool
-* Historical Time & Sales
+* Кластерные графики
+* Профили объема \(Правый& Левый, пользовательский объем, пошаговый профиль\)
+* Гистограмма по времени
+* Статистика по времени
+* VWAP инструменты
 
-\*\*\*\*[**Advanced Features**](https://www.quantower.com/advancedfeatures) license includes non-standard chart types, simultanious connections, additional functionalities for working with symbol’s history, unlimited chart overlays, and trading simulation.
+[**Advanced Features**](https://www.quantower.com/advancedfeatures) лицензия включает нестандартные типы графиков, одновременные подключения, дополнительные функции для работы с историей символа, неограниченное количество наложений графиков и симуляцию торговли.
 
-[**Options Trading**](https://www.quantower.com/options-trading-features) license activates Options Analytics panel. Currently it's available for free usage.
+[**Options Trading**](https://www.quantower.com/options-trading-features) лицензия активирует панель Options Analytics. В настоящее время он доступен для бесплатного использования.
 
-## License purchase
+## Приобретение лицензии
 
-If you would like to upgrade your Free license, go to our [Pricing page](https://www.quantower.com/pricing), choose the necessary license, it's period and click on the **BUY** button.
+Если вы хотите обновить свою бесплатную лицензию, перейдите на страницу [Pricing page](https://www.quantower.com/pricing), выберите необходимую лицензию, срок ее действия и нажмите кнопку «**КУПИТЬ**».
 
-The purchase process starts with the authorization in the Quantower service. Use your email and password to Sign in to the account. If you don’t have one yet, follow the instructions on [Quantower Account manual](quantower-account.md). Just after you successfully Log in, you will be redirected to the purchase Cart.
+Процесс покупки начинается с авторизации в сервисе Quantower. Используйте свой адрес электронной почты и пароль для входа в учетную запись. Если у вас еще нет аккаунта в Quantower, то создайте его, следуйте инструкциям в руководстве [по учетной записи Quantower](quantower-account.md#registraciya-uchetnoi-zapisi). Сразу после успешного входа в систему вы будете перенаправлены в корзину покупок.
 
-Purchase cart contains the previously selected License type, term of validity and final Price. You can modify the term of validity to any desired option.
+Корзина покупок содержит ранее выбранный тип лицензии, срок действия и окончательную цену. Вы можете изменить срок действия на любой желаемый вариант.
 
-The next step is to select a payment provider and press the **Pay** button.
+Следующим шагом является выбор поставщика платежных услуг и нажатие кнопки «**Оплатить**».
 
 {% hint style="success" %}
-Also, you can make payments in cryptocurrencies or use direct bank transfers. To do it contact our support team.
+Также вы можете совершать платежи в криптовалюте или использовать прямые банковские переводы. Для этого обратитесь в нашу службу поддержки.
 {% endhint %}
 
-![Order payment for Quantower license](../.gitbook/assets/orderpayment-quantower-google-chrome-2019-05-16-11.24.10.png)
+![&#x41E;&#x43F;&#x43B;&#x430;&#x442;&#x430; &#x437;&#x430;&#x43A;&#x430;&#x437;&#x430; &#x43B;&#x438;&#x446;&#x435;&#x43D;&#x437;&#x438;&#x438; Quantower](../.gitbook/assets/kvantouer-stranica-oplaty.jpg)
 
 After that, you will be redirected to the provider’s payment page. Once you complete all the payment steps, you will be redirected back to the confirmation page of Quantower Accounts. Follow the **GO TO DASHBOARD** link to get to your Quantower Account dashboard, where you should see you current Core License information and Payment transactions history.
 
