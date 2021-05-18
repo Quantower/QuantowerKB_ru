@@ -1,12 +1,12 @@
 ---
 description: >-
-  FTX is a cryptocurrency derivatives exchange which supports quarterly and
-  perpetual futures for all major cryptocurrencies.
+  FTX - это биржа криптовалют, которая поддерживает квартальные и бессрочные
+  фьючерсы на все основные криптовалюты.
 ---
 
-# Connection to FTX
+# Подключение к FTX
 
-In order to use Quantower features from the All-in-one package for free, you just need to connect to FTX exchange with your account \(API Key\). If you don’t have an account, please [**open it with a commission discount for 5%**](https://ftx.com/#a=quantower) by using the referral link. All our paid features like volume analysis, power trades, advanced features, DOM surface or TPO profile chart are already available for all FTX symbols at zero cost.
+Чтобы использовать функции [Quantower из пакета All-in-one бесплатно](https://www.quantower.com/connections), вам просто нужно подключиться к бирже FTX со своей учетной записью \(API Key\). Если у вас нет аккаунта, [**откройте его со скидкой 5% на торговые комисии**](https://ftx.com/#a=quantower) по партнерской ссылке. All our paid features like volume analysis, power trades, advanced features, DOM surface or TPO profile chart are already available for all FTX symbols at zero cost.
 
 ## How to get Full License of Quantower for free with FTX?
 
