@@ -1,12 +1,13 @@
 ---
 description: >-
-  Binance Futures allows traders to trade futures on main cryptocurrencies with
-  leverage and open both long & short positions.
+  Binance Futures позволяет трейдерам торговать фьючерсами на основные
+  криптовалюты с кредитным плечом и открывать как длинные, так и короткие
+  позиции.
 ---
 
-# Connection to Binance Futures
+# Подключение к Binance Futures
 
-To start trading on Binance Futures through Quantower platform, you need to open an account and create an **API Key** and **Secret Key**. In this guide, we will show you step-by-step how to set up the connection, change margin type and leverage size.
+Для того, чтобы начать торговать на Binance Futures через платформу Quantower, вам необходимо открыть учетную запись и создать **API-ключ** и **Секретный ключ**. В этом руководстве мы шаг за шагом покажем вам, как настроить соединение, изменить тип маржи и размер кредитного плеча.
 
 * \*\*\*\*[**How to create a new Binance Futures account**](./#how-to-create-a-new-binance-futures-account)\*\*\*\*
 * \*\*\*\*[**How to connect to Binance Futures in Quantower platform**](./#how-to-connect-to-binance-futures-in-quantower-platform)\*\*\*\*
