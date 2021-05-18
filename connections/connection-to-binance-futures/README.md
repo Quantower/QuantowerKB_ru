@@ -19,10 +19,7 @@ description: >-
 
 * **Как создать новую учетную запись Binance Futures**
 * [**Как подключится к Binance Futures in Quantower platform**](./#how-to-connect-to-binance-futures-in-quantower-platform)
-* [**How to get Full License of Quantower for free with Binance?**](./#how-to-get-full-license-of-quantower-for-free-with-binance)
-* [**How to change Leverage and Margin Type**](./#how-to-change-leverage-and-margin-type)
-* [**How to load the history of past trades \(for previous days\)**](./#how-to-load-the-history-of-past-trades-for-previous-days)
-* **Как загрузить историю прошлых сделок \(за предыдущие дни\)**
+* * **Как загрузить историю прошлых сделок \(за предыдущие дни\)**
 * [**Possible Errors with Binance Futures connection**](errors-with-binance-connection.md)
 
 
