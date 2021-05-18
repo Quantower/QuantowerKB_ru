@@ -71,7 +71,7 @@ description: >-
 
 ![](../.gitbook/assets/image%20%2881%29.png)
 
-Чтобы ее исправить, перейдите в настройки **Windows Параметры &gt; Время & Язык &gt;** and click on **Sync Now** button**.**
+Чтобы ее исправить, перейдите в настройки **Windows Параметры &gt; Время и Язык &gt;**  нажмите кнопку **"Синхронизировать"** **.**
 
 ![](../.gitbook/assets/sinkhronizaciya.jpg)
 
