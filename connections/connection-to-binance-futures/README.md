@@ -7,6 +7,12 @@ description: >-
 
 # Подключение к Binance и Binance Futures
 
+{% hint style="warning" %}
+Если у вас уже есть  аккаунт  Binace не старше 1 февраля 2021 года и он был создан без реферальной ссылки то вы можете получить все премиальные функции Quantower.  Если ваш аккаунт не соответствует этим условиям то ничего страшного просто создайте новый 
+{% endhint %}
+
+
+
 Для того, чтобы начать торговать на Binance Futures через платформу Quantower, вам необходимо открыть учетную запись и создать **API-ключ** и **Секретный ключ**. В этом руководстве мы шаг за шагом покажем вам, как настроить соединение, изменить тип маржи и размер кредитного плеча.
 
 * **Как создать новую учетную запись Binance Futures**
@@ -26,8 +32,8 @@ description: >-
 
 ![](../../.gitbook/assets/create-account-binance-futures.png)
 
-* Fill in the account registration form with your email and safe password. Click on Create account and you will receive a verification email shortly. Follow the instructions in the email to complete your registration.
-* Once you are on the Binance Futures page, you should be able to see the first two characters of your email address associated with your account in the top right corner.
+* Заполните форму регистрации учетной записи, указав свой адрес электронной почты и надежный пароль. Нажмите «Создать учетную запись», и вскоре вы получите письмо с подтверждением. Следуйте инструкциям в электронном письме, чтобы завершить регистрацию.
+* Перейдя на страницу Binance Futures, вы должны увидеть первые два символа вашего адреса электронной почты, связанного с вашей учетной записью, в правом верхнем углу.
 
 ![](../../.gitbook/assets/binance-futures-their-terminal.png)
 
