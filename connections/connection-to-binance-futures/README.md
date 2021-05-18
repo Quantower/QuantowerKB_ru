@@ -23,7 +23,6 @@ description: >-
 * Если нужно открыть тестовый счет, перейдите по ссылке [https://testnet.binancefuture.com/en/futures](https://testnet.binancefuture.com/en/futures) **\[\***Testnet Binance Futures\]
 
   
-  ~~Go to the **\*\*\[**Binance Futures**\]\(**~~[~~https://www.binance.com/en/futures~~](https://www.binance.com/en/futures)~~**\) official website to open a \_**live account_**.  If you want to create a**_ demo account**\_, you can open it on \[**Testnet Binance Futures\*\*\]\(~~[~~https://testnet.binancefuture.com/en/futures~~](https://testnet.binancefuture.com/en/futures)~~\) website~~  
 
 ![](../../.gitbook/assets/create-account-binance-futures.png)
 
