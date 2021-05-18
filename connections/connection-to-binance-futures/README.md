@@ -27,13 +27,11 @@ description: >-
 
 ## Как создать новую учетную запись Binance Futures
 
+Прежде чес создать новый аккаунт необходимо убедится что 
 
-
-
-
-
-
-
+{% hint style="danger" %}
+Пожалуйста, обратите внимание! Поле «Идентификатор реферала» должно быть пустым. А так же Вам следует ОЧИСТИТЬ СВОИ COOKIES РЕФЕРРАЛЬНОГО ИДЕНТИФИКАЦИИ в браузере перед регистрацией
+{% endhint %}
 
 * Если Вы хотите открыть реальный счет, перейдите по ссылке [https://www.binance.com/en/futures](https://www.binance.com/en/futures) **\[\***Binance Futures**\]**
 * Если нужно открыть тестовый счет, перейдите по ссылке [https://testnet.binancefuture.com/en/futures](https://testnet.binancefuture.com/en/futures) **\[\***Testnet Binance Futures\]
@@ -88,12 +86,12 @@ description: >-
 First, you need to register a new account on Binance exchange, that wouldn’t be connected with any referral previously. In order to do this, please follow the [https://accounts.binance.com/en/register](https://accounts.binance.com/en/register) link and fill in the registration form.
 
 {% hint style="danger" %}
-Please note! The Referral ID field must be empty. If you see any prefilled ID in this field you should CLEAR YOUR **REFERRAL ID** COOKIES in the browser before registration.
+Пожалуйста, обратиnt внимание! Поле «Идентификатор реферала» должно быть пустым. А так же Вам следует ОЧИСТИТЬ СВОИ COOKIES РЕФЕРРАЛЬНОГО ИДЕНТИФИКАЦИИ в браузере перед регистрацией.
 {% endhint %}
 
 ![Make sure that the Referral ID field is empty](../../.gitbook/assets/screenshot_1.png)
 
-### Clearing Referral ID cookies
+### Очистка файлов cookie идентификатора реферала
 
 Чтобы удалить сохраненные файлы cookie в браузере Chrome, перейдите к «Блоку информации о сайте» и перейдите в раздел «Файлы cookie».
 
