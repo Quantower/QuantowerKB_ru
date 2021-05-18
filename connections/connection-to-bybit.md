@@ -1,72 +1,77 @@
 ---
 description: >-
-  Bybit is a cryptocurrency derivatives exchange that provides trading on the
-  most popular crypto-assets like Bitcoin and Etherium and their perpetual
-  futures.
+  Bybit - это биржа криптовалют, которая обеспечивает торговлю самыми
+  популярными криптоактивами, такими как Биткойн и Эфириум, и их бессрочными
+  фьючерсами.
 ---
 
-# Connection to Bybit
+# Подключение к Bybit
 
-In this guide, we will cover all the steps required to create a trading account on Bybit and connect to the Quantower platform.
+В этом руководстве мы шаг за шагом рассмотрим как создать торговый счет на Bybit и подключиться к платформе Quantower.
 
-* \*\*\*\*[**Open an account on Bybit to get personal API keys**](connection-to-bybit.md#open-an-account-on-bybit-to-get-personal-api-keys)\*\*\*\*
-* \*\*\*\*[**Possible Errors with Bybit connection**](connection-to-bybit.md#possible-errors-with-bybit-connection)\*\*\*\*
+* [**Open an account on Bybit to get personal API keys**](connection-to-bybit.md#open-an-account-on-bybit-to-get-personal-api-keys)
+* [**Possible Errors with Bybit connection**](connection-to-bybit.md#possible-errors-with-bybit-connection)
 
-Note, that in the platform, you can connect to the exchange in two modes:
+Обратите внимание, что в платформе Quantower вы можете подключиться к бирже в двух режимах:
 
-* **Info Mode** — free and quick way to view charts and other data for cryptocurrencies on the Bybit exchange without the need to enter keys
-* **Trading Mode** — for trading on the Bybit exchange in demo or real mode. API Keys are required. Below you will show how to get keys for trading.
+* **Информационный режим** — бесплатный и быстрый способ просмотра графиков и других данных по криптовалютам на бирже Bybit без необходимости вводить ключи.
+* **Торговый режим**— для торговли на бирже Bybit в демо или реальном режиме. Ключи API обязательны. Ниже мы покажем, как получить ключи для торговли.
 
 ![](../.gitbook/assets/bybit-modes.gif)
 
-## Open an account on Bybit to get personal API keys
+## Откройте аккаунт на Bybit, чтобы получить личные ключи API
 
 {% hint style="info" %}
-For **REAL Trading** please create an account on Bybit.com [https://www.bybit.com/en-US/invite/?ref=n9X0D](https://www.bybit.com/en-US/invite/?ref=n9X0D)
+Для РЕАЛЬНОЙ торговли, пожалуйста, создайте учетную запись на Bybit.com [https://www.bybit.com/en-US/invite/?ref=n9X0D](https://www.bybit.com/en-US/invite/?ref=n9X0D)
 
-For **DEMO Trading** please create an account on Testnet.Bybit.com [https://testnet.bybit.com/](https://testnet.bybit.com/)
+Для DEMO торговли создайте учетную запись на Testnet.Bybit.com [https://testnet.bybit.com/](https://testnet.bybit.com/)
 {% endhint %}
 
-Go to the [**Bybit official website** using this link](https://www.bybit.com/en-US/invite?ref=n9X0D) and go through the procedure for registering a new account on the exchange.
+Переходите на **Bybit official website** используя [**эту ссылку**](https://www.bybit.com/en-US/invite?ref=n9X0D) и пройдите процедуру регистрации нового аккаунта на бирже.
 
-For email registration, please enter your email, preferred password and \(!\) referral code **n9X0D**  
-Swipe the verification page then enter the verification code sent to your email inbox.
+Для "регистрации по электронной почте" введите свой адрес электронной почты, желаемый пароль и \(!\) Реферальный код **n9X0D**
+
+Перейдите на страницу проверки и введите проверочный код, отправленный на ваш почтовый ящик.
 
 ![](../.gitbook/assets/image%20%2882%29.png)
 
-To create/manage your Bybit API keys, please click onto the top right on your username. Inside the dropdown menu, click on **'API'.**
+Чтобы создать ключи Bybit API или управлять ими, щелкните в правом верхнем углу на иконку "аккаунт" со своим именем пользователя. В выпадающем меню нажмите **'API'.**
 
 ![](../.gitbook/assets/image%20%2883%29.png)
 
-Click on **'Create New Key'** located on the right side of the **'API Management'** page
+Нажмите на предложение создать ключи **'Create New Key'** \(создать новый ключ\) расположенное справа, после того, как перейдете на вкладку  **'API Management'** 
 
 ![](../.gitbook/assets/image%20%2886%29.png)
 
 {% hint style="warning" %}
-**You need to configure two-factor authorization on Bybit. It is necessary for creating keys.**
+Вам необходимо настроить двухфакторную авторизацию на Bybit. Это необходимо для создания ключей.
 {% endhint %}
 
-The following pop-out window will appear. Please configure your API key according to your trading needs. Enter your Google Authenticator 2FA and click on 'Confirm' to proceed
+Появится следующее всплывающее окно. Пожалуйста, настройте свой ключ API в соответствии с вашими торговыми потребностями. введите Ваш код Google Authenticator 2FA и нажмите  'Confirm' to proceed
 
-Enter your API information, such as a reference name for your API key under **'Name'** and select **'Active Order and Positions'** in the section **'Key Permission',** and proceed to enter your Google authenticator 2FA code before you click on “Confirm”
+Введите информацию о вашем API:  
+-**'Name'** введите информацию о вашем API  
+-**'Key Permission'**  выберите из выпадающего списка  **'Active Order and Positions'**   
+-**'Google authenticator 2FA'** введите код Google authenticator 2FA   
+И подтвердите ввод данных **“Confirm”**
 
 ![](../.gitbook/assets/image%20%2885%29.png)
 
-Once you receive the keys, save them. After closing the window, you will not be able to see the "APIPrivate Key" again.
+**\(!!\)** Получив ключи, сохраните их. После закрытия окна вы не сможете снова увидеть только что созданные ключи  
 
 ![](../.gitbook/assets/image%20%2884%29.png)
 
-Use your personal API Keys to login into your trading account in Quantower platform.
+Полученные таким образом ключи API, используйте для входа в свой торговый счет на платформе Quantower.
 
 ![](../.gitbook/assets/bybit-connected.gif)
 
-## Possible Errors with Bybit connection
+## Возможные ошибки при подключении Bybit
 
-**"Timestamp error"** means that your local time on PC is not the same as on Bybit servers and it should be synchronized.
+**"Timestamp error"** означает, что ваше местное время на ПК отличается от времени на серверах Bybit и его следует синхронизировать.
 
 ![](../.gitbook/assets/image%20%2881%29.png)
 
-To solve it, please, go to **Windows Settings &gt; Time & Language &gt;** and click on **Sync Now** button**.**
+Чтобы ее исправить, перейдите в настройки **Windows Параметры &gt; Время & Язык &gt;** and click on **Sync Now** button**.**
 
-![](../.gitbook/assets/image%20%2892%29.png)
+![](../.gitbook/assets/sinkhronizaciya.jpg)
 
