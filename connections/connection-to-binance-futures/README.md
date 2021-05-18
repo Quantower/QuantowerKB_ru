@@ -103,9 +103,9 @@ First, you need to register a new account on Binance exchange, that wouldn’t b
 
 Создав новую учетную запись на бирже Binance, вы можете войти в систему, используя свои новые учетные данные через терминал Quantower. Если вы строго следовали руководству то  начнете  использовать все его премиум-функции бесплатно.
 
-### How to check that your account has a Full license in Quantower?
+### Как проверить что у вас полная лицензия Quantower?
 
-Once you created a new account with Binance Spot, Binance Futures, please login to the platform in trading mode with your API Keys. After that, open **\*\*\[**Account Info **panel\]\(../../informational-panels/account-info.md\) and check that the field** Full license is Enabled\*\*.
+После того, как вы создали новую учетную запись на Binance Spot, Binance Futures, войдите на платформу в режиме торговли с вашими ключами API. После этого откройте  ****Панель информации об учетной записи  и убедитесь, что в поле **Полная лицензия включена** .
 
 ![](../../.gitbook/assets/image%20%28167%29.png)
 
