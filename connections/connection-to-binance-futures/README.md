@@ -16,7 +16,7 @@ description: >-
 Для того, чтобы начать торговать на Binance Futures через платформу Quantower, вам необходимо открыть учетную запись и создать **API-ключ** и **Секретный ключ**. В этом руководстве мы шаг за шагом покажем вам, как настроить соединение, изменить тип маржи и размер кредитного плеча.
 
 * **Как создать новую учетную запись Binance Futures**
-* [**How to connect to Binance Futures in Quantower platform**](./#how-to-connect-to-binance-futures-in-quantower-platform)
+* [**Как подключится к Binance Futures in Quantower platform**](./#how-to-connect-to-binance-futures-in-quantower-platform)
 * [**How to get Full License of Quantower for free with Binance?**](./#how-to-get-full-license-of-quantower-for-free-with-binance)
 * [**How to change Leverage and Margin Type**](./#how-to-change-leverage-and-margin-type)
 * [**How to load the history of past trades \(for previous days\)**](./#how-to-load-the-history-of-past-trades-for-previous-days)
@@ -33,10 +33,8 @@ description: >-
 Пожалуйста, обратите внимание! Поле «Идентификатор реферала» должно быть пустым. А так же Вам следует ОЧИСТИТЬ СВОИ COOKIES РЕФЕРРАЛЬНОГО ИДЕНТИФИКАЦИИ в браузере перед регистрацией
 {% endhint %}
 
-* Если Вы хотите открыть реальный счет, перейдите по ссылке [https://www.binance.com/en/futures](https://www.binance.com/en/futures) **\[\***Binance Futures**\]**
-* Если нужно открыть тестовый счет, перейдите по ссылке [https://testnet.binancefuture.com/en/futures](https://testnet.binancefuture.com/en/futures) **\[\***Testnet Binance Futures\]
-
-  
+* Если Вы хотите открыть реальный счет, перейдите по ссылке [https://www.binance.com/en/futures](https://www.binance.com/en/futures) 
+* Если нужно открыть тестовый счет, перейдите по ссылке [https://testnet.binancefuture.com/en/futures](https://testnet.binancefuture.com/en/futures)  
 
 ![](../../.gitbook/assets/create-account-binance-futures.png)
 
@@ -78,12 +76,14 @@ description: >-
 ## Как получить бесплатно все функции Quantower для Binance?
 
 {% hint style="danger" %}
-Если у вас уже есть  аккаунт  Binace не старше 1 февраля 2021 года и он был создан без реферальной ссылки то вы можете получить все премиальные функции Quantower.  Если ваш аккаунт не соответствует этим условиям то ничего страшного просто создайте новый 
+Если у вас уже есть  аккаунт  Binace **не старше 1 февраля 2021** года и он был создан **без реферальной ссылки** то вы можете получить все премиальные функции Quantower.  
+
+Если ваш аккаунт не соответствует этим условиям то ничего страшного просто создайте новый 
 {% endhint %}
 
 
 
-First, you need to register a new account on Binance exchange, that wouldn’t be connected with any referral previously. In order to do this, please follow the [https://accounts.binance.com/en/register](https://accounts.binance.com/en/register) link and fill in the registration form.
+Во-первых, вам необходимо зарегистрировать новую учетную запись на бирже Binance, которая ранее не была связана с каким-либо рефералом. Для этого перейдите по ссылке [https://accounts.binance.com/en/register](https://accounts.binance.com/en/register) и заполните регистрационную форму.
 
 {% hint style="danger" %}
 Пожалуйста, обратиnt внимание! Поле «Идентификатор реферала» должно быть пустым. А так же Вам следует ОЧИСТИТЬ СВОИ COOKIES РЕФЕРРАЛЬНОГО ИДЕНТИФИКАЦИИ в браузере перед регистрацией.
@@ -124,28 +124,28 @@ Binance предлагает два типа маржи для торговли 
 ![](../../.gitbook/assets/margin-type-binance-futures.png)
 
 {% hint style="danger" %}
-Для новых счетов, на которых не было сделок, невозможно изменить кредитное плечо и тип маржи. 
+Для **новых счетов**, на которых не было сделок, невозможно изменить кредитное плечо и тип маржи. 
 
-Чтобы включить эти функции, вам необходимо совершить как минимум 1 сделку по текущему символу. После этого перезапустите платформу, и эти функции станут доступны.
+Чтобы включить эти функции, вам необходимо совершить как минимум **1 сделку** по текущему символу. После этого перезапустите платформу, и эти функции станут доступны.
 {% endhint %}
 
 ![Make one trade to activate Leverage and Margin type for Binance Futures in Quantower](../../.gitbook/assets/symbol-info-binance-futures.png)
 
-## **How to load the history of past trades \(for previous days\)**
+## Как загрузить историю прошлых сделок \(за предыдущие дни\)
 
-All trades made during the active session of the platform can be displayed on the chart, as well as in the Trades panel. To display trades for previous days, you need to activate the option **"Load user trades history"** in the connection settings.
+Все сделки, совершенные во время активной сессии платформы, могут отображаться на графике, а также на панели «Сделки». Для отображения сделок за предыдущие дни необходимо в настройках подключения активировать опцию «**Загружать историю сделок пользователя**».
 
 {% hint style="info" %}
-Due to Binance API limitations, it takes several minutes \(up to 5 minutes\) to load data on past trades. In addition, only data from the last 7 days can be downloaded.
+Из-за ограничений API Binance загрузка данных о прошлых сделках занимает несколько минут \(до 5 минут\). Кроме того, можно загрузить только данные за последние 7 дней.
 {% endhint %}
 
 ![](../../.gitbook/assets/image%20%28175%29.png)
 
-## **How to change Hedge Mode \(One position & Multiple positions\)**
+### Как изменить режим хеджирования \(одна позиция и несколько позиций\)
 
-**One Position mode** means that traders can only hold positions in one direction under one contract. If you open a short position, anticipating that the price will go down in the longer timeframe, but in the meanwhile wanted to open a long to do a trade for a shorter time frame. You are unable to open positions in both directions at the same time. Opening positions in both directions would result in canceling one another out.
+**Режим одной позиции** означает, что трейдеры могут удерживать позиции только в одном направлении по одному контракту. Если вы открываете короткую позицию, ожидая, что цена пойдет вниз на более длинном таймфрейме, но тем временем хотели открыть длинную позицию, чтобы совершить сделку на более коротком таймфрейме. Вы не можете открывать позиции в обоих направлениях одновременно. Открытие позиций в обоих направлениях приведет к взаимной отмене друг друга. ‌ 
 
-**Multiple Positions mode** means that traders can hold positions in both long and short directions at the same time under the same contract. For example, you could now hold both long and short positions of the BTCUSDT contract at the same time.
+**Режим нескольких позиций** означает, что трейдеры могут одновременно удерживать позиции как в длинных, так и в коротких направлениях по одному и тому же контракту. Например, теперь вы можете одновременно держать как длинные, так и короткие позиции по контракту BTCUSDT.
 
 ![](../../.gitbook/assets/image%20%28176%29.png)
 
