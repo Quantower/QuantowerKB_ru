@@ -22,7 +22,7 @@ description: >-
 * [**How to get Full License of Quantower for free with Binance?**](./#how-to-get-full-license-of-quantower-for-free-with-binance)
 * [**How to change Leverage and Margin Type**](./#how-to-change-leverage-and-margin-type)
 * [**How to load the history of past trades \(for previous days\)**](./#how-to-load-the-history-of-past-trades-for-previous-days)
-* [**How to change Hedge Mode \(One position & Multiple positions\)**](./#how-to-change-hedge-mode-one-position-and-multiple-positions)
+* **Как загрузить историю прошлых сделок \(за предыдущие дни\)**
 * [**Possible Errors with Binance Futures connection**](errors-with-binance-connection.md)
 
 
@@ -51,17 +51,19 @@ description: >-
 
 
 
-* Нажмите на логотип своей учетной записи и в разделе «Настройки» выберите «Управление API». Создайте новый ключ API \(если у вас его нет\) и сохраните его.
+* Нажмите на логотип своей учетной записи и в разделе «Настройки» выберите «Управление API». Создайте новый ключ API и сохраните его.
 
-![](../../.gitbook/assets/api-binance-futures.png)
 
-После того, как вы создадите ключ API, нажмите меню «Кошелек» и выберите раздел «Фьючерсы». После подтверждения открытия фьючерсного счета для вашего ключа появится дополнительная опция, которая называется «Включить фьючерсы».
 
 {% hint style="warning" %}
 Сохраните API-ключ и Секретный ключ в надежном месте. Секретный ключ вам будет показан единожды. Ключи всегда можно отменить или переделать в личном кабинете.
 {% endhint %}
 
-Пожалуйста, активируйте фьючерсную торговлю поставив галочку в соответствующем поле, После этого вы сможете подключиться к Binance Futures в Quantower
+![](../../.gitbook/assets/api-binance-futures.png)
+
+После того, как вы создадите ключ API, нажмите меню «Кошелек» и выберите раздел «Фьючерсы». После подтверждения открытия фьючерсного счета для вашего ключа появится дополнительная опция, которая называется «**Включить фьючерсы**».
+
+Пожалуйста, **активируйте** фьючерсную торговлю поставив галочку в соответствующем поле, После этого вы сможете подключиться к Binance Futures в Quantower
 
 ![](../../.gitbook/assets/image%20%2887%29.png)
 
@@ -88,7 +90,7 @@ description: >-
 Во-первых, вам необходимо зарегистрировать новую учетную запись на бирже Binance, которая ранее не была связана с каким-либо рефералом. Для этого перейдите по ссылке [https://accounts.binance.com/en/register](https://accounts.binance.com/en/register) и заполните регистрационную форму.
 
 {% hint style="danger" %}
-Пожалуйста, обратиnt внимание! Поле «Идентификатор реферала» должно быть пустым. А так же Вам следует ОЧИСТИТЬ СВОИ COOKIES РЕФЕРРАЛЬНОГО ИДЕНТИФИКАЦИИ в браузере перед регистрацией.
+Пожалуйста, обратите внимание! Поле «Идентификатор реферала» должно быть пустым. А так же Вам следует ОЧИСТИТЬ СВОИ COOKIES РЕФЕРРАЛЬНОГО ИДЕНТИФИКАЦИИ в браузере перед регистрацией.
 {% endhint %}
 
 ![Make sure that the Referral ID field is empty](../../.gitbook/assets/screenshot_1.png)
