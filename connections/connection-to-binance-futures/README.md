@@ -95,7 +95,7 @@ Please note! The Referral ID field must be empty. If you see any prefilled ID in
 
 ### Clearing Referral ID cookies
 
-To clear your saved cookies in the Chrome browser, you should proceed to the “Site information block” and follow the “Cookies section”
+Чтобы удалить сохраненные файлы cookie в браузере Chrome, перейдите к «Блоку информации о сайте» и перейдите в раздел «Файлы cookie».
 
 ![Page cookies can be found via the Page info](../../.gitbook/assets/screenshot_2.png)
 
