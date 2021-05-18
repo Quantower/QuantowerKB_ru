@@ -109,24 +109,24 @@ First, you need to register a new account on Binance exchange, that wouldn’t b
 
 ![](../../.gitbook/assets/image%20%28167%29.png)
 
-## How to change Leverage and Margin Type
+## Как сменить кредитное плече
 
-* Binance Futures allows you to trade various instruments and manually change the leverage for each one. To change it, open the [**Symbol Info**](../../informational-panels/symbol-info.md) panel and select the necessary symbol. At the bottom of this panel there is a **Leverage** field where you can change the value and apply it by clicking the **Enter** button.
+Binance Futures позволяет торговать различными инструментами и вручную изменять кредитное плечо для каждого из них. Чтобы изменить его, откройте панель «Информация о символе» и выберите нужный символ. Внизу этой панели есть поле «Кредитное плечо», где вы можете изменить значение и применить его, нажав кнопку «Ввод».
 
 ![](../../.gitbook/assets/leverage-binance-futures.png)
 
-Binance offers two types of margin for futures trading:
+Binance предлагает два типа маржи для торговли фьючерсами: ‌ 
 
-**Cross Margin Mode**: Share your margin balance across all open positions to avoid liquidation. In the event of liquidation you risk losing your full margin balance along with any remaining open positions.
+**Режим кросс-маржи**: разделите свой маржинальный баланс между всеми открытыми позициями, чтобы избежать ликвидации. В случае ликвидации вы рискуете потерять полный баланс маржи вместе с любыми оставшимися открытыми позициями. ‌ 
 
-**Isolated Margin Mode**: Manage your risk on individual positions by restricting the amount of margin allocated to each. If the margin ratio of a position reached 100%, the position will be liquidated. Margin can be added or removed to positions using this mode.
+**Режим изолированной маржи**: управляйте своим риском по отдельным позициям, ограничивая размер маржи, выделяемой для каждой позиции. Если коэффициент маржи позиции достиг 100%, позиция будет ликвидирована. Маржа может быть добавлена ​​или удалена с позиций с помощью этого режима.
 
 ![](../../.gitbook/assets/margin-type-binance-futures.png)
 
 {% hint style="danger" %}
-For new accounts on which no trades were made, it is **not possible to change the leverage and margin type**.
+Для новых счетов, на которых не было сделок, невозможно изменить кредитное плечо и тип маржи. 
 
-To enable these functions, you need to make at least 1 trade for current symbol. After that, please restart the platform and these features will be available.
+Чтобы включить эти функции, вам необходимо совершить как минимум 1 сделку по текущему символу. После этого перезапустите платформу, и эти функции станут доступны.
 {% endhint %}
 
 ![Make one trade to activate Leverage and Margin type for Binance Futures in Quantower](../../.gitbook/assets/symbol-info-binance-futures.png)
