@@ -9,15 +9,15 @@ description: >-
 
 Для того, чтобы начать торговать на Binance Futures через платформу Quantower, вам необходимо открыть учетную запись и создать **API-ключ** и **Секретный ключ**. В этом руководстве мы шаг за шагом покажем вам, как настроить соединение, изменить тип маржи и размер кредитного плеча.
 
-* \*\*\*\*[**How to create a new Binance Futures account**](./#how-to-create-a-new-binance-futures-account)\*\*\*\*
-* \*\*\*\*[**How to connect to Binance Futures in Quantower platform**](./#how-to-connect-to-binance-futures-in-quantower-platform)\*\*\*\*
-* \*\*\*\*[**How to get Full License of Quantower for free with Binance?**](./#how-to-get-full-license-of-quantower-for-free-with-binance)\*\*\*\*
-* \*\*\*\*[**How to change Leverage and Margin Type**](./#how-to-change-leverage-and-margin-type)\*\*\*\*
-* \*\*\*\*[**How to load the history of past trades \(for previous days\)**](./#how-to-load-the-history-of-past-trades-for-previous-days)\*\*\*\*
-* \*\*\*\*[**How to change Hedge Mode \(One position & Multiple positions\)**](./#how-to-change-hedge-mode-one-position-and-multiple-positions)\*\*\*\*
-* \*\*\*\*[**Possible Errors with Binance Futures connection**](errors-with-binance-connection.md)\*\*\*\*
+* [**How to create a new Binance Futures account**](./#how-to-create-a-new-binance-futures-account)
+* [**How to connect to Binance Futures in Quantower platform**](./#how-to-connect-to-binance-futures-in-quantower-platform)
+* [**How to get Full License of Quantower for free with Binance?**](./#how-to-get-full-license-of-quantower-for-free-with-binance)
+* [**How to change Leverage and Margin Type**](./#how-to-change-leverage-and-margin-type)
+* [**How to load the history of past trades \(for previous days\)**](./#how-to-load-the-history-of-past-trades-for-previous-days)
+* [**How to change Hedge Mode \(One position & Multiple positions\)**](./#how-to-change-hedge-mode-one-position-and-multiple-positions)
+* [**Possible Errors with Binance Futures connection**](errors-with-binance-connection.md)
 
-## How to create a new Binance Futures account
+## Как создать новую учетную запись Binance Futures
 
 * Go to the **\*\*\[**Binance Futures**\]\(**[https://www.binance.com/en/futures](https://www.binance.com/en/futures)**\) official website to open a \_**live account_**.  If you want to create a**_ demo account**\_, you can open it on \[**Testnet Binance Futures\*\*\]\([https://testnet.binancefuture.com/en/futures](https://testnet.binancefuture.com/en/futures)\) website
 
