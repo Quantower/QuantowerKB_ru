@@ -1,21 +1,21 @@
 ---
 description: >-
-  Bybit is a cryptocurrency derivatives exchange that provides trading on the
-  most popular crypto-assets like Bitcoin and Etherium and their perpetual
-  futures.
+  Bybit - это биржа криптовалют, которая обеспечивает торговлю самыми
+  популярными криптоактивами, такими как Биткойн и Эфириум, и их бессрочными
+  фьючерсами.
 ---
 
-# Connection to Bybit
+# Подключение к Bybit
 
-In this guide, we will cover all the steps required to create a trading account on Bybit and connect to the Quantower platform.
+В этом руководстве мы шаг за шагом рассмотрим как создать торговый счет на Bybit и подключиться к платформе Quantower.
 
-* \*\*\*\*[**Open an account on Bybit to get personal API keys**](connection-to-bybit.md#open-an-account-on-bybit-to-get-personal-api-keys)\*\*\*\*
-* \*\*\*\*[**Possible Errors with Bybit connection**](connection-to-bybit.md#possible-errors-with-bybit-connection)\*\*\*\*
+* [**Open an account on Bybit to get personal API keys**](connection-to-bybit.md#open-an-account-on-bybit-to-get-personal-api-keys)
+* [**Possible Errors with Bybit connection**](connection-to-bybit.md#possible-errors-with-bybit-connection)
 
-Note, that in the platform, you can connect to the exchange in two modes:
+Обратите внимание, что в платформе Quantower вы можете подключиться к бирже в двух режимах:
 
-* **Info Mode** — free and quick way to view charts and other data for cryptocurrencies on the Bybit exchange without the need to enter keys
-* **Trading Mode** — for trading on the Bybit exchange in demo or real mode. API Keys are required. Below you will show how to get keys for trading.
+* **Информационный режим** — бесплатный и быстрый способ просмотра графиков и других данных по криптовалютам на бирже Bybit без необходимости вводить ключи.
+* **Торговый режим**— для торговли на бирже Bybit в демо или реальном режиме. Ключи API обязательны. Ниже мы покажем, как получить ключи для торговли.
 
 ![](../.gitbook/assets/bybit-modes.gif)
 

@@ -37,13 +37,23 @@ description: >-
 
 ![](../../.gitbook/assets/binance-futures-their-terminal.png)
 
-* Click on the logo of your account and in the _**Settings**_ section select _**API Management**_. Create a new API Key \(if you don't have it\) and save it.
+Вам необходимо перейти меню фьючерсная торговля и пройти небольшой тест для активации фьючерсного рынка.
+
+![](../../.gitbook/assets/image.png)
+
+
+
+* Нажмите на логотип своей учетной записи и в разделе «Настройки» выберите «Управление API». Создайте новый ключ API \(если у вас его нет\) и сохраните его.
 
 ![](../../.gitbook/assets/api-binance-futures.png)
 
-Once you will create an API key, please click on the **Wallet** menu and select **Futures** section. After confirming the opening of a futures account, an additional option will appear for your key, which is called **Enable Futures**.
+После того, как вы создадите ключ API, нажмите меню «Кошелек» и выберите раздел «Фьючерсы». После подтверждения открытия фьючерсного счета для вашего ключа появится дополнительная опция, которая называется «Включить фьючерсы».
 
-Please activate it and after you can connect to Binance Futures in Quantower
+{% hint style="warning" %}
+Сохраните API-ключ и Секретный ключ в надежном месте. Секретный ключ вам будет показан единожды. Ключи всегда можно отменить или переделать в личном кабинете.
+{% endhint %}
+
+Пожалуйста, активируйте фьючерсную торговлю поставив галочку в соответствующем поле, После этого вы сможете подключиться к Binance Futures в Quantower
 
 ![](../../.gitbook/assets/image%20%2887%29.png)
 
