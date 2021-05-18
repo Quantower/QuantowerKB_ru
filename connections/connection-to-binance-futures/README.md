@@ -33,7 +33,7 @@ description: >-
 Прежде чем создать новый аккаунт необходимо убедится что: 
 
 {% hint style="danger" %}
- Поле «Идентификатор реферала» должно быть пустым. А так же Вам следует [**ОЧИСТИТЬ СВОИ COOKIES РЕФЕРРАЛЬНОЙ ИДЕНТИФИКАЦИИ**](./#kak-ochistit-cookie-faily-identifikatora-referala) в браузере перед регистрацией
+ Поле «Идентификатор реферала» должно быть пустым. А так же Вам следует [**ОЧИСТИТЬ СВОИ COOKIES РЕФЕРАЛЬНОЙ ИДЕНТИФИКАЦИИ**](./#kak-ochistit-cookie-faily-identifikatora-referala) в браузере перед регистрацией
 {% endhint %}
 
 * Если Вы хотите открыть реальный счет, перейдите по ссылке [https://www.binance.com/en/futures](https://www.binance.com/en/futures) 
