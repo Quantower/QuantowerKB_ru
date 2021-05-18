@@ -99,7 +99,7 @@ To clear your saved cookies in the Chrome browser, you should proceed to the “
 
 ![Page cookies can be found via the Page info](../../.gitbook/assets/screenshot_2.png)
 
-Now select each group of cookies and press the “Remove” button. When there will be no cookies in the list, please, press the “Done” button. Now you should refresh your registration page and make sure that the “Referral ID” field is empty.
+Теперь выберите каждую группу файлов cookie и нажмите кнопку «Удалить». Когда в списке не будет файлов cookie, нажмите кнопку «Готово». Теперь вам следует обновить страницу регистрации и убедиться, что поле «Реферальный идентификатор» пусто.
 
 ![Binance stores referral data in cookies](../../.gitbook/assets/screenshot_3%20%283%29.png)
 
