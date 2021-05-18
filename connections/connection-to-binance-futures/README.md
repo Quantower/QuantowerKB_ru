@@ -17,9 +17,13 @@ description: >-
 
 Для того, чтобы начать торговать на Binance Futures через платформу Quantower, вам необходимо открыть учетную запись и создать **API-ключ** и **Секретный ключ**. В этом руководстве мы шаг за шагом покажем вам, как настроить соединение, изменить тип маржи и размер кредитного плеча.
 
-* **Как создать новую учетную запись Binance Futures**
-* [**Как подключится к Binance Futures in Quantower platform**](./#how-to-connect-to-binance-futures-in-quantower-platform)
-* **Как загрузить историю прошлых сделок \(за предыдущие дни\)**
+* \*\*\*\*[**Как создать новую учетную запись Binance Futures**](./#kak-sozdat-novuyu-uchetnuyu-zapis-binance-futures)**?**
+* \*\*\*\*[**Как подключится  Binance Futures или Binance spot используя  Quantower?**](./#kak-podklyuchitsya-binance-futures-ili-binance-spot-ispolzuya-quantower)\*\*\*\*
+* \*\*\*\*[**Как получить бесплатно все функции Quantower для Binance?**](./#kak-poluchit-besplatno-vse-funkcii-quantower-dlya-binance)\*\*\*\*
+* \*\*\*\*[**Как очистить cookie файлы идентификатора реферала**](./#kak-ochistit-cookie-faily-identifikatora-referala)\*\*\*\*
+* \*\*\*\*[**Как проверить что у вас полная лицензия Quantower?**](./#kak-proverit-chto-u-vas-polnaya-licenziya-quantower)\*\*\*\*
+* \*\*\*\*[**Как загрузить историю прошлых сделок \(за предыдущие дни\)**](./#kak-zagruzit-istoriyu-proshlykh-sdelok-za-predydushie-dni)\*\*\*\*
+* \*\*\*\*[**Как сменить кредитное плече**](./#kak-smenit-kreditnoe-pleche)\*\*\*\*
 * [**Possible Errors with Binance Futures connection**](errors-with-binance-connection.md)
 
 
@@ -66,7 +70,7 @@ description: >-
 
 ![](../../.gitbook/assets/image%20%2890%29.png)
 
-## Как подключится  Binance Futures или Binance spot используя  Quantower
+### Как подключится  Binance Futures или Binance spot используя  Quantower
 
 * Запустите платформу Quantower и откройте диспетчер подключений. Выберите в списке Binance Futures или  Binance и выберите тип подключений - ИНФОРМАЦИОННЫЙ или ТОРГОВЫЙ режим. 
 
@@ -74,7 +78,7 @@ description: >-
 
 * Для торговли введите свой ключ API и секретный ключ.
 
-## Как получить бесплатно все функции Quantower для Binance?
+### Как получить бесплатно все функции Quantower для Binance?
 
 {% hint style="danger" %}
 Если у вас уже есть  аккаунт  Binace **не старше 1 февраля 2021** года и он был создан **без реферальной ссылки** то вы можете получить все премиальные функции Quantower.  
@@ -92,7 +96,7 @@ description: >-
 
 ![Make sure that the Referral ID field is empty](../../.gitbook/assets/screenshot_1.png)
 
-### Очистка файлов cookie идентификатора реферала
+### Как очистить cookie файлы идентификатора реферала
 
 Чтобы удалить сохраненные файлы cookie в браузере Chrome, перейдите к «Блоку информации о сайте» и перейдите в раздел «Файлы cookie».
 
