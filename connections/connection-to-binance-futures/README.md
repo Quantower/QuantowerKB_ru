@@ -23,7 +23,17 @@ description: >-
 * [**How to change Hedge Mode \(One position & Multiple positions\)**](./#how-to-change-hedge-mode-one-position-and-multiple-positions)
 * [**Possible Errors with Binance Futures connection**](errors-with-binance-connection.md)
 
+
+
 ## Как создать новую учетную запись Binance Futures
+
+
+
+
+
+
+
+
 
 * Если Вы хотите открыть реальный счет, перейдите по ссылке [https://www.binance.com/en/futures](https://www.binance.com/en/futures) **\[\***Binance Futures**\]**
 * Если нужно открыть тестовый счет, перейдите по ссылке [https://testnet.binancefuture.com/en/futures](https://testnet.binancefuture.com/en/futures) **\[\***Testnet Binance Futures\]
@@ -59,19 +69,21 @@ description: >-
 
 ![](../../.gitbook/assets/image%20%2890%29.png)
 
-## How to connect to Binance Futures in Quantower platform
+## Как подключится  Binance Futures или Binance spot используя  Quantower
 
-* Launch Quantower platform and open [Connections Manager](../connections-manager.md). Select Binance Futures in the list and select the type of connections — **INFO** or **TRADING** mode.
+* Запустите платформу Quantower и откройте диспетчер подключений. Выберите в списке Binance Futures или  Binance и выберите тип подключений - ИНФОРМАЦИОННЫЙ или ТОРГОВЫЙ режим. 
 
 ![](../../.gitbook/assets/connection-binance-futures.gif)
 
-* For trading, please enter your **API Key** and **Secret Key**.
+* Для торговли введите свой ключ API и секретный ключ.
 
-## How to get Full License of Quantower for free with Binance?
+## Как получить бесплатно все функции Quantower для Binance?
 
 {% hint style="danger" %}
-If you already have a binance account and it is older than **1 FEBRUARY 2021**, then you need to create a new account in order to use all the paid quantower features
+Если у вас уже есть  аккаунт  Binace не старше 1 февраля 2021 года и он был создан без реферальной ссылки то вы можете получить все премиальные функции Quantower.  Если ваш аккаунт не соответствует этим условиям то ничего страшного просто создайте новый 
 {% endhint %}
+
+
 
 First, you need to register a new account on Binance exchange, that wouldn’t be connected with any referral previously. In order to do this, please follow the [https://accounts.binance.com/en/register](https://accounts.binance.com/en/register) link and fill in the registration form.
 
@@ -91,7 +103,7 @@ Now select each group of cookies and press the “Remove” button. When there w
 
 ![Binance stores referral data in cookies](../../.gitbook/assets/screenshot_3%20%283%29.png)
 
-When you’ve created a new account with the Binance exchange you may log in using your new credentials via the Quantower terminal and start using all of its premium features for free.
+Создав новую учетную запись на бирже Binance, вы можете войти в систему, используя свои новые учетные данные через терминал Quantower. Если вы строго следовали руководству то  начнете  использовать все его премиум-функции бесплатно.
 
 ### How to check that your account has a Full license in Quantower?
 
