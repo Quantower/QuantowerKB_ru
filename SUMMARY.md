@@ -32,7 +32,7 @@
   * [General settings](general-settings/general-settings-1.md)
 * [Подключения к брокерам и биржам](connections/README.md)
   * [Connections manager](connections/connections-manager.md)
-  * [Подключение к Binance Futures](connections/connection-to-binance-futures/README.md)
+  * [Подключение к Binance и Binance Futures](connections/connection-to-binance-futures/README.md)
     * [Errors with Binance connection](connections/connection-to-binance-futures/errors-with-binance-connection.md)
   * [Connection to FTX](connections/connection-to-ftx.md)
   * [Connection to CQG \(AMP Futures\)](connections/connection-to-cqg-amp-futures/README.md)
