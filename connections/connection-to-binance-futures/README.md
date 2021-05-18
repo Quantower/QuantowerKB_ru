@@ -19,7 +19,7 @@ description: >-
 
 * **Как создать новую учетную запись Binance Futures**
 * [**Как подключится к Binance Futures in Quantower platform**](./#how-to-connect-to-binance-futures-in-quantower-platform)
-* * **Как загрузить историю прошлых сделок \(за предыдущие дни\)**
+* **Как загрузить историю прошлых сделок \(за предыдущие дни\)**
 * [**Possible Errors with Binance Futures connection**](errors-with-binance-connection.md)
 
 
