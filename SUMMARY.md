@@ -45,7 +45,7 @@
     * [How to connect to IC Markets via Quantower](connections/connection-to-ctrader/how-to-connect-to-ic-markets-via-quantower.md)
   * [Connection to Rithmic](connections/connection-to-rithmic.md)
   * [Connection to Interactive Brokers](connections/connect-quantower-to-interactive-broker.md)
-  * [Connection to Bybit](connections/connection-to-bybit.md)
+  * [Подключение к Bybit](connections/connection-to-bybit.md)
   * [Connection to MetaStock](connections/connection-to-metastock.md)
   * [Connection to IQFeed](connections/connection-to-iqfeed.md)
   * [Connection to Exante](connections/connection-to-exante.md)
