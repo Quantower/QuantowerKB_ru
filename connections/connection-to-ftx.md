@@ -6,17 +6,17 @@ description: >-
 
 # Подключение к FTX
 
-Чтобы использовать функции [Quantower из пакета All-in-one бесплатно](https://www.quantower.com/connections), вам просто нужно подключиться к бирже FTX со своей учетной записью \(API Key\). Если у вас нет аккаунта, [**откройте его со скидкой 5% на торговые комисии**](https://ftx.com/#a=quantower) по партнерской ссылке. All our paid features like volume analysis, power trades, advanced features, DOM surface or TPO profile chart are already available for all FTX symbols at zero cost.
+Чтобы использовать функции [Quantower из пакета All-in-one бесплатно](https://www.quantower.com/connections), вам просто нужно подключиться к бирже FTX со своей учетной записью \(API Key\). Если у вас нет аккаунта, [**откройте его со скидкой 5% на торговые комисии**](https://ftx.com/#a=quantower) по партнерской ссылке. Все наши платные функции, такие как объемный анализ, power trades, расширенные возможности, поверхность DOM или TPO диаграмма профиля, уже доступны для всех символов FTX бесплатно.
 
-## How to get Full License of Quantower for free with FTX?
+## Как получить полную лицензию Quantower бесплатно с FTX?
 
-Just **enter your API Key and Secret Key** and login to the trading mode. That's all! It doesn't matter to us when your account was created.
+Просто введите свой ключ **API Key и Secret Key** и войдите в режим торговли. Это все! Для нас не имеет значения, когда была создана ваша учетная запись. 
 
 {% embed url="https://youtu.be/MeYLkvCmZco" caption="" %}
 
-## **How to switch between Main and Sub-Accounts in FTX?**
+## Как переключаться между основным и дополнительным счетами в FTX?
 
-Added the ability to select the main and sub-accounts. Due to the specifics of the exchange API, the speed of order processing was executed with a delay of up to 5 seconds, which led to a slippage of the order and incorrect opening of orders. For example, if you work only on the Main account, the processing of orders is much faster than when you connect to multiple accounts \(Main + Sub-accounts\).
+Добавлена ​​возможность выбора основной и дополнительной учетных записей. Из-за специфики биржевого API скорость обработки ордеров выполнялась с задержкой до 5 секунд, что приводило к проскальзыванию ордера и некорректному открытию ордеров. Например, если вы работаете только с Основным аккаунтом, обработка заказов происходит намного быстрее, чем при подключении к нескольким аккаунтам. \(Основной + Sub-аккаунты\).
 
 ![](../.gitbook/assets/ftx-accounts.gif)
 
