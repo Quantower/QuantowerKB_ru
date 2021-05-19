@@ -53,22 +53,22 @@ description: >-
 *  кнопка “**Выход**” закрывает приложение. 
 
 {% hint style="info" %}
-The list of links in footer can contain more or fewer items, depending on current application requirements.
+Список ссылок в нижнем колонтитуле может содержать больше или меньше элементов, в зависимости от текущих требований приложения.
 {% endhint %}
 
-## Favorite panels
+## Избранные панели
 
-You might already have seen the Star icon in the right top corners of some panels tiles in Sidebar. This is the “**Favorite panels**” functionality, allowing you to select the most usable panels and place their icons on the Main Toolbar.
+Возможно, вы уже видели значок звездочки в правом верхнем углу некоторых плиток на боковой панели. Это функция «Избранные панели», позволяющая выбрать наиболее часто используемые панели и разместить их значки на главной панели инструментов для быстрого доступа к ним.
 
-![Favorite panels](../.gitbook/assets/favorite-panels.gif)
+![](../.gitbook/assets/izbrannoe.gif)
 
-The way to use it very simple — hover over the right top corner of any panel tile in Sidebar and click the Star icon that appeared. That is all: panel appears in Favorite panels bar in Main Toolbar. To remove from favorites just click the activated Star icon on Panel's tile or right-click on the icon in Favorites panel and select “_**Hide from toolbar**_”.
+Способ использования очень простой - наведите указатель мыши на правый верхний угол любой плитки панели на боковой панели и щелкните появившийся значок звездочки. Вот и все: панель появляется на панели «Избранные панели» на главной панели инструментов. Чтобы удалить из избранного, просто нажмите активированный значок звездочки на плитке панели или щелкните правой кнопкой мыши значок на панели «Избранное» и выберите «Скрыть с панели инструментов».
 
-## Lock trading
+## Блокировка торговли
 
-If you would like to prevent manual trading operations occur, you may use the “_**Lock trading**_” button on Main Toolbar. Once clicked it displays the confirmation message that trading being locked and all of the functions, related to the opening or closing orders and positions will be disabled. Unlock trading can be done the vice-versa way.
+Если вы хотите предотвратить выполнение торговых операций вручную, вы можете использовать кнопку «Заблокировать торговлю» на главной панели инструментов. После нажатия на него отображается подтверждающее сообщение о том, что торговля заблокирована и все функции, связанные с открытием или закрытием ордеров и позиций, будут отключены. Разблокировать торговлю можно и наоборот.
 
-![Lock Trading Icon](../.gitbook/assets/lock_trading.png)
+![&#x417;&#x43D;&#x430;&#x447;&#x43E;&#x43A; &#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x438; &#x442;&#x43E;&#x440;&#x433;&#x43E;&#x432;&#x43B;&#x438;](../.gitbook/assets/lock_trading.png)
 
 This feature is useful in case you would like to only analyze the market or while editing your workspace \(mostly to avoid misclicks\).
 
