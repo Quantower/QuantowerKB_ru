@@ -9,8 +9,8 @@ description: >-
 
 В этом руководстве мы шаг за шагом рассмотрим как создать торговый счет на Bybit и подключиться к платформе Quantower.
 
-* [**Open an account on Bybit to get personal API keys**](connection-to-bybit.md#open-an-account-on-bybit-to-get-personal-api-keys)
-* [**Possible Errors with Bybit connection**](connection-to-bybit.md#possible-errors-with-bybit-connection)
+* \*\*\*\*[**Откройте аккаунт на Bybit, чтобы получить личные ключи API**](connection-to-bybit.md#otkroite-akkaunt-na-bybit-chtoby-poluchit-lichnye-klyuchi-api)\*\*\*\*
+* \*\*\*\*[**Возможные ошибки при подключении Bybit**](connection-to-bybit.md#vozmozhnye-oshibki-pri-podklyuchenii-bybit)\*\*\*\*
 
 Обратите внимание, что в платформе Quantower вы можете подключиться к бирже в двух режимах:
 
@@ -47,7 +47,7 @@ description: >-
 Вам необходимо настроить двухфакторную авторизацию на Bybit. Это необходимо для создания ключей.
 {% endhint %}
 
-Появится следующее всплывающее окно. Пожалуйста, настройте свой ключ API в соответствии с вашими торговыми потребностями. введите Ваш код Google Authenticator 2FA и нажмите  'Confirm' to proceed
+Появится следующее всплывающее окно. Пожалуйста, настройте свой ключ API в соответствии с вашими торговыми потребностями. введите Ваш код Google Authenticator 2FA и нажмите  'Confirm' для подтверждения.
 
 Введите информацию о вашем API:  
 -**'Name'** введите информацию о вашем API  
@@ -63,7 +63,7 @@ description: >-
 
 Полученные таким образом ключи API, используйте для входа в свой торговый счет на платформе Quantower.
 
-![](../.gitbook/assets/bybit-connected.gif)
+![](../.gitbook/assets/api-key-bybit.gif)
 
 ## Возможные ошибки при подключении Bybit
 
