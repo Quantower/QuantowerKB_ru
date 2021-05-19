@@ -1,30 +1,31 @@
 ---
 description: >-
-  Quantower — is a constantly developing application that is why you can be sure
-  to open more and more useful features each day.
+  Quantower — это постоянно развивающееся приложение, поэтому вы можете быть
+  уверены, что будете открывать все больше и больше полезных функций с каждым
+  днем.
 ---
 
-# Platform update
+# Обновление платформы
 
-Our team strives to release the new updates as soon as possible, usually at least a couple of times per month.
+Наша команда стремится выпускать новые обновления как можно скорее, обычно не реже пары раз в месяц.
 
-Quantower automatically checks for updates on start and re-checks them every 10 minutes in the background. It helps you to get to know about the latest updates just after we release them.
+Quantower автоматически проверяет наличие обновлений при запуске и повторно проверяет их каждые 10 минут в фоновом режиме. Это поможет вам узнавать о последних обновлениях сразу после их выпуска.
 
-![The green arrow on the logo indicates that a new update is available](../.gitbook/assets/screenshot_128.png)
+![&#x417;&#x435;&#x43B;&#x435;&#x43D;&#x430;&#x44F; &#x441;&#x442;&#x440;&#x435;&#x43B;&#x43A;&#x430; &#x43D;&#x430; &#x43B;&#x43E;&#x433;&#x43E;&#x442;&#x438;&#x43F;&#x435; &#x43E;&#x437;&#x43D;&#x430;&#x447;&#x430;&#x435;&#x442;, &#x447;&#x442;&#x43E; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x43D;&#x43E; &#x43D;&#x43E;&#x432;&#x43E;&#x435; &#x43E;&#x431;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x435;](../.gitbook/assets/screenshot_128.png)
 
-A green arrow will appear near the logo when a new version is available. Сlick on the "_**Logo**_" icon and open the sidebar, then press the “_**NEW VERSION**_” button at the bottom and get on the About screen.
+Когда будет доступна новая версия, рядом с логотипом появится зеленая стрелка. Щелкните значок «**Логотип**» и откройте боковую панель, затем нажмите кнопку «**НОВАЯ ВЕРСИЯ**» внизу и перейдите на экран «О программе».
 
-![New version is available for download](../.gitbook/assets/new-version-quantower.png)
+![&#x41D;&#x43E;&#x432;&#x430;&#x44F; &#x432;&#x435;&#x440;&#x441;&#x438;&#x44F; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x43D;&#x430; &#x434;&#x43B;&#x44F; &#x441;&#x43A;&#x430;&#x447;&#x438;&#x432;&#x430;&#x43D;&#x438;&#x44F;](../.gitbook/assets/new-version-quantower.png)
 
-Press the "_**DOWNLOAD**_" button, and Quantower will download the latest version and prepare it for the update. When the download process is finished, Quantower will ask you about the restart. This action is required to apply the new version, but you can cancel the reboot and proceed using an application. In this case, updates will be applied on the next start of Quantower.
+Нажмите кнопку «**ЗАГРУЗИТЬ**», и Quantower загрузит последнюю версию и подготовит ее к обновлению. Когда процесс загрузки завершится, Quantower спросит вас о перезапуске. Это действие необходимо для применения новой версии, но вы можете отменить перезагрузку и продолжить работу с приложением. В этом случае обновления будут применены при следующем запуске Quantower.
 
 {% hint style="danger" %}
-If you accept an application restart for the update, it will close and reopen with the new version. This may take some time, and trading will be unavailable.
+Если вы согласитесь на перезапуск приложения для обновления, оно закроется и снова откроется с новой версией. Это может занять некоторое время, и торговля будет недоступна.
 {% endhint %}
 
-All of your local settings will be saved and applied for future updates because the update changes the Core files only.
+Все ваши локальные настройки будут сохранены и применены для будущих обновлений, поскольку обновление изменяет только основные файлы.
 
-If you use the platform with a too old version, it will ask you to update it to the latest version to avoid any issues with connections and trading operation.
+Если вы используете платформу со слишком старой версией, вам будет предложено обновить ее до последней версии, чтобы избежать проблем с подключениями и торговыми операциями.
 
 ![](../.gitbook/assets/image%20%2896%29.png)
 
