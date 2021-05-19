@@ -1,28 +1,29 @@
 ---
 description: >-
-  Backup & restore manager plugin allows to keep your settings safe and restore
-  them in case of troubles with the application.
+  Плагин менеджера резервного копирования и восстановления позволяет сохранить
+  ваши настройки в безопасности и восстановить их в случае проблем с
+  приложением.
 ---
 
 # Менеджер резервного копирования и восстановления
 
-## General
-
-Backup & restore manager plugin allows to keep your settings safe and restore them in case of troubles with the application. This smart tool can backup your global settings, connections credentials, workspaces and per panel layout settings in one local file, that can be used later to restore them in several clicks.
+Плагин менеджера резервного копирования и восстановления позволяет сохранить ваши настройки в безопасности и восстановить их в случае проблем с приложением. Этот интеллектуальный инструмент может создавать резервные копии ваших глобальных настроек, учетных данных подключений, рабочих пространств и настроек макета каждой панели в одном локальном файле, который впоследствии можно использовать для их восстановления несколькими щелчками мыши.
 
 {% embed url="https://www.youtube.com/watch?v=n0lUFu8FNN8&t=60s" caption="" %}
 
-![Launch Backup Manager from the main menu](../.gitbook/assets/backup-manager.png)
+![](../.gitbook/assets/menedzher-rezervnogo-kopirovaniya.png)
 
-![Backup &amp; restore master starting screen](../.gitbook/assets/backupmanager.png)
+## Настройки резервного копирования
 
-## Backup settings
+Процесс резервного копирования прост и не требует много пояснений. Просто выберите путь, по которому будет храниться файл резервной копии \(по умолчанию - папка резервных копий Quantower; рекомендуется\), и нажмите кнопку **\[СОЗДАТЬ РЕЗЕРВНУЮ КОПИЮ\]**.
 
-The backup process is easy and doesn’t require many explanations. Just select the path where your backup file will be stored \(Quantower backups folder by default; recommended\) and press the **\[ CREATE BACKUP \]** button.
+![](../.gitbook/assets/put-rezervnoe-kopirovanie.png)
 
-![](../.gitbook/assets/backupsettings1.png)
+Как только процесс будет запущен, вы увидите экран прогресса, показывающий ход процесса резервного копирования. Когда резервное копирование будет завершено, вы можете нажать кнопку \[ЗАВЕРШИТЬ\], чтобы перейти к стартовому экрану. Каждая резервная копия создается с автоматическим именем по шаблону: «Date Time.zip».   
+Путь к архиву, где находятся Ваши резервные копии, Вы можете изменить.  
 
-Once the process is started, you will see the progress screen, showing the backup process flow. When the backup will be finished you can press the **\[ FINISH \]** button to get to the starting screen. Each backup is created with the automatic name by the template: “Date Time.zip”.
+
+![](../.gitbook/assets/final-kopirovaniya.png)
 
 {% hint style="info" %}
 You may find some backup files in Quantower Backup folder, containing the “**A**” letter at the end — these are the Automatic backups, periodically made by Quantower \(daily, overridden each 5 min\).
