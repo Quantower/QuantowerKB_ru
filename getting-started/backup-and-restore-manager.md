@@ -26,29 +26,31 @@ description: >-
 ![](../.gitbook/assets/final-kopirovaniya.png)
 
 {% hint style="info" %}
-You may find some backup files in Quantower Backup folder, containing the “**A**” letter at the end — these are the Automatic backups, periodically made by Quantower \(daily, overridden each 5 min\).
+Вы можете найти некоторые файлы резервных копий в папке Quantower Backup, содержащие букву «A» в конце - это автоматические резервные копии, периодически выполняемые Quantower \(ежедневно, перезаписываемые **каждые 5 минут**\).
 {% endhint %}
 
-## Restore settings
+## Как восстановить настройки
 
-In case you want to restore some previous settings or wish to apply some custom settings \(got from another Quantower user, that backed up its settings previously\), follow the **\[ RECOVER SETTINGS \]** button.
+Если вы хотите восстановить некоторые предыдущие настройки или применить некоторые пользовательские настройки \(полученные от другого пользователя Quantower, который ранее сделал резервную копию своих настроек\), нажмите кнопку \[НАСТРОЙКИ ВОССТАНОВЛЕНИЯ\].
 
-![Recover your settings in several clicks](../.gitbook/assets/restoresettings.png)
+![](../.gitbook/assets/nastroiki-vosstanovleniya.png)
 
-Here you can find two ways of Backup file selection:
+Здесь вы можете найти два способа выбора файла резервной копии:
 
-* From backups folder 
-* From custom file
+* Из папки резервных копий
+* Из пользовательского файла
 
-The “_**Backups folder**_” is the default Quantower folder where it saves all automatically created backup files and proposes it to store yours, manually created. The Backup & restore manager checks this folder and displays you all the found files to import settings. You may also select some different location of your backup file, using the “_**From custom file**_” option.
+«Папка резервных копий» - это папка Quantower по умолчанию, в которой сохраняются все автоматически созданные файлы резервных копий и предлагаются для хранения ваши, созданные вручную. Диспетчер резервного копирования и восстановления проверяет эту папку и отображает все найденные файлы для импорта настроек. Вы также можете выбрать другое расположение файла резервной копии, используя опцию «Из пользовательского файла».
+
+![](../.gitbook/assets/rezerv-kopii.gif)
 
 {% hint style="warning" %}
-Please make sure, that you are specifying the correct backup file \(made by B&R manager earlier\) to avoid the problems with settings import and restore.
+Убедитесь, что вы указываете правильный файл резервной копии \(созданный ранее менеджером резервного копирования\), чтобы избежать проблем с импортом и восстановлением настроек.
 {% endhint %}
 
-Once you select the required backup file and press the **\[ START RECOVERY \]** button, you will see the recovery process flow. When finished, you will be asked about the application restart. This is the required action to apply your newly imported settings.
+После выбора необходимого файла резервной копии и нажатия кнопки \[НАЧАТЬ ВОССТАНОВЛЕНИЕ\] вы увидите процесс восстановления. По завершении вас спросят о перезапуске приложения. Это необходимое действие для применения недавно импортированных настроек.
 
 {% hint style="success" %}
-In case of any problems with the backup file, B&R manager will keep your current Quantower settings and inform you about it.
+В случае каких-либо проблем с файлом резервной копии менеджер B&R сохранит ваши текущие настройки Quantower и сообщит вам об этом.
 {% endhint %}
 
