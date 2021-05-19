@@ -9,8 +9,12 @@ description: >-
 
 В этом руководстве мы шаг за шагом рассмотрим как создать торговый счет на Bybit и подключиться к платформе Quantower.
 
+
+
 * \*\*\*\*[**Откройте аккаунт на Bybit, чтобы получить личные ключи API**](connection-to-bybit.md#otkroite-akkaunt-na-bybit-chtoby-poluchit-lichnye-klyuchi-api)\*\*\*\*
 * \*\*\*\*[**Возможные ошибки при подключении Bybit**](connection-to-bybit.md#vozmozhnye-oshibki-pri-podklyuchenii-bybit)\*\*\*\*
+
+\*\*\*\*
 
 Обратите внимание, что в платформе Quantower вы можете подключиться к бирже в двух режимах:
 
