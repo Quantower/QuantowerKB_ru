@@ -132,9 +132,9 @@ description: >-
 
 ![](../.gitbook/assets/obshie-nastroiki.png)
 
-## Time & Time zones
+## Время и часовые пояса
 
-The Time bar is also displayed on the Main Toolbar toolbar showing you time in the selected timezone. By default, your local timezone is used. You can change the time zones list by clicking the "_**Gear**_" icon and then select the required ones in [**General settings screen**](general-settings-1.md#time-zones). You may also select several time zones and they will appear as a list in a drop-down panel, allowing you to switch among them quickly.
+Панель времени также отображается на главной панели инструментов, показывая время в выбранном часовом поясе. По умолчанию используется ваш местный часовой пояс. Вы можете изменить список часовых поясов, щелкнув значок «Шестеренка», а затем выбрав нужные на [экране общих настроек](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Ma3I-dze4jNwr22DF43/general-settings/general-settings-1#time-zones). Вы также можете выбрать несколько часовых поясов, и они появятся в виде списка на раскрывающейся панели, что позволит вам быстро переключаться между ними.
 
-![Switch between your favorite timezones](../.gitbook/assets/image%20%2878%29.png)
+![](../.gitbook/assets/vremennye-zony.png)
 
