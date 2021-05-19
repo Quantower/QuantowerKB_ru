@@ -1,38 +1,38 @@
 ---
 description: >-
-  Get to know how to use and manage Main Toolbar that is a starting panel of all
-  platform
+  Как использовать и управлять главной панелью инструментов, которая является
+  стартовой панелью всей платформы.
 ---
 
-# Quantower Main Toolbar
+# Основная панель инструментов Quantower
 
-**Main Toolbar** — is the main starting point of the platform, used as a launcher and informer simultaneously.
+**Основная панель инструментов** — является основной отправной точкой платформы, используемой одновременно как пусковая установка и информер.
 
-![Quantower Main toolbar](../.gitbook/assets/image%20%2873%29.png)
+![&#x41E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x430;&#x44F; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x44C; &#x438;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x43E;&#x432;](../.gitbook/assets/image%20%2873%29.png)
 
-Main Toolbar technically is a panel, but behaves something differently: it can be dragged among your screens \(if you have more than one\) and it will be always stuck at the top of the screen. It adapts own width up to the screen width and it participates in the workspace, meaning, that other panels can be stuck to it.
+Основная панель инструментов технически представляет собой панель, но ведет себя иначе: ее можно перетаскивать между экранами \(если у вас их несколько\), и она всегда будет оставаться в верхней части экрана. Она адаптирует свою ширину к ширине экрана и участвует в рабочем пространстве, что означает, что другие панели могут быть прикреплены к ней.
 
 ![](../.gitbook/assets/main-toolbar.png)
 
-In this guide you will learn about the next functionalities:
+В этом руководстве вы узнаете о следующих функциях:
 
-* \*\*\*\*[**How to customize the Main Toolbar**](main-toolbar.md#customization-of-main-toolbar)\*\*\*\*
-* \*\*\*\*[**Main menu with all panels**](main-toolbar.md#sidebar)\*\*\*\*
-* \*\*\*\*[**How to add Favorite Panels on the Toolbar**](main-toolbar.md#favorite-panels)\*\*\*\*
-* \*\*\*\*[**How to Lock Trading**](main-toolbar.md#lock-trading)\*\*\*\*
-* \*\*\*\*[**How to create and manage your Workspaces**](main-toolbar.md#workspaces-manager)\*\*\*\*
-* \*\*\*\*[**Managing trading connections**](main-toolbar.md#favorite-connections)\*\*\*\*
-* \*\*\*\*[**Sidebar with all Notifications**](main-toolbar.md#notifications-center)\*\*\*\*
-* \*\*\*\*[**Platform's General Settings**](main-toolbar.md#general-settings)\*\*\*\*
-* \*\*\*\*[**Time & Time Zones**](main-toolbar.md#time-and-time-zones)\*\*\*\*
+* [**How to customize the Main Toolbar**](main-toolbar.md#customization-of-main-toolbar)
+* [**Main menu with all panels**](main-toolbar.md#sidebar)
+* [**How to add Favorite Panels on the Toolbar**](main-toolbar.md#favorite-panels)
+* [**How to Lock Trading**](main-toolbar.md#lock-trading)
+* [**How to create and manage your Workspaces**](main-toolbar.md#workspaces-manager)
+* [**Managing trading connections**](main-toolbar.md#favorite-connections)
+* [**Sidebar with all Notifications**](main-toolbar.md#notifications-center)
+* [**Platform's General Settings**](main-toolbar.md#general-settings)
+* [**Time & Time Zones**](main-toolbar.md#time-and-time-zones)
 
-Due to the fact that Toolbar is the main controlling panel it has the ability to collapse all platform’s interface by clicking the “_**Minimize**_” icon. This action makes all application panels collapse to the taskbar and literally disappear from your screens; it affects all panels on all screens.
+Поскольку панель инструментов является основной панелью управления, у нее есть возможность свернуть весь интерфейс платформы, щелкнув значок «**Свернуть**». В результате этого действия все панели приложений сворачиваются на панель задач и буквально исчезают с ваших экранов; она влияет на все панели на всех экранах.
 
-The “_**Close**_” icon just closes the platform. You may set up the “_not to ask to confirm the closing_” setting in the pop-up screen while the first closing.
+Значок «**Закрыть**» просто закрывает платформу. Вы можете настроить параметр «не запрашивать подтверждение закрытия» во всплывающем экране при первом закрытии.
 
-## Customization of Main Toolbar
+## Настройка главной панели инструментов
 
-For optimal use of the space on the Main Toolbar, we have added the ability to display/hide some controls. For example, to hide the Timezones, Workspaces, Connections, etc., **Right-click** on the context menu and go to the View section. By clicking on the ticks, the controls will appear at the Toolbar.
+Для оптимального использования пространства на главной панели инструментов мы добавили возможность отображать / скрывать некоторые элементы управления. For example, to hide the Timezones, Workspaces, Connections, etc., **Right-click** on the context menu and go to the View section. By clicking on the ticks, the controls will appear at the Toolbar.
 
 ![Right click on the Main Toolbar will bring up the addtional settings window](../.gitbook/assets/image%20%2876%29.png)
 
