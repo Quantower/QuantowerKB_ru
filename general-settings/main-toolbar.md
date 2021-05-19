@@ -70,67 +70,67 @@ description: >-
 
 ![&#x417;&#x43D;&#x430;&#x447;&#x43E;&#x43A; &#x431;&#x43B;&#x43E;&#x43A;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x438; &#x442;&#x43E;&#x440;&#x433;&#x43E;&#x432;&#x43B;&#x438;](../.gitbook/assets/lock_trading.png)
 
-This feature is useful in case you would like to only analyze the market or while editing your workspace \(mostly to avoid misclicks\).
+Эта функция полезна в том случае, если вы хотите только анализировать рынок или редактировать свое рабочее пространство \(в основном, чтобы избежать ошибочных щелчков\).
 
-## Workspaces manager
+## Workspaces - менеджер организации рабочего пространства
 
-{% embed url="https://www.youtube.com/watch?v=A\_2gJdeP-08&t=20s" caption="Create and save your workspace in Quantower" %}
+{% embed url="https://www.youtube.com/watch?v=A\_2gJdeP-08&t=20s" caption="Создайте и сохраните свое рабочее пространство в Quantower" %}
 
-**Workspaces manager** allows you to see, create, edit and delete your working environments as well as lock their modification. It is represented with the special icon, that opens the list of available Workspaces once being clicked.
+Менеджер рабочих пространств позволяет вам видеть, создавать, редактировать и удалять ваши рабочие среды, а также блокировать их изменение. Он представлен специальным значком, при нажатии на который открывается список доступных Рабочих областей.
 
-![](../.gitbook/assets/workspaces.png)
+![](../.gitbook/assets/rabochee-prostranstvo.png)
 
-The currently active workspace is marked with the color and has a blue dot on the left side of its name. You can switch the current workspace by left-clicking any of the available items from the list. The bottom part of the list \(after separator\) consists of actions, referred to the currently active workspace and allows to:
+Текущая активная рабочая область отмечена цветом и имеет  точку слева от ее имени. Вы можете переключить текущее рабочее пространство, щелкнув левой кнопкой мыши любой из доступных элементов в списке. Нижняя часть списка \(после разделителя\) состоит из действий, относящихся к текущей активной рабочей области и позволяет:
 
-* **Lock** — disables an ability to add, remove, move or resize any panel in current workspace;
-* **Rename...** — invokes a pop-up screen where you can set up a new name for the current workspace;
-* **Create new** — opens a pop-up screen with the new workspace creation form.
+* **Блокировать** — отключает возможность добавлять, удалять, перемещать или изменять размер любой панели в текущей рабочей области;
+* **Переименовать...** — вызывает всплывающий экран, где вы можете установить новое имя для текущей рабочей области;
+* **Создать новое** — открывает всплывающий экран с формой создания новой рабочей области.
 
-![New workspace creation window](../.gitbook/assets/ccnewworkspace.png)
+![&#x41E;&#x43A;&#x43D;&#x43E; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F; &#x43D;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x440;&#x430;&#x431;&#x43E;&#x447;&#x435;&#x433;&#x43E; &#x43F;&#x440;&#x43E;&#x441;&#x442;&#x440;&#x430;&#x43D;&#x441;&#x442;&#x432;&#x430;](../.gitbook/assets/novoe-rabochee-prostranstvo.png)
 
-When creating the new workspace, you have an ability to specify its future name and select whether it should be Blank, once created, or should contain some predefined panels set.
+При создании нового рабочего пространства у вас есть возможность указать его будущее имя и выбрать, должно ли оно быть пустым после создания или содержать некоторый предопределенный набор панелей.
 
-You can also remove any of Workspaces by clicking the “_**Trash**_” icon on the right side from Workspace name \(icon appears while hovering the name\).
+Вы также можете удалить любую рабочую область, щелкнув значок **«Корзина»** справа от имени рабочей области \(значок отображается при наведении курсора на имя\).
 
-## Favorite connections
+## Избранные подключения
 
-The list of active connections can be seen on Main Toolbar in Favorite connections block. By default, you will see several items here, each representing one of the available connections. The [Connection manager](../connections/connections-manager.md) screen will be opened by clicking any of the items in Favorite connections block.
+Список активных подключений можно увидеть на Главной панели инструментов в блоке "Избранные подключения". По умолчанию вы увидите здесь несколько элементов, каждый из которых представляет одно из доступных подключений. Экран диспетчера подключений открывается при нажатии любого элемента в блоке "Избранные подключения".
 
-![Add favorite connections by clicking the &quot;Star&quot; icon](../.gitbook/assets/favorite-connections.png)
+![&#x414;&#x43E;&#x431;&#x430;&#x432;&#x44C;&#x442;&#x435; &#x438;&#x437;&#x431;&#x440;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x43A;&#x43E;&#x43D;&#x442;&#x430;&#x43A;&#x442;&#x44B;, &#x449;&#x435;&#x43B;&#x43A;&#x43D;&#x443;&#x432; &#x437;&#x43D;&#x430;&#x447;&#x43E;&#x43A; &#xAB;&#x417;&#x432;&#x435;&#x437;&#x434;&#x43E;&#x447;&#x43A;&#x430;&#xBB;](../.gitbook/assets/favorite-connections.png)
 
-In order to show some connection on this bar, you need to click a “_**Star**_” icon at the right side of connection name in Connections manager panel. Click once more, and the connection will be removed from Favorites bar.
+Чтобы отобразить какое-либо соединение на этой панели, вам нужно щелкнуть значок «Звездочка» справа от имени соединения на панели диспетчера подключений. Щелкните еще раз, и соединение будет удалено с панели избранного.
 
-Being added to Favorites bar, each connection will be displayed as a tile, containing some vital info:
+При добавлении на панель избранного каждое соединение будет отображаться в виде плитки, содержащей важную информацию:
 
-* **Connection name**
-* **Status text** \(can be a status message or Ping time in ms when the connection is active\)
-* **Status Dot**, a visual representation of connection status. Can be grey \(disconnected\), yellow \(connecting\), green \(active\).
+* **Имя подключения**
+* **Текст статуса** \(может быть статусным сообщением или временем пинга в мс, когда соединение активно\)
+* **Точка активного соединения,** визуальное представление состояния подключения. Может быть серым \(отключен\), желтым \(подключен\), зеленым \(активен\).
 
-You can remove a connection from Favorites by right-clicking on it and selecting “_**Hide from toolbar**_” item. Here you can also ask to connect or disconnect.
+Вы можете удалить соединение из избранного, щелкнув его правой кнопкой мыши и выбрав пункт «Скрыть с панели инструментов». Здесь вы также можете попросить подключиться или отключиться.
 
-## Notifications center
+## Центр уведомлений
 
-Most actions during the platform use generate various notifications. There can be system notifications \(some connection problems or errors\) and Deal tickets.
+Большинство действий во время использования платформы генерируют различные уведомления. Могут быть системные уведомления \(некоторые проблемы с подключением или ошибки\) и тикеты сделок.
 
-The **Deal tickets** — are the notifications about the trading operations. Each time you create an order or opening a new position — we will create a deal ticket for this. \(you can [disable deat tickets in general settings](general-settings-1.md#confirmations)\)
+**Тикет сделки**  — уведомления о торговых операциях. Каждый раз, когда вы создаете ордер или открываете новую позицию - мы будем создавать для этого тикет сделки. \(в общих настройках[ можно отключить тикеты](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Ma2xMblWJFPjAqsJZlG/general-settings/general-settings-1#confirmations)\)
 
-While some trading actions may be done in one click at the first sight, they usually consist of several related operations, each of them will be displayed via the Deal tickets. That is why you can see much more items in Notifications center than you did actions.
+Не смотря на то, что некоторые торговые действия могут быть выполнены сразу одним щелчком мыши, они обычно состоят из нескольких связанных операций, каждая из которых будет отображаться в билетах сделки. Вот почему вы можете увидеть в Центре уведомлений гораздо больше элементов, чем вы сделали.
 
-The **Notifications center** — is the place where all notifications are stored in one list. You can open that list by clicking the Notifications icon in Control center.
+**Центр уведомлений** — это место, где все уведомления хранятся в одном списке. Вы можете открыть этот список, щелкнув значок Уведомления в Центре управления.
 
-![Notifications center](../.gitbook/assets/image%20%2877%29.png)
+![&#x426;&#x435;&#x43D;&#x442;&#x440; &#x443;&#x432;&#x435;&#x434;&#x43E;&#x43C;&#x43B;&#x435;&#x43D;&#x438;&#x439;](../.gitbook/assets/image%20%2877%29.png)
 
-When you have a set of new notifications, the small number will appear in the left top corner of Notification center icon. It displays how many unread notifications you have. Once you open the list — it understands that you have read them and the number will disappear.
+Когда у вас появится  группа новых уведомлений, небольшое число появится в левом верхнем углу значка центра уведомлений. Он показывает, сколько у вас непрочитанных уведомлений. Как только вы откроете список - он поймет, что вы их прочитали и номер исчезнет.
 
-You will see all notifications just from the platform start. You may also clear this list by clicking the “_**Clear all**_” link. This action will hide all of the currently seen notifications from this list \(but they will be still available in Event Log panel\).
+Вы будете видеть все уведомления с самого начала работы платформы. Вы также можете очистить этот список, щелкнув ссылку «**Очистить все**». Это действие скроет все видимые в данный момент уведомления из этого списка \(но они по-прежнему будут доступны на панели журнала событий\).
 
-By clicking one of the notifications you will see the window with the detailed info.
+Нажав на одно из уведомлений, вы увидите окно с подробной информацией.
 
-## General settings
+## Общие настройки
 
-The “_**Gear**_” icon opens a general settings screen, where you can set up the most common parameters of our terminal. [More details about the **Settings**](general-settings-1.md) screen are available in the corresponding section of this documentation.
+Значок «Шестеренка» открывает общий экран настроек, где вы можете настроить наиболее распространенные параметры нашего терминала. Более подробная информация об экране настроек доступна в соответствующем разделе этой документации.
 
-![Access to general settings](../.gitbook/assets/image%20%28134%29.png)
+![](../.gitbook/assets/obshie-nastroiki.png)
 
 ## Time & Time zones
 
