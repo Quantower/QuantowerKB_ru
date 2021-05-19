@@ -4,7 +4,7 @@
 * [Первый старт](getting-started/README.md)
   * [Обновления](getting-started/latest-version.md)
   * [Установка программы и требования к ПК](getting-started/installation.md)
-  * [First start](getting-started/first-start.md)
+  * [Первый старт](getting-started/first-start.md)
   * [Обновление платформы](getting-started/application-updates.md)
   * [Учетная запись Quantower](getting-started/quantower-account.md)
   * [Лицензии Quantower](getting-started/quantower-licenses.md)

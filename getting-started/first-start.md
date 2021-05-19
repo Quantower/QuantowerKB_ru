@@ -5,7 +5,7 @@ description: >-
   функциональности платформы.
 ---
 
-# First start
+# Первый старт
 
 {% embed url="https://youtu.be/155Ha6Rku0E" caption="" %}
 
