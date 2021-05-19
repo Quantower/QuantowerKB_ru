@@ -38,18 +38,19 @@ description: >-
 
 ![&#x429;&#x435;&#x43B;&#x43A;&#x43D;&#x438;&#x442;&#x435; &#x43F;&#x440;&#x430;&#x432;&#x43E;&#x439; &#x43A;&#x43D;&#x43E;&#x43F;&#x43A;&#x43E;&#x439; &#x43C;&#x44B;&#x448;&#x438; &#x43D;&#x430; &#x433;&#x43B;&#x430;&#x432;&#x43D;&#x43E;&#x439; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x438;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x43E;&#x432;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x44C; &#x43E;&#x43A;&#x43D;&#x43E; &#x434;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x445; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x435;&#x43A;.](../.gitbook/assets/glavnaya-panel-pokazat-skryt.png)
 
-## Main Menu with all panels
+## Главное меню со всеми панелями
 
-All of the panels are placed in the _“Sidebar”_ screen, which is popping out once you click the **Logo icon** on the toolbar. The Main Menu consists of panel icons, grouped by functionality. Actually, in this menu, you can find all panels.
+Все панели размещаются на экране «Боковая панель», который появляется, когда вы щелкаете значок логотипа на панели инструментов. Главное меню состоит из значков панелей, сгруппированных по функциям. Собственно, в этом меню можно найти все панели.
 
-![Main menu in the Quantower platform](../.gitbook/assets/main-manu.png)
+![&#x413;&#x43B;&#x430;&#x432;&#x43D;&#x43E;&#x435; &#x43C;&#x435;&#x43D;&#x44E; &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435; Quantower](../.gitbook/assets/levoe-vypadayushee-menyu.png)
 
-Each group in this menu can be collapsed in order to make the panels list cleaner. From this place, you can open any panel by left-clicking on its icon. Each group has its color to help you determine the functional assignment of each panel.
+Каждую группу в этом меню можно свернуть, чтобы сделать список панелей более чистым и удобным для себя. Отсюда вы можете открыть любую панель, щелкнув левой кнопкой мыши по ее значку. Каждая группа имеет свой цвет, чтобы помочь вам определить функциональное назначение каждой панели.
 
-The footer of the Main Menu contains several functions:
+Нижний колонтитул главного меню содержит несколько функций:
 
-* “**About**” link: opens a screen with information about terminal \(version, rollback, updates checker etc.\). If the system detects the new version of Quantower, the **“NEW VERSION”** button appears instead of this link;
-* “**Exit**” button closes the application.
+* “**О программе**” -кнопка  открывает экран с информацией о терминале \(версия, откат, проверка обновлений и т. д.\).
+* Если система обнаруживает новую версию Quantower, вместо этой ссылки появляется кнопка **«НОВАЯ ВЕРСИЯ»;**
+*  кнопка “**Выход**” закрывает приложение. 
 
 {% hint style="info" %}
 The list of links in footer can contain more or fewer items, depending on current application requirements.
