@@ -1,8 +1,8 @@
 ---
 description: >-
-  After installation, the platform will start automatically with default
-  workspace and Binance connection with Info Mode to test the platform's
-  functionality.
+  После установки платформа автоматически запустится с рабочим пространством по
+  умолчанию и подключением Binance к информационному режиму для проверки
+  функциональности платформы.
 ---
 
 # First start
