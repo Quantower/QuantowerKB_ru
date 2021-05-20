@@ -18,7 +18,7 @@
   * [You have found a bug. What’s next?](getting-started/you-have-found-a-bug.-whats-next.md)
 * [Общие Настройки](general-settings/README.md)
   * [Основная панель инструментов Quantower](general-settings/main-toolbar.md)
-  * [Workspaces](general-settings/workspaces-binds-groups.md)
+  * [Workspaces - менеджер рабочего пространства](general-settings/workspaces-binds-groups.md)
   * [Single Panel](general-settings/standalone-panels.md)
   * [Link panels](general-settings/link-panels.md)
   * [Binds](general-settings/binds.md)
