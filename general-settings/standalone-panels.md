@@ -28,8 +28,7 @@ description: >-
 ![](../.gitbook/assets/menyu-paneli.png)
 
 * **Копировать панель**. Просто создает еще одну полностью аналогичную панель \(полную копию\).
-* \*\*\*\*[**Применить шаблон.**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Ma96l-5cKuNsF1kr68X/general-settings/templates) Настроить панель, объединить в группу или привязать и сохранить как шаблон.
-* **Apply template.** Once you created several templates you can apply any of them to this particular panel.
+* \*\*\*\*[**Применить шаблон.**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Ma96l-5cKuNsF1kr68X/general-settings/templates) Настроить панель, объединить в группу или привязать и сохранить как шаблон. Создав несколько шаблонов, вы можете применить любой из них к этой конкретной панели.
 
 ![](../.gitbook/assets/templates.gif)
 
