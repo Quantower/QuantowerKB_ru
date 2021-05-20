@@ -1,12 +1,12 @@
 ---
 description: >-
-  Here are descriptions of the most common errors when working with or
-  connecting to Binance Futures / Binance Spot in Quantower platform
+  Описания наиболее распространенных ошибок при работе или подключении к Binance
+  Futures / Binance Spot на платформе Quantower.
 ---
 
-# Errors with Binance connection
+# Ошибки при подключении к Binance
 
-Here is the list of the most common errors and issues with Binance Futures /Spot connections:
+Список наиболее распространенных ошибок и проблем с подключениями Binance Futures
 
 * \*\*\*\*[**Error "Invalid API-key, IP, or permissions for action"**](errors-with-binance-connection.md#error-invalid-api-key-ip-or-permissions-for-action)\*\*\*\*
 * \*\*\*\*[**Error "API-key format invalid"**](errors-with-binance-connection.md#error-api-key-format-invalid)\*\*\*\*
@@ -23,42 +23,42 @@ Here is the list of the most common errors and issues with Binance Futures /Spot
 * \*\*\*\*[**Error "Parameter 'start time' is invalid"**](errors-with-binance-connection.md#error-parameter-start-time-is-invalid)\*\*\*\*
 * \*\*\*\*[**Error "Signature for this request is not valid"**](errors-with-binance-connection.md#error-signature-for-this-request-is-not-valid)\*\*\*\*
 
-## **Error "Invalid API-key, IP, or permissions for action"**
+## **Error "Invalid API-key, IP, or permissions for action"**  Ошибка «Недопустимый API-ключ, IP или разрешения на действие»
 
-**"Invalid API Key"** error occurs for several reasons:
+**"Неверный ключ API"** эта ошибка появляется по следующим причинам:
 
-* a trader **did not enable Future Trading** in the personal account on the Binance website
-* API Keys were not copied correctly.
+* трейдер не дал разрешение для Future Trading в личном кабинете на сайте Binance
+* API ключи были скопированы с ошибкой.
 
 {% hint style="info" %}
-If you sure that everything is correct, please recreate the new keys and the problem is resolved. It's better to recreate it through another browser \(sometimes errors occur when creating through Google Chrome\).
+Если вы уверены, что сделали все правильно, создайте новые ключи, и проблема будет решена. Лучше делать новые ключи  через другой браузер \(иногда возникают ошибки при создании через Google Chrome\).
 {% endhint %}
 
 ![](../../.gitbook/assets/binance-futures-error.png)
 
-To solve it, please check that your API Key has permissions for Futures trading. **Go to Binance official website &gt; Under your account select API management &gt; check & activate Futures Trading**
+Чтобы решить эту проблему, убедитесь, что у вашего ключа API есть разрешения на **торговлю фьючерсами**. Перейдите на официальный сайт Binance&gt; В своей учетной записи выберите Управление API&gt; проверьте и активируйте торговлю фьючерсами
 
 ![Activate the setting for Futures Trading](../../.gitbook/assets/image%20%2888%29.png)
 
-## Error "API key format invalid"
+## Error "API key format invalid" Ошибка «Недействительный формат ключа API»
 
-Check that your **API Key** and **API Secret** are correct.
+Убедитесь, что ваш **ключ API и секрет API** указаны правильно
 
-## Error "Timestamp for this request was 1000ms ahead of the server's time"
+## Error "Timestamp for this request was 1000ms ahead of the server's time" Ошибка "Отметка времени для этого запроса на 1000 мс опережает время сервера"
 
-**"TimeStamp"** error occurs when the time on the Binance server does not match the time on the user's computer.
+Ошибка «**TimeStamp**» возникает, когда время на сервере Binance не совпадает со временем на компьютере пользователя.
 
 ![Binance Futures error in Quantower - Timestamp for the request](../../.gitbook/assets/image%20%2889%29.png)
 
-To solve it, please, go to **Windows Settings &gt; Time & Language &gt;** and click on **Sync Now** button**.**
+Чтобы решить эту проблему, перейдите в «**Настройки Windows**»&gt; «**Время и язык**»&gt; и нажмите кнопку «**Синхронизировать сейчас**».
 
 ![](../../.gitbook/assets/image%20%2892%29.png)
 
-## Error "Timestamp for this request is outside of the recvWindow"
+## Error "Timestamp for this request is outside of the recvWindow" Ошибка "Отметка времени для этого запроса находится за пределами recvWindow"
 
 ![](../../.gitbook/assets/image%20%28182%29.png)
 
-The platform synchronizes time with the Binance exchange during the connection. If the desynchronization reaches a certain limit, then any \(authorized\) requests will display this error.
+Платформа синхронизирует время с биржей Binance во время подключения. Если десинхронизация достигает определенного предела, то любые \(авторизованные\) запросы будут отображать эту ошибку.
 
 To solve it, please, go to **Windows Settings &gt; Time & Language &gt;** and click on **Sync Now** button**.**
 

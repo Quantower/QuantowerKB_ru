@@ -33,7 +33,7 @@
 * [Подключения к брокерам и биржам](connections/README.md)
   * [Connections manager](connections/connections-manager.md)
   * [Подключение к Binance и Binance Futures](connections/connection-to-binance-futures/README.md)
-    * [Errors with Binance connection](connections/connection-to-binance-futures/errors-with-binance-connection.md)
+    * [Ошибки при подключении к Binance](connections/connection-to-binance-futures/errors-with-binance-connection.md)
   * [Подключение к FTX](connections/connection-to-ftx.md)
   * [Connection to CQG \(AMP Futures\)](connections/connection-to-cqg-amp-futures/README.md)
     * [Errors with CQG](connections/connection-to-cqg-amp-futures/errors-with-cqg.md)
