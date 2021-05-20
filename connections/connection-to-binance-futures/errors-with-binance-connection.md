@@ -8,22 +8,21 @@ description: >-
 
 Список наиболее распространенных ошибок и проблем с подключениями Binance Futures
 
-* \*\*\*\*[**Error "Invalid API-key, IP, or permissions for action"**](errors-with-binance-connection.md#error-invalid-api-key-ip-or-permissions-for-action)\*\*\*\*
-* \*\*\*\*[**Error "API-key format invalid"**](errors-with-binance-connection.md#error-api-key-format-invalid)\*\*\*\*
-* \*\*\*\*[**Error "Timestamp for this request was 1000ms ahead of the server's time"**](errors-with-binance-connection.md#error-timestamp-for-this-request-was-1000ms-ahead-of-the-servers-time)\*\*\*\*
-* \*\*\*\*[**Error "Timestamp for this request is outside of the recvWindow"**](errors-with-binance-connection.md#error-timestamp-for-this-request-is-outside-of-the-recvwindow)\*\*\*\*
+* \*\*\*\*[**Error "Invalid API-key, IP, or permissions for action"**](errors-with-binance-connection.md#oshibka-nedopustimyi-api-klyuch-ip-ili-razresheniya-na-deistvie)\*\*\*\*
+* \*\*\*\*[**Error "API key format invalid"**](errors-with-binance-connection.md#error-api-key-format-invalid-oshibka-nedeistvitelnyi-format-klyucha-api)\*\*\*\*
+* \*\*\*\*[**Error "Timestamp for this request was 1000ms ahead of the server's time"**](errors-with-binance-connection.md#error-timestamp-for-this-request-was-1000ms-ahead-of-the-servers-time-oshibka-otmetka-vremeni-dlya-etogo-zaprosa-na-1000-ms-operezhaet-vremya-servera)\*\*\*\*
+* \*\*\*\*[**Error "Timestamp for this request is outside of the recvWindow"**](errors-with-binance-connection.md#error-timestamp-for-this-request-is-outside-of-the-recvwindow-oshibka-otmetka-vremeni-dlya-etogo-zaprosa-nakhoditsya-za-predelami-recvwindow)\*\*\*\*
+* \*\*\*\*[**Error "Order's notional must be no smaller than 5.0**](errors-with-binance-connection.md#error-orders-notional-must-be-no-smaller-than-5-0-unless-you-choose-to-reduce-only-oshibka-uslovnoe-znachenie-zakaza-dolzhno-byt-ne-menshe-5-0-usd-esli-tolko-vy-ne-vyberete-tolko-umenshenie)\*\*\*\*
+* \*\*\*\*[**Error "Margin is insufficient"**](errors-with-binance-connection.md#error-margin-is-insufficient-oshibka-marzha-nedostatochna)\*\*\*\*
+* \*\*\*\*[**Error "Too many new orders"**](errors-with-binance-connection.md#error-too-many-new-orders-oshibka-slishkom-mnogo-novykh-zakazov)\*\*\*\*
+* \*\*\*\*[**Error "Balance is insufficient"**](errors-with-binance-connection.md#error-balance-is-insufficient-oshibka-balans-nedostatochen)\*\*\*\*
+* \*\*\*\*[**Error "This listenKey does not exist"**](errors-with-binance-connection.md#error-this-listenkey-does-not-exist-oshibka-etot-listenkey-ne-sushestvuet)\*\*\*\*
+* \*\*\*\*[**Не могу закрыть позицию**](errors-with-binance-connection.md#an-error-has-occurred-i-cant-close-the-position-request-was-executed-partially-the-value-of-the-open-position-is-less-than-usd-5-proizoshla-oshibka-ne-mogu-zakryt-poziciyu-zapros-vypolnen-chastichno-stoimost-otkrytoi-pozicii-menshe-5-dollarov)\*\*\*\*
+* \*\*\*\*[**Error "Too much requests weight used; current limit is 1200 request weight per 1 minute**](errors-with-binance-connection.md#error-too-much-requests-weight-used-current-limit-is-1200-request-weight-per-1-minute-please-use-the-websocket-for-live-updates-to-avoid-polling-the-api-oshibka-ispolzovan-slishkom-bolshoi-ves-zaprosov-tekushii-predel-sostavlyaet-1200-zaprosov-v-minutu-ispolzuite-veb-soket-dlya-obnovlenii-v-realnom-vremeni-chtoby-izbezhat-oprosa-api)**.** 
+* \*\*\*\*[**Error "Parameter 'start time' is invalid"**](errors-with-binance-connection.md#error-parameter-start-time-is-invalid-oshibka-parametr-vremya-nachala-nedeistvitelen)\*\*\*\*
+* \*\*\*\*[**Error "Signature for this request is not valid"**](errors-with-binance-connection.md#error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna)\*\*\*\*
 
-\*\*\*\*[**Error "Order's notional must be no smaller than 5.0 \(unless you choose to reduce only\)**](errors-with-binance-connection.md#error-orders-notional-must-be-no-smaller-than-5-0-unless-you-choose-to-reduce-only)\*\*\*\*
-
-* \*\*\*\*[**Error "Margin is insufficient"**](errors-with-binance-connection.md#error-margin-is-insufficient)\*\*\*\*
-* \*\*\*\*[**Error "Too many new orders"**](errors-with-binance-connection.md#error-too-many-new-orders)\*\*\*\*
-* \*\*\*\*[**Error "Balance is insufficient"**](errors-with-binance-connection.md#error-balance-is-insufficient)\*\*\*\*
-* \*\*\*\*[**Error "This listenKey does not exist"**](errors-with-binance-connection.md#error-this-listenkey-does-not-exist)\*\*\*\*
-* \*\*\*\*[**Error "Too much requests weight used; current limit is 1200 request weight per 1 minute. Please use the websocket for live updates to avoid polling the API"**](errors-with-binance-connection.md#error-too-much-requests-weight-used-current-limit-is-1200-request-weight-per-1-minute-please-use-the-websocket-for-live-updates-to-avoid-polling-the-api)\*\*\*\*
-* \*\*\*\*[**Error "Parameter 'start time' is invalid"**](errors-with-binance-connection.md#error-parameter-start-time-is-invalid)\*\*\*\*
-* \*\*\*\*[**Error "Signature for this request is not valid"**](errors-with-binance-connection.md#error-signature-for-this-request-is-not-valid)\*\*\*\*
-
-## **Error "Invalid API-key, IP, or permissions for action"**  Ошибка «Недопустимый API-ключ, IP или разрешения на действие»
+##   ****Ошибка «Недопустимый API-ключ, IP или разрешения на действие»
 
 **"Неверный ключ API"** эта ошибка появляется по следующим причинам:
 
