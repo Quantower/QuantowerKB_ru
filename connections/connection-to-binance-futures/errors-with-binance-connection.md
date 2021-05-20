@@ -72,44 +72,44 @@ description: >-
 
 ## Error "Margin is insufficient" Ошибка «Маржа недостаточна»
 
-This error occurs when trying to place the order. Please check your wallet balance and make sure that there is enough coin to make a trade. When trading USDS-M futures on Binance Futures, the wallet account must have USDT tokens.
+Эта ошибка возникает при попытке разместить заказ. Пожалуйста, проверьте баланс своего кошелька и убедитесь, что в нем достаточно монет для совершения сделки. При торговле фьючерсами USDS-M на Binance Futures на счете кошелька должны быть токены USDT.
 
 ![](../../.gitbook/assets/image%20%28179%29.png)
 
-## Error "Too many new orders"
+## Error "Too many new orders" Ошибка "Слишком много новых заказов"
 
-Limit on the number of orders has been reached \(usually this is a limit on a particular instrument\). There may be a limit on the instrument itself, or a limit on orders sent in a certain period \(for example, 10 orders per second - spam\).
+Достигнут лимит на количество ордеров \(обычно это лимит по конкретному инструменту\). Может быть лимит на сам инструмент, или лимит на заказы, отправленные в определенный период \(например, 10 ордеров в секунду - спам\).
 
-## Error "Balance is insufficient"
+## Error "Balance is insufficient" Ошибка «Баланс недостаточен»
 
-This error occurs when **you don't have enough funds on the balance**. Check your wallet balance and make sure you have enough coins for the transaction.
+Эта ошибка возникает, когда у вас недостаточно средств на балансе. Проверьте баланс своего кошелька и убедитесь, что у вас достаточно монет для транзакции.
 
-## Error "This listenKey does not exist"
+## Error "This listenKey does not exist" Ошибка «Этот listenKey не существует»
 
-This error occurs when a trader connects to Binance exchange with the same API Key on various platforms. Each platform must have its own API Key. **Generate a new API key for Quantower platform**.
+Эта ошибка возникает, когда трейдер подключается к бирже Binance с одним и тем же ключом API на разных платформах. У каждой платформы должен быть свой API-ключ. **Создайте новый ключ API для платформы Quantower.**
 
-## An error has occurred: "I can't close the position. Request was executed partially - the value of the open position is less than $5.
+## An error has occurred: "I can't close the position. Request was executed partially - the value of the open position is less than $5. Произошла ошибка: «Не могу закрыть позицию. Запрос выполнен частично - стоимость открытой позиции меньше 5 долларов.
 
-This situation is connected with the rule of exchange Binance Futures about the minimum order volume from $5. You may close a position worth less than $5 using the following methods:
+Эта ситуация связана с правилом торговли Binance Futures о минимальном объеме лота от 5 долларов. Вы можете закрыть позицию стоимостью менее 5 долларов, используя следующие методы:
 
-1. Buy up to minimum volume and place limit order to close position.
-2. Place a pending stop order to close the position with a volume equal to the position.
-3. Set Stop-Loss or Take-Profit on the server-side.
-4. Close the order through Binance Futures website.
+1. Купите до минимального объема и разместите лимитный ордер на закрытие позиции. 
+2. Установите отложенный стоп-приказ, чтобы закрыть позицию с объемом, равным позиции. 
+3. Установите Stop-Loss или Take-Profit на стороне сервера. Закройте заказ через сайт Binance Futures.
+4. Купите до минимального объема и разместите лимитный ордер на закрытие позиции.
 
-## Error "Too much requests weight used; current limit is 1200 request weight per 1 minute. Please use the websocket for live updates to avoid polling the API"
+## Error "Too much requests weight used; current limit is 1200 request weight per 1 minute. Please use the websocket for live updates to avoid polling the API" Ошибка «Использован слишком большой вес запросов; текущий предел составляет 1200 запросов в минуту. Используйте веб-сокет для обновлений в реальном времени, чтобы избежать опроса API»
 
 ![](../../.gitbook/assets/image%20%28183%29.png)
 
-Binance has set a limit of requests for a certain time \(e.g., sending an order, requesting an instrument table\). If the limit is exceeded, an appropriate message may appear, or the IP will be banned for making requests for some time.
+‌ Binance установил лимит запросов на определенное время \(например, отправка ордера, запрос таблицы инструментов\). При превышении лимита может появиться соответствующее сообщение, либо IP будет заблокирован для выполнения запросов на некоторое время.
 
-## **Error "Parameter 'start time' is invalid"**
+## **Error "Parameter 'start time' is invalid"** Ошибка «Параметр« время начала »недействителен» 
 
 ![](../../.gitbook/assets/image%20%28221%29.png)
 
-This error does not affect the correct data loading or trading. The message appears when switching to a symbol that has not yet been loaded in the current active session.
+Эта ошибка не влияет на правильную загрузку данных или торговлю. Сообщение появляется при переключении на символ, который еще не был загружен в текущем активном сеансе.
 
-## Error "Signature for this request is not valid"
+## Error "Signature for this request is not valid" Ошибка «Подпись для этого запроса недействительна»
 
-Usually, the error indicates that the keys are not entered correctly. It is likely that the API Key/Secret key is entered correctly, but maybe "broken". **Check if the APIKey and APISecret are entered correctly or recreate the keys.**
+Обычно ошибка указывает на то, что ключи введены неправильно. Вероятно, что ключ API / секретный ключ введен правильно, но, возможно, «сломан». Убедитесь, что APIKey и APISecret введены правильно, или сгенерируйте ключи.
 
