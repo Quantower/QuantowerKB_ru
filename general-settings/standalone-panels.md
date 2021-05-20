@@ -8,16 +8,16 @@ description: >-
 
 Автономные панели - второстепенные элементы любого рабочего пространства, и они ведут себя так же, как любое обычное окно ПК:
 
-* can be resized and positioned to any place on your screen;
-* can stick to each other within their borders when they close enough;
-* can stick its size to repeat the dimensions of other panels, while resizing;
-* can be collapsed to the OS taskbar as usual windows
+* можно изменять размер и размещать в любом месте экрана;
+* могут прилипать друг к другу в пределах своих границ, когда они достаточно близко;
+* может придерживаться своего размера, чтобы повторить размеры других панелей при изменении размера;
+* можно сворачивать на панель задач ОС как обычные окна
 
-## Panel's context menu
+## Контекстное меню панели
 
-Each panel has its own **context menu**, situated on the left upper corner, right before the Panel’s title.
+Каждая панель имеет **собственное контекстное меню**, расположенное в левом верхнем углу, прямо перед заголовком панели.
 
-![](../.gitbook/assets/image%20%28141%29.png)
+![](../.gitbook/assets/menyu-paneli.png)
 
 This menu usually consists of the following functions:
 
