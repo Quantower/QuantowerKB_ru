@@ -1,38 +1,38 @@
 ---
 description: >-
   Создайте лучшую торговую среду, исходя из ваших предпочтений.  Используйте
-  поверхности, привязки и группы в одной рабочей области
+  панели, привязки и группы в одной рабочей области
 ---
 
-# Workspaces - менеджер рабочих пространств
+# Workspaces-менеджер рабочего пространства
 
-Высший уровень организации торговой площадки, это - **Workspace**. 
+Высший уровень организации торговой площадки, это - **Workspace**. This is the most general grouping layer that you may even don’t need most of the time.
 
 {% hint style="success" %}
 **Quantower автоматически сохраняет** каждое рабочее пространство в свой локальный файл **каждые 5 минут**, чтобы обеспечить их безопасность.
 {% endhint %}
 
-В качестве группирующего слоя верхнего уровня рабочие области хранят все свое содержимое в специальных локальных файлах. Эти файлы можно найти в _**Quantower -&gt; Settings -&gt; Workspaces**_ папке. Каждый файл представляет некоторую рабочую область; все файлы имеют похожие имена. Технически файл рабочей области представляет собой XML-документ, содержащий все настройки всех панелей, находящихся в рабочей области.
+As a top-level grouping layer, Workspaces store all their contents in special local files. These files can be found in _**Quantower -&gt; Settings -&gt; Workspaces**_ folder. Each file represents some workspace; both have the similar names. Technically, the workspace file is an XML-document containing all of the settings of all panels that are in the workspace.
 
 {% embed url="https://www.youtube.com/watch?v=A\_2gJdeP-08&t=20s" caption="How to create and save your custom workspace" %}
 
-**Workspaces менеджер** позволяет вам видеть, создавать, редактировать и удалять ваши рабочие среды, а также блокировать их изменение. Workspaces представлен специальным значком, при нажатии на который открывается список доступных Рабочих областей.
+**Workspaces manager** allows you to see, create, edit and delete your working environments as well as lock their modification. It is represented with the special icon, that opens the list of available Workspaces once being clicked.
 
-![](../.gitbook/assets/vorkspeis.png)
+![Workspaces manager](../.gitbook/assets/workspaces.png)
 
-Текущая активная рабочая область отмечена цветом и имеет точку слева от ее имени. Вы можете переключить текущее рабочее пространство, щелкнув левой кнопкой мыши любой доступный элемент в списке. Нижняя часть списка \(после разделителя\) состоит из действий, относящихся к текущей активной рабочей области и позволяет:
+The currently active workspace is marked with the color and has a blue dot on the left side of its name. You can switch the current workspace by left-clicking any of available item from the list. The bottom part of the list \(after separator\) consists of actions, referred to the currently active workspace and allows to:
 
-* **Блокировать** — отключает возможность добавлять, удалять, перемещать или изменять размер любой панели в текущей рабочей области;
-* **Переименовать** — вызывает всплывающий экран, где вы можете установить новое имя для текущей рабочей области;
-* **Создать новый** — открывает всплывающее окно с формой создания новой рабочей области.
+* **Lock** — disables an ability to add, remove, move or resize any panel in current workspace;
+* **Rename...** — invokes a pop-up screen where you can set up a new name for the current workspace;
+* **Create new** — opens a pop-up screen with the new workspace creation form.
 
-![](../.gitbook/assets/novoe-rabochee-prostranstvo%20%281%29.png)
+![New workspace creation window](../.gitbook/assets/ccnewworkspace.png)
 
-При создании нового рабочего пространства у вас есть возможность указать его будущее имя и выбрать, должно ли оно быть пустым после создания или содержать некоторый предопределенный набор панелей.
+When creating the new workspace, you have an ability to specify its future name and select whether it should be Blank, once created, or should contain some predefined panels set.
 
 {% hint style="success" %}
-Список шаблонов Workspace будет постоянно расширяться.
+The list of Workspace templates will be constantly growing.
 {% endhint %}
 
-Вы также можете удалить любую из рабочих областей, щелкнув значок «**Корзина**» справа от имени рабочей области \(значок появляется при наведении курсора на имя\).
+You can also Remove any of Workspaces by clicking the “_**Trash**_” icon on the right side from Workspace name \(icon appears while hovering the name\).
 
