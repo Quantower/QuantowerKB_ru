@@ -8,7 +8,7 @@ description: >-
 
 Папка настроек содержит все рабочие области, сохраненные шаблоны, а также все визуальные изменения, которые были применены к панелям, индикаторам, инструментам рисования. Ниже мы рассмотрим основные операции, которые вы можете выполнять с папкой настроек для комфортной работы с платформой.
 
-* [**How to Reset All Settings to default**](reset-settings-to-default.md#how-to-reset-all-settings-to-default)
+* \*\*\*\*[**Сбросить настройки до значений по умолчанию**](reset-settings-to-default.md#kak-vosstanovit-vse-nastroiki-po-umolchaniyu)\*\*\*\*
 * How to Reset Settings of a particular panel, drawing, indicator
 * How to share your Templates, Workspaces with other traders
 * How to copy settings to other PC
