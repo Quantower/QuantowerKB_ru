@@ -1,10 +1,22 @@
 ---
-description: Set the same color for multiple panels for applying Linking.
+description: >-
+  Установите одинаковый цвет для нескольких панелей и открывайте одним нажатием
+  одновременно несколько панелей для выбранной котировки.
 ---
 
-# Связанные панели
+# Связывание панелей по цвету
 
-**Link** allows linking several panels by common symbol using the Color definition. Just select one link color in two panels and they will have a synchronized symbol parameter. Once linkage is applied, the panel’s title will be colored to the respective color.
+В [Quantower ](https://www.quantower.com/)можно связать несколько панелей по одному инструменту с помощью цвета. Просто выберите один цвет ссылки на двух панелях, и у них будет параметр синхронизированного символа.   
+  
+**После установки связи по цвету:**  
+- заголовки панелей станут окрашены в соответствующий цвет;  
+-символ, к которому Вы сделали привязку панелей, станет кликабельным в списке наблюдения;  
+-при нажатии на торговую пару/инструмент \(линк\), одновременн откроются все связанные панели, которые Вы отметили одним цветом.  
+  
+Как пример, одним нажатием по паре, можно открыть одновременно разные таймфреймы.   
 
-![Panels linking](../.gitbook/assets/panel-linking.gif)
+
+![&#x41A;&#x430;&#x43A; &#x441;&#x432;&#x44F;&#x437;&#x430;&#x442;&#x44C; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x43E;&#x434;&#x43D;&#x43E;&#x433;&#x43E; &#x438;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x430; &#x446;&#x432;&#x435;&#x442;&#x43E;&#x43C;](../.gitbook/assets/panel-linking.gif)
+
+
 

@@ -2,7 +2,7 @@
 description: Binds allow to create any combination of panels in any required way
 ---
 
-# Binds
+# Binds объединение панелей
 
 The most innovative and, we are sure, a useful layer of panels organization — is **Binds** \(binding\). It was developed to allow a user to create its own “**Super-panels**” — the sets of basic panels that should be stuck together. Generally, Binds allows you to create any combination of panels in any required way; the only limit is your fantasy.
 
