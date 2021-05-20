@@ -2,37 +2,39 @@
 description: Follow this step-by-step guide to reset platform's settings to default
 ---
 
-# Reset settings to default
+# Сбросить настройки до значений по умолчанию
 
 Settings folder contains all the workspaces, saved templates, as well as all the visual changes that have been applied to panels, indicators, drawing tools. Below we will consider the basic operations that you can perform with the settings folder for comfortable work with the platform.
 
-* \*\*\*\*[**How to Reset All Settings to default**](reset-settings-to-default.md#how-to-reset-all-settings-to-default)\*\*\*\*
+* [**How to Reset All Settings to default**](reset-settings-to-default.md#how-to-reset-all-settings-to-default)
 * How to Reset Settings of a particular panel, drawing, indicator
 * How to share your Templates, Workspaces with other traders
 * How to copy settings to other PC
 
-{% embed url="https://www.youtube.com/watch?v=n0lUFu8FNN8&t=168s" caption="Quantower Settings. How to Save, Copy, Restore, Reset" %}
+{% embed url="https://www.youtube.com/watch?v=n0lUFu8FNN8&t=168s" caption="Настройки Quantower.  Как сохранить, скопировать, восстановить, сбросить" %}
 
-## How to Reset All Settings to default
+## Как восстановить ВСЕ настройки по умолчанию
 
-Sometimes all platform's settings need to be reset to default. To do this, close the platform, **Right-click** on Quantower icon and select **Open File Location** from the context menu.
+Иногда необходимо сбросить все настройки платформы до значений по умолчанию. Для этого закройте платформу, щелкните правой кнопкой мыши значок **Quantower** и выберите в контекстном меню команду «**Открыть расположение файла**».
 
 {% hint style="success" %}
-You can save the current settings if you want to return to them later. Just rename your **Settings** folder to something else, like _**Settings\_My**_ etc.
+Вы можете сохранить текущие настройки, если захотите вернуться к ним позже. Просто переименуйте папку настроек во что-нибудь другое, например, в Settings\_My и т. д.
 {% endhint %}
 
-![](../.gitbook/assets/screenshot_39.png)
+![](../.gitbook/assets/raspolozhenie-faila.png)
 
-A folder with the main files of the latest \(installed\) version of the program will open.  
-_**Go to the main folder of the platform.**_
+Откроется папка с основными файлами последней \(установленной\) версии программы.
 
-![](../.gitbook/assets/screenshot_40.png)
+**Зайдите в основную папку платформы  Quantower**  
 
-_Rename the **Settings** folder_ \(for example, Settings1 or Settings\_old\). After you rename the folder, run the platform. The new Settings folder will automatically appear with default settings.
 
-![The new Settings folder will automatically appear with default settings](../.gitbook/assets/settings-folder.gif)
+![](../.gitbook/assets/papka-nastroek.png)
+
+Переименуйте папку настроек \(например, Settings**\_1** или Settings**\_old**\). После переименования папки запустите платформу. После перезапуска останется Ваша папка со старыми настройками "Settings**\_old"** и новая папка "Settings"  автоматически появится с настройками по умолчанию.
+
+![&#x41D;&#x43E;&#x432;&#x430;&#x44F; &#x43F;&#x430;&#x43F;&#x43A;&#x430; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x435;&#x43A; &#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438; &#x43F;&#x43E;&#x44F;&#x432;&#x438;&#x442;&#x441;&#x44F; &#x441; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x430;&#x43C;&#x438; &#x43F;&#x43E; &#x443;&#x43C;&#x43E;&#x43B;&#x447;&#x430;&#x43D;&#x438;&#x44E;.](../.gitbook/assets/settings-folder.gif)
 
 {% hint style="warning" %}
-Before sending your Settings to developers for checking the problem, add the full settings folder to the ZIP or RAR archive and send it to **info@quantower.com** with a brief description of your problem
+Перед отправкой ваших настроек разработчикам для проверки проблемы добавьте полную папку настроек в архив ZIP или RAR и отправьте ее по адресу **info@quantower.com** с кратким описанием вашей проблемы.
 {% endhint %}
 
