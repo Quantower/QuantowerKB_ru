@@ -20,7 +20,7 @@ description: >-
 * \*\*\*\*[**Не могу закрыть позицию**](errors-with-binance-connection.md#an-error-has-occurred-i-cant-close-the-position-request-was-executed-partially-the-value-of-the-open-position-is-less-than-usd-5-proizoshla-oshibka-ne-mogu-zakryt-poziciyu-zapros-vypolnen-chastichno-stoimost-otkrytoi-pozicii-menshe-5-dollarov)\*\*\*\*
 * \*\*\*\*[**Error "Too much requests weight used; current limit is 1200 request weight per 1 minute**](errors-with-binance-connection.md#error-too-much-requests-weight-used-current-limit-is-1200-request-weight-per-1-minute-please-use-the-websocket-for-live-updates-to-avoid-polling-the-api-oshibka-ispolzovan-slishkom-bolshoi-ves-zaprosov-tekushii-predel-sostavlyaet-1200-zaprosov-v-minutu-ispolzuite-veb-soket-dlya-obnovlenii-v-realnom-vremeni-chtoby-izbezhat-oprosa-api)**.** 
 * \*\*\*\*[**Error "Parameter 'start time' is invalid"**](errors-with-binance-connection.md#error-parameter-start-time-is-invalid-oshibka-parametr-vremya-nachala-nedeistvitelen)\*\*\*\*
-* \*\*\*\*[**Error "Signature for this request is not valid"**](errors-with-binance-connection.md#error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna)\*\*\*\*
+* \*\*\*\*[**Error "Signature for this request is not valid"**](errors-with-binance-connection.md#error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna)
 
 ##   ****Ошибка «Недопустимый API-ключ, IP или разрешения на действие»
 
