@@ -1,12 +1,12 @@
 ---
 description: >-
-  Single panel is the minor element of any Workspace and they behave just like
-  any usual PC window
+  Одиночная панель - это второстепенный элемент любого рабочего пространства, и
+  они ведут себя так же, как любое обычное окно ПК.
 ---
 
-# Single Panel
+# Одиночная панель
 
-Standalone panels are the minor elements of any Workspace and they behave just like any usual PC window:
+Автономные панели - второстепенные элементы любого рабочего пространства, и они ведут себя так же, как любое обычное окно ПК:
 
 * can be resized and positioned to any place on your screen;
 * can stick to each other within their borders when they close enough;
