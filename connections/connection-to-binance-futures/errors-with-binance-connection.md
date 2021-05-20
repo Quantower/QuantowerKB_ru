@@ -60,17 +60,17 @@ description: >-
 
 Платформа синхронизирует время с биржей Binance во время подключения. Если десинхронизация достигает определенного предела, то любые \(авторизованные\) запросы будут отображать эту ошибку.
 
-To solve it, please, go to **Windows Settings &gt; Time & Language &gt;** and click on **Sync Now** button**.**
+Чтобы решить эту проблему, перейдите в «**Настройки Windows**»&gt; «**Время и язык**»&gt; и нажмите кнопку «**Синхронизировать сейчас**»
 
-## Error "Order's notional must be no smaller than 5.0 \(unless you choose to reduce only\)
+## Error "Order's notional must be no smaller than 5.0 \(unless you choose to reduce only\) Ошибка "Условное значение заказа должно быть не меньше 5,0$ \(если только вы не выберете только уменьшение\).
 
 ![](../../.gitbook/assets/image%20%28102%29.png)
 
-As of February 24, 2021 the value of the perpetual futures order must be at least $5. If it is less than that, the order will be rejected. If you encounter this error, increase the volume you are placing so that it is greater than or equal to $5.
+По состоянию на 24 февраля 2021 года стоимость бессрочного фьючерсного ордера должна быть не менее **5 долларов США**. Если оно меньше, заказ будет отклонен. Если вы столкнулись с этой ошибкой, увеличьте размещаемый объем, чтобы он был больше или равнялся 5 долларам США.
 
-Example: When opening 0.001 ETH, the value of the order is greater than $5, so it will be placed. An order for 1 ANK is worth less than $5, so it will be rejected.
+Пример: при открытии 0,001 ETH стоимость ордера превышает 5 долларов США, поэтому он будет размещен. Заказ на 1 ANK стоит менее 5 долларов, поэтому он будет отклонен.
 
-## Error "Margin is insufficient"
+## Error "Margin is insufficient" Ошибка «Маржа недостаточна»
 
 This error occurs when trying to place the order. Please check your wallet balance and make sure that there is enough coin to make a trade. When trading USDS-M futures on Binance Futures, the wallet account must have USDT tokens.
 
