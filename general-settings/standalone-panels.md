@@ -17,7 +17,7 @@ description: >-
 
 Каждая панель имеет **собственное контекстное меню**, расположенное в левом верхнем углу, прямо перед заголовком панели.
 
-![](../.gitbook/assets/menyu-paneli.png)
+![](../.gitbook/assets/menyu.png)
 
 Это меню обычно состоит из следующих функций:
 
@@ -25,10 +25,10 @@ description: >-
 * **Создать Bind** Объединение нескольких панелей в Суперпанель. Подробнее: [**"Binds объединение панелей".**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Ma8piLxj907L8bDjdQX/general-settings/binds)\*\*\*\*
 * **Создать панель.** Открывает новую панель для текущего инструмента. Вы можете открыть следующие панели:  [**Создать ордер**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Ma80V15tvxILSGD6fGC/trading-panels/order-entry)**,**[ **График,**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Ma80V15tvxILSGD6fGC/analytics-panels/chart) ****[**трейдер DOM,**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Ma80V15tvxILSGD6fGC/trading-panels/dom-trader) ****[**Глубина рынка,**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Ma80V15tvxILSGD6fGC/trading-panels/market-depth) ****[**Лента сделок,**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Ma80V15tvxILSGD6fGC/analytics-panels/time-and-sales) ****[**поверхность DOM**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Ma80V15tvxILSGD6fGC/analytics-panels/dom-surface)**,** [**график TPO**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Ma8piLxj907L8bDjdQX/analytics-panels/tpo-chart)**,** [**Информация о символе**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Ma8piLxj907L8bDjdQX/analytics-panels/tpo-chart)**.**
 
-![Open a new panel with the current symbol](../.gitbook/assets/image%20%28133%29.png)
+![](../.gitbook/assets/menyu-paneli.png)
 
-* **Duplicate panel**. Just creates one more totally similar panel \(full copy\).
-* \*\*\*\*[**Save as template**](templates.md). Customize the panel, combine in a group or Bind and save as a template.
+* **Копировать панель**. Просто создает еще одну полностью аналогичную панель \(полную копию\).
+* \*\*\*\*[**Применить шаблон.**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Ma96l-5cKuNsF1kr68X/general-settings/templates) Настроить панель, объединить в группу или привязать и сохранить как шаблон.
 * **Apply template.** Once you created several templates you can apply any of them to this particular panel.
 
 ![](../.gitbook/assets/templates.gif)
