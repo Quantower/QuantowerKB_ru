@@ -1,10 +1,12 @@
 ---
-description: Follow this step-by-step guide to reset platform's settings to default
+description: >-
+  Следуйте этому пошаговому руководству, чтобы сбросить настройки платформы до
+  значений по умолчанию.
 ---
 
 # Сбросить настройки до значений по умолчанию
 
-Settings folder contains all the workspaces, saved templates, as well as all the visual changes that have been applied to panels, indicators, drawing tools. Below we will consider the basic operations that you can perform with the settings folder for comfortable work with the platform.
+Папка настроек содержит все рабочие области, сохраненные шаблоны, а также все визуальные изменения, которые были применены к панелям, индикаторам, инструментам рисования. Ниже мы рассмотрим основные операции, которые вы можете выполнять с папкой настроек для комфортной работы с платформой.
 
 * [**How to Reset All Settings to default**](reset-settings-to-default.md#how-to-reset-all-settings-to-default)
 * How to Reset Settings of a particular panel, drawing, indicator
