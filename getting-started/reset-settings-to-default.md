@@ -9,9 +9,9 @@ description: >-
 Папка настроек содержит все рабочие области, сохраненные шаблоны, а также все визуальные изменения, которые были применены к панелям, индикаторам, инструментам рисования. Ниже мы рассмотрим основные операции, которые вы можете выполнять с папкой настроек для комфортной работы с платформой.
 
 * \*\*\*\*[**Сбросить настройки до значений по умолчанию**](reset-settings-to-default.md#kak-vosstanovit-vse-nastroiki-po-umolchaniyu)\*\*\*\*
-* How to Reset Settings of a particular panel, drawing, indicator
-* How to share your Templates, Workspaces with other traders
-* How to copy settings to other PC
+* Как сбросить настройки конкретной панели, рисунка, индикатора
+* Как поделиться своими шаблонами, рабочими пространствами с другими трейдерами
+* Как скопировать настройки на другой ПК
 
 {% embed url="https://www.youtube.com/watch?v=n0lUFu8FNN8&t=168s" caption="Настройки Quantower.  Как сохранить, скопировать, восстановить, сбросить" %}
 
