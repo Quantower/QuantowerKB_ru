@@ -20,7 +20,7 @@
   * [Основная панель инструментов Quantower](general-settings/main-toolbar.md)
   * [Workspaces - менеджер рабочих пространств](general-settings/workspaces-binds-groups.md)
   * [Одиночная панель](general-settings/standalone-panels.md)
-  * [Link panels](general-settings/link-panels.md)
+  * [Связанные панели](general-settings/link-panels.md)
   * [Binds](general-settings/binds.md)
   * [Group of panels](general-settings/group-of-panels.md)
   * [Templates](general-settings/templates.md)

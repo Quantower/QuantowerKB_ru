@@ -19,10 +19,10 @@ description: >-
 
 ![](../.gitbook/assets/menyu-paneli.png)
 
-This menu usually consists of the following functions:
+Это меню обычно состоит из следующих функций:
 
-* **Link**. Allows linking several panels by common symbol using the Color definition. More details in the [_**Linking section**_](link-panels.md)**.**
-* \*\*\*\*[**Create bind**](binds.md). Combining several panels in Super-panel. More details in [_**Binds section**_](binds.md).
+* **Связка по цвету.** Позволяет связать несколько панелей общим символом с помощью определения цвета. Подробнее в разделе [**"Связанные панели"** ](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Ma7xTODeGYMgEpmiuQ-/general-settings/link-panels)\*\*\*\*
+* [**Create bind**](binds.md). Объединение нескольких панелей в Суперпанель. Подробнее [_**Binds section**_](binds.md).
 * **Create panel.** Opens a new panel with the current symbol.  You can open the following panels: [**Order Entry**](../trading-panels/order-entry/)**,** [**Chart**](../analytics-panels/chart/)**,** [**DOM Trader**](../trading-panels/dom-trader/)**,** [**Market Depth**](../trading-panels/market-depth.md)**,** [**Time&Sales**](../analytics-panels/time-and-sales.md)**,** [**DOM Surface**](../analytics-panels/dom-surface.md)**,** [**TPO Chart**](../analytics-panels/tpo-chart.md)**,** [**Symbol Info**](../informational-panels/symbol-info.md)\*\*\*\*
 
 ![Open a new panel with the current symbol](../.gitbook/assets/image%20%28133%29.png)
