@@ -42,6 +42,9 @@ description: >-
 ![](../.gitbook/assets/shablon-v-bind.gif)
 
 {% hint style="success" %}
-You can **share your templates** with other Quantower traders by sharing the template files with them. Template files can be found in “Quantower -&gt; Settings -&gt; Templates” folder.
+Вы можете поделиться своими шаблонами с другими трейдерами Quantower, поделившись с ними файлами шаблонов. Файлы шаблонов можно найти в папке   
+ _**“Quantower -&gt; Settings -&gt; Templates”**_
 {% endhint %}
+
+![](../.gitbook/assets/papka-shablony.png)
 
