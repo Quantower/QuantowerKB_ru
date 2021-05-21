@@ -22,21 +22,24 @@ description: >-
 
 ![&#x41F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440; &#xAB;&#x421;&#x43E;&#x445;&#x440;&#x430;&#x43D;&#x438;&#x442;&#x44C; &#x43A;&#x430;&#x43A; &#x448;&#x430;&#x431;&#x43B;&#x43E;&#x43D;&#xBB; &#x432; &#x43A;&#x43E;&#x43D;&#x442;&#x435;&#x43A;&#x441;&#x442;&#x43D;&#x43E;&#x43C; &#x43C;&#x435;&#x43D;&#x44E; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438;.](../.gitbook/assets/sokhranit-kak-shablon.jpg)
 
-Все созданные шаблоны хранятся на боковой панели Центра управления в группе «Шаблоны». Таким образом, вы можете запускать любой шаблон из этого места в любое время в один клик. Вы можете поместить сохраненные шаблоны на панель избранного в Центре управления, как и на любую другую панель по умолчанию.
+**Запуск шаблона**. Все созданные шаблоны хранятся на боковой панели Центра управления в группе «Шаблоны». Таким образом, вы можете запускать любой шаблон из этого места в любое время в один клик. Вы можете поместить сохраненные шаблоны на панель избранного в Центре управления, как и на любую другую панель по умолчанию.
 
 ![&#x420;&#x430;&#x437;&#x434;&#x435;&#x43B; &quot;&#x428;&#x430;&#x431;&#x43B;&#x43E;&#x43D;&#x44B;&quot; &#x43D;&#x430; &#x431;&#x43E;&#x43A;&#x43E;&#x432;&#x43E;&#x439; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x446;&#x435;&#x43D;&#x442;&#x440;&#x430; &#x443;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F;](../.gitbook/assets/sokhranennye-shablony.png)
 
-**Применить шаблон**. Создав несколько шаблонов, вы можете применить любой из них к этой конкретной панели.
+**Применить шаблон**. Создав несколько шаблонов, вы можете применить любой из них к этой конкретной панели.   
+                                        
 
-![](../.gitbook/assets/templates.gif)
+![&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x43D;&#x438;&#x442;&#x44C; &#x448;&#x430;&#x431;&#x43B;&#x43E;&#x43D; &#x438;&#x437; &#x441;&#x43E;&#x445;&#x440;&#x430;&#x43D;&#x435;&#x43D;&#x43D;&#x44B;&#x445;](../.gitbook/assets/primenit-shablon.gif)
 
-If you want to **edit** the template name or **delete** it from your terminal — use the context menu on it. Each Template stores all of the settings data, including sizes, coloring, internal elements visibility, a predefined symbol of account values, additional specific settings etc. In other words: all that you can customize + more.
+ Если вы хотите отредактировать имя шаблона или удалить его из вашего терминала - воспользуйтесь контекстным меню на нем. В каждом шаблоне хранятся все данные настроек, включая размеры, расцветку, видимость внутренних элементов, предопределенный символ значений учетной записи, дополнительные специфические настройки и т. д. Другими словами: все, что вы можете настроить, и многое другое.
 
 {% hint style="warning" %}
-If the separate panel is in the Bind, the template saving cannot be applied to it. In this case, **the template can be saved only for Bind.**
+Если отдельная панель находится в связке **Bind** Объединенных панелей, то:  
+- сохранение нового шаблона к отдельной панели не применимо. В этом случае шаблон можно сохранить **только для всей группы Bind**.   
+- применить же шаблон из сохраненных в списке можно к каждой поверхности по отдельности.
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2850%29.png)
+![](../.gitbook/assets/shablon-v-bind.gif)
 
 {% hint style="success" %}
 You can **share your templates** with other Quantower traders by sharing the template files with them. Template files can be found in “Quantower -&gt; Settings -&gt; Templates” folder.
