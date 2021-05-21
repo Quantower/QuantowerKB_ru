@@ -21,7 +21,7 @@
   * [Workspaces - менеджер рабочих пространств](general-settings/workspaces-binds-groups.md)
   * [Одиночная панель](general-settings/standalone-panels.md)
   * [Связывание панелей по цвету](general-settings/link-panels.md)
-  * [Binds объединение панелей](general-settings/binds.md)
+  * [Binds - Объединение панелей](general-settings/binds.md)
   * [Группировка панелей](general-settings/group-of-panels.md)
   * [Templates](general-settings/templates.md)
   * [Set as Default](general-settings/set-as-default.md)
