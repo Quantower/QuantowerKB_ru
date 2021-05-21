@@ -23,7 +23,7 @@
   * [Связывание панелей по цвету](general-settings/link-panels.md)
   * [Binds - Объединение панелей](general-settings/binds.md)
   * [Группировка панелей](general-settings/group-of-panels.md)
-  * [Templates](general-settings/templates.md)
+  * [Шаблоны](general-settings/templates.md)
   * [Set as Default](general-settings/set-as-default.md)
   * [Symbols lookup](general-settings/instruments-lookup.md)
   * [Table management](general-settings/table-management.md)

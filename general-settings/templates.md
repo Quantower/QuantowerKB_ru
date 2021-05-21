@@ -1,26 +1,26 @@
 ---
 description: >-
-  Customize the panel as you need and save it as a Template for quick use for
-  other trading instruments
+  Настройте панель по своему усмотрению и сохраните ее как шаблон для быстрого
+  использования с другими торговыми инструментами.
 ---
 
-# Templates
+# Шаблоны
 
-Due to the wide list of features, most panels in Quantower platform have a huge list of customization possibilities. The more powerful panel is — the more settings it has. This allows any user to tune each functionality on its own and sometimes this process can take a lot of time to complete.
+Из-за широкого списка функций большинство поверхностей на платформе Quantower имеют огромный список возможностей настройки. Чем мощнее поверхность - тем больше в ней настроек. Это позволяет любому пользователю настраивать каждую функцию самостоятельно, и иногда этот процесс может занять много времени.
 
-In order to save your work on workspace customization, we have developed a _**“Templates”**_ functionality. It helps you to save your customizations in special objects — templates — and instantiate them later, keeping all of the applied settings.
+Чтобы сэкономить вашу работу по настройке рабочего пространства, мы разработали функцию «**Шаблоны**». Это поможет вам сохранить ваши настройки в специальных объектах - шаблонах - и создать их позже, сохранив все примененные настройки.
 
-You can _**save any**_ [_**Panel**_](standalone-panels.md)_**,**_ [_**Group**_](group-of-panels.md) _**or**_ [_**Bind**_](binds.md) _**as a template**_, so its usefulness is very promising.
+Вы можете сохранять любые [**Одиночные панели**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MaEToFHUmH6IcARPyfA/general-settings/standalone-panels), [**сгрупированные поверхности**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MaEToFHUmH6IcARPyfA/general-settings/group-of-panels) ****или [**Bind**](binds.md) **\(**Объединенные поверхности\), как шаблон, так что его полезность очень многообещающая. 
 
-## How to create the template?
+## Как создать шаблон?
 
-The process of Template creation is as simple as 1-2-3:
+Процесс создания шаблона прост, как 1-2-3:
 
-1. Open any panel \(or use Group / Bind\)
-2. Customize it according to your needs
-3. Save as Template with a custom name.
+1. Откройте любую панель \(или группу панелей или  Bind\)
+2. Настройте его в соответствии с вашими потребностями
+3. Сохранить как шаблон и назовите его.
 
-![&#x201C;Save as template&#x201D; option in panel&#x2019;s context menu](../.gitbook/assets/image%20%28135%29.png)
+![&#x41F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440; &#xAB;&#x421;&#x43E;&#x445;&#x440;&#x430;&#x43D;&#x438;&#x442;&#x44C; &#x43A;&#x430;&#x43A; &#x448;&#x430;&#x431;&#x43B;&#x43E;&#x43D;&#xBB; &#x432; &#x43A;&#x43E;&#x43D;&#x442;&#x435;&#x43A;&#x441;&#x442;&#x43D;&#x43E;&#x43C; &#x43C;&#x435;&#x43D;&#x44E; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438;.](../.gitbook/assets/sokhranit-kak-shablon.jpg)
 
 All of the created templates are stored in Control center sidebar, under the _**“Templates”**_ group. So you can launch any template from this place any time you wish. You can put the saved templates on the Favorites bar of Control center, like any other default panel.
 
