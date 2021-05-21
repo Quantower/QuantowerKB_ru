@@ -24,7 +24,7 @@
   * [Binds - Объединение панелей](general-settings/binds.md)
   * [Группировка панелей](general-settings/group-of-panels.md)
   * [Шаблоны](general-settings/templates.md)
-  * [Set as Default](general-settings/set-as-default.md)
+  * [Установить по умолчанию](general-settings/set-as-default.md)
   * [Symbols lookup](general-settings/instruments-lookup.md)
   * [Table management](general-settings/table-management.md)
   * [Setup Actions & Advanced filters](general-settings/setup-actions-and-advanced-filters.md)

@@ -1,26 +1,27 @@
 ---
 description: >-
-  Set as Default option allows to customize the panel and save its settings by
-  default. Each newly opened panel of this type will apply the saved settings.
+  Параметр «Установить по умолчанию» позволяет настроить панель и сохранить ее
+  настройки по умолчанию.  Каждая вновь открытая панель этого типа будет
+  применять сохраненные настройки.
 ---
 
-# Set as Default
+# Установить по умолчанию
 
-Flexible platform settings allow you to customize any panel on your own. Change the font, color, add indicators, determine the displaying of the required columns in the table, etc.
+Гибкие настройки платформы позволяют настроить любую панель по своему усмотрению. Измените шрифт, цвет, добавьте индикаторы, определите отображение необходимых столбцов в таблице и т. д.
 
-But if you don’t want to configure the newly opened panels of this type every time, we have created the "_**Set as Default**_**"** option that redefines the factory settings.
+Но если вы не хотите каждый раз настраивать вновь открываемые панели этого типа, мы создали параметр «**Установить по умолчанию**», который переопределяет начальные настройки.
 
-## How Set as Default works?
+## Как работает параметр "Установка по умолчанию"?
 
-* **Open the panel** for which you want to assign new settings.
-* **Customize the panel**. For example, on the chart panel, add any indicator, change the font size of the price axis, change the background color.
-* Click on the panel's context menu \(left upper corner\) and click on the "_**Set as Default"**_. You will see the message "_**Settings saved as default layout**_".
-* A new panel of this type will open with saved settings.
+* **Откройте панель**, для которой вы хотите назначить новые настройки.
+* **Настройте панель.** Например, на панели графика добавьте любой индикатор, измените размер шрифта оси цены, измените цвет фона.
+* Щелкните [контекстное меню панели](standalone-panels.md#kontekstnoe-menyu-paneli) \(левый верхний угол\) и щелкните «Установить по умолчанию». Вы увидите сообщение «Настройки сохранены как настройки по умолчанию».
+* При каждом открытии этого типа поверхность теперь будет открываться с этими настройками по умолчанию.
 
-![Saving settings as default](../.gitbook/assets/set-as-default%20%281%29.gif)
+![&#x421;&#x43E;&#x445;&#x440;&#x430;&#x43D;&#x435;&#x43D;&#x438;&#x435; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x435;&#x43A; &#x43F;&#x43E; &#x443;&#x43C;&#x43E;&#x43B;&#x447;&#x430;&#x43D;&#x438;&#x44E;](../.gitbook/assets/ustanovit-po-umolchaniyu.gif)
 
 {% hint style="warning" %}
-If you enable [_**volume analysis tools**_](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools) on the chart panel and save it by default, then each new chart panel will be loading tick and volume data. It will increase traffic consumption and reduce the speed of building chart data.
+Если вы включите [**инструменты объемного анализа**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools) на графике и сохраните настройки графика по умолчанию, то каждая новая панель графика будет загружать данные тиков и объемов. Это увеличит потребление трафика и снизит скорость построения данных диаграммы.
 {% endhint %}
 
 In the latest version of the platform, we have removed the "_**Reset to Default**_" option. Therefore, each time clicking on the "_**Set as Default**_**"** you redefine the previous settings.
