@@ -22,11 +22,11 @@ description: >-
 
 ![&#x41F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440; &#xAB;&#x421;&#x43E;&#x445;&#x440;&#x430;&#x43D;&#x438;&#x442;&#x44C; &#x43A;&#x430;&#x43A; &#x448;&#x430;&#x431;&#x43B;&#x43E;&#x43D;&#xBB; &#x432; &#x43A;&#x43E;&#x43D;&#x442;&#x435;&#x43A;&#x441;&#x442;&#x43D;&#x43E;&#x43C; &#x43C;&#x435;&#x43D;&#x44E; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438;.](../.gitbook/assets/sokhranit-kak-shablon.jpg)
 
-All of the created templates are stored in Control center sidebar, under the _**“Templates”**_ group. So you can launch any template from this place any time you wish. You can put the saved templates on the Favorites bar of Control center, like any other default panel.
+Все созданные шаблоны хранятся на боковой панели Центра управления в группе «Шаблоны». Таким образом, вы можете запускать любой шаблон из этого места в любое время в один клик. Вы можете поместить сохраненные шаблоны на панель избранного в Центре управления, как и на любую другую панель по умолчанию.
 
-![Templates section in Control center sidebar](../.gitbook/assets/templates.png)
+![&#x420;&#x430;&#x437;&#x434;&#x435;&#x43B; &quot;&#x428;&#x430;&#x431;&#x43B;&#x43E;&#x43D;&#x44B;&quot; &#x43D;&#x430; &#x431;&#x43E;&#x43A;&#x43E;&#x432;&#x43E;&#x439; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x446;&#x435;&#x43D;&#x442;&#x440;&#x430; &#x443;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F;](../.gitbook/assets/sokhranennye-shablony.png)
 
-**Apply template.** Once you created several templates you can apply any of them to this particular panel.
+**Применить шаблон**. Создав несколько шаблонов, вы можете применить любой из них к этой конкретной панели.
 
 ![](../.gitbook/assets/templates.gif)
 
