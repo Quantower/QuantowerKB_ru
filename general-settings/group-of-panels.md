@@ -1,20 +1,22 @@
 ---
 description: >-
-  Group allows to arrange several panels as nested tabs and then move the
-  created group as one panel.
+  Группировка позволяет организовать несколько панелей как вложенные вкладки, а
+  затем переместить созданную группу как одну панель.
 ---
 
 # Группировка панелей
 
-The simplest level of combining several panels together is a **Group**. This layer allows to arrange several panels as nested tabs and then move the created group as one panel.
+Самый простой уровень объединения нескольких панелей - это группа. Этот способ позволяет расположить несколько панелей как вложенные вкладки, а затем переместить созданную группу как одну панель.
 
-![Panels grouping](../.gitbook/assets/groups.gif)
+![&#x413;&#x440;&#x443;&#x43F;&#x43F;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x430; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x435;&#x439;](../.gitbook/assets/groups.gif)
 
-To group two panels just click and drag one Panel’s header over another. To ungroup panels just drag an active Panel’s tab out of group tabs bar.
+![](../.gitbook/assets/svyazat-paneli.gif)
 
-Panels can also be reordered within group tabs as well as closed being grouped. Each newly created group has a default name “**Group**” that can be easily changed via panel’s context menu.
+ Чтобы сгруппировать две панели, просто щелкните и перетащите заголовок одной панели на другую. Чтобы разгруппировать панели, просто перетащите вкладку активной панели из панели вкладок группы.
+
+Панели также могут быть переупорядочены внутри групповых вкладок, а также закрыты при группировании. Каждая вновь созданная группа имеет имя по умолчанию «Группа», которое можно легко изменить через контекстное меню панели.
 
 {% hint style="success" %}
-Grouping is very useful for saving space and putting together several common panels.
+Группировка очень полезна для экономии места и объединения нескольких общих панелей.
 {% endhint %}
 
