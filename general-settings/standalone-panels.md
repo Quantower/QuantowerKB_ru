@@ -35,7 +35,7 @@ description: >-
 * \*\*\*\*[**Установить по умолчанию.**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MaDSngnB6Chw3rN5tcw/general-settings/set-as-default)  По умолчанию для каждого типа панели есть свои настройки. Вы можете настроить их, как хотите, и даже установить свои личные настройки по умолчанию. Просто выберите вариант «Установить по умолчанию», и Quantower сохранит настройки вашей текущей панели и применит их для каждой вновь открытой панели этого типа.
 * Фильтры и Уведомления \(доступно только только для таких поверхностей, как Список наблюдения, Лента сделок, Позиции, Рабочие ордера и т. д.\). Эта опция позволяет вам устанавливать предупреждения и расширенную фильтрацию для значений в таблице.
 
-
+![](../.gitbook/assets/filtry-i-alerty.png)
 
 * \*\*\*\*[**Export Data.**](../miscellaneous-panels/history-exporter.md#how-to-export-historical-data-via-other-panels) Saving the data from a chart or table to an external CSV file. You can save Price data, indicator values, values in tables. Also, you can use the [**HISTORY EXPORTER**](../miscellaneous-panels/history-exporter.md) panel.
 
