@@ -30,9 +30,9 @@ description: >-
 * **Копировать панель**. Просто создает еще одну полностью аналогичную панель \(полную копию\).
 * \*\*\*\*[**Применить шаблон.**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Ma96l-5cKuNsF1kr68X/general-settings/templates) Настроить панель, объединить в группу или привязать и сохранить как шаблон. Создав несколько шаблонов, вы можете применить любой из них к этой конкретной панели.
 
-![](../.gitbook/assets/smena-shablona.gif)
+![](../.gitbook/assets/smena-shablona1.gif)
 
-* \*\*\*\*[**Save as default**](set-as-default.md)**.** Each panel type has its own settings by Default. You can tune them whatever you want and even make your personal defaults. Just select “_**Set as Default**_” option, and Quantower will store your current panel’s settings and will apply them for each newly opened panel of this type.
+* \*\*\*\*[**Установить по умолчанию.**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MaDSngnB6Chw3rN5tcw/general-settings/set-as-default)  По умолчанию для каждого типа панели есть свои настройки. Вы можете настроить их, как хотите, и даже установить свои личные настройки по умолчанию. Просто выберите вариант «Установить по умолчанию», и Quantower сохранит настройки вашей текущей панели и применит их для каждой вновь открытой панели этого типа.
 * \*\*\*\*[**Setup Actions**](setup-actions-and-advanced-filters.md) \(only for table panels like Watchlist, Time & Sales, Positions, Working Orders etc.\). This option allows you to set Alerts and advanced filtering to values in the table.
 * \*\*\*\*[**Export Data.**](../miscellaneous-panels/history-exporter.md#how-to-export-historical-data-via-other-panels) Saving the data from a chart or table to an external CSV file. You can save Price data, indicator values, values in tables. Also, you can use the [**HISTORY EXPORTER**](../miscellaneous-panels/history-exporter.md) panel.
 
