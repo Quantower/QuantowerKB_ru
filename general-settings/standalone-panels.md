@@ -30,7 +30,7 @@ description: >-
 * **Копировать панель**. Просто создает еще одну полностью аналогичную панель \(полную копию\).
 * \*\*\*\*[**Применить шаблон.**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Ma96l-5cKuNsF1kr68X/general-settings/templates) Настроить панель, объединить в группу или привязать и сохранить как шаблон. Создав несколько шаблонов, вы можете применить любой из них к этой конкретной панели.
 
-![](../.gitbook/assets/templates.gif)
+![](../.gitbook/assets/smena-shablona.gif)
 
 * \*\*\*\*[**Save as default**](set-as-default.md)**.** Each panel type has its own settings by Default. You can tune them whatever you want and even make your personal defaults. Just select “_**Set as Default**_” option, and Quantower will store your current panel’s settings and will apply them for each newly opened panel of this type.
 * \*\*\*\*[**Setup Actions**](setup-actions-and-advanced-filters.md) \(only for table panels like Watchlist, Time & Sales, Positions, Working Orders etc.\). This option allows you to set Alerts and advanced filtering to values in the table.
