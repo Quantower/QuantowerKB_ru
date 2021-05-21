@@ -24,5 +24,5 @@ description: >-
 Если вы включите [**инструменты объемного анализа**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools) на графике и сохраните настройки графика по умолчанию, то каждая новая панель графика будет загружать данные тиков и объемов. Это увеличит потребление трафика и снизит скорость построения данных диаграммы.
 {% endhint %}
 
-In the latest version of the platform, we have removed the "_**Reset to Default**_" option. Therefore, each time clicking on the "_**Set as Default**_**"** you redefine the previous settings.
+В последней версии платформы мы убрали опцию **«Сбросить по умолчанию».** Поэтому каждый раз, нажимая на **«Установить по умолчанию»**, вы переопределяете предыдущие настройки.
 
