@@ -1,16 +1,16 @@
 ---
 description: >-
-  Symbols lookup manager allowing to search and select any available symbol from
-  active connections
+  Менеджер поиска символов, позволяющий искать и выбирать любой доступный символ
+  из активных соединений
 ---
 
 # Symbols lookup
 
-Symbols lookup manager — is a special screen, allowing to search and select any available symbol from active connections. There are various panels in Quantower terminal, that require to have a Symbol parameter being set up \(Watchlist, Chart, Symbol info etc.\). Depending on the requirements, symbols lookup can allow single or multiple symbols selection.
+Окно менеджера поиска символов - это специальный экран, позволяющий искать и выбирать любой доступный символ из активных соединений. В терминале Quantower есть различные поверхности, для которых требуется настроить параметр символа \(список наблюдения, диаграмма, информация о символах и т. Д.\). В зависимости от требований, менджер поиска символов может позволять выбор одного или нескольких котировок.
 
-Each time you successfully connect with some integration, you will get a list of its symbols in Symbol lookup manager screen. Due to Quantower allows a multiple integrations connection, you may have several similar symbols with data, that can vary a bit. This is normal because different providers can give us different quotes data.
+При каждом коннекте к выбранному соединению, вы будете получать список всех доступных символов этого соединения на экране менеджера поиска символов. Поскольку Quantower допускает одновременно несколько подключений, у вас может быть в менеджере несколько похожих символов с данными, которые могут немного отличаться. Это нормально, потому что разные поставщики могут предоставить нам разные данные о котировках.
 
-## Lookup field
+## Поле поиска
 
 Symbols lookup screen usually invoked from a lookup field. This field consists of two parts that allow you to open a lookup screen:
 
