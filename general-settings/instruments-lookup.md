@@ -17,11 +17,11 @@ description: >-
 * Торговый символ \(тикер\) с именем подключения
 * Значок «**Поиск**» в виде трех вертикальных точек:
 
-![Symbol lookup field](../.gitbook/assets/image%20%28138%29.png)
+![](../.gitbook/assets/pole-poisk-simvolov.png)
 
-If you click on the symbol name you will see that the Lookup screen will pop up and the symbols, entered by you will be applied as filtering for the Symbols list.
+Если вы нажмете на имя символа, вы увидите, что появится экран поиска и символы, введенные вами, будут применены в качестве фильтрации для списка символов..
 
-If you click on the “_**Lookup**_” icon you will see the popped up Lookup screen without any filtering applied to symbols list.
+Если вы щелкните значок «Поиск», вы увидите всплывающий экран поиска без какой-либо фильтрации, примененной к списку символов.
 
 ![Symbol Lookup screen](../.gitbook/assets/symbol-lookup-screen.png)
 
