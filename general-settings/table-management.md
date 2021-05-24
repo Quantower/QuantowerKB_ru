@@ -51,5 +51,5 @@ description: >-
 
 ![](../.gitbook/assets/gruppirovka.png)
 
-To apply the grouping just right-click on the table body and find an option “_**Group by**_”; the second-level of context menu will contain all of available columns that can be grouped by. You can group by one column only. To cancel grouping — follow the previous steps and uncheck the column.
+Чтобы применить группировку, просто щелкните правой кнопкой мыши тело таблицы и найдите параметр **«Группировать по**»; второй уровень контекстного меню будет содержать все доступные столбцы, по которым можно сгруппировать. Вы можете группировать только по одному столбцу. Чтобы отменить группировку - выполните предыдущие шаги и снимите флажок со столбца.
 
