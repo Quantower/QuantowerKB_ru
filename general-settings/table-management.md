@@ -39,17 +39,17 @@ description: >-
 
 ![&#x411;&#x44B;&#x441;&#x442;&#x440;&#x430;&#x44F; &#x444;&#x438;&#x43B;&#x44C;&#x442;&#x440;&#x430;&#x446;&#x438;&#x44F; &#x43F;&#x43E; &#x441;&#x442;&#x43E;&#x43B;&#x431;&#x446;&#x443;](../.gitbook/assets/dopolnitelnye-filtry.png)
 
-Depending on the data type in a column, the Quick filter will give you the corresponding form for input; currently “_**String**_”, “_**Date/time**_” & “_**Number**_” filtering are supported. Once you select some option — the table rows will be filtered to that ones, containing the selected value. Quick filter can be cancelled by pressing “_**Cancel filtering**_” option.
+В зависимости от типа данных в столбце,  **Быстрый фильтр** предоставит вам соответствующую форму для ввода; в настоящее время поддерживается фильтрация «**Строка»**, «**Дата / время**» и «**Число**». После выбора какой-либо опции - строки таблицы будут отфильтрованы до тех, которые содержат выбранное значение. Быстрый фильтр можно отменить, нажав опцию «Отменить фильтрацию».
 
-## Sorting
+## Сортировка
 
-Each table can be sorted by column value. To sort the table, click on column’s header; you will see a “_**Sorting**_” icon appears. The next click on this header will revert the sorting by this column. You can sort your table only by one column simultaneously.
+Каждую таблицу можно отсортировать по значению столбца. Чтобы отсортировать таблицу, щелкните заголовок столбца; вы увидите значок «Сортировка». Следующий щелчок по этому заголовку вернет сортировку по этому столбцу. Вы можете сортировать таблицу только по одному столбцу одновременно.
 
-## Grouping
+## Группировка
 
-If you want to organize your rows more precisely, you can use a “_**Rows grouping**_” feature. It allows separating all table items in groups, made from data of some column. Currently, only “_**String**_” data columns are supported for grouping.
+Если вы хотите более точно организовать свои строки, вы можете использовать функцию «Группировка строк». Это позволяет разделить все элементы таблицы на группы, составленные из данных некоторого столбца. В настоящее время для группировки поддерживаются только столбцы данных типа «String».
 
-![Table grouped by &#x201C;Side&#x201D; value](../.gitbook/assets/tablegrouping.png)
+![](../.gitbook/assets/gruppirovka.png)
 
 To apply the grouping just right-click on the table body and find an option “_**Group by**_”; the second-level of context menu will contain all of available columns that can be grouped by. You can group by one column only. To cancel grouping — follow the previous steps and uncheck the column.
 
