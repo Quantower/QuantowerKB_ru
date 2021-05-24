@@ -1,14 +1,14 @@
 ---
-description: Setting up alerts in Quantower
+description: Настройка оповещений в Quantower
 ---
 
-# Alerts
+# Уведомления
 
-**Alert** on the financial market is a standard signal that notifies you when the price reaches a certain level on the chart, pre-set in the settings. A notification comes in the form of: sound, a notification opened on the monitor, a [telegram](../miscellaneous-panels/quantower-telegram-bot.md) email sent instantly as soon as the price has approached a specific value.
+**Уведомление** на финансовом рынке - это стандартный сигнал, который уведомляет вас, когда цена достигает определенного уровня на графике, предустановленного в настройках. Уведомление приходит в виде: звука, уведомления, открываемого на мониторе, электронного письма в телеграмме, отправляемого мгновенно, как только цена приближается к определенному значению.
 
 ![](../.gitbook/assets/image%20%28210%29.png)
 
-**Alerts** are already available by default in any Quantower. You can choose sound files for the Alerts from the offered ones or set your own signal that you like as a soundtrack. All the other options for alerts in Quantower, relevant to the usual graphic shapes - color change, drag and drop, double click menu call, etc.
+**Alerts** are already available by default in any Quantower. You can choose sound files for the Alerts from the offered ones or set your own signal that you like as a soundtrack. All the other options for alerts in Quantower, relevant to the usual graphic shapes - color change, drag and drop, double click menu call, etc. **Оповещения** уже доступны в Quantower по умолчанию . Вы можете выбрать звуковые файлы для предупреждений из предложенных или установить свой собственный сигнал, который вам нравится, в качестве саундтрека. Все остальные параметры предупреждений в Quantower, относящиеся к обычным графическим фигурам - изменение цвета, перетаскивание, вызов меню двойным щелчком и т. Д.
 
 ## How to set up Quantower Alerts on chart
 

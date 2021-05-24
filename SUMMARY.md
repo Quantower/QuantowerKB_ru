@@ -28,7 +28,7 @@
   * [Менеджер торговых символов \(тикеров\)](general-settings/instruments-lookup.md)
   * [Управление таблицами](general-settings/table-management.md)
   * [Setup Actions & Advanced filters](general-settings/setup-actions-and-advanced-filters.md)
-  * [Alerts](general-settings/alerts.md)
+  * [Уведомления](general-settings/alerts.md)
   * [General settings](general-settings/general-settings-1.md)
 * [Подключения к брокерам и биржам](connections/README.md)
   * [Connections manager](connections/connections-manager.md)
