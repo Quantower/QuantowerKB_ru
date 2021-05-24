@@ -56,34 +56,34 @@ description: >-
 Внимание\(!\) В то время как поле поиска сбрасывается при каждом вызове экрана поиска, фильтры второго уровня остаются такими, как они были настроены в прошлый раз. Поэтому, если вы не можете найти нужный тип символа - проверьте, включен ли у вас этот тип.
 {% endhint %}
 
-## Symbols list
+## Вложенное дерево символов
 
-The list of symbols is a result of filtering in Lookup screen. Here you can see the nested tree of Symbols, grouped in the following order:
+Список символов является результатом фильтрации на экране поиска. Здесь вы можете увидеть вложенное дерево символов, сгруппированных в следующем порядке:
 
-* Connection
-* Exchange
-* Type
-* Subtypes
+* Подключения
+* Биржи
+* Типы символов
+* Подтипы
 
-The Symbol types are marked with additional icons to help you identify the required one more quickly. The Symbol item row consists of Name and description.
+Типы символов отмечены дополнительными значками, чтобы помочь вам быстрее определить нужный. Строка элемента «Символ» состоит из имени и описания.
 
-To select the Symbol — click on it; to apply the symbol to the required panel, just double-click on it. This action closes the Lookup screen
+Чтобы выбрать символ - щелкните по нему; чтобы применить торговый тикер к нужной панели, просто дважды щелкните по нему. Это дейтсвие одновременно и закроет окно с поиском и добавит тикер на панель.
 
-## Multiple symbols select
+## Множественный выбор торговых пар
 
-In some cases, when panel can accept more than one Symbol item from lookup \(like the Watchlist\), you have an ability to select multiple items by holding the "_**Ctrl key**_" and clicking on the list. Once you ready to apply multiple items — press the "_**blue circle icon**_" on the right bottom corner of the list. You may also select any category level item to apply all its contents to the required panel.
+В некоторых случаях, когда на панели предусматривается выбор сразу нескольких котировок \(например, нужно добавить сразу несколько торговых пар в список наблюдения\), у вас есть возможность выбрать несколько элементов, удерживая «клавишу Ctrl» и щелкая по списку. Когда вы будете готовы применить несколько элементов, нажмите «значок синего круга» в правом нижнем углу списка. Вы также можете выбрать любой элемент уровня категории, чтобы применить все его содержимое к требуемой панели.
 
-![Multiple Symbols select](../.gitbook/assets/lookupmultiple.png)
+![](../.gitbook/assets/vybor-neskolkikh-par-gif.gif)
 
-## List footer
+## Нижний колонтитул списка
 
-To help you deal with the big lists of Symbols, there is a footer toolbar with a set of mass actions. It allows to:
+ Чтобы помочь вам справиться с большими списками символов, есть панель инструментов нижнего колонтитула с набором массовых действий. Это позволяет:
 
-* Collapse all nodes
-* Expand head nodes \(top-level nodes, usually Connections\)
-* Expand first-level child nodes
+* Свернуть все узлы
+* Разверните головные узлы \(узлы верхнего уровня, обычно подключения\)
+* Разверните дочерние узлы первого уровня
 
-![Managing of multiple nodes in the Lookup Screen](../.gitbook/assets/collapsing.gif)
+![&#x423;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x43D;&#x435;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x438;&#x43C;&#x438; &#x443;&#x437;&#x43B;&#x430;&#x43C;&#x438; &#x43D;&#x430; &#x44D;&#x43A;&#x440;&#x430;&#x43D;&#x435; &#x43F;&#x43E;&#x438;&#x441;&#x43A;&#x430;](../.gitbook/assets/collapsing.gif)
 
-The other useful information is placed on the right side of footer toolbar — items count. It may show the total amount of available Symbols \(after the filtering was applied\) as well as 3/235 \(3 from 235\) value, saying that you have selected multiple items among available.
+Другая полезная информация размещена в правой части панели инструментов нижнего колонтитула - количество элементов. Он может отображать общее количество доступных символов \(после применения фильтрации\), а также значение 3/235 \(3 из 235\), говорящее о том, что вы выбрали несколько элементов среди доступных.
 
