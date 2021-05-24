@@ -37,7 +37,9 @@ description: Настройка оповещений в Quantower
 
 ![](../.gitbook/assets/menyu-nastroek-opoveshenii.gif)
 
-And so let's look at how to set up an alert. To do this, we need to do a few actions. Activate the alert / Enable Action Give a name to the alert. Specify the symbol of interest. Add a condition. Select an action when the condition occurs
+ Итак, давайте посмотрим, как настроить оповещение. Для этого нам нужно проделать несколько действий. Активировать предупреждение / Включить действие / Дать название предупреждению. Укажите интересующий символ. Добавьте условие. Выберите действие при возникновении условия
+
+![](../.gitbook/assets/opoveshenie-kak-sozdat.gif)
 
 ![](../.gitbook/assets/animaciya-2-.gif)
 
