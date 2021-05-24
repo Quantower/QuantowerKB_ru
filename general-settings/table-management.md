@@ -20,9 +20,9 @@ description: >-
 
 ![](../.gitbook/assets/kolonki-po-umolchaniyu.jpg)
 
-Right-click on any column header to see the “_**Column set**_” context menu. Then click on any item in this menu to switch the column’s visibility. You can disable up to 1 column minimum; the last visible column won’t be available to hide.
+Щелкните правой кнопкой мыши заголовок любого столбца, чтобы увидеть контекстное меню «Набор столбцов». Затем щелкните любой элемент в этом меню, чтобы изменить видимость столбца. Минимум в таблице должен остаться 1 столбец; последний видимый столбец нельзя будет скрыть.
 
-Other useful features of column management are sorting and resize. Each column can be dragged by its header between other columns inside the table in order to set the required sequence. You can also drag the vertical borders between two columns to resize them.
+Другие полезные функции управления столбцами - это сортировка и изменение размера. Каждый столбец можно перетаскивать за заголовок между другими столбцами внутри таблицы, чтобы задать требуемую последовательность. Вы также можете перетащить вертикальные границы между двумя столбцами, чтобы изменить их размер.
 
 ## Filtering
 
