@@ -1,24 +1,24 @@
 ---
 description: >-
-  Get to know how to add or remove columns in the table, sort and filter data,
-  set alerts and actions
+  Узнайте, как добавлять или удалять столбцы в таблице, сортировать и
+  фильтровать данные, устанавливать предупреждения и действия.
 ---
 
-# Table management
+# Управление таблицами
 
-## Table panels
+## Табличные панели
 
-Table panels are represented as a separate class — they all have at least 99% functionality based on the table view. We use the common table component for all of these panels, so the behavior and features are mostly the same.
+Табличные панели представлены как отдельный класс - все они имеют не менее 99% функциональности в зависимости от вида таблицы. Мы используем общий компонент таблицы для всех этих панелей, поэтому поведение и функции в основном одинаковы.
 
-![Table panels example](../.gitbook/assets/tablepanels.png)
+![&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440; &#x442;&#x430;&#x431;&#x43B;&#x438;&#x447;&#x43D;&#x44B;&#x445; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x435;&#x439;](../.gitbook/assets/tablepanels.png)
 
-Some table panels have a special toolbar that can be used for Mass-filtering or Quick actions. Other table panels can have no column headers because they don’t really need for understanding the data, thus were hidden to save space; this disables an ability to filter column data in such panels.
+Некоторые табличные панели имеют специальную панель инструментов, которую можно использовать для массовой фильтрации или быстрых действий. Другие панели таблиц могут не иметь заголовков столбцов, потому что они действительно не нужны для понимания данных, поэтому были скрыты для экономии места; это отключает возможность фильтрации данных столбца на таких панелях.
 
-## Columns management
+## Управление столбцами
 
-Data in table panels are organized in rows and columns, where each item’s \(row\) parameters are displayed in columns. Not all of the available columns are displayed by default in each table panel. We have selected the most popular and vital per panel and made an ability to modify the columns set as you like.
+Данные в таблицах организованы в строки и столбцы, где параметры каждого элемента \(строки\) отображаются в столбцах. Не все доступные столбцы по умолчанию отображаются на каждой панели таблицы. Мы выбрали наиболее популярные и важные для каждой панели и сделали возможность изменять набор столбцов по своему усмотрению.
 
-![Modify table columns set as you like](../.gitbook/assets/tablecolumns.png)
+![](../.gitbook/assets/kolonki-po-umolchaniyu.jpg)
 
 Right-click on any column header to see the “_**Column set**_” context menu. Then click on any item in this menu to switch the column’s visibility. You can disable up to 1 column minimum; the last visible column won’t be available to hide.
 
