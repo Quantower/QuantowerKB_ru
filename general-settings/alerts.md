@@ -44,7 +44,7 @@ description: Настройка оповещений в Quantower
 ![](../.gitbook/assets/animaciya-2-.gif)
 
 {% hint style="danger" %}
-Do not forget to activate the Enable Action button
+Не забудьте добавить действие, которое должно произойти.
 {% endhint %}
 
 ## How to copy conditions of Alerts
