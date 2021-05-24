@@ -26,14 +26,16 @@ description: Настройка оповещений в Quantower
 **Важно:** предупреждение будет работать только на открытом графике. Если вы переключите график, на котором вы установили оповещение, с одного символа на другой, оповещение не сработает.
 {% endhint %}
 
-## How to set up Quantower Alerts on watchlist
+## Как настроить оповещения Quantower в списке наблюдения
 
-[Watchlist](../analytics-panels/watchlist.md) panel shows brief pricing information on selected instruments, which you can group into lists. There are two ways to get to the settings menu.
+На панели [списка наблюдения](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MaTw4ofFETlRDhQugU7/analytics-panels/watchlist) отображается краткая информация о ценах на выбранные инструменты, которые вы можете сгруппировать в списки.   
+  
+Попасть в меню настроек оповещений можно двумя способами.
 
-* From the menu of this window, select Setup Actions
-* Right-click on the desired symbol and find Alert in the menu
+* В меню этого окна выберите Действия настройки.
+* Щелкните правой кнопкой мыши нужный символ и найдите в меню Предупреждение.
 
-![](../.gitbook/assets/animaciya-3-.gif)
+![](../.gitbook/assets/menyu-nastroek-opoveshenii.gif)
 
 And so let's look at how to set up an alert. To do this, we need to do a few actions. Activate the alert / Enable Action Give a name to the alert. Specify the symbol of interest. Add a condition. Select an action when the condition occurs
 
