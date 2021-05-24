@@ -24,20 +24,20 @@ description: >-
 
 Другие полезные функции управления столбцами - это сортировка и изменение размера. Каждый столбец можно перетаскивать за заголовок между другими столбцами внутри таблицы, чтобы задать требуемую последовательность. Вы также можете перетащить вертикальные границы между двумя столбцами, чтобы изменить их размер.
 
-## Filtering
+## Фильтрация
 
-The set of rows in the table can be filtered by some data value in their column. There are two ways to apply the filtering:
+Набор строк в таблице можно отфильтровать по некоторому значению данных в их столбце. Есть два способа применить фильтрацию:
 
-* Quick table filter
-* Advanced table filter
+* Быстрый фильтр таблицы
+* Расширенный фильтр таблицы
 
 {% hint style="success" %}
-Quick table filter is just another point of access to advanced filtering option, allowing to apply simple filters in several clicks.
+Быстрый фильтр таблицы - это еще одна точка доступа к расширенной опции фильтрации, позволяющей применять простые фильтры в несколько кликов.
 {% endhint %}
 
-Quick table filter can be accessed by clicking the “_**Filter**_” icon in any table column’s header.
+Доступ к быстрому фильтру таблицы можно получить, щелкнув значок «Фильтр» в заголовке любого столбца таблицы.
 
-![Quick filtering per column](../.gitbook/assets/tablequickfilter.png)
+![&#x411;&#x44B;&#x441;&#x442;&#x440;&#x430;&#x44F; &#x444;&#x438;&#x43B;&#x44C;&#x442;&#x440;&#x430;&#x446;&#x438;&#x44F; &#x43F;&#x43E; &#x441;&#x442;&#x43E;&#x43B;&#x431;&#x446;&#x443;](../.gitbook/assets/dopolnitelnye-filtry.png)
 
 Depending on the data type in a column, the Quick filter will give you the corresponding form for input; currently “_**String**_”, “_**Date/time**_” & “_**Number**_” filtering are supported. Once you select some option — the table rows will be filtered to that ones, containing the selected value. Quick filter can be cancelled by pressing “_**Cancel filtering**_” option.
 
