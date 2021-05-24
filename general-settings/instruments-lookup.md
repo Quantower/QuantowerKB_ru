@@ -33,26 +33,27 @@ description: >-
 
 Для выхода нужно просто кликнуть в любом месте вне окна выбора.
 
-## Searching & Filtering
+## Поиск и фильтрация
 
-Usually, each connection gives you a numerous list of trading Symbols to select from. If you know name, you can start typing it in “_**Search field**_”, and the below list will be instantly filtered to the items, containing the entered phrase.
+Обычно каждое подключение дает вам на выбор многочисленный список торговых символов. Если вы знаете название торговой пары, вы можете начать вводить его в «Поле поиска», и нижеприведенный список будет мгновенно отфильтрован до элементов, содержащих введенную фразу.
 
-![Symbol lookup filtering](../.gitbook/assets/lookupfiltered.png)
+![&#x424;&#x438;&#x43B;&#x44C;&#x442;&#x440;&#x430;&#x446;&#x438;&#x44F; &#x43F;&#x43E;&#x438;&#x441;&#x43A;&#x430; &#x441;&#x438;&#x43C;&#x432;&#x43E;&#x43B;&#x43E;&#x432;](../.gitbook/assets/lookupfiltered.png)
 
-By the way, you can apply more general filtering to the list; just click the “_**Filter**_” icon on the right side of the search field and you will see the second level of symbols filtering.
+**Фильтр второго уровня.** Кстати, к списку можно применить более общую фильтрацию; просто щелкните значок «Фильтр» справа от поля поиска, и вы увидите второй уровень фильтрации символов.   
+Второй уровень фильтрации добавляется при наличии двух и больше одновременных подключений.
 
-![General filtering of trading Symbols](../.gitbook/assets/lookupfilter2.png)
+![](../.gitbook/assets/filtr-vtorogo-urovnya.png)
 
-Here you will be able to filter the list by three parameters:
+Здесь вы сможете отфильтровать список по трем параметрам:
 
-* Connection \(currently active connections\)
-* Symbol type \(FOREX, CFD’s, Options etc.\)
-* Exchange \(Off-Exchange, NYSE, NASDAQ etc.\)
+* Все подключения \(активные в настоящее время подключения\)
+* Все типы \(FOREX, CFD, опционы и т. Д.\)
+* Все биржи \(внебиржевой, NYSE, NASDAQ и т. Д.\)
 
-Once selecting some items among filtering parameters, the list becomes filtered to the selected values only.
+После выбора некоторых элементов среди параметров фильтрации список фильтруется только по выбранным значениям.
 
 {% hint style="warning" %}
-Be careful. While the Searchfield is become reset each Lookup screen invokes, the second level filters stay as they were set up last time. So if you can’t find the required Symbol type — please check if you have this type enabled.
+Внимание\(!\) В то время как поле поиска сбрасывается при каждом вызове экрана поиска, фильтры второго уровня остаются такими, как они были настроены в прошлый раз. Поэтому, если вы не можете найти нужный тип символа - проверьте, включен ли у вас этот тип.
 {% endhint %}
 
 ## Symbols list
