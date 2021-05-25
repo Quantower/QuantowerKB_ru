@@ -4,9 +4,9 @@ description: >-
   поведение при изменении некоторых данных в таблице.
 ---
 
-# Менеджер настроек уведомлений и фильтров
+# Менеджер фильтров и уведомлений
 
-Функция настройки фильтров и уведомлений позволяет вам установить определенное поведение при изменении некоторых данных в таблице. Эта функция доступна в панелях:
+Этот менеджер настройки позволяет вам установить определенное поведение при изменении некоторых данных в таблице. Эта функция доступна в панелях:
 
 * [**Watchlist**](../analytics-panels/watchlist.md)
 * [**Time & Sales**](../analytics-panels/time-and-sales.md#setup-actions-filters-and-actions)
@@ -21,7 +21,7 @@ description: >-
 Действия настройки состоят из двух вариантов:
 
 1. **Фильтры** - где вы можете настроить фильтры для разных столбцов
-2. **Действия** — где вы можете настроить несколько действий на основе данных в строках и столбцах.
+2. **Действия** \(уведомления\)— где вы можете настроить несколько действий на основе данных в строках и столбцах.
 
 ## Действия
 
@@ -40,25 +40,25 @@ description: >-
 4. Сохранить действие
 5. Включить действие
 
-### Table actions tasks
+### Задачи выполняемые в действии 
 
-Once some condition is met, action will execute the corresponding tasks. Each task will be executed as many times, as the condition was met.
+Как только какое-то условие выполнено, действие выполнит соответствующие задачи. Каждая задача будет выполняться столько раз, сколько было указано в условии.
 
-| **Show message** | Displays a popup box with the user-specified message |
+| Показать сообщение | Отображает всплывающее окно с указанным пользователем сообщением |
 | :--- | :--- |
-| **Play sound** | Plays some user-selected sound file |
-| **Color row** | Changes the styling of the whole row, where the condition was met. Allows changing the background and/or text colors. |
-| **Color cell** | Changes the styling of the specified cell\(s\) of the row, where the condition was met. Allows changing the background and/or text colors. |
+| Воспроизвести звук | Воспроизводит выбранный пользователем звуковой файл |
+| Цветовой ряд | Изменяет стиль всей строки, в которой выполнено условие. Позволяет изменить цвет фона и / или текста. |
+| Цвет ячейки | Изменяет стиль указанной ячейки \(ячеек\) строки, в которой было выполнено условие. Позволяет изменить цвет фона и / или текста. |
 
 {% hint style="warning" %}
-Be careful with the frequently occurring conditions. Some may be met several times per second, so tasks like “_Play sound_” can become disturbing. The “_Show message_” task, fired several times, will be shown as one message box.
+Будьте осторожны с часто встречающимися условиями. Некоторые из них могут выполняться несколько раз в секунду, поэтому такие задачи, как «Воспроизвести звук», могут вызывать беспокойство. Задание «Показать сообщение», запущенное несколько раз, будет отображаться в виде одного окна сообщения.
 {% endhint %}
 
-### Table filters
+## Табличные фильтры
 
-Rows in the table can be filtered by some data values in their column. There are two ways to apply the filtering:
+Строки в таблице можно фильтровать по некоторым значениям данных в их столбце. Есть два способа применить фильтрацию:
 
-* **Quick filtering** can be accessed by clicking the “_**Filter**_” icon in any table column’s header.
+* Доступ к быстрой фильтрации можно получить, щелкнув значок «Фильтр» в заголовке любого столбца таблицы.
 
 ![Quick filtering per column](https://gblobscdn.gitbook.com/assets%2F-LD6FsRvQ3jgwJIg6O7r%2F-LSZlUr_Myk0rKIIPYb3%2F-LSZtsdnR8ZXyAorsvkj%2FQuick%20filtering.png?alt=media&token=ccff8243-c69e-427c-8825-00c8ce9e1818)
 
