@@ -18,27 +18,27 @@ description: >-
 
 ![](../.gitbook/assets/filtry-i-alerty.jpg)
 
-Setup Actions consists of two options:
+Действия настройки состоят из двух вариантов:
 
-1. **Filters** — where you can set up filters for different columns
-2. **Actions** — where you can set up multiple actions, based on data in rows & columns.
+1. **Фильтры** - где вы можете настроить фильтры для разных столбцов
+2. **Действия** — где вы можете настроить несколько действий на основе данных в строках и столбцах.
 
-## Actions
+## Действия
 
-Currently, Quantower tables support four types of actions:
+ В настоящее время таблицы Quantower поддерживают четыре типа действий:
 
-* Show message
-* Play sound
-* Color row
-* Color cell
+* Показать сообщение
+* Воспроизвести звук
+* Цветовой ряд
+* Цвет ячейки
 
-The Table actions functionality can be found under the panel’s context menu option “Setup Actions” and once launched, it opens an “Actions screen”, where you can manage your Actions. The process of Action creation is not complicated.
+Функциональность действий таблицы можно найти в пункте контекстного меню панели «Настроить действия», и после запуска он открывает «экран действий», где вы можете управлять своими действиями. Процесс создания Действия не сложен.
 
-1. Create an Action item 
-2. Set conditions \(“OR” & “AND”\) 
-3. Set tasks \(Show message, Play sound, Color row, Color cell\) 
-4. Save Action 
-5. Enable Action
+1. Создать элемент действия
+2. Установите условия \(«ИЛИ» и «И»\)
+3. Установить задачи \(Показать сообщение, Воспроизвести звук, Цветная строка, Цветная ячейка\)
+4. Сохранить действие
+5. Включить действие
 
 ### Table actions tasks
 
