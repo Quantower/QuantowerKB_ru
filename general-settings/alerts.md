@@ -47,9 +47,9 @@ description: Настройка оповещений в Quantower
 Не забудьте добавить действие, которое должно произойти.
 {% endhint %}
 
-## How to copy conditions of Alerts
+## Как скопировать условия оповещений
 
 ![](../.gitbook/assets/image%20%28215%29.png)
 
-You can also copy the Alert state and change only some parameters, such as the symbol and its values
+Что бы не повторять однотипные действия, Вы также можете скопировать все настройки увеомления и изменить только некоторые параметры, такие как символ и его значения.
 
