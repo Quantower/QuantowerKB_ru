@@ -74,13 +74,11 @@ description: >-
 
 Слева на этом экране есть две вкладки, первая из которых представляет собой расширенный фильтр.
 
-![Advanced filtering in Time &amp; Sales panel](https://gblobscdn.gitbook.com/assets%2F-LD6FsRvQ3jgwJIg6O7r%2F-LSZlUr_Myk0rKIIPYb3%2F-LS_5SP-opC1CiDG-iws%2Fadvanced%20filtering.png?alt=media&token=e2d74d74-7ee5-4533-ae11-09d4db0ab09c)
+![&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x430;&#x44F; &#x444;&#x438;&#x43B;&#x44C;&#x442;&#x440;&#x430;&#x446;&#x438;&#x44F; &#x43D;&#x430; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &quot;&#x412;&#x440;&#x435;&#x43C;&#x44F; &#x438; &#x43F;&#x440;&#x43E;&#x434;&#x430;&#x436;&#x438;&quot;](https://gblobscdn.gitbook.com/assets%2F-LD6FsRvQ3jgwJIg6O7r%2F-LSZlUr_Myk0rKIIPYb3%2F-LS_5SP-opC1CiDG-iws%2Fadvanced%20filtering.png?alt=media&token=e2d74d74-7ee5-4533-ae11-09d4db0ab09c)
 
-This screen allows you to Enable/disable filtering as well as set up filtering Conditions. These conditions are set up as:
+Этот экран позволяет включать / отключать фильтрацию, а также настраивать условия фильтрации. Эти условия установлены как:  
+  
+"_**ЕСЛИ**_ **"\(условие1 "И" условие2\)**_**"ИЛИ"**_**\(условиеN\)...**
 
-$$
-IF (condition1AND condition2 ...) OR (conditionN...) …
-$$
-
-You can setup as many conditions as you like. Due to the possible complex logic of filtering, you are required to apply the changes once you finished the filter set up.
+Вы можете настроить столько условий, сколько захотите. Из-за возможной сложной логики фильтрации вам необходимо применить изменения после завершения настройки фильтра.
 
