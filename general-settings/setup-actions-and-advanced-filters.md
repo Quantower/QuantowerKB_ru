@@ -8,13 +8,13 @@ description: >-
 
 Этот менеджер настройки позволяет вам установить определенное поведение при изменении некоторых данных в таблице. Эта функция доступна в панелях:
 
-* [**Watchlist**](../analytics-panels/watchlist.md)
-* [**Time & Sales**](../analytics-panels/time-and-sales.md#setup-actions-filters-and-actions)
-* [**Price Statistic**](../analytics-panels/price-statistic.md)
-* [**Working Orders**](../portfolio-panels/working-orders.md)
-* [**Positions**](../portfolio-panels/positions.md)
-* [**Trades**](../portfolio-panels/trades.md)
-* [**Orders History**](../portfolio-panels/orders-history.md)
+* [**Список наблюдения**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MaYzvomjGa_2w_IlU3-/analytics-panels/watchlist)\*\*\*\*
+* [**Лента сделок**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MaYzvomjGa_2w_IlU3-/analytics-panels/time-and-sales#setup-actions-filters-and-actions)\*\*\*\*
+* [**Статистика цен**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MaYzvomjGa_2w_IlU3-/analytics-panels/price-statistic)\*\*\*\*
+* \*\*\*\*[**Рабочие ордера**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MaYzvomjGa_2w_IlU3-/portfolio-panels/working-orders)\*\*\*\*
+* [**Позиции**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MaYzvomjGa_2w_IlU3-/portfolio-panels/positions)\*\*\*\*
+* [**Сделки**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MaYzvomjGa_2w_IlU3-/portfolio-panels/trades)\*\*\*\*
+* [**История ордеров**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MaYzvomjGa_2w_IlU3-/portfolio-panels/orders-history)\*\*\*\*
 
 ![](../.gitbook/assets/filtry-i-alerty.jpg)
 
