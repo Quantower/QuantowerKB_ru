@@ -1,12 +1,12 @@
 ---
 description: >-
-  Функция настройки действий позволяет вам настроить определенное поведение при
-  изменении некоторых данных в таблице.
+  Менеджер настройки фильтров и уведомлений позволяет вам настроить определенное
+  поведение при изменении некоторых данных в таблице.
 ---
 
-# Setup Actions & Advanced filters
+# Менеджер настроек уведомлений и фильтров
 
-**Setup Actions** feature allows you to set certain behavior on some data change in the table. This feature is available in panels:
+Функция настройки фильтров и уведомлений позволяет вам установить определенное поведение при изменении некоторых данных в таблице. Эта функция доступна в панелях:
 
 * [**Watchlist**](../analytics-panels/watchlist.md)
 * [**Time & Sales**](../analytics-panels/time-and-sales.md#setup-actions-filters-and-actions)
@@ -16,7 +16,7 @@ description: >-
 * [**Trades**](../portfolio-panels/trades.md)
 * [**Orders History**](../portfolio-panels/orders-history.md)
 
-![Setup Actions feature in Quantower platform](../.gitbook/assets/image%20%2864%29.png)
+![](../.gitbook/assets/filtry-i-alerty.jpg)
 
 Setup Actions consists of two options:
 
