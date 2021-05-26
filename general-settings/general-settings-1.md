@@ -93,17 +93,17 @@ description: >-
 
 ![&#x423;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x434;&#x442;&#x432;&#x435;&#x440;&#x436;&#x434;&#x435;&#x43D;&#x438;&#x44F;&#x43C;&#x438; &#x438; &#x43F;&#x440;&#x435;&#x434;&#x443;&#x43F;&#x440;&#x435;&#x436;&#x434;&#x435;&#x43D;&#x438;&#x44F;&#x43C;&#x438;](../.gitbook/assets/podtverzhdeniya.jpg)
 
-| Подтвердите размещение ордера | ДА | Спрашивать перед оформлением ордера |
+| Подтвердите размещение ордера | ДА | Спросить перед оформлением ордера |
 | :--- | :--- | :--- |
-| Подтвержать отмену ордера | ДА | Ask before canceling an order |
-| Подтвердить изменение ордера / позиции | ДА | Спросите перед изменением ордера / позиции |
-| **Confirm position reversing** | ДА | Ask before reversing the position |
-| **Confirm application close** | ДА | Ask before closing the Quantower terminal |
-| **Confirm bind close** | ДА | Ask before closing the binds |
-| **Show deal tickets** | ДА | Show the pop-up screens with the trading notifications |
-| **Confirm hotkeys action** | ДА | Ask before making any action with Hotkey |
+| **Подтверждать отмену ордера** | ДА | Спросить перед отменой ордера |
+| **Подтвердить изменение ордера / позиции** | ДА | Спросить перед изменением ордера / позиции |
+| **Подтверждать реверс позиции** | ДА | Спросить, прежде чем менять позицию |
+| **Подтвердить закрытие приложения** | ДА | Спросить перед закрытием |
+| **Подтвердить закрытие связки** | ДА | Спросить перед закрытием связки |
+| **Показать торговые уведомления** | ДА | не показывать всплывающие экраны с торговыми уведомлениями |
+| **Подтвердить действие горячих клавиш**  | ДА | Спросить, прежде чем совершать какие-либо действия с помощью Hotkey |
 
-## Time zones
+## Часовые пояса
 
 In case you are trading in various markets that are in different time zones, you will find it useful to switch the time indicator in [**Control center**](main-toolbar.md) to one of your favorite market times.
 
