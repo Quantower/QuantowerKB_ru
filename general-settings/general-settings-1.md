@@ -105,11 +105,13 @@ description: >-
 
 ## Часовые пояса
 
-In case you are trading in various markets that are in different time zones, you will find it useful to switch the time indicator in [**Control center**](main-toolbar.md) to one of your favorite market times.
+Если вы торгуете на разных рынках, которые находятся в разных часовых поясах, вам будет полезно переключить индикатор времени в [**Центре управления**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MacJL1dRz-GXYEu528_/general-settings/main-toolbar) на одно из ваших любимых рыночных времен.
 
-In Time zone settings group you can select what time zones are your favorite and should be displayed in a pop-up screen when you click the [**Time**](main-toolbar.md#time-and-time-zones) in **Control center**. Once you select several items from this list, you will then be able to switch between them easily.
+В группе настроек часового пояса вы можете выбрать, какие часовые пояса являются вашими любимыми и которые должны отображаться во всплывающем экране при нажатии кнопки «Время в центре управления». Выбрав несколько элементов из этого списка, вы сможете легко переключаться между ними.
 
-![Favorite time zones management](../.gitbook/assets/image%20%2870%29.png)
+
+
+![&#x423;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x43B;&#x44E;&#x431;&#x438;&#x43C;&#x44B;&#x43C;&#x438; &#x447;&#x430;&#x441;&#x43E;&#x432;&#x44B;&#x43C;&#x438; &#x43F;&#x43E;&#x44F;&#x441;&#x430;&#x43C;&#x438;](../.gitbook/assets/image%20%2870%29.png)
 
 ## Excel RTD
 
