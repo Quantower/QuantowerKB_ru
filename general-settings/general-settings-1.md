@@ -12,24 +12,24 @@ description: >-
 
 Все настройки сгруппированы в несколько вкладок:
 
-* Общие настройки
-*  Центр управления
-*  Звуки
-*  Подтверждения
-*  Настройки часового пояса
-*  Excel RTD
-*  Мессенджеры
-*  Горячие клавиши
+*  ****[**Общие настройки**](general-settings-1.md#vkladka-obshie-nastroiki)\*\*\*\*
+*  ****[**Центр управления**](general-settings-1.md#control-center)\*\*\*\*
+*  **Звуки**
+*  **Подтверждения**
+*  **Настройки часового пояса**
+*  **Excel RTD**
+*  **Мессенджеры**
+*  **Горячие клавиши**
 
 {% hint style="info" %}
-Most settings are applied automatically, once you change them, but, in some cases, you will be prompted to confirm the changes apply; this action is required for complex settings, where the one change will influence a complex logic.
+Большинство настроек применяются автоматически после их изменения, но в некоторых случаях вам будет предложено подтвердить применение изменений; это действие требуется для сложных настроек, где одно изменение повлияет на сложную логику.
 {% endhint %}
 
-## General settings tab
+## Вкладка Общие настройки
 
-![General settings of Quantower &#x2014; Localization, Themes, Sounds, RTD, Time zones](../.gitbook/assets/image%20%28136%29.png)
+![](../.gitbook/assets/obshie-nastroiki-vkladka.jpg)
 
-**Theme** — Сhoose one of the 8 color schemes that suit you best
+**Тема** - выберите одну из 8 цветовых схем, которые вам больше всего подходят.
 
 * Default Blue theme
 * Dark Autumn
@@ -40,54 +40,54 @@ Most settings are applied automatically, once you change them, but, in some case
 * Light Gold
 * Light Water
 
-![Coloring themes in Quantower](../.gitbook/assets/themes.gif)
+![&#x426;&#x432;&#x435;&#x442;&#x43E;&#x432;&#x43E;&#x435; &#x43E;&#x444;&#x43E;&#x440;&#x43C;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x432; Quantower](../.gitbook/assets/themes.gif)
 
-**Language \(beta\)** — Quantower supports 17 languages. In case of errors or inaccuracies in translation, any user can make changes to the text. Read the manual on [how to make changes in the selected language](https://help.quantower.com/customization/localization).
+Язык \(бета\) — Quantower поддерживает 17 языков. В случае ошибок или неточностей в переводе любой пользователь может внести изменения в текст. Прочтите [руководство о том, как внести изменения в выбранный язык](https://help.quantower.com/customization/localization).
 
-**Default symbol** — specify a trading symbol that will open by default in all trading panels.
+**Default symbol** — укажите торговый символ, который по умолчанию будет открываться во всех торговых панелях.
 
-**Autosave settings \(every 5 minutes\)** — Quantower will save all changes of application settings in the "Settings" folder and overwrite them every 5 minutes while the application is active. It also saves on application close.
+**Автосохранение настроек \(каждые 5 минут\)** - Quantower сохранит все изменения настроек приложения в папке «Настройки» и будет перезаписывать  их каждые 5 минут, пока приложение активно. Это также экономит при закрытии приложения
 
-**Abbreviate volume & ticks** — this option displays the volume values or the number of ticks in a simplified form \(1K = 1 000; 10K = 10 000 etc.\)
+**Сокращать объем и тики** - эта опция отображает значения объема или количество тиков в упрощенной форме \(1K = 1 000; 10K = 10 000 и т. Д.\)
 
-![Abbreviative Volume &amp; Number of Ticks](../.gitbook/assets/abbreviative-volume.png)
+![&#x421;&#x43E;&#x43A;&#x440;&#x430;&#x449;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43E;&#x431;&#x44A;&#x435;&#x43C; &#x438; &#x43A;&#x43E;&#x43B;&#x438;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43E; &#x442;&#x438;&#x43A;&#x43E;&#x432;](../.gitbook/assets/abbreviative-volume.png)
 
-**Abbreviate crypto prices** — this option displays the abbreviated values of cryptocurrency prices that have a large number of zeros.
+ **Аббревиативные  цены на криптовалюту** - эта опция отображает сокращенные значения цен на криптовалюту, которые имеют большое количество нулей.
 
 ![](../.gitbook/assets/abbreviate-cryptos.gif)
 
-**Unload inactive workspaces.** If this option is enabled, all previously created workspaces will not receive an update on market data. This will reduce memory usage.
+**Unload inactive workspaces.** Если этот параметр включен, все ранее созданные рабочие области не будут получать обновления рыночных данных. Это уменьшит использование памяти.
 
-![](../.gitbook/assets/image%20%28142%29.png)
+![](../.gitbook/assets/obnovlenie-rabochie-oblasti.png)
 
-**Hide part of an account name.** Specify the number of characters that will be hidden for your trading account name and ID. This option is used to keep the account private.
+**Скрыть часть имени учетной записи**. Укажите количество символов, которые будут скрыты для имени и идентификатора вашего торгового счета. Этот параметр используется для сохранения конфиденциальности учетной записи.
 
 ![](../.gitbook/assets/image%20%28154%29.png)
 
-**Beta Version.** When this option is activated, you will receive updates to new functionality that is still in testing. We strive for our traders to use fully working functionality, but for this, we need the help of each user. Therefore, we ask as many people as possible to use the Beta version to inform us about possible bugs that eluded our testers.
+**Beta Version.** Когда эта опция активирована, вы будете получать обновления для новых функций, которые все еще находятся в стадии тестирования. Мы стремимся, чтобы наши трейдеры использовали полностью рабочий функционал, но для этого нам нужна помощь каждого пользователя. Поэтому мы просим как можно больше людей использовать бета-версию, чтобы сообщить нам о возможных ошибках, которые ускользнули от наших тестеров.
 
 {% embed url="https://www.youtube.com/watch?v=L21kFXQaWQ0" caption="" %}
 
-## Control Center
+## Центр управления
 
-Control center is the starting point of the platform, used as a launcher and informer simultaneously. And for optimal use of the space on it, we have added the ability to display/hide some controls.
+Центр управления - это начальная точка платформы, используемая одновременно как пусковая установка и информатор. А для оптимального использования пространства на нем мы добавили возможность отображать / скрывать некоторые элементы управления.
 
-![Configure the display of controls on the main control panel](../.gitbook/assets/image%20%2875%29.png)
+![](../.gitbook/assets/centr-upravleniya.jpg)
 
-## Sounds
+## Звуки
 
-Sounds are a good way of additional interaction with user allowing to inform about some activities even you don’t currently in front of your PC. Sounds can be enabled or disabled per certain action.
+Звуки - это хороший способ дополнительного взаимодействия с пользователем, позволяющий информировать о некоторых действиях, даже если вы в данный момент не находитесь перед своим компьютером. Звуки могут быть включены или отключены для определенного действия.
 
 ![](../.gitbook/assets/general-settings-_-sounds.gif)
 
-**Enable sounds** — activates or disables all of the application sounds globally
+**Включить звуки** - включает или отключает все звуки приложения во всем мире.
 
-The group of actions in Quantower, when the sound should be played consists of the most vital situations in application usage. This list is not final and can be extended or changed later. Each option has a set of controls:
+Группа действий в Quantower, когда должен воспроизводиться звук, состоит из наиболее важных ситуаций использования приложения. Этот список не окончательный и в дальнейшем может быть расширен или изменен. Каждая опция имеет набор элементов управления:
 
-* enable/disable checkbox
-* action name
-* sound path \(you can select your custom path to any **.wav** file\)
-* prelisten button \(play/stop\)
+* включить / отключить флажок
+* название действия
+* звуковой путь \(вы можете выбрать свой собственный путь к любому .wav файлу\)
+* кнопка предварительного прослушивания \(воспроизведение / остановка\)
 
 ## Confirmations
 
