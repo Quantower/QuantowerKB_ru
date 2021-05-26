@@ -36,7 +36,6 @@ description: >-
 * Dark Forest
 * Dark Gold
 * Grayscale
-* Light Forest
 * Light Gold
 * Light Water
 
@@ -115,9 +114,9 @@ description: >-
 
 ## Excel RTD
 
-Start from version 1.39 Quantower supports RealTimeData \(RTD\) for sending data and other market information to Microsoft Excel®. Read our guide about [how to enable and use RTD function with Quantower](../miscellaneous-panels/excel-rtd-trading/).
+Начиная с версии 1.39 Quantower поддерживает RealTimeData \(RTD\) для отправки данных и другой рыночной информации в Microsoft Excel®. Прочтите наше руководство о том, [как включить и использовать функцию RTD с Quantower](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MacasRg-ats6GX4a2rB/miscellaneous-panels/excel-rtd-trading).
 
-![RTD function in Quantower trading platform](../.gitbook/assets/image%20%2866%29.png)
+![](../.gitbook/assets/eksel.jpg)
 
 ## Messengers
 
