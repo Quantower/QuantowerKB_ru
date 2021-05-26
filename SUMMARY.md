@@ -29,7 +29,7 @@
   * [Управление таблицами](general-settings/table-management.md)
   * [Менеджер фильтров и уведомлений](general-settings/setup-actions-and-advanced-filters.md)
   * [Уведомления](general-settings/alerts.md)
-  * [General settings](general-settings/general-settings-1.md)
+  * [Общие настройки](general-settings/general-settings-1.md)
 * [Подключения к брокерам и биржам](connections/README.md)
   * [Connections manager](connections/connections-manager.md)
   * [Подключение к Binance и Binance Futures](connections/connection-to-binance-futures/README.md)

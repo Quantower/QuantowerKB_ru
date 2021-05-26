@@ -1,25 +1,25 @@
 ---
 description: >-
-  General settings — is a screen, where you can set up the most common behavior
-  of the whole Quantower platform.
+  Общие настройки - это экран, на котором вы можете настроить наиболее
+  распространенное поведение всей платформы Quantower.
 ---
 
-# General settings
+# Общие настройки
 
-Click on the **Gear icon** on the [main toolbar](main-toolbar.md) to open General Settings.
+Щелкните значок шестеренки [на главной панели инструментов](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MabubYk5qaqYBPs4dmu/general-settings/main-toolbar), чтобы открыть Общие настройки.
 
-![General Settings are placed on the platform&apos;s main toolbar \(Gear Icon\)](../.gitbook/assets/image%20%28134%29.png)
+![](../.gitbook/assets/glavnoe-menyu.png)
 
-It is logically grouped into several tabs:
+Все настройки сгруппированы в несколько вкладок:
 
-* [**General**](general-settings-1.md#general)\*\*\*\*
-* \*\*\*\*[**Control Center**](general-settings-1.md#control-center)\*\*\*\*
-* \*\*\*\*[**Sounds**](general-settings-1.md#sounds)\*\*\*\*
-* \*\*\*\*[**Confirmations & Warnings**](general-settings-1.md#confirmations)\*\*\*\*
-* \*\*\*\*[**Time zone settings**](general-settings-1.md#time-zones)\*\*\*\*
-* \*\*\*\*[**Excel RTD**](../miscellaneous-panels/excel-rtd-trading/)\*\*\*\*
-* \*\*\*\*[**Messengers**](general-settings-1.md#messengers)\*\*\*\*
-* \*\*\*\*[**Hotkeys**](general-settings-1.md#global-hotkeys)\*\*\*\*
+* [**General**](general-settings-1.md#general) ****[**Общие настройки**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MabubYk5qaqYBPs4dmu/general-settings/general-settings-1#general)\*\*\*\*
+*  [Центр управления](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MabubYk5qaqYBPs4dmu/general-settings/general-settings-1#control-center)
+*  [Звуки](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MabubYk5qaqYBPs4dmu/general-settings/general-settings-1#sounds)
+*  Подтверждения
+* \*\*\*\*[**Time zone settings**](general-settings-1.md#time-zones)\*\*\*\* Настройки часового пояса
+* \*\*\*\*[**Excel RTD**](../miscellaneous-panels/excel-rtd-trading/)\*\*\*\*  Excel RTD
+* \*\*\*\*[**Messengers**](general-settings-1.md#messengers)\*\*\*\*Мессенджеры
+* \*\*\*\*[**Hotkeys**](general-settings-1.md#global-hotkeys)\*\*\*\* Горячие клавиши
 
 {% hint style="info" %}
 Most settings are applied automatically, once you change them, but, in some cases, you will be prompted to confirm the changes apply; this action is required for complex settings, where the one change will influence a complex logic.
