@@ -89,19 +89,19 @@ description: >-
 * звуковой путь \(вы можете выбрать свой собственный путь к любому .wav файлу\)
 * кнопка предварительного прослушивания \(воспроизведение / остановка\)
 
-## Confirmations
+## Подтверждения
 
-![Confirmations and Warnings management](../.gitbook/assets/image%20%2865%29.png)
+![&#x423;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E;&#x434;&#x442;&#x432;&#x435;&#x440;&#x436;&#x434;&#x435;&#x43D;&#x438;&#x44F;&#x43C;&#x438; &#x438; &#x43F;&#x440;&#x435;&#x434;&#x443;&#x43F;&#x440;&#x435;&#x436;&#x434;&#x435;&#x43D;&#x438;&#x44F;&#x43C;&#x438;](../.gitbook/assets/podtverzhdeniya.jpg)
 
-| **Confirm order placement** | true | Ask before placing an order |
+| Подтвердите размещение ордера | ДА | Спрашивать перед оформлением ордера |
 | :--- | :--- | :--- |
-| **Confirm order cancellation** | true | Ask before canceling an order |
-| **Confirm order/position modification** | true | Ask before an order or position modifications apply |
-| **Confirm position reversing** | true | Ask before reversing the position |
-| **Confirm application close** | true | Ask before closing the Quantower terminal |
-| **Confirm bind close** | true | Ask before closing the binds |
-| **Show deal tickets** | true | Show the pop-up screens with the trading notifications |
-| **Confirm hotkeys action** | true | Ask before making any action with Hotkey |
+| Подтвержать отмену ордера | ДА | Ask before canceling an order |
+| Подтвердить изменение ордера / позиции | ДА | Спросите перед изменением ордера / позиции |
+| **Confirm position reversing** | ДА | Ask before reversing the position |
+| **Confirm application close** | ДА | Ask before closing the Quantower terminal |
+| **Confirm bind close** | ДА | Ask before closing the binds |
+| **Show deal tickets** | ДА | Show the pop-up screens with the trading notifications |
+| **Confirm hotkeys action** | ДА | Ask before making any action with Hotkey |
 
 ## Time zones
 
