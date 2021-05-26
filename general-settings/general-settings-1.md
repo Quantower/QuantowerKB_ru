@@ -123,9 +123,9 @@ description: >-
 
 ![](../.gitbook/assets/eksel.jpg)
 
-## Messengers
+## Мессенджеры
 
-Quantower Alert Bot will send a message to your Telegram account about all events that you set in the platform. For example, set a price alert on the chart, and when the price will reach this level, a notification to the messenger will be sent.
+Quantower Alert Bot отправит сообщение в вашу учетную запись Telegram обо всех событиях, которые вы установили на платформе. Например, установите на график ценовое оповещение, и когда цена достигнет этого уровня, будет отправлено уведомление в мессенджер.
 
 ![](../.gitbook/assets/telegram-alerts.gif)
 
