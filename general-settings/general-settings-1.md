@@ -12,14 +12,14 @@ description: >-
 
 Все настройки сгруппированы в несколько вкладок:
 
-* [**General**](general-settings-1.md#general) ****[**Общие настройки**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MabubYk5qaqYBPs4dmu/general-settings/general-settings-1#general)\*\*\*\*
-*  [Центр управления](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MabubYk5qaqYBPs4dmu/general-settings/general-settings-1#control-center)
-*  [Звуки](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MabubYk5qaqYBPs4dmu/general-settings/general-settings-1#sounds)
+* Общие настройки
+*  Центр управления
+*  Звуки
 *  Подтверждения
-* \*\*\*\*[**Time zone settings**](general-settings-1.md#time-zones)\*\*\*\* Настройки часового пояса
-* \*\*\*\*[**Excel RTD**](../miscellaneous-panels/excel-rtd-trading/)\*\*\*\*  Excel RTD
-* \*\*\*\*[**Messengers**](general-settings-1.md#messengers)\*\*\*\*Мессенджеры
-* \*\*\*\*[**Hotkeys**](general-settings-1.md#global-hotkeys)\*\*\*\* Горячие клавиши
+*  Настройки часового пояса
+*  Excel RTD
+*  Мессенджеры
+*  Горячие клавиши
 
 {% hint style="info" %}
 Most settings are applied automatically, once you change them, but, in some cases, you will be prompted to confirm the changes apply; this action is required for complex settings, where the one change will influence a complex logic.
