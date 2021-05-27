@@ -14,11 +14,11 @@ description: >-
 
 *  ****[**Общие настройки**](general-settings-1.md#vkladka-obshie-nastroiki)\*\*\*\*
 *  ****[**Центр управления**](general-settings-1.md#control-center)\*\*\*\*
-*  **Звуки**
-*  **Подтверждения**
-*  **Настройки часового пояса**
-*  **Excel RTD**
-*  **Мессенджеры**
+*  ****[**Звуки**](general-settings-1.md#zvuki)\*\*\*\*
+*  ****[**Подтверждения**](general-settings-1.md#podtverzhdeniya)\*\*\*\*
+*  ****[**Настройки часового пояса**](general-settings-1.md#chasovye-poyasa)\*\*\*\*
+*  ****[**Excel RTD**](general-settings-1.md#excel-rtd)\*\*\*\*
+*  ****[**Мессенджеры**](general-settings-1.md#messendzhery)\*\*\*\*
 *  **Горячие клавиши**
 
 {% hint style="info" %}
