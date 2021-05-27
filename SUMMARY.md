@@ -11,7 +11,7 @@
   * [License Comparison](getting-started/license-comparison.md)
   * [Менеджер резервного копирования и восстановления](getting-started/backup-and-restore-manager.md)
   * [Сбросить настройки до значений по умолчанию](getting-started/reset-settings-to-default.md)
-  * [Payment FAQ](getting-started/payment-faq.md)
+  * [Оплата FAQ](getting-started/payment-faq.md)
   * [“Coinpayments” payment](getting-started/coinpayments-payment.md)
   * [Binance новый аккаунт](getting-started/binance-fresh-account.md)
   * [Реферальная программа](getting-started/referral-program.md)

@@ -1,24 +1,24 @@
 ---
 description: >-
-  While the process of purchasing the Quantower license is pretty
-  straightforward, there are some questions that can occur while the payment.
+  Хотя процесс покупки лицензии Quantower довольно прост, при оплате могут
+  возникнуть некоторые вопросы.
 ---
 
-# Payment FAQ
+# Оплата FAQ
 
-## Why isn't PayPal, Stripe, or similar international payment gateways available as payment methods for Quantower?
+## Почему PayPal, Stripe или аналогичные международные платежные шлюзы не доступны в качестве [способов оплаты для Quantower](https://accounts.quantower.com/OrderPayment)?
 
-As you might know, Quantower LLC is a Ukrainian company that is situated in Ukraine and operates under the Ukrainian legislation. As for now, PayPal and similar payment gateways don't provide business accounts in Ukraine, that is why we have to use one of the payment processors from Ukraine \([WayForPay](https://wayforpay.com/)\). Currently, we are working on having a representative in the USA that should allow us to process payments via the popular payment gateways.
+Как вы, возможно, знаете, Quantower LLC - украинская компания, которая находится в Украине и действует в соответствии с украинским законодательством. На данный момент PayPal и аналогичные платежные шлюзы не предоставляют бизнес-счета в Украине, поэтому мы должны использовать один из платежных процессоров из Украины \(WayForPay\). В настоящее время мы работаем над тем, чтобы иметь представителя в США, который позволит нам обрабатывать платежи через популярные платежные шлюзы.
 
-## Declined to card issuer
+## Отклонена карта пользователя
 
-The WayForPay company is not a popular payment gateway in the internationally, that is why many banks don't allow transactions from their accounts to WayForPay automatically without previous verification. That is why, sometimes, you can pay for a Quantower license but your payment stays unfinished and the license won’t grant for your account.
+Компания WayForPay не является популярным платежным шлюзом на международном уровне, поэтому многие банки не разрешают транзакции со своих счетов на WayForPay автоматически без предварительной проверки. Вот почему иногда вы можете заплатить за лицензию Quantower, но ваш платеж остается незавершенным, и лицензия не предоставляется для вашей учетной записи.
 
-If this issue occurs, you should contact your bank support and ask them to allow the money transactions to WayForPay, and once they do this — you will be able to pay without this problem further.
+Если возникнет эта проблема, вам следует обратиться в службу поддержки вашего банка и попросить их разрешить денежные переводы на WayForPay, и как только они это сделают, вы сможете платить без этой проблемы в дальнейшем.
 
-## WayForPay verification email
+## Письмо с подтверждением WayForPay
 
-As a part of an internal anti-fraud system, WayForPay service can ask you to verify your person via an email letter. This procedure occurs only once, and when you’ve got an email asking about the verification that was really you, who initiated the payment for the Quantower license, you need to provide the requested materials to finish the transaction.
+Как часть внутренней системы борьбы с мошенничеством, сервис WayForPay может попросить вас подтвердить свою личность с помощью электронного письма. Эта процедура выполняется только один раз, и когда вы получите электронное письмо с просьбой подтвердить, что вы действительно инициировали оплату лицензии Quantower, вам необходимо предоставить запрошенные материалы для завершения транзакции.
 
 ## 3D Secure
 
