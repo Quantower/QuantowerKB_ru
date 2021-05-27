@@ -1,61 +1,61 @@
 ---
 description: >-
-  One of the most popular payment methods for Quantower licenses — is a
-  Coinpayments service. It allows paying for advanced functionalities by various
-  crypto assets (coins).
+  Один из самых популярных способов оплаты лицензий Quantower - это сервис
+  Coinpayments.  Он позволяет оплачивать расширенные функции различными
+  криптоактивами (монетами).
 ---
 
 # “Coinpayments” payment
 
-While the process of coins transfer between digital wallets is pretty usual and straightforward, we decided to mention some additional aspects of Quantower license purchase using crypto coins.
+Хотя процесс передачи монет между цифровыми кошельками довольно обычен и прост, мы решили упомянуть некоторые дополнительные аспекты покупки лицензии Quantower с использованием криптовалюты.
 
-When you decide to pay for a license using your crypto-assets, you should press “Buy” for the required feature. Next, you should click “Pay with Coinpayments”. Now, you will be redirected to Coinpayments merchant where you should select a coin and then — “Complete Checkout”. You can register here, but it is not necessary.
+Когда вы решите оплатить лицензию с помощью своих криптоактивов, вам следует нажать «Купить» для нужной функции. Затем вы должны нажать «Оплатить с помощью Coinpayments». Теперь вы будете перенаправлены к продавцу Coinpayments, где вам нужно выбрать монету, а затем - «Завершить кассу». Вы можете зарегистрироваться здесь, но это не обязательно.
 
-![Coinpayments merchant page](../.gitbook/assets/screenshot_1%20%281%29.png)
+![&#x421;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x430; &#x43F;&#x440;&#x43E;&#x434;&#x430;&#x432;&#x446;&#x430; Coinpayments](../.gitbook/assets/screenshot_1%20%281%29.png)
 
-Here we would like to share some advice:
+Здесь мы хотели бы поделиться советом
 
 {% hint style="warning" %}
-**There can be a commission for transfer**, depending on what coins you transfer and from what wallet. That’s why make sure you will transfer enough quantity of coins \(including commission\) to finish your payment. In case you send fewer coins than Coinpayments asked, you can fulfill the lack amount with an additional transfer.
+Может быть комиссия за перевод, в зависимости от того, какие монеты вы переводите и с какого кошелька. Поэтому убедитесь, что вы переведете достаточное количество монет \(включая комиссию\) для завершения платежа. Если вы отправляете меньше монет, чем запрашивали Coinpayments, вы можете восполнить недостающую сумму дополнительным переводом.
 {% endhint %}
 
 {% hint style="info" %}
-**Transfer time and a number of approvals differ from coin to coin**. Bitcoin requires many approvals and time to transfer, some less popular coins are transferred much faster. Sometimes it is worth it to buy some alt-coin and pay using it to speed up the purchase process.
+Время передачи и количество подтверждений различаются по разным монетам. Биткойн требует большего количества подтверждений и времени для перевода, некоторые менее популярные монеты переводятся намного быстрее. Иногда стоит купить альтернативную монету и заплатить ею, чтобы ускорить процесс покупки.
 {% endhint %}
 
-## Purchase details page
+## Страница сведений о покупке
 
-Next, you will be redirected to the temporary payment page that will be active for 2 hours. During this time you should transfer the selected coin to complete the purchase. We recommend you to stay on this page until you will see the successful purchase message.
+Далее вы будете перенаправлены на временную страницу оплаты, которая будет активна в течение 2 часов. За это время вам необходимо передать выбранную монету, чтобы совершить покупку. Мы рекомендуем вам оставаться на этой странице, пока вы не увидите сообщение об успешной покупке.
 
-![Payment details page](../.gitbook/assets/screenshot_2%20%281%29.png)
+![&#x421;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x430; &#x441;&#x432;&#x435;&#x434;&#x435;&#x43D;&#x438;&#x439; &#x43E; &#x43F;&#x43B;&#x430;&#x442;&#x435;&#x436;&#x435;](../.gitbook/assets/screenshot_2%20%281%29.png)
 
-There are some important items on this page:
+На этой странице есть несколько важных элементов:
 
-* **Payment ID**. Copy & save it somewhere, in case some technical fail \(your PC turns off and you won’t reach this page\). This ID is needed to contact Coinpayments for further transaction support.
-* **There is a transaction status page link**, where you can track the process of coin transfer \(approves, amount, etc.\). That page updates automatically.
+* **Идентификатор платежа.** Скопируйте и сохраните его где-нибудь, на случай технического сбоя \(ваш компьютер выключится, и вы не попадете на эту страницу\). Этот идентификатор необходим для связи с Coinpayments для дальнейшей поддержки транзакции.
+* **Есть ссылка на страницу статуса транзакции**, где вы можете отслеживать процесс перевода монеты \(одобрено, сумма и т. Д.\). Эта страница обновляется автоматически.
 
-![Transaction status page](../.gitbook/assets/screenshot_3%20%284%29.png)
+![&#x421;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x430; &#x441;&#x442;&#x430;&#x442;&#x443;&#x441;&#x430; &#x442;&#x440;&#x430;&#x43D;&#x437;&#x430;&#x43A;&#x446;&#x438;&#x438;](../.gitbook/assets/screenshot_3%20%284%29.png)
 
-## Make a transfer
+## Сделать перевод
 
-Now you need to make a transfer of the selected coins from your wallet. This process depends on where you are sending from. As an example, you can see how Binance informs about commissions and receiving amounts after transfer:
+Теперь вам нужно сделать перевод выбранных монет из вашего кошелька. Этот процесс зависит от того, откуда вы отправляете. В качестве примера вы можете увидеть, как Binance информирует о комиссиях и получении сумм после перевода:
 
-![Binance wallet transfer page](../.gitbook/assets/screenshot_8.png)
+![&#x421;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x430; &#x43F;&#x435;&#x440;&#x435;&#x432;&#x43E;&#x434;&#x430; &#x43A;&#x43E;&#x448;&#x435;&#x43B;&#x44C;&#x43A;&#x430; Binance](../.gitbook/assets/screenshot_8.png)
 
-Let’s say that you’ve sent your coins and now waiting for the license assign. **The confirmation process usually takes 10-45 minutes** but varies based on the coin's target block time and the number of blocks confirms required. If you see that your coins were successfully sent from your wallet, it is not stated that Coinpayments already received them. If your payment lasts more than 30 minutes - please contact our support.
+Допустим, вы отправили свои монеты и теперь ждете назначения лицензии. Процесс подтверждения обычно занимает 10-45 минут, но зависит от целевого времени блока монеты и количества требуемых подтверждений. Если вы видите, что ваши монеты были успешно отправлены из вашего кошелька, это не означает, что Coinpayments уже получили их. Если ваш платеж длится более 30 минут - обратитесь в нашу службу поддержки.
 
-## License assignment check
+## Проверка присвоения лицензии
 
-There are some technical processes in the Coinpayments that should be accomplished before they inform us about the successful payment. These require time, so **your license can’t be assigned to your account until we get approval from Coinpayments**. Even if there is a Completed status.
+В Coinpayments есть некоторые технические процессы, которые необходимо выполнить, прежде чем они сообщат нам об успешном платеже. Это требует времени, поэтому ваша лицензия не может быть назначена вашей учетной записи, пока мы не получим одобрение от Coinpayments. Даже если есть статус **Завершено**.
 
-![Completed transaction](../.gitbook/assets/screenshot_6.png)
+![&#x417;&#x430;&#x432;&#x435;&#x440;&#x448;&#x435;&#x43D;&#x43D;&#x430;&#x44F; &#x442;&#x440;&#x430;&#x43D;&#x437;&#x430;&#x43A;&#x446;&#x438;&#x44F;](../.gitbook/assets/screenshot_6.png)
 
-**To check whether your license was assigned to your account**, you should monitor the following sources:
+Чтобы проверить, была ли ваша лицензия назначена вашей учетной записи, вы должны отслеживать следующие источники:
 
-* your account’s email address, where you should receive a notification about the successful payment;
-* in your [Quantower account panel](http://accounts.quantower.com), in the Payments History section.
+* адрес электронной почты вашего аккаунта, на который вы должны получить уведомление об успешном платеже;
+* на панели учетной записи Quantower в разделе «История платежей».
 
-Once we receive approval from Coinpayments, we will immediately assign you a license and send you a confirmation email about the successful purchase. From this moment you can use your advanced feature.
+Как только мы получим одобрение от Coinpayments, мы немедленно предоставим вам лицензию и отправим вам электронное письмо с подтверждением об успешной покупке. С этого момента вы можете использовать свою расширенную функцию.
 
 ![Quantower license payment is successfull](../.gitbook/assets/screenshot_9.png)
 
