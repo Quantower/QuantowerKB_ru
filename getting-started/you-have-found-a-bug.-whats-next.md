@@ -27,12 +27,12 @@ description: >-
 * **Связь.** Пожалуйста, укажите соединение, которое вы использовали в вашем случае; может быть несколько имен, если он отображается на обоих.
 * **Действия по воспроизведению**. Как мы можем воспроизвести вашу проблему?
 
-## Simple bug report example:
+## Пример простого отчета об ошибке:
 
-* **Short description** Can’t turn the chart price scale off. The price scale should hide but still showing.
-* **Application version** 1.92.5 \(Beta\)
-* **Connection** Binance, LMAX
-* **Steps to reproduce** 1 - open Chart panel, 2 - right-click the price scale, 3 - click “show/hide” option
+* **Краткое описание** Невозможно выключить шкалу цен на графике. Шкала цен должна скрыться, но все еще отображаться.
+* **Версия приложения** 1.92.5 \(Бета\)
+* **Подключение** Binance, LMAX
+* **Шаги по воспроизведению** 1 - откройте панель «График», 2 - щелкните правой кнопкой мыши шкалу цен, 3 - щелкните опцию «показать / скрыть»
 
-Please, once you finish the description of your case, please send it to our Support team in any convenient way. We will respond to you and try to help as soon as possible.
+После того, как вы закончите описание своего дела, отправьте его в нашу службу поддержки любым удобным способом. Мы ответим вам и постараемся помочь в кратчайшие сроки.
 
