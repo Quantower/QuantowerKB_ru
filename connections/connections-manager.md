@@ -1,20 +1,20 @@
 ---
 description: >-
-  Connections manager allows select from available integrations the ones you are
-  trading with and connect to them using your accounts.
+  Менеджер подключений позволяет выбрать из доступных интеграций те, с которыми
+  вы торгуете, и подключиться к ним, используя свои учетные записи.
 ---
 
-# Connections manager
+# Менеджер подключений
 
-{% embed url="https://www.youtube.com/watch?v=\_1tnBDlyDbY" caption="How to work with Connections manager in Quantower" %}
+{% embed url="https://www.youtube.com/watch?v=\_1tnBDlyDbY" caption="Как работать с диспетчером подключений в Quantower" %}
 
-Connections are integrations with third-party providers that supply various data: trading quotes, symbols history etc.
+**Подключения** - это интеграция со сторонними поставщиками, которые предоставляют различные данные: торговые котировки, историю символов и т. д.
 
-![Launch the Connections Manager to select necessary connection](../.gitbook/assets/connections-manager.png)
+![&#x412;&#x44B;&#x437;&#x43E;&#x432; &#x43C;&#x435;&#x43D;&#x435;&#x434;&#x436;&#x435;&#x440;&#x430; &#x43F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x439;](../.gitbook/assets/vyzov-menedzhera-podklyuchenii.png)
 
-## General information
+## Основная информация
 
-**Connections manager** — is a screen that allows you to select from available integrations the ones you are trading with and connect to them using your accounts. While connecting to any integration, Connections manager remembers your login credentials and will use them for further auto-connects \(reconnects in case of errors\). If you don’t want to store your login credentials in manager, just click the “Lock” icon in the login form.
+**Диспетчер подключений** - это экран, который позволяет вам выбрать из доступных подключений те, с которыми вы торгуете, и подключиться к ним, используя свои учетные записи. При подключении к любому брокеру или бирже диспетчер подключений запоминает ваши учетные данные и будет использовать их для дальнейших автоматических подключений \(повторное подключение в случае ошибок\). Если вы не хотите хранить свои учетные данные в диспетчере, просто щелкните значок «Заблокировать» в форме входа.
 
 ![Connections manager screen with multiple accounts](../.gitbook/assets/multiple-accounts.gif)
 
