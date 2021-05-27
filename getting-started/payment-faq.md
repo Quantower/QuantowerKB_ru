@@ -22,13 +22,13 @@ description: >-
 
 ## 3D Secure
 
-According to the international regulations, the WayForPay service requires a 3D Secure verification during the payment for extra fraud protection. Typically, you will be redirected to an authentication page on your bank’s website, and need to enter a password associated with the card or a code sent to your phone. This process is familiar to customers through the card networks’ brand names, such as [Visa Secure](https://usa.visa.com/pay-with-visa/featured-technologies/verified-by-visa.html) and [Mastercard Identity Check](https://www.mastercard.us/en-us/business/overview/safety-and-security/identity-check.html).
+Согласно международным нормам, сервис WayForPay требует проверки 3D Secure во время оплаты для дополнительной защиты от мошенничества. Как правило, вы будете перенаправлены на страницу аутентификации на веб-сайте вашего банка, и вам потребуется ввести пароль, связанный с картой, или код, отправленный на ваш телефон. Этот процесс знаком клиентам по торговым маркам карточных сетей, таким как Visa Secure и Mastercard Identity Check.
 
-## What is an alternative?
+## Что есть альтернатива?
 
-In case you can’t or don’t want to deal with the WayForPay service, you may also try the [Coinpayments](https://www.coinpayments.net/) service, which is another option of payment for the Quantower license. This service is mostly for crypto-transactions but it also supports fiat payments.
+Если вы не можете или не хотите иметь дело с сервисом WayForPay, вы также можете попробовать сервис Coinpayments, который является еще одним вариантом оплаты лицензии Quantower. Эта услуга в основном предназначена для крипто-транзакций, но также поддерживает фиатные платежи.
 
-For those who are willing to purchase the [Lifetime license](https://www.quantower.com/pricing), there is another alternative of payment — the wire transfer.
+Для желающих приобрести пожизненную лицензию есть еще один вариант оплаты - банковский перевод.
 
-In conclusion, we must say that there are no dead ends in this question, and we are always open to assist you with getting yourself the premium features of Quantower. Just [contact us](https://www.quantower.com/contact-us) in any suitable way and we are sure that we will find the right payment solution for you.
+В заключение мы должны сказать, что в этом вопросе нет тупиков, и мы всегда готовы помочь вам получить себе премиальные функции Quantower. Просто свяжитесь с нами любым удобным способом, и мы уверены, что найдем для вас подходящее платежное решение.
 
