@@ -136,7 +136,7 @@ Quantower Alert Bot отправит сообщение в вашу учетну
 
 ![](../.gitbook/assets/telegram-bot.png)
 
-## Global Hotkeys
+## Горячие клавиши
 
-![](../.gitbook/assets/image%20%2874%29.png)
+![](../.gitbook/assets/goryachie-klavishi.jpg)
 
