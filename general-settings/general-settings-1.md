@@ -129,12 +129,12 @@ Quantower Alert Bot отправит сообщение в вашу учетну
 
 ![](../.gitbook/assets/telegram-alerts.gif)
 
-To add a bot to the Telegram, open the platform's **General Settings -&gt; Messengers -&gt; Duplicate alerts to Telegram**.
+Чтобы добавить бота в Telegram, откройте **Общие настройки платформы -&gt; Мессенджеры -&gt; Дублировать оповещения в Telegram.**
 
-Specify your personal chat ID, which you can find out by clicking on the **Get ID** button. A new Chat ID Echo bot will open and it will show _**"Your Telegram Chat ID is: xxxxxxx"**_  
-Enter your chat ID in the corresponding field and then connect to the Quantower Alert Bot.
+Укажите свой личный идентификатор чата, который вы можете узнать, нажав на кнопку «**Get ID**». Откроется новый бот **Chat ID Echo**, и он покажет «_**Your Telegram Chat ID is: xxxxxxx"**_ ».  
+Введите свой **chat ID**  в соответствующее поле, а затем подключитесь к **Quantower Alert Bot.**
 
-![](../.gitbook/assets/image%20%28137%29.png)
+![](../.gitbook/assets/telegram-bot.png)
 
 ## Global Hotkeys
 
