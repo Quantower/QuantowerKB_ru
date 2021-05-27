@@ -1,26 +1,30 @@
-# Binance fresh account
+---
+description: Как создать новый аккаунт Binance для получения всех премиум функций Quantower
+---
 
-As [stated in our article](https://www.quantower.com/blog/quantower-participates-in-binance-broker-program), it is possible to use Quantower premium features for free when connected to Binance exchange. That is why, in order to start using Quantower premium without charge, you need to accomplish some steps as follows.
+# Binance новый аккаунт
 
-## **Create a fresh Binance account**
+ Как указано в нашей статье, при подключении к бирже Binance можно бесплатно использовать премиум-функции Quantower. Вот почему, чтобы начать использовать Quantower Premium бесплатно, вам необходимо выполнить следующие действия.
 
-First, you need to register a new account on Binance exchange, that wouldn’t be connected with any referral previously. In order to do this, please follow the [https://accounts.binance.com/en/register](https://accounts.binance.com/en/register) link and fill in the registration form.
+## **C**оздать новый аккаунт Binance
 
-![Make sure that the Referral ID field is empty](../.gitbook/assets/screenshot_1.png)
+Во-первых, вам нужно зарегистрировать новую учетную запись на бирже Binance, которая ранее не была связана с каким-либо рефералом\(!\). Для этого перейдите по ссылке [https://accounts.binance.com/en/register](https://accounts.binance.com/en/register) и заполните регистрационную форму.
+
+![&#x423;&#x431;&#x435;&#x434;&#x438;&#x442;&#x435;&#x441;&#x44C;, &#x447;&#x442;&#x43E; &#x43F;&#x43E;&#x43B;&#x435; &#xAB;&#x418;&#x434;&#x435;&#x43D;&#x442;&#x438;&#x444;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440; &#x440;&#x435;&#x444;&#x435;&#x440;&#x430;&#x43B;&#x430;&#xBB; &#x43F;&#x443;&#x441;&#x442;&#x43E;.](../.gitbook/assets/screenshot_1.png)
 
 {% hint style="warning" %}
-Please note! The Referral ID field must be empty. If you see any prefilled ID in this field you should CLEAR YOUR **REFERRAL ID** COOKIES in the browser before registration.
+Пожалуйста, обрати внимание! Поле «**REFERRAL ID**» должно быть пустым. Если вы видите какой-либо предварительно заполненный идентификатор в этом поле, вам следует ОЧИСТИТЬ СВОИ РЕФЕРАЛЬНЫЕ ИДЕНТИФИКАЦИОННЫЕ КУКИ в браузере перед регистрацией.
 {% endhint %}
 
-## Clearing Referral ID cookies
+## Очистка файлов cookie идентификатора реферала
 
-To clear your saved cookies in the Chrome browser, you should proceed to the “Site information block” and follow the “Cookies section”
+ Чтобы удалить сохраненные файлы cookie в браузере Chrome, перейдите к «Блоку информации о сайте» и перейдите в раздел «Файлы cookie».
 
-![Page cookies can be found via the Page info](../.gitbook/assets/screenshot_2.png)
+![&#x424;&#x430;&#x439;&#x43B;&#x44B; cookie &#x441;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x44B; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x43D;&#x430;&#x439;&#x442;&#x438; &#x447;&#x435;&#x440;&#x435;&#x437; &#x438;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x446;&#x438;&#x44E; &#x43E; &#x441;&#x442;&#x440;&#x430;&#x43D;&#x438;&#x446;&#x435;](../.gitbook/assets/screenshot_2.png)
 
-Now select each group of cookies and press the “Remove” button. When there will be no cookies in the list, please, press the “Done” button. Now you should refresh your registration page and make sure that the “Referral ID” field is empty.
+Теперь выберите каждую группу файлов cookie и нажмите кнопку «Удалить». Когда в списке не будет файлов cookie, нажмите кнопку «Готово». Теперь вам следует обновить страницу регистрации и убедиться, что поле «Реферальный идентификатор» пусто.
 
-![Binance stores referral data in cookies](../.gitbook/assets/screenshot_3%20%283%29.png)
+![Binance &#x445;&#x440;&#x430;&#x43D;&#x438;&#x442; &#x440;&#x435;&#x444;&#x435;&#x440;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x432; &#x444;&#x430;&#x439;&#x43B;&#x430;&#x445; cookie.](../.gitbook/assets/screenshot_3%20%283%29.png)
 
-When you’ve created a new account with the Binance exchange you may log in using your new credentials via the Quantower terminal and start using all of its premium features for free.
+Когда вы создали новую учетную запись на бирже Binance, вы можете войти в систему, используя свои новые учетные данные через терминал Quantower, и начать использовать все его премиум-функции бесплатно.
 

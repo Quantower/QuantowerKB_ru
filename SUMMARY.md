@@ -13,7 +13,7 @@
   * [Сбросить настройки до значений по умолчанию](getting-started/reset-settings-to-default.md)
   * [Payment FAQ](getting-started/payment-faq.md)
   * [“Coinpayments” payment](getting-started/coinpayments-payment.md)
-  * [Binance fresh account](getting-started/binance-fresh-account.md)
+  * [Binance новый аккаунт](getting-started/binance-fresh-account.md)
   * [Referral Program](getting-started/referral-program.md)
   * [You have found a bug. What’s next?](getting-started/you-have-found-a-bug.-whats-next.md)
 * [Общие Настройки](general-settings/README.md)
