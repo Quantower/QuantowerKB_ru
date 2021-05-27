@@ -1,29 +1,31 @@
 ---
 description: >-
-  If you faced an abnormal application’s behavior while using Quantower — don’t
-  panic.
+  Если вы столкнулись с ненормальным поведением приложения при использовании
+  Quantower - не паникуйте.
 ---
 
-# You have found a bug. What’s next?
+# Вы нашли ошибку.  Что дальше?
 
-## Bug or not?
+## Баг или нет?
 
-In most cases, this will be misconfigured settings or misunderstood functionality, but sometimes it can be a bug \(mistake\) in application. So, let’s clarify how to detect that your case is a bug and how to submit a useful bug report to our support team.
+В большинстве случаев это будут неправильно настроенные параметры или неправильно понятые функции, но иногда это может быть ошибка \(ошибка\) в приложении. Итак, давайте проясним, как определить, что ваш случай является ошибкой, и как отправить полезный отчет об ошибке в нашу службу поддержки.
 
-First of all, you need to make sure that your case is a bug. To do this, please complete the following steps:
+Прежде всего, вам нужно убедиться, что в вашем случае есть ошибка. Для этого выполните следующие действия:
 
-1. **Make sure that you have the latest version of the application.** We constantly release updates, containing the latest bug fixes, so your case can be one of those we have already fixed.
-2. **Refer to the feature** [**documentation**](https://help.quantower.com/) **and make sure that your case DOES NOT contradict its normal behavior logic**. Sometimes, some features logic in our application can be different from other applications that you are used to, and this is not a bug, but a subject to discussion or feature improvement. _If your case was solved on this step — please refer to our discussion groups and share your feature enhancement vision with other traders._
-3. **Try to backup & reset your settings to defaults and check whether your case appears now**. [More about settings reset can be found in our video manual](https://www.youtube.com/watch?v=n0lUFu8FNN8). Sometimes you can face strange behavior as a result of an accident \(misunderstood\) setting change. It can even be a single checkbox, switched on several days ago that you’ve forgotten about. _If your case was solved on this step, please roll back your previous settings and try to reset them per each panel by removing \(renaming\) its folders in the "Settings" -&gt; "plug-ins" folder. You may also refer to our Support team with your case for additional help._
+1. Убедитесь, что у вас установлена ​​[**последняя версия приложения**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Mah1RxEVx-lLmWLKlj0/getting-started/application-updates). Мы постоянно выпускаем обновления, содержащие последние исправления ошибок, поэтому ваш случай может быть одним из тех, которые мы уже исправили.
+2. Обратитесь к [**документации по функциям**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Mah1RxEVx-lLmWLKlj0/general-settings) и убедитесь, что ваш случай НЕ противоречит нормальной логике поведения. Иногда логика некоторых функций в нашем приложении может отличаться от логики других приложений, к которым вы привыкли, и это не ошибка, а предмет обсуждения или улучшения функции. Если на этом этапе ваше дело было решено - обратитесь в [**наши дискуссионные группы**](https://discord.com/channels/717753243072987208/807228006631604274) ****и поделитесь своим видением улучшения функций с другими трейдерами.
+3. Попробуйте сделать резервную копию и сбросить [**настройки до значений по умолчанию**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Mah1RxEVx-lLmWLKlj0/general-settings/set-as-default) и проверьте, появляется ли ваш случай сейчас. Подробнее о сбросе настроек читайте в нашем видео-руководстве. 
+4. Иногда вы можете столкнуться со странным поведением в результате случайного \(неправильно понятого\) изменения настроек. Это может быть даже один флажок, установленный несколько дней назад, о котором вы забыли. Если ваш случай был решен на этом шаге, пожалуйста, откатите свои предыдущие настройки и попробуйте сбросить их для каждой панели, удалив \(переименовав\) соответствующие папки в папке «Настройки» -&gt; «плагины». 
+5. Вы также можете обратиться в нашу службу поддержки по вашему делу за дополнительной помощью.
 
-## Reporting a bug
+## Отправить отчет об ошибке
 
-If both previous steps don't help you — your case may be a bug. Now you need to provide our Support team with a detailed description of your problem. The more information you give us — the faster we will help you. To formalize the bug report, we ask you to provide info using the following template:
+Если оба предыдущих шага вам не помогли - возможно, в вашем случае есть ошибка. Теперь вам нужно предоставить [**нашей службе поддержки**](https://www.quantower.com/contact-us) подробное описание вашей проблемы. Чем больше информации вы нам предоставите - тем быстрее мы вам поможем. Чтобы формализовать отчет об ошибке, просим вас предоставить информацию, используя следующий шаблон:
 
-* **Short description.** What you expect from your actions, and what you’ve got. Any useful info, that you think must help us to find this bug and solve it.
-* **Application version.** It can be found on [About screen](https://help.quantower.com/getting-started/application-updates); please mention whether you use a Beta version.
-* **Connection.** Please specify the connection you used when your case occurred; maybe several names if it shows on both.
-* **Steps to reproduce.** How we can reproduce your issue?
+* **Краткое описание.** Чего вы ожидаете от своих действий и что у вас есть. Любая полезная информация, которая, по вашему мнению, должна помочь нам найти эту ошибку и решить ее.
+* **Версия приложения.** Его можно найти на экране «О программе»; пожалуйста, укажите, используете ли вы бета-версию.
+* **Связь.** Пожалуйста, укажите соединение, которое вы использовали в вашем случае; может быть несколько имен, если он отображается на обоих.
+* **Действия по воспроизведению**. Как мы можем воспроизвести вашу проблему?
 
 ## Simple bug report example:
 

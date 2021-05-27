@@ -15,7 +15,7 @@
   * [“Coinpayments” payment](getting-started/coinpayments-payment.md)
   * [Binance новый аккаунт](getting-started/binance-fresh-account.md)
   * [Реферальная программа](getting-started/referral-program.md)
-  * [You have found a bug. What’s next?](getting-started/you-have-found-a-bug.-whats-next.md)
+  * [Вы нашли ошибку.  Что дальше?](getting-started/you-have-found-a-bug.-whats-next.md)
 * [Общие Настройки](general-settings/README.md)
   * [Основная панель инструментов Quantower](general-settings/main-toolbar.md)
   * [Workspaces - менеджер рабочих пространств](general-settings/workspaces-binds-groups.md)
