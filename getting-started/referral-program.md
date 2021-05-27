@@ -1,37 +1,37 @@
 ---
-description: >-
-  Quantower Referral Program — mutually-beneficial partnership, between us and
-  our customers. Start earning real money right now.
+description: Реферальная программа Quantower - взаимовыгодное партнерство между нами
 ---
 
-# Referral Program
+# Реферальная программа
 
-Our Referral Program allows you to earn the real money, that can be spent on buying the Quantower licenses or even be withdrawn on demand. The earning process is simple: you receive **20% from each purchase** sum of your referral. We can increase % depends on our own view!
+Наша реферальная программа позволяет вам зарабатывать реальные деньги, которые можно потратить на покупку лицензий Quantower или даже отозвать по запросу. Процесс заработка прост: вы получаете 20% с каждой суммы покупки вашего реферала. Мы можем увеличить% в зависимости от нашего собственного мнения!
 
 {% hint style="warning" %}
-Your referral \(the person you invited\) must **register an account** in our license system **Through Your Link!** Otherwise, he will not be counted as your referral.
+Ваш реферал \(человек, которого вы пригласили\) должен зарегистрировать учетную запись в нашей системе лицензирования по вашей ссылке! В противном случае он не будет считаться вашим рефералом.
 {% endhint %}
 
-{% embed url="https://youtu.be/yJgIG0i8LM8" caption="How does Quantower Referral Program work?" %}
+{% embed url="https://youtu.be/yJgIG0i8LM8" caption="Как работает реферальная программа Quantower?" %}
 
-## **There are 4 simple steps to start earning by inviting your friends to Quantower:**
+## Чтобы начать зарабатывать, пригласив друзей в Quantower, нужно выполнить 4 простых шага:
 
-* **Get a link with your code.** Any registered customer of Quantower can find its referral code from within the personal account page \([https://accounts.quantower.com](https://accounts.quantower.com/)\)  You will be able to **copy the complete referral link to start sharing immediately**.
+* **Получите ссылку с вашим кодом**. Любой зарегистрированный клиент Quantower может найти свой реферальный код на странице личной учетной записи \([https://accounts.quantower.com](https://accounts.quantower.com)\). Вы сможете скопировать полную реферальную ссылку, чтобы немедленно начать обмен.
 
 ![](../.gitbook/assets/image%20%28153%29.png)
 
 ![](../.gitbook/assets/image%20%28152%29.png)
 
-* **Start inviting.** Share your referral link with your friends, partners, and via your social networks. Everyone who signs up using your link will become your referral and start bringing your earnings.
-* **Get earnings.** Each time your referral purchase one or multiple Quantower licenses — you earn 20% from the payment sum, including any discounts.
-* **Expand your network.** The more you share, the more you earn. Continue sharing your referral link with your network to keep the earnings coming.
+*  **Начни приглашать**. Поделитесь своей реферальной ссылкой с друзьями, партнерами и в социальных сетях. Каждый, кто зарегистрируется по вашей ссылке, станет вашим рефералом и начнет приносить вам доход.
+* **Получайте заработок.** Каждый раз, когда ваш реферал приобретает одну или несколько лицензий Quantower - вы зарабатываете 20% от суммы платежа, включая любые скидки.
+* **Расширьте свою сеть.** Чем больше вы делитесь, тем больше зарабатываете. Продолжайте делиться своей реферальной ссылкой со своей сетью, чтобы получать прибыль.
 
-## **Referral Program Details:**
+## Подробности реферальной программы:
 
-* The minimum amount of earnings, that can be withdrawn is $50
-* To ask for withdrawal or payment in honor of a personal Quantower license, please contact Quantower Support via live chat on the official website, email info@quantower.com, [telegram chat](https://t.me/quantower).
-* All customers can participate, and each customer can invite as many friends as they want! There is no limit to the number of referrals one account can have.
-* Customers cannot invite themselves to earn rewards using multiple accounts. Once this behavior has been detected, you will be disqualified from the Referral Program and all unpaid earned or accrued referral rewards will be canceled immediately.
-* Customers cannot invite accounts owned or controlled by existing customers. Once this behavior has been detected, you will be disqualified from the Referral Program and all unpaid earned or accrued referral rewards will be canceled immediately.
-* Quantower reserves the right to modify the rules or rewards of this Referral Program at any point by publishing an updated set of program information.
+* Минимальная сумма заработка, которую можно вывести, составляет 50 долларов США.
+
+  Чтобы запросить отзыв или оплату в честь личной лицензии Quantower, обратитесь в службу поддержки Quantower через чат на официальном веб-сайте, по электронной почте info@quantower.com, в телеграмм-чате.
+
+* Участвовать могут все клиенты, и каждый клиент может пригласить столько друзей, сколько пожелает! Нет ограничений на количество рефералов, которые может иметь одна учетная запись.
+* Клиенты не могут приглашать себя для получения вознаграждений, используя несколько учетных записей. Как только такое поведение будет обнаружено, вы будете дисквалифицированы из реферальной программы, и все невыплаченные заработанные или накопленные реферальные вознаграждения будут немедленно аннулированы.
+* Клиенты не могут приглашать учетные записи, принадлежащие или контролируемые существующими клиентами. Как только такое поведение будет обнаружено, вы будете дисквалифицированы из реферальной программы, и все невыплаченные заработанные или накопленные реферальные вознаграждения будут немедленно аннулированы.
+* Quantower оставляет за собой право изменять правила или вознаграждения этой реферальной программы в любой момент, публикуя обновленный набор информации о программе.
 
