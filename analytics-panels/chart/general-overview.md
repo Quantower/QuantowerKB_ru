@@ -1,5 +1,5 @@
 ---
-description: Basic settings and features for charts in Quantower
+description: Основные настройки и функции графиков в Quantower
 ---
 
 # Chart Overview
@@ -10,13 +10,13 @@ description: Basic settings and features for charts in Quantower
 
 Основные части панели диаграмм в Quantower
 
-* [**Верхняя панель инструментов**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MaiDVnw5wo8iaAlbr6k/analytics-panels/chart#chart-top-toolbar) графика с основными элементами управления \(таймфреймы, глубина истории, стили графиков\)
+* **Верхняя панель инструментов** графика с основными элементами управления \(таймфреймы, глубина истории, стили графиков\)
 *  **область графика** с отображением ценовых данных, индикаторов, позиций
-*  [**боковое меню**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MaiDVnw5wo8iaAlbr6k/analytics-panels/chart#sidebar-menu-or-object-toolbar) с элементами управления индикаторами, рисунками, наложениями и диспетчером объектов
+*  **боковое меню** с элементами управления индикаторами, рисунками, наложениями и диспетчером объектов
 * ввод ордеров на графике с помощью горячих кнопок для быстрой торговли
-* нижняя панель инструментов с инструментами [**анализа объема**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MaiDVnw5wo8iaAlbr6k/analytics-panels/chart/volume-analysis-tools)\*\*\*\*
+* нижняя панель инструментов с инструментами **анализа объема**
 
-## Chart Top toolbar
+## Верхняя панель инструментов графика
 
 The top toolbar allows you to select a trading instrument, set the chart type and style, timeframe, depth of market data as well as call additional toolbars.
 
