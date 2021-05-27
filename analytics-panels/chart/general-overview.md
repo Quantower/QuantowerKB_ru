@@ -4,17 +4,17 @@ description: Basic settings and features for charts in Quantower
 
 # Chart Overview
 
-The chart panel is one of the most important panel for an active trader. Accurate market data, graphical and analytical tools are integral components of the panel, which allow you to make the right trading decisions.
+Панель с Графиками - одна из самых важных панелей для активного трейдера. Точные рыночные данные, графические и аналитические инструменты - неотъемлемые компоненты панели, которые позволяют принимать правильные торговые решения.
 
-![Main parts of Chart panel in Quantower](../../.gitbook/assets/main-parts-of-chart-panel-in-quantower.png)
+![&#x41E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x44B;&#x435; &#x447;&#x430;&#x441;&#x442;&#x438; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x434;&#x438;&#x430;&#x433;&#x440;&#x430;&#x43C;&#x43C; &#x432; Quantower](../../.gitbook/assets/main-parts-of-chart-panel-in-quantower.png)
 
-The chart panel can be divided into 5 parts:
+Основные части панели диаграмм в Quantower
 
-* Chart [**Top toolbar**](./#chart-top-toolbar) with the main controls \(timeframes, depth of history, chart styles\)
-* **the chart area** itself with the displaying of price data, indicators, positions
-* \*\*\*\*[**sidebar menu**](./#sidebar-menu-or-object-toolbar) with controls of indicators, drawings, overlays and object manager
-* **chart order entry** with hot buttons for quick trading
-* bottom toolbar with [**volume analysis tools**](volume-analysis-tools/)\*\*\*\*
+* [**Верхняя панель инструментов**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MaiDVnw5wo8iaAlbr6k/analytics-panels/chart#chart-top-toolbar) графика с основными элементами управления \(таймфреймы, глубина истории, стили графиков\)
+*  **область графика** с отображением ценовых данных, индикаторов, позиций
+*  [**боковое меню**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MaiDVnw5wo8iaAlbr6k/analytics-panels/chart#sidebar-menu-or-object-toolbar) с элементами управления индикаторами, рисунками, наложениями и диспетчером объектов
+* ввод ордеров на графике с помощью горячих кнопок для быстрой торговли
+* нижняя панель инструментов с инструментами [**анализа объема**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MaiDVnw5wo8iaAlbr6k/analytics-panels/chart/volume-analysis-tools)\*\*\*\*
 
 ## Chart Top toolbar
 
