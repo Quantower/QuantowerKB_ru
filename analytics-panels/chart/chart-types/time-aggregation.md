@@ -1,2 +1,2 @@
-# Время
+# Time aggregation
 

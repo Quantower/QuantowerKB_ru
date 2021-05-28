@@ -1,27 +1,31 @@
-# Heiken Ashi
+---
+description: Heiken Ashi
+---
 
-## General info
+# График Хайкен Аши \(Heiken Ashi\)
 
-Heiken-Ashi chart \(HA\) is a modified type of classic candlestick chart, which is based on recalculation of OHLC data. The resulting candlestick filters out some noise in an effort to better capture the trend and reversal points.
+## Общая информация
 
-![General view of Heiken-Ashi chart type](../../../.gitbook/assets/heiken-ashi-chart.png)
+График Хайкен-Аши \(HA\) - это модифицированный тип классического свечного графика, который основан на пересчете данных OHLC. Полученная свеча отфильтровывает некоторый шум, чтобы лучше уловить тренд и точки разворота.
 
-The following calculations are used to construct the HA chart:
+![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x434;&#x438;&#x430;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x44B; &#x425;&#x430;&#x439;&#x43A;&#x435;&#x43D;-&#x410;&#x448;&#x438;](../../../.gitbook/assets/heiken-ashi-chart.png)
+
+Для построения диаграммы HA используются следующие расчеты:
 
 * HA Close = \(O+H+L+C\)/4
 * HA Open = \(HA Open \(previous bar\) + HA Close\(previous bar\)\)/2
 * HA High = Maximum \(H, HA Open, HA Close\)
 * HA Low = Minimum \(L, HA Open, HA Close\)
 
-## Creation a new Heiken-Ashi chart
+## Создание нового графика Хайкен-Аши
 
-To open a new HA chart, you need to select Heiken-Ashi from the drop-down list of aggregations and specify the build parameters - _**Value**_ and _**Build from**_. Click **\[ Apply \]** and the chart will be built. If the number of candles \(data\) is not enough, then choose a greater depth of history, for example 1 year or 5 years.
+Чтобы открыть новую диаграмму HA, вам нужно выбрать Heiken-Ashi из выпадающего списка  и указать параметры сборки - Value и Build from. Нажмите \[Применить\], и график будет построен. Если количества свечей \(данных\) недостаточно, то выбирайте большую глубину истории, например 1 год или 5 лет.
 
-You can create several predefined settings to quickly build HA charts. To do this, you need to configure the parameters and _**Add to favorites**_ by pressing the Star icon.
+Вы можете создать несколько предустановленных настроек для быстрого построения графиков. Для этого необходимо настроить параметры и добавить в избранное, нажав на значок звездочки.
 
-![The creation process of Heiken-Ashi chart type](../../../.gitbook/assets/heiken-ashi-creation.gif)
+![&#x41F;&#x440;&#x43E;&#x446;&#x435;&#x441;&#x441; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F; &#x434;&#x438;&#x430;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x44B; &#x442;&#x438;&#x43F;&#x430; &#x425;&#x430;&#x439;&#x43A;&#x435;&#x43D;-&#x410;&#x448;&#x438;](../../../.gitbook/assets/heiken-ashi-creation.gif)
 
 {% hint style="info" %}
-Heiken-Ashi is used only with the Candle chart style.
+Heiken-Ashi используется только со стилем диаграммы Candle.
 {% endhint %}
 

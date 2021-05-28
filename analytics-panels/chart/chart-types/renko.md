@@ -1,61 +1,61 @@
 ---
-description: Просмотр и настройка графиков Ренко на платформе Quantower
+description: Review and setup Renko charts in Quantower platform
 ---
 
-# График Ренко \(Renko\)
+# Renko
 
-## Общая информация
+## General info
 
-График Ренко полностью не зависит от времени, основан только на движении цены и помогает отфильтровывать шум, который может возникать на других типах графиков. Ренко строится из кирпичей, которые создаются только тогда, когда цена превышает тело предыдущего кирпича на определенный размер, который задается трейдером в параметрах графика.
+Renko chart is completely time-independent, based on price movement only and help filter out the noise that can occur on other chart types. Renko is built from bricks, which are created only when the price exceeds the body of the previous brick by a certain size, which is set by the trader in the chart parameters.
 
-![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x442;&#x438;&#x43F;&#x430; &#x434;&#x438;&#x430;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x44B; &#x420;&#x435;&#x43D;&#x43A;&#x43E; &#x432; Quantower](../../../.gitbook/assets/renko-chart-general-view.png)
+![General view of Renko chart type in Quantower](../../../.gitbook/assets/renko-chart-general-view.png)
 
-## Расчет графика Renko
+## Renko chart calculation
 
-Построение графика Ренко основано на кирпичах, размер которых задает трейдер. Благодаря этому график Ренко игнорирует время и фокусируется только на изменении цены. Например, если установить размер кирпича 10 пунктов, новый кирпич будет построен, когда цена достигнет 10 или более пунктов. В противном случае цена на графике Ренко не изменится.
+The construction of the Renko chart is based on bricks, the size of which is set up by the trader. Thanks to this, the Renko chart ignores the time and focuses on price changes only. For example, by setting Brick size 10 points, the new brick will be built when the price is reaching out 10 or more points. Otherwise, the price of the Renko chart will not change.
 
-* Если раньше был кирпич вверх, а цена поднялась еще на 10 пунктов, создается новый кирпичик вверх.
-* Если раньше был кирпич вниз, и цена упала еще на 10 пунктов, создается новый кирпич вниз.
-* Если раньше был кирпич вверх, цена должна упасть на 20 пунктов, чтобы создать новый кирпич вниз.
-* Если раньше был кирпич вниз, цена должна подняться на 20 пунктов, чтобы создать новый кирпичик вверх.
+* If there is an up brick before and the price will go up another 10 pips, a new up brick is be created
+* If there is a down brick before and the price will go down another 10 pips, a new down brick is created
+* If there is an up brick before, price needs to go down 20 pips, to create a new down brick
+* If there is a down brick before, price needs to go up 20 pips, to create a new up brick
 
-![&#x413;&#x440;&#x430;&#x444;&#x438;&#x43A; &#x420;&#x435;&#x43D;&#x43A;&#x43E; &#x438;&#x433;&#x43D;&#x43E;&#x440;&#x438;&#x440;&#x443;&#x435;&#x442; &#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x43E;&#x439; &#x444;&#x430;&#x43A;&#x442;&#x43E;&#x440;](../../../.gitbook/assets/renko-chart-vs-regular-chart.png)
+![Renko chart ignores time factor](../../../.gitbook/assets/renko-chart-vs-regular-chart.png)
 
-## Стили \(методы\) расчета
+## Calculation styles \(methods\)
 
-В настройках графика Ренко вы можете выбрать один из нескольких стилей, на основе которых будет строиться график:
+In the Renko chart settings, you can choose one of several styles based on which the chart will be drawn:
 
-* **Классический** - с использованием только цены закрытия \(или последней цены\)
+* **Classic**  —  using closing price \(or last price\) only
 
-![&#x41D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438; &#x434;&#x43B;&#x44F; Renko Classic](../../../.gitbook/assets/renko-classic-settings.png)
+![Settings for Renko Classic](../../../.gitbook/assets/renko-classic-settings.png)
 
-![ &#x420;&#x430;&#x437;&#x43C;&#x435;&#x440; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x433;&#x43E; &#x43A;&#x438;&#x440;&#x43F;&#x438;&#x447;&#x430; &#x440;&#x430;&#x432;&#x435;&#x43D; 100 &#x43F;&#x443;&#x43D;&#x43A;&#x442;&#x430;&#x43C;.](../../../.gitbook/assets/renko-classic-view.png)
+![ The size of each brick equal 100 poins](../../../.gitbook/assets/renko-classic-view.png)
 
-* **High / Low** - использование высоких и низких цен. Если предыдущий кирпич рос, то текущий кирпич сначала учитывает высокие цены, а затем низкие цены. Если цена падает, метод сначала учитывает низкие цены, а затем высокие цены.
-* **Advanced Classic \(Advanced High / Low\)** - этот метод позволяет строить нестандартные графики Ренко на основе цены закрытия \(или цены максимума / минимума\). Для этого воспользуйтесь дополнительными настройками графика -
+* **High / Low**  — using high and low prices. If the previous brick was growing, then the current brick takes into account high prices first, and then low prices. If the price drops, the method takes into account the low prices first, and then high prices.
+* **Advanced Classic \(Advanced High / Low\)** — this method allows you to build non-standard Renko charts based on the closing price \(or high / low prices\). To do this, use additional chart settings —
 
-  расширение \(%\) и инверсия \(%\).
+  _extension_ \(%\) and _inversion_ \(%\).
 
-* **Показать фитили** - позволяет вам добавлять фитили к кирпичам Ренко, показывая фактические максимумы и минимумы внутри кирпича.
-* **Построить текущую панель** - это опция, которая показывает / визуализирует создание текущего кирпича в реальном времени. Если вы выберете одну минуту для агрегирования времени, все кирпичи Ренко, которые были бы созданы на основе движения цены, будут построены сразу через одну минуту.
+* **Show wicks** — allows you to add wicks to Renko bricks, indicating actual highs and lows within a brick.
+* **Build current bar** — is the option that shows/visualize the creation of the current brick in real-time. If you choose one minute for your time aggregation, all Renko bricks, that would have been created based on price movement, will be plotted at once after one minute.
 
-## Нестандартные графики Ренко
+## Non-standard Renko charts
 
-Среднее Ренко сглаживает график больше, чем классическое ренко, потому что цена открытия находится в середине кирпича. Они будут показывать меньше откатов, а развороты тренда заметить легче. Значение расширения и инверсии 50% приведет к созданию кирпичей Median Renko.
+**Medium Renko** smoothes out the chart more than Classic Renko because an open price is in the middle of a brick. They will show fewer pullbacks and trend reversals are easier to spot. An _extension and inversion value of 50%_ would create Median Renko bricks.
 
-![&#x41F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x435;&#x43D;&#x438;&#x435; &#x441;&#x440;&#x435;&#x434;&#x43D;&#x435;&#x439; &#x440;&#x435;&#x43D;&#x43A;&#x43E;-&#x434;&#x438;&#x430;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x44B;](../../../.gitbook/assets/median-renko_construction.png)
+![Medium Renko chart construction](../../../.gitbook/assets/median-renko_construction.png)
 
-![&#x421;&#x440;&#x435;&#x434;&#x43D;&#x438;&#x439; &#x440;&#x435;&#x43D;&#x43A;&#x43E; &#x432; Quantower](../../../.gitbook/assets/median-renko_quantower.png)
+![Medium Renko in Quantower](../../../.gitbook/assets/median-renko_quantower.png)
 
-Геометрическое ренко даст вам очень плавные развороты, а графики более сглажены, чем при медианном ренко. Одно из особых свойств этой формы Renko заключается в том, что при использовании процента расширения и инверсии 12,5% наклон кирпичей вверх будет 45 °, а для кирпичей вниз -45 °.
+**Geometric Renko** will give you very smooth reversals, and the charts are smooth out more than with Median Renko. One special property of these Renko form is, that when using an _extension and inversion percentage of 12.5%_, the slope of up-bricks will be 45° and for down bricks -45°
 
-![&#x41F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x435;&#x43D;&#x438;&#x435; &#x433;&#x435;&#x43E;&#x43C;&#x435;&#x442;&#x440;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x439; &#x434;&#x438;&#x430;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x44B; &#x420;&#x435;&#x43D;&#x43A;&#x43E;](../../../.gitbook/assets/geometric-renko_construction.png)
+![Geometric Renko chart construction](../../../.gitbook/assets/geometric-renko_construction.png)
 
-![&#x413;&#x435;&#x43E;&#x43C;&#x435;&#x442;&#x440;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439; &#x420;&#x435;&#x43D;&#x43A;&#x43E; &#x432; Quantower](../../../.gitbook/assets/geometric-renko-quantower.png)
+![Geometric Renko in Quantower](../../../.gitbook/assets/geometric-renko-quantower.png)
 
-**Турбо Ренко** сглаживает большинство откатов и показывает только развороты с высокой вероятностью. Turbo Renko использует расширение кирпича на 12% и инверсию на 100%. Цена должна развернуться целым кирпичом, чтобы сформировать разворот, показанный пунктирными кирпичиками.
+**Turbo Renko** smooths out the majority of pullbacks and only shows high probability reversals. Turbo Renko is using the _extension 12%_ of the brick and the _inversion of 100%._ Price has to reverse by a complete brick to form a reversal, illustrated as the dashed bricks.
 
-![&#x41F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x435;&#x43D;&#x438;&#x435; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430; &#x422;&#x443;&#x440;&#x431;&#x43E; &#x420;&#x435;&#x43D;&#x43A;&#x43E;](../../../.gitbook/assets/turbo-renko_construction.png)
+![Turbo Renko chart construction](../../../.gitbook/assets/turbo-renko_construction.png)
 
-![&#x422;&#x443;&#x440;&#x431;&#x43E; &#x420;&#x435;&#x43D;&#x43A;&#x43E; &#x432; Quantower](../../../.gitbook/assets/turbo-renko_quantower.png)
+![Turbo Renko in Quantower](../../../.gitbook/assets/turbo-renko_quantower.png)
 

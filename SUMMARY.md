@@ -57,7 +57,7 @@
       * [Тиковый график](analytics-panels/chart/chart-types/tick-chart.md)
       * [Время](analytics-panels/chart/chart-types/time-aggregation.md)
       * [График Ренко \(Renko\)](analytics-panels/chart/chart-types/renko.md)
-      * [Heiken Ashi](analytics-panels/chart/chart-types/heiken-ashi.md)
+      * [График Хайкен Аши \(Heiken Ashi\)](analytics-panels/chart/chart-types/heiken-ashi.md)
       * [Kagi](analytics-panels/chart/chart-types/kagi.md)
       * [Points & Figures](analytics-panels/chart/chart-types/points-and-figures.md)
       * [Range bars](analytics-panels/chart/chart-types/range-bars.md)
