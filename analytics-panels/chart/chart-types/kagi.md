@@ -1,17 +1,17 @@
-# График Каги \(Kagi\)
+# Kagi
 
-## Общая информация
+## General info
 
-.Как диаграмма P & F и бары диапазона, диаграмма Kagi полностью независима от времени и основана только на ценовом действии. График каги состоит из вертикальных линий, соединенных горизонтальными линиями.
+As P & F chart and Range bars, **Kagi chart** is full time-independent and based on price action only. Kagi chart consist of vertical lines that connected by horizontal lines.
 
-![&#x413;&#x440;&#x430;&#x444;&#x438;&#x43A; &#x41A;&#x430;&#x433;&#x438; &#x432; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435; Quantower](../../../.gitbook/assets/kagi-charts.png)
+![Kagi chart in Quantower platform](../../../.gitbook/assets/kagi-charts.png)
 
-## График Каги расчет
+## Kagi chart calculation
 
-На график Каги влияют два основных параметра:
+There are two main parameters that affects on Kagi chart:
 
-* **Built from and its value**- это параметр, на основании которого будет печататься график. Если вы установите 5 минут, то цены закрытия будут взяты из 5-минутного закрытия.
-* **Реверс** - количество движения цены, необходимое для изменения направления линии Каги. Например, если вы установите для параметра разворота 10 тиков, это означает, что цене нужно изменить не менее 10 тиков, чтобы напечатать линию разворота.
+* **Built from and its value**  — it's a parameter on the basis of which the chart will be print. If you set the 5 minute so the closing prices are taken from the 5-minute close.
+* **Reversal**  — the amount of price movement that required for the Kagi line to reverse direction. For instance, if you'll set 10 ticks for the reversal parameter it means that price need to change at least 10 ticks to print reversal line.
 
-![&#x41F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x44B; &#x434;&#x43B;&#x44F; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430; &#x41A;&#x430;&#x433;&#x438;](../../../.gitbook/assets/kagi-settings.png)
+![Parameters for Kagi chart](../../../.gitbook/assets/kagi-settings.png)
 
