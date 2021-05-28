@@ -1,14 +1,14 @@
 ---
 description: >-
-  Select various chart types and styles that the most suite for your trading
-  approach
+  Выберите различные типы и стили графиков, которые больше всего подходят для
+  вашего торгового подхода.
 ---
 
-# Chart Types
+# Типы и стили графиков
 
-Quantower offers a variety of chart types to help you display chart data in different formats. You can change chart type from _**Aggregation type**_ menu as shown below.
+Quantower предлагает множество типов диаграмм, которые помогут вам отображать данные диаграмм в различных форматах. Вы можете изменить тип графика в меню, как показано ниже.
 
-![Switch between different time frames in one click](../../../.gitbook/assets/image%20%28180%29.png)
+![](../../../.gitbook/assets/menyu-grafika-quantower.png)
 
 ## Chart types and styles
 
