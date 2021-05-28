@@ -139,7 +139,7 @@
   * [DOM Trader](trading-panels/dom-trader/README.md)
     * [How to set up Dom  for scalping](trading-panels/dom-trader/how-to-set-up-dom-for-scalping.md)
   * [Market depth](trading-panels/market-depth.md)
-  * [Trading simulator](trading-panels/trading-simulator.md)
+  * [Симулятор торговли](trading-panels/trading-simulator.md)
   * [Market Replay](trading-panels/history-player.md)
   * [FX Cell](trading-panels/fx-cell.md)
 * [Portfolio Panels](portfolio-panels/README.md)

@@ -1,49 +1,53 @@
 ---
 description: >-
-  Quantower provides a Trading simulator, the excellent trading tool that allows
-  emulating the execution of orders under any connection, including those that
-  do not allow trading.
+  Quantower предоставляет торговый симулятор, отличный торговый инструмент,
+  который позволяет имитировать исполнение ордеров при любом подключении, в том
+  числе и тех, которые не позволяют торговать.
 ---
 
-# Trading simulator
+# Симулятор торговли
 
-## What is Trading Simulator?
+## Что такое торговый симулятор?
 
-Trading Simulator is a specially designed trading tool that allows emulating the execution of orders for any connection, including those that do not allow trading.
+Trading Simulator - это специально разработанный торговый инструмент, позволяющий имитировать исполнение ордеров при любом подключении, в том числе не допускающем торговлю.
 
-For whom it will be useful? For any trader - from beginner to pros, trading in with any type of instrument. For example, crypto traders who do not have real accounts on a crypto exchange can trade in the demo mode on the selected crypto exchange.
+Кому это будет полезно? Для любого трейдера - от новичка до профи, торгующего любым инструментом. Например, криптотрейдеры, у которых нет реальных счетов на криптобирже, могут торговать в демонстрационном режиме на выбранной криптовалютной бирже.
 
-![General view of Trading Simulator panel](../.gitbook/assets/trading-simulator.png)
+![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; Trading Simulator](../.gitbook/assets/trading-simulator.png)
 
-## How to start trading simulation?
+## Как начать симуляцию торговли?
 
-* Launch the **Trading Simulator** from the Control Center. The panel is located in the _Trading_ category.
-* Add desired symbols on which the trading simulation will take place.
-* Set the initial balance for trading accounts, execution delay, type of netting for selected symbols, and commission size. 
-* Run the simulation by clicking the "**Start**" button. The status of the panel changes to _**Simulation is active.**_
-* Open required panels for analysis and trading. On the header of each panel which participates in the trading simulation, shows the corresponding inscription — **Simulator**.
+* Запустите **торговый симулятор** из Центра управления. Панель находится в категории Торговля.
+* Добавьте желаемые символы, на которых будет происходить симуляция торговли.
 
-![You can open panels that linked to the simulation process ](../.gitbook/assets/select-the-panel-from-trading-simulator.png)
+  Установите начальный баланс для торговых счетов, задержку исполнения, тип неттинга для выбранных символов и размер комиссии.
+
+* Запустите моделирование, нажав кнопку «**Пуск**». Статус панели изменится на **Моделирование активно.**
+* Откройте необходимые панели для анализа и торговли. В заголовке каждой панели, участвующей в симуляции торговли, отображается соответствующая надпись - **Simulator.**
+
+![&#x412;&#x44B; &#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x432;&#x430;&#x442;&#x44C; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438;, &#x441;&#x432;&#x44F;&#x437;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x441; &#x43F;&#x440;&#x43E;&#x446;&#x435;&#x441;&#x441;&#x43E;&#x43C; &#x43C;&#x43E;&#x434;&#x435;&#x43B;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F;.](../.gitbook/assets/select-the-panel-from-trading-simulator.png)
 
 {% hint style="warning" %}
-"**Stop**" button will abort the simulation process as well as cancel all positions and orders.
+Кнопка **«Стоп»** прервет процесс моделирования, а также отменит все позиции и ордера.
 {% endhint %}
 
-## General settings
+## Общие настройки
 
-In the general settings, you can set the initial balance for the test account, set the delay in execution, and configure the settings of netting for each instrument.
+В общих настройках вы можете установить начальный баланс для тестового счета, установить задержку исполнения и настроить параметры неттинга для каждого инструмента.
 
-![General settings for accounts and symbols](../.gitbook/assets/settings-for-trading-simulator.png)
+![&#x41E;&#x431;&#x449;&#x438;&#x435; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438; &#x434;&#x43B;&#x44F; &#x441;&#x447;&#x435;&#x442;&#x43E;&#x432; &#x438; &#x441;&#x438;&#x43C;&#x432;&#x43E;&#x43B;&#x43E;&#x432;](../.gitbook/assets/settings-for-trading-simulator.png)
 
-* **Initial balance** — the amount of money for the test account.
+* **Начальный баланс** - сумма денег на тестовом счете.
 
 {% hint style="info" %}
-Trading Simulator creates separate trading accounts for each base currency of the instrument. For example, if you chose EUR / USD currency pair, then the account name will be **Account \(USD\)**, if you select EUR / JPY, then the name will be **Account \(JPY\)** respectively.
+Trading Simulator создает отдельные торговые счета для каждой базовой валюты инструмента. Например, если вы выбрали валютную пару EUR / USD, тогда имя учетной записи будет **Account \(USD\)**, если вы выберете EUR / JPY, тогда имя будет **Account \(JPY\)** соответственно.
 {% endhint %}
 
-* **Execution Delay** — the length of time between the acceptance of an order and its execution. In the real market, this parameter affects on the slippage.  There are 3 options for the delay: _Range_, _Fix_ and _None_ \(instant execution\).
+* **Задержка исполнения** - промежуток времени между принятием заказа и его исполнением. На реальном рынке этот параметр влияет на проскальзывание. Есть 3 варианта задержки: "Диапазон", "Фиксированная" и "не задано" \(мгновенное исполнение\).
 
-![General settings for symbols in Trading Simulator](../.gitbook/assets/settings-for-symbols.png)
+![](../.gitbook/assets/torgovyi-simulyator-zaderzhka-ispolneniya.jpg)
 
-* **Netting type** — methods by which to summarize existing and new positions. There are 3 types of nettings: **One Position**, **Multiple Per Side**, **Multiple Positions**. Examples of using each method you can find in the description of the [History Player panel settings](https://help.quantower.com/trading-panels/history-player#general-and-instruments-settings).
+* **Тип неттинга** - методы, с помощью которых суммируются существующие и новые позиции. Существует 3 типа неттинга: **одна позиция, несколько с каждой стороны, несколько позиций.** Примеры использования каждого метода вы можете найти в описании настроек[ панели History Player.](https://help.quantower.com/trading-panels/history-player#general-and-instruments-settings)
+
+![](../.gitbook/assets/tip-setki-torgovyi-simulyator.png)
 
