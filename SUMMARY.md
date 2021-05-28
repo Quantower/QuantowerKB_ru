@@ -59,7 +59,7 @@
       * [График Ренко \(Renko\)](analytics-panels/chart/chart-types/renko.md)
       * [График Хайкен Аши \(Heiken Ashi\)](analytics-panels/chart/chart-types/heiken-ashi.md)
       * [График Каги \(Kagi\)](analytics-panels/chart/chart-types/kagi.md)
-      * [Points & Figures](analytics-panels/chart/chart-types/points-and-figures.md)
+      * [График Крестик-нолик](analytics-panels/chart/chart-types/points-and-figures.md)
       * [Range bars](analytics-panels/chart/chart-types/range-bars.md)
       * [Line break](analytics-panels/chart/chart-types/line-break.md)
       * [Volume Bars](analytics-panels/chart/chart-types/volume-bars.md)

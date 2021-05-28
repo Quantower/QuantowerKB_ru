@@ -1,10 +1,14 @@
-# Points & Figures
+---
+description: График Крестики-нолики (Point and Figure charts)
+---
 
-## General info
+# График Крестик-нолик
 
-Points & Figures is one of the most popular chart types that allows traders to analyze only the price without time-bound, thereby eliminating market noise. In contrast to the usual candlestick charts, P & F consists of X and O columns, which reflect the rise or fall in prices, respectively.
+## Общая информация
 
-![General view of Points &amp; Figures chart type](../../../.gitbook/assets/point-and-figure-chart-type.png)
+Пункты и цифры - один из самых популярных типов графиков, который позволяет трейдерам анализировать только цену без привязки ко времени, тем самым устраняя рыночный шум. В отличие от обычных свечных графиков, P & F состоит из столбцов X и O, которые отражают рост или падение цен соответственно.
+
+![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x442;&#x438;&#x43F;&#x430; &#x434;&#x438;&#x430;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x44B; &quot;&#x41A;&#x440;&#x435;&#x441;&#x442;&#x438;&#x43A;-&#x43D;&#x43E;&#x43B;&#x438;&#x43A;&quot;](../../../.gitbook/assets/point-and-figure-chart-type.png)
 
 P&F charts provide a unique look at price action that has several advantages:
 
