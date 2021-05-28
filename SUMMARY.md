@@ -52,7 +52,7 @@
   * [Connection to Quandl](connections/connection-to-quandl.md)
 * [Панели аналитики](analytics-panels/README.md)
   * [График](analytics-panels/chart/README.md)
-    * [График обзор](analytics-panels/chart/general-overview.md)
+    * [График Quantower обзор](analytics-panels/chart/general-overview.md)
     * [Chart Types](analytics-panels/chart/chart-types/README.md)
       * [Tick chart](analytics-panels/chart/chart-types/tick-chart.md)
       * [Time aggregation](analytics-panels/chart/chart-types/time-aggregation.md)
