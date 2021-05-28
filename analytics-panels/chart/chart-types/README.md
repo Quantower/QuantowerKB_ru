@@ -10,11 +10,11 @@ Quantower предлагает множество типов диаграмм, �
 
 ![](../../../.gitbook/assets/menyu-grafika-quantower.png)
 
-## Chart types and styles
+## Типы и стили графиков
 
-Quantower provides **10 chart types**:
+Quantower предоставляет 10 типов графика:
 
-* \*\*\*\*[**Tick chart**](tick-chart.md)\*\*\*\*
+* \*\*\*\*[**Tick chart**](tick-chart.md)\*\*\*\*Тиковый график
 * \*\*\*\*[**Time chart**](https://help.quantower.com/analytics-panels/chart/chart-types/time-aggregation)\*\*\*\*
 * \*\*\*\*[**Heiken-Ashi**](https://help.quantower.com/analytics-panels/chart/chart-types/heiken-ashi)\*\*\*\*
 * \*\*\*\*[**Range Bars**](https://help.quantower.com/analytics-panels/chart/chart-types/range-bars)\*\*\*\*
@@ -24,6 +24,16 @@ Quantower provides **10 chart types**:
 * \*\*\*\*[**Points & Figures**](https://help.quantower.com/analytics-panels/chart/chart-types/points-and-figures)\*\*\*\*
 * \*\*\*\*[**Volume**](volume-bars.md)\*\*\*\*
 * \*\*\*\*[**Reversal**](reversal-bars.md)\*\*\*\*
+*  **Тиковый график**
+*  **График по времени**
+*  **График Хайкен Аши**
+*  **Рендж бары \(Range Bars\)**
+*  **Ренко** 
+* **График линейного прорыва** \(Line Break\)
+* **График Каги** 
+* **График Крестики-нолики** \(Point and Figure charts\) ****
+* **Объемные бары**  **\(volume bars\)**
+*  **разворот** 
 
 ![Chart types in Quantower](../../../.gitbook/assets/period-selector.png)
 
