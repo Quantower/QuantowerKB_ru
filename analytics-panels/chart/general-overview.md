@@ -33,9 +33,9 @@ description: Основные настройки и функции график�
 
 ![&#x41E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x430;&#x44F; &#x438;&#x43B;&#x438; &#x432;&#x435;&#x440;&#x445;&#x43D;&#x44F;&#x44F; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x44C; &#x438;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x43E;&#x432; &#x441; &#x43E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x44B;&#x43C;&#x438; &#x44D;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442;&#x430;&#x43C;&#x438; &#x443;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F;](../../.gitbook/assets/verkhnyaya-panel-grafika-quantower.png)
 
-## Sidebar menu with Drawings, Indicators, Overlays
+## Боковое меню с рисунками, индикаторами, наложениями
 
-The sidebar menu allows you to add an indicator to the chart, a drawing tool or an overlay, and also manage all objects through the object manager.
+Меню боковой панели позволяет добавить индикатор на диаграмму, инструмент рисования или наложение, а также управлять всеми объектами через диспетчер объектов.
 
 ![An overview of Sidebar menu with indicators, drawings and overlays](../../.gitbook/assets/chart-sidebar-menu.png)
 
