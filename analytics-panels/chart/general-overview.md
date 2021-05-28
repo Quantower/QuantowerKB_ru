@@ -37,7 +37,7 @@ description: Основные настройки и функции график�
 
 Меню боковой панели позволяет добавить индикатор на диаграмму, инструмент рисования или наложение, а также управлять всеми объектами через диспетчер объектов.
 
-![An overview of Sidebar menu with indicators, drawings and overlays](../../.gitbook/assets/chart-sidebar-menu.png)
+![&#x41E;&#x431;&#x437;&#x43E;&#x440; &#x43C;&#x435;&#x43D;&#x44E; &#x431;&#x43E;&#x43A;&#x43E;&#x432;&#x43E;&#x439; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x441; &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440;&#x430;&#x43C;&#x438;, &#x440;&#x438;&#x441;&#x443;&#x43D;&#x43A;&#x430;&#x43C;&#x438; &#x438; &#x43D;&#x430;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F;&#x43C;&#x438;](../../.gitbook/assets/obzor-menyu-bokovoi-paneli-quantower.png)
 
 For traders who often refer to certain drawings, there is an option to fix them on the Sidebar. For this, near each drawing there is a "Star" icon, upon activation of which you add them to the Favorite List.
 
