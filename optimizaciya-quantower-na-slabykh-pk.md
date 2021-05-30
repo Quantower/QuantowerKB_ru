@@ -10,8 +10,8 @@ description: Как оптимизировать работу Quantower на с�
 * [**Скорость передачи данных**](optimizaciya-quantower-na-slabykh-pk.md#skorost-peredachi-dannykh)\*\*\*\*
 * \*\*\*\*[**Список наблюдения**](optimizaciya-quantower-na-slabykh-pk.md#spisok-nablyudeniya)\*\*\*\*
 * \*\*\*\*[**Загрузка объемного анализа**](optimizaciya-quantower-na-slabykh-pk.md#optimizaciya-quantower-na-slabykh-pk)\*\*\*\*
-* **Одновременное открытие нескольких панелей**
-* **DOM Surface уменьшение истории**
+* \*\*\*\*[**Одновременное открытие нескольких панелей**](optimizaciya-quantower-na-slabykh-pk.md#odnovremennoe-otkrytie-neskolkikh-panelei)\*\*\*\*
+* \*\*\*\*[**DOM Surface уменьшение истории**](optimizaciya-quantower-na-slabykh-pk.md#dom-surface-umenshenie-istorii)\*\*\*\*
 
 ## **Требования к ПК**
 
