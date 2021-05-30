@@ -196,4 +196,5 @@
   * [Localization](customization/localization.md)
 * [FAQ](faq/README.md)
   * [General Errors](faq/general-errors.md)
+* [Оптимизация Quantower на слабых ПК](optimizaciya-quantower-na-slabykh-pk.md)
 
