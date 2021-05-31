@@ -1,10 +1,10 @@
-# Line break
+# График линейного прорыва \(Line Break\)
 
-## General info
+## Общая информация о графике
 
-**Line Break** is quite similar to other time-independent charts like Kagi, P & F, Range Bars. Line break chart prints the series of bars which represent increasing and falling prices. The key parameter that participates in the chart plotting is the number of the last bars for building the current bar.
+**Line Break** очень похож на другие графики, не зависящие от времени, такие как Kagi, P&F, Range Bars. График с линейным разрывом печатает серию столбцов, которые представляют растущие и падающие цены. Ключевым параметром, участвующим в построении графика, является количество последних столбцов для построения текущего бара.
 
-![General view of Line Break chart in Quantower](../../../.gitbook/assets/line-break-chart-general-view.png)
+![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x413;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430; &#x43B;&#x438;&#x43D;&#x435;&#x439;&#x43D;&#x43E;&#x433;&#x43E; &#x43F;&#x440;&#x43E;&#x440;&#x44B;&#x432;&#x430; &#x432; Quantower](../../../.gitbook/assets/line-break-chart-general-view.png)
 
 It is important to note that the bars on this chart are usually called "lines". Line Break based on closing prices so it takes the current price and compares it with the closing prices of the previous bars \(lines\). The number of the previous bars that participate in the calculation specified in the chart settings.
 

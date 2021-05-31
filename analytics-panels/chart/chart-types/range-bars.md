@@ -1,14 +1,16 @@
-# Рендж бары \(Range Bars\)
+# Range bars
 
-[**Рендж бары** ](https://help.quantower.com/analytics-panels/chart/chart-types/range-bars)\(Range Bars\)   График состоит из баров \(свечей\) в определенном диапазоне, который определяется трейдером в настройках графика. Range Bars не зависит от времени, а только от движения цены. Таким образом, если цена имеет низкую волатильность и остается в диапазоне меньше указанного в параметрах, то новые бары \(свечи\) строиться не будут. Следовательно, чем выше волатильность торгового инструмента, тем больше баров будет построено; и наоборот, в периоды более низкой волатильности будет построено меньше баров.
+## General info
 
-![&#x420;&#x435;&#x43D;&#x434;&#x436; &#x431;&#x430;&#x440;&#x44B; &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435; Quantower](../../../.gitbook/assets/range-bars-view.png)
+**Range Bars** chart consists of bars \(candles\) within a certain range, which is determined by the trader in the chart settings. Range Bars does not depend on time, but only on price movement. Thus, if the price has low volatility and stays in a range that is less than specified in the parameters, then new bars \(candles\) will not be built. Hence, the higher volatility of the trading instrument the more bars will be built; conversely, during periods of lower volatility, fewer bars will be built.
 
-## Расчет графика Рендж бары \(Range Bars\)
+![Range bars in Quantower platform](../../../.gitbook/assets/range-bars-view.png)
 
-Для построения Range Bars диапазона есть три простых правила.
+## Calculation of Range Bars
 
-* Каждая полоса диапазона должна иметь диапазон максимума / минимума, равный указанному диапазону.
-* Каждый новый диапазонный бар должен открываться за пределами диапазона максимума / минимума предыдущего бара.
-* Каждый бар диапазона должен закрываться либо на своем максимуме, либо на минимуме.
+To built range bars there are three simple rules:
+
+* Each range bar must have a high/low range that equals the specified range.
+* Every new range bar must open outside the high/low range of the previous bar.
+* Each range bar must close at either its high or its low.
 

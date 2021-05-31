@@ -61,7 +61,7 @@
       * [График Каги \(Kagi\)](analytics-panels/chart/chart-types/kagi.md)
       * [График Крестик-нолик](analytics-panels/chart/chart-types/points-and-figures.md)
       * [Рендж бары \(Range Bars\)](analytics-panels/chart/chart-types/range-bars.md)
-      * [Line break](analytics-panels/chart/chart-types/line-break.md)
+      * [График линейного прорыва \(Line Break\)](analytics-panels/chart/chart-types/line-break.md)
       * [Volume Bars](analytics-panels/chart/chart-types/volume-bars.md)
       * [Reversal Bars](analytics-panels/chart/chart-types/reversal-bars.md)
     * [Chart Settings](analytics-panels/chart/chart-settings.md)
