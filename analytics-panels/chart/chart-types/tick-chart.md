@@ -1,16 +1,16 @@
 ---
-description: How to set up tick chart.
+description: Как настроить тиковый график.
 ---
 
-# Tick chart
+# Тиковый график
 
-Tick ​​Chart builds a new bar after a set number of trades, for example after every 610 trades. Basic charts \(like time-based\) draw a new bar after a set period of time, for example after every 5 minutes or hours.
+Тиковый график строит новый бар после определенного количества сделок, например, после каждых 610 сделок. Базовые диаграммы \(например, основанные на времени\) рисуют новый столбец через заданный период времени, например, каждые 5 минут или часов.
 
-For example, each bar of a 610 tick chart represents 610 trades of any size. A tick can be a trade of just one contract, or 10,000 contracts. This is why it’s crucial to combine the use of tick charts with volume.
+Например, каждый столбец на 610 тиковом графике представляет 610 сделок любого размера. Тик может быть сделкой по одному контракту или по 10 000 контрактов. Вот почему так важно сочетать использование тиковых графиков с объемом.
 
 ![](../../../.gitbook/assets/image%20%28178%29.png)
 
-To set this chart type, open TimeFrame Selector and select in the drop-down menu — **Tick**.
+Чтобы установить этот тип диаграммы, откройте Меню таймфреймов и выберите в раскрывающемся меню — **Tick**.
 
 ![](../../../.gitbook/assets/tick-chart.gif)
 

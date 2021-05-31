@@ -1,40 +1,44 @@
 ---
 description: >-
-  Select various chart types and styles that the most suite for your trading
-  approach
+  Выберите различные типы и стили графиков, которые больше всего подходят для
+  вашего торгового подхода.
 ---
 
-# Chart Types
+# Типы и стили графиков
 
-Quantower offers a variety of chart types to help you display chart data in different formats. You can change chart type from _**Aggregation type**_ menu as shown below.
+Quantower предлагает множество типов диаграмм, которые помогут вам отображать данные диаграмм в различных форматах. Вы можете изменить тип графика в меню, как показано ниже.
 
-![Switch between different time frames in one click](../../../.gitbook/assets/image%20%28180%29.png)
+![](../../../.gitbook/assets/menyu-grafika-quantower.png)
 
-## Chart types and styles
+## Типы и стили графиков
 
-Quantower provides **10 chart types**:
+Quantower предоставляет 10 типов графика:
 
-* \*\*\*\*[**Tick chart**](tick-chart.md)\*\*\*\*
-* \*\*\*\*[**Time chart**](https://help.quantower.com/analytics-panels/chart/chart-types/time-aggregation)\*\*\*\*
-* \*\*\*\*[**Heiken-Ashi**](https://help.quantower.com/analytics-panels/chart/chart-types/heiken-ashi)\*\*\*\*
-* \*\*\*\*[**Range Bars**](https://help.quantower.com/analytics-panels/chart/chart-types/range-bars)\*\*\*\*
-* \*\*\*\*[**Renko**](https://help.quantower.com/analytics-panels/chart/chart-types/renko)\*\*\*\*
-* \*\*\*\*[**Line Break**](https://help.quantower.com/analytics-panels/chart/chart-types/line-break)\*\*\*\*
-* \*\*\*\*[**Kagi**](https://help.quantower.com/analytics-panels/chart/chart-types/kagi)\*\*\*\*
-* \*\*\*\*[**Points & Figures**](https://help.quantower.com/analytics-panels/chart/chart-types/points-and-figures)\*\*\*\*
-* \*\*\*\*[**Volume**](volume-bars.md)\*\*\*\*
-* \*\*\*\*[**Reversal**](reversal-bars.md)\*\*\*\*
+*  ****[**Тиковый график**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-ManNs1UdDo_jqCBCJUa/analytics-panels/chart/chart-types/tick-chart)\*\*\*\*
+*  ****[**График по времени**](https://help.quantower.com/analytics-panels/chart/chart-types/time-aggregation)\*\*\*\*
+*  ****[**График Хайкен Аши**](https://help.quantower.com/analytics-panels/chart/chart-types/heiken-ashi)\*\*\*\*
+*  ****[**Рендж бары** ](https://help.quantower.com/analytics-panels/chart/chart-types/range-bars)\(Range Bars\)
+*  ****[**Ренко** ](https://help.quantower.com/analytics-panels/chart/chart-types/renko)\*\*\*\*
+* \*\*\*\*[**График линейного прорыва**](https://help.quantower.com/analytics-panels/chart/chart-types/line-break) \(Line Break\)
+* \*\*\*\*[**График Каги** ](https://help.quantower.com/analytics-panels/chart/chart-types/kagi)\*\*\*\*
+* \*\*\*\*[**График Крестики-нолики**](https://help.quantower.com/analytics-panels/chart/chart-types/points-and-figures) \(Point and Figure charts\) ****
+* \*\*\*\*[**Объемные бары**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-ManNs1UdDo_jqCBCJUa/analytics-panels/chart/chart-types/volume-bars) **** \(volume bars\)
+* \*\*\*\*[**График реверс**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-ManNs1UdDo_jqCBCJUa/analytics-panels/chart/chart-types/reversal-bars) ****\(Reversal Bars\)
 
-![Chart types in Quantower](../../../.gitbook/assets/period-selector.png)
+![](../../../.gitbook/assets/10-tipov-grafikov-quantower.png)
 
-Charts can also be represented in **6 different styles**:
+Графики также могут быть представлены в **6 разных стилях:**
 
-* **Candle**
-* **Bar**
-* **Line**
-* **Dotted Line**
-* **Area**
-* **Quantower**
+* **Свеча**
+* **Бар**
+* **Линия**
+* **Линия с точкой**
+* **Область**
+* **Квантоуэр**
 
-![Chart styles in Quantower &#x2014; Candle, Bar, Line, Dotted Line, Area, Quantower style](../../../.gitbook/assets/chart-styles%20%281%29.png)
+![](../../../.gitbook/assets/chart-styles.png)
+
+
+
+
 
