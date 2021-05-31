@@ -6,21 +6,21 @@
 
 ![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x413;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430; &#x43B;&#x438;&#x43D;&#x435;&#x439;&#x43D;&#x43E;&#x433;&#x43E; &#x43F;&#x440;&#x43E;&#x440;&#x44B;&#x432;&#x430; &#x432; Quantower](../../../.gitbook/assets/line-break-chart-general-view.png)
 
-It is important to note that the bars on this chart are usually called "lines". Line Break based on closing prices so it takes the current price and compares it with the closing prices of the previous bars \(lines\). The number of the previous bars that participate in the calculation specified in the chart settings.
+Важно отметить, что столбцы на этом графике обычно называют «линиями». Прорыв линии основан на ценах закрытия, поэтому он берет текущую цену и сравнивает ее с ценами закрытия предыдущих баров \(линий\). Количество предыдущих баров, участвующих в расчете, указывается в настройках графика.
 
-## Line Break calculation
+## Расчет Графика линейного прорыва
 
-The most common number of Line Break setting is 3. It means that the closing price of the current line is compared to the closing price of the third line ago.
+Наиболее частое значение параметра Line Break - 3. Это означает, что цена закрытия текущей линии сравнивается с ценой закрытия третьей линии назад.
 
-![Chart settings for Line Break](../../../.gitbook/assets/line-break-settings.png)
+![&#x41D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430;](../../../.gitbook/assets/line-break-settings.png)
 
-Each new closing price has three possible outcomes:
+Каждая новая цена закрытия имеет три возможных исхода:
 
-* a new line with the same color  — build when the price goes in the same direction.
-* a new line with the opposite color — build when the price change is enough to warrant a reversal. 
-* no new lines are added when the price does not extend the trend or the change is not enough to warrant a reversal.
+* новая линия того же цвета - строится, когда цена идет в том же направлении.
+* новую линию противоположного цвета - строится, когда изменение цены достаточно, чтобы гарантировать разворот.
+* новые линии не добавляются, если цена не расширяет тренд или изменения недостаточно, чтобы гарантировать разворот.
 
-![An example of how to build a Line Break chart](../../../.gitbook/assets/line-break-example.png)
+![&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440; &#x43F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x435;&#x43D;&#x438;&#x44F; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430; Line Break ](../../../.gitbook/assets/line-break-example.png)
 
-In the example above shows areas where the line color was changed. The yellow line shows the level of the third bar, when it breaks, the line color changes.
+В приведенном выше примере показаны области, где был изменен цвет линии. Желтая линия показывает уровень третьего бара, при его пробое цвет линии меняется.
 
