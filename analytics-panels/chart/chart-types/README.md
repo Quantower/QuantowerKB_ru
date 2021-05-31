@@ -22,7 +22,7 @@ Quantower предоставляет 10 типов графика:
 * \*\*\*\*[**График линейного прорыва**](https://help.quantower.com/analytics-panels/chart/chart-types/line-break) \(Line Break\)
 * \*\*\*\*[**График Каги** ](https://help.quantower.com/analytics-panels/chart/chart-types/kagi)\*\*\*\*
 * \*\*\*\*[**График Крестики-нолики**](https://help.quantower.com/analytics-panels/chart/chart-types/points-and-figures) \(Point and Figure charts\) ****
-* \*\*\*\*[**Объемные бары**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-ManNs1UdDo_jqCBCJUa/analytics-panels/chart/chart-types/volume-bars) **** \(volume bars\)
+* \*\*\*\*[**Столбиковый график объема**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Mb1nY6tTQju6DlBSkFL/analytics-panels/chart/chart-types/volume-bars) \(volume bars\)
 * \*\*\*\*[**График реверс**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-ManNs1UdDo_jqCBCJUa/analytics-panels/chart/chart-types/reversal-bars) ****\(Reversal Bars\)
 
 ![](../../../.gitbook/assets/10-tipov-grafikov-quantower.png)

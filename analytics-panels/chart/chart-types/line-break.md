@@ -1,26 +1,26 @@
-# График линейного прорыва \(Line Break\)
+# Line break
 
-## Общая информация о графике
+## General info
 
-**Line Break** очень похож на другие графики, не зависящие от времени, такие как Kagi, P&F, Range Bars. График с линейным разрывом печатает серию столбцов, которые представляют растущие и падающие цены. Ключевым параметром, участвующим в построении графика, является количество последних столбцов для построения текущего бара.
+**Line Break** is quite similar to other time-independent charts like Kagi, P & F, Range Bars. Line break chart prints the series of bars which represent increasing and falling prices. The key parameter that participates in the chart plotting is the number of the last bars for building the current bar.
 
-![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x413;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430; &#x43B;&#x438;&#x43D;&#x435;&#x439;&#x43D;&#x43E;&#x433;&#x43E; &#x43F;&#x440;&#x43E;&#x440;&#x44B;&#x432;&#x430; &#x432; Quantower](../../../.gitbook/assets/line-break-chart-general-view.png)
+![General view of Line Break chart in Quantower](../../../.gitbook/assets/line-break-chart-general-view.png)
 
-Важно отметить, что столбцы на этом графике обычно называют «линиями». Прорыв линии основан на ценах закрытия, поэтому он берет текущую цену и сравнивает ее с ценами закрытия предыдущих баров \(линий\). Количество предыдущих баров, участвующих в расчете, указывается в настройках графика.
+It is important to note that the bars on this chart are usually called "lines". Line Break based on closing prices so it takes the current price and compares it with the closing prices of the previous bars \(lines\). The number of the previous bars that participate in the calculation specified in the chart settings.
 
-## Расчет Графика линейного прорыва
+## Line Break calculation
 
-Наиболее частое значение параметра Line Break - 3. Это означает, что цена закрытия текущей линии сравнивается с ценой закрытия третьей линии назад.
+The most common number of Line Break setting is 3. It means that the closing price of the current line is compared to the closing price of the third line ago.
 
-![&#x41D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430;](../../../.gitbook/assets/line-break-settings.png)
+![Chart settings for Line Break](../../../.gitbook/assets/line-break-settings.png)
 
-Каждая новая цена закрытия имеет три возможных исхода:
+Each new closing price has three possible outcomes:
 
-* новая линия того же цвета - строится, когда цена идет в том же направлении.
-* новую линию противоположного цвета - строится, когда изменение цены достаточно, чтобы гарантировать разворот.
-* новые линии не добавляются, если цена не расширяет тренд или изменения недостаточно, чтобы гарантировать разворот.
+* a new line with the same color  — build when the price goes in the same direction.
+* a new line with the opposite color — build when the price change is enough to warrant a reversal. 
+* no new lines are added when the price does not extend the trend or the change is not enough to warrant a reversal.
 
-![&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440; &#x43F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x435;&#x43D;&#x438;&#x44F; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430; Line Break ](../../../.gitbook/assets/line-break-example.png)
+![An example of how to build a Line Break chart](../../../.gitbook/assets/line-break-example.png)
 
-В приведенном выше примере показаны области, где был изменен цвет линии. Желтая линия показывает уровень третьего бара, при его пробое цвет линии меняется.
+In the example above shows areas where the line color was changed. The yellow line shows the level of the third bar, when it breaks, the line color changes.
 
