@@ -17,19 +17,19 @@ description: >-
 
 Общий вид меню настроек графика состоит из следующих подразделов. Рассмотрим их подробнее:
 
-* [**View**](chart-settings.md#view-settings)
-* [**Data style**](chart-settings.md#data-style)
-* [**Time scale**](chart-settings.md#time-scale)
-* [**Price scale**](chart-settings.md#price-scale)
-* [**Visual trading**](chart-settings.md#visual-trading)
-* [**Order entry**](chart-settings.md#order-entry)
-* [**Info window**](chart-settings.md#info-window)
-* [**Volume bars**](chart-settings.md#volume-bars)
-* [**Hotkeys**](chart-settings.md#hotkeys)
+* **Вид**
+* **Стиль данных**
+* **Шкала времени**
+* **Шакала цен**
+* **Визуальная торговля**
+* **Запись заказа**
+* **Информационное окно**
+* **Объемные бары**
+* **Горячие клавиши**
 
 ![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x435;&#x43A; &#x43C;&#x435;&#x43D;&#x44E; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430;](../../.gitbook/assets/menyu-nastroek-grafika.png)
 
-## View settings
+## Настройки внешнего вида
 
 * **Custom title.** You can rename your chart panel as you wish. 
 * **Use custom tick size** This is probably one of the most important settings in this chart. It is most often used for cluster charts. When you have a highly volatile instrument such as BTC or any other instrument in the course of its trading there will be volumes on each cluster level. Sometimes they have gaps in them. Clusters can be vertically compressed to display information better. The compression ratio must be specified in this menu item. Below you can see a bitcoin chart with compression of $10
