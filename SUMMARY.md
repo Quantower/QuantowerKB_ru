@@ -60,7 +60,7 @@
       * [График Хайкен Аши \(Heiken Ashi\)](analytics-panels/chart/chart-types/heiken-ashi.md)
       * [График Каги \(Kagi\)](analytics-panels/chart/chart-types/kagi.md)
       * [График Крестик-нолик](analytics-panels/chart/chart-types/points-and-figures.md)
-      * [Range bars](analytics-panels/chart/chart-types/range-bars.md)
+      * [Рендж бары \(Range Bars\)](analytics-panels/chart/chart-types/range-bars.md)
       * [Line break](analytics-panels/chart/chart-types/line-break.md)
       * [Volume Bars](analytics-panels/chart/chart-types/volume-bars.md)
       * [Reversal Bars](analytics-panels/chart/chart-types/reversal-bars.md)
