@@ -1,16 +1,14 @@
 ---
-description: >-
-  Chart type Volume Bars are built based on volume data — tick or exchange
-  volume when available. Time is not involved in this aggregation.
+description: Тип графика Бары объема строятся на основе данных объема
 ---
 
-# Volume Bars
+# Столбиковый график объема \(volume bars\)
 
-**Volume Bars** are built based on volume data — tick or exchange volume when available. Time is not involved in this aggregation.
+Бары объема строятся на основе данных объема - тикового или биржевого объема, если таковой имеется. Время не участвует в этом агрегировании.
 
-Each bar in a Volume Bar chart contains a specified volume level. This volume level is reached by accumulating the volume of each of the underlying bars. When the volume level is reached, the next Volume Bar begins to accumulate volume from the underlying bars.
+Каждая полоса на линейчатой ​​диаграмме громкости содержит определенный уровень громкости. Этот уровень объема достигается путем накопления объема каждого из нижележащих баров. Когда уровень громкости достигнут, следующая полоса громкости начинает накапливать объем от нижележащих баров.
 
-![The comparison between Time chart and Volume Bars chart type in Quantower platform](../../../.gitbook/assets/volume-bars-chart-in-quantower.png)
+![&#x421;&#x440;&#x430;&#x432;&#x43D;&#x435;&#x43D;&#x438;&#x435; &#x43C;&#x435;&#x436;&#x434;&#x443; &#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x43E;&#x439; &#x434;&#x438;&#x430;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x43E;&#x439; &#x438; &#x442;&#x438;&#x43F;&#x43E;&#x43C; &#x434;&#x438;&#x430;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x44B; Volume Bars &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435; Quantower](../../../.gitbook/assets/volume-bars-chart-in-quantower.png)
 
 ## How to set Volume Bars chart?
 
