@@ -66,9 +66,9 @@ description: >-
 
 ## Шкала времени
 
-Use this tab to adjust the time scale. Here you can select the size and color of the font. You can also select the background color for the timeline. You can also control the vertical period separators. Such as Daily Period, Weekly Monthly and Yearly. All of these periods you can display in different colors as needed.
+Используйте эту вкладку для настройки шкалы времени. Здесь вы можете выбрать размер и цвет шрифта. Вы также можете выбрать цвет фона для временной шкалы. Вы также можете управлять вертикальными разделителями периодов. Такие периоды как ежедневно, еженедельно, ежемесячно и ежегодно. Все эти периоды при необходимости можно отображать разными цветами.
 
-![](../../.gitbook/assets/image%20%28108%29.png)
+![](../../.gitbook/assets/shkala-vremeni.png)
 
 ## Price Scale
 
