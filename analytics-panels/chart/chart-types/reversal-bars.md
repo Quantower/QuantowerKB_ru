@@ -1,13 +1,13 @@
-# Reversal Bars
+# Реверс \(Reversal \) график
 
-Reversal bars is a volatility-based chart type that builds a new bars after the price passes a specified amount of ticks in the opposite \(reversal\) direction.
+Бары разворота - это тип графика на основе волатильности, который строит новые бары после того, как цена проходит заданное количество тиков в противоположном \(разворотном\) направлении.
 
 ![](../../../.gitbook/assets/image%20%28181%29.png)
 
-## How do Reversal Bars is constructed?
+## Как строятся бары разворота?
 
-There are two parameters that are involved in the calculations:
+В расчетах участвуют два параметра:
 
-* **Length** is the minimum bar size after which a pullback can be counted.
-* **Reversal Length** is the minimum size of pullback \(reversal\) after which the bar will be fixed and a new one starts to build.
+* Длина - это минимальный размер бара, после которого может быть засчитан откат.
+* Длина разворота - это минимальный размер отката \(разворота\), после которого бар будет зафиксирован и начнется построение нового.
 

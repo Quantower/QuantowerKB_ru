@@ -1,18 +1,20 @@
 ---
-description: Тип графика Бары объема строятся на основе данных объема
+description: >-
+  Chart type Volume Bars are built based on volume data — tick or exchange
+  volume when available. Time is not involved in this aggregation.
 ---
 
-# Столбиковый график объема \(volume bars\)
+# Volume Bars
 
-Бары объема строятся на основе данных объема - тикового или биржевого объема, если таковой имеется. Время не участвует в этом агрегировании.
+**Volume Bars** are built based on volume data — tick or exchange volume when available. Time is not involved in this aggregation.
 
-Каждая полоса на линейчатой ​​диаграмме громкости содержит определенный уровень громкости. Этот уровень объема достигается путем накопления объема каждого из нижележащих баров. Когда уровень громкости достигнут, следующая полоса громкости начинает накапливать объем от нижележащих баров.
+Each bar in a Volume Bar chart contains a specified volume level. This volume level is reached by accumulating the volume of each of the underlying bars. When the volume level is reached, the next Volume Bar begins to accumulate volume from the underlying bars.
 
-![&#x421;&#x440;&#x430;&#x432;&#x43D;&#x435;&#x43D;&#x438;&#x435; &#x43C;&#x435;&#x436;&#x434;&#x443; &#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x43E;&#x439; &#x434;&#x438;&#x430;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x43E;&#x439; &#x438; &#x442;&#x438;&#x43F;&#x43E;&#x43C; &#x434;&#x438;&#x430;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x44B; Volume Bars &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435; Quantower](../../../.gitbook/assets/volume-bars-chart-in-quantower.png)
+![The comparison between Time chart and Volume Bars chart type in Quantower platform](../../../.gitbook/assets/volume-bars-chart-in-quantower.png)
 
-## Как установить график Volume Bars?
+## How to set Volume Bars chart?
 
-Откройте меню с таймфреймами и выберите из списка тип графика Volume Bars. Установите необходимое значение лотов \(или тиков\), которые будут входить в каждый бар \(свечу\).
+Open the Timeframe switcher and select from the list the Volume Bars chart type. Set the necessary value of lots \(or ticks\) that will be included in each bar \(candle\).
 
-![&#x412;&#x44B;&#x431;&#x435;&#x440;&#x438;&#x442;&#x435; &#x442;&#x438;&#x43F; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430; &#x431;&#x430;&#x440;&#x43E;&#x432; &#x43E;&#x431;&#x44A;&#x435;&#x43C;&#x430; &#x441; &#x43F;&#x43E;&#x43C;&#x43E;&#x449;&#x44C;&#x44E; &#x43F;&#x435;&#x440;&#x435;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x442;&#x435;&#x43B;&#x44F; &#x442;&#x430;&#x439;&#x43C;&#x444;&#x440;&#x435;&#x439;&#x43C;&#x43E;&#x432;](../../../.gitbook/assets/selection-of-volume-bars.png)
+![Select Volume bars chart type via timeframe selector](../../../.gitbook/assets/selection-of-volume-bars.png)
 

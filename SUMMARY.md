@@ -63,7 +63,7 @@
       * [Рендж бары \(Range Bars\)](analytics-panels/chart/chart-types/range-bars.md)
       * [График линейного прорыва \(Line Break\)](analytics-panels/chart/chart-types/line-break.md)
       * [Столбиковый график объема \(volume bars\)](analytics-panels/chart/chart-types/volume-bars.md)
-      * [Reversal Bars](analytics-panels/chart/chart-types/reversal-bars.md)
+      * [Реверс \(Reversal \) график](analytics-panels/chart/chart-types/reversal-bars.md)
     * [Chart Settings](analytics-panels/chart/chart-settings.md)
     * [Chart Trading](analytics-panels/chart/chart-trading.md)
     * [Chart overlays](analytics-panels/chart/chart-overlays.md)
