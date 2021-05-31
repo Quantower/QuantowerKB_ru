@@ -27,7 +27,7 @@ description: >-
 * [**Volume bars**](chart-settings.md#volume-bars)
 * [**Hotkeys**](chart-settings.md#hotkeys)
 
-![General View of Chart Settings](../../.gitbook/assets/image%20%28113%29.png)
+![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x435;&#x43A; &#x43C;&#x435;&#x43D;&#x44E; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430;](../../.gitbook/assets/menyu-nastroek-grafika.png)
 
 ## View settings
 
