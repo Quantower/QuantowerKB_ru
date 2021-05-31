@@ -36,10 +36,10 @@ description: >-
 
 ![](../../.gitbook/assets/polzovatelskii-razmer-tikov-bitkoin-do-10-doll.png)
 
-* **Time Zome.** These are the time zone settings of the chart 
-* **Mouse wheel action.** It's an action for the mouse wheel when a user will rotate the wheel. There are two options available — **Scroll** or **Zoom** of the chart area.
+* **Часовой пояс.** Это настройки часового пояса диаграммы
+* **Действие скрола мыши.** Это действие колеса мыши, когда пользователь вращает колесо. Доступны два варианта - прокрутка или масштабирование области графика.
 
-![](../../.gitbook/assets/image%20%28128%29.png)
+![&#x41F;&#x440;&#x43E;&#x43A;&#x440;&#x443;&#x442;&#x43A;&#x430; &#x438;&#x43B;&#x438; &#x43C;&#x430;&#x441;&#x448;&#x442;&#x430;&#x431;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x438; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430;](../../.gitbook/assets/deistvie-skrola-myshki.png)
 
 * **Drawings default availability**. If you choose "All charts with the same symbol", all drawings will be projected onto the other charts with the same asset \(ticker\). And also allows you to change the color settings of the figures on all charts simultaneously.
 
