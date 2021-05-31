@@ -13,21 +13,19 @@ description: >-
 
 ![](../../.gitbook/assets/nastroiki-grafika.png)
 
-**2\)** Right-click on the chart and select Settings item
+**2\)** Щелкните правой кнопкой мыши в любом месте графика и выберите пункт Настройки.
 
-![Open Chart Settings via context menu](../../.gitbook/assets/image%20%28125%29.png)
+Общий вид меню настроек графика состоит из следующих подразделов. Рассмотрим их подробнее:
 
-General view of Chart settings menu has the following subsections. Let's take a closer look at them:
-
-* \*\*\*\*[**View**](chart-settings.md#view-settings)\*\*\*\*
-* \*\*\*\*[**Data style**](chart-settings.md#data-style)\*\*\*\*
-* \*\*\*\*[**Time scale**](chart-settings.md#time-scale)\*\*\*\*
-* \*\*\*\*[**Price scale**](chart-settings.md#price-scale)\*\*\*\*
-* \*\*\*\*[**Visual trading**](chart-settings.md#visual-trading)\*\*\*\*
-* \*\*\*\*[**Order entry**](chart-settings.md#order-entry)\*\*\*\*
-* \*\*\*\*[**Info window**](chart-settings.md#info-window)\*\*\*\*
-* \*\*\*\*[**Volume bars**](chart-settings.md#volume-bars)\*\*\*\*
-* \*\*\*\*[**Hotkeys**](chart-settings.md#hotkeys)\*\*\*\*
+* [**View**](chart-settings.md#view-settings)
+* [**Data style**](chart-settings.md#data-style)
+* [**Time scale**](chart-settings.md#time-scale)
+* [**Price scale**](chart-settings.md#price-scale)
+* [**Visual trading**](chart-settings.md#visual-trading)
+* [**Order entry**](chart-settings.md#order-entry)
+* [**Info window**](chart-settings.md#info-window)
+* [**Volume bars**](chart-settings.md#volume-bars)
+* [**Hotkeys**](chart-settings.md#hotkeys)
 
 ![General View of Chart Settings](../../.gitbook/assets/image%20%28113%29.png)
 
