@@ -18,7 +18,7 @@ description: >-
 Общий вид меню настроек графика состоит из следующих подразделов. Рассмотрим их подробнее:
 
 * \*\*\*\*[**Вид**](chart-settings.md#nastroiki-vneshnego-vida)\*\*\*\*
-* **Стиль данных**
+* \*\*\*\*[**Стиль данных**](chart-settings.md#stil-dannykh)\*\*\*\*
 * **Шкала времени**
 * **Шакала цен**
 * **Визуальная торговля**
@@ -58,11 +58,11 @@ description: >-
 
 ![](../../.gitbook/assets/dopolnitelnye-nastroiki.png)
 
-## Data style
+## Стиль данных
 
-This tab controls the visual settings of the chart data. Here you can change the Chart Style \(like Candles, Bars, Area, Line\) and set colors for the Up & Down Bars. Try to set up a nice interface for your eyes.
+Эта вкладка управляет визуальными настройками данных диаграммы. Здесь вы можете изменить стиль диаграммы \(например, свечи, полосы, площадь, линия\) и установить цвета для полос вверх и вниз. Попробуйте настроить приятный для глаз интерфейс.
 
-![Chart data style and its settings](../../.gitbook/assets/data-style.gif)
+![](../../.gitbook/assets/stil-dannykh-grafika.gif)
 
 ## Time scale
 
