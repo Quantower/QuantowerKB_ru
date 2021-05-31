@@ -17,7 +17,7 @@ description: >-
 
 Общий вид меню настроек графика состоит из следующих подразделов. Рассмотрим их подробнее:
 
-* **Вид**
+* \*\*\*\*[**Вид**](chart-settings.md#nastroiki-vneshnego-vida)\*\*\*\*
 * **Стиль данных**
 * **Шкала времени**
 * **Шакала цен**
@@ -31,10 +31,10 @@ description: >-
 
 ## Настройки внешнего вида
 
-* **Custom title.** You can rename your chart panel as you wish. 
-* **Use custom tick size** This is probably one of the most important settings in this chart. It is most often used for cluster charts. When you have a highly volatile instrument such as BTC or any other instrument in the course of its trading there will be volumes on each cluster level. Sometimes they have gaps in them. Clusters can be vertically compressed to display information better. The compression ratio must be specified in this menu item. Below you can see a bitcoin chart with compression of $10
+* **Название панели.** Вы можете переименовать панель диаграммы по своему желанию.
+* **Использование пользовательского размера тиков.** Это, вероятно, одна из самых важных настроек на  графике. Чаще всего используется для кластерных диаграмм. Когда у вас есть очень волатильный инструмент, такой как BTC или любой другой инструмент, в ходе его торговли на каждом уровне кластера будут объемы. Иногда в них бывают пробелы. Кластеры можно сжимать по вертикали для лучшего отображения информации. В этом пункте меню необходимо указать степень сжатия. Ниже вы можете увидеть график Биткоин со сжатием 10 долларов.
 
-![](../../.gitbook/assets/image%20%28116%29.png)
+![](../../.gitbook/assets/polzovatelskii-razmer-tikov-bitkoin-do-10-doll.png)
 
 * **Time Zome.** These are the time zone settings of the chart 
 * **Mouse wheel action.** It's an action for the mouse wheel when a user will rotate the wheel. There are two options available — **Scroll** or **Zoom** of the chart area.
