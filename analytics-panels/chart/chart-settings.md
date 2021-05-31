@@ -64,7 +64,7 @@ description: >-
 
 ![](../../.gitbook/assets/stil-dannykh-grafika.gif)
 
-## Time scale
+## Шкала времени
 
 Use this tab to adjust the time scale. Here you can select the size and color of the font. You can also select the background color for the timeline. You can also control the vertical period separators. Such as Daily Period, Weekly Monthly and Yearly. All of these periods you can display in different colors as needed.
 
