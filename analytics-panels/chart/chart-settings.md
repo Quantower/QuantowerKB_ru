@@ -19,7 +19,7 @@ description: >-
 
 * \*\*\*\*[**Вид**](chart-settings.md#nastroiki-vneshnego-vida)\*\*\*\*
 * \*\*\*\*[**Стиль данных**](chart-settings.md#stil-dannykh)\*\*\*\*
-* **Шкала времени**
+* \*\*\*\*[**Шкала времени**](chart-settings.md#shkala-vremeni)\*\*\*\*
 * **Шакала цен**
 * **Визуальная торговля**
 * **Запись заказа**
