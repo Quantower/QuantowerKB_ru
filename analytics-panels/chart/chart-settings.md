@@ -41,22 +41,22 @@ description: >-
 
 ![&#x41F;&#x440;&#x43E;&#x43A;&#x440;&#x443;&#x442;&#x43A;&#x430; &#x438;&#x43B;&#x438; &#x43C;&#x430;&#x441;&#x448;&#x442;&#x430;&#x431;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x43E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x438; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430;](../../.gitbook/assets/deistvie-skrola-myshki.png)
 
-* **Drawings default availability**. If you choose "All charts with the same symbol", all drawings will be projected onto the other charts with the same asset \(ticker\). And also allows you to change the color settings of the figures on all charts simultaneously.
+* **Рисунки по умолчанию availability**.  Если вы выберете «Все диаграммы с одним и тем же символом», все рисунки будут проецироваться на другие диаграммы с тем же активом \(тикером\). А также позволяет изменять настройки цвета фигур на всех графиках одновременно. Таким образом можно настроить **полную синхронизацию технического анализа** на одновременно открытых нескольких поверхностях.
 
-![](../../.gitbook/assets/image%20%28129%29.png)
+![&#x421;&#x438;&#x43D;&#x445;&#x440;&#x43E;&#x43D;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44F; &#x442;&#x435;&#x445;&#x43D;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x433;&#x43E; &#x430;&#x43D;&#x430;&#x43B;&#x438;&#x437;&#x430; &#x43D;&#x430; &#x43E;&#x434;&#x43D;&#x43E;&#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x43E; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x44B;&#x445; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430;&#x445; &#x43E;&#x434;&#x43D;&#x43E;&#x433;&#x43E; &#x438;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x430;.](../../.gitbook/assets/risunki-po-umolchaniyu-kvantouer.png)
 
 ![](../../.gitbook/assets/image%20%28114%29.png)
 
 {% embed url="https://www.youtube.com/watch?v=BtC9iJEOcjY" caption="" %}
 
-* **Custom session.** This item is for displaying trading sessions.
-* **Window colors.**  Settings for the background color on the chart.
-* **Crosshair.** These are settings of the cursor and its visibility on charts with one symbol \(asset\).
-* **Grid.** Settings for the grid lines on the chart \(horizontal and vertical grid\).
-* **Time to next bar.** These are settings for displaying time to the next bar and changing its color.
-* **Additional.** It is used to enable/disable toolbars and misc data on a chart.
+* **Пользовательская сессия.** Этот пункт предназначен для отображения торговых сессий.
+* **Цвет окона.** Настройки цвета фона на графике.
+* **Перекрестие курсора**. Это настройки курсора и его видимости на графиках с одним символом \(активом\).
+* **Время до следующего бара.** Это настройки для отображения времени до следующего бара и изменения его цвета.
+* **Сетка.** Настройки линий сетки на графике \(горизонтальная и вертикальная сетка\).
+* **Дополнительно.** Используется для включения / отключения панелей инструментов и других данных на графике.
 
-![](../../.gitbook/assets/image%20%28118%29.png)
+![](../../.gitbook/assets/dopolnitelnye-nastroiki.png)
 
 ## Data style
 
