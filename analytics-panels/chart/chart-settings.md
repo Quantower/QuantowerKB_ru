@@ -1,17 +1,17 @@
 ---
 description: >-
-  Here you will learn about the basic settings of the chart in Quantower. In
-  order to get to this menu, you need to right-click on the chart and in the
-  menu select settings
+  Здесь вы узнаете об основных настройках графика в Quantower.  Чтобы попасть в
+  это меню, нужно щелкнуть правой кнопкой мыши по графику и в меню выбрать
+  настройки.
 ---
 
-# Chart Settings
+# Настройки графика
 
-There are two ways to open Chart Settings:
+Открыть настройки графика можно двумя способами:
 
-**1\)** click on the Menu button on the left upper corner and select Settings item
+**1\)** нажмите кнопку «Меню» в левом верхнем углу и выберите пункт «Настройки».
 
-![Open Chart Settings via main menu button](../../.gitbook/assets/image%20%28124%29.png)
+![](../../.gitbook/assets/nastroiki-grafika.png)
 
 **2\)** Right-click on the chart and select Settings item
 
