@@ -20,8 +20,8 @@ description: >-
 * \*\*\*\*[**Вид**](chart-settings.md#nastroiki-vneshnego-vida)\*\*\*\*
 * \*\*\*\*[**Стиль данных**](chart-settings.md#stil-dannykh)\*\*\*\*
 * \*\*\*\*[**Шкала времени**](chart-settings.md#shkala-vremeni)\*\*\*\*
-* **Шакала цен**
-* **Визуальная торговля**
+* \*\*\*\*[**Шакала цен**](chart-settings.md#shakala-cen)\*\*\*\*
+* \*\*\*\*[**Визуальная торговля**](chart-settings.md#vizualnaya-torgovlya)\*\*\*\*
 * **Запись заказа**
 * **Информационное окно**
 * **Объемные бары**
@@ -85,9 +85,9 @@ description: >-
 
 ![](../../.gitbook/assets/podsvechivat-ceny.png)
 
-## Visual trading
+## **Визуальная торговля**
 
-This tab allows you to include settings to display the current position on the chart and display already completed trades.
+Эта вкладка позволяет включать настройки для отображения текущей позиции на графике и отображения уже завершенных сделок.
 
 ![](../../.gitbook/assets/image%20%28117%29.png)
 
