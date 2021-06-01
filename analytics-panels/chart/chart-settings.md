@@ -70,20 +70,20 @@ description: >-
 
 ![](../../.gitbook/assets/shkala-vremeni.png)
 
-## Price Scale
+## **Шакала цен**
 
-These settings allow you to customize the price scale. There are 3 important points here, let's break down each one:
+Эти настройки позволяют настраивать шкалу цен. Здесь есть 3 важных момента, давайте разберем каждый из них:
 
-* **Scale type**. Allows you to select which type of scale will be displayed on the chart. This can be a normal display. The percentage display or a logarithmic scale. 
-* **Zoom**. Here you can adjust the vertical scaling of the chart.
+* **Тип шкалы.** Позволяет выбрать, какой тип шкалы будет отображаться на графике. Это может быть обычный дисплей. Отображение процентов или логарифмической шкалы.
+* **Увеличить.** Здесь вы можете настроить вертикальное масштабирование графика.
 
-![Price Scaling on the chart panel](../../.gitbook/assets/price-scaling.gif)
+![&#x41C;&#x430;&#x441;&#x448;&#x442;&#x430;&#x431;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x446;&#x435;&#x43D;&#x44B; &#x43D;&#x430; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430;](../../.gitbook/assets/price-scaling.gif)
 
-![](../../.gitbook/assets/image%20%28126%29.png)
+![](../../.gitbook/assets/shkala-cen.jpg)
 
-* **Highlight prices**. Adjusts the color and font of the current price on the chart. Gives the opportunity to highlight the minimums and maximums of the previous day and limits on the instrument
+* Выделите цены. Регулирует цвет и шрифт текущей цены на графике. Дает возможность выделить минимумы и максимумы предыдущего дня и лимиты по инструменту
 
-![](../../.gitbook/assets/image%20%28110%29.png)
+![](../../.gitbook/assets/podsvechivat-ceny.png)
 
 ## Visual trading
 
