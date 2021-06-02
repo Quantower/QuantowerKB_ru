@@ -1,8 +1,8 @@
 ---
-description: How to add multiple assets on one chart
+description: Как добавить несколько активов на один график
 ---
 
-# Chart overlays
+# Наложения графиков
 
-{% embed url="https://youtu.be/MafWv\_TMaa8" caption="Chart Overlay. How to add multiple instruments on a single chart." %}
+{% embed url="https://youtu.be/MafWv\_TMaa8" caption="Как добавить несколько активов на один график" %}
 

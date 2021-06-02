@@ -66,7 +66,7 @@
       * [Реверс \(Reversal \) график](analytics-panels/chart/chart-types/reversal-bars.md)
     * [Настройки графика](analytics-panels/chart/chart-settings.md)
     * [Ввод ордера с графика](analytics-panels/chart/chart-trading.md)
-    * [Chart overlays](analytics-panels/chart/chart-overlays.md)
+    * [Наложения графиков](analytics-panels/chart/chart-overlays.md)
     * [Technical indicators](analytics-panels/chart/technical-indicators/README.md)
       * [Channels](analytics-panels/chart/technical-indicators/channels/README.md)
         * [Donchian Channel](analytics-panels/chart/technical-indicators/channels/donchian-channel.md)
