@@ -27,9 +27,9 @@ description: >-
 
 Индикатор Ichimoku Cloud состоит из пяти графиков. Их имена и расчеты:
 
-* TenkanSen \(Conversion Line\): \(High + Low\) / 2 default period = 9
-* KijunSen \(Base Line\): \(High + Low\) / 2 default period = 26 
-* Chiku Span \(Lagging Span\): Price Close shifted back 26 bars 
-* Senkou A \(Leading Span A\): \(TenkanSen + KijunSen\) / 2 \(Senkou A is shifted forward 26 bars\) 
-* Senkou B \(Leading Span B\): \(High + Low\) / 2 using period = 52 \(Senkou B is shifted forward 26 bars\)
+* TenkanSen \(Линия преобразования\): \(High + Low\) / 2 периода по умолчанию = 9
+* KijunSen \(Базовая линия\): \(High + Low\) / 2 периода по умолчанию = 26
+* Chiku Span \(Lagging Span\): цена закрытия сдвинута назад на 26 баров.
+* Senkou A \(ведущий диапазон A\): \(TenkanSen + KijunSen\) / 2 \(Senkou A сдвинут вперед на 26 тактов\)
+* Senkou B \(опережающий интервал B\): \(High + Low\) / 2 с периодом = 52 \(Senkou B сдвинут вперед на 26 баров\)
 
