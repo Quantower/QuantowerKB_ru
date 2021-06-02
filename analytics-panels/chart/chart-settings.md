@@ -117,9 +117,9 @@ description: >-
 
 ![](../../.gitbook/assets/obemnye-bary.gif)
 
-## Hotkeys
+## Горячие клавиши
 
-This tab is for configuring your keyboard shortcuts. Here you can configure the volume change with one button. Drawing levels or trend channels. Cancel orders and many other useful functions. In general, almost any action can be assigned as you wish
+Эта вкладка предназначена для настройки сочетаний клавиш. Здесь вы можете настроить изменение громкости одной кнопкой. Отрисовка уровней или каналов тренда. Отмена заказов и множество других полезных функций. В общем, **практически любое действие можно назначить** по своему желанию.
 
-![](../../.gitbook/assets/image%20%28119%29.png)
+![](../../.gitbook/assets/goryachie-klavishi%20%281%29.jpg)
 
