@@ -22,7 +22,7 @@ description: >-
 * \*\*\*\*[**Шкала времени**](chart-settings.md#shkala-vremeni)\*\*\*\*
 * \*\*\*\*[**Шакала цен**](chart-settings.md#shakala-cen)\*\*\*\*
 * \*\*\*\*[**Визуальная торговля**](chart-settings.md#vizualnaya-torgovlya)\*\*\*\*
-* **Запись заказа**
+* \*\*\*\*[**Запись заказа. Ввод ордеров.** ](chart-settings.md#vvod-ordera)\*\*\*\*
 * **Информационное окно**
 * **Объемные бары**
 * **Горячие клавиши**
@@ -99,13 +99,13 @@ description: >-
 
 ![](../../.gitbook/assets/kreditnoe-plecho.png)
 
-## Info Window
+## Информационное окно
 
-This settings tab is for displaying values in the upper left corner. which data to display you can choose for yourself. For example, it is important for me to know the volume value and I only display them. You can also adjust the font of this information.
+Эта вкладка настроек предназначена для отображения значений в верхнем левом углу. какие данные отображать вы можете выбрать сами. Например, мне важно знать значение громкости, и я только их отображаю. Вы также можете настроить шрифт этой информации.
 
-![Info Window on the chart](../../.gitbook/assets/info-window.gif)
+![&#x418;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x446;&#x438;&#x43E;&#x43D;&#x43D;&#x43E;&#x435; &#x43E;&#x43A;&#x43D;&#x43E; &#x43D;&#x430; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x435;](../../.gitbook/assets/info-window.gif)
 
-![Visual settings for Info Window](../../.gitbook/assets/image%20%28112%29.png)
+![](../../.gitbook/assets/informacionnoe-okno.jpg)
 
 ## Volume Bars
 
