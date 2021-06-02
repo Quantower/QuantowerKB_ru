@@ -1,30 +1,26 @@
 ---
 description: >-
-  Here you can find out what are the possibilities for manual trading in
-  Quantower directly from the chart.
+  Здесь вы можете узнать, какие возможности для ручной торговли в Quantower
+  прямо с графика.
 ---
 
-# Chart Trading
+# Ручная торговля с графика
 
-## Trading with the quick trade toolbar
+## Торговля с помощью панели инструментов быстрой торговли
 
-Trading with the quick trade toolbar The quick trade toolbar appears by clicking on the button marked on the picture. If you don't have it you should enable it from the chart settings. See here how it is [done](chart-settings.md).
+Торговля с помощью панели инструментов быстрой торговли Панель инструментов быстрой торговли появляется при нажатии на кнопку, отмеченную на картинке. Если у вас его нет, вы должны включить его в настройках диаграммы. [Посмотрите, как это делается.](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbBUVhc4TPnNLe_OOl1/analytics-panels/chart/chart-settings)
 
-![](../../.gitbook/assets/image%20%28156%29.png)
+![](../../.gitbook/assets/vvod-ordera-panel.jpg)
 
-**Quanty** is the number of lots for a trade. Here you can set your custom values according to your risk and money management. See chart settings for how to do this.
+**Объем**- это количество лотов для сделки. Здесь вы можете установить свои индивидуальные значения в соответствии со своим риском и управлением капиталом. См. Настройки диаграммы, чтобы узнать, как это сделать.
 
-**Description Time**
+**Триггер** - это метод расчета вашей прибыли или убытка. Вы можете выбрать по последней цене или по цене, указанной брокером.
 
-~~Bihayvor~~
+Затем вы можете установить автоматический стоп-лосс и прибыль в пунктах. Установить размер лота и защитить его очень удобно. Укажите свои значения в соответствующих полях.
 
-**Trigger** is a method of calculating your profit or loss. You can choose at the last price or at the price the broker marks
+**Автоматизация ценообразования**
 
-Then you can set **automatic stop loss and profit** in pips. It's very convenient to set the lot size and protect it. Specify your values in the appropriate fields.
+Далее идет блок **кнопок для быстрого размещения** заказа по соответствующей цене.
 
-**Pricing automation**
-
-Next comes a block of buttons for **quickly placing an orde**r into the betting slots at the appropriate price.
-
-Next comes a large block of functions for managing the current position. You can delete or limit orders or stops. You can also reverse your position with one button or set it to no loss. These are very functional buttons, do not miss them.
+Далее идет большой блок **функций для управления текущей позицией**. Вы можете удалять или ограничивать ордера или стопы. Вы также можете перевернуть свою позицию с помощью одной кнопки или установить без потерь. Это очень функциональные кнопки, не пропустите их.
 

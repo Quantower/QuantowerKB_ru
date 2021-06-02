@@ -65,7 +65,7 @@
       * [Столбиковый график объема \(volume bars\)](analytics-panels/chart/chart-types/volume-bars.md)
       * [Реверс \(Reversal \) график](analytics-panels/chart/chart-types/reversal-bars.md)
     * [Настройки графика](analytics-panels/chart/chart-settings.md)
-    * [Chart Trading](analytics-panels/chart/chart-trading.md)
+    * [Ручная торговля с графика](analytics-panels/chart/chart-trading.md)
     * [Chart overlays](analytics-panels/chart/chart-overlays.md)
     * [Technical indicators](analytics-panels/chart/technical-indicators/README.md)
       * [Channels](analytics-panels/chart/technical-indicators/channels/README.md)
