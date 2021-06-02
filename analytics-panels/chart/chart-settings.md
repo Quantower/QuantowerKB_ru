@@ -23,7 +23,7 @@ description: >-
 * \*\*\*\*[**Шакала цен**](chart-settings.md#shakala-cen)\*\*\*\*
 * \*\*\*\*[**Визуальная торговля**](chart-settings.md#vizualnaya-torgovlya)\*\*\*\*
 * \*\*\*\*[**Запись заказа. Ввод ордеров.** ](chart-settings.md#vvod-ordera)\*\*\*\*
-* **Информационное окно**
+* \*\*\*\*[**Информационное окно**](chart-settings.md#informacionnoe-okno)\*\*\*\*
 * **Объемные бары**
 * **Горячие клавиши**
 
