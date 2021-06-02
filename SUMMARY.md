@@ -107,7 +107,7 @@
         * [Ichimoku Cloud Indicator](analytics-panels/chart/technical-indicators/trend/ichimoku-indicator.md)
         * [Directional Movement Index \(DMI\) Indicator](analytics-panels/chart/technical-indicators/trend/directional-movement-index-dmi-indicator.md)
         * [ZigZag](analytics-panels/chart/technical-indicators/trend/zigzag.md)
-      * [Volatility](analytics-panels/chart/technical-indicators/volatility/README.md)
+      * [Волатильность](analytics-panels/chart/technical-indicators/volatility/README.md)
         * [Average True Range](analytics-panels/chart/technical-indicators/volatility/average-true-range.md)
         * [Standard deviation](analytics-panels/chart/technical-indicators/volatility/standard-deviation.md)
       * [Volume](analytics-panels/chart/technical-indicators/volume/README.md)

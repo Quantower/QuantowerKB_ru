@@ -1,28 +1,32 @@
+---
+description: Средний истинный диапазон
+---
+
 # Average True Range
 
-## Description
+## Описание
 
-Average True Range is a volatility based indicator which describes the range of bars averaged for some period of time. Most common smoothing period is 14. ATR does not show any trend moving or reversing, it only measures volatility and it structure.
+Средний истинный диапазон - это индикатор, основанный на волатильности, который описывает диапазон баров, усредненных за некоторый период времени. Наиболее распространенный период сглаживания - 14. ATR не показывает движение или разворот тренда, он только измеряет волатильность и ее структуру.
 
 ![](../../../../.gitbook/assets/screenshot_3%20%282%29.png)
 
-## Formula
+## Формула
 
 ![](../../../../.gitbook/assets/image%20%2845%29.png)
 
 ![](../../../../.gitbook/assets/image%20%287%29.png)
 
-The first ATR value is calculated using the arithmetic mean formula:
+Первое значение ATR рассчитывается по формуле среднего арифметического:
 
 ![](../../../../.gitbook/assets/image%20%2840%29.png)
 
-## Most useful cases
+## Самые полезные кейсы
 
-* **Divergence/Convergence** - Divergence/Convergence pattern is a form of price action when new high\(low\) of the price not confirmed with a new high of  ATR. This is a very good approach to find a weakness of existing trend
+* **Дивергенция / Конвергенция** - Модель дивергенции / конвергенции - это форма движения цены, когда новый максимум \(минимум\) цены не подтверждается новым максимумом ATR. Это очень хороший подход для поиска слабых мест существующего тренда.
 
 ![](../../../../.gitbook/assets/image%20%2831%29.png)
 
-* **Confirmation of existing tendency -** if price and ATR rise together it can be interpreted as a confirmation of a strength of the trend
+* **Подтверждение существующей тенденции** - если цена и ATR растут вместе, это можно интерпретировать как подтверждение силы тренда.
 
 ![](../../../../.gitbook/assets/image%20%2837%29.png)
 
