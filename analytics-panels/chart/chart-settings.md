@@ -91,13 +91,13 @@ description: >-
 
 ![](../../.gitbook/assets/image%20%28117%29.png)
 
-## Order entry
+## Ввод ордера
 
-These are the settings of the order entry panel. The most interesting thing here is that you can set the standard number of entry orders which correspond to your risks. This is very convenient for manual trading.
+Это настройки панели ввода ордеров. Самое интересное здесь то, что вы можете установить стандартное количество входных ордеров, которое соответствует вашим рискам. Это очень удобно для ручной торговли.
 
-[How to use the order entry panel read here](../../trading-panels/order-entry/)
+[Как пользоваться панелью ввода ордеров **читайте здесь**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbBCIqhkEW3xvohXN2Y/trading-panels/order-entry)\*\*\*\*
 
-![](../../.gitbook/assets/image%20%28115%29.png)
+![](../../.gitbook/assets/kreditnoe-plecho.png)
 
 ## Info Window
 
