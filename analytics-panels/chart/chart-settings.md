@@ -107,11 +107,11 @@ description: >-
 
 ![](../../.gitbook/assets/informacionnoe-okno.jpg)
 
-## Volume Bars
+## **Объемные бары**
 
-This tab is used to adjust the volume histogram at the bottom of the chart. You can choose the colors of the histogram that you like. You can also select a color scheme for coloring this chart. Adjusting the color of the volume histogram depending on the direction of the price bar or changing the color depending on whether the volume is higher or lower now.
+Эта вкладка используется для настройки гистограммы объема в нижней части графика. Вы можете выбрать цвета гистограммы, которые вам нравятся. Вы также можете выбрать цветовую схему для раскраски этой диаграммы. Регулировка цвета гистограммы объема в зависимости от направления ценового бара или изменение цвета в зависимости от того, больше или меньше объем сейчас.
 
-![](../../.gitbook/assets/image%20%28111%29.png)
+![](../../.gitbook/assets/obemnye-bary.gif)
 
 ## Hotkeys
 
