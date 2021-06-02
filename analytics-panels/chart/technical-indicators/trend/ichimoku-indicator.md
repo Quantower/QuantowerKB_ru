@@ -1,30 +1,31 @@
 ---
 description: >-
-  The Ichimoku Cloud Indicator displays support and resistance, momentum, and
-  trend in one view.
+  Индикатор облака Ишимоку отображает поддержку и сопротивление, импульс и тренд
+  в одном окне.
 ---
 
 # Ichimoku Cloud Indicator
 
-## What is the Ichimoku Cloud Indicator?
+## Что такое индикатор облака Ишимоку?
 
-The Ichimoku Cloud Indicator displays support and resistance, momentum, and trend in one view. TenkanSen and KijunSen are similar to moving averages and analyzed in relationship to one another. When the shorter term indicator, TenkanSen, rises above the longer-term indicator, KijunSen, the securities trend is typically positive. When TenkanSen falls below KijunSen, the securities trend is typically negative. TenkanSen and KijunSen as a group are then analyzed in relationship to the Cloud, which is composed of the area between Senkou A and Senkou B.
+Индикатор облака Ишимоку отображает поддержку и сопротивление, импульс и тренд в одном окне. TenkanSen и KijunSen похожи на скользящие средние и анализируются по отношению друг к другу. Когда краткосрочный индикатор TenkanSen поднимается выше долгосрочного индикатора KijunSen, тенденция по ценным бумагам обычно положительная. Когда TenkanSen опускается ниже KijunSen, тенденция по ценным бумагам обычно отрицательная. Затем TenkanSen и KijunSen как группа анализируются относительно Облака, который состоит из области между Senkou A и Senkou B.
 
-![Ichimoku Cloud indicator in Quantower platform](../../../../.gitbook/assets/image%20%2872%29.png)
+![&#x418;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440; Ichimoku Cloud &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435; Quantower](../../../../.gitbook/assets/image%20%2872%29.png)
 
-## How Ichimoku Cloud indicator works
+## Как работает индикатор Ichimoku Cloud
 
-* When TenkanSen and KijunSen are decidedly above the Cloud, the issue's trend is positive.
-* When TenkanSen and KijunSen are decidedly below the Cloud, the issue's trend is negative.
-* Using the Cloud to determine trend:
-  1. When prices are above the cloud, the trend is up. When prices are below the cloud, the trend is down.
-  2. When Sendou A is rising and above Senkou B, the uptrend is strengthening. When Senkou A is falling and below Senkou B, the downtrend is strengthening.
-* A buy signal is reinforced when the Tenkan Sen crosses above the Kijun Sen while the Tenkan Sen, Kijun Sen, and price are all above the cloud.
-* A sell signal is reinforced when the TenKan Sen crosses below the Kijun Sen while the Tenkan Sen, Kijun Sen, and price are all below the cloud.
+* Когда TenkanSen и KijunSen явно находятся над облаком, тенденция выпуска положительная.
+* Когда TenkanSen и KijunSen явно ниже Облака, тенденция выпуска отрицательная.
+* Использование облака для определения тренда:
+* Когда цены выше облака, тренд идет вверх. Когда цены ниже облака, тренд идет вниз. 
+* Когда Sendou A растет и превышает Senkou B, восходящий тренд усиливается. 
+* Когда Сенкоу А падает ниже Сенкоу В, нисходящий тренд усиливается.
+* Сигнал на покупку усиливается, когда Tenkan Sen пересекает Kijun Sen, в то время как Tenkan Sen, Kijun Sen и цена находятся выше облака.
+* Сигнал на продажу усиливается, когда TenKan Sen пересекает Kijun Sen, в то время как Tenkan Sen, Kijun Sen и цена находятся ниже облака.
 
-## Calculation of Ichimoku Cloud indicator
+## Расчет индикатора Ichimoku Cloud
 
-There are five plots that make up the Ichimoku Cloud indicator. Their names and calculations are:
+Индикатор Ichimoku Cloud состоит из пяти графиков. Их имена и расчеты:
 
 * TenkanSen \(Conversion Line\): \(High + Low\) / 2 default period = 9
 * KijunSen \(Base Line\): \(High + Low\) / 2 default period = 26 
