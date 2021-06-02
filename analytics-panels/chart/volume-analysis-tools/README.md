@@ -12,12 +12,12 @@ Quantower предоставляет [**инструменты анализа о
 Инструменты объемного анализа включают фирменные и хорошо известные аналитики:
 
 * [**Cluster Chart**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/cluster-chart) Кластер \(a.k.a. Footprint chart or OrderFlow chart\)
-* [**Volume Profiles**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/volume-profiles) — Step, Right, Left and Custom volume profiles
-* [**Time Statistics**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/time-statistics) — volume data per each bar in table form
-* [**Time Histogram**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/time-histogram) _\*\*_— volume data per each bar in the form of a vertical histogram
-* [**Custom VWAP \(Anchored VWAP\)**](../anchored-vwap.md) — can be attached to any selected bar as a starting calculation point
-* [**VWAP**](../vwap.md) — multiple VWAP lines for a single chart
-* [**Historical Time & Sales**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/historical-time-and-sales) ****— the table of all trades for the any selected bar
+* [**Volume Profiles**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/volume-profiles) Профили объема — Step, Right, Left and Custom volume profiles
+* [**Time Statistics**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/time-statistics) Статистика времени — volume data per each bar in table form
+* [**Гистограмма по времени**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/time-histogram) __— volume data per each bar in the form of a vertical histogram
+* [**Пользовательский VWAP**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbD7SUConk3PZ8K2riB/analytics-panels/chart/anchored-vwap) ****— может быть прикреплен к любому выбранному бару в качестве отправной точки расчета
+* [**VWAP**](../vwap.md) — мульти VWAP для одного графика
+* [**T&S бара**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/historical-time-and-sales)— таблица всех сделок для любого выбранного бара
 
 {% embed url="https://youtu.be/duOmadSFN4Y" caption="" %}
 
