@@ -1,19 +1,19 @@
 # ZigZag
 
-## Description
+## Описание
 
-ZigZag is a trend following indicator which allows to determing trend swings. A combination of ZigZag highs and lows can be used as a support or resistance level. Also it helps to identify significant changes in price and filter out short-term fluctuations.
+ZigZag - индикатор следования за трендом, позволяющий определять колебания тренда. Комбинация максимумов и минимумов зигзага может использоваться как уровень поддержки или сопротивления. Также это помогает выявить значительные изменения в цене и отфильтровать краткосрочные колебания.
 
 ![](../../../../.gitbook/assets/image%20%289%29.png)
 
-## Formula
+## Формула
 
-ZigZag finds extremums in price movement. These extremums reflect the diviations of price that are more than setted value. By default value for a ZigZag is 5%, it will ensure that only price fluctuations of 5% or more will be shown in the chart.
+Зигзаг находит экстремумы в движении цены. Эти экстремумы отражают отклонения цены, превышающие установленное значение. По умолчанию значение зигзага составляет 5%, это гарантирует, что на графике будут отображаться только колебания цен на 5% или более.
 
-## Most useful cases
+## Самые полезные кейсы
 
-* **Determing swings** - the most common case of ZigZag usage is an eliminating a small price fluctuations and paying attention on huge price swings.
-* **Support/Resistant levels** - ZigZag also is very helpfull in finding levels of support and resistance, to do it traders generally analyse a price of ZigZag swing and combine closest swings together in one price level
+* **Определение колебаний** - наиболее распространенный случай использования зигзага - это устранение небольших колебаний цен и внимание к огромным колебаниям цен.
+* **Уровни поддержки / сопротивления** - зигзаг также очень полезен при поиске уровней поддержки и сопротивления, для этого трейдеры обычно анализируют цену колебания зигзага и объединяют самые близкие колебания в один ценовой уровень.
 
 ![](../../../../.gitbook/assets/image%20%2823%29.png)
 
