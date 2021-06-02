@@ -1,8 +1,8 @@
 ---
 description: >-
-  ADX stands for Average Directional Movement Index and can be used to help
-  measure the overall strength of a trend. The ADX indicator is an average of
-  expanding price range values.
+  ADX означает индекс среднего направленного движения и может использоваться для
+  измерения общей силы тренда.  Индикатор ADX - это среднее значение
+  расширяющегося диапазона цен.
 ---
 
 # Average Directional Movement Index \(ADX\) Indicator
