@@ -11,10 +11,10 @@ Quantower предоставляет [**инструменты анализа о
 
 Инструменты объемного анализа включают фирменные и хорошо известные аналитики:
 
-* [**Cluster Chart**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/cluster-chart) Кластер \(a.k.a. Footprint chart or OrderFlow chart\)
-* [**Volume Profiles**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/volume-profiles) Профили объема — Step, Right, Left and Custom volume profiles
-* [**Статистика по времени** ](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/time-statistics)— volume data per each bar in table form
-* [**Гистограмма по времени**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/time-histogram) __— данные объема на каждом баре в виде вертикальной гистограммы
+* \*\*\*\*[**Кластер** ](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/cluster-chart)\(a.k.a. Footprint chart or OrderFlow chart\)
+* \*\*\*\*[**Профили объема**](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/volume-profiles) — Step, Right, Left and Custom volume profiles
+* \*\*\*\*[**Статистика по времени** ](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/time-statistics)— volume data per each bar in table form
+* \*\*\*\*[**Гистограмма по времени** __](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/time-histogram)— данные объема на каждом баре в виде вертикальной гистограммы
 * [**Пользовательский VWAP**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbD7SUConk3PZ8K2riB/analytics-panels/chart/anchored-vwap) ****— может быть прикреплен к любому выбранному бару в качестве отправной точки расчета
 * [**VWAP**](../vwap.md) — мульти VWAP для одного графика
 * [**T&S бара**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/historical-time-and-sales)— таблица всех сделок для любого выбранного бара
