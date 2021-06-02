@@ -115,7 +115,7 @@
         * [Delta Rotation](analytics-panels/chart/technical-indicators/volume/delta-rotation.md)
         * [Level2 indicator](analytics-panels/chart/technical-indicators/volume/level2-indicator.md)
     * [Инструменты рисования](analytics-panels/chart/drawing-tools.md)
-    * [Volume Analysis Tools \| Volume Profiles \| Footprint chart \| VWAP](analytics-panels/chart/volume-analysis-tools/README.md)
+    * [Инструменты объемного анализа \| Профили объема \| Footprint график \| VWAP](analytics-panels/chart/volume-analysis-tools/README.md)
       * [Cluster chart](analytics-panels/chart/volume-analysis-tools/cluster-chart.md)
       * [Volume profiles](analytics-panels/chart/volume-analysis-tools/volume-profiles.md)
       * [Time statistics](analytics-panels/chart/volume-analysis-tools/time-statistics.md)
