@@ -24,8 +24,8 @@ description: >-
 * \*\*\*\*[**Визуальная торговля**](chart-settings.md#vizualnaya-torgovlya)\*\*\*\*
 * \*\*\*\*[**Запись заказа. Ввод ордеров.** ](chart-settings.md#vvod-ordera)\*\*\*\*
 * \*\*\*\*[**Информационное окно**](chart-settings.md#informacionnoe-okno)\*\*\*\*
-* **Объемные бары**
-* **Горячие клавиши**
+* \*\*\*\*[**Объемные бары**](chart-settings.md#obemnye-bary)\*\*\*\*
+* \*\*\*\*[**Горячие клавиши**](chart-settings.md#goryachie-klavishi)\*\*\*\*
 
 ![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x435;&#x43A; &#x43C;&#x435;&#x43D;&#x44E; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430;](../../.gitbook/assets/menyu-nastroek-grafika.png)
 
