@@ -1,25 +1,25 @@
 # Directional Movement Index \(DMI\) Indicator
 
-## What is the Directional Movement Index \(DMI\) Indicator?
+## Что такое индикатор индекса направленного движения \(DMI\)?
 
-**Directional Movement Index \(DMI\)** assists in determining if an asset is trending and attempts to measure the strength of the trend. The DMI disregards the direction of the asset. It only attempts to determine if there is a trend and that trends strength.
+Индекс направленного движения \(DMI\) помогает определить, находится ли актив в тренде, и пытается измерить силу тренда. DMI игнорирует направление актива. Он только пытается определить, есть ли тренд и его сила.
 
-The indicator is made up of 2 indicator lines:
+Индикатор состоит из 2-х индикаторных линий:
 
-1. **Positive Directional Indicator \(+DMI\)** shows the difference between today’s high price and yesterday’s high price. These values are then added up from the past 14 periods and then plotted.
-2. **Negative Directional Indicator \(–DMI\)** shows the difference between today’s low price and yesterday’s low price. These values are then summed up from the past 14 periods and plotted.
+1. **Индикатор положительного направления \(+ DMI\)** показывает разницу между максимумом сегодняшнего дня и максимумом вчерашнего дня. Затем эти значения суммируются за последние 14 периодов и затем наносятся на график.
+2. **Индикатор отрицательного направления \(–DMI\)** показывает разницу между минимальной ценой сегодняшнего дня и минимальной ценой вчерашнего дня. Затем эти значения суммируются за последние 14 периодов и наносятся на график.
 
 ![](../../../../.gitbook/assets/image%20%2858%29.png)
 
-## How the Directional Movement Index \(DMI\) indicator works
+## Как работает индикатор индекса направленного движения \(DMI\)
 
-A buy signal is given when DMI+ crosses above DMI-. A sell signal is given when DMI- crosses above DMI+. The ADX and ADXR lines are then used to measure the strength of these signals.
+Сигнал на покупку подается, когда DMI + пересекает DMI-. Сигнал на продажу подается, когда DMI- пересекает DMI +. Затем линии ADX и ADXR используются для измерения силы этих сигналов.
 
-## Calculation of the Directional Movement Index \(DMI\) indicator
+## Расчет индикатора Directional Movement Index \(DMI\)
 
-1. Calculate the True Range, +DI, and –DI for each period: True Range is the greater of: Current High – Current Low Absolute value of Current High – Previous Close Absolute value of Current Low – Previous Close  +DI IF Current High – Previous High &gt; Previous Low – Current Low THEN +DI = the greater of Current High – Previous High OR 0    -DI IF Previous Low – Current Low &gt; Current High – Previous High THEN –DI = the greater of Previous Low – Current Low OR 0  IF +DI AND -DI are both negative THEN both +DI and –DI = 0  IF +DI AND -DI are both positive AND +DI &gt; -DI THEN +DI = Current High – Previous High AND –DI = 0 Else IF +DI &lt; -DI THEN +DI = 0 AND –DI = Previous Low – Current Low 
-2. Smooth the True Range, +DI, and –DI using Wilder’s smoothing technique.
-3. Divide the smoothed +DI by the smoothed True Range and multiply by 100 \(this is the +DI that is plotted for the specified period\).
-4. Divide the smoothed –DI by the smooth True Range and multiply by 100 \(this is the –DI that is plotted for the specified period\).
-5. Next calculate the Directional Movement Index \(DX\) which equals the \(absolute value of the smoothed +DI – the smoothed –DI\) /\( the sum of the smoothed +DI and smoothed –DI \)and multiply by 100.
+1. Вычислите истинный диапазон, + DI и –DI для каждого периода: Истинный диапазон - это большее из следующих значений: Current High - Current Low Абсолютное значение Current High - Previous Close Абсолютное значение Current Low - Previous Close + DI IF Current High - Previous High&gt; Previous Low - Current Low THEN + DI = большее из Current High - Предыдущее High ИЛИ 0 -DI IF Предыдущее Low - Current Low&gt; Current High - Предыдущее High THEN –DI = большее из предыдущего Low - Current Low ИЛИ 0 IF + DI И -DI оба отрицательны ТОГДА оба + DI и –DI = 0 ЕСЛИ + DI И -DI оба положительны И + DI&gt; -DI THEN + DI = Current High - Previous High AND –DI = 0 Else IF + DI &lt;-DI THEN + DI = 0 И –DI = Предыдущий минимум - Текущий минимум
+2. Сгладьте True Range, + DI и –DI, используя технику сглаживания Уайлдера.
+3. Разделите сглаженный + DI на сглаженный истинный диапазон и умножьте на 100 \(это + DI, построенный для указанного периода\).
+4. Разделите сглаженный –DI на сглаженный истинный диапазон и умножьте на 100 \(это –DI, построенное для указанного периода\).
+5. Затем вычислите индекс направленного движения \(DX\), который равен \(абсолютное значение сглаженного + DI - сглаженного –DI\) / \(сумма сглаженного + DI и сглаженного –DI\), и умножьте на 100.
 
