@@ -1,42 +1,43 @@
 ---
 description: >-
-  Delta Flow indicator describes the impact of the aggressive orders on the
-  market price through Delta value.
+  Индикатор Delta Flow описывает влияние агрессивных ордеров на рыночную цену
+  через значение De
 ---
 
 # Delta Flow
 
-## Overview of Delta Flow indicator
+## Обзор индикатора Delta Flow
 
-**Delta Flow** calculates as Delta \* \(High - Low\) and describes the impact of the aggressive orders on the market price through Delta value.
+**Delta Flow** рассчитывается как Delta \* \(High - Low\) и описывает влияние агрессивных ордеров на рыночную цену через значение Delta.
 
-![Delta Flow indicator](../../../../.gitbook/assets/delta-flow.png)
+![Delta Flow &#x418;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440;](../../../../.gitbook/assets/delta-flow.png)
 
-In this example, the ESZ20 was ranging in a braket while showing clear activity around the Mid Swing.
+В этом примере ESZ20 находился в состоянии торможения, демонстрируя явную активность в районе Mid Swing.
 
-As price approached the “Bracket High” area the market activity dropped showing a lack of follow through and went into a narrow ranging activity. Neither buyers nor seller in sight…
+Когда цена приблизилась к области «верхнего предела», рыночная активность упала, показав отсутствие продолжения, и перешла в узкий диапазон. Ни покупателя, ни продавца не видно ...
 
 ![](../../../../.gitbook/assets/delta-flow-expl.png)
 
-At some point Delta flow started to spot activity to the downside indicating a potential down-move ahead. This is our opportunity to go for a short. SL above the Bracket High, TP1 at Mid Swing, TP2 at Bracket Low.
+В какой-то момент дельта-поток начал обнаруживать активность в сторону снижения, указывая на потенциальное движение вниз. Это наша возможность ненадолго. SL выше верхней границы кронштейна, TP1 при среднем колебании, TP2 при низком уровне кронштейна.
 
-On the down-move selling aggression steps further in allowing the price to reach TP1.
+На нисходящем движении агрессия продаж делает еще один шаг, позволяя цене достичь TP1.
 
-On the last swing below the “Mid Swing”, the aggression vanished. At this stage, caution is advised.
+На последнем колебании ниже «Mid Swing» агрессия улетучилась. На этом этапе рекомендуется соблюдать осторожность.
 
-As prices moves back above the “Mid Swing” significant aggression steps in giving us the signal to close the rest of our order to flat.
+По мере того, как цены возвращаются выше уровня «Mid Swing», появляются значительные шаги агрессии, которые дают нам сигнал закрыть оставшуюся часть нашего ордера до флэта.
 
-At this stage, we can either step aside or reverse our trade into a long position.
+На этом этапе мы можем либо отойти в сторону, либо развернуть нашу сделку в длинную позицию.
 
-In the scenario of a long trade: SL below the last Swing low below the “Mid Swing”, TP1 Bracket High, TP2 above the Bracket as a runner.
+В сценарии длинной сделки: SL ниже последнего минимума Swing ниже «Mid Swing», TP1 High Bracket High, TP2 выше Bracket в качестве раннера.
 
-As the TP1 gets hit, the narrative differs from the previous trade. Buying aggression is still present, allowing us to let the rest of the position to run further. At some stage, aggression steps in, giving us the signal to step out of the trade.
+Когда достигается TP1, повествование отличается от предыдущей сделки. Покупательская агрессия все еще присутствует, что позволяет нам позволить остальной позиции развиваться дальше. На каком-то этапе наступает агрессия, давая нам сигнал выйти из сделки.
 
-## Delta Flow Settings
+## Delta Flow настройка
 
-Coloring Scheme:  
-**By delta** — bar color on the indicator corresponds to the color for positive or negative delta;  
-**By bar** — bar color on the indicator corresponds to the bar color on the chart \(up or down\).
+**Схема окраски:**
+
+**По дельте** - цвет бара на индикаторе соответствует цвету положительной или отрицательной дельты;  
+**По полосе** - цвет полосы на индикаторе соответствует цвету полосы на графике \(вверх или вниз\).
 
 ![](../../../../.gitbook/assets/image%20%2863%29.png)
 
