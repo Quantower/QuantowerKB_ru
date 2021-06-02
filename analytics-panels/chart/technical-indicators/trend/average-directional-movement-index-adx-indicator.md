@@ -7,21 +7,21 @@ description: >-
 
 # Average Directional Movement Index \(ADX\) Indicator
 
-## What is the **Average Directional Movement Index** \(ADX\) **indicator?**
+## Что такое индикатор среднего направленного движения \(ADX\)?
 
-ADX stands for **Average Directional Movement Index** and can be used to help measure the overall strength of a trend. The ADX indicator is an average of expanding price range values. The ADX is a component of the Directional Movement System developed by Welles Wilder. This system attempts to measure the strength of price movement in positive and negative direction using the DMI+ and DMI- indicators along with the ADX.
+ADX означает индекс среднего направленного движения и может использоваться для измерения общей силы тренда. Индикатор ADX - это среднее значение расширяющегося диапазона цен. ADX - это компонент системы направленного движения, разработанной Уэллсом Уайлдером. Эта система пытается измерить силу движения цены в положительном и отрицательном направлении, используя индикаторы DMI + и DMI- вместе с ADX.
 
 ![](../../../../.gitbook/assets/image%20%2859%29.png)
 
-## How the Average Directional Movement Index indicator works
+## Как работает индикатор индекса среднего направленного движения
 
-* Wilder suggests that a strong trend is present when ADX is above 25 and no trend is present when below 20.
-* When the ADX turns down from high values, then the trend may be ending. You may want to do additional research to determine if closing open positions is appropriate for you.
-* If the ADX is declining, it could be an indication that the market is becoming less directional, and the current trend is weakening. You may want to avoid trading trend systems as the trend changes.
-* If after staying low for a lengthy time, the ADX rises by 4 or 5 units, \(for example, from 15 to 20\), it may be giving a signal to trade the current trend.
-* If the ADX is rising then the market is showing a strengthening trend. The value of the ADX is proportional to the slope of the trend. The slope of the ADX line is proportional to the acceleration of the price movement \(changing trend slope\). If the trend is a constant slope then the ADX value tends to flatten out.
+* Wilder предполагает, что сильный тренд присутствует, когда ADX выше 25, и нет тренда, когда ниже 20.
+* Когда ADX отклоняется от высоких значений, возможно, тренд заканчивается. Возможно, вы захотите провести дополнительное исследование, чтобы определить, подходит ли вам закрытие открытых позиций.
+* Если ADX снижается, это может быть признаком того, что рынок становится менее направленным, а текущий тренд ослабевает. Вы можете избегать торговли по трендовым системам при изменении тренда.
+* Если после длительного пребывания на низком уровне ADX поднимается на 4 или 5 единиц \(например, с 15 до 20\), это может указывать на торговлю по текущему тренду.
+* Если ADX растет, рынок показывает тенденцию к укреплению. Значение ADX пропорционально наклону тренда. Наклон линии ADX пропорционален ускорению движения цены \(изменение наклона тренда\). Если тренд имеет постоянный наклон, то значение ADX имеет тенденцию к выравниванию.
 
-## Calculation of the Average Directional Movement Index
+## Расчет индекса среднего направленного движения
 
-ADX is simply the mean, or average, of the values of the DX over the specified _Period_.
+ADX - это просто среднее или среднее значение DX за указанный период.
 

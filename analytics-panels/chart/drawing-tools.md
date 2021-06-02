@@ -1,10 +1,10 @@
 ---
-description: The most powerful tools for drawing levels and other elements on the chart
+description: Мощнейшие инструменты для рисования уровней и других элементов на графике
 ---
 
-# Drawing tools
+# Инструменты рисования
 
-{% embed url="https://www.youtube.com/watch?v=NSX4JQq6i7U" caption="How to add favorite drawing tools to the side bar" %}
+{% embed url="https://www.youtube.com/watch?v=NSX4JQq6i7U" caption="Как добавить любимые инструменты рисования на боковую панель" %}
 
-{% embed url="https://www.youtube.com/watch?v=BtC9iJEOcjY" caption="Learn how to Synchronize Drawing Tools between multiple charts" %}
+{% embed url="https://www.youtube.com/watch?v=BtC9iJEOcjY" caption="Узнайте, как синхронизировать инструменты рисования между несколькими диаграммами" %}
 

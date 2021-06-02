@@ -1,10 +1,10 @@
 ---
 description: >-
-  Get to know how to add technical indicators to chart and manage them in one
-  click.
+  Узнайте, как добавлять технические индикаторы на график и управлять ими одним
+  щелчком мыши.
 ---
 
-# Technical indicators
+# Технические индикаторы
 
 {% embed url="https://www.youtube.com/watch?v=vnMvHggnYv0" caption="" %}
 
