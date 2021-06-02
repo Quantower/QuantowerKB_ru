@@ -5,32 +5,33 @@ description: >-
   времени.
 ---
 
-# Инструменты объемного анализа \| Профили объема \| Footprint график \| VWAP
+# Инструменты объемного анализа, профили объема, кластер, VWAP
 
 Quantower предоставляет [**инструменты анализа объемов**](https://www.quantower.com/volumeanalysistools), расширенные аналитические функции, которые позволяют вам видеть торгуемый объем на каждом уровне цен, оценивать баланс между покупателями и продавцами и понимать намерения трейдеров относительно будущей цены.
 
 Инструменты объемного анализа включают фирменные и хорошо известные аналитики:
 
-* \*\*\*\*[**Кластер** ](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/cluster-chart)\(a.k.a. Footprint chart or OrderFlow chart\)
-* \*\*\*\*[**Профили объема**](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/volume-profiles) — Step, Right, Left and Custom volume profiles
-* \*\*\*\*[**Статистика по времени** ](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/time-statistics)— volume data per each bar in table form
-* \*\*\*\*[**Гистограмма по времени** __](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/time-histogram)— данные объема на каждом баре в виде вертикальной гистограммы
-* [**Пользовательский VWAP**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbD7SUConk3PZ8K2riB/analytics-panels/chart/anchored-vwap) ****— может быть прикреплен к любому выбранному бару в качестве отправной точки расчета
+* \*\*\*\*[**Кластер** ](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/cluster-chart)\(Footprint график ли OrderFlow график\);
+* \*\*\*\*[**Профили объема**](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/volume-profiles) — Пошаговый, Правый, Левый и Пользовательский профили объема;
+* \*\*\*\*[**Статистика по времени** ](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/time-statistics)— объемные данные для каждого бара в виде таблицы;
+* \*\*\*\*[**Гистограмма по времени** __](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/time-histogram)— данные объема на каждом баре в виде вертикальной гистограммы;
+* \*\*\*\*[**Пользовательский VWAP** ](https://help.quantower.com.ru/analytics-panels/chart/anchored-vwap)— может быть прикреплен к любому выбранному бару в качестве отправной точки расчета;
 * [**VWAP**](../vwap.md) — мульти VWAP для одного графика
-* [**T&S бара**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/historical-time-and-sales)— таблица всех сделок для любого выбранного бара
+* [**T&S бара**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/historical-time-and-sales)— таблица всех сделок для любого выбранного бара.
 
 {% embed url="https://youtu.be/duOmadSFN4Y" caption="" %}
 
-The GIF below shows how you can activate the toolbar of volume analysis tools:
+На GIF-изображении ниже показано, как можно активировать панель инструментов для анализа объема:
 
-![Enable the toolbar of Volume Analysis Tools ](../../../.gitbook/assets/volume-analysis-tools.gif)
+![&#x41A;&#x430;&#x43A; &#x432;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x44C; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x44C; &#x438;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x43E;&#x432; Volume Analysis Tools](../../../.gitbook/assets/volume-analysis-tools.gif)
 
 {% hint style="info" %}
-**Green color** indicates that seleced volume analysis tool has entirely downloaded the data.  
-**Yellow color** indicates that selected tool is dowloading the data.
+**Зеленый цвет** означает, что выбранный инструмент анализа объема полностью загрузил данные.
+
+**Желтый цвет** указывает на то, что выбранный инструмент загружает данные.
 {% endhint %}
 
-## Data types of Volume Analysis Tools
+## Типы данных инструментов объемного анализа
 
 Almost all volume analysis tools have the same **Data Types**, which can be specified in the settings:
 
