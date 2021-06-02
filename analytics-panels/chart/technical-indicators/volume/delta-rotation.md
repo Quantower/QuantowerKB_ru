@@ -1,20 +1,18 @@
 ---
-description: >-
-  Delta rotation describes the demand and supply per market rotation through
-  Delta.
+description: Дельта-ротация описывает спрос и предложение на оборот рынка через Дельту.
 ---
 
 # Delta Rotation
 
-Delta rotation describes the demand and supply per market rotation through Delta. This allows us to assess whether or not each price movement can be assigned with an increase of demand/supply or on the opposite on the diminishing supply and demand.
+Дельта-ротация описывает спрос и предложение на оборот рынка через Дельту. Это позволяет нам оценить, может ли каждое ценовое движение быть связано с увеличением спроса / предложения или, наоборот, с уменьшением спроса и предложения.
 
-The following examples cover different entry points from reference points based on supply and demand shifts
+Следующие ниже примеры охватывают разные точки входа от контрольных точек, основанные на изменениях спроса и предложения.
 
-![Delta Rotation usage with NQ futures](../../../../.gitbook/assets/example-1.png)
+![&#x418;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; Delta Rotation &#x441; &#x444;&#x44C;&#x44E;&#x447;&#x435;&#x440;&#x441;&#x430;&#x43C;&#x438; NQ](../../../../.gitbook/assets/example-1.png)
 
-![Delta Rotation \(first histogram\) and Delta Flow \(second\) give good points on stocks market](../../../../.gitbook/assets/example-2.png)
+![&#x414;&#x435;&#x43B;&#x44C;&#x442;&#x430;-&#x432;&#x440;&#x430;&#x449;&#x435;&#x43D;&#x438;&#x435; \(&#x43F;&#x435;&#x440;&#x432;&#x430;&#x44F; &#x433;&#x438;&#x441;&#x442;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x430;\) &#x438; &#x434;&#x435;&#x43B;&#x44C;&#x442;&#x430;-&#x43F;&#x43E;&#x442;&#x43E;&#x43A; \(&#x432;&#x442;&#x43E;&#x440;&#x430;&#x44F;\) &#x434;&#x430;&#x44E;&#x442; &#x445;&#x43E;&#x440;&#x43E;&#x448;&#x438;&#x435; &#x440;&#x435;&#x437;&#x443;&#x43B;&#x44C;&#x442;&#x430;&#x442;&#x44B; &#x43D;&#x430; &#x444;&#x43E;&#x43D;&#x434;&#x43E;&#x432;&#x43E;&#x43C; &#x440;&#x44B;&#x43D;&#x43A;&#x435;.](../../../../.gitbook/assets/example-2.png)
 
 ![](../../../../.gitbook/assets/example-3.png)
 
-![Delta Rotation shows &quot;no demand&quot; on Euro Futures](../../../../.gitbook/assets/example-4.png)
+![Delta Rotation &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x44B;&#x432;&#x430;&#x435;&#x442; &quot;&#x43E;&#x442;&#x441;&#x443;&#x442;&#x441;&#x442;&#x432;&#x438;&#x435; &#x441;&#x43F;&#x440;&#x43E;&#x441;&#x430;&quot; &#x43D;&#x430; &#x444;&#x44C;&#x44E;&#x447;&#x435;&#x440;&#x441;&#x44B; &#x43D;&#x430; &#x435;&#x432;&#x440;&#x43E;](../../../../.gitbook/assets/example-4.png)
 
