@@ -46,18 +46,10 @@ Quantower предоставляет [**инструменты анализа о
 
 ![&#x418;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x439;&#x442;&#x435; &#x440;&#x430;&#x437;&#x43B;&#x438;&#x447;&#x43D;&#x44B;&#x435; &#x442;&#x438;&#x43F;&#x44B; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445; &#x434;&#x43B;&#x44F; &#x432;&#x441;&#x435;&#x445; &#x438;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x43E;&#x432; &#x43E;&#x431;&#x44A;&#x435;&#x43C;&#x43D;&#x43E;&#x433;&#x43E; &#x430;&#x43D;&#x430;&#x43B;&#x438;&#x437;&#x430;](../../../.gitbook/assets/volume-profiles-data-types.png)
 
-* **Average size** — the average volume of the position that was executed at a certain price or price range.
-* **Average Buy size** — the average volume of a Buy position that was executed at a specific price or price range.
-* **Average Sell size** — the average volume of a Sell position that was executed at a specific price or price range.
-* **Max one trade volume \(value and %\)** — shows the maximum volume of a single trade that has executed at a certain price or price range \(depending on the Custom Step \(ticks\) setting\).
-* **Filtered volume \(value and %\)** — this parameter displays volumes that exceed the size specified in the filter. If the volume size is smaller than the one specified in the filter, then the values will be zero.
-* **Buy \(or Sell\) filtered volume** — the parameter displays Buy \(or Sell\) volumes that exceed the size specified in the filter.
 * **Средний размер** - средний объем позиции, которая была исполнена по определенной цене или ценовому диапазону.
 * **Средний размер покупки** - средний объем позиции на покупку, которая была исполнена по определенной цене или в ценовом диапазоне.
 * **Средний размер продажи** - средний объем позиции на продажу, которая была исполнена по определенной цене или ценовому диапазону.
 * **Максимальный объем одной сделки \(значение и%\)** - показывает максимальный объем одной сделки, которая была исполнена по определенной цене или ценовому диапазону \(в зависимости от настройки Custom Step \(ticks\)\).
-
-  Отфильтрованный объем \(значение и%\) - этот параметр отображает объемы, превышающие размер, указанный в фильтре. Если размер тома меньше указанного в фильтре, то значения будут нулевыми.
-
-  Отфильтрованный объем Buy \(или Sell\) - параметр отображает объемы Buy \(или Sell\), превышающие размер, указанный в фильтре.
+* **Отфильтрованный объем** **\(значение и%\)** - этот параметр отображает объемы, превышающие размер, указанный в фильтре. Если размер тома меньше указанного в фильтре, то значения будут нулевыми.
+* **Отфильтрованный объем Buy \(или Sell\)** - параметр отображает объемы Buy \(или Sell\), превышающие размер, указанный в фильтре.
 
