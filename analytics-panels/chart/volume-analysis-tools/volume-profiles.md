@@ -35,6 +35,14 @@ description: >-
 * **Show Value Area borders** – shows the outer limits of the Value Area as dotted lines
 * **Highlight maximum value** – levels with the maximum value are highlighted with the specified color
 * **Show totals** – this option summarizes the data based on which the profile is built.
+* **Период шага и значение шага** - определяют шаг построения профиля. Период шага имеет четыре типа: минута, час, день, неделя.
+* **Тип данных** - выберите любой из ****[**20+ типов данных** ](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbGwguxgp06fdcWVgd1/analytics-panels/chart/volume-analysis-tools#data-types-of-volume-analysis-tools)для создания профиля шага
+* **Положение гистограммы** - расположение профиля слева или справа относительно начальной точки.
+* **Положение значения гистограммы** - определяет положение значения данных: слева, справа или нет
+* **Ширина гистограммы \(в %\)** - показывает ценовую зону с 70% торговой активности за указанный временной диапазон. По умолчанию установлено значение 70%, но пользователь может изменить его по своему усмотрению.
+* Показать границы области значений - отображение внешних границ области значений в виде пунктирных линий.
+* Выделить максимальное значение - уровни с максимальным значением выделяются заданным цветом
+* **Показать итоги** - эта опция суммирует данные, на основе которых построен профиль.
 
 ![Step profile with various data types](../../../.gitbook/assets/step-profile-data-types.gif)
 
