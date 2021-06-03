@@ -8,29 +8,29 @@ description: >-
 
 {% embed url="https://youtu.be/xnUxEjMrKKM" caption="" %}
 
-## What is Cluster chart?
+## Что такое кластерный график?
 
-**Cluster chart**, known as Footprint chart in other trading platforms, is an advanced chart type that shows a comprehensive view of the candle chart. It allows to look inside the price and see all market actions. Cluster chart combines several important characteristics like time, OHLC prices, trading volume, number of buy and sell trades.
+**Кластер график**, известная как график футпринт на других торговых платформах, представляет собой расширенный тип диаграммы, который показывает полное представление свечной диаграммы. Это позволяет заглянуть внутрь цены и увидеть все рыночные действия. Кластерный график сочетает в себе несколько важных характеристик, таких как время, цены OHLC, объем торгов, количество сделок на покупку и продажу.
 
-Using this information, a trader can evaluate:
+Используя эту информацию, трейдер может оценить:
 
-* trading volume, which executed for each price
-* zones of maximum volume accumulation
-* zones of high trading interest \(the maximum number of trades\)
-* the number of buyers and sellers at each price level
+* объем торгов, выполненных по каждой цене
+* зоны максимального накопления объема
+* зоны повышенного торгового интереса \(максимальное количество сделок\)
+* количество покупателей и продавцов на каждом уровне цен
 
-![Cluster chart with Imbalance view ](../../../.gitbook/assets/cluster-chart.png)
+![&#x41A;&#x43B;&#x430;&#x441;&#x442;&#x435;&#x440;&#x43D;&#x44B;&#x439; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A; &#x441; &#x43F;&#x440;&#x435;&#x434;&#x441;&#x442;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x435;&#x43C; &#x434;&#x438;&#x441;&#x431;&#x430;&#x43B;&#x430;&#x43D;&#x441;&#x430; ](../../../.gitbook/assets/cluster-chart.png)
 
-## How to enable cluster chart?
+## Как включить кластерный график?
 
-Before activating a cluster chart, you need to enable the Volume Analysis Toolbar. To do this, in the upper right corner of the chart panel, click on the "_**Magnifier**_" icon. A toolbar with Volume Analysis tools will appear at the bottom of the chart — _Cluster,_ [_Step Profile, Left Profile, Right Profile_](volume-profiles.md)_,_ [_Time Statistics_](time-statistics.md)_,_ [_Time Histogram_](time-histogram.md)_,_ [_Historical Time & Sales_](historical-time-and-sales.md)_,_ [_Custom Volume Profile_](volume-profiles.md#custom-volume-profile).
+Перед активацией кластерной диаграммы необходимо включить панель инструментов Volume Analysis. Для этого в правом верхнем углу панели диаграммы **щелкните значок «Лупа**». Внизу диаграммы появится панель инструментов с инструментами анализа объема - кластер, [**пошаговый профиль, левый профиль, правый профиль,**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbGJgxlm-Fa2OVgQcQw/analytics-panels/chart/volume-analysis-tools/volume-profiles) ****[статистика по времени](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbGJgxlm-Fa2OVgQcQw/analytics-panels/chart/volume-analysis-tools/time-statistics), [гистограмма по времени](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbGJgxlm-Fa2OVgQcQw/analytics-panels/chart/volume-analysis-tools/time-histogram), [**T&S по барам**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbGJgxlm-Fa2OVgQcQw/analytics-panels/chart/volume-analysis-tools/historical-time-and-sales)**,** [**пользовательский объем.**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbGJgxlm-Fa2OVgQcQw/analytics-panels/chart/volume-analysis-tools/volume-profiles#custom-volume-profile)\*\*\*\*
 
-1. Click on the **Cluster** and Enable it
-2. Select the Data type \(you can select one or two different data types at once\)
-3. Customize data visualization
-4. Use advanced settings \(gear icon\) for more detailed chart customization.
+1. Щелкните **кластер** и включите его.
+2. Выберите тип данных \(вы можете выбрать один или два разных типа данных одновременно\)
+3. Настройте визуализацию данных
+4. Используйте расширенные настройки \(значок шестеренки\) для более подробной настройки диаграммы.
 
-![Here is how you can activate Cluster chart in Quantower platform](../../../.gitbook/assets/how-to-enable-cluster-chart.gif)
+![&#x412;&#x43E;&#x442; &#x43A;&#x430;&#x43A; &#x432;&#x44B; &#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43A;&#x43B;&#x430;&#x441;&#x442;&#x435;&#x440;&#x43D;&#x44B;&#x439; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A; &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435; Quantower](../../../.gitbook/assets/how-to-enable-cluster-chart.gif)
 
 {% hint style="info" %}
 For more efficient analysis with cluster chart, you can display two different data types on one bar at once.
