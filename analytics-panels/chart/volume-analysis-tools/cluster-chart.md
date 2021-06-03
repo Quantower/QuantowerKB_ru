@@ -33,29 +33,31 @@ description: >-
 ![&#x412;&#x43E;&#x442; &#x43A;&#x430;&#x43A; &#x432;&#x44B; &#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43A;&#x43B;&#x430;&#x441;&#x442;&#x435;&#x440;&#x43D;&#x44B;&#x439; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A; &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435; Quantower](../../../.gitbook/assets/how-to-enable-cluster-chart.gif)
 
 {% hint style="info" %}
-For more efficient analysis with cluster chart, you can display two different data types on one bar at once.
+Для более эффективного анализа с помощью кластерной диаграммы вы можете одновременно отображать два разных типа данных на одной панели.
 {% endhint %}
 
-## General settings of cluster chart
+## Общие настройки кластерного графика
 
-Cluster chart has various settings allowing to display volume data from different sides. For example, you can choose different types of data for each bar, as well as configure colors, which will simplify the perception and analysis of volumes, trades, etc.
+Кластерный график имеет различные настройки, позволяющие отображать объемные данные с разных сторон. Например, вы можете выбрать разные типы данных для каждого бара, а также настроить цвета, что упростит восприятие и анализ объемов, сделок и т. Д.
 
-![Select different data types for Cluster chart](../../../.gitbook/assets/cluster-data-type.gif)
+![&#x412;&#x44B;&#x431;&#x435;&#x440;&#x438;&#x442;&#x435; &#x440;&#x430;&#x437;&#x43D;&#x44B;&#x435; &#x442;&#x438;&#x43F;&#x44B; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445; &#x434;&#x43B;&#x44F; &#x43A;&#x43B;&#x430;&#x441;&#x442;&#x435;&#x440;&#x43D;&#x43E;&#x439; &#x434;&#x438;&#x430;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x44B;](../../../.gitbook/assets/cluster-data-type.gif)
 
-The main Data Types for cluster chart:
+Основные типы данных для кластерной диаграммы:
 
-* **Trades** — it's the number of contracts \(trades\) that executed at each price level.
-* **Buy \(or Sell\) trades** — it's the number of Buy \(or Sell\) trades that executed at each price level.
-* **Volume** — the total size of all positions that executed at each price level or price range.
-* **Buy \(or Sell\) Volume** — the total size of all Buy \(or sell\) positions that executed at each price level or price range.
-* **Buy \(or Sell\) Volume, %** — shows how many percent of the total volume relates to Buy \(or Sell\) trades
-* **Delta and Delta %** — shows the difference in traded Volume between Buyers and Sellers. It allows evaluating who controls the price on the market at a given time.  Delta % = Delta / Volume \* 100
-* **Average size** — the average volume of the position that was executed at a certain price or price range.
-* **Average Buy size** — the average volume of a Buy position that was executed at a specific price or price range.
-* **Average Sell size** — the average volume of a Sell position that was executed at a specific price or price range.
-* **Max one trade volume \(value and %\)** — shows the maximum volume of a single trade that has executed at a certain price or price range \(depending on the Custom Step \(ticks\) setting\).
-* **Filtered volume \(value and %\)** — this parameter displays volumes that exceed the size specified in the filter. If the volume size is smaller than the one specified in the filter, then the values will be zero.
-* **Buy \(or Sell\) filtered volume** — the parameter displays Buy \(or Sell\) volumes that exceed the size specified in the filter.
+* **Сделки** - это количество контрактов \(сделок\), заключенных на каждом ценовом уровне.
+* **Сделки на покупку \(или продажу\)** - это количество сделок на покупку \(или продажу\), выполненных на каждом ценовом уровне.
+* **Объем** - общий размер всех позиций, исполненных на каждом ценовом уровне или ценовом диапазоне.
+* **Объем покупки \(или продажи\)** - общий размер всех позиций на покупку \(или продажу\), выполненных на каждом ценовом уровне или ценовом диапазоне.
+* **Объем покупки \(или продажи\),%** - показывает, сколько процентов от общего объема относится к сделкам на покупку \(или продажу\).
+* **Дельта и Дельта%** - показывает разницу в торговом объеме между покупателями и продавцами. Это позволяет оценить, кто в данный момент контролирует цену на рынке. Дельта% = Дельта / Объем \* 100
+* **Средний размер** - средний объем позиции, которая была исполнена по определенной цене или ценовому диапазону.
+* **Средний размер покупки** - средний объем позиции на покупку, которая была исполнена по определенной цене или в ценовом диапазоне.
+
+  Средний размер продажи - средний объем позиции на продажу, которая была исполнена по определенной цене или ценовому диапазону.
+
+* **Максимальный объем одной сделки \(значение и%\)** - показывает максимальный объем одной сделки, которая была исполнена по определенной цене или ценовому диапазону \(в зависимости от настройки Custom Step \(ticks\)\).
+* **Отфильтрованный объем \(значение и%\)** - этот параметр отображает объемы, превышающие размер, указанный в фильтре. Если размер тома меньше указанного в фильтре, то значения будут нулевыми.
+* **Отфильтрованный объем Buy \(или Sell\)** - параметр отображает объемы Buy \(или Sell\), превышающие размер, указанный в фильтре.
 
 ## How to set the filtered volume?
 
