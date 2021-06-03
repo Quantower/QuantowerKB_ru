@@ -61,10 +61,10 @@ description: >-
 
 ## Как установить отфильтрованный объем?
 
-For all volume analysis tools, there are general settings that allow you to set Filtered volume, and configure the step for aggregating volume data. On highly liquidity assets like Bitcoin or futures on the S&P500, the trading volume for a trading session is large. Set the minimum volume values that will be displayed on the chart. This will allow you to focus on significant price levels and more clearly see zones of support/resistance.Для всех инструментов объемного анализа есть общие настройки, позволяющие установить отфильтрованный объем и настроить шаг для агрегирования данных объема. По высоколиквидным активам, таким как биткойны или фьючерсы на S & P500, объем торгов за торговую сессию велик. Установите минимальные значения объема, которые будут отображаться на графике. Это позволит вам сосредоточиться на значимых ценовых уровнях и более четко видеть зоны поддержки / сопротивления.
+Для всех инструментов объемного анализа есть общие настройки, позволяющие установить отфильтрованный объем и настроить шаг для агрегирования данных объема. По высоколиквидным активам, таким как биткойны или фьючерсы на S & P500, объем торгов за торговую сессию велик. Установите минимальные значения объема, которые будут отображаться на графике. Это позволит вам сосредоточиться на значимых ценовых уровнях и более четко видеть зоны поддержки / сопротивления.
 
 {% hint style="info" %}
-Each instrument has individual settings for the filtered volume depending on liquidity.
+У каждого инструмента есть индивидуальные настройки фильтруемого объема в зависимости от ликвидности.
 {% endhint %}
 
 ![Filtered volume in general settings of Volume Analysis](../../../.gitbook/assets/filtered-volume.png)
