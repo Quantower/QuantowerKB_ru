@@ -8,9 +8,9 @@ description: >-
 
 {% embed url="https://youtu.be/xnUxEjMrKKM" caption="" %}
 
-## Что такое кластерный график?
+## Что такое Кластер?
 
-**Кластер график**, известная как график футпринт на других торговых платформах, представляет собой расширенный тип диаграммы, который показывает полное представление свечной диаграммы. Это позволяет заглянуть внутрь цены и увидеть все рыночные действия. Кластерный график сочетает в себе несколько важных характеристик, таких как время, цены OHLC, объем торгов, количество сделок на покупку и продажу.
+**Кластер график**, известный как график футпринт на других торговых платформах, представляет собой расширенный тип диаграммы, который показывает полное представление свечной диаграммы. Это позволяет заглянуть внутрь цены и увидеть все рыночные действия. Кластерный график сочетает в себе несколько важных характеристик, таких как время, цены OHLC, объем торгов, количество сделок на покупку и продажу.
 
 Используя эту информацию, трейдер может оценить:
 
@@ -59,9 +59,9 @@ description: >-
 * **Отфильтрованный объем \(значение и%\)** - этот параметр отображает объемы, превышающие размер, указанный в фильтре. Если размер тома меньше указанного в фильтре, то значения будут нулевыми.
 * **Отфильтрованный объем Buy \(или Sell\)** - параметр отображает объемы Buy \(или Sell\), превышающие размер, указанный в фильтре.
 
-## How to set the filtered volume?
+## Как установить отфильтрованный объем?
 
-For all volume analysis tools, there are general settings that allow you to set Filtered volume, and configure the step for aggregating volume data. On highly liquidity assets like Bitcoin or futures on the S&P500, the trading volume for a trading session is large. Set the minimum volume values that will be displayed on the chart. This will allow you to focus on significant price levels and more clearly see zones of support/resistance.
+For all volume analysis tools, there are general settings that allow you to set Filtered volume, and configure the step for aggregating volume data. On highly liquidity assets like Bitcoin or futures on the S&P500, the trading volume for a trading session is large. Set the minimum volume values that will be displayed on the chart. This will allow you to focus on significant price levels and more clearly see zones of support/resistance.Для всех инструментов объемного анализа есть общие настройки, позволяющие установить отфильтрованный объем и настроить шаг для агрегирования данных объема. По высоколиквидным активам, таким как биткойны или фьючерсы на S & P500, объем торгов за торговую сессию велик. Установите минимальные значения объема, которые будут отображаться на графике. Это позволит вам сосредоточиться на значимых ценовых уровнях и более четко видеть зоны поддержки / сопротивления.
 
 {% hint style="info" %}
 Each instrument has individual settings for the filtered volume depending on liquidity.
