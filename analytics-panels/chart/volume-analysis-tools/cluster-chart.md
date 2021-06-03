@@ -67,15 +67,15 @@ description: >-
 У каждого инструмента есть индивидуальные настройки фильтруемого объема в зависимости от ликвидности.
 {% endhint %}
 
-![Filtered volume in general settings of Volume Analysis](../../../.gitbook/assets/filtered-volume.png)
+![&#x41E;&#x442;&#x444;&#x438;&#x43B;&#x44C;&#x442;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x439; &#x43E;&#x431;&#x44A;&#x435;&#x43C; &#x432; &#x43E;&#x431;&#x449;&#x438;&#x445; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x430;&#x445; Volume Analysis](../../../.gitbook/assets/filtered-volume.png)
 
-Select **Filtered Volume** as the data type in clusters to display them on the chart. All values that are less than the filtered volume are presented as zeros.
+Выберите «**Отфильтрованный объем»** в качестве типа данных в кластерах, чтобы отобразить их на диаграмме. Все значения, меньшие отфильтрованного объема, отображаются как нули.
 
 ![](../../../.gitbook/assets/image%20%2879%29.png)
 
-## What is Custom step and how to set it properly?
+## Что такое Пользовательский шаг и как его правильно настроить?
 
-Cluster chart shows volume data at each price level for a specified period. But with a large number of levels, the cluster chart becomes difficult to read.
+Кластерный график показывает данные об объеме на каждом уровне цен за указанный период. Но при большом количестве уровней кластерный график становится трудночитаемым.
 
-**Custom step** summarizes the volume data of as many price levels as specified in the setting. By default, the value of the custom step is set to 1 tick, which means the volume data are shown at each price level.
+**Пользовательский шаг** суммирует данные об объеме для всех уровней цен, указанных в настройке. По умолчанию значение настраиваемого шага установлено на 1 тик, что означает, что данные об объеме отображаются на каждом уровне цен.
 
