@@ -6,6 +6,13 @@ description: >-
 
 # Кластер
 
+* \*\*\*\*[**Что такое Кластер?**](cluster-chart.md#chto-takoe-klaster)\*\*\*\*
+* \*\*\*\*[**Как включить кластерный график?**](cluster-chart.md#kak-vklyuchit-klasternyi-grafik)\*\*\*\*
+* \*\*\*\*[**Общие настройки кластерного графика**](cluster-chart.md#obshie-nastroiki-klasternogo-grafika)\*\*\*\*
+* \*\*\*\*[**Как установить отфильтрованный объем?**](cluster-chart.md#kak-ustanovit-otfiltrovannyi-obem)\*\*\*\*
+* \*\*\*\*[**Что такое Пользовательский шаг и как его правильно настроить?**](cluster-chart.md#chto-takoe-polzovatelskii-shag-i-kak-ego-pravilno-nastroit)\*\*\*\*
+* \*\*\*\*[**Дисбаланс**](cluster-chart.md#imbalance-chart)\*\*\*\*
+
 {% embed url="https://youtu.be/xnUxEjMrKKM" caption="" %}
 
 ## Что такое Кластер?
