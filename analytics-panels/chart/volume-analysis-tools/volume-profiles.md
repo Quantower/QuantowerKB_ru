@@ -23,9 +23,9 @@ description: >-
 
 ![](../../../.gitbook/assets/poshagovyi-profil.gif)
 
-### **General settings of step profile**
+### Общие настройки профиля шага
 
-![Main settings of Step Volume Profile tool](../../../.gitbook/assets/step-profile-settings.gif)
+![](../../../.gitbook/assets/poshagovyi-profil1.gif)
 
 * **Step period & Step coefficient** – determines the step to build the profile. Step period has four types –_Minute, Hour, Day, Week_.
 * **Data type** – choose any of the [**20+ data types**](./#data-types-of-volume-analysis-tools) to build a step profile
