@@ -1,27 +1,27 @@
 ---
 description: >-
-  Volume Profile displays the trading activity over a specific time period at
-  certain price levels.
+  Профиль объема отображает торговую активность за определенный период времени
+  на определенных ценовых уровней
 ---
 
-# Volume profiles
+# Профили объема
 
-**Volume Profile** displays the trading activity over a specific time period at certain price levels. Meaning, it shows what was bought and sold at those current levels, and displays them in a histogram on the side of your chart. Volume Profile allows you to see the zones of maximum trading interest, and as a consequence, the "true" support/resistance levels.
+**Профиль объема** отображает торговую активность за определенный период времени на определенных ценовых уровнях. Это означает, что он показывает, что было куплено и продано на этих текущих уровнях, и отображает их в виде гистограммы сбоку от вашего графика. Профиль объема позволяет увидеть зоны максимального торгового интереса и, как следствие, «истинные» уровни поддержки / сопротивления.
 
-Quantower platform offers four types of Volume profiles:
+Платформа Quantower предлагает четыре типа профилей объема:
 
-* \*\*\*\*[**Step Volume Profile**](volume-profiles.md#step-volume-profile)\*\*\*\*
+* [**Step Volume Profile**](volume-profiles.md#step-volume-profile) ****Пошаговый профиль объема 
 * \*\*\*\*[**Left Volume Profile**](volume-profiles.md#left-and-right-volume-profiles)\*\*\*\*
 * \*\*\*\*[**Right Volume Profile**](volume-profiles.md#left-and-right-volume-profiles)\*\*\*\*
 * \*\*\*\*[**Custom Volume Profile**](volume-profiles.md#custom-volume-profile)\*\*\*\*
 
-## Step Volume Profile
+## Пошаговый профиль объема 
 
-Step profile displays volume profiles with a certain time step. For example, set the step period to 1 hour, and you will see profiles with uniform hourly steps on the graph. By changing the [**data types**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools#data-types-of-volume-analysis-tools), you will see the distribution of the trading volume, the executed trades, as well as the delta for each hour of the trading session.
+Пошаговый профиль отображает профили объема с определенным временным шагом. Например, установите период шага равным 1 часу, и вы увидите профили с одинаковыми почасовыми шагами на графике. Изменяя типы данных, вы увидите распределение торгового объема, выполненных сделок, а также дельту для каждого часа торговой сессии.
 
-You can enable Step Profile through the volume analysis toolbar or their settings.
+Вы можете включить профиль шага через панель инструментов анализа объема или их настройки.
 
-![Here is how you can activate Step Profile in Quantower platform](../../../.gitbook/assets/step-profile.gif)
+![](../../../.gitbook/assets/poshagovyi-profil.gif)
 
 ### **General settings of step profile**
 
