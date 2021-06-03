@@ -116,7 +116,7 @@
         * [Level2 indicator](analytics-panels/chart/technical-indicators/volume/level2-indicator.md)
     * [Инструменты рисования](analytics-panels/chart/drawing-tools.md)
     * [Инструменты объемного анализа, профили объема, кластер, VWAP](analytics-panels/chart/volume-analysis-tools/README.md)
-      * [Cluster chart](analytics-panels/chart/volume-analysis-tools/cluster-chart.md)
+      * [Кластер](analytics-panels/chart/volume-analysis-tools/cluster-chart.md)
       * [Volume profiles](analytics-panels/chart/volume-analysis-tools/volume-profiles.md)
       * [Time statistics](analytics-panels/chart/volume-analysis-tools/time-statistics.md)
       * [Time histogram](analytics-panels/chart/volume-analysis-tools/time-histogram.md)

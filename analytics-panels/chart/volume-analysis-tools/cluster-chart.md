@@ -1,10 +1,10 @@
 ---
 description: >-
-  Cluster or Footprint chart is a professional analytical tool that shows OHLC
-  prices and trading volume on a single chart.
+  Кластер или график футпринта - это профессиональный аналитический инструмент,
+  который показывает цены OHLC и объем торгов на одном графике.
 ---
 
-# Cluster chart
+# Кластер
 
 {% embed url="https://youtu.be/xnUxEjMrKKM" caption="" %}
 
