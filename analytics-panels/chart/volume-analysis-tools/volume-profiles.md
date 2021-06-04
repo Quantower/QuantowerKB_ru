@@ -66,10 +66,10 @@ description: >-
 
 ![&#x414;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438; &#x434;&#x43B;&#x44F; &#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x441;&#x43A;&#x43E;&#x433;&#x43E; &#x43F;&#x440;&#x43E;&#x444;&#x438;&#x43B;&#x44F;](../../../.gitbook/assets/dopnastroiki-polzovatelskii-profil.gif)
 
-There are a lot of various settings, but the most intersting are:
+Настроек очень много, но самые интересные:
 
-* **Value Area** — shows the price area with 70% of trading activity for the specified time range. The value of 70% is set by default, but the user can change it at his discretion.
-* **POC Ray** — extends the level of maximum volume \(Point of Control\) to the price scale
-* **Show Total** — shows/hides the total number under certain profile
-* **Custom step \(ticks\)** summarizes the volume data of as many price levels as specified in the setting. By default, the value of the custom step is set to 1 tick, which means the volume data are shown at each price level.
+* **Ширина гистограммы\(%\)** - показывает ценовую область с 70% торговой активности за указанный временной диапазон. По умолчанию установлено значение 70%, но пользователь может изменить его по своему усмотрению.
+* **POC Ray** расширяет уровень максимального объема \(Point of Control\) до ценовой шкалы
+* Показать общее - показать / скрыть общее количество в определенном профиле
+* Пользовательский шаг \(тики\) суммирует данные об объеме для такого количества ценовых уровней, которое указано в настройке. По умолчанию значение настраиваемого шага установлено на 1 тик, что означает, что данные об объеме отображаются на каждом уровне цен.
 
