@@ -36,13 +36,13 @@ description: >-
 * Выделить максимальное значение - уровни с максимальным значением выделяются заданным цветом
 * **Показать итоги** - эта опция суммирует данные, на основе которых построен профиль.
 
-![Step profile with various data types](../../../.gitbook/assets/step-profile-data-types.gif)
+![&#x41F;&#x43E;&#x448;&#x430;&#x433;&#x43E;&#x432;&#x44B;&#x439; &#x43F;&#x440;&#x43E;&#x444;&#x438;&#x43B;&#x44C; &#x43E;&#x431;&#x44A;&#x435;&#x43C;&#x430; &#x441; &#x440;&#x430;&#x437;&#x43B;&#x438;&#x447;&#x43D;&#x44B;&#x43C;&#x438; &#x442;&#x438;&#x43F;&#x430;&#x43C;&#x438; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445;](../../../.gitbook/assets/step-profile-data-types.gif)
 
-## Left & Right Volume Profiles
+## Левый и правый профиль объема
 
-**Left** and **Right volume profile** can be placed on the left and right side of the chart respectively. For example, you can set the delta data on one profile, and on the other the total volume for the same period of time. You can **combine several profiles** that are built on different time periods into one combo profile and put it on left or right chart position.
+**Левый и правый профиль объема** можно разместить слева и справа от графика соответственно. Например, вы можете установить дельта-данные для одного профиля, а для другого - общий объем за тот же период времени. Вы можете объединить несколько профилей, созданных для разных периодов времени, в один **комбинированный профиль** и поместить его в левую или правую позицию графика.
 
-![Quantower allows to place multiple volume profiles with different data types](../../../.gitbook/assets/left_right-profile.png)
+![Quantower &#x43F;&#x43E;&#x437;&#x432;&#x43E;&#x43B;&#x44F;&#x435;&#x442; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x449;&#x430;&#x442;&#x44C; &#x43D;&#x435;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43F;&#x440;&#x43E;&#x444;&#x438;&#x43B;&#x435;&#x439; &#x442;&#x43E;&#x43C;&#x43E;&#x432; &#x441; &#x440;&#x430;&#x437;&#x43D;&#x44B;&#x43C;&#x438; &#x442;&#x438;&#x43F;&#x430;&#x43C;&#x438; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445;.](../../../.gitbook/assets/left_right-profile.png)
 
 ## Custom Volume Profile
 
