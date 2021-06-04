@@ -44,21 +44,21 @@ description: >-
 
 ![Quantower &#x43F;&#x43E;&#x437;&#x432;&#x43E;&#x43B;&#x44F;&#x435;&#x442; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x449;&#x430;&#x442;&#x44C; &#x43D;&#x435;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43F;&#x440;&#x43E;&#x444;&#x438;&#x43B;&#x435;&#x439; &#x442;&#x43E;&#x43C;&#x43E;&#x432; &#x441; &#x440;&#x430;&#x437;&#x43D;&#x44B;&#x43C;&#x438; &#x442;&#x438;&#x43F;&#x430;&#x43C;&#x438; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445;.](../../../.gitbook/assets/left_right-profile.png)
 
-## Custom Volume Profile
+## Пользовательский профиль объема
 
-Custom profile allows you to create a profile for any time range. For instance, you want to see the distribution of the delta on the flat chart or for the impulse bar. As with other volume analysis tools, you can choose any available data types for display.
+Пользовательский профиль позволяет создать профиль для любого временного диапазона. Например, вы хотите увидеть распределение дельты на плоском графике или на импульсном баре. Как и в случае с другими инструментами объемного анализа, вы можете выбрать для отображения любые доступные типы данных.
 
-![Custom volume profile can be applied to any range](../../../.gitbook/assets/new-custom-profile.gif)
+![&#x41F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x441;&#x43A;&#x438;&#x439; &#x43F;&#x440;&#x43E;&#x444;&#x438;&#x43B;&#x44C; &#x43E;&#x431;&#x44A;&#x435;&#x43C;&#x430; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x43D;&#x438;&#x442;&#x44C; &#x43A; &#x43B;&#x44E;&#x431;&#x43E;&#x43C;&#x443; &#x434;&#x438;&#x430;&#x43F;&#x430;&#x437;&#x43E;&#x43D;&#x443;](../../../.gitbook/assets/new-custom-profile.gif)
 
-After you have placed a custom profile on the chart, a control panel with five options will appear next to it.
+После того, как вы разместите настраиваемый профиль на графике, рядом с ним появится панель управления с пятью параметрами.
 
-![Control panel for custom volume profile](../../../.gitbook/assets/image%20%2820%29.png)
+![&#x41F;&#x430;&#x43D;&#x435;&#x43B;&#x44C; &#x443;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x430;&#x438;&#x432;&#x430;&#x435;&#x43C;&#x43E;&#x433;&#x43E; &#x43F;&#x440;&#x43E;&#x444;&#x438;&#x43B;&#x44F; &#x43E;&#x431;&#x44A;&#x435;&#x43C;&#x430;](../../../.gitbook/assets/image%20%2820%29.png)
 
-* Dublicate profile with the same range and settings
-* Move profile to the background or foreground
-* Lock current position of the profile. Prohibits the profile movement.
-* **Additional settings** for selected profile
-* Delete selected profile
+* Дублировать профиль с тем же диапазоном и настройками
+* Переместить профиль на задний план или на передний план
+* Заблокировать текущее положение профиля. Запрещает движение профиля.
+* Дополнительные настройки для выбранного профиля
+* Удалить выбранный профиль
 
 ## Additional settings for custom profile
 
