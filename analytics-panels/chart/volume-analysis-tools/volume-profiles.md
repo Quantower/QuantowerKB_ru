@@ -60,11 +60,11 @@ description: >-
 * Дополнительные настройки для выбранного профиля
 * Удалить выбранный профиль
 
-## Additional settings for custom profile
+## Дополнительные настройки для пользовательского профиля
 
-In addition to the settings for quick management of custom profile, there are additional settings. Let's take a closer look at what you can customize.
+Помимо настроек для быстрого управления пользовательским профилем, есть дополнительные настройки. Давайте подробнее рассмотрим, что вы можете настроить.
 
-![Additional settings for custom volume profile](../../../.gitbook/assets/custom-profile-settings.gif)
+![&#x414;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438; &#x434;&#x43B;&#x44F; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x430;&#x438;&#x432;&#x430;&#x435;&#x43C;&#x43E;&#x433;&#x43E; &#x43F;&#x440;&#x43E;&#x444;&#x438;&#x43B;&#x44F; &#x433;&#x440;&#x43E;&#x43C;&#x43A;&#x43E;&#x441;&#x442;&#x438;](../../../.gitbook/assets/custom-profile-settings.gif)
 
 There are a lot of various settings, but the most intersting are:
 
