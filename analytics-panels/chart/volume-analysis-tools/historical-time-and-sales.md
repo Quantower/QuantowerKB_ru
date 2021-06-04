@@ -10,13 +10,13 @@
 
 ## Параметры таблицы
 
-By default, the table displays five columns — _Time, Last price, Trade Size, Aggressor flag, Tick direction_. You can move any column of the table left or right, as well as sort or filter data.
+По умолчанию в таблице отображается пять столбцов - Время, Последняя цена, Размер сделки, Флаг агрессора, Направление тика. Вы можете перемещать любой столбец таблицы влево или вправо, а также сортировать или фильтровать данные.
 
-![Context menu of the table of Historical Time &amp; Sales ](../../../.gitbook/assets/context-menu-historical-ts.png)
+![&#x41A;&#x43E;&#x43D;&#x442;&#x435;&#x43A;&#x441;&#x442;&#x43D;&#x43E;&#x435; &#x43C;&#x435;&#x43D;&#x44E; &#x442;&#x430;&#x431;&#x43B;&#x438;&#x446;&#x44B; T&amp;S &#x41B;&#x435;&#x43D;&#x442;&#x430; &#x441;&#x434;&#x435;&#x43B;&#x43E;&#x43A; &#x438;&#x441;&#x442;&#x43E;&#x440;&#x438;&#x438;](../../../.gitbook/assets/context-menu-historical-ts.png)
 
-By right-clicking on the table, a context menu will appear with several options:
+При щелчке правой кнопкой мыши по таблице появится контекстное меню с несколькими опциями:
 
-* **Clear table**. Delete all data from the table
-* **Export data** to external .csv or .html file
-* **Column visibility.** Enable or disable columns in the table
+* Очистить таблицу. Удалить все данные из таблицы
+* Экспорт данных во внешний файл .csv или .html.
+* Видимость столбца. Включение или отключение столбцов в таблице
 
