@@ -10,10 +10,11 @@ description: >-
 
 Платформа Quantower предлагает четыре типа профилей объема:
 
-* [**Step Volume Profile**](volume-profiles.md#step-volume-profile) ****Пошаговый профиль объема 
-* \*\*\*\*[**Left Volume Profile**](volume-profiles.md#left-and-right-volume-profiles)\*\*\*\*
-* \*\*\*\*[**Right Volume Profile**](volume-profiles.md#left-and-right-volume-profiles)\*\*\*\*
-* \*\*\*\*[**Custom Volume Profile**](volume-profiles.md#custom-volume-profile)\*\*\*\*
+* [**Пошаговый профиль объема**](volume-profiles.md#poshagovyi-profil-obema) 
+* \*\*\*\*[**Общие настройки**](volume-profiles.md#obshie-nastroiki)\*\*\*\*
+* \*\*\*\*[**Левый и правый профиль объема**](volume-profiles.md#levyi-i-pravyi-profil-obema)\*\*\*\*
+* \*\*\*\*[**Пользовательский профиль объема**](volume-profiles.md#polzovatelskii-profil-obema)\*\*\*\*
+* \*\*\*\*[**Дополнительные настройки** ](volume-profiles.md#dopolnitelnye-nastroiki-dlya-polzovatelskogo-profilya)\*\*\*\*
 
 ## Пошаговый профиль объема 
 
@@ -23,7 +24,7 @@ description: >-
 
 ![](../../../.gitbook/assets/poshagovyi-profil.gif)
 
-### Общие настройки профиля шага
+### Общие настройки 
 
 ![](../../../.gitbook/assets/poshagovyi-profil1.gif)
 
