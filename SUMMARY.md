@@ -118,7 +118,7 @@
     * [Инструменты объемного анализа, профили объема, кластер, VWAP](analytics-panels/chart/volume-analysis-tools/README.md)
       * [Кластер](analytics-panels/chart/volume-analysis-tools/cluster-chart.md)
       * [Профили объема](analytics-panels/chart/volume-analysis-tools/volume-profiles.md)
-      * [Time statistics](analytics-panels/chart/volume-analysis-tools/time-statistics.md)
+      * [Статистика по времени](analytics-panels/chart/volume-analysis-tools/time-statistics.md)
       * [Time histogram](analytics-panels/chart/volume-analysis-tools/time-histogram.md)
       * [История ленты сделок](analytics-panels/chart/volume-analysis-tools/historical-time-and-sales.md)
     * [Power Trades](analytics-panels/chart/power-trades.md)

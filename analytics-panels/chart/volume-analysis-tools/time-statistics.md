@@ -1,32 +1,32 @@
 ---
-description: >-
-  Time Statistics as a part of Volume analysis tools provides volume data in a
-  table form for every single bar on the chart.
+description: Статистика по времени как часть инструментов анализа объема
 ---
 
-# Time statistics
+# Статистика по времени
 
-**Time Statistics** tool \(sometimes called as _**Bar Statistics**_\) shows important volumetric values for each bar in a static grid-like fashion.
+Инструмент «Статистика по времени» \(иногда называемый «Статистика столбцов»\) показывает важные объемные значения для каждого столбца в виде статической сетки.
 
 {% embed url="https://youtu.be/cIihDZWMOiE" caption="" %}
 
-Click on the **Time Statistics** button to activate it and to add the necessary data type. Also, via a right click in the side scale section the individual statistic values could be enabled / disabled '_on the fly_'.
+Нажмите кнопку «Статистика по времени», чтобы активировать ее и добавить необходимый тип данных. Кроме того, щелкнув правой кнопкой мыши в секции боковой шкалы, отдельные статистические значения могут быть включены / отключены «на лету».
 
-![Time Statistics \(or Bar Statistics\) shows extended volume data for each bar](../../../.gitbook/assets/time-or-bar-statistics.png)
+![&#x421;&#x442;&#x430;&#x442;&#x438;&#x441;&#x442;&#x438;&#x43A;&#x430; &#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x438; \(&#x438;&#x43B;&#x438; &#x441;&#x442;&#x430;&#x442;&#x438;&#x441;&#x442;&#x438;&#x43A;&#x430; &#x441;&#x442;&#x43E;&#x43B;&#x431;&#x446;&#x430;\) &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x44B;&#x432;&#x430;&#x435;&#x442; &#x440;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x44B;&#x435; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x43E;&#x431;&#x44A;&#x435;&#x43C;&#x430; &#x434;&#x43B;&#x44F; &#x43A;&#x430;&#x436;&#x434;&#x43E;&#x433;&#x43E; &#x431;&#x430;&#x440;&#x430;](../../../.gitbook/assets/bystroe-otklyuchenie-statistiki-po-vremeni%20%281%29.jpg)
 
-The main Data Types for Time Statistics:
+Основные типы данных для статистики времени:
 
-* **Trades** — it's the number of contracts \(trades\) that executed at each price level.
-* **Buy \(or Sell\) trades** — it's the number of Buy \(or Sell\) trades that executed at each price level.
-* **Volume** — the total size of all positions that executed at each price level or price range.
-* **Buy \(or Sell\) Volume** — the total size of all Buy \(or sell\) positions that executed at each price level or price range.
-* **Buy \(or Sell\) Volume, %** — shows how many percent of the total volume relates to Buy \(or Sell\) trades
-* **Delta and Delta %** — shows the difference in traded Volume between Buyers and Sellers. It allows evaluating who controls the price on the market at a given time.  Delta % = Delta / Volume \* 100
-* **Cumulative Delta** — the data is built by adding the current delta value with each subsequent delta value for the certain period of time \(or number of bars\). 
-* **Average size** — the average volume of the position that was executed at a certain price or price range.
-* **Average Buy size** — the average volume of a Buy position that was executed at a specific price or price range.
-* **Average Sell size** — the average volume of a Sell position that was executed at a specific price or price range.
-* **Max one trade volume \(value and %\)** — shows the maximum volume of a single trade that has executed at a certain price or price range \(depending on the Custom Step \(ticks\) setting\).
-* **Filtered volume \(value and %\)** — this parameter displays volumes that exceed the size specified in the filter. If the volume size is smaller than the one specified in the filter, then the values will be zero.
-* **Buy \(or Sell\) filtered volume** — the parameter displays Buy \(or Sell\) volumes that exceed the size specified in the filter.
+* Сделки - это количество контрактов \(сделок\), заключенных на каждом ценовом уровне.
+
+  Сделки на покупку \(или продажу\) - это количество сделок на покупку \(или продажу\), выполненных на каждом ценовом уровне.
+
+* Объем - общий размер всех позиций, исполненных на каждом ценовом уровне или ценовом диапазоне.
+* Объем покупки \(или продажи\) - общий размер всех позиций на покупку \(или продажу\), выполненных на каждом ценовом уровне или ценовом диапазоне.
+* Объем покупки \(или продажи\),% - показывает, сколько процентов от общего объема относится к сделкам на покупку \(или продажу\).
+* Дельта и Дельта% - показывает разницу в торговом объеме между покупателями и продавцами. Это позволяет оценить, кто в данный момент контролирует цену на рынке. Дельта% = Дельта / Объем \* 100
+* Накопительная дельта - данные строятся путем добавления текущего значения дельты к каждому последующему значению дельты за определенный период времени \(или количество баров\).
+* Средний размер - средний объем позиции, которая была исполнена по определенной цене или ценовому диапазону.
+* Средний размер покупки - средний объем позиции на покупку, которая была исполнена по определенной цене или в ценовом диапазоне.
+* Средний размер продажи - средний объем позиции на продажу, которая была исполнена по определенной цене или ценовому диапазону.
+* Максимальный объем одной сделки \(значение и%\) - показывает максимальный объем одной сделки, которая была исполнена по определенной цене или ценовому диапазону \(в зависимости от настройки Custom Step \(ticks\)\).
+* Отфильтрованный объем \(значение и%\) - этот параметр отображает объемы, превышающие размер, указанный в фильтре. Если размер тома меньше указанного в фильтре, то значения будут нулевыми.
+* Отфильтрованный объем Buy \(или Sell\) - параметр отображает объемы Buy \(или Sell\), превышающие размер, указанный в фильтре.
 
