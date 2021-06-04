@@ -1,12 +1,14 @@
-# Historical Time & Sales
+# T&S Лента сделок истории каждой свечи, бара  с графика
 
-Historical Time & Sales tool shows all trades for the selected bar in the form of Time & Sales. Once you have activated the Historical T & S and chose the desired historical bar on the chart, all its trades will be shown in the table in the order of their execution.
+Инструмент **«T&S»** показывает все сделки для выбранного бара в форме «Лента сделок». После того, как вы активировали Исторические T&S и выбрали желаемый исторический бар на графике, все его сделки будут показаны в таблице в порядке их исполнения. 
 
-![Historical Time &amp; Sales](../../../.gitbook/assets/historical-ts.gif)
+![&#x41B;&#x435;&#x43D;&#x442;&#x430; &#x441;&#x434;&#x435;&#x43B;&#x43E;&#x43A; &#x432; &#x438;&#x441;&#x442;&#x43E;&#x440;&#x438;&#x438;](../../../.gitbook/assets/historical-ts.gif)
 
-Turn on "**Bar Select"** button and select the bar \(candle\) for which you want to download data. When this mode is turned off, you can continue to work with the chart, while the downloaded data will remain in the table.
+Включите кнопку **«Bar Select»** и выберите столбец, бар, \(свечу\), для которого вы хотите загрузить данные. Когда этот режим выключен, вы можете продолжить работу с графиком, при этом загруженные данные останутся в таблице.
 
-## Table actions
+
+
+## Параметры таблицы
 
 By default, the table displays five columns — _Time, Last price, Trade Size, Aggressor flag, Tick direction_. You can move any column of the table left or right, as well as sort or filter data.
 
