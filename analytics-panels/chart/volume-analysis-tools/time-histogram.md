@@ -1,44 +1,47 @@
 ---
 description: >-
-  Time Histogram tool shows the volume data as a vertical histogram for each
-  bar. Thanks to this, you can visually compare the size of volume bars relative
-  to each other.
+  Инструмент «Временная гистограмма» отображает данные объема в виде
+  вертикальной гистограммы для каждого столбца.  Благодаря этому вы можете
+  визуально сравнить размер столбиков объема.
 ---
 
-# Time histogram
+# Гистограмма по времени
 
-**Time Histogram** is similar to [Time Statistics](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/time-statistics) tool that shows volume data as a vertical histogram for each bar. But unlike Time statistics, it allows you to visually evaluate the data for each bar, not only by colors but also by the shape of the histogram.
+**Гистограмма по времени** похожа на инструмент временной статистики, который показывает данные объема в виде вертикальной гистограммы для каждого столбца. Но в отличие от статистики по времени, он позволяет визуально оценивать данные для каждого столбца не только по цветам, но и по форме гистограммы.
 
-![Time histogram on the chart &#x2014; general view](../../../.gitbook/assets/time-histogram-general-view.png)
+![](../../../.gitbook/assets/gistogramma-pro-vremeni.png)
 
-Click on the **Time Histogram** and switch the button **"Enable"** to activate the functionality on the chart. Time Histogram supports an extensive list of Data types that you can change either in the settings or directly in the activation mode.
+Щелкните по **временной гистограмме** и переключите кнопку «Включить», чтобы активировать функцию на графике. Гистограмма времени поддерживает обширный список типов данных, которые вы можете изменить либо в настройках, либо непосредственно в режиме активации.
 
-![Main settings of Time Histogram tool](../../../.gitbook/assets/time-histogram-settings.png)
+![](../../../.gitbook/assets/gistogramma-pro-vremeni-nastroiki.png)
 
-* **Enable Time Histogram** — activates the functionality to display on the chart. After you activate it, the loading process of tick and volume data will begin. The yellow color will indicate that data is loading. Green color means that the data for the selected history depth is fully downloaded.
+Включить гистограмму времени - активирует функцию отображения на графике. После его активации начнется процесс загрузки тиковых и объемных данных. 
 
-![Loaded data \(green color\); data is loading \(yellow color\)](../../../.gitbook/assets/time-histogram-loading-data.gif)
+**Желтый цвет** укажет, что данные загружаются.   
+**Зеленый цвет** означает, что данные для выбранной глубины истории загружены полностью.
 
-* **Height of Histogram, %** — determines what part of the chart area will be occupied for displaying volume data. If you set the value to 50%, then half of the chart area will be filled by Time Histogram data.
+![&#x417;&#x430;&#x433;&#x440;&#x443;&#x436;&#x435;&#x43D;&#x43D;&#x44B;&#x435; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435; \(&#x437;&#x435;&#x43B;&#x435;&#x43D;&#x44B;&#x439; &#x446;&#x432;&#x435;&#x442;\);  &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x437;&#x430;&#x433;&#x440;&#x443;&#x436;&#x430;&#x44E;&#x442;&#x441;&#x44F; \(&#x436;&#x435;&#x43B;&#x442;&#x44B;&#x439; &#x446;&#x432;&#x435;&#x442;\)](../../../.gitbook/assets/time-histogram-loading-data.gif)
 
-![Set the height of time histogram \(%\) that will fill the chart area](../../../.gitbook/assets/height-of-time-histogram.png)
+* **Высота гистограммы,%** - определяет, какая часть области графика будет занята для отображения объемных данных. Если вы установите значение 50%, то половина области диаграммы будет заполнена данными временной гистограммы.
 
-* **Data types** — various types of volume data that can be displayed on a chart. There are trades, volume, bid & ask trades and volume, filtered data, etc. The full list with descriptions of these data types you can find in our Help documentation that describes general information about [**Volume Analysis Tools**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools).
-* **Value label and Data type color** — here you set the color settings for the font and the histogram, respectively.
+![&#x423;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x438;&#x442;&#x435; &#x432;&#x44B;&#x441;&#x43E;&#x442;&#x443; &#x433;&#x438;&#x441;&#x442;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x44B; &#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x438; \(%\), &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x430;&#x44F; &#x431;&#x443;&#x434;&#x435;&#x442; &#x437;&#x430;&#x43F;&#x43E;&#x43B;&#x43D;&#x44F;&#x442;&#x44C; &#x43E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C; &#x434;&#x438;&#x430;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x44B;](../../../.gitbook/assets/utanovit-vysotu-gistogrammy-po-vremeni.gif)
 
-## The main Data Types for Time Histogram:
+* **Типы данных** - различные типы объемных данных, которые могут отображаться на графике. Есть сделки, объем, сделки спроса и предложения, объем, отфильтрованные данные и т. Д. Полный список с описанием этих типов данных вы можете найти в нашей справочной документации, в которой описывается общая информация об инструментах анализа объема.
+* **Метка значения и Цвет типа данных** - здесь вы устанавливаете настройки цвета для шрифта и гистограммы соответственно.
 
-* **Trades** — it's the number of contracts \(trades\) that executed at each price level.
-* **Buy \(or Sell\) trades** — it's the number of Buy \(or Sell\) trades that executed at each price level.
-* **Volume** — the total size of all positions that executed at each price level or price range.
-* **Buy \(or Sell\) Volume** — the total size of all Buy \(or sell\) positions that executed at each price level or price range.
-* **Buy \(or Sell\) Volume, %** — shows how many percent of the total volume relates to Buy \(or Sell\) trades
-* **Delta and Delta %** — shows the difference in traded Volume between Buyers and Sellers. It allows evaluating who controls the price on the market at a given time.  Delta % = Delta / Volume \* 100
-* **Cumulative Delta** — the data is built by adding the current delta value with each subsequent delta value for the certain period of time \(or number of bars\). 
-* **Average size** — the average volume of the position that was executed at a certain price or price range.
-* **Average Buy size** — the average volume of a Buy position that was executed at a specific price or price range.
-* **Average Sell size** — the average volume of a Sell position that was executed at a specific price or price range.
-* **Max one trade volume \(value and %\)** — shows the maximum volume of a single trade that has executed at a certain price or price range \(depending on the Custom Step \(ticks\) setting\).
-* **Filtered volume \(value and %\)** — this parameter displays volumes that exceed the size specified in the filter. If the volume size is smaller than the one specified in the filter, then the values will be zero.
-* **Buy \(or Sell\) filtered volume** — the parameter displays Buy \(or Sell\) volumes that exceed the size specified in the filter.
+## Основные типы данных для временной гистограммы:
+
+* **Сделки** - это количество контрактов \(сделок\), заключенных на каждом ценовом уровне.
+* **Сделки на покупку \(или продажу\)** - это количество сделок на покупку \(или продажу\), выполненных на каждом ценовом уровне.
+* **Объем** - общий размер всех позиций, исполненных на каждом ценовом уровне или ценовом диапазоне.
+* **Объем покупки \(или продажи\)** - общий размер всех позиций на покупку \(или продажу\), выполненных на каждом ценовом уровне или ценовом диапазоне.
+* **Объем покупки \(или продажи\),%** - показывает, сколько процентов от общего объема относится к сделкам на покупку \(или продажу\).
+* **Дельта и Дельта%** - показывает разницу в торговом объеме между покупателями и продавцами. Это позволяет оценить, кто в данный момент контролирует цену на рынке. Дельта% = Дельта / Объем \* 100
+* **Накопительная дельта** - данные строятся путем добавления текущего значения дельты к каждому последующему значению дельты за определенный период времени \(или количество баров\).
+* **Средний размер** - средний объем позиции, которая была исполнена по определенной цене или ценовому диапазону.
+* **Средний размер покупки** - средний объем позиции на покупку, которая была исполнена по определенной цене или в ценовом диапазоне.
+* **Средний размер продажи** - средний объем позиции на продажу, которая была исполнена по определенной цене или ценовому диапазону.
+* **Максимальный объем одной сделки \(значение и%\)** - показывает максимальный объем одной сделки, которая была исполнена по определенной цене или ценовому диапазону \(в зависимости от настройки Custom Step \(ticks\)\).
+* **Отфильтрованный объем \(значение и%\)** - этот параметр отображает объемы, превышающие размер, указанный в фильтре. Если размер тома меньше указанного в фильтре, то значения будут нулевыми.
+* **Отфильтрованный объем Buy \(или Sell\)** - параметр отображает объемы Buy \(или Sell\), превышающие размер, указанный в фильтре.
 
