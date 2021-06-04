@@ -120,7 +120,7 @@
       * [Профили объема](analytics-panels/chart/volume-analysis-tools/volume-profiles.md)
       * [Time statistics](analytics-panels/chart/volume-analysis-tools/time-statistics.md)
       * [Time histogram](analytics-panels/chart/volume-analysis-tools/time-histogram.md)
-      * [T&S история ленты сделок](analytics-panels/chart/volume-analysis-tools/historical-time-and-sales.md)
+      * [История ленты сделок](analytics-panels/chart/volume-analysis-tools/historical-time-and-sales.md)
     * [Power Trades](analytics-panels/chart/power-trades.md)
     * [VWAP \| Volume Weighted Average Price](analytics-panels/chart/vwap.md)
     * [Anchored VWAP](analytics-panels/chart/anchored-vwap.md)
