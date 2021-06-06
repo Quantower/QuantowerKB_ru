@@ -5,17 +5,19 @@ description: >-
   торговую стратегию и контролировать ее поведение.
 ---
 
-# Strategy runner
+# Запуск и тестирование стратегий
 
 ## Видео инструкция
 
 This video describes the process of creation of a simple automated trading strategy as well as Strategy runner operation practicesВ этом видео описывается процесс создания простой автоматической торговой стратегии, а также практика работы с бегуном стратегий.
 
-{% embed url="https://www.youtube.com/watch?v=SP\_7emOq0Fk" caption="Video manual on how to backtest your code in Strategy runner panel" %}
+{% embed url="https://www.youtube.com/watch?v=SP\_7emOq0Fk" caption="Видео-руководство по тестированию вашего кода на бэктестинге на панели Strategy runner" %}
 
-## **General usage**
+## Общее использование
 
-Initially, this panel consists of two parts: Strategy parameters and Results. The parameters section represents the strategy operation settings and allows you to change them before launch. The Results section represents all of the information about strategy progress once it was launched. Right in the footer of the Strategy runner panel you can find the Run button, which will change to Stop after the strategy was launched.
+Изначально эта панель состоит из двух частей: Параметры стратегии и Результаты.   
+**-Раздел параметров** представляет собой настройки работы стратегии и позволяет изменять их перед запуском.   
+**-В разделе «Результаты»** представлена ​​вся информация о ходе реализации стратегии после ее запуска. Прямо в нижнем колонтитуле панели запуска стратегии вы можете найти кнопку «Выполнить», которая изменится на «Стоп» после запуска стратегии.
 
 ![Strategy runner panel general view](../.gitbook/assets/strategyrunner.png)
 

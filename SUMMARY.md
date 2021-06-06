@@ -172,7 +172,7 @@
 * [Quantower алгоритмическая торговля](quantower-algo/README.md)
   * [Вступление](quantower-algo/introduction.md)
   * [Установка Visual Studio](quantower-algo/installing-visual-studio.md)
-  * [Strategy runner](quantower-algo/strategy-runner.md)
+  * [Запуск и тестирование стратегий](quantower-algo/strategy-runner.md)
   * [Simple Indicator](quantower-algo/simple-indicator.md)
   * [Simple strategy](quantower-algo/simple-strategy.md)
   * [Input Parameters](quantower-algo/input-parameters.md)
