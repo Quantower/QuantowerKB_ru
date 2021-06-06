@@ -19,80 +19,84 @@ This video describes the process of creation of a simple automated trading strat
 **-Раздел параметров** представляет собой настройки работы стратегии и позволяет изменять их перед запуском.   
 **-В разделе «Результаты»** представлена ​​вся информация о ходе реализации стратегии после ее запуска. Прямо в нижнем колонтитуле панели запуска стратегии вы можете найти кнопку «Выполнить», которая изменится на «Стоп» после запуска стратегии.
 
-![Strategy runner panel general view](../.gitbook/assets/strategyrunner.png)
+![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x441;&#x442;&#x440;&#x430;&#x442;&#x435;&#x433;&#x438;&#x438;](../.gitbook/assets/strategyrunner.png)
 
-In general, to start automated trading you should:
+В целом, чтобы начать автоматическую торговлю, вам необходимо:
 
-1. Launch the Strategy runner panel
-2. Select the required strategy
-3. Set up automated trading parameters
-4. Press the Run button
+1. Запустить панель раннера стратегии
+2. Выберите необходимую стратегию
+3. Настроить параметры автоматической торговли
+4. Нажмите кнопку Run
 
-## Strategy parameters
+## Параметры стратегий
 
-The strategy usually has its own input parameters, that were declared in its code. Usually, there are Symbol, Account, and some other parameters.
+У стратегии обычно есть собственные входные параметры, которые были объявлены в ее коде. Обычно это Symbol, Account и некоторые другие параметры.
 
 {% hint style="warning" %}
-Before launching the strategy in Live mode, **you must carefully check** and provide all of the required data. Please note that improperly configured ATS can lead to a huge money loss.
+Перед запуском стратегии в режиме Live необходимо внимательно проверить и предоставить все необходимые данные. Обратите внимание, что неправильно настроенный ATS может привести к огромным денежным потерям.
 {% endhint %}
 
-When you operate in Backtesting mode, the first selected for backtesting Symbol and its account will be automatically applied to strategy settings.
+Когда вы работаете в режиме бэктестинга, первый выбранный для бэктестирования символ и его учетная запись будут автоматически применены к настройкам стратегии.
 
-## Launch and stop
+## Запуск и остановка
 
-The **Run** button in the footer of the panel initiates the selected strategy launch \(including historical data loading\) and other preparation steps. Once the strategy was started, the Run button converts to a **Stop** button, allowing it to stop the process.
+Кнопка **«Выполнить»** в нижнем колонтитуле панели инициирует запуск выбранной стратегии \(включая загрузку исторических данных\) и другие подготовительные шаги. После запуска стратегии кнопка «Выполнить» преобразуется в кнопку «Стоп», позволяя остановить процесс.
 
-## Results
+## Полученные результаты
 
-This section displays the general statistics of strategy operation, such as **Run Date/Time** \(when it was launched\), **Working time** \(how much time it works\), and any additional parameters, that are specific per each different strategy. The lowest section of the Results block is the **Logs** list, where the strategy will output all of the actions that it performs while working.
+В этом разделе отображается общая статистика работы стратегии, такая как Дата / время запуска \(когда она была запущена\), Время работы \(сколько времени она работает\) и любые дополнительные параметры, специфичные для каждой отдельной стратегии. Самая нижняя часть блока результатов - это список журналов, где стратегия выводит все действия, которые она выполняет во время работы.
 
-## Backtesting mode
+## Режим тестирования на истории
 
-Another usage of this panel is a Backtesting mode. When you select a strategy, you will find a switcher with two options of strategy operation: Live & Backtest. The first option will launch your strategy with live trading data on the selected Account and Symbol. But if you switch to the Backtest mode, you will see an additional block, devoted to the backtesting environment. **This mode allows the user to test strategy before going live with it.** Actually, while in backtesting mode, all strategy’s actions will be fully emulated on some historical data.
+Еще одно использование этой панели - это режим тестирования на истории. При выборе стратегии вы найдете переключатель с двумя вариантами работы стратегии: **Live и Backtest.** Первый вариант запустит вашу стратегию с текущими торговыми данными по выбранному счету и символу. Но если вы перейдете в режим тестирования на истории, вы увидите дополнительный блок, посвященный среде тестирования на истории. Этот режим позволяет пользователю протестировать стратегию, прежде чем использовать ее. Фактически, в режиме тестирования на истории все действия стратегии будут полностью эмулироваться на некоторых исторических данных.
 
-### **Testing environment set up**
+### Настройка тестовой среды
 
-First, specify the **Historical period** for testing. This is the period of historical data that will be downloaded for the selected Symbol.
+Во-первых, укажите **Исторический период** для тестирования. Это период исторических данных, которые будут загружены для выбранного символа.
 
-Next, specify a **Symbol** to test on. This is a Symbol of some data provider that you are currently connected to. Additionally, you can select the following Symbol’s data parameters:
+Затем укажите **символ для тестирования**. Это символ поставщика данных, к которому вы в настоящее время подключены. Дополнительно вы можете выбрать следующие параметры данных символа:
 
-* **Build from** option specifies how the historical data should be aggregated for testing purposes: 
-  * _Ticks_ allow emulating the most accurate data flow, similar to “real” market behavior. Best for daily period testing and high-frequency trading strategies.
-  * _1-minute_ aggregation is good for weekly testing. This aggregation allows us to reduce the historical data amount and speed up the backtesting process.
-  * _1-day_ aggregation is the best for testing a long-range of historical data \(months, years\) and seasonal market changes.
-* **Executing type** option specifies what data should be used for testing: Bid/Ask/Last or just Last market data. Depending on your data provider, you might not be able to get Bid/Ask/Last historical data.
+* Опция **Build from** указывает, как исторические данные должны быть агрегированы для целей тестирования: 
+
+  * Тики позволяют имитировать наиболее точный поток данных, аналогичный «реальному» поведению рынка.  Лучше всего подходит для ежедневного тестирования периодов и стратегий высокочастотной торговли. 
+  * 1-минутная агрегация хороша для еженедельного тестирования.  Эта агрегация позволяет нам уменьшить объем исторических данных и ускорить процесс тестирования на исторических данных. 
+  * Однодневное агрегирование лучше всего подходит для тестирования большого количества исторических данных \(месяцы, годы\) и сезонных изменений рынка.
+
+  \_\_
+
+* Опция **Executing type** указывает, какие данные следует использовать для тестирования: Bid / Ask / Last или просто последние рыночные данные. В зависимости от вашего поставщика данных вы не сможете получить исторические данные о ставках / спросе / последнем.
 
 {% hint style="info" %}
-Please note, that Ticks aggregation may lead to high internet traffic consumption and computer processor load while backtesting if used with a long historical period.
+Обратите внимание, что агрегирование Ticks может привести к высокому потреблению интернет-трафика и нагрузке на процессор компьютера при тестировании на исторических данных, если оно используется с длительным историческим периодом.
 {% endhint %}
 
-In case your strategy requires some additional data for analysis, you may specify **multiple symbols** for the testing environment. These symbols can be later used to specify in the strategy operation parameters section.
+Если ваша стратегия требует дополнительных данных для анализа, вы можете указать несколько символов для тестовой среды. Эти символы в дальнейшем можно будет использовать для указания в разделе параметров работы стратегии.
 
-### Environment settings
+### Настройки среды
 
-![Backtesting environment global settings](../.gitbook/assets/backtestsett.png)
+![&#x413;&#x43B;&#x43E;&#x431;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438; &#x441;&#x440;&#x435;&#x434;&#x44B; &#x442;&#x435;&#x441;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x43D;&#x430; &#x438;&#x441;&#x442;&#x43E;&#x440;&#x438;&#x438;](../.gitbook/assets/backtestsett.png)
 
-There is also an **additional settings screen** allowing to set up some Exchange or Market-specific parameters in order to emulate the most accurate and “real” testing environment. There is a View tab, for general parameters, and Per-selected-symbol tabs, for specifying symbol-specific parameters.
+Также имеется дополнительный экран настроек, позволяющий настроить некоторые параметры, специфичные для биржи или рынка, чтобы имитировать наиболее точную и «настоящую» среду тестирования. Есть вкладка "Просмотр" для общих параметров и вкладки "По выбранному символу" для указания параметров, связанных с символом.
 
-* **Initial balance.** This field allows you to set an initial balance of your testing account.
-* **Modeling scheme.** Here you can specify how backtester should generate quotes from source bars history:
-  * OHLC. For each bar 4 quotes will be generated using Open, High, Low and Close prices.
-  * Open. Only one quote per bar, using Open price, will be generated.
-  * Close. Only one quote per bar, using Close price, will be generated. _Please note, that these rules can be applied only when you provide bar history as source data for backtester. When you provide tick data, the backtester will generate a quote for each tick._
-* **Netting type.** This option specifies how your backtester should behave when you open multiple positions per one symbol
-  * One position. All new positions will be combined with the one first opened.
-  * Multiple per side. All new positions will be combined with the one first opened but separately per each trading Side.
-  * Multiple positions. All new positions will be opened separately.
-* **Fee per side.** You can set the value of the fee that will be added to each trade that your strategy will make. This value should be set in quoting currency \(e.g. currency of your testing account\).
+* **Первоначальный баланс.** Это поле позволяет вам установить начальный баланс вашей тестовой учетной записи.
+* **Схема моделирования.** Здесь вы можете указать, как бэктестер должен генерировать котировки из истории исходных баров:
+  * OHLC. Для каждого бара будет сгенерировано 4 котировки с использованием цен открытия, максимума, минимума и закрытия.
+  * Открыть. Будет сгенерирована только одна котировка на бар с использованием цены открытия.
+  * Закрыть. Будет сгенерирована только одна котировка на бар с использованием цены закрытия. Обратите внимание, что эти правила могут применяться только в том случае, если вы предоставляете историю бара в качестве исходных данных для бэктестера. Когда вы предоставляете тиковые данные, тестер генерирует котировку для каждого тика.
+* **Тип сетки.** Эта опция определяет, как должен вести себя ваш бэктестер, когда вы открываете несколько позиций на один символ.
+  * Одна позиция. Все новые позиции будут объединены с первой открытой.
+  * Несколько с каждой стороны. Все новые позиции будут объединены с первой открытой, но отдельно для каждой торговой стороны.
+  * Несколько позиций. Все новые позиции будут открываться отдельно.
+* **Комиссии по сделке.** Вы можете установить размер комиссии, которая будет добавляться к каждой сделке, совершаемой вашей стратегией. Это значение должно быть установлено в валюте котировки \(например, в валюте вашей тестовой учетной записи\).
 
-### **Backtesting controllers**
+### Контроллеры для тестирования на истории
 
-Another feature of the "Strategy runner" panel is an **Interactive mode**. It is situated in the footer of the panel and is enabled by default. This mode allows us to track the testing process more precisely and even control its speed.
+Еще одна особенность панели «**Запуск и тестирование стратегий**» - интерактивный режим. Он расположен в нижнем колонтитуле панели и включен по умолчанию. Этот режим позволяет более точно отслеживать процесс тестирования и даже контролировать его скорость.
 
-The interactive mode gives a possibility to visualize the strategy’s actions using various panels of the Quantower terminal. The **Speed slider** slows down or makes faster the process of historical data playback. The lowest value of Speed pauses the strategy and activates the “per-tick” \(actually per “Build from” value\) playback button.
+Интерактивный режим дает возможность визуализировать действия стратегии с помощью различных панелей терминала Quantower. Ползунок скорости замедляет или ускоряет процесс воспроизведения исторических данных. Наименьшее значение Speed ​​приостанавливает стратегию и активирует кнопку воспроизведения «за тик» \(фактически за значение «Build from»\).
 
 {% hint style="info" %}
-Please note, when you click the Stop button in backtesting mode, your strategy’s results will be erased and you won’t be able to access them anymore.
+Обратите внимание: когда вы нажимаете кнопку «Стоп» в режиме тестирования на истории, результаты вашей стратегии будут стерты, и вы больше не сможете получить к ним доступ.
 {% endhint %}
 
 ### **Backtesting results**
