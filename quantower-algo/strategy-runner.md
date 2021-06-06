@@ -99,25 +99,25 @@ This video describes the process of creation of a simple automated trading strat
 Обратите внимание: когда вы нажимаете кнопку «Стоп» в режиме тестирования на истории, результаты вашей стратегии будут стерты, и вы больше не сможете получить к ним доступ.
 {% endhint %}
 
-### **Backtesting results**
+### Результаты тестирования на истории
 
-When you launch your strategy in backtesting mode, the backtesting environment section converts to the Progress section. Here you can see the history playback progress bar and **Visualizer button** on the right side of each symbol row.
+Когда вы запускаете свою стратегию в режиме тестирования на истории, раздел среды тестирования на истории преобразуется в раздел Прогресс. Здесь вы можете увидеть индикатор выполнения воспроизведения истории и кнопку визуализатора с правой стороны каждой строки символов.
 
-The Visualizer button allows us to open some Quantower panels and visually track the strategy operation during the history playback. The most interesting panels are Account performance, showing the trading results of your strategy, and Chart panel, which will display trades using a visual trading interface. You can also visualize the backtesting process in various panels such as Time&Sales, DOM Surface, and TPO Chart, etc.
+Кнопка Visualizer позволяет нам открывать некоторые панели Quantower и визуально отслеживать работу стратегии во время воспроизведения истории. Самыми интересными панелями являются «Производительность счета», показывающая торговые результаты вашей стратегии, и панель «График», на которой сделки отображаются с помощью визуального торгового интерфейса. Вы также можете визуализировать процесс тестирования на различных панелях, таких как Time & Sales, DOM Surface, TPO Chart и т. Д.
 
-![Backtesting playback process](../.gitbook/assets/playback.png)
+![&#x422;&#x435;&#x441;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x43F;&#x440;&#x43E;&#x446;&#x435;&#x441;&#x441;&#x430; &#x432;&#x43E;&#x441;&#x43F;&#x440;&#x43E;&#x438;&#x437;&#x432;&#x435;&#x434;&#x435;&#x43D;&#x438;&#x44F;](../.gitbook/assets/playback.png)
 
-When you are working with your own code, you will constantly modify your strategy and need to inform the strategy runner to use the latest version. In this case, when you build your code you will notice the **“New version” button** right near the Run button. Apply new code by clicking this button and then you can test an updated strategy.
+Когда вы работаете со своим собственным кодом, вы будете постоянно изменять свою стратегию и должны сообщать исполнителю стратегии, чтобы он использовал последнюю версию. В этом случае, когда вы создадите свой код, вы заметите кнопку «Новая версия» прямо рядом с кнопкой «Выполнить». Примените новый код, нажав эту кнопку, и затем вы сможете протестировать обновленную стратегию.
 
-### **Quick backtesting**
+### Быстрое тестирование на истории
 
-Using an interactive mode, the backtesting process has a limited maximum speed, but what if we don’t need to visualize the strategy operation, but just get the final results? Turning the interactive mode off will **enable the maximum possible speed of the backtesting** and you will see that the same period of history was processed much faster. In this case, you won’t be able to visualize the backtesting process but only see the results after the selected period of history will be managed.
+В интерактивном режиме процесс тестирования на истории имеет ограниченную максимальную скорость, но что, если нам не нужно визуализировать работу стратегии, а просто получить окончательные результаты? Отключение интерактивного режима обеспечит максимально возможную скорость тестирования на истории, и вы увидите, что тот же период истории был обработан намного быстрее. В этом случае вы не сможете визуализировать процесс тестирования на истории, а увидеть результаты только после того, как будет обработан выбранный период истории.
 
-## **Risk notice**
+## Уведомление о рисках
 
-All automated trading strategies carry risk, even if the long-term profitability is positive. There is no perfect system, nor is there a system that always wins. Any investment in ATS carries great risks, and the performance shown should not blind the user from those risks. It is important to note that the worst losing streak of a system is most often yet to come, and can happen when the system is active in the user's account. The market circumstances can change from the period in which the system was designed, and the system’s rules which have given positive returns in the past can start giving negative returns.
+Все автоматические торговые стратегии несут риск, даже если долгосрочная прибыльность положительна. Не существует идеальной системы и системы, которая всегда выигрывает. Любые инвестиции в ATS сопряжены с большими рисками, и показанные результаты не должны закрывать глаза на эти риски. Важно отметить, что наихудшая полоса неудач системы чаще всего еще впереди и может произойти, когда система активна в учетной записи пользователя. Обстоятельства рынка могут измениться по сравнению с периодом, в котором система была разработана, и правила системы, которые давали положительную отдачу в прошлом, могут начать давать отрицательную отдачу.
 
-Quantower trading platform performs the execution of orders, sent by ATS for User’s account on a "not held" basis, meaning Quantower shall not be held responsible for the execution of the order at the price indicated or otherwise; and shall not be responsible for the performance of the ATS, including any potential trading losses the user may sustain as a result of the use of the ATS.
+Торговая платформа Quantower выполняет заказы, отправленные ATS для учетной записи Пользователя на «не удерживаемой» основе, что означает, что Quantower не несет ответственности за выполнение заказа по указанной цене или иным образом; и не несет ответственности за работу ATS, включая любые потенциальные торговые убытки, которые пользователь может понести в результате использования ATS.
 
-In particular, Quantower is not responsible for any damages that may result from incorrect functioning of the ATS as well as any technical problem external to the Quantower trading platform.
+IВ частности, Quantower не несет ответственности за любые убытки, которые могут возникнуть в результате неправильного функционирования ATS, а также за любые технические проблемы, не связанные с торговой платформой Quantower.
 
