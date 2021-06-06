@@ -1,45 +1,46 @@
 ---
 description: >-
-  Create indicators and strategies, as well as platform extensions: plugins,
-  Custom columns, connectors with brokers etc
+  Создавайте индикаторы и стратегии, а также расширения платформы: плагины,
+  настраиваемые столбцы, коннекторы с брокерами и т. д.
 ---
 
-# Introduction
+# Вступление
 
-## General idea
+## Главная идея
 
-**Quantower** trading platform provides a wide set of professional features for manual trading, but you can use it for algorithmic trading also. With Quantower Algo solutions you can simply create standard trading scripts such as indicators and strategies, as well as additional platform extensions: own connectors with brokers, plugins, Custom columns, etc. What is differ Quantower, from other trading platforms - you don't need to study some proprietary language or development environment. You will use the only standard, well-known instruments, that used by developers all over the world.
+**Торговая платформа Quantower** предоставляет широкий набор профессиональных функций для ручной торговли, но вы также можете использовать ее для алгоритмической торговли. С решениями Quantower Algo вы можете просто создавать стандартные торговые скрипты, такие как индикаторы и стратегии, а также дополнительные расширения платформы: собственные коннекторы с брокерами, плагины, настраиваемые столбцы и т. Д. Чем Quantower отличается от других торговых платформ - вы этого не сделаете самостоятельно в другом месте. Нужно изучить какой-нибудь проприетарный язык или среду разработки. Вы будете использовать только стандартные, хорошо известные инструменты, которые используют разработчики по всему миру.
 
-There are three main key points in our vision of algorithmic scripts development:
+В нашем видении разработки алгоритмических скриптов есть три основных ключевых момента:
 
-* C\# programming language
-* Integration with major Development Environments: Visual Studio, Visual Studio Code, Atom, etc.
-* Open and transparent API
+* Язык программирования C \#
+* Интеграция с основными средами разработки: Visual Studio, Visual Studio Code, Atom и т. Д.
+* Открытый и прозрачный API
 
-### C\# programming language
+### Язык программирования C \#
 
-C\# is simple, powerful, flexible and it is one of the most popular programming languages in The World. It means a large community and great support, many ready-to-use components and a lot of tutorials, video lessons in any language, and for any level of development skills - from starter to professional. In addition, most modern trading platforms support coding in C\#. It became a kind of standard in the trading industry, so you can be sure - you will always be able to use your knowledge later and not waste your time studying it.
+**C \#** - это простой, мощный, гибкий и один из самых популярных языков программирования в мире. Это означает большое сообщество и отличную поддержку, множество готовых компонентов и множество обучающих программ, видеоуроков на любом языке и для любого уровня навыков разработки - от новичка до профессионала. Кроме того, большинство современных торговых платформ поддерживают кодирование на C \#. Это стало своего рода стандартом в торговой индустрии, поэтому вы можете быть уверены - вы всегда сможете применить свои знания позже и не тратить время на их изучение.
 
-### Integration with major Development Environments
+### Интеграция с основными средами разработки
 
-We are planning to provide our users the possibility to use all well-known products via special extensions or plugins. At the moment we have an integration between Quantower trading platform and Visual Studio — just in a few clicks, you can create your indicator and see it directly on the chart panel. All professional features from Visual Studio are available for you out of the box: a code editor with IntelliSense, advanced debugger, support for source control systems, and many others. You can use the special Community version of Visual Studio which is free for private usage.
+Мы планируем предоставить нашим пользователям возможность использовать все известные продукты через специальные расширения или плагины. На данный момент у нас есть интеграция между торговой платформой Quantower и Visual Studio - всего за несколько кликов вы можете создать свой индикатор и увидеть его прямо на панели графика. Все профессиональные функции Visual Studio доступны вам из коробки: редактор кода с IntelliSense, расширенный отладчик, поддержка систем управления версиями и многие другие. Вы можете использовать специальную версию Visual Studio для сообщества, которая бесплатна для частного использования.
 
-### Open and transparent API
+### Открытый и прозрачный API
 
-We provide absolutely full access to all functionality of our trading core layer for developers. Moreover, we are developing Quantower using the same API, which means you always will have an up-to-date and powerful set of features, which allows you to create a script at any level script, from trivial indicators to complex strategies or trading/analytics panels.
+Мы предоставляем разработчикам абсолютно полный доступ ко всем функциям нашего уровня ядра торговли. Более того, мы разрабатываем Quantower с использованием того же API, что означает, что у вас всегда будет актуальный и мощный набор функций, который позволяет вам создавать скрипт на любом уровне скрипта, от простых индикаторов до сложных стратегий или торговли / панели аналитики.
 
 {% hint style="info" %}
-Quantower API documentation is available on: [http://api.quantower.com](http://api.quantower.com)  
-See examples of some strategies, integrations and indicators in our [Github repository](https://github.com/Quantower/Examples)
+Документация по API Quantower доступна по адресу: [http://api.quantower.com](http://api.quantower.com)
 
-[Quantower Algo extension](https://marketplace.visualstudio.com/items?itemName=Quantower.quantoweralgo) on Visual Studio Marketplace
+Смотрите примеры некоторых стратегий, интеграций и индикаторов в нашем [репозитории Github](https://github.com/Quantower/Examples)
+
+Расширение Quantower Algo в Visual Studio Marketplace
 {% endhint %}
 
-## Before you start
+## Перед тем, как начать
 
-You just need to spend some time to read our articles about Algo Solutions in Quantower and you will be able to start writing your first indicators or strategies.
+Вам просто нужно потратить некоторое время на то, чтобы прочитать наши статьи об Algo Solutions в Quantower, и вы сможете начать писать свои первые индикаторы или стратегии.
 
-In the next topic, we will show you how to [install Visual Studio and Quantower Algo extension](https://help.quantower.com/quantower-algo/installing-visual-studio). If you are aware of how to do it or if you already have Visual Studio installed on your computer you can skip it and start writing your [first simple indicator](https://help.quantower.com/quantower-algo/simple-indicator).
+В следующем разделе мы покажем вам, как установить расширение Visual Studio и Quantower Algo. Если вы знаете, как это сделать или у вас уже установлена ​​Visual Studio на вашем компьютере, вы можете пропустить это и начать писать свой [первый простой индикатор.](https://help.quantower.com/quantower-algo/simple-indicator)
 
 {% embed url="https://www.youtube.com/watch?v=CelIt\_F0Wuw" caption="" %}
 
