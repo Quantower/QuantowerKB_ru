@@ -36,9 +36,7 @@ Visual Studio - это интегрированная среда разрабо�
 
 ![ &#x424;&#x430;&#x439;&#x43B; -&amp;gt; &#x421;&#x43E;&#x437;&#x434;&#x430;&#x442;&#x44C; -&amp;gt; &#x41F;&#x440;&#x43E;&#x435;&#x43A;&#x442;](../.gitbook/assets/sozdat-proekt.jpg)
 
-
-
-![&#x41E;&#x43A;&#x43D;&#x43E; &#x43D;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;&#x430;](../.gitbook/assets/image%20%2854%29.png)
+![](../.gitbook/assets/sozdat-proekt-indikator.jpg)
 
 Теперь все готово для создания [**вашего первого индикатора.**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbWdSvrjFLRXlV514IW/quantower-algo/simple-indicator)\*\*\*\*
 
