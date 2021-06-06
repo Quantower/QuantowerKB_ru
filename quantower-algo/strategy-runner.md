@@ -1,15 +1,15 @@
 ---
 description: >-
-  In order to make some automated trading via Quantower, you need to use the
-  Strategy runner panel. The main purpose of this panel is to launch a trading
-  strategy and control its behavior.
+  Чтобы совершать автоматическую торговлю через Quantower, вам необходимо
+  использовать панель запуска стратегии.  Основная цель этой панели - запустить
+  торговую стратегию и контролировать ее поведение.
 ---
 
 # Strategy runner
 
-## Video manual
+## Видео инструкция
 
-This video describes the process of creation of a simple automated trading strategy as well as Strategy runner operation practices
+This video describes the process of creation of a simple automated trading strategy as well as Strategy runner operation practicesВ этом видео описывается процесс создания простой автоматической торговой стратегии, а также практика работы с бегуном стратегий.
 
 {% embed url="https://www.youtube.com/watch?v=SP\_7emOq0Fk" caption="Video manual on how to backtest your code in Strategy runner panel" %}
 
