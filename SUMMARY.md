@@ -171,7 +171,7 @@
   * [Quantower Telegram Bot](miscellaneous-panels/quantower-telegram-bot.md)
 * [Quantower алгоритмическая торговля](quantower-algo/README.md)
   * [Вступление](quantower-algo/introduction.md)
-  * [Install for Visual Studio](quantower-algo/installing-visual-studio.md)
+  * [Установка Visual Studio](quantower-algo/installing-visual-studio.md)
   * [Strategy runner](quantower-algo/strategy-runner.md)
   * [Simple Indicator](quantower-algo/simple-indicator.md)
   * [Simple strategy](quantower-algo/simple-strategy.md)

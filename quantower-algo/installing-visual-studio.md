@@ -1,18 +1,18 @@
 ---
 description: >-
-  How to install Visual Studio and Quantower Algo extension, and create your own
-  indicators and strategies
+  Как установить расширение Visual Studio и Quantower Algo и создать свои
+  собственные индикаторы
 ---
 
-# Install for Visual Studio
+# Установка Visual Studio
 
-**Visual Studio** — is an integrated development environment \(IDE\) from Microsoft, which includes a code editor with IntelliSense, debugger, supporting source control systems, and many other professional features. **The currently supported Visual Studio version is 2019**.
+Visual Studio - это интегрированная среда разработки \(IDE\) от Microsoft, которая включает редактор кода с IntelliSense, отладчик, поддержку систем управления версиями и многие другие профессиональные функции. Текущая поддерживаемая версия **Visual Studio - 2019.**
 
 {% hint style="success" %}
-We recommend you to use the most basic version of **Visual Studio — the Community edition**, which is available free of charge.
+Мы рекомендуем вам использовать самую базовую версию Visual Studio - версию Community, которая доступна бесплатно.
 {% endhint %}
 
-You can [**download Visual Studio from an official website**](https://visualstudio.microsoft.com/ru/thank-you-downloading-visual-studio/?sku=Community&rel=16). It requires about 10 minutes to install and 2.5 Gb of free space on your hard drive.
+Вы можете скачать [**Visual Studio с официального сайта**](https://visualstudio.microsoft.com/ru/thank-you-downloading-visual-studio/?sku=Community&rel=16). Для его установки требуется около 10 минут и 2,5 ГБ свободного места на жестком диске.
 
 {% embed url="https://www.youtube.com/watch?v=CelIt\_F0Wuw" caption="" %}
 
