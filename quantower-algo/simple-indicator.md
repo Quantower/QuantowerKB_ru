@@ -22,7 +22,11 @@ description: 'В этом разделе мы покажем вам, наско�
 
 ![](../.gitbook/assets/sozdat-proekt.jpg)
 
-![](../.gitbook/assets/sozdat-proekt-indikator.jpg)
+
+
+![](../.gitbook/assets/prostoi-indikator.png)
+
+![](../.gitbook/assets/prostoi-indikator-shag2.png)
 
 Минимально необходимый исходный код будет сгенерирован автоматически и содержит основные функции индикатора:
 
@@ -55,9 +59,9 @@ public SimpleIndicator()
 
 ### Получение данных
 
-The **"OnUpdate"** method will be called each time on history changing - here we need to add our calculations. Most of the indicators are using prices or volumes in their algorithms. Quantower API provides you a few ways to retrieve this data - you can access Open, High, Low, Close and others data from a current bar or from previous bars if it required.
+Метод «OnUpdate» будет вызываться каждый раз при изменении истории - здесь нам нужно добавить свои расчеты. Большинство индикаторов используют в своих алгоритмах цены или объемы. Quantower API предоставляет вам несколько способов получить эти данные - вы можете получить доступ к данным открытия, максимума, минимума, закрытия и других данных из текущего бара или из предыдущих столбцов, если это необходимо.
 
-Common method [**GetPrice**](http://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_GetPrice_TradingPlatform_BusinessLayer_PriceType_System_Int32_) allows to retrieve all type of the data:
+Общий метод [**GetPrice**](http://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_GetPrice_TradingPlatform_BusinessLayer_PriceType_System_Int32_) позволяет получить все типы данных:
 
 ```csharp
 // To get Low price of the current bar
