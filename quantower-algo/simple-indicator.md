@@ -1,36 +1,42 @@
 ---
-description: In this topic we will show you how simple is writing indicators in Quantower
+description: 'В этом разделе мы покажем вам, насколько просто писать индикаторы в Quantower.'
 ---
 
-# Simple Indicator
+# Простой индикатор
 
 {% hint style="info" %}
-We will use Quantower Algo extension for Visual Studio, but main principles are valid for all development environments. If you don't have Visual Studio or Quantower Algo extension installed you can read [How to install Quantower Algo](installing-visual-studio.md) manual.
+Мы будем использовать расширение Quantower Algo для Visual Studio, но основные принципы действительны для всех сред разработки. Если у вас не установлено расширение Visual Studio или Quantower Algo, вы можете прочитать руководство [**Как установить Quantower Algo.**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Mb_LzyI38AnKls7m3Ia/quantower-algo/installing-visual-studio)\*\*\*\*
 
-See examples of some strategies, integrations and indicators in our [Github repository](https://github.com/Quantower/Examples)
+Смотрите примеры некоторых стратегий, интеграций и индикаторов в нашем [**репозитории Github.**](https://github.com/Quantower/Examples)\*\*\*\*
 {% endhint %}
 
-## So, what is indicator in general?
+## Итак, что такое индикатор в целом?
 
-An indicator is mathematical calculations based on a symbol's price or volume. The result is used for displaying on the chart and to help trader make a correct decision. From technical point view Indicator in Quantower is a set of lines with buffers. Each element of the buffer is assigned to a historical bar or tick on the chart. All you need is to make a required calculations and put the result into this buffer.
+Индикатор  - это математические вычисления, основанные на цене или объеме финансового инструмента. Результат используется для отображения на графике и помогает трейдеру принять правильное решение. С технической точки зрения индикатор в Quantower представляет собой набор линий с буферами. Каждому элементу буфера присваивается исторический бар или тик на графике. Все, что вам нужно, это произвести необходимые вычисления и поместить результат в этот буфер.
 
-Sounds not very difficult, doesn't it? Let's start! As for example we will write a code that will implement algorithm of Simple Moving Average indicator.
+Звучит не очень сложно, правда? Давайте начнем! Например, напишем код, который будет реализовывать алгоритм индикатора Simple Moving Average.
 
-Use "_**File -&gt; New project**_" in the main menu of Visual Studio to open "**New project**" window. Type "Indicator" and you will see special project type for blank indicator:
+Используйте _**«Файл -&gt; Новый проект»**_ в главном меню Visual Studio, чтобы открыть окно «Новый проект». Наберите «Индикатор», и вы увидите специальный тип проекта для пустого индикатора:
 
-At first, you need to create a new project for the indicator. Quantower Algo provides you predefined templates for an empty indicator as well as a few examples of real indicators with source code:
+Для начала нужно создать новый проект индикатора. Quantower Algo предоставляет вам предопределенные шаблоны для пустого индикатора, а также несколько примеров реальных индикаторов с исходным кодом:
 
-![New project window](../.gitbook/assets/image%20%2855%29.png)
+![](../.gitbook/assets/sozdat-proekt.jpg)
 
-A minimum required source code will be generated automatically and contains the main Indicator functions:
 
-![Default source code for blank indicator](../.gitbook/assets/default-code.png)
 
-## Indicator code structure
+![](../.gitbook/assets/prostoi-indikator.png)
 
-### Common settings
+![](../.gitbook/assets/prostoi-indikator-shag2.png)
 
-It is time to go deep into the code. In a **constructor** method, you can specify name of the indicator, short name for displaying on the charts and whether you indicator require a separate window on the chart. The most important here is specifying the amount of lines and their default style: Solid/Dot/Histogram, color, and width. In our example, we need only one line, but you can add any amount:
+Минимально необходимый исходный код будет сгенерирован автоматически и содержит основные функции индикатора:
+
+![&#x418;&#x441;&#x445;&#x43E;&#x434;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x434; &#x43F;&#x43E; &#x443;&#x43C;&#x43E;&#x43B;&#x447;&#x430;&#x43D;&#x438;&#x44E; &#x434;&#x43B;&#x44F; &#x43F;&#x443;&#x441;&#x442;&#x43E;&#x433;&#x43E; &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440;&#x430;](../.gitbook/assets/default-code.png)
+
+## Структура кода индикатора
+
+### Общие настройки
+
+Пора углубиться в код. В методе конструктора вы можете указать имя индикатора, краткое имя для отображения на графиках и необходимость отдельного окна на графике для вашего индикатора. Наиболее важным здесь является указание количества линий и их стиля по умолчанию: Solid / Dot / Histogram, цвета и ширины. В нашем примере нам нужна всего одна строка, но вы можете добавить любую сумму:
 
 ```csharp
 /// <summary>
@@ -51,11 +57,11 @@ public SimpleIndicator()
 }
 ```
 
-### Getting data
+### Получение данных
 
-The **"OnUpdate"** method will be called each time on history changing - here we need to add our calculations. Most of the indicators are using prices or volumes in their algorithms. Quantower API provides you a few ways to retrieve this data - you can access Open, High, Low, Close and others data from a current bar or from previous bars if it required.
+Метод «OnUpdate» будет вызываться каждый раз при изменении истории - здесь нам нужно добавить свои расчеты. Большинство индикаторов используют в своих алгоритмах цены или объемы. Quantower API предоставляет вам несколько способов получить эти данные - вы можете получить доступ к данным открытия, максимума, минимума, закрытия и других данных из текущего бара или из предыдущих столбцов, если это необходимо.
 
-Common method [**GetPrice**](http://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_GetPrice_TradingPlatform_BusinessLayer_PriceType_System_Int32_) allows to retrieve all type of the data:
+Общий метод [**GetPrice**](http://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_GetPrice_TradingPlatform_BusinessLayer_PriceType_System_Int32_) позволяет получить все типы данных:
 
 ```csharp
 // To get Low price of the current bar
@@ -64,7 +70,7 @@ double low = GetPrice(PriceType.Low);
 double volume = GetPrice(PriceType.Volume, 5);
 ```
 
-And a few simplified ways to retrieve the data:
+И несколько упрощенных способов получить данные:
 
 ```csharp
 // To get Close price of the current bar
@@ -75,11 +81,11 @@ double high = High();
 double open = Open(5);
 ```
 
-You can find more information about "**Indicator"** class in our [API documentation](http://api.quantower.com).
+Дополнительную информацию о классе **«Индикатор»** можно найти в нашей[ документации по API.](http://api.quantower.com/)
 
-### Setting data
+### Установка данных
 
-Now we know how to get prices, but as we told before, we need also to put results into indicator buffer. We can use "[**SetValue**](http://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_SetValue_System_Double_System_Int32_System_Int32_)**"** method for this:
+Теперь мы знаем, как получать цены, но, как мы уже говорили, нам также нужно поместить результаты в индикаторный буфер. Для этого мы можем использовать метод [**SetValue**](http://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_SetValue_System_Double_System_Int32_System_Int32_)**:**
 
 ```csharp
 // Put value into current bar for first line of indicator
@@ -90,7 +96,7 @@ SetValue(1.43, 1);
 SetValue(1.43, 1, 5);
 ```
 
-All this is enough to finish our first indicator. Let's add calculations into "**OnUpdate"** method using standard C\# possibilities. This is our total code:
+Всего этого достаточно, чтобы закончить наш первый индикатор. Добавим вычисления в метод «OnUpdate», используя стандартные возможности C \#. Это наш общий код:
 
 ```csharp
 /// <summary>
@@ -116,17 +122,17 @@ protected override void OnUpdate(UpdateArgs args)
 }
 ```
 
-As you can see, we use only Close prices for calculations and hard code Period value. In the real case, you will allow a user to specify this values. In our next topic, we will show how to use the Input Parameter for your scripts.
+Как видите, для расчетов мы используем только цены закрытия и значение периода в жестком коде. В реальном случае вы позволите пользователю указать эти значения. В нашей следующей теме мы покажем, как использовать входной параметр для ваших скриптов.
 
-### Build
+### Построение
 
-Indicator is ready to use in trading platform. We need to compile it - use "_**Build -&gt; Build Solution**_" in the main menu or hot key **F6**. Quantower Algo extension will automatically copy your indicator to assigned Quantower trading platform and you will see it in the "Indicators" lookup on the chart:
+Нам нужно его скомпилировать - используйте «Build -&gt; Build Solution» в главном меню или горячую клавишу F6. Расширение Quantower Algo автоматически скопирует ваш индикатор на назначенную торговую платформу Quantower, и вы увидите его в справочнике «Индикаторы» на графике:
 
-![You can see your indicator in Indicator Lookup](../.gitbook/assets/indicator-in-lookup.png)
+![&#x412;&#x44B; &#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x443;&#x432;&#x438;&#x434;&#x435;&#x442;&#x44C; &#x441;&#x432;&#x43E;&#x439; &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440; &#x432; &#x43F;&#x43E;&#x438;&#x441;&#x43A;&#x435; &#x43F;&#x43E; &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440;&#x443;](../.gitbook/assets/indicator-in-lookup.png)
 
-If you decide to make some corrections in your calculations, you can rebuild your indicator and you even don't need to re-add it again on the chart - it will be updated automatically and you will see results immediately:
+Если вы решите внести некоторые исправления в свои расчеты, вы можете перестроить свой индикатор, и вам даже не нужно повторно добавлять его на график - он будет обновлен автоматически, и вы сразу увидите результаты:
 
-![You will see all your changes right after rebuild](../.gitbook/assets/indicator-after-changes.png)
+![&#x412;&#x44B; &#x443;&#x432;&#x438;&#x434;&#x438;&#x442;&#x435; &#x432;&#x441;&#x435; &#x441;&#x432;&#x43E;&#x438; &#x438;&#x437;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x44F; &#x441;&#x440;&#x430;&#x437;&#x443; &#x43F;&#x43E;&#x441;&#x43B;&#x435; &#x43F;&#x435;&#x440;&#x435;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438;](../.gitbook/assets/indicator-after-changes.png)
 
-As you can see it did not take a lot of time to get the first results. Using this basic example you can easily create your own indicator — all power of C\# language is available for you. In the next topic we will show you how to add possibility of [customizing of your indicator via Input Parameters](input-parameters.md).
+Используя этот базовый пример, вы можете легко создать свой собственный индикатор - вам доступны все возможности языка C \#. В следующем разделе мы покажем вам, как добавить возможность настройки вашего [**индикатора с помощью входных параметров.**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Mb_ghthoUhM1PT07NwU/quantower-algo/input-parameters)\*\*\*\*
 

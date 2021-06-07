@@ -1,16 +1,16 @@
 ---
-description: Instantiate a custom indicator with input parameters.
+description: Создайте экземпляр пользовательского индикатора с входными параметрами.
 ---
 
-# Custom indicators access
+# Доступ к пользовательским индикаторам
 
-## General
+## Общее
 
-Quantower API provides a huge collection of built-in indicators. But sometimes we need to use our own indicator that we developed before or downloaded from the Internet.
+Quantower API предоставляет огромную коллекцию встроенных индикаторов. Но иногда нам нужно использовать собственный индикатор, который мы разработали ранее или скачали из Интернета.
 
-In this article, we will create an instance of the custom indicator and pass the input parameters in different ways.
+В этой статье мы создадим экземпляр пользовательского индикатора и по-разному передадим входные параметры.
 
-Below you can see the custom indicator code. Let's imagine that it is a very useful script and that we want to use its calculation results in our code. But we are not satisfied with the default input parameters, so we want to change them.
+Ниже вы можете увидеть код пользовательского индикатора. Представим, что это очень полезный скрипт и что мы хотим использовать результаты его вычислений в нашем коде. Но нас не устраивают входные параметры по умолчанию, поэтому мы хотим их изменить.
 
 ```csharp
 public class CustomIndicator : Indicator
@@ -51,11 +51,11 @@ public class CustomIndicator : Indicator
 }
 ```
 
-## Use class constructor \(Beginner\)
+## Использовать конструктор класса \(новичок\)
 
-The easiest way to create and pass parameters is to use the class constructor. At this moment, our custom indicator has сonstructor that takes no parameters \(parameterless constructor\). Each indicator must have such a constructor.
+Самый простой способ создать и передать параметры - использовать конструктор класса. На данный момент в нашем пользовательском индикаторе есть конструктор, который не принимает параметров \(конструктор без параметров\). Такой конструктор должен быть у каждого индикатора.
 
-Let's add a new constructor for the **"CustomIndicator"** class in which we will override the default input parameters.
+Давайте добавим новый конструктор для класса CustomIndicator, в котором мы переопределим входные параметры по умолчанию.
 
 ```csharp
 public class CustomIndicator : Indicator
@@ -89,7 +89,7 @@ public class CustomIndicator : Indicator
 }
 ```
 
-Now, in other indicators, we can use this constructor instead of default. For example in the **“OnInit”** method.
+Теперь в других индикаторах мы можем использовать этот конструктор вместо конструктора по умолчанию. Например, в методе «OnInit».
 
 ```csharp
 class BestIndicator : Indicator
@@ -111,11 +111,11 @@ class BestIndicator : Indicator
 }
 ```
 
-## **Use indicator settings collection \(Advance\)**
+## Использовать сборник настроек индикатора \(заранее\)
 
-This method can be used if you are unable to add the required constructor. For example, you imported a dll-library with an indicator. Each indicator has a "Settings" property that contains all input parameters converted into objects of “[SettignItem](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.SettingItemAction.html)” type.
+Этот метод можно использовать, если вы не можете добавить требуемый конструктор. Например, вы импортировали dll-библиотеку с индикатором. У каждого индикатора есть свойство «Настройки», которое содержит все входные параметры, преобразованные в объекты типа «SettignItem».
 
-To modify any of the parameters, you need to invoke the **"UpdateItemValue"** method and pass the name of the required parameter and the new value.
+Чтобы изменить любой из параметров, необходимо вызвать метод UpdateItemValue и передать имя необходимого параметра и новое значение.
 
 ```csharp
 class BestIndicator : Indicator

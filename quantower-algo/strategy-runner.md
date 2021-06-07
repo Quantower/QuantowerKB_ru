@@ -9,7 +9,7 @@ description: >-
 
 ## Видео инструкция
 
-This video describes the process of creation of a simple automated trading strategy as well as Strategy runner operation practicesВ этом видео описывается процесс создания простой автоматической торговой стратегии, а также практика работы с бегуном стратегий.
+В этом видео описывается процесс создания простой автоматической торговой стратегии, а также практика работы с бегуном стратегий.
 
 {% embed url="https://www.youtube.com/watch?v=SP\_7emOq0Fk" caption="Видео-руководство по тестированию вашего кода на бэктестинге на панели Strategy runner" %}
 

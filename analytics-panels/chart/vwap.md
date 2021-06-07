@@ -1,41 +1,41 @@
 ---
 description: >-
-  Volume Weighted Average Price shows a fair price of an asset and based on a
-  trading volume.
+  Средневзвешенная цена по объему показывает справедливую цену актива,
+  основанную на объеме торгов.
 ---
 
-# VWAP \| Volume Weighted Average Price
+# VWAP \| Средневзвешенная цена по объему
 
-**Volume Weighted Average Price** knows as **VWAP** is a “benchmark” price of an asset for any period of the trading day or session. Average price is weighted by volume for evaluating the overpaying or underpaying of current price relative to the VWAP price.
+Средневзвешенная цена по объему известна как **VWAP** - это «эталонная» цена актива для любого периода торгового дня или сессии. Средняя цена взвешивается по объему для оценки перекупленности или перепроданности текущей цены по сравнению с ценой VWAP.
 
 ![](../../.gitbook/assets/multiple-vwap.png)
 
-The indicator is calculated for any period of time according to the following algorithm:
+Индикатор рассчитывается для любого периода времени по следующему алгоритму:
 
-* the average price \(AP\) is calculated for each bar or candle. The calculation is made for each price change for the current candle.  AP = \(H+L+C\)/3
-* the average price is multiplied by the volume that has passed in the current candlestick or bar. For example, in real time new trade will increase the volume and thus weigh the price. Thus, for each price or volume change we will get value AP \* V.
-* the above values are summed up and divided by the total volume for the specified period.
+* средняя цена \(AP\) рассчитывается для каждого бара или свечи. Расчет производится для каждого изменения цены текущей свечи. AP = \(H + L + C\) / 3
+* средняя цена умножается на объем, который прошел в текущей свече или баре. Например, в реальном времени новая сделка увеличит объем и, таким образом, уравновесит цену. 
+* таким образом, для каждого изменения цены или объема мы получим значение AP \* V.
 
-  ```text
-                        **VWAP = \(Sum of Average Price \* Traded Volume\) / Cumulative Volume**
-  ```
+  указанные выше значения суммируются и делятся на общий объем за указанный период.
 
-## **How to add VWAP to the chart?**
+         **VWAP = \(Sum of Average Price \* Traded Volume\) / Cumulative Volume**
 
-The VWAP indicator is located on the Volume Analysis toolbar. When you click on it, a menu with basic settings and an indicator activation / deactivation switch will appear.
+## Как добавить VWAP в график?
 
-![VWAP Indicator is placed on Volume Analysis toolbar](../../.gitbook/assets/vwap-activation.png)
+Индикатор VWAP расположен на панели инструментов Volume Analysis. При нажатии на нее появляется меню с основными настройками и переключателем включения / выключения индикатора.
 
-The quick settings menu contains:
+![&#x418;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440; VWAP &#x440;&#x430;&#x437;&#x43C;&#x435;&#x449;&#x435;&#x43D; &#x43D;&#x430; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x438;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x43E;&#x432; Volume Analysis.](../../.gitbook/assets/vwap-activation.png)
 
-* **Enabled** switch shows or hides the VWAP indicator on the chart
-* **Base period and Value** — defines the number of bars \(duration\) on which VWAP will be calculated
+Меню быстрых настроек содержит:
 
-### Advanced indicator settings
+* Включенный переключатель показывает или скрывает индикатор VWAP на графике.
+* Базовый период и значение - определяет количество баров \(длительность\), по которым будет рассчитываться VWAP.
 
-By clicking on the "**Gear"** icon, additional settings will open.
+## Расширенные настройки индикатора
 
-![Additional settings for VWAP Indicator](../../.gitbook/assets/image%20%28107%29.png)
+При нажатии на значок «Шестеренка» откроются дополнительные настройки.
+
+![](../../.gitbook/assets/nastroiki-vwap.png)
 
 **1. Switch between different VWAPs** and set the settings for each of them
 
@@ -88,4 +88,6 @@ By applying this tool to trading with VWAP serving as our average, we can plot t
 Deviation bands are plotted continuously alongside VWAP, automatically adjusting as we receive more data. They typically start off small and expand as price begins to break away from the market's average, but lacking any notable volume or volatility they remain stable throughout the day.
 
 ![](../../.gitbook/assets/stds-and-vwap.png)
+
+
 
