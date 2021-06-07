@@ -1,12 +1,12 @@
 ---
-description: Use advanced Volume Analysis technique in your indicators
+description: Используйте расширенную технику анализа объема в ваших индикаторах
 ---
 
-# Access Volume analysis data from indicators
+# Доступ к данным анализа объема из индикаторов
 
-Quantower trading platform has a wide set of [**Volume analysis tools**](https://www.quantower.com/volumeanalysistools), an advanced analytical functionality, which allows you to see the traded volume at each price level, assess the balance between buyers and sellers and understand the intentions of traders regarding the future price.
+Торговая платформа Quantower имеет широкий набор[ **инструментов анализа объема**](https://www.quantower.com/volumeanalysistools), расширенную аналитическую функциональность, которая позволяет вам видеть торгуемый объем на каждом уровне цены, оценивать баланс между покупателями и продавцами и понимать намерения трейдеров относительно будущей цены.
 
-You can easily access all volume analysis data from your indicator. By default charts does not loading such data, as it requires time to get full trades history. You need to notify chart, that your indicator need it for calculations and you can do this by implementing a special Interface **IVolumeAnalysisIndicator**:
+Вы можете легко получить доступ ко всем данным анализа объемов из вашего индикатора. По умолчанию графики не загружают такие данные, так как для получения полной истории сделок требуется время. Вам необходимо уведомить график, что он нужен вашему индикатору для расчетов, и вы можете сделать это, реализовав специальный интерфейс IVolumeAnalysisIndicator:
 
 ```csharp
 public class IndicatorVolumeAnalysis : Indicator, IVolumeAnalysisIndicator
@@ -14,7 +14,7 @@ public class IndicatorVolumeAnalysis : Indicator, IVolumeAnalysisIndicator
     ...
 ```
 
-It contains only one method **VolumeAnalysisData\_Loaded** and it will be called, when all required data finish loading:
+Он содержит только один метод VolumeAnalysisData\_Loaded и он будет вызван, когда все необходимые данные закончат загрузку:
 
 ```csharp
 public void VolumeAnalysisData_Loaded()
@@ -23,14 +23,14 @@ public void VolumeAnalysisData_Loaded()
 }
 ```
 
-If you need to know current state of loading, you may use **VolumeAnalysisCalculationProgress** from **HistoricalData**. If loading was started, this object will be set and you may know current state or even percent of loaded data:
+Если вам нужно знать текущее состояние загрузки, вы можете использовать VolumeAnalysisCalculationProgress из HistoricalData. Если загрузка была запущена, этот объект будет установлен, и вы можете узнать текущее состояние или даже процент загруженных данных:
 
 ```csharp
 if (HistoricalData.VolumeAnalysisCalculationProgress.State != VolumeAnalysisCalculationState.Finished
     Core.Instance.Loggers.Log(HistoricalData.VolumeAnalysisCalculationProgress.ProgressPercent.ToString());
 ```
 
-When loading is finished **Total** object will be available for each **HistoryItem** from **HistoricalData** which provide access to aggregated volume analysis data:
+По завершении загрузки объект Total будет доступен для каждого HistoryItem из HistoricalData, который обеспечивает доступ к агрегированным данным анализа объема:
 
 ```csharp
 HistoricalData[0].VolumeAnalysisData.Total.Volume
@@ -38,25 +38,25 @@ HistoricalData[0].VolumeAnalysisData.Total.Trades
 HistoricalData[0].VolumeAnalysisData.Total.AverageBuySize
 ```
 
-List of all available data types:
+Список всех доступных типов данных:
 
-| Data type | Description |
+| Тип данных | Описание |
 | :--- | :--- |
-| Volume | The total size of all positions that executed at each price level or price range |
-| BuyVolume | The total size of all Buy positions that executed at each price level or price range |
-| SellVolume | The total size of all Sell positions that executed at each price level or price range |
-| Trades | The number of contracts \(trades\) that executed at each price level. |
-| BuyTrades | The number of Buy trades that executed at each price level |
-| SellTrades | The number of Sell trades that executed at each price level |
-| BuyVolumePercent | Shows how many percent of the total volume relates to Buy trades |
-| SellVolumePercent | Shows how many percent of the total volume relates to Sell trades |
-| Delta | Shows the difference in traded Volume between Buyers and Sellers. It allows evaluating who controls the price on the market at a given time |
-| DeltaPercent | Shows the difference \(%\) in traded Volume between Buyers and Sellers. It allows evaluating who controls the price on the market at a given time |
-| AverageSize | The average volume of the position that was executed at a certain price or price range |
-| AverageBuySize | The average volume of a Buy position that was executed at a specific price or price range |
-| AverageSellSize | The average volume of a Sell position that was executed at a specific price or price range |
-| MaxOneTradeVolume | Shows the maximum volume of a single trade that has executed at a certain price or price range |
-| MaxOneTradeVolumePercent | Shows the maximum \(%\) volume of a single trade that has executed at a certain price or price range |
+| Объем | The total size of all positions that executed at each price level or price range |
+| Объем покупки | The total size of all Buy positions that executed at each price level or price range |
+| Объем продажи | The total size of all Sell positions that executed at each price level or price range |
+| Сделки | The number of contracts \(trades\) that executed at each price level. |
+| Buy Сделки | The number of Buy trades that executed at each price level |
+| Sell Сделки | The number of Sell trades that executed at each price level |
+| Buy Объем в процентах | Shows how many percent of the total volume relates to Buy trades |
+| Sell Объем в процентах | Shows how many percent of the total volume relates to Sell trades |
+| Дельта | Shows the difference in traded Volume between Buyers and Sellers. It allows evaluating who controls the price on the market at a given time |
+| Дельта-процент | Shows the difference \(%\) in traded Volume between Buyers and Sellers. It allows evaluating who controls the price on the market at a given time |
+| Средний размер | The average volume of the position that was executed at a certain price or price range |
+| Средний Купить Размер | The average volume of a Buy position that was executed at a specific price or price range |
+| Средний размер продажи | The average volume of a Sell position that was executed at a specific price or price range |
+| Максимальный объем одной сделки | Shows the maximum volume of a single trade that has executed at a certain price or price range |
+| Максимальный объем одной сделки процент   | Shows the maximum \(%\) volume of a single trade that has executed at a certain price or price range |
 
 Except **Total** \(aggregated\) information you have access to Volume analysis data for each price from the bar. It is available in PriceLevels dictionary and contains same data types as Total:
 
