@@ -23,7 +23,7 @@ public void VolumeAnalysisData_Loaded()
 }
 ```
 
-Если вам нужно знать текущее состояние загрузки, вы можете использовать VolumeAnalysisCalculationProgress из HistoricalData. Если загрузка была запущена, этот объект будет установлен, и вы можете узнать текущее состояние или даже процент загруженных данных:
+Если вам нужно знать текущее состояние загрузки, вы можете использовать Прогресс расчета анализа объема из исторических данные. Если загрузка была запущена, этот объект будет установлен, и вы можете узнать текущее состояние или даже процент загруженных данных:
 
 ```csharp
 if (HistoricalData.VolumeAnalysisCalculationProgress.State != VolumeAnalysisCalculationState.Finished
@@ -58,13 +58,13 @@ HistoricalData[0].VolumeAnalysisData.Total.AverageBuySize
 | Максимальный объем одной сделки | Показывает максимальный объем одной сделки, которая была исполнена по определенной цене или ценовому диапазону. |
 | Максимальный объем одной сделки процент   | Показывает максимальный \(%\) объем одной сделки, которая была исполнена по определенной цене или ценовому диапазону. |
 
-Except **Total** \(aggregated\) information you have access to Volume analysis data for each price from the bar. It is available in PriceLevels dictionary and contains same data types as Total:
+За исключением общей \(агрегированной\) информации, у вас есть доступ к данным анализа объема для каждой цены в баре. Он доступен в словаре PriceLevels и содержит те же типы данных, что и Total:
 
 ```csharp
 this.HistoricalData[0].VolumeAnalysisData.PriceLevels[1.2564].Volume
 ```
 
-As an example let's create a simple indicator, that will draw 2 lines in the separate window of the chart. First one will show AverageBuySize and second AverageSellSize. This is full source code:
+В качестве примера создадим простой индикатор, который будет рисовать 2 линии в отдельном окне графика. Первый покажет AverageBuySize, а второй - AverageSellSize. Это полный исходный код:
 
 ```csharp
 using System;
@@ -115,9 +115,9 @@ namespace IndicatorVolumeAnalysis
 }
 ```
 
-When we build this indicator and add on the chart we can see next result:
+Когда мы построим этот индикатор и добавим его на график, мы увидим следующий результат:
 
-![Indicator lines show average buy size and average sell size](../.gitbook/assets/volumeanalysisindicator.png)
+![&#x41B;&#x438;&#x43D;&#x438;&#x438; &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440;&#x430; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x44B;&#x432;&#x430;&#x44E;&#x442; &#x441;&#x440;&#x435;&#x434;&#x43D;&#x438;&#x439; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x440; &#x43F;&#x43E;&#x43A;&#x443;&#x43F;&#x43A;&#x438; &#x438; &#x441;&#x440;&#x435;&#x434;&#x43D;&#x438;&#x439; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x440; &#x43F;&#x440;&#x43E;&#x434;&#x430;&#x436;&#x438;.](../.gitbook/assets/volumeanalysisindicator.png)
 
-In this topic, we showed you the simple example of indicator based on volume analysis data. You may improve it and create really advanced and complex indicator, similar to Volume Analysis tools from Quantower, for example Cluster Chart. In our next topics we will provide an example of drawing volume profiles on the chart.
+В этом разделе мы показали вам простой пример индикатора, основанного на данных объемного анализа. Вы можете улучшить его и создать действительно продвинутый и сложный индикатор, похожий на инструменты Volume Analysis из Quantower, например Cluster Chart. В наших следующих разделах мы предоставим пример рисования профилей объема на диаграмме.
 
