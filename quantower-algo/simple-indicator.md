@@ -12,14 +12,6 @@ description: 'В этом разделе мы покажем вам, наско�
 
 ## Итак, что такое индикатор в целом?
 
-An indicator is mathematical calculations based on a symbol's price or volume. The result is used for displaying on the chart and to help trader make a correct decision. From technical point view Indicator in Quantower is a set of lines with buffers. Each element of the buffer is assigned to a historical bar or tick on the chart. All you need is to make a required calculations and put the result into this buffer.
-
-Sounds not very difficult, doesn't it? Let's start! As for example we will write a code that will implement algorithm of Simple Moving Average indicator.
-
-Use "_**File -&gt; New project**_" in the main menu of Visual Studio to open "**New project**" window. Type "Indicator" and you will see special project type for blank indicator:
-
-At first, you need to create a new project for the indicator. Quantower Algo provides you predefined templates for an empty indicator as well as a few examples of real indicators with source code:
-
 Индикатор  - это математические вычисления, основанные на цене или объеме финансового инструмента. Результат используется для отображения на графике и помогает трейдеру принять правильное решение. С технической точки зрения индикатор в Quantower представляет собой набор линий с буферами. Каждому элементу буфера присваивается исторический бар или тик на графике. Все, что вам нужно, это произвести необходимые вычисления и поместить результат в этот буфер.
 
 Звучит не очень сложно, правда? Давайте начнем! Например, напишем код, который будет реализовывать алгоритм индикатора Simple Moving Average.
@@ -32,15 +24,15 @@ At first, you need to create a new project for the indicator. Quantower Algo pro
 
 ![](../.gitbook/assets/sozdat-proekt-indikator.jpg)
 
-A minimum required source code will be generated automatically and contains the main Indicator functions:
+Минимально необходимый исходный код будет сгенерирован автоматически и содержит основные функции индикатора:
 
-![Default source code for blank indicator](../.gitbook/assets/default-code.png)
+![&#x418;&#x441;&#x445;&#x43E;&#x434;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x434; &#x43F;&#x43E; &#x443;&#x43C;&#x43E;&#x43B;&#x447;&#x430;&#x43D;&#x438;&#x44E; &#x434;&#x43B;&#x44F; &#x43F;&#x443;&#x441;&#x442;&#x43E;&#x433;&#x43E; &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440;&#x430;](../.gitbook/assets/default-code.png)
 
-## Indicator code structure
+## Структура кода индикатора
 
-### Common settings
+### Общие настройки
 
-It is time to go deep into the code. In a **constructor** method, you can specify name of the indicator, short name for displaying on the charts and whether you indicator require a separate window on the chart. The most important here is specifying the amount of lines and their default style: Solid/Dot/Histogram, color, and width. In our example, we need only one line, but you can add any amount:
+Пора углубиться в код. В методе конструктора вы можете указать имя индикатора, краткое имя для отображения на графиках и необходимость отдельного окна на графике для вашего индикатора. Наиболее важным здесь является указание количества линий и их стиля по умолчанию: Solid / Dot / Histogram, цвета и ширины. В нашем примере нам нужна всего одна строка, но вы можете добавить любую сумму:
 
 ```csharp
 /// <summary>
@@ -61,7 +53,7 @@ public SimpleIndicator()
 }
 ```
 
-### Getting data
+### Получение данных
 
 The **"OnUpdate"** method will be called each time on history changing - here we need to add our calculations. Most of the indicators are using prices or volumes in their algorithms. Quantower API provides you a few ways to retrieve this data - you can access Open, High, Low, Close and others data from a current bar or from previous bars if it required.
 
