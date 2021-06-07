@@ -1,12 +1,12 @@
 ---
-description: Используйте расширенную технику анализа объема в ваших индикаторах
+description: Use advanced Volume Analysis technique in your indicators
 ---
 
-# Доступ к данным анализа объема из индикаторов
+# Access Volume analysis data from indicators
 
-Торговая платформа Quantower имеет широкий набор[ **инструментов анализа объема**](https://www.quantower.com/volumeanalysistools), расширенную аналитическую функциональность, которая позволяет вам видеть торгуемый объем на каждом уровне цены, оценивать баланс между покупателями и продавцами и понимать намерения трейдеров относительно будущей цены.
+Quantower trading platform has a wide set of [**Volume analysis tools**](https://www.quantower.com/volumeanalysistools), an advanced analytical functionality, which allows you to see the traded volume at each price level, assess the balance between buyers and sellers and understand the intentions of traders regarding the future price.
 
-Вы можете легко получить доступ ко всем данным анализа объемов из вашего индикатора. По умолчанию графики не загружают такие данные, так как для получения полной истории сделок требуется время. Вам необходимо уведомить график, что он нужен вашему индикатору для расчетов, и вы можете сделать это, реализовав специальный интерфейс IVolumeAnalysisIndicator:
+You can easily access all volume analysis data from your indicator. By default charts does not loading such data, as it requires time to get full trades history. You need to notify chart, that your indicator need it for calculations and you can do this by implementing a special Interface **IVolumeAnalysisIndicator**:
 
 ```csharp
 public class IndicatorVolumeAnalysis : Indicator, IVolumeAnalysisIndicator
@@ -14,7 +14,7 @@ public class IndicatorVolumeAnalysis : Indicator, IVolumeAnalysisIndicator
     ...
 ```
 
-Он содержит только один метод VolumeAnalysisData\_Loaded и он будет вызван, когда все необходимые данные закончат загрузку:
+It contains only one method **VolumeAnalysisData\_Loaded** and it will be called, when all required data finish loading:
 
 ```csharp
 public void VolumeAnalysisData_Loaded()
@@ -23,14 +23,14 @@ public void VolumeAnalysisData_Loaded()
 }
 ```
 
-Если вам нужно знать текущее состояние загрузки, вы можете использовать Прогресс расчета анализа объема из исторических данные. Если загрузка была запущена, этот объект будет установлен, и вы можете узнать текущее состояние или даже процент загруженных данных:
+If you need to know current state of loading, you may use **VolumeAnalysisCalculationProgress** from **HistoricalData**. If loading was started, this object will be set and you may know current state or even percent of loaded data:
 
 ```csharp
 if (HistoricalData.VolumeAnalysisCalculationProgress.State != VolumeAnalysisCalculationState.Finished
     Core.Instance.Loggers.Log(HistoricalData.VolumeAnalysisCalculationProgress.ProgressPercent.ToString());
 ```
 
-По завершении загрузки объект Total будет доступен для каждого HistoryItem из HistoricalData, который обеспечивает доступ к агрегированным данным анализа объема:
+When loading is finished **Total** object will be available for each **HistoryItem** from **HistoricalData** which provide access to aggregated volume analysis data:
 
 ```csharp
 HistoricalData[0].VolumeAnalysisData.Total.Volume
@@ -38,33 +38,33 @@ HistoricalData[0].VolumeAnalysisData.Total.Trades
 HistoricalData[0].VolumeAnalysisData.Total.AverageBuySize
 ```
 
-Список всех доступных типов данных:
+List of all available data types:
 
-| Тип данных | Описание |
+| Data type | Description |
 | :--- | :--- |
-| Объем | Общий размер всех позиций, исполненных на каждом ценовом уровне или ценовом диапазоне. |
-| Объем покупки | Общий размер всех позиций на покупку, выполненных на каждом ценовом уровне или ценовом диапазоне. |
-| Объем продажи | Общий размер всех позиций на продажу, выполненных на каждом ценовом уровне или ценовом диапазоне. |
-| Сделки | Количество контрактов \(сделок\), заключенных на каждом ценовом уровне. |
-| Buy Сделки | Количество сделок на покупку, выполненных на каждом ценовом уровне. |
-| Sell Сделки | Количество сделок на продажу, выполненных на каждом ценовом уровне. |
-| Buy Объем в процентах | Показывает, сколько процентов от общего объема относится к сделкам на покупку |
-| Sell Объем в процентах | Показывает, сколько процентов от общего объема относится к сделкам на продажу |
-| Дельта | Показывает разницу в торговом объеме между покупателями и продавцами. Позволяет оценить, кто в данный момент контролирует цену на рынке. |
-| Дельта-процент | Показывает разницу \(%\) в торговом объеме между покупателями и продавцами. Позволяет оценить, кто в данный момент контролирует цену на рынке. |
-| Средний размер | Средний объем позиции, которая была исполнена по определенной цене или ценовому диапазону. |
-| Средний Купить Размер | Средний объем позиции на покупку, которая была исполнена по определенной цене или в ценовом диапазоне. |
-| Средний размер продажи | Средний объем позиции на продажу, которая была исполнена по определенной цене или ценовому диапазону. |
-| Максимальный объем одной сделки | Показывает максимальный объем одной сделки, которая была исполнена по определенной цене или ценовому диапазону. |
-| Максимальный объем одной сделки процент   | Показывает максимальный \(%\) объем одной сделки, которая была исполнена по определенной цене или ценовому диапазону. |
+| Volume | The total size of all positions that executed at each price level or price range |
+| BuyVolume | The total size of all Buy positions that executed at each price level or price range |
+| SellVolume | The total size of all Sell positions that executed at each price level or price range |
+| Trades | The number of contracts \(trades\) that executed at each price level. |
+| BuyTrades | The number of Buy trades that executed at each price level |
+| SellTrades | The number of Sell trades that executed at each price level |
+| BuyVolumePercent | Shows how many percent of the total volume relates to Buy trades |
+| SellVolumePercent | Shows how many percent of the total volume relates to Sell trades |
+| Delta | Shows the difference in traded Volume between Buyers and Sellers. It allows evaluating who controls the price on the market at a given time |
+| DeltaPercent | Shows the difference \(%\) in traded Volume between Buyers and Sellers. It allows evaluating who controls the price on the market at a given time |
+| AverageSize | The average volume of the position that was executed at a certain price or price range |
+| AverageBuySize | The average volume of a Buy position that was executed at a specific price or price range |
+| AverageSellSize | The average volume of a Sell position that was executed at a specific price or price range |
+| MaxOneTradeVolume | Shows the maximum volume of a single trade that has executed at a certain price or price range |
+| MaxOneTradeVolumePercent | Shows the maximum \(%\) volume of a single trade that has executed at a certain price or price range |
 
-За исключением общей \(агрегированной\) информации, у вас есть доступ к данным анализа объема для каждой цены в баре. Он доступен в словаре PriceLevels и содержит те же типы данных, что и Total:
+Except **Total** \(aggregated\) information you have access to Volume analysis data for each price from the bar. It is available in PriceLevels dictionary and contains same data types as Total:
 
 ```csharp
 this.HistoricalData[0].VolumeAnalysisData.PriceLevels[1.2564].Volume
 ```
 
-В качестве примера создадим простой индикатор, который будет рисовать 2 линии в отдельном окне графика. Первый покажет AverageBuySize, а второй - AverageSellSize. Это полный исходный код:
+As an example let's create a simple indicator, that will draw 2 lines in the separate window of the chart. First one will show AverageBuySize and second AverageSellSize. This is full source code:
 
 ```csharp
 using System;
@@ -115,9 +115,9 @@ namespace IndicatorVolumeAnalysis
 }
 ```
 
-Когда мы построим этот индикатор и добавим его на график, мы увидим следующий результат:
+When we build this indicator and add on the chart we can see next result:
 
-![&#x41B;&#x438;&#x43D;&#x438;&#x438; &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440;&#x430; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x44B;&#x432;&#x430;&#x44E;&#x442; &#x441;&#x440;&#x435;&#x434;&#x43D;&#x438;&#x439; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x440; &#x43F;&#x43E;&#x43A;&#x443;&#x43F;&#x43A;&#x438; &#x438; &#x441;&#x440;&#x435;&#x434;&#x43D;&#x438;&#x439; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x440; &#x43F;&#x440;&#x43E;&#x434;&#x430;&#x436;&#x438;.](../.gitbook/assets/volumeanalysisindicator.png)
+![Indicator lines show average buy size and average sell size](../.gitbook/assets/volumeanalysisindicator.png)
 
-В этом разделе мы показали вам простой пример индикатора, основанного на данных объемного анализа. Вы можете улучшить его и создать действительно продвинутый и сложный индикатор, похожий на инструменты Volume Analysis из Quantower, например Cluster Chart. В наших следующих разделах мы предоставим пример рисования профилей объема на диаграмме.
+In this topic, we showed you the simple example of indicator based on volume analysis data. You may improve it and create really advanced and complex indicator, similar to Volume Analysis tools from Quantower, for example Cluster Chart. In our next topics we will provide an example of drawing volume profiles on the chart.
 

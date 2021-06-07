@@ -1,20 +1,20 @@
 # Power Trades
 
-[**Инструменты анализа объема** ](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbaIEqkN7fJ8JCch2GG/analytics-panels/chart/volume-analysis-tools)позволяют понять причины движения цены, уточнить и подтвердить уровни поддержки и сопротивления, а также оценить дисбаланс между покупателями и продавцами. Но инструменты объема привязаны к определенному времени \(таймфрейму\), не позволяя увидеть исполнение крупных ордеров в данный момент.
+\*\*\*\*[**Volume analysis tools**](volume-analysis-tools/) allow you to understand the causes of price movement, clarify and confirm support and resistance levels, as well as assess the imbalance between buyers and sellers. But volume tools are link to a specific time \(timeframe\), not allowing to see an execution of large orders at the moment.
 
-Используя Power Trades, вы можете увидеть исполнение большого количества ордеров за очень короткое время, что с большой вероятностью повлияет на изменение цены.
+Using **Power Trades** you can see the execution of a large number of orders in a very short time, which will affect the price change with a high probability.
 
 {% embed url="https://youtu.be/\_4mCYtfUkgw" caption="" %}
 
-## Что такое  Power Trades?
+## What is **Power Trades** show?
 
-Power Trades показывает зоны с исполнением большого количества ордеров за очень короткое время, что с большой вероятностью повлияет на изменение цены. Давайте посмотрим на несколько примеров.
+**Power Trades** shows the zones with the execution of a large number of orders in a very short time, which will affect the price change with a high probability. Let's take a look at a few examples.
 
-![&#x418;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43C;&#x435;&#x43D;&#x442; Power Trades &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x44B;&#x432;&#x430;&#x435;&#x442; &#x43E;&#x433;&#x440;&#x43E;&#x43C;&#x43D;&#x44B;&#x435; &#x441;&#x43E;&#x432;&#x435;&#x440;&#x448;&#x435;&#x43D;&#x43D;&#x44B;&#x435; &#x441;&#x434;&#x435;&#x43B;&#x43A;&#x438; &#x437;&#x430; &#x43A;&#x43E;&#x440;&#x43E;&#x442;&#x43A;&#x43E;&#x435; &#x432;&#x440;&#x435;&#x43C;&#x44F;](../../.gitbook/assets/power-trades-4.png)
+![Power Trades tool shows huge executed trades for the short time](../../.gitbook/assets/power-trades-4.png)
 
-![&#x418;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43C;&#x435;&#x43D;&#x442; Power Trades](../../.gitbook/assets/power-trades-for-es.png)
+![Power Trades tool](../../.gitbook/assets/power-trades-for-es.png)
 
-![Power Trades  &#x444;&#x44C;&#x44E;&#x447;&#x435;&#x440;&#x441;&#x44B; &#x435;&#x432;&#x440;&#x43E;](../../.gitbook/assets/power-trades-on-euro-futures.png)
+![Power Trades on Euro Futures](../../.gitbook/assets/power-trades-on-euro-futures.png)
 
 ## How does Power Trades find the zones?
 
