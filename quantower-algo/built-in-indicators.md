@@ -19,9 +19,9 @@ description: >-
 * AROON
 * и много других
 
-## Access built-in indicators
+## Доступ к встроенным индикаторам
 
-You can access built-in indicators using **Core.Indicators.BuiltIn** class. A good place to initiate such indicators is in an **OnInit** method of your script:
+Вы можете получить доступ к встроенным индикаторам с помощью класса Core.Indicators.BuiltIn. Хорошее место для запуска таких индикаторов - метод OnInit вашего скрипта:
 
 ```csharp
 Indicator AC;
@@ -33,7 +33,7 @@ protected override void OnInit()
 }
 ```
 
-An indicator can provide some parameters and you can specify them during creation:
+Индикатор может предоставлять некоторые параметры, и вы можете указать их при создании:
 
 ```csharp
 Indicator EMA;
@@ -47,7 +47,7 @@ protected override void OnInit()
 }
 ```
 
-You can create a few copies of one indicator or a few different indicators if needed:
+При необходимости вы можете создать несколько копий одного индикатора или несколько разных индикаторов:
 
 ```csharp
 Indicator fastEMA;
@@ -61,7 +61,7 @@ protected override void OnInit()
 }
 ```
 
-Now we need to assign the created indicator to our current script — which means it will use symbol and quotes from its parent. You can do this via **AddIndicator** method:
+Теперь нам нужно назначить созданный индикатор нашему текущему скрипту - это означает, что он будет использовать символ и кавычки из своего родителя. Вы можете сделать это с помощью метода AddIndicator:
 
 ```csharp
 Indicator EMA;
@@ -76,7 +76,7 @@ protected override void OnInit()
 }
 ```
 
-Everything is ready to use this indicator in our calculations. After receiving new quotes it will be calculated automatically. You can access its values via [**GetValue** ](http://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_GetValue_System_Int32_System_Int32_TradingPlatform_BusinessLayer_SeekOriginHistory_)method:
+Все готово для использования этого индикатора в наших расчетах. После получения новых котировок он будет рассчитан автоматически. Вы можете получить доступ к его значениям через метод [GetValue](http://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_GetValue_System_Int32_System_Int32_TradingPlatform_BusinessLayer_SeekOriginHistory_):
 
 ```csharp
 /// <summary>
@@ -92,7 +92,7 @@ protected override void OnUpdate(UpdateArgs args)
 }
 ```
 
-In case you need to access value for previous bars or value from other indicators line you can use the offset and a **lineIndex** parameter of a [**GetValue**](http://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_GetValue_System_Int32_System_Int32_TradingPlatform_BusinessLayer_SeekOriginHistory_) _\*\*_method:
+Если вам нужно получить доступ к значению для предыдущих баров или к значению из строки других индикаторов, вы можете использовать смещение и параметр lineIndex метода [GetValue](http://api.quantower.com/docs/TradingPlatform.BusinessLayer.Indicator.html#TradingPlatform_BusinessLayer_Indicator_GetValue_System_Int32_System_Int32_TradingPlatform_BusinessLayer_SeekOriginHistory_) \*\*:
 
 ```csharp
 /// <summary>
@@ -108,7 +108,7 @@ protected override void OnUpdate(UpdateArgs args)
 }
 ```
 
-This is a total source code of our example. We use two EMA indicators with different period and display their difference on the chart:
+Это полный исходный код нашего примера. Мы используем два индикатора EMA с разным периодом и отображаем их разницу на графике:
 
 ```csharp
 using System.Drawing;
@@ -171,9 +171,9 @@ namespace IndicatorWithBuiltIn
 }
 ```
 
-And a result of this indicator on the chart:
+И результат этого индикатора на графике:
 
-![In the additional window of the chart we can see result of our calculations](../.gitbook/assets/result.png)
+![&#x412; &#x434;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x43C; &#x43E;&#x43A;&#x43D;&#x435; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430; &#x43C;&#x44B; &#x432;&#x438;&#x434;&#x438;&#x43C; &#x440;&#x435;&#x437;&#x443;&#x43B;&#x44C;&#x442;&#x430;&#x442; &#x43D;&#x430;&#x448;&#x438;&#x445; &#x440;&#x430;&#x441;&#x447;&#x435;&#x442;&#x43E;&#x432;.](../.gitbook/assets/result.png)
 
-As you can see it was not really difficult to create this indicator. Before starting writing your own code, check first, maybe the required calculations are already available in a built-in set. Quantower team is constantly working on adding new built-in indicators. If you have any ideas and proposals, what we should add — feel free to [contact us](https://www.quantower.com/contact-us).
+Как видите, создать этот индикатор было несложно. Перед тем, как приступить к написанию собственного кода, проверьте сначала, возможно, нужные вычисления уже доступны во встроенном наборе. Команда Quantower постоянно работает над добавлением новых встроенных индикаторов. Если у вас есть идеи и предложения, что мы должны добавить - [смело пишите нам.](https://www.quantower.com/contact-us)
 
