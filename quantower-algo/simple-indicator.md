@@ -1,13 +1,13 @@
 ---
-description: In this topic we will show you how simple is writing indicators in Quantower
+description: 'В этом разделе мы покажем вам, насколько просто писать индикаторы в Quantower.'
 ---
 
-# Simple Indicator
+# Простой индикатор
 
 {% hint style="info" %}
-We will use Quantower Algo extension for Visual Studio, but main principles are valid for all development environments. If you don't have Visual Studio or Quantower Algo extension installed you can read [How to install Quantower Algo](installing-visual-studio.md) manual.
+Мы будем использовать расширение Quantower Algo для Visual Studio, но основные принципы действительны для всех сред разработки. Если у вас не установлено расширение Visual Studio или Quantower Algo, вы можете прочитать руководство [**Как установить Quantower Algo.**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Mb_LzyI38AnKls7m3Ia/quantower-algo/installing-visual-studio)\*\*\*\*
 
-See examples of some strategies, integrations and indicators in our [Github repository](https://github.com/Quantower/Examples)
+Смотрите примеры некоторых стратегий, интеграций и индикаторов в нашем [**репозитории Github.**](https://github.com/Quantower/Examples)\*\*\*\*
 {% endhint %}
 
 ## So, what is indicator in general?
