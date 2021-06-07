@@ -1,39 +1,41 @@
 ---
-description: Modify your indicators or strategies behavior using a set of Input parameters
+description: >-
+  Измените поведение индикаторов или стратегий с помощью набора входящих
+  параметров.
 ---
 
-# Input Parameters
+# Входящие параметры
 
-## General
+## Общее
 
-In the previous topic, we showed you [how to create a basic indicator](simple-indicator.md) using Visual Studio with Quantower Algo extension and use it on the chart in the trading platform. We created a Simple Moving Average indicator with hardcoded parameters. But what if we need to change these parameters? For example, we want to use Open prices instead of Close or use another Period. It is not very convenient to recompile your indicator each time and we provide you a possibility of easy tuning your scripts via so-called Input Parameters.
+В предыдущем разделе мы показали вам, как создать базовый индикатор с помощью Visual Studio с расширением Quantower Algo и использовать его на графике в торговой платформе. Мы создали индикатор Simple Moving Average с жестко запрограммированными параметрами. Но что, если нам нужно изменить эти параметры? Например, мы хотим использовать цены открытия вместо цен закрытия или использовать другой период. Перекомпилировать индикатор каждый раз не очень удобно, и мы предоставляем вам возможность легкой настройки ваших скриптов с помощью так называемых входных параметров.
 
-## **What is input parameter?**
+## Что такое входящий параметр?
 
-After adding an indicator on the chart you can find Setting menu item on it displaying "Settings" window. Indicators usually have some common settings, for customizing lines, and specific settings, that related to their algorithm or calculations.
+После добавления индикатора на график вы можете найти на нем пункт меню «Настройка», отображающий окно «Настройки». Индикаторы обычно имеют некоторые общие настройки для настройки линий и определенные настройки, связанные с их алгоритмом или расчетами.
 
-You can create any amount of input parameters, needed in your scripts. They can be used both for indicators and strategies.
+Вы можете создать любое количество входных параметров, необходимых в ваших скриптах. Их можно использовать как для индикаторов, так и для стратегий.
 
-From a technical point of view, Input Parameter is a usual variable marked with a special attribute. At the moment we support main basic types: string, number, date time, account, symbol, a list of options and others.
+С технической точки зрения Входной параметр - это обычная переменная, отмеченная специальным атрибутом. На данный момент мы поддерживаем основные базовые типы: строка, число, дата, время, счет, символ, список опций и другие.
 
-We will show in details how to declare each type of input parameters and how to customize them.
+Мы подробно покажем, как объявлять каждый тип входных параметров и как их настраивать.
 
-## **Types of Input Parameters**
+## Типы входящих параметров
 
-### **Text**
+### Текст
 
-Sometimes you may need a user to provide some text information, for example for displaying on the chart. For this, you need to declare a string variable and mark it as **InputAttribute**. You need to specify the name of an input parameter, which will be displayed in Settings screen:
+Иногда может потребоваться, чтобы пользователь предоставил некоторую текстовую информацию, например, для отображения на графике. Для этого вам нужно объявить строковую переменную и пометить ее как **InputAttribute.** Вам необходимо указать имя входного параметра, которое будет отображаться на экране настроек:
 
 ```csharp
 [InputParameter("Text")]
 public string text;
 ```
 
-If you call settings screen you will see text box, which you can use to enter a value. That's all - your first input parameter is ready:
+Если вы вызовете экран настроек, вы увидите текстовое поле, которое вы можете использовать для ввода значения. Вот и все - ваш первый входной параметр готов:
 
-![An example of text input parameter in indicator &quot;Settings&quot; screen](../.gitbook/assets/text_example%20%281%29.png)
+![&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x430; &#x432;&#x432;&#x43E;&#x434;&#x430; &#x442;&#x435;&#x43A;&#x441;&#x442;&#x430; &#x43D;&#x430; &#x44D;&#x43A;&#x440;&#x430;&#x43D;&#x435; &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440;&#x430; &#xAB;&#x41D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438;&#xBB;](../.gitbook/assets/text_example%20%281%29.png)
 
-If you have a few input parameters and want to arrange them in an appropriate order, you can apply SortIndex parameter for each InputParameter:
+Если у вас есть несколько входящих параметров и вы хотите расположить их в соответствующем порядке, вы можете применить параметр SortIndex для каждого Входящего параметра:
 
 ```csharp
 [InputParameter("First text", 1)]
@@ -46,9 +48,9 @@ public string secondText;
 public string thirdText;
 ```
 
-As you can see, parameters displayed in specified order:
+Как видите, параметры отображаются в указанном порядке:
 
-![Sorted Input Parameters](../.gitbook/assets/few-text_example.png)
+![&#x41E;&#x442;&#x441;&#x43E;&#x440;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x432;&#x445;&#x43E;&#x434;&#x44F;&#x449;&#x438;&#x435; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x44B;](../.gitbook/assets/few-text_example.png)
 
 ### **Boolean**
 

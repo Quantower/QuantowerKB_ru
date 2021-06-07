@@ -175,7 +175,7 @@
   * [Запуск и тестирование стратегий](quantower-algo/strategy-runner.md)
   * [Простой индикатор](quantower-algo/simple-indicator.md)
   * [Простая стратегия](quantower-algo/simple-strategy.md)
-  * [Input Parameters](quantower-algo/input-parameters.md)
+  * [Входящие параметры](quantower-algo/input-parameters.md)
   * [Built-In indicators access](quantower-algo/built-in-indicators.md)
   * [Custom indicators access](quantower-algo/custom-indicators-access.md)
   * [Level2 data](quantower-algo/level2-data.md)
