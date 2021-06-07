@@ -1,41 +1,39 @@
 ---
-description: >-
-  Измените поведение индикаторов или стратегий с помощью набора входящих
-  параметров.
+description: Modify your indicators or strategies behavior using a set of Input parameters
 ---
 
-# Входящие параметры
+# Input Parameters
 
-## Общее
+## General
 
-В предыдущем разделе мы показали вам, как создать базовый индикатор с помощью Visual Studio с расширением Quantower Algo и использовать его на графике в торговой платформе. Мы создали индикатор Simple Moving Average с жестко запрограммированными параметрами. Но что, если нам нужно изменить эти параметры? Например, мы хотим использовать цены открытия вместо цен закрытия или использовать другой период. Перекомпилировать индикатор каждый раз не очень удобно, и мы предоставляем вам возможность легкой настройки ваших скриптов с помощью так называемых входных параметров.
+In the previous topic, we showed you [how to create a basic indicator](simple-indicator.md) using Visual Studio with Quantower Algo extension and use it on the chart in the trading platform. We created a Simple Moving Average indicator with hardcoded parameters. But what if we need to change these parameters? For example, we want to use Open prices instead of Close or use another Period. It is not very convenient to recompile your indicator each time and we provide you a possibility of easy tuning your scripts via so-called Input Parameters.
 
-## Что такое входящий параметр?
+## **What is input parameter?**
 
-После добавления индикатора на график вы можете найти на нем пункт меню «Настройка», отображающий окно «Настройки». Индикаторы обычно имеют некоторые общие настройки для настройки линий и определенные настройки, связанные с их алгоритмом или расчетами.
+After adding an indicator on the chart you can find Setting menu item on it displaying "Settings" window. Indicators usually have some common settings, for customizing lines, and specific settings, that related to their algorithm or calculations.
 
-Вы можете создать любое количество входных параметров, необходимых в ваших скриптах. Их можно использовать как для индикаторов, так и для стратегий.
+You can create any amount of input parameters, needed in your scripts. They can be used both for indicators and strategies.
 
-С технической точки зрения Входной параметр - это обычная переменная, отмеченная специальным атрибутом. На данный момент мы поддерживаем основные базовые типы: строка, число, дата, время, счет, символ, список опций и другие.
+From a technical point of view, Input Parameter is a usual variable marked with a special attribute. At the moment we support main basic types: string, number, date time, account, symbol, a list of options and others.
 
-Мы подробно покажем, как объявлять каждый тип входных параметров и как их настраивать.
+We will show in details how to declare each type of input parameters and how to customize them.
 
-## Типы входящих параметров
+## **Types of Input Parameters**
 
-### Текст
+### **Text**
 
-Иногда может потребоваться, чтобы пользователь предоставил некоторую текстовую информацию, например, для отображения на графике. Для этого вам нужно объявить строковую переменную и пометить ее как **InputAttribute.** Вам необходимо указать имя входного параметра, которое будет отображаться на экране настроек:
+Sometimes you may need a user to provide some text information, for example for displaying on the chart. For this, you need to declare a string variable and mark it as **InputAttribute**. You need to specify the name of an input parameter, which will be displayed in Settings screen:
 
 ```csharp
 [InputParameter("Text")]
 public string text;
 ```
 
-Если вы вызовете экран настроек, вы увидите текстовое поле, которое вы можете использовать для ввода значения. Вот и все - ваш первый входной параметр готов:
+If you call settings screen you will see text box, which you can use to enter a value. That's all - your first input parameter is ready:
 
-![&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x430; &#x432;&#x432;&#x43E;&#x434;&#x430; &#x442;&#x435;&#x43A;&#x441;&#x442;&#x430; &#x43D;&#x430; &#x44D;&#x43A;&#x440;&#x430;&#x43D;&#x435; &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440;&#x430; &#xAB;&#x41D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438;&#xBB;](../.gitbook/assets/text_example%20%281%29.png)
+![An example of text input parameter in indicator &quot;Settings&quot; screen](../.gitbook/assets/text_example%20%281%29.png)
 
-Если у вас есть несколько входящих параметров и вы хотите расположить их в соответствующем порядке, вы можете применить параметр SortIndex для каждого Входящего параметра:
+If you have a few input parameters and want to arrange them in an appropriate order, you can apply SortIndex parameter for each InputParameter:
 
 ```csharp
 [InputParameter("First text", 1)]
@@ -48,74 +46,74 @@ public string secondText;
 public string thirdText;
 ```
 
-Как видите, параметры отображаются в указанном порядке:
+As you can see, parameters displayed in specified order:
 
-![&#x41E;&#x442;&#x441;&#x43E;&#x440;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x432;&#x445;&#x43E;&#x434;&#x44F;&#x449;&#x438;&#x435; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x44B;](../.gitbook/assets/few-text_example.png)
+![Sorted Input Parameters](../.gitbook/assets/few-text_example.png)
 
-### Логический
+### **Boolean**
 
-Если вам нужен простой переключатель, например, для включения опции, вы можете использовать переменную типа bool с атрибутом InputParameter:
+In case you need a simple switcher, for example, to enable an option, you can use bool variable with an InputParameter attribute:
 
 ```csharp
 [InputParameter("Boolean")]
 public bool boolean;
 ```
 
-### Число
+### **Number**
 
-Один из важнейших типов входных параметров - числа. Входные параметры могут применяться к переменным типа int, double, long и decimal:
+One of the most important types of input parameters is numbers. Input parameters can be applied to **int**, **double**, **long** and **decimal** variables:
 
 ```csharp
 [InputParameter("Integer")]
 public int intNumber;
 ```
 
-Вы можете указать дополнительные параметры - минимальное / максимальное значение, приращение и десятичные разряды.
+You can specify additional parameters - minimum/maximum value, increment, and decimal places.
 
 ```csharp
 [InputParameter("Double", 0, 0.00001, 10, 0.00001, 5)]
 public double doubleNumber;
 ```
 
-### Символ
+### **Symbol**
 
-Иногда может потребоваться возможность выбора символа, например, в случае расчета корреляции между символом на графике и другим символом. И снова - все, что вам нужно, просто объявить переменную и отметить ее атрибутом InputParameter:
+Sometimes you may need possibility so select symbol, for example in case of calculation of correlation between symbol from the chart and another symbol. And again - all you need just declare variable and mark in with **InputParameter** attribute:
 
 ```csharp
 [InputParameter("Symbol")]
 public Symbol symbol;
 ```
 
-### Акаунт
+### **Account**
 
-Если ваш скрипт выполняет какую-либо торговую операцию, вам необходимо указать настройки учетной записи. Используйте для этого переменную типа Account:
+If your script is executing some trading operation you need to provide an account setting. Use a variable of **Account** type for this:
 
 ```csharp
 [InputParameter("Account")]
 public Account account;
 ```
 
-## Дата Время
+### **DateTime**
 
-Обычно настройки DateTime используются для указания некоторого диапазона истории, например, левой и правой границы загруженной истории:
+Usually, DateTime settings are using to specify some range of history, for example, left and right border of downloaded history:
 
 ```csharp
 [InputParameter("Date")]
 public DateTime dateTime;
 ```
 
-### Цвет
+### **Color**
 
-Параметры ввода цвета сохраняют значение цвета в формате RGB:
+Color Input Parameters store color value in an RGB format:
 
 ```csharp
 [InputParameter("Color")]
 public Color color;
 ```
 
-### Список с опциями
+### **List with options**
 
-Список с опциями Входной параметр позволяет выбрать значение из предопределенного списка возможных состояний
+List with options Input parameter allows to select the value from the predefined list of possible states
 
 ```csharp
 [InputParameter("Simple price types list", 1, variants: new object[]{
@@ -129,11 +127,11 @@ public Color color;
 })]
 ```
 
-## Заключение
+## Conclusion
 
-Подводя итог всему сказанному выше, мы собрали все типы входных параметров, чтобы показать вам, как они могут выглядеть на экране настроек:
+To summarize all said above, we gathered all types of Input Parameters to show you how they can look in settings screen:
 
-![&#x412;&#x441;&#x435; &#x442;&#x438;&#x43F;&#x44B; &#x432;&#x445;&#x43E;&#x434;&#x43D;&#x44B;&#x445; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x43E;&#x432;](../.gitbook/assets/all-input.png)
+![All type of Input Parameters](../.gitbook/assets/all-input.png)
 
-Этих основных типов входных параметров достаточно для создания сложных индикаторов и стратегий с широким списком настроек. Несмотря на это, мы постоянно добавляем новые типы входных параметров. Не стесняйтесь обращаться к нам и предлагать свои варианты - мы открыты для отзывов наших пользователей.
+These basic types of Input parameters are enough to create complex indicators and strategies with a wide list of settings. Despite this, we are constantly adding new Input Parameter types. Feel free to contact us and propose your variants — we are open to our users' feedback.
 

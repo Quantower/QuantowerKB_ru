@@ -1,50 +1,50 @@
 ---
-description: Доступ к совокупным и неагрегированным коллекциям книги заказов.
+description: Access to aggregate and non-aggregate order book collections.
 ---
 
-# Level2 данные
+# Level2 data
 
-## Теория
+## **Theory**
 
-Книга заказов \(или level2\) - это набор заявок на покупку и продажу для определенных инструментов, организованных по уровню цен. У каждого уровня есть три важных значения - цена, размер и сторона. Эта коллекция динамична, то есть постоянно обновляется в реальном времени в течение дня.
+Order book \(or level2\) is a collection of buy and sell orders for specific instruments organized by price level. Each level has three important values - price, size and side. This collection is dynamic, in other words, it is constantly updated in real time during the day.
 
-Многие профессиональные трейдеры разрабатывают свои стратегии, используя данные книги заказов. Quantower API предоставляет пользователям простой способ получить агрегированные и неагрегированные снимки книги заказов. \*\* Чтобы использовать его, вам просто нужно выполнить метод GetDepthOfMarketAggregatedCollections и передать нужные вам параметры. Этот метод находится в классе «DepthOfMarket». У каждого инструмента есть свой объект DepthOfMarket.
+Many professional traders develop their strategies using order book data. Quantower API provides users an easy way to get aggregated and non-aggregated order book snapshots. _\*\*_To use it you just need to execute the "[GetDepthOfMarketAggregatedCollections](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.DepthOfMarket.html#TradingPlatform_BusinessLayer_DepthOfMarket_GetDepthOfMarketAggregatedCollections_TradingPlatform_BusinessLayer_GetDepthOfMarketParameters_)" method and pass the parameters you need. This method is located at the "[DepthOfMarket](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.DepthOfMarket.html)" class. Each instrument has its own "[DepthOfMarket](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.DepthOfMarket.html)" object.
 
-#### Загрузки
+#### Overloads
 
-Есть два метода загрузки
+There are two method overloads:
 
 ```csharp
 public DepthOfMarketAggregatedCollections GetDepthOfMarketAggregatedCollections(GetLevel2ItemsParameters parameters = null)
 ```
 
-Этот метод принимает объект [GetLevel2ItemsParameters](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.GetLevel2ItemsParameters.html) со свойствами:
+This method takes the “[GetLevel2ItemsParameters](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.GetLevel2ItemsParameters.html)’-object with properties:
 
-* \*\*\*\*[**AggregatedMethod**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.AggregateMethod.html) - перечисление, тип агрегирования \(по умолчанию «Уровень цен»\)
-* **CustomTickSize** - шаг агрегирования \(не может быть меньше размера тика символа\)
-* **LevelsCount** - количество необходимых уровней
-* **CalculateCumulative** - установите значение true, если вам нужно кумулятивное значение для каждого уровня цен.
+* [**AggregatedMethod**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.AggregateMethod.html) **-** enum, type of aggregation \(“Price level” by default\)
+* **CustomTickSize -** aggregation step \(cannot be less than symbol tick size\)
+* **LevelsCount -** number of levels required
+* **CalculateCumulative -** set ‘true’ if you need cumulative value for each price level.
 
 ```csharp
 public DepthOfMarketAggregatedCollections GetDepthOfMarketAggregatedCollections(GetDepthOfMarketParameters parameters)
 ```
 
-Этот метод принимает объект [`«GetDepthOfMarketParameters»`](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.GetDepthOfMarketParameters.html) со свойствами:
+This method takes the “[GetDepthOfMarketParameters](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.GetDepthOfMarketParameters.html)”-object with properties:
 
-* [**GetLevel2ItemsParameters**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.GetLevel2ItemsParameters.html) **-** объект, описанный выше.
-* **CalculateImbalancePercent -** установите значение «истина», если вам необходимо значение «дисбаланса» для каждого уровня цен.
+* [**GetLevel2ItemsParameters**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.GetLevel2ItemsParameters.html) **-** the object described above.
+* **CalculateImbalancePercent -** set ‘true’ if you need ‘imbalance’ value for each price level.
 
-Эти методы возвращают объект [DepthOfMarketAggregatedCollections](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.DepthOfMarketAggregatedCollections.html) с двумя списками - Asks и Bids. Каждая коллекция содержит экземпляры класса [Level2Item](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Level2Item.html). Есть наши уровни цен.
+These methods return a ‘[DepthOfMarketAggregatedCollections](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.DepthOfMarketAggregatedCollections.html)’ object with two lists - ‘Asks’ and ‘Bids’. Each collection contains instances of [‘Level2Item’](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Level2Item.html) class. There are our price levels.
 
-## **Практика**
+## **Practice**
 
-В этом разделе мы разработаем простой индикатор, который будет рисовать «кумулятивные» значения в виде гистограммы.
+In this topic we will develop a simple indicator which will draw ‘Cumulative’ values as histogram.
 
 ![](../.gitbook/assets/level2_example.png)
 
-### Входные параметры
+### **Input parameters**
 
-Во-первых, давайте определим входные параметры. Мы хотим управлять количеством уровней и устанавливать собственный размер тика.
+First, let’s define input parameters. We want to manage the number of levels and set custom tick size.
 
 ```csharp
 [InputParameter("Level count", 10, 1, 9999, 1, 0)]
@@ -54,9 +54,9 @@ public int InputLevelsCount = 10;
 public double InputCustomTicksize = 0.0001;
 ```
 
-### Конструктор класса
+### **Class constructor**
 
-Заполните конструктор нашего класса. Задайте имя и добавьте серию строк.
+Populate constructor of our class. Define name and add line series.
 
 ```csharp
 Name = "Level2 cumulative";
@@ -67,10 +67,10 @@ AddLineSeries("Bids cumulative", Color.DarkGreen, 10, LineStyle.Histogramm);
 SeparateWindow = true;
 ```
 
-### OnInit метод
+### **OnInit method**
 
 {% hint style="info" %}
-Обращать внимание! В методе OnInit нам нужно подписаться на событие NewLevel2. Это необходимо для того, чтобы терминал отправил поставщику запрос подписки на «книгу заказов». Метод Symbol\_NewLevel2Handler мы оставляем пустым.
+Pay attention! In the ‘OnInit’ method we need to subscribe to the ‘NewLevel2’ event. This is necessary for the terminal to send a 'order book' subscription request to the vendor. The ‘Symbol\_NewLevel2Handler’ method we leave empty.
 {% endhint %}
 
 ```csharp
@@ -85,9 +85,9 @@ private void Symbol_NewLevel2Handler(Symbol symbol, Level2Quote level2, DOMQuote
 }
 ```
 
-### OnUpdate метод
+### OnUpdate method
 
-В методе OnUpdate мы пропускаем историческую часть, а затем получаем снимок уровня 2. Обязательно проверьте, что коллекции Ask / Bid имеют значения. Затем мы получаем требуемые уровни и устанавливаем «Накопительные» значения в наши индикаторные буферы.
+In the ‘OnUpdate’ method we skip the historical part and then get a level2 snapshot. Be sure to check that the ask/bid collections have values. Then we get the required levels and set ‘Cumulative’ values into our indicator buffers.
 
 ```csharp
 protected override void OnUpdate(UpdateArgs args)
@@ -113,9 +113,9 @@ protected override void OnUpdate(UpdateArgs args)
 }
 ```
 
-### OnClear метод
+### OnClear method
 
-В «OnClear» не забудьте отказаться от подписки на «NewLevel2».
+In the ‘OnClear’ don’t forget to unsubscribe from the ‘NewLevel2’.
 
 ```csharp
 protected override void OnClear()

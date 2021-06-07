@@ -50,8 +50,8 @@ HistoricalData[0].VolumeAnalysisData.Total.AverageBuySize
 | Sell Сделки | Количество сделок на продажу, выполненных на каждом ценовом уровне. |
 | Buy Объем в процентах | Показывает, сколько процентов от общего объема относится к сделкам на покупку |
 | Sell Объем в процентах | Показывает, сколько процентов от общего объема относится к сделкам на продажу |
-| Дельта | Shows the difference in traded Volume between Buyers and Sellers. It allows evaluating who controls the price on the market at a given time |
-| Дельта-процент | Shows the difference \(%\) in traded Volume between Buyers and Sellers. It allows evaluating who controls the price on the market at a given time |
+| Дельта | Показывает разницу в торговом объеме между покупателями и продавцами. Позволяет оценить, кто в данный момент контролирует цену на рынке. |
+| Дельта-процент | Показывает разницу \(%\) в торговом объеме между покупателями и продавцами. Позволяет оценить, кто в данный момент контролирует цену на рынке. |
 | Средний размер | The average volume of the position that was executed at a certain price or price range |
 | Средний Купить Размер | The average volume of a Buy position that was executed at a specific price or price range |
 | Средний размер продажи | The average volume of a Sell position that was executed at a specific price or price range |
