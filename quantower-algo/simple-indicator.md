@@ -10,7 +10,7 @@ description: 'В этом разделе мы покажем вам, наско�
 Смотрите примеры некоторых стратегий, интеграций и индикаторов в нашем [**репозитории Github.**](https://github.com/Quantower/Examples)\*\*\*\*
 {% endhint %}
 
-## So, what is indicator in general?
+## Итак, что такое индикатор в целом?
 
 An indicator is mathematical calculations based on a symbol's price or volume. The result is used for displaying on the chart and to help trader make a correct decision. From technical point view Indicator in Quantower is a set of lines with buffers. Each element of the buffer is assigned to a historical bar or tick on the chart. All you need is to make a required calculations and put the result into this buffer.
 
@@ -20,7 +20,17 @@ Use "_**File -&gt; New project**_" in the main menu of Visual Studio to open "**
 
 At first, you need to create a new project for the indicator. Quantower Algo provides you predefined templates for an empty indicator as well as a few examples of real indicators with source code:
 
-![New project window](../.gitbook/assets/image%20%2855%29.png)
+Индикатор  - это математические вычисления, основанные на цене или объеме финансового инструмента. Результат используется для отображения на графике и помогает трейдеру принять правильное решение. С технической точки зрения индикатор в Quantower представляет собой набор линий с буферами. Каждому элементу буфера присваивается исторический бар или тик на графике. Все, что вам нужно, это произвести необходимые вычисления и поместить результат в этот буфер.
+
+Звучит не очень сложно, правда? Давайте начнем! Например, напишем код, который будет реализовывать алгоритм индикатора Simple Moving Average.
+
+Используйте _**«Файл -&gt; Новый проект»**_ в главном меню Visual Studio, чтобы открыть окно «Новый проект». Наберите «Индикатор», и вы увидите специальный тип проекта для пустого индикатора:
+
+Для начала нужно создать новый проект индикатора. Quantower Algo предоставляет вам предопределенные шаблоны для пустого индикатора, а также несколько примеров реальных индикаторов с исходным кодом:
+
+![](../.gitbook/assets/sozdat-proekt.jpg)
+
+![](../.gitbook/assets/sozdat-proekt-indikator.jpg)
 
 A minimum required source code will be generated automatically and contains the main Indicator functions:
 
