@@ -6,7 +6,7 @@ description: >-
 
 # VWAP - Средневзвешенная цена по объему
 
-Средневзвешенная цена по объему известна как **VWAP** - это «эталонная» цена актива для любого периода торгового дня или сессии. Средняя цена взвешивается по объему для оценки перекупленности или перепроданности текущей цены по сравнению с ценой VWAP.
+Средневзвешенная цена по объему известна как **VWAP** - это «эталонная» цена актива для любого периода торгового дня или сессии. Средняя цена взвешивается по объему для оценки пероцененности или недооцененности текущей цены по сравнению с ценой VWAP.
 
 ![](../../.gitbook/assets/multiple-vwap.png)
 
@@ -37,57 +37,63 @@ description: >-
 
 ![](../../.gitbook/assets/nastroiki-vwap.png)
 
-**1. Switch between different VWAPs** and set the settings for each of them
+**1. Переключайтесь между разными VWAP** и устанавливайте настройки для каждого из них.
 
-Quantower platform provides 5 separate VWAPs, that can be placed simultaneously on a single chart.
+Платформа Quantower предоставляет 5 отдельных VWAP, которые можно разместить одновременно на одном графике.
 
-**2.** Set the **Main Settings** for the VWAP line:
+**2.** Установите **основные настройки** для линии VWAP:
 
-* **Data type** — set the data for VWAP calculation: **Ticks** or **Current TF.    Ticks** will use tick data for VWAP calculation and will take much more time for loading    **Current TF** will use Bar data from the current selected Timeframe of your chart. It will use Price type data and multiple it to Bar Volume.
-* **Price Type** — select the price for the Current TF data type \(Open, High, Low, Close, HL/2, HLC/3, OHLC/4\)
-* **Period and Value** — defines the number of bars \(duration\) on which VWAP will be calculated
-* **Forward Extensions** \(type and number\)
-* **VWAP line** — visual settings for VWAP itself
+* **Тип данных** - установите данные для расчета VWAP: Ticks или Current TF. Тики будут использовать тиковые данные для расчета VWAP, и загрузка займет гораздо больше времени. Текущий TF будет использовать данные бара из текущего выбранного таймфрейма вашего графика. Он будет использовать данные типа цены и умножить их на объем бара.
+* **Тип цены** - выберите цену для текущего типа данных TF \(Open, High, Low, Close, HL / 2, HLC / 3, OHLC / 4\)
+* **Период** - определяет количество баров \(продолжительность\), по которым будет рассчитываться VWAP.
+* **Форвардные расширения** \(тип и номер\)
+* **Линия VWAP** - визуальные настройки самого VWAP
 
-![](../../.gitbook/assets/image%20%28104%29.png)
+**3. Полосы стандартного отклонения**
 
-**3. Standard Deviation Bands**
+Когда параметр активен, линии стандартного отклонения вверх и вниз от **VWAP** будут дополнительно рассчитаны на графике. В поле **«Значение»** укажите количество стандартных отклонений и цвета.
 
-When the parameter is active, the standard deviation lines up and down from VWAP will be additionally calculated on the chart. Specify the number of standard deviations in the _**"Value"**_ field and colors
+![](../../.gitbook/assets/nastroiki-vwap-4.png)
 
-**4. Maximum Permissible Deviation \(MPD\)**
+**4. Максимально допустимое отклонение \(MPD\)**
 
-MPD is similar to the standard deviation but is calculated as \(VWAP period high - VWAP period low\)/2.
+MPD аналогичен стандартному отклонению, но рассчитывается как \(максимум периода VWAP - минимум периода VWAP\) / 2.
 
-## How to use VWAP in trading?
+## Как использовать VWAP в торговле?
 
-VWAP has numerous application in the trading world. It is helpful for both institutional investors and retail intraday traders. Below are some well known applications of VWAP:
+VWAP имеет множество приложений в мире торговли. Это полезно как для институциональных инвесторов, так и для розничных внутридневных трейдеров. Ниже приведены некоторые хорошо известные применения VWAP:
 
-* It helps in Buying low and Selling High. If the price is below VWAP, it is considered as undervalued, while price above VWAP is considered as overvalued.
-* Crossing of prices above/below VWAP line in chart indicates momentum shift or change of trend.
-* VWAP is also used as a trading benchmark by institutional investors who are not worried about the timing of the trade, but who are concerned about the adverse impact of their trades on the price of the security.
-* VWAP serves as a reference point for prices for one day. As such, it is best suited for intraday analysis**.** Chartists can compare current prices with the VWAP values to determine the intraday trend.
-* VWAP indicator can be used as a dynamic support/resistance line during sideways market.
+* Это помогает покупать дешево и продавать дорого. Если цена ниже VWAP, она считается недооцененной, а цена выше VWAP считается переоцененной.
+* Пересечение цен выше / ниже линии VWAP на графике указывает на смещение импульса или изменение тренда.
+* VWAP также используется в качестве торгового ориентира институциональными инвесторами, которые не беспокоятся о сроках совершения сделки, но обеспокоены негативным влиянием своих сделок на цену ценной бумаги.
+* VWAP служит ориентиром для цен на один день. Таким образом, он лучше всего подходит для внутридневного анализа. Чартисты могут сравнивать текущие цены со значениями VWAP, чтобы определить внутридневной тренд.
+* Индикатор VWAP можно использовать как динамическую линию поддержки / сопротивления при боковом движении.
 
-### \#1 Return to 1 Hour VWAP
+### \#1 Вернуться к 1 часу VWAP
 
-For intraday trading we have found that it is possible to trade the return of the price to VWAP on small timeframes. For example, let's consider ES \(e-mini S&P500\) futures on 5-minute chart with an hourly VWAP.
+Мы обнаружили, что для внутридневной торговли можно торговать возвратом цены к VWAP на малых таймфреймах. Например, рассмотрим фьючерс на ES \(e-mini S & P500\) на 5-минутном графике с часовым VWAP.
 
-![Trading with VWAP in Quantower platform](../../.gitbook/assets/vwap-trading.png)
+![&#x422;&#x43E;&#x440;&#x433;&#x43E;&#x432;&#x43B;&#x44F; &#x441; VWAP &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435; Quantower](../../.gitbook/assets/vwap-trading.png)
 
-An important point in this tactic is that the distance between the VWAP value and the closing price should be significant.
+Важным моментом в этой тактике является то, что расстояние между значением VWAP и ценой закрытия должно быть значительным.
 
-![The distance between the VWAP value and the closing price should be significant ](../../.gitbook/assets/vwap-trading1.png)
+![&#x420;&#x430;&#x441;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x438;&#x435; &#x43C;&#x435;&#x436;&#x434;&#x443; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x435;&#x43C; VWAP &#x438; &#x446;&#x435;&#x43D;&#x43E;&#x439; &#x437;&#x430;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x44F; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x43E; &#x431;&#x44B;&#x442;&#x44C; &#x437;&#x43D;&#x430;&#x447;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x43C;. ](../../.gitbook/assets/vwap-trading1.png)
 
-### \#2 Trading with STD bands
+### 2 Торговля с полосами STD
 
-**Standard deviations** are an objective statistical measurement that quantify variance in a data set, with a small value indicating that most data points are close to the average and a larger value indicating a wider spread.
+Cтандартные отклонения - это объективное статистическое измерение, которое позволяет количественно оценить дисперсию в наборе данных, при этом небольшое значение указывает на то, что большинство точек данных близко к среднему, а большее значение указывает на более широкий разброс.
 
-By applying this tool to trading with VWAP serving as our average, we can plot these deviations as bands to create a visible unit of measurement to characterize market movement and gauge volatility
+Применяя этот инструмент к торговле с VWAP, служащим нашим средним значением, мы можем изобразить эти отклонения в виде полос, чтобы создать видимую единицу измерения для характеристики движения рынка и измерения волатильности.
 
-Deviation bands are plotted continuously alongside VWAP, automatically adjusting as we receive more data. They typically start off small and expand as price begins to break away from the market's average, but lacking any notable volume or volatility they remain stable throughout the day.
+Полосы отклонения отображаются непрерывно рядом с VWAP, автоматически корректируясь по мере поступления новых данных. Обычно они начинаются с малого и расширяются по мере того, как цена начинает отрываться от средней рыночной, но при отсутствии заметного объема или волатильности они остаются стабильными в течение дня.
 
 ![](../../.gitbook/assets/stds-and-vwap.png)
+
+![](../../.gitbook/assets/vwap-s-neskolkimi-polosami-std.png)
+
+**Настройка  VWAP с несколькими полосами STD**
+
+
 
 
 
