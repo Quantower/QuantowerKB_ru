@@ -122,7 +122,7 @@
       * [Гистограмма по времени](analytics-panels/chart/volume-analysis-tools/time-histogram.md)
       * [История ленты сделок](analytics-panels/chart/volume-analysis-tools/historical-time-and-sales.md)
     * [Power Trades](analytics-panels/chart/power-trades.md)
-    * [VWAP \| Средневзвешенная цена по объему](analytics-panels/chart/vwap.md)
+    * [VWAP - Средневзвешенная цена по объему](analytics-panels/chart/vwap.md)
     * [Anchored VWAP](analytics-panels/chart/anchored-vwap.md)
   * [Watchlist](analytics-panels/watchlist.md)
   * [Time & Sales](analytics-panels/time-and-sales.md)
