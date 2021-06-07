@@ -4,7 +4,7 @@ description: >-
   и индикаторах
 ---
 
-# Built-In indicators access
+# Доступ к встроенным индикаторам
 
 ## Общее
 
