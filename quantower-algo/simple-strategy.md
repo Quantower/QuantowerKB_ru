@@ -1,66 +1,66 @@
 ---
-description: How to create you first strategy and run it the Quantower trading platform
+description: Как создать свою первую стратегию и запустить ее торговая платформа Quantower
 ---
 
-# Simple strategy
+# Простая стратегия
 
-In our previous articles, we showed you how to use Quantower Algo extension and write your own indicators. Now we show you how to create you first strategy and run it the Quantower trading platform.
+В наших предыдущих статьях мы показали вам, как использовать расширение Quantower Algo и писать свои собственные индикаторы. Теперь мы покажем вам, как создать свою первую стратегию и запустить ее на торговой платформе Quantower.
 
 {% hint style="info" %}
-See examples of some strategies, integrations and indicators in our [Github repository](https://github.com/Quantower/Examples)
+Смотрите примеры некоторых стратегий, интеграций и индикаторов в нашем [репозитории Github.](https://github.com/Quantower/Examples)
 {% endhint %}
 
-## What is a Strategy?
+## Что такое стратегия?
 
-We use the name "Strategy" for code, that can implement absolutely any logic and can be executed in Quantower. You can use strategies for the realization of trading algorithms, a specific logic of controlling closing orders \(for example Trailing stop\), for arbitrage between different connections, etc. We don't have any restrictions or limitations for this, moreover, we provide you access to almost all functions from our trading core.
+Мы используем название «Стратегия» для кода, который может реализовывать абсолютно любую логику и может выполняться в Quantower. Вы можете использовать стратегии для реализации торговых алгоритмов, особую логику управления ордерами закрытия \(например, трейлинг-стоп\), для арбитража между разными соединениями и т. Д. У нас нет никаких ограничений для этого, более того, мы предоставляем вам доступ практически ко всем функциям нашего торгового ядра.
 
-Quantower Algo provides you with two predefined templates of strategies. We will start from a blank template, which contains only basic functions. Use "_**File -&gt; New project**_" in the main menu of Visual Studio to open "**New project**" window. Type "Strategy" and you will see special project type for blank strategy:
+Quantower Algo предоставляет вам два предопределенных шаблона стратегий. Мы начнем с пустого шаблона, который содержит только основные функции. Используйте **«Файл -&gt; Новый проект»** в главном меню Visual Studio, чтобы открыть окно «Новый проект». Введите «Стратегия», и вы увидите специальный тип проекта для пустой стратегии:
 
-![New project window](../.gitbook/assets/image%20%2856%29.png)
+![](../.gitbook/assets/sozdanie-strategii.png)
 
-You will get generated code with a few empty functions:
+Вы получите сгенерированный код с несколькими пустыми функциями:
 
-![Source code for Strategy template](../.gitbook/assets/empty-code.png)
+![&#x418;&#x441;&#x445;&#x43E;&#x434;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x434; &#x434;&#x43B;&#x44F; &#x448;&#x430;&#x431;&#x43B;&#x43E;&#x43D;&#x430; &#x441;&#x442;&#x440;&#x430;&#x442;&#x435;&#x433;&#x438;&#x438;](../.gitbook/assets/empty-code.png)
 
-As you can see, this blank version is not related to any trading functionality - it is a just general code-basis. It is inherited of class Strategy, by this Quantower recognize that your code is compatible and can be executed in Quantower.
+Как видите, эта пустая версия не имеет отношения к каким-либо торговым функциям - это всего лишь общая кодовая основа. Он унаследован от класса Strategy, этот Quantower распознает, что ваш код совместим и может быть выполнен в Quantower.
 
-## Basic methods
+## Основные методы
 
-Let's go deep into the code - it contains a few methods:
+Давайте углубимся в код - он содержит несколько методов:
 
 ### **OnCreated**
 
-Will be called when user select required strategy from Strategy lookup. Use this method to implement logic, that needs to be executed once on creation.
+Вызывается, когда пользователь выбирает необходимую стратегию из поиска по стратегии. Используйте этот метод для реализации логики, которую необходимо выполнить один раз при создании.
 
 ### **OnRun**
 
-Will be called when user press Run button in Strategy Runner panel. Use this method to set initial values before running.
+Вызывается, когда пользователь нажимает кнопку Run на панели Strategy Runner. Используйте этот метод для установки начальных значений перед запуском.
 
 ### **OnStop**
 
-Will be called when user press Stop button in Strategy Runner panel. Use this method to clear state of your strategy \(if required\).
+Вызывается, когда пользователь нажимает кнопку Stop на панели Strategy Runner. Используйте этот метод, чтобы очистить состояние вашей стратегии \(при необходимости\).
 
 ### **OnRemove**
 
-Will be called when user close Strategy Runner Panel or select another strategy. Use this method for final clearing used resources.
+Будет вызываться, когда пользователь закроет панель запуска стратегии или выберет другую стратегию. Используйте этот метод для окончательной очистки использованных ресурсов.
 
 ### **OnGetMetrics**
 
-Via this method, you can display the required information in the Strategy Panel and control your strategy. For example, you can display how many quotes were processes, or how many but or sell orders were sent, etc.
+С помощью этого метода вы можете отображать необходимую информацию на панели стратегии и управлять своей стратегией. Например, вы можете отобразить, сколько котировок было обработано, сколько было отправлено заказов на продажу и т. д.
 
 {% hint style="info" %}
-You don't need to add logic to all these methods, the most often used is a pair of **OnRun/OnStop** methods.
+Ко всем этим методам не нужно добавлять логику, чаще всего используется пара методов **OnRun / OnStop.**
 {% endhint %}
 
-The most popular case is when you use strategy to implement some trading algorithm and you need only one instrument and one account for this. For this we have a predefined template - you can use it as a basis. Use "One symbol strategy" in "New project" window:
+Самый популярный случай - когда вы используете стратегию для реализации некоторого торгового алгоритма, и для этого вам нужен только один инструмент и одна учетная запись. Для этого у нас есть готовый шаблон - вы можете использовать его как основу. Используйте «Стратегию одного символа» в окне «Новый проект»:
 
-![New Project window and One symbol strategy template](../.gitbook/assets/onesymbolstrategy.png)
+![&#x41E;&#x43A;&#x43D;&#x43E; &quot;&#x41D;&#x43E;&#x432;&#x44B;&#x439; &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;&quot; &#x438; &#x448;&#x430;&#x431;&#x43B;&#x43E;&#x43D; &#x441;&#x442;&#x440;&#x430;&#x442;&#x435;&#x433;&#x438;&#x438; &quot;&#x41E;&#x434;&#x438;&#x43D; &#x441;&#x438;&#x43C;&#x432;&#x43E;&#x43B;&quot;](../.gitbook/assets/onesymbolstrategy.png)
 
-Now we have a little more code - strategy contains Symbol and Account input variables, which we described before. It subscribes to all type of quotes for selected symbol in **OnRun\(\)** method and you can receive and process them if it required by your algorithm.
+Теперь у нас есть немного больше кода - стратегия содержит входные переменные Symbol и Account, которые мы описали ранее. Он подписывается на все типы котировок для выбранного символа в методе OnRun \(\), и вы можете получать и обрабатывать их, если этого требует ваш алгоритм.
 
-## Example
+## Пример
 
-Let's create some trivial example and try to run it in the Quantower platform. We will talk about retrieving current trading information and trading operations in our next articles, for the current moment, we just add counters for each type of quotes and strategy metrics for displaying in Strategy Runner panel. We will add examples of logs also - you should always use them, as it can help you to understand the current strategy state or display error information. You can specify a type of log: **Info, Error or Trading**.
+Давайте создадим какой-нибудь тривиальный пример и попробуем запустить его на платформе Quantower. О получении текущей торговой информации и торговых операциях мы поговорим в наших следующих статьях, а на текущий момент мы просто добавляем счетчики для каждого типа котировок и метрики стратегии для отображения в панели Strategy Runner. Мы также добавим примеры журналов - вы всегда должны их использовать, так как они могут помочь вам понять текущее состояние стратегии или отобразить информацию об ошибках. Вы можете указать тип журнала: Информация, Ошибка или Торговля.
 
 ```csharp
 /// <summary>
@@ -122,13 +122,13 @@ protected override List<StrategyMetric> OnGetMetrics()
 }
 ```
 
-Build your project, and if your Quantower Algo is properly assigned to an instance of Quantower, your strategy will be automatically copied to an appropriate folder and you will see it in Strategy Lookup window:
+Создайте свой проект, и если ваш алгоритм Quantower правильно назначен экземпляру Quantower, ваша стратегия будет автоматически скопирована в соответствующую папку, и вы увидите ее в окне поиска стратегии:
 
-![Now your strategy is available in the Strategies Lookup](../.gitbook/assets/strategy-in-lookup.png)
+![&#x422;&#x435;&#x43F;&#x435;&#x440;&#x44C; &#x432;&#x430;&#x448;&#x430; &#x441;&#x442;&#x440;&#x430;&#x442;&#x435;&#x433;&#x438;&#x44F; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x43D;&#x430; &#x432; &#x43F;&#x43E;&#x438;&#x441;&#x43A;&#x435; &#x441;&#x442;&#x440;&#x430;&#x442;&#x435;&#x433;&#x438;&#x439;.](../.gitbook/assets/strategy-in-lookup.png)
 
-You need to specify the required input parameters: symbol and account and then press the "**Run**" button. Now your strategy is running and you will see logs and metrics, that we have added:
+Вам необходимо указать необходимые входные параметры: символ и счет, а затем нажать кнопку «Выполнить». Теперь ваша стратегия работает, и вы увидите журналы и показатели, которые мы добавили:
 
-![Strategy runner panel with our running strategy](../.gitbook/assets/runnoingstrategie.png)
+![&#x41F;&#x430;&#x43D;&#x435;&#x43B;&#x44C; &#x440;&#x430;&#x43D;&#x43D;&#x435;&#x440;&#x430; &#x441;&#x442;&#x440;&#x430;&#x442;&#x435;&#x433;&#x438;&#x438; &#x441; &#x43D;&#x430;&#x448;&#x435;&#x439; &#x441;&#x442;&#x440;&#x430;&#x442;&#x435;&#x433;&#x438;&#x435;&#x439; &#x431;&#x435;&#x433;&#x430;](../.gitbook/assets/runnoingstrategie.png)
 
-It is a very simple example and it provides you only basic knowledge about how strategies are working in Quantower. In our further lessons, we will show you how to create real algorithms using analysis of your current trading portfolio and trading operations.
+Это очень простой пример, который дает вам только базовые знания о том, как работают стратегии в Quantower. В наших дальнейших уроках мы покажем вам, как создавать настоящие алгоритмы, используя анализ вашего текущего торгового портфеля и торговых операций.
 

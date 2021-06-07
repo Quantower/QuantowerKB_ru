@@ -174,7 +174,7 @@
   * [Установка Visual Studio](quantower-algo/installing-visual-studio.md)
   * [Запуск и тестирование стратегий](quantower-algo/strategy-runner.md)
   * [Простой индикатор](quantower-algo/simple-indicator.md)
-  * [Simple strategy](quantower-algo/simple-strategy.md)
+  * [Простая стратегия](quantower-algo/simple-strategy.md)
   * [Input Parameters](quantower-algo/input-parameters.md)
   * [Built-In indicators access](quantower-algo/built-in-indicators.md)
   * [Custom indicators access](quantower-algo/custom-indicators-access.md)
