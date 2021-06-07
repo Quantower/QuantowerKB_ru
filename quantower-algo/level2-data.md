@@ -1,29 +1,29 @@
 ---
-description: Access to aggregate and non-aggregate order book collections.
+description: Доступ к совокупным и неагрегированным коллекциям книги заказов.
 ---
 
-# Level2 data
+# Level2 данные
 
-## **Theory**
+## Теория
 
-Order book \(or level2\) is a collection of buy and sell orders for specific instruments organized by price level. Each level has three important values - price, size and side. This collection is dynamic, in other words, it is constantly updated in real time during the day.
+Книга заказов \(или level2\) - это набор заявок на покупку и продажу для определенных инструментов, организованных по уровню цен. У каждого уровня есть три важных значения - цена, размер и сторона. Эта коллекция динамична, то есть постоянно обновляется в реальном времени в течение дня.
 
-Many professional traders develop their strategies using order book data. Quantower API provides users an easy way to get aggregated and non-aggregated order book snapshots. _\*\*_To use it you just need to execute the "[GetDepthOfMarketAggregatedCollections](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.DepthOfMarket.html#TradingPlatform_BusinessLayer_DepthOfMarket_GetDepthOfMarketAggregatedCollections_TradingPlatform_BusinessLayer_GetDepthOfMarketParameters_)" method and pass the parameters you need. This method is located at the "[DepthOfMarket](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.DepthOfMarket.html)" class. Each instrument has its own "[DepthOfMarket](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.DepthOfMarket.html)" object.
+Многие профессиональные трейдеры разрабатывают свои стратегии, используя данные книги заказов. Quantower API предоставляет пользователям простой способ получить агрегированные и неагрегированные снимки книги заказов. \*\* Чтобы использовать его, вам просто нужно выполнить метод GetDepthOfMarketAggregatedCollections и передать нужные вам параметры. Этот метод находится в классе «DepthOfMarket». У каждого инструмента есть свой объект DepthOfMarket.
 
-#### Overloads
+#### Загрузки
 
-There are two method overloads:
+Есть два метода загрузки
 
 ```csharp
 public DepthOfMarketAggregatedCollections GetDepthOfMarketAggregatedCollections(GetLevel2ItemsParameters parameters = null)
 ```
 
-This method takes the “[GetLevel2ItemsParameters](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.GetLevel2ItemsParameters.html)’-object with properties:
+Этот метод принимает объект [GetLevel2ItemsParameters](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.GetLevel2ItemsParameters.html) со свойствами:
 
-* [**AggregatedMethod**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.AggregateMethod.html) **-** enum, type of aggregation \(“Price level” by default\)
-* **CustomTickSize -** aggregation step \(cannot be less than symbol tick size\)
-* **LevelsCount -** number of levels required
-* **CalculateCumulative -** set ‘true’ if you need cumulative value for each price level.
+* \*\*\*\*[**AggregatedMethod**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.AggregateMethod.html) - перечисление, тип агрегирования \(по умолчанию «Уровень цен»\)
+* **CustomTickSize** - шаг агрегирования \(не может быть меньше размера тика символа\)
+* **LevelsCount** - количество необходимых уровней
+* **CalculateCumulative** - установите значение true, если вам нужно кумулятивное значение для каждого уровня цен.
 
 ```csharp
 public DepthOfMarketAggregatedCollections GetDepthOfMarketAggregatedCollections(GetDepthOfMarketParameters parameters)

@@ -178,7 +178,7 @@
   * [Входящие параметры](quantower-algo/input-parameters.md)
   * [Доступ к встроенным индикаторам](quantower-algo/built-in-indicators.md)
   * [Доступ к пользовательским индикаторам](quantower-algo/custom-indicators-access.md)
-  * [Level2 data](quantower-algo/level2-data.md)
+  * [Level2 данные](quantower-algo/level2-data.md)
   * [Access Volume analysis data from indicators](quantower-algo/access-volume-analysis-data-from-indicators.md)
   * [Indicator with custom painting \(GDI\)](quantower-algo/indicator-with-custom-painting-gdi.md)
   * [Access Chart from indicator](quantower-algo/access-chart-from-indicator.md)
