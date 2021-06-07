@@ -42,14 +42,14 @@ HistoricalData[0].VolumeAnalysisData.Total.AverageBuySize
 
 | Тип данных | Описание |
 | :--- | :--- |
-| Объем | The total size of all positions that executed at each price level or price range |
-| Объем покупки | The total size of all Buy positions that executed at each price level or price range |
-| Объем продажи | The total size of all Sell positions that executed at each price level or price range |
-| Сделки | The number of contracts \(trades\) that executed at each price level. |
-| Buy Сделки | The number of Buy trades that executed at each price level |
-| Sell Сделки | The number of Sell trades that executed at each price level |
-| Buy Объем в процентах | Shows how many percent of the total volume relates to Buy trades |
-| Sell Объем в процентах | Shows how many percent of the total volume relates to Sell trades |
+| Объем | Общий размер всех позиций, исполненных на каждом ценовом уровне или ценовом диапазоне. |
+| Объем покупки | Общий размер всех позиций на покупку, выполненных на каждом ценовом уровне или ценовом диапазоне. |
+| Объем продажи | Общий размер всех позиций на продажу, выполненных на каждом ценовом уровне или ценовом диапазоне. |
+| Сделки | Количество контрактов \(сделок\), заключенных на каждом ценовом уровне. |
+| Buy Сделки | Количество сделок на покупку, выполненных на каждом ценовом уровне. |
+| Sell Сделки | Количество сделок на продажу, выполненных на каждом ценовом уровне. |
+| Buy Объем в процентах | Показывает, сколько процентов от общего объема относится к сделкам на покупку |
+| Sell Объем в процентах | Показывает, сколько процентов от общего объема относится к сделкам на продажу |
 | Дельта | Shows the difference in traded Volume between Buyers and Sellers. It allows evaluating who controls the price on the market at a given time |
 | Дельта-процент | Shows the difference \(%\) in traded Volume between Buyers and Sellers. It allows evaluating who controls the price on the market at a given time |
 | Средний размер | The average volume of the position that was executed at a certain price or price range |
