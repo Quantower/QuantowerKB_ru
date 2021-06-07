@@ -29,22 +29,22 @@ public DepthOfMarketAggregatedCollections GetDepthOfMarketAggregatedCollections(
 public DepthOfMarketAggregatedCollections GetDepthOfMarketAggregatedCollections(GetDepthOfMarketParameters parameters)
 ```
 
-This method takes the “[GetDepthOfMarketParameters](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.GetDepthOfMarketParameters.html)”-object with properties:
+Этот метод принимает объект [`«GetDepthOfMarketParameters»`](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.GetDepthOfMarketParameters.html) со свойствами:
 
-* [**GetLevel2ItemsParameters**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.GetLevel2ItemsParameters.html) **-** the object described above.
-* **CalculateImbalancePercent -** set ‘true’ if you need ‘imbalance’ value for each price level.
+* [**GetLevel2ItemsParameters**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.GetLevel2ItemsParameters.html) **-** объект, описанный выше.
+* **CalculateImbalancePercent -** установите значение «истина», если вам необходимо значение «дисбаланса» для каждого уровня цен.
 
-These methods return a ‘[DepthOfMarketAggregatedCollections](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.DepthOfMarketAggregatedCollections.html)’ object with two lists - ‘Asks’ and ‘Bids’. Each collection contains instances of [‘Level2Item’](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Level2Item.html) class. There are our price levels.
+Эти методы возвращают объект [DepthOfMarketAggregatedCollections](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.DepthOfMarketAggregatedCollections.html) с двумя списками - Asks и Bids. Каждая коллекция содержит экземпляры класса [Level2Item](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.Level2Item.html). Есть наши уровни цен.
 
-## **Practice**
+## **Практика**
 
-In this topic we will develop a simple indicator which will draw ‘Cumulative’ values as histogram.
+В этом разделе мы разработаем простой индикатор, который будет рисовать «кумулятивные» значения в виде гистограммы.
 
 ![](../.gitbook/assets/level2_example.png)
 
-### **Input parameters**
+### Входные параметры
 
-First, let’s define input parameters. We want to manage the number of levels and set custom tick size.
+Во-первых, давайте определим входные параметры. Мы хотим управлять количеством уровней и устанавливать собственный размер тика.
 
 ```csharp
 [InputParameter("Level count", 10, 1, 9999, 1, 0)]
@@ -54,9 +54,9 @@ public int InputLevelsCount = 10;
 public double InputCustomTicksize = 0.0001;
 ```
 
-### **Class constructor**
+### Конструктор класса
 
-Populate constructor of our class. Define name and add line series.
+Заполните конструктор нашего класса. Задайте имя и добавьте серию строк.
 
 ```csharp
 Name = "Level2 cumulative";
@@ -67,10 +67,10 @@ AddLineSeries("Bids cumulative", Color.DarkGreen, 10, LineStyle.Histogramm);
 SeparateWindow = true;
 ```
 
-### **OnInit method**
+### OnInit метод
 
 {% hint style="info" %}
-Pay attention! In the ‘OnInit’ method we need to subscribe to the ‘NewLevel2’ event. This is necessary for the terminal to send a 'order book' subscription request to the vendor. The ‘Symbol\_NewLevel2Handler’ method we leave empty.
+Обращать внимание! В методе OnInit нам нужно подписаться на событие NewLevel2. Это необходимо для того, чтобы терминал отправил поставщику запрос подписки на «книгу заказов». Метод Symbol\_NewLevel2Handler мы оставляем пустым.
 {% endhint %}
 
 ```csharp
@@ -85,9 +85,9 @@ private void Symbol_NewLevel2Handler(Symbol symbol, Level2Quote level2, DOMQuote
 }
 ```
 
-### OnUpdate method
+### OnUpdate метод
 
-In the ‘OnUpdate’ method we skip the historical part and then get a level2 snapshot. Be sure to check that the ask/bid collections have values. Then we get the required levels and set ‘Cumulative’ values into our indicator buffers.
+В методе OnUpdate мы пропускаем историческую часть, а затем получаем снимок уровня 2. Обязательно проверьте, что коллекции Ask / Bid имеют значения. Затем мы получаем требуемые уровни и устанавливаем «Накопительные» значения в наши индикаторные буферы.
 
 ```csharp
 protected override void OnUpdate(UpdateArgs args)
@@ -113,9 +113,9 @@ protected override void OnUpdate(UpdateArgs args)
 }
 ```
 
-### OnClear method
+### OnClear метод
 
-In the ‘OnClear’ don’t forget to unsubscribe from the ‘NewLevel2’.
+В «OnClear» не забудьте отказаться от подписки на «NewLevel2».
 
 ```csharp
 protected override void OnClear()
