@@ -1,14 +1,14 @@
 ---
 description: >-
-  Use the results of 50+ built-in indicators of Quantower in your strategies and
-  indicators
+  Используйте результаты 50+ встроенных индикаторов Quantower в своих стратегиях
+  и индикаторах
 ---
 
 # Built-In indicators access
 
-## General
+## Общее
 
-During development of your own indicators or strategy, you may require using some standard indicators, for example Moving Averages. You don't need to write any code for this, as Quantower trading platform provides you a wide set of predefined indicators. At the moment there are about 50 built-in indicators, among them:
+При разработке собственных индикаторов или стратегии вам может потребоваться использование некоторых стандартных индикаторов, например скользящих средних. Вам не нужно писать для этого какой-либо код, поскольку торговая платформа Quantower предоставляет вам широкий набор предопределенных индикаторов. На данный момент существует около 50 встроенных индикаторов, среди них:
 
 * EMA
 * ADX
@@ -17,7 +17,7 @@ During development of your own indicators or strategy, you may require using som
 * RSI
 * KAMA
 * AROON
-* and many others
+* и много других
 
 ## Access built-in indicators
 
