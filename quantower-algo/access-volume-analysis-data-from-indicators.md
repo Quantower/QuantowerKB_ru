@@ -52,11 +52,11 @@ HistoricalData[0].VolumeAnalysisData.Total.AverageBuySize
 | Sell Объем в процентах | Показывает, сколько процентов от общего объема относится к сделкам на продажу |
 | Дельта | Показывает разницу в торговом объеме между покупателями и продавцами. Позволяет оценить, кто в данный момент контролирует цену на рынке. |
 | Дельта-процент | Показывает разницу \(%\) в торговом объеме между покупателями и продавцами. Позволяет оценить, кто в данный момент контролирует цену на рынке. |
-| Средний размер | The average volume of the position that was executed at a certain price or price range |
-| Средний Купить Размер | The average volume of a Buy position that was executed at a specific price or price range |
-| Средний размер продажи | The average volume of a Sell position that was executed at a specific price or price range |
-| Максимальный объем одной сделки | Shows the maximum volume of a single trade that has executed at a certain price or price range |
-| Максимальный объем одной сделки процент   | Shows the maximum \(%\) volume of a single trade that has executed at a certain price or price range |
+| Средний размер | Средний объем позиции, которая была исполнена по определенной цене или ценовому диапазону. |
+| Средний Купить Размер | Средний объем позиции на покупку, которая была исполнена по определенной цене или в ценовом диапазоне. |
+| Средний размер продажи | Средний объем позиции на продажу, которая была исполнена по определенной цене или ценовому диапазону. |
+| Максимальный объем одной сделки | Показывает максимальный объем одной сделки, которая была исполнена по определенной цене или ценовому диапазону. |
+| Максимальный объем одной сделки процент   | Показывает максимальный \(%\) объем одной сделки, которая была исполнена по определенной цене или ценовому диапазону. |
 
 Except **Total** \(aggregated\) information you have access to Volume analysis data for each price from the bar. It is available in PriceLevels dictionary and contains same data types as Total:
 
