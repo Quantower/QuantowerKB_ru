@@ -52,70 +52,70 @@ public string thirdText;
 
 ![&#x41E;&#x442;&#x441;&#x43E;&#x440;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x432;&#x445;&#x43E;&#x434;&#x44F;&#x449;&#x438;&#x435; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x44B;](../.gitbook/assets/few-text_example.png)
 
-### **Boolean**
+### Логический
 
-In case you need a simple switcher, for example, to enable an option, you can use bool variable with an InputParameter attribute:
+Если вам нужен простой переключатель, например, для включения опции, вы можете использовать переменную типа bool с атрибутом InputParameter:
 
 ```csharp
 [InputParameter("Boolean")]
 public bool boolean;
 ```
 
-### **Number**
+### Число
 
-One of the most important types of input parameters is numbers. Input parameters can be applied to **int**, **double**, **long** and **decimal** variables:
+Один из важнейших типов входных параметров - числа. Входные параметры могут применяться к переменным типа int, double, long и decimal:
 
 ```csharp
 [InputParameter("Integer")]
 public int intNumber;
 ```
 
-You can specify additional parameters - minimum/maximum value, increment, and decimal places.
+Вы можете указать дополнительные параметры - минимальное / максимальное значение, приращение и десятичные разряды.
 
 ```csharp
 [InputParameter("Double", 0, 0.00001, 10, 0.00001, 5)]
 public double doubleNumber;
 ```
 
-### **Symbol**
+### Символ
 
-Sometimes you may need possibility so select symbol, for example in case of calculation of correlation between symbol from the chart and another symbol. And again - all you need just declare variable and mark in with **InputParameter** attribute:
+Иногда может потребоваться возможность выбора символа, например, в случае расчета корреляции между символом на графике и другим символом. И снова - все, что вам нужно, просто объявить переменную и отметить ее атрибутом InputParameter:
 
 ```csharp
 [InputParameter("Symbol")]
 public Symbol symbol;
 ```
 
-### **Account**
+### Акаунт
 
-If your script is executing some trading operation you need to provide an account setting. Use a variable of **Account** type for this:
+Если ваш скрипт выполняет какую-либо торговую операцию, вам необходимо указать настройки учетной записи. Используйте для этого переменную типа Account:
 
 ```csharp
 [InputParameter("Account")]
 public Account account;
 ```
 
-### **DateTime**
+## Дата Время
 
-Usually, DateTime settings are using to specify some range of history, for example, left and right border of downloaded history:
+Обычно настройки DateTime используются для указания некоторого диапазона истории, например, левой и правой границы загруженной истории:
 
 ```csharp
 [InputParameter("Date")]
 public DateTime dateTime;
 ```
 
-### **Color**
+### Цвет
 
-Color Input Parameters store color value in an RGB format:
+Параметры ввода цвета сохраняют значение цвета в формате RGB:
 
 ```csharp
 [InputParameter("Color")]
 public Color color;
 ```
 
-### **List with options**
+### Список с опциями
 
-List with options Input parameter allows to select the value from the predefined list of possible states
+Список с опциями Входной параметр позволяет выбрать значение из предопределенного списка возможных состояний
 
 ```csharp
 [InputParameter("Simple price types list", 1, variants: new object[]{
@@ -129,11 +129,11 @@ List with options Input parameter allows to select the value from the predefined
 })]
 ```
 
-## Conclusion
+## Заключение
 
-To summarize all said above, we gathered all types of Input Parameters to show you how they can look in settings screen:
+Подводя итог всему сказанному выше, мы собрали все типы входных параметров, чтобы показать вам, как они могут выглядеть на экране настроек:
 
-![All type of Input Parameters](../.gitbook/assets/all-input.png)
+![&#x412;&#x441;&#x435; &#x442;&#x438;&#x43F;&#x44B; &#x432;&#x445;&#x43E;&#x434;&#x43D;&#x44B;&#x445; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x43E;&#x432;](../.gitbook/assets/all-input.png)
 
-These basic types of Input parameters are enough to create complex indicators and strategies with a wide list of settings. Despite this, we are constantly adding new Input Parameter types. Feel free to contact us and propose your variants — we are open to our users' feedback.
+Этих основных типов входных параметров достаточно для создания сложных индикаторов и стратегий с широким списком настроек. Несмотря на это, мы постоянно добавляем новые типы входных параметров. Не стесняйтесь обращаться к нам и предлагать свои варианты - мы открыты для отзывов наших пользователей.
 
