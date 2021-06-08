@@ -1,52 +1,60 @@
+---
+description: >-
+  Используя Power Trades, вы можете увидеть исполнение большого количества
+  ордеров за очень короткое время
+---
+
 # Power Trades
 
-\*\*\*\*[**Volume analysis tools**](volume-analysis-tools/) allow you to understand the causes of price movement, clarify and confirm support and resistance levels, as well as assess the imbalance between buyers and sellers. But volume tools are link to a specific time \(timeframe\), not allowing to see an execution of large orders at the moment.
+[**Инструменты анализа объема** ](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbaIEqkN7fJ8JCch2GG/analytics-panels/chart/volume-analysis-tools)позволяют понять причины движения цены, уточнить и подтвердить уровни поддержки и сопротивления, а также оценить дисбаланс между покупателями и продавцами. Но инструменты объема привязаны к определенному времени \(таймфрейму\), не позволяя увидеть исполнение крупных ордеров в данный момент.
 
-Using **Power Trades** you can see the execution of a large number of orders in a very short time, which will affect the price change with a high probability.
+Используя Power Trades, вы можете увидеть исполнение большого количества ордеров за очень короткое время, что с большой вероятностью повлияет на изменение цены.
 
 {% embed url="https://youtu.be/\_4mCYtfUkgw" caption="" %}
 
-## What is **Power Trades** show?
+## Что такое  Power Trades?
 
-**Power Trades** shows the zones with the execution of a large number of orders in a very short time, which will affect the price change with a high probability. Let's take a look at a few examples.
+Power Trades показывает зоны с исполнением большого количества ордеров за очень короткое время, что с большой вероятностью повлияет на изменение цены. Давайте посмотрим на несколько примеров.
 
-![Power Trades tool shows huge executed trades for the short time](../../.gitbook/assets/power-trades-4.png)
+![&#x418;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43C;&#x435;&#x43D;&#x442; Power Trades &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x44B;&#x432;&#x430;&#x435;&#x442; &#x43E;&#x433;&#x440;&#x43E;&#x43C;&#x43D;&#x44B;&#x435; &#x441;&#x43E;&#x432;&#x435;&#x440;&#x448;&#x435;&#x43D;&#x43D;&#x44B;&#x435; &#x441;&#x434;&#x435;&#x43B;&#x43A;&#x438; &#x437;&#x430; &#x43A;&#x43E;&#x440;&#x43E;&#x442;&#x43A;&#x43E;&#x435; &#x432;&#x440;&#x435;&#x43C;&#x44F;](../../.gitbook/assets/power-trades-4.png)
 
-![Power Trades tool](../../.gitbook/assets/power-trades-for-es.png)
+![&#x418;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43C;&#x435;&#x43D;&#x442; Power Trades](../../.gitbook/assets/power-trades-for-es.png)
 
-![Power Trades on Euro Futures](../../.gitbook/assets/power-trades-on-euro-futures.png)
+![Power Trades  &#x444;&#x44C;&#x44E;&#x447;&#x435;&#x440;&#x441;&#x44B; &#x435;&#x432;&#x440;&#x43E;](../../.gitbook/assets/power-trades-on-euro-futures.png)
 
-## How does Power Trades find the zones?
+## Как Power Trades находит зоны?
 
-There is a continuous process of placing, changing and executing orders in the market. All this affects the price change and the expectations of traders regarding the future price.
+На рынке происходит непрерывный процесс размещения, изменения и исполнения ордеров. Все это влияет на изменение цены и ожидания трейдеров относительно будущей цены.
 
-When a large order appears at a certain level, the price is more likely to come to this order and it will be executed because the market is always looking for levels with liquidity. This already applies to the order flow and the mechanics of orders matching, so we will omit the principles on which the orders are matched.
+Когда на определенном уровне появляется большой ордер, цена с большей вероятностью подойдет к этому ордеру, и он будет исполнен, потому что рынок всегда ищет уровни с ликвидностью. Это уже относится к потоку заказов и механике сопоставления заказов, поэтому мы опускаем принципы сопоставления заказов.
 
-It is only important to understand that "**abnormal events**" occur in the market at certain times. _Execution of a significant volume of orders in a very short time is one of such events._
+Важно лишь понимать, что «аномальные события» на рынке происходят в определенное время. Одно из таких событий - выполнение значительного объема заказов в очень короткие сроки.
 
-For example, let's set the _Total Volume of 2'000 contracts and Time Interval in 3 seconds_ on the E-mini SP500 futures. This means that the scan will be based on the available history and will show on the chart only those zones that have such a volume for the specified time.
+Например, давайте установим общий объем 2'000 контрактов и временной интервал в 3 секунды для фьючерса E-mini SP500. Это означает, что сканирование будет основано на доступной истории и покажет на графике только те зоны, которые имеют такой объем за указанное время.
 
 ![](../../.gitbook/assets/screenshot_45.png)
 
-Additionally, it is worth to set a delta value to filter out the zones with one-side trades. The more delta value, the high probability that the price will reverse.
+Дополнительно стоит установить значение дельты, чтобы отфильтровать зоны с односторонними сделками. Чем больше значение дельты, тем выше вероятность разворота цены.
 
 ![](../../.gitbook/assets/screenshot_46.png)
 
-## Main settings of Power Trades
+## Основные настройки Power Trades
 
-The following settings are involved in the calculation of the indicator, and directly affect the results.
+Следующие настройки участвуют в расчете индикатора и напрямую влияют на результаты.
 
-![](../../.gitbook/assets/power-trades-main-settings.png)
+![](../../.gitbook/assets/povertreid.jpg)
 
-* **Total Volume** — the minimum value of the volume that should be traded during the specified time interval
-* **Time Interval, sec** — the time over which the Total Volume should be traded
-* **Basis Volume Interval, sec** — this parameter shows how much % took the traded volume in the total volume for the specified time.
-* **Min Trade Volume** — the indicator calculation takes into account the executed trades, each with the size equal to or greater than the set value. For example, we can set 100 contracts, and all trades with the volume not less than the specified one will be taken into account in the calculation of the zone.
-* **Max Trade Volume** — the indicator calculation takes into account the executed trades, each with the size not exceeding the set value.
-* **Zone Height, ticks** — this parameter will show only those zones where the height is less than or equal to the specified value \(in ticks\).
-* **Level2 level count** — the number of levels that are involved in the calculation of **Imbalance** and the _Level 2 Ratio_ column in the table of results.
-* **Filter by Delta,%** — the parameter will show zones that have a delta value greater than or equal to that specified in the setting. The value must be specified by module, so the table will show both positive and negative delta values. _We recommend to **pay attention to the zones with the delta above/below 50%**_ \(taking into account the specifics of each trading instrument\).
-* **Filter by Basis Ratio, %** — the parameter will show zones that have a **Basis Volume \(%\)** value greater than or equal to that specified in the setting.
+![](../../.gitbook/assets/povertreid2.jpg)
+
+* **Суммарный объем** - минимальное значение объема, которым следует торговать в течение указанного временного интервала.
+* **Временной интервал, sec** - время, в течение которого следует торговать общим объемом.
+* **Интервал базисного объема, сек** - этот параметр показывает, сколько% занял торгуемый объем от общего объема за указанное время.
+* **Минимальный объем торговли** - при расчете индикатора учитываются исполненные сделки, размер каждой из которых равен или больше установленного значения. Например, мы можем установить 100 контрактов, и все сделки с объемом не меньше указанного будут учитываться при расчете зоны.
+* **Максимальный объем торговли** - при расчете индикатора учитываются исполненные сделки, размер каждой из которых не превышает установленного значения.
+* **Высота зоны, отметки** - этот параметр покажет только те зоны, где высота меньше или равна указанному значению \(в отметках\).
+* **Количество уровней Level2** - количество уровней, участвующих в вычислении Дисбаланса, и столбец Level 2 Ratio в таблице результатов.
+* **Фильтр по дельте,%** - параметр покажет зоны, у которых значение дельты больше или равно указанному в настройке. Значение должно быть указано модулем, поэтому в таблице будут отображаться как положительные, так и отрицательные значения дельты. Рекомендуем обратить внимание на зоны с дельтой выше / ниже 50% \(с учетом специфики каждого торгового инструмента\).
+* **Фильтр по соотношению базы,%** - параметр покажет зоны, у которых значение базового объема \(%\) больше или равно заданному в настройке.
 
 Settings that do not affect the indicator calculation. These are mostly visual and sound settings
 
