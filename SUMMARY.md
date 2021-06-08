@@ -124,7 +124,7 @@
     * [Power Trades](analytics-panels/chart/power-trades.md)
     * [VWAP - Средневзвешенная цена по объему](analytics-panels/chart/vwap.md)
     * [Пользовательский VWAP](analytics-panels/chart/anchored-vwap.md)
-  * [Watchlist](analytics-panels/watchlist.md)
+  * [Список наблюдения](analytics-panels/watchlist.md)
   * [Time & Sales](analytics-panels/time-and-sales.md)
   * [Price Statistic](analytics-panels/price-statistic.md)
   * [DOM Surface](analytics-panels/dom-surface.md)

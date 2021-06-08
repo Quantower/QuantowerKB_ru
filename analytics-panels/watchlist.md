@@ -1,28 +1,28 @@
 ---
 description: >-
-  Watchlist panel shows brief pricing information on selected instruments, which
-  you can group into lists
+  На панели списка наблюдения отображается краткая информация о ценах на
+  выбранные инструменты, которые вы можете сгруппировать в списки.
 ---
 
-# Watchlist
+# Список наблюдения
 
-The Watchlist panel is the standard table-based panel, representing a various trading info for the specified list of symbols. The list of symbols can be customized using the symbol lookup screen, available by pressing **\[ + \]** button on the toolbar, or from table context menu — “_**Add symbols**_“ option.
+Панель Watchlist - это стандартная табличная панель, представляющая различную торговую информацию для указанного списка символов. Список символов можно настроить с помощью экрана поиска символов, доступного при нажатии кнопки \[+\] на панели инструментов, или из контекстного меню таблицы - опция «Добавить символы».
 
-![Watch the required symbol info using Watchlist panel](../.gitbook/assets/watchlist-general-view.gif)
+![&#x421;&#x43B;&#x435;&#x434;&#x438;&#x442;&#x435; &#x437;&#x430; &#x438;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x446;&#x438;&#x435;&#x439; &#x43E; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E;&#x43C; &#x441;&#x438;&#x43C;&#x432;&#x43E;&#x43B;&#x435; &#x441; &#x43F;&#x43E;&#x43C;&#x43E;&#x449;&#x44C;&#x44E; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x441;&#x43F;&#x438;&#x441;&#x43A;&#x430; &#x43D;&#x430;&#x431;&#x43B;&#x44E;&#x434;&#x435;&#x43D;&#x438;&#x44F;](../.gitbook/assets/watchlist-general-view.gif)
 
-Each symbol added to watchlist can be removed via the context menu on the symbol’s row. You can also clear all list via the context menu.
+Каждый символ, добавленный в список наблюдения, можно удалить через контекстное меню в строке символа. Вы также можете очистить весь список через контекстное меню.
 
 {% hint style="warning" %}
-When you add a symbol, that is already presented in current list, it will be added to the end of the list thus making a duplicates.
+Когда вы добавляете символ, который уже присутствует в текущем списке, он будет добавлен в конец списка, создавая дубликаты.
 {% endhint %}
 
-## Columns management
+## Управление столбцами
 
-## Favorite lists
+## Избранные списки
 
-You may want to have a possibility to save several lists for Watchlist panel. To save some list as Favorite, you can use the **\[ Saved lists \]** button on the toolbar. If you have no saved lists yet, it will open a **“Save current list”** popup, where you can set the name for the list, that you are saving.
+Вы можете захотеть сохранить несколько списков для панели Watchlist. Чтобы сохранить какой-либо список в качестве избранного, вы можете использовать кнопку \[Сохраненные списки\] на панели инструментов. Если у вас еще нет сохраненных списков, откроется всплывающее окно «Сохранить текущий список», где вы можете указать имя для сохраняемого списка.
 
-![Set the name for the Favorite list](../.gitbook/assets/lists-in-watchlist.gif)
+![](../.gitbook/assets/spisok-svoi-.gif)
 
 Once you press the **\[ SAVE \]** button, the new list will be added to the Favorites and became available from the _**“Saved lists”**_ drop-down on the toolbar.
 
