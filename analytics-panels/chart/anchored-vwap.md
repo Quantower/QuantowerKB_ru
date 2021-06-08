@@ -20,13 +20,8 @@ description: >-
 
 ![](../../.gitbook/assets/polzovatelskie-vwap-nastroiki.png)
 
-* **Standard Deviation Bands**. When the parameter is active, the standard deviation lines up and down from VWAP will be additionally calculated on the chart. Specify the number of standard deviations in the _**"Value"**_ field and colors
-* **Maximum Permissible Deviation \(MPD\).** MPD is similar to the standard deviation but is calculated as \(VWAP period high - VWAP period low\)/2.
-* **Points coordinates** — defines the starting point for custom VWAP
-* **Visible on specified timeframes** — this setting allows you to specify on which timeframes VWAP will be displayed.
 * **Полосы стандартного отклонения**. Когда параметр активен, линии стандартного отклонения вверх и вниз от VWAP будут дополнительно рассчитаны на графике. В поле **«Значение»** укажите количество стандартных отклонений и цвета.
 * **Максимально допустимое отклонение \(МДО\).** **МДО** аналогичен стандартному отклонению, но рассчитывается как \(максимум периода VWAP - минимум периода VWAP\) / 2.
-* Координаты точек - определяет начальную точку для пользовательского VWAP.
-
-  Виден на указанных таймфреймах - этот параметр позволяет указать, на каких таймфреймах будет отображаться VWAP.
+* **Координаты начальной точки** - определяет начальную точку для пользовательского VWAP.
+* **Видимость на указанных таймфреймах** - этот параметр позволяет указать, на каких таймфреймах будет отображаться VWAP.
 
