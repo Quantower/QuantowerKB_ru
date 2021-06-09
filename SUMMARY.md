@@ -127,7 +127,7 @@
   * [Список наблюдения](analytics-panels/watchlist.md)
   * [Лента сделок](analytics-panels/time-and-sales.md)
   * [Статистика цен](analytics-panels/price-statistic.md)
-  * [DOM Surface](analytics-panels/dom-surface.md)
+  * [Поверхность DOM](analytics-panels/dom-surface.md)
   * [Option Analytics](analytics-panels/option-analytics.md)
   * [TPO Profile Chart](analytics-panels/tpo-chart.md)
 * [Trading Panels](trading-panels/README.md)

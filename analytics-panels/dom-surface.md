@@ -1,49 +1,51 @@
 ---
 description: >-
-  DOM Surface panel shows all past and current changes in the order book —
-  placing, modifying orders, and executing trades.
+  Панель Поверхность DOM (DOM Surface) показывает все прошлые и текущие
+  изменения в книге заказов в виде тепловой карты
 ---
 
-# DOM Surface
+# Поверхность DOM
 
-Using the **DOM Surface** panel, a trader sees all changes of limit orders in the Order Book \(depending on the depth of market data\), which is presented as a Heatmap. The panel shows the placement of limit orders, their changing, canceling or execution by large market participants, as well as the imbalance between buyers and sellers.
+Используя панель **Поверхность DOM**, трейдер видит все изменения лимитных ордеров в книге заказов \(в зависимости от глубины рыночных данных\), которая представлена ​​в виде тепловой карты. На панели отображается размещение лимитных ордеров, их изменение, отмена или исполнение крупными участниками рынка, а также дисбаланс между покупателями и продавцами.
 
-Unlike other types of charts, such as Footprint \(or Cluster chart\), the Order Flow shows not only aggressive market orders but also limit orders, which have a greater influence on the price behavior.
+В отличие от других типов графиков, например таких, как кластер, поток заказов показывает не только агрессивные рыночные ордера, но и **лимитные ордера, которые имеют большее влияние на поведение цены.**
 
 {% embed url="https://youtu.be/DokWC7aIPM4" caption="" %}
 
-## **How To Interpret The DOM Surface Chart**
+## Как интерпретировать диаграмму поверхности DOM
 
-Price changes due to matching between limit and market orders:
+Изменение цен из-за совпадения лимитных и рыночных ордеров:
 
-* **Market Sell** order is matched with the **Buy Limit** order at the best bid price.
-* **Market Buy** order is matched with the **Sell Limit** order at the best offer price.
+* Ордер Market Sell совпадает с ордером Buy Limit по лучшей цене предложения.
+* Ордер Market Buy совпадает с ордером Sell Limit по лучшей цене предложения.
 
 ![](../.gitbook/assets/order-matching-algorithm.png)
 
-**Order Book** shows the volume for Bids & Offers at different price levels, which can be presented as a [DOM table](../trading-panels/dom-trader/) or as a **Heatmap** chart.
+**Журнал ордеров** показывает объем заявок и предложений на разных уровнях цен, который может быть представлен в виде таблицы DOM или  **тепловой карты на графике.**
 
-At any given time, new orders are placed on the market and existing orders are either changed / canceled or executed. It is very difficult to track all these changes through the DOM table, so the visual representation of this process in the form of Heatmap is more useful.
+В любой момент времени на рынке размещаются новые ордера, а существующие ордера либо изменяются / отменяются, либо исполняются. Отслеживать все эти изменения через таблицу DOM очень сложно, поэтому визуальное представление этого процесса в виде тепловой карты более полезно.
 
-The main advantage of **Heatmap visualization** over the classic DOM view is that you immediately see the zone of accumulation of large orders that are waiting to get filled. These high liquidity zones are as a "magnet" for the price, as they often match with psychologically price levels or values of popular technical indicators \(_MA 200, MA 50, Daily High/Low etc._\). Therefore, even in the short term, the price can come to these levels.
+Основное преимущество визуализации тепловой карты перед классическим представлением DOM заключается в том, что вы сразу видите зону скопления крупных ордеров, ожидающих исполнения. Эти зоны высокой ликвидности являются «магнитом» для цены, поскольку они часто психологически совпадают с ценовыми уровнями или значениями популярных технических индикаторов \(MA 200, MA 50, Daily High / Low и т. Д.\). Поэтому даже в краткосрочной перспективе цена может подойти к этим уровням.
 
-Heatmap also shows the dynamics \(increase or decrease in volume\) of limit orders at certain price levels. Thanks to the gradient color scheme, the trader sees the zones of high interest, which are shown in bright color. The levels with the minimum number of orders have dull colors. This allows you to visually assess the strong support and resistance levels, as well as to understand the reasons for the rapid price changes.
+Также тепловая карта показывает динамику \(увеличение или уменьшение объема\) лимитных ордеров на определенных ценовых уровнях. Благодаря градиентной цветовой схеме трейдер видит зоны повышенного интереса, которые показаны ярким цветом. Уровни с минимальным количеством заказов имеют тусклый цвет. Это позволяет визуально оценить сильные уровни поддержки и сопротивления, а также понять причины резкого изменения цены.
 
-## DOM Surface and Volume Analysis Tools
+## Инструменты анализа поверхности и объема модели DOM
 
-In addition to visualizing the flow of limit orders, there are Volume Analysis Tools, which show the distribution of trade volume, delta and other data for a selected period of time.
+Помимо визуализации потока лимитных ордеров, существуют инструменты анализа объема, которые показывают распределение торгового объема, дельты и других данных за выбранный период времени.
 
-More information about each tool can be found in our documentation in the Analytical Panels — Chart — [Volume Analysis Tools](chart/volume-analysis-tools/) section.
+Более подробную информацию о каждом инструменте можно найти в нашей документации в разделе _«Аналитические панели - График -_ [_Инструменты анализа объема»_.](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools)
 
-## General Settings
+## Общие настройки
 
-In the panel's general settings there are a number of settings that are identical in other panels, but some are specific to DOM Surface.
+![](../.gitbook/assets/poverkhnost-dum-nastroiki.jpg)
 
-**DOM levels count** — shows the number of price levels in each direction from Best Bid and Best Offer.
+В общих настройках панели есть ряд настроек, которые идентичны другим панелям, но некоторые относятся к **DOM Surface.**
 
-**Maximal level2 size** — allows you to adjust the brightness of levels depending on the specified volume value. There are two modes: _**Auto, Custom**_.
+Количество **уровней DOM** - показывает количество уровней цен в каждом направлении от Best Bid и Best Offer.
 
-For example, let's set the value to 20. All levels where the volume is equal to or exceeds this value will have the brightest color. All levels with the volume less than the set value will have a less vivid coloring proportional to the volume on them.
+Максимальный размер **level2** - позволяет регулировать яркость уровней в зависимости от заданного значения громкости. Есть два режима: Авто, Пользовательский.
+
+Например, установим значение 20. Все уровни, на которых объем равен или превышает это значение, будут иметь самый яркий цвет. Все уровни с уровнем объема меньше установленного значения будут иметь менее яркую окраску, пропорциональную их объему.
 
 ## Additional DOM Surface columns
 
