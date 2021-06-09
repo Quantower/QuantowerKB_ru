@@ -39,21 +39,23 @@ description: >-
 
 ![](../.gitbook/assets/poverkhnost-dum-nastroiki.jpg)
 
-В общих настройках панели есть ряд настроек, которые идентичны другим панелям, но некоторые относятся к **DOM Surface.**
+В общих настройках панели есть ряд настроек, которые идентичны другим панелям, но некоторые относятся к **Поверхности DOM.**
 
-Количество **уровней DOM** - показывает количество уровней цен в каждом направлении от Best Bid и Best Offer.
+-**Количество уровней DOM** - показывает количество уровней цен в каждом направлении от Best Bid и Best Offer.
 
-Максимальный размер **level2** - позволяет регулировать яркость уровней в зависимости от заданного значения громкости. Есть два режима: Авто, Пользовательский.
+-**Максимальный размер level2** - позволяет регулировать яркость уровней в зависимости от заданного значения громкости. Есть два режима: **Авто, Пользовательский.**
+
+![](../.gitbook/assets/uroven2.png)
 
 Например, установим значение 20. Все уровни, на которых объем равен или превышает это значение, будут иметь самый яркий цвет. Все уровни с уровнем объема меньше установленного значения будут иметь менее яркую окраску, пропорциональную их объему.
 
-## Additional DOM Surface columns
+## Дополнительные столбцы DOM Surface
 
-On the right side of the panel, there are three histograms — **Size, Cumulative Size, Order Book Imbalance**.
+В правой части панели расположены по умолчанию установлены три гистограммы - **размер, совокупный размер, дисбаланс книги заказов.**
 
-![Additional DOM Surface columns with Order Book Size, Cumulative size and Order Book Imbalance](../.gitbook/assets/dom-surface-histograms.png)
+![&#x414;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x435; &#x441;&#x442;&#x43E;&#x43B;&#x431;&#x446;&#x44B; DOM Surface &#x441; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x440;&#x43E;&#x43C; &#x43A;&#x43D;&#x438;&#x433;&#x438; &#x437;&#x430;&#x43A;&#x430;&#x437;&#x43E;&#x432;, &#x441;&#x43E;&#x432;&#x43E;&#x43A;&#x443;&#x43F;&#x43D;&#x44B;&#x43C; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x440;&#x43E;&#x43C; &#x438; &#x434;&#x438;&#x441;&#x431;&#x430;&#x43B;&#x430;&#x43D;&#x441;&#x43E;&#x43C; &#x43A;&#x43D;&#x438;&#x433;&#x438; &#x437;&#x430;&#x43A;&#x430;&#x437;&#x43E;&#x432;](../.gitbook/assets/poverkhnost-dom-gistogrammy.png)
 
-* **Size \(Current Order Book\)** This histogram shows the volume of limit orders at each price level. User can visually compare the size of each bar for determining the most strong level.
-* **Cumulative Size** This histogram displays the sum of sizes of limit orders for each subsequent level. This histogram allows estimating the dominating side of the market.
-* **Imbalance \(Order Book Imbalance\)** This histogram shows the percentage of how much the volume of buy orders exceeds the amount of sell orders \(and vice versa\) for each price level. It measures whether the limit order book is buy or sell heavy. The more the imbalance exceeds one side, the higher the probability of price movement towards the imbalance. In fact, it is a good predictor of price direction.
+* **Размер \(журнал ордеров\)** Эта гистограмма показывает объем лимитных ордеров на каждом ценовом уровне. Пользователь может визуально сравнить размер каждой полосы для определения самого сильного уровня.
+* **Совокупный размер** На этой гистограмме отображается сумма размеров лимитных ордеров для каждого последующего уровня. Эта гистограмма позволяет оценить доминирующую сторону рынка.
+* **Дисбаланс \(Дисбаланс журнала ордеров\)** Эта гистограмма показывает процент того, насколько объем заказов на покупку превышает количество заказов на продажу \(и наоборот\) для каждого уровня цен. Он измеряет, является ли книга лимитных заказов на покупку или на продажу. Чем больше дисбаланс превышает одну сторону, тем выше вероятность движения цены в сторону дисбаланса. Фактически, это хороший предсказатель направления цены.
 
