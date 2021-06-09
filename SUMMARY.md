@@ -143,7 +143,7 @@
   * [Market Replay](trading-panels/history-player.md)
   * [FX Cell](trading-panels/fx-cell.md)
 * [Portfolio Panels](portfolio-panels/README.md)
-  * [Positions](portfolio-panels/positions.md)
+  * [Открытые позиции](portfolio-panels/positions.md)
   * [Working Orders](portfolio-panels/working-orders.md)
   * [Trades](portfolio-panels/trades.md)
   * [Orders History](portfolio-panels/orders-history.md)

@@ -1,29 +1,31 @@
 ---
 description: >-
-  Positions panel displays an extended information about all currently opened
-  positions, their P/L and prices
+  Панель Positions отображает расширенную информацию обо всех открытых в данный
+  момент позициях
 ---
 
-# Positions
+# Открытые позиции
 
-Positions panel displays all currently opened positions. Once you open a new position, it appears in this panel and becomes available to be managed. Positions panel is related to Portfolio group of Control Center sidebar.
+На панели «Позиции» отображаются все открытые на данный момент позиции. Как только вы открываете новую позицию, она появляется на этой панели и становится доступной для управления. Панель **Позиции** связана с группой **Портфолио** боковой панели Центра управления.
 
-![The common look of Positions panel](../.gitbook/assets/positions.png)
+![](../.gitbook/assets/portfolio.png)
 
-## Available columns
+![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; Positions](../.gitbook/assets/positions.png)
 
-| **Account** | login name of an account that opened a position |
+## Доступные столбцы
+
+| **Account** | логин учетной записи, на которой открыта позиция |
 | :--- | :--- |
-| **Symbol** | a traded symbol |
-| **Description** | comments for symbol |
-| **Symbol type** | a symbol's market category \(CFD, spot, stocks, etc.\) |
-| **Expiration date** | date of contract expiration |
-| **Position ID** | a unique number that the trading system assigns to each position |
-| **Side** | type of trade \(BUY or SELL\) |
-| **Open price** | price at which a position was opened |
-| **Current price** | a market price obtainable from a broker |
-| **Quantity** | amount of a position, either in lots or in units, depending on what is selected in the Settings dialog box |
-| **Date/Time** | date and time when a position was opened |
+| **Symbol**  | торгуемый символ |
+| **Description** | комментарии к символу |
+| **Symbol type** | рыночная категория символа \(CFD, спот, акции и т. д.\) |
+| **Expiration date** | дата истечения контракта |
+| **Position ID** | уникальный номер, который торговая система присваивает каждой позиции |
+| **Side** | тип сделки \(ПОКУПКА или ПРОДАЖА\) |
+| **Open price** | цена, по которой была открыта позиция |
+| **Current price** | рыночная цена, которую можно получить у брокера |
+| **Quantity** | объем позиции в лотах или единицах, в зависимости от того, что выбрано в диалоговом окне «Настройки». |
+| **Date/Time** | дата и время открытия позиции |
 | **Gross P/L** | profit/loss in account currency, calculated on base of price difference |
 | **Gross P/L, ticks** |  |
 | **Net P/L** | profit/loss for a position excluding fee |
