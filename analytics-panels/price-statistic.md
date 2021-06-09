@@ -30,18 +30,19 @@ description: >-
 
 Каждый столбец в таблице соответствует определенному типу данных, который можно показать / скрыть в настройках панели или щелкнув таблицу правой кнопкой мыши.
 
-![Adding columns to the Price Statistic table ](../.gitbook/assets/add-columns-to-price-statistic.gif)
+![](../.gitbook/assets/statistika-cen.gif)
 
-* **Trades** — it's the number of contracts \(trades\) that executed at each price level.
-* **Buy \(or Sell\) trades** — it's the number of Buy \(or Sell\) trades that executed at each price level.
-* **Volume** — the total size of all positions that executed at each price level or price range.
-* **Buy \(or Sell\) Volume** — the total size of all Buy \(or sell\) positions that executed at each price level or price range.
-* **Buy \(or Sell\) Volume, %** — shows how many percent of the total volume relates to Buy \(or Sell\) trades
-* **Delta and Delta %** — shows the difference in traded Volume between Buyers and Sellers. It allows evaluating who controls the price on the market at a given time.  Delta % = Delta / Volume \* 100
-* **Average size** — the average volume of the position that was executed at a certain price or price range.
-* **Average Buy size** — the average volume of a Buy position that was executed at a specific price or price range.
-* **Average Sell size** — the average volume of a Sell position that was executed at a specific price or price range.
-* **Max one trade volume \(value and %\)** — shows the maximum volume of a single trade that has executed at a certain price or price range \(depending on the Custom Step \(ticks\) setting\).
-* **Filtered volume \(value and %\)** — this parameter displays volumes that exceed the size specified in the filter. If the volume size is smaller than the one specified in the filter, then the values will be zero.
-* **Buy \(or Sell\) filtered volume** — the parameter displays Buy \(or Sell\) volumes that exceed the size specified in the filter.
+* Сделки - это количество контрактов \(сделок\), заключенных на каждом ценовом уровне.
+* Сделки на покупку \(или продажу\) - это количество сделок на покупку \(или продажу\), выполненных на каждом ценовом уровне.
+* Объем - общий размер всех позиций, исполненных на каждом ценовом уровне или ценовом диапазоне.
+* Объем покупки \(или продажи\) - общий размер всех позиций на покупку \(или продажу\), выполненных на каждом ценовом уровне или ценовом диапазоне.
+* Объем покупки \(или продажи\),% - показывает, сколько процентов от общего объема относится к сделкам на покупку \(или продажу\).
+* Дельта и Дельта% - показывает разницу в торговом объеме между покупателями и продавцами. Это позволяет оценить, кто в данный момент контролирует цену на рынке. 
+* Дельта% = Дельта / Объем \* 100
+* Средний размер - средний объем позиции, которая была исполнена по определенной цене или ценовому диапазону.
+* Средний размер покупки - средний объем позиции на покупку, которая была исполнена по определенной цене или в ценовом диапазоне.
+* Средний размер продажи - средний объем позиции на продажу, которая была исполнена по определенной цене или ценовому диапазону.
+* Максимальный объем одной сделки \(значение и%\) - показывает максимальный объем одной сделки, которая была исполнена по определенной цене или ценовому диапазону \(в зависимости от настройки Custom Step \(ticks\)\).
+* Отфильтрованный объем \(значение и%\) - этот параметр отображает объемы, превышающие размер, указанный в фильтре. Если размер тома меньше указанного в фильтре, то значения будут нулевыми.
+* Отфильтрованный объем Buy \(или Sell\) - параметр отображает объемы Buy \(или Sell\), превышающие размер, указанный в фильтре.
 
