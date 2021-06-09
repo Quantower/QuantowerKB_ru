@@ -1,24 +1,24 @@
 ---
 description: >-
-  The panel aggregates the volume data for each price for a selected period of
-  time.
+  Панель объединяет данные об объеме для каждой цены за выбранный период
+  времени.
 ---
 
-# Price Statistic
+# Статистика цен
 
-**Price Statistic** is essentially a [**volume profile**](chart/volume-analysis-tools/volume-profiles.md) that is presented in tabular form. The panel aggregates the volume data for each price for a selected period of time. By activating the required columns, you will immediately see Trades, Volume, Delta, Average and Maximum Volumes. Filtering and notification system will show the data significant for the trader.
+Статистика цен - это, по сути, профиль объема, представленный в табличной форме. Панель объединяет [**данные об объеме**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbkLu7tVnWGiBHvG2pl/analytics-panels/chart/volume-analysis-tools/volume-profiles) для каждой цены за выбранный период времени. Активировав необходимые столбцы, вы сразу увидите Сделки, Объем, Дельта, Средний и Максимальный объемы. Система фильтрации и уведомлений покажет важные для трейдера данные.
 
-![General view of Price Statistic panel](../.gitbook/assets/price-statistic-general-view.png)
+![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x441;&#x442;&#x430;&#x442;&#x438;&#x441;&#x442;&#x438;&#x43A;&#x438; &#x446;&#x435;&#x43D;](../.gitbook/assets/price-statistic-general-view.png)
 
-## Price Statistic & Volume Profile. What's the difference?
+## Ценовая статистика и профиль объема. Какая разница?
 
-As we have already said, the Price Statistic panel contains data in the form of a table that shows the volume profile. Below is an image showing how the panel is linked to the volumetric profile.
+Как мы уже говорили, панель «Статистика цен» содержит данные в виде таблицы, которая показывает профиль объемов. Ниже приведено изображение, показывающее, как панель связана с объемным профилем.
 
-The main difference and advantage of the Price Statistic is that the table presents all available volume data for a particular price, which can be sorted or uploaded to an external csv file for further analysis.
+Основное отличие и преимущество статистики цен заключается в том, что в таблице представлены все доступные данные об объеме для определенной цены, которые можно отсортировать или загрузить во внешний файл csv для дальнейшего анализа.
 
-![Price Statistic and Volume Profile](../.gitbook/assets/chart-and-price-statistic.png)
+![&#x421;&#x442;&#x430;&#x442;&#x438;&#x441;&#x442;&#x438;&#x43A;&#x430; &#x446;&#x435;&#x43D; &#x438; &#x43F;&#x440;&#x43E;&#x444;&#x438;&#x43B;&#x44C; &#x43E;&#x431;&#x44A;&#x435;&#x43C;&#x430;](../.gitbook/assets/chart-and-price-statistic.png)
 
-Volume profile and data in the Price Statistic table are built for the current day. If you sort the volume column in descending order, the price in the table \($2,766\) will correspond to the POC line on the volume profile.
+Профиль объема и данные в таблице статистики цен строятся на текущий день. Если вы отсортируете столбец объема в порядке убывания, цена в таблице \(2766 долларов США\) будет соответствовать строке POC в профиле объема.
 
 ## How to enable it?
 

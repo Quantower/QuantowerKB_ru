@@ -126,7 +126,7 @@
     * [Пользовательский VWAP](analytics-panels/chart/anchored-vwap.md)
   * [Список наблюдения](analytics-panels/watchlist.md)
   * [Лента сделок](analytics-panels/time-and-sales.md)
-  * [Price Statistic](analytics-panels/price-statistic.md)
+  * [Статистика цен](analytics-panels/price-statistic.md)
   * [DOM Surface](analytics-panels/dom-surface.md)
   * [Option Analytics](analytics-panels/option-analytics.md)
   * [TPO Profile Chart](analytics-panels/tpo-chart.md)
