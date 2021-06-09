@@ -20,11 +20,11 @@ description: >-
 
 Профиль объема и данные в таблице статистики цен строятся на текущий день. Если вы отсортируете столбец объема в порядке убывания, цена в таблице \(2766 долларов США\) будет соответствовать строке POC в профиле объема.
 
-## How to enable it?
+## Как это включить?
 
-In the main menu of the platform in the _**Analytics category**_, find the Price Statistic panel and click on it to launch it.
+В главном меню платформы в категории «Аналитика» найдите панель «Статистика цен» и нажмите на нее, чтобы запустить ее.
 
-![Launch the Price Statistic panel](../.gitbook/assets/launch-price-statistic.png)
+![](../.gitbook/assets/menyu-statistika-cen.png)
 
 ## Availalbe Data types in Price Statistic
 
