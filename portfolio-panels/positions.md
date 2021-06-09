@@ -26,18 +26,18 @@ description: >-
 | **Current price** | рыночная цена, которую можно получить у брокера |
 | **Quantity** | объем позиции в лотах или единицах, в зависимости от того, что выбрано в диалоговом окне «Настройки». |
 | **Date/Time** | дата и время открытия позиции |
-| **Gross P/L** | profit/loss in account currency, calculated on base of price difference |
+| **Gross P/L** | прибыль / убыток в валюте счета, рассчитывается исходя из разницы в цене |
 | **Gross P/L, ticks** |  |
-| **Net P/L** | profit/loss for a position excluding fee |
-| **Position exposure** | exposure of a position, in the account currency. Calculated on base of an open price |
-| **Position value \(open price\)** | open value of a position. Calculated on base of an open market price |
-| **Position value \(current price\)** | current value of a position. Calculated on base of a current market price |
-| **Fee** | shows total commission amount taken for a position |
-| **Swaps** | amounts collected/paid out by a broker when a position is rolled over to a new value date |
-| **Expiration date** | date of contract expiration |
-| **Strike price** | price of option contract performance |
-| **Stop loss** | Stop loss price set for a position |
-| **Take profit** | Take profit price set for a position |
+| **Net P/L** | прибыль / убыток по позиции без учета комиссии |
+| **Position exposure** | размещение позиции в валюте счета. Рассчитывается на основе цены открытия |
+| **Position value \(open price\)** | открытая стоимость позиции. Рассчитывается на основе цены открытого рынка |
+| **Position value \(current price\)** | текущая стоимость позиции. Рассчитывается исходя из текущей рыночной цены |
+| **Fee** | показывает общую сумму комиссии, взятой за позицию |
+| **Swaps** | суммы, собранные / выплаченные брокером при переносе позиции на новую дату валютирования |
+| **Expiration date** | дата истечения контракта |
+| **Strike price** | цена исполнения опционного контракта |
+| **Stop loss** | Цена стоп-лосса, установленная для позиции |
+| **Take profit** | Цена тейк-профита, установленная для позиции |
 
 ## Context menu actions
 
