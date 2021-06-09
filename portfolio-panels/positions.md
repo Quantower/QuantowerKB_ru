@@ -39,20 +39,20 @@ description: >-
 | **Stop loss** | Цена стоп-лосса, установленная для позиции |
 | **Take profit** | Цена тейк-профита, установленная для позиции |
 
-## Context menu actions
+## Опции контекстного меню
 
-By right-clicking on each row of Positions panel, you will get a context menu with the following functions:
+Щелкнув правой кнопкой мыши на каждой строке панели «Позиции», вы получите контекстное меню со следующими функциями:
 
-![Context functions](../.gitbook/assets/positions_context.png)
+![](../.gitbook/assets/menyu-pozicii.png)
 
-### Selected position\(s\) actions
+### Выбранные позиции \(и\) действия
 
-| **Modify position** | Invokes the modification screen, allowing to add SL/TP orders to selected position manually |
+| **Изменить позицию** | Вызывает экран модификации, позволяющий добавлять ордера SL / TP к выбранной позиции вручную |
 | :--- | :--- |
-| **Modify SL to breakeven** |  |
-| **Quick SL/TP** | allows quick adding SL/TP orders to selected position |
-| **Close position** | Options: close all selected positions, all positions by selected symbol, all positions for selected account, all positions |
-| **Reverse** | allows reversing all selected positions, all positions by selected symbol, all positions by selected account, all positions |
+| **Установить SL в безубыток** |  |
+| **Быстрый SL/TP** | позволяет быстро добавлять ордера SL / TP к выбранной позиции |
+| **Закрыть позицию** | Опции: закрыть все выбранные позиции, все позиции по выбранному символу, все позиции для выбранного счета, все позиции |
+| **Реверс** | позволяет реверсировать все выбранные позиции, все позиции по выбранному символу, все позиции по выбранному счету, все позиции |
 
 ### Common actions
 
