@@ -26,9 +26,9 @@ description: >-
 
 ![](../.gitbook/assets/menyu-statistika-cen.png)
 
-## Availalbe Data types in Price Statistic
+## Доступные типы данных в статистике цен
 
-Each column in the table corresponds to a specific data type that you can show / hide through the panel settings or by right-clicking on the table.
+Каждый столбец в таблице соответствует определенному типу данных, который можно показать / скрыть в настройках панели или щелкнув таблицу правой кнопкой мыши.
 
 ![Adding columns to the Price Statistic table ](../.gitbook/assets/add-columns-to-price-statistic.gif)
 
