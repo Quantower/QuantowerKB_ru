@@ -1,89 +1,81 @@
 ---
 description: >-
-  Time and sales panel shows all executed trades for selected trading instrument
-  in table form and provides details for each trade including date, time, price,
-  quantity, and trade direction.
+  Панель "Лента сделок" показывает все выполненные сделки для выбранного
+  торгового инструмента в виде таблицы и предоставляет подробную информацию по
+  каждой сделке, включая дату, время, цену, количество
 ---
 
-# Time & Sales
+# Лента сделок
 
-## What is Time and Sales
+## Фильтрация в таблице "Время и продажи"Что такое лента сделок
 
-**Time & Sales** panel displays all trades that occur for selected instrument and provides details for each trade including date, time, price, and quantity. Each line is color-coded to indicate whether the trade was a result of an aggressive buyer or seller.
+Панель **Time & Sales \(Лента сделок\)**  отображает все сделки, которые происходят по выбранному инструменту, и предоставляет подробную информацию по каждой сделке, включая дату, время, цену и количество. Каждая строка имеет цветовую кодировку, чтобы указать, была ли сделка результатом агрессивного покупателя или продавца.
 
-Time & Sales panel keeps a running record of trades for selected instruments displayed in chronological order. Each new entry is added to the top of the list, causing the panel screen to auto-scroll downward.
+Панель **Лента сделок** ведет текущий учет сделок по выбранным инструментам, отображаемый в хронологическом порядке. Каждая новая запись добавляется в начало списка, в результате чего экран панели автоматически прокручивается вниз.
 
-![Time &amp; Sales panel in Quantower shows all executed trades](../.gitbook/assets/time-and-sales.gif)
+![&#x41B;&#x435;&#x43D;&#x442;&#x430; &#x441;&#x434;&#x435;&#x43B;&#x43E;&#x43A; &#x432; Quantower &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x44B;&#x432;&#x430;&#x435;&#x442; &#x432;&#x441;&#x435; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x43D;&#x44B;&#x435; &#x441;&#x434;&#x435;&#x43B;&#x43A;&#x438;](../.gitbook/assets/time-and-sales.gif)
 
-{% embed url="https://www.youtube.com/watch?v=-R\_AXBMlNpM" caption="Aggregated Time & Sales in Quantower also known as Reconstructed Tape" %}
+{% embed url="https://www.youtube.com/watch?v=-R\_AXBMlNpM" caption="Агрегированное время и продажи в Quantower, также известном как лента сделок" %}
 
-## Real-time and Historical modes
+## Режимы реального времени и исторический
 
-Real-time mode shows all the trades that are currently executed. The historical mode allows you to get all past trades for a specified period of time directly in the panel.
+В режиме реального времени отображаются все текущие сделки. Исторический режим позволяет получить все прошлые сделки за указанный период времени прямо на панели.
 
-![Get all past trades in Time &amp; Sales for a specified period](../.gitbook/assets/historical-mode-in-ts.png)
+![](../.gitbook/assets/lenta-sdelok.png)
 
-## General settings
+## Общие настройки
 
-The basic settings in Time & Sales are similar to the parameters of most panels in Quantower — full flexibility in color settings, fonts, columns visibility, data position relative to the column, etc.
+Основные настройки в ленте сделок аналогичны параметрам большинства панелей в Quantower - полная гибкость в настройках цвета, шрифтах, видимости столбцов, положении данных относительно столбца и т. Д.
 
-![Time &amp; Sales settings in Quantower](../.gitbook/assets/time_sales-settings.png)
+![](../.gitbook/assets/nastroika-lenta-sdelok.jpg)
 
-But some settings are unique for this panel:
+Но некоторые настройки уникальны для этой панели:
 
-* **Rows limit** — this is the number of lines that will be displayed in the table, to save the memory of your computer. When the number of lines exceeds the specified value, the old values will be deleted as new ones appear
-* **Time format** — allows setting the time accuracy for executed trades.
-* **Coloring scheme** — this option sets the color scheme for all rows of the table, depending on the selected condition:  
-  If you chose **“By Aggressor Flag”**, then for the trades with the Buy direction the line will be blue, and for the Sell trades, the line will be red. If the Aggressor flag is not defined \(None\) then the color lime will be white.
+* **Количество строк** - это количество строк, которые будут отображаться в таблице, чтобы сэкономить память вашего компьютера. Когда количество строк превышает указанное значение, старые значения будут удаляться по мере появления новых.
+* **Цветовая схема** - этот параметр устанавливает цветовую схему для всех строк таблицы в зависимости от выбранного условия: -если вы выбрали «**By Aggressor Flag**», то для сделок с направлением Buy линия будет синего цвета, а для сделок Sell - красного цвета. Если флаг «Агрессор» не определен \(«Нет»\), цвет лайма будет белым. -Если вы выбрали «**По направлению тика**», то линии будут окрашены в соответствии с изменением последней цены.
+* **Совокупные сделки** - этот режим позволяет отслеживать крупных трейдеров, суммируя сделки, совпадающие по цене, направлению и времени.
+* **Задержка по времени, ms** - будет продолжать суммировать данные в течение указанного времени, с той же ценой и направлением торговли.
 
-  If you selected **“By Tick Direction”**, then the lines will be colored according to the change in the last price.
+## Экспорт данных
 
-* **Aggregate Trades** — this mode allows tracking large traders, by summing up trades that match in price, direction and time
-* **Time Delay, ms** — it will continue to sum up the data within the specified time, with the same price and trade direction.
+Панель Time & Sales позволяет экспортировать выполненные сделки в файлы CSV или HTML для дальнейшего анализа. Вскоре мы добавим возможность автоматического обновления данных непосредственно во внешнем файле с помощью функций DDE и RTD.
 
-## Export Data
+![](../.gitbook/assets/eksport-dannykh-lenta-vremeni.jpg)
 
-Time & Sales panel allows exporting executed trades to _CSV_ or _HTML_ files for further analysis. Soon we will add the ability to auto-update the data directly in the external file via DDE and RTD functions.
+* Выберите **«Экспорт данных»** в меню панели.
+* Выберите необходимые данные, которые вы хотите экспортировать, и нажмите кнопку \[Экспорт файла\].
+* Укажите тип файлов и путь для их сохранения
 
-![T &amp; S panel allows exporting data into external files](../.gitbook/assets/export-in-t-and-s.png)
+## Действия настройки - фильтры и действия
 
-* Select the "**Export Data**" in the panel's menu
-* Select the necessary data that you want to export and click on the **\[Export File\]** button
-* Specify the type of files and the path to save it
+Мы писали об этой функции в разделе [**«Дополнительные фильтры и действия таблицы»**](https://help.quantower.com/getting-started/table-management#advanced-table-filter), в котором подробно объясняется процесс добавления фильтров и создания различных уведомлений. Здесь мы кратко опишем процесс фильтрации в таблице и настройки различных действий.
 
-## Setup Actions - Filters & Actions
+### Фильтрация в таблице "Лента сделок"
 
-We wrote about this functionality in the [**Advanced table filters and actions**](https://help.quantower.com/getting-started/table-management#advanced-table-filter) section, which explains in details the process of adding filters and creating different notifications. Here we briefly describe the filtering process in the table and the settings of various actions.
+Строки в таблице могут быть отфильтрованы по некоторому значению данных в их столбце. Есть два способа применить фильтрацию:
 
-### Filtering in the Time & Sales table
+* Доступ к быстрой фильтрации можно получить, щелкнув значок «Фильтр» в заголовке любого столбца таблицы.
 
-Rows in the table can be filtered by some data value in their column. There are two ways to apply the filtering:
+![&#x411;&#x44B;&#x441;&#x442;&#x440;&#x430;&#x44F; &#x444;&#x438;&#x43B;&#x44C;&#x442;&#x440;&#x430;&#x446;&#x438;&#x44F; &#x43F;&#x43E; &#x441;&#x442;&#x43E;&#x43B;&#x431;&#x446;&#x443;](../.gitbook/assets/quick-filtering.png)
 
-* **Quick filtering** can be accessed by clicking the “_**Filter**_” icon in any table column’s header.
-
-![Quick filtering per column](../.gitbook/assets/quick-filtering.png)
-
-Once you select some option — the table rows will be filtered to those ones, containing the selected value. Quick filter can be canceled by pressing “_**Cancel filtering**_” option.
+После выбора какой-либо опции - строки таблицы будут отфильтрованы до тех, которые содержат выбранное значение. Быстрый фильтр можно отменить, нажав опцию «**Отменить фильтрацию»**.
 
 {% hint style="info" %}
-Quick filtering can be applied only to one column of the table. For filtering multiple columns, we recommend to use “_**Setup actions**_”.
+Быстрая фильтрация может применяться только к одному столбцу таблицы. Для фильтрации нескольких столбцов мы рекомендуем использовать **«Действия по настройке».**
 {% endhint %}
 
-* **Advanced filtering,** for applying more complex filtering \(multi-filtering\). Select in the panel's context menu option “_**Setup actions**_”. 
+* Расширенная фильтрация для применения более сложной фильтрации \(**мультифильтрация\)**. В контекстном меню панели выберите пункт «Фильтры и алерты».
 
-![](../.gitbook/assets/setup-actions-ts.png)
+![](../.gitbook/assets/lenta-sdelok-filtry-i-alerty.png)
 
-This screen has two tabs on the left side, where the first one is an Advanced filter.
+Слева на этом экране есть две вкладки, первая из которых представляет собой расширенный фильтр.
 
-![Advanced filtering in Time&amp;Sales table](../.gitbook/assets/advanced-filtering.png)
+![&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x43D;&#x430;&#x44F; &#x444;&#x438;&#x43B;&#x44C;&#x442;&#x440;&#x430;&#x446;&#x438;&#x44F; &#x432; &#x442;&#x430;&#x431;&#x43B;&#x438;&#x446;&#x435; &#x43B;&#x435;&#x43D;&#x442;&#x44B; &#x441;&#x434;&#x435;&#x43B;&#x43E;&#x43A;](../.gitbook/assets/advanced-filtering.png)
 
-This screen allows you to Enable/Disable filtering as well as set up filtering Conditions. These conditions are set up as:
+Этот экран позволяет включать / отключать фильтрацию, а также настраивать условия фильтрации. Эти условия установлены как:  
+                      **\_IF \\(condition1 AND condition2 ...\\) OR \\(conditionN...\\) …\_**
 
-```text
-                                            _IF \(condition1 AND condition2 ...\) OR \(conditionN...\) …_
-```
+Вы можете установить столько условий, сколько захотите. Из-за возможной сложной логики фильтрации вам необходимо применить изменения после завершения настройки фильтра.
 
-You can set up as many conditions as you like. Due to the possible complex logic of filtering, you are required to apply the changes once you finished the filter set up.
-
-If you have additional questions or proposals about this functional, feel free to contact us. We are here to help you!
+Если у вас есть дополнительные вопросы или предложения по этому функционалу, не стесняйтесь обращаться к нам. Мы здесь чтобы помочь вам!
 
