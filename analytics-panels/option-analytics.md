@@ -6,15 +6,15 @@ description: >-
 
 # Анализ опционов
 
-Option Analytics is a professional panel for options traders that allows making strong options analysis and send orders in one click.
+Option Analytics - это профессиональная панель для трейдеров опционов, которая позволяет проводить сильный анализ опционов и отправлять ордера в один клик.
 
 ![](../.gitbook/assets/options.png)
 
-To open a new Options Analytics panel, go to the _**Main menu**_ \(Logo icon\) and select _**Options Analytics**_ in the Analytics section.
+Чтобы открыть новую панель Анализ опционов, перейдите в Главное меню \(значок с логотипом\) и выберите Options Analytics в разделе Analytics.
 
-![Open Options Analytics panel via Main menu](../.gitbook/assets/options-analytics-how-to-launch.png)
+![](../.gitbook/assets/menyu-analiz-opticonov.png)
 
-## Key Elements of Options Analytics panel
+## Ключевые элементы панели Анализ опционов
 
 ![](../.gitbook/assets/optionanalytics.png)
 
