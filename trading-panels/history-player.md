@@ -7,7 +7,7 @@ description: >-
 # Рыночный повтор
 
 * \*\*\*\*[**Что такое рыночный повтор**](history-player.md#chto-takoe-rynochnyi-povtor)\*\*\*\*
-* [**First launch of the Market Replay**](history-player.md#first-launch-of-the-market-replay)
+* \*\*\*\*[**Первый запуск Рыночного повтора**](history-player.md#pervyi-zapusk-rynochnogo-povtora)\*\*\*\*
 * **\[**General and instruments settings_\]\(history-player.md\#general-and-instruments-settings\)_
 
 ## Что такое рыночный повтор
@@ -34,7 +34,7 @@ description: >-
 
 ![](../.gitbook/assets/menyu-rynochnyi-povtor.png)
 
-![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; Market Replay &#x441; &#x43E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x44B;&#x43C;&#x438; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x430;&#x43C;&#x438;](../.gitbook/assets/market-replay-for-new-instruments.png)
+![](../.gitbook/assets/obshii-vid-rynochnogo-povtora-s-osnovnymi-nastroikami.png)
 
 {% hint style="warning" %}
 Если вы нажмете кнопку «Стоп», весь процесс тестирования будет отменен.
