@@ -1,17 +1,18 @@
 ---
 description: >-
-  Crypto Order Entry allows to create trading orders with different conditions,
-  such as order quantity, price, side, order type and submit them on the market.
+  Панель для ввода криптовалютных оредов позволяет создавать торговые ордера с
+  различными условиями, такими как количество ордеров, цена, сторона, тип
+  ордера, и отправлять их на рынок.
 ---
 
-# Crypto Order Entry
+# Ввод крипто-ордера
 
-Crypto Order Entry panel allows to create trading orders with different conditions, such as order quantity, price, side, order type and submit them on the market. From the Crypto Order Entry panel, you can supply all of the necessary information for an order and easily submit it by clicking the appropriate action button.
+Панель ввода крипто-ордеров позволяет создавать торговые ордера с различными условиями, такими как количество ордеров, цена, сторона, тип ордера, и отправлять их на рынок. На панели ввода крипто-заказов вы можете предоставить всю необходимую информацию для заказа и легко отправить ее, нажав соответствующую кнопку действия.
 
-This panel is identical to the main [Order Entry panel](order-entry/), but it only works with an active trading connection to the crypto exchange.
+Эта панель идентична основной [**панели ввода ордеров,**](https://help.quantower.com.ru/trading-panels/order-entry) но работает только при активном торговом подключении к криптобирже.
 
 {% hint style="warning" %}
-If the crypto exchange is connected in the **Info mode**, the panel will not be active.
+Если криптобиржа подключена в информационном режиме, панель не будет активной.
 {% endhint %}
 
 ![General view of Crypto Order Entry panel](../.gitbook/assets/crypto-oe-panel_general_view.png)

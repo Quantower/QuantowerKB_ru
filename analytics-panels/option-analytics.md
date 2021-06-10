@@ -1,84 +1,75 @@
 ---
 description: >-
-  Панель анализ опционов позволяет трейдерам по опционам видеть цены, греки,
-  строить и анализировать профили рисков.
+  Option Analytics panel allows options traders to see prices, Greeks, build and
+  analyze risk profiles
 ---
 
-# Анализ опционов
+# Option Analytics
 
-Option Analytics - это профессиональная панель для трейдеров опционов, которая позволяет проводить сильный анализ опционов и отправлять ордера в один клик.
+Option Analytics is a professional panel for options traders that allows making strong options analysis and send orders in one click.
 
 ![](../.gitbook/assets/options.png)
 
-Чтобы открыть новую панель Анализ опционов, перейдите в Главное меню \(значок с логотипом\) и выберите Options Analytics в разделе Analytics.
+To open a new Options Analytics panel, go to the _**Main menu**_ \(Logo icon\) and select _**Options Analytics**_ in the Analytics section.
 
-![](../.gitbook/assets/menyu-analiz-opticonov.png)
+![Open Options Analytics panel via Main menu](../.gitbook/assets/options-analytics-how-to-launch.png)
 
-## Ключевые элементы панели Анализ опционов
+## Key Elements of Options Analytics panel
 
 ![](../.gitbook/assets/optionanalytics.png)
 
-**Базовый актив и счет для выбора торгового инструмента**, имеющего серию опционов, и выбора торгового счета \(в случае нескольких счетов\)
+**Underlying Asset & Account** for selecting a trading instrument that has an option series and selecting trading account \(in case of multiple accounts\)
 
-**«Режим» управляет видимостью дополнительных панелей** - Options Desk, Options Risk Analyzer, Volatility Smile \(Skew\)
+**"Mode"** controls the visibility of additional panels — _**Options Desk, Options Risk Analyzer, Volatility Smile \(Skew\)**_
 
-**Панель данных уровня 1** предоставляет основную информацию о текущих ценах Ask, Bid, Last, спреде и дневном диапазоне выбранного символа.
+**Level 1 Data** **bar** provides basic information about current Ask, Bid, Last prices, spread and day range of selected symbol
 
-## **Таблица опционов**
+## **Options Desk**
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
-\(1\) - этот элемент управления позволяет управлять одновременно видимыми сериями опционов и страйками.
-
-\(2\) - Щелкните правой кнопкой мыши заголовок таблицы, чтобы отобразить контекстное меню, в котором трейдер может выбрать видимые столбцы.
-
-\(3\) - Столбец «Бумага» - это интерактивный столбец, который используется для добавления позиции бумаги в портфолио, для этого - щелкните ячейку столбца и установите значение.
-
-\(4\) - Щелкните правой кнопкой мыши по строке, чтобы отобразить контекстное меню удара.
+\(1\) - This control allows to manage simultaneously visible options series and strikes.  
+\(2\) - Right click on table's header will show a context menu where trader can select visible columns.  
+\(3\) - Paper column is an interactive column that used to add a paper position to porfolio, to do it - click on column's cell and set value.  
+\(4\) - Right click on a row will show a strike's context menu
 
 ![](../.gitbook/assets/image%20%286%29.png)
 
-\(5\) - Двойной щелчок по ячейкам Ask / Bid откроет панель ввода ордеров.
+\(5\) - Double click on Ask/Bid cells will open an Order Entry panel
 
-## Совместный режим Option Desk и Analyzer
+## **Joint mode of Option Desk & Analyzer**
 
-Добавьте позиции Paper в панели опционов, и анализатор стратегии сразу же покажет профиль опциона. Этот режим позволит вам видеть все изменения в панели опционов - цены, волатильность, греческие значения опционов - и профили опционов на одном экране.
+Add Paper positions in the options desk and the strategy analyzer will immediately show the option profile. This mode will allow you to see all changes in options desk — prices, volatility, options Greek values — and option profiles on one screen.
 
-![&#x41F;&#x430;&#x43D;&#x435;&#x43B;&#x44C; Option Analytics &#x43F;&#x440;&#x435;&#x434;&#x43B;&#x430;&#x433;&#x430;&#x435;&#x442; &#x441;&#x43E;&#x432;&#x43C;&#x435;&#x441;&#x442;&#x43D;&#x44B;&#x439; &#x440;&#x435;&#x436;&#x438;&#x43C; Options Desk &#x438; Analyzer.](../.gitbook/assets/deskanalyzer.gif)
+![Option Analytics panel offers the joint mode of Options Desk and Analyzer](../.gitbook/assets/deskanalyzer.gif)
 
-## Анализатор
+## **Analyzer**
 
-Анализатор позволяет пользователям видеть профиль существующего портфолио. Профиль иллюстрирует поведение портфеля в случае изменения цены базового инструмента, изменения волатильности или временного спада. Также в Анализаторе есть возможность добавить оверлей к основному графику. Это может быть один из греков: Delta, Gamma, Vega, Theta или Rho.
+Analyzer allows users to see the profile of existing portfolio. The profile illustrates a behavior of portfolio in cases of underlying instrument price change, volatility change or time decay. Also Analyzer provides a possibility to add an overlay to main chart. It can be one of Greeks: Delta, Gamma, Vega, Theta or Rho
 
 ![](../.gitbook/assets/image%20%2833%29.png)
 
-\(1\) - этот элемент управления позволяет выбрать тип данных диаграммы. Возможные варианты: P / L, Delta, Gamma, Theta, Vega, Rho.
+\(1\) - This controll allows to select a chart's data type. Possible options are: P/L, Delta, Gamma, Theta, Vega, Rho  
+\(2\) - This controll allows to add an overlay to main chart
 
-\(2\) - Этот элемент управления позволяет добавить оверлей к основному графику.
+![Add overlays on options profile chart](../.gitbook/assets/options-overlay.gif)
 
-![&#x414;&#x43E;&#x431;&#x430;&#x432;&#x438;&#x442;&#x44C; &#x43E;&#x432;&#x435;&#x440;&#x43B;&#x435;&#x438; &#x43D;&#x430; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A; &#x43F;&#x440;&#x43E;&#x444;&#x438;&#x43B;&#x44F; &#x43E;&#x43F;&#x446;&#x438;&#x43E;&#x43D;&#x43E;&#x432;](../.gitbook/assets/options-overlay.gif)
+\(3\) - By clicking on this button user can apply "What if" scenarios.
 
-\(3\) - Нажав на эту кнопку, пользователь может применить сценарии «Что, если».
+![Use What-If scenario analysis to assess the impact of volatility or time decay on the position](../.gitbook/assets/what-if-analysis.png)
 
-![&#x418;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x439;&#x442;&#x435; &#x430;&#x43D;&#x430;&#x43B;&#x438;&#x437; &#x441;&#x446;&#x435;&#x43D;&#x430;&#x440;&#x438;&#x44F; &#xAB;&#x427;&#x442;&#x43E;, &#x435;&#x441;&#x43B;&#x438;&#xBB;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43E;&#x446;&#x435;&#x43D;&#x438;&#x442;&#x44C; &#x432;&#x43B;&#x438;&#x44F;&#x43D;&#x438;&#x435; &#x432;&#x43E;&#x43B;&#x430;&#x442;&#x438;&#x43B;&#x44C;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x438;&#x43B;&#x438; &#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x441;&#x43F;&#x430;&#x434;&#x430; &#x43D;&#x430; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x44E;.](../.gitbook/assets/what-if-analysis.png)
+Trader is able to simulate the time decay and volatility impact scenarios simultaneously or separately by setting corresponding values. Up to 5 lines can be drawn at the same moment of time. All "What if" lines are drawn in dashed style.
 
-Трейдер может моделировать сценарии временного спада и воздействия волатильности одновременно или по отдельности, задав соответствующие значения. Одновременно можно нарисовать до 5 линий. Все линии «Что, если» нарисованы пунктиром.
+## **Papers, Positions, Working orders**
 
-## **Бумаги, позиции, рабочие ордера**
-
-В нижней части панели находится сводная таблица с позициями по бумагам, реальными позициями и рабочими ордерами.
+The bottom part of the panel contains combined table with paper positions, real positions and working orders
 
 ![](../.gitbook/assets/image%20%2839%29.png)
 
-\(1\) - Кнопка Добавить базовый символ позволяет добавить бумажную позицию базового символа в список существующих позиций.
-
-\(2\) - Горячие кнопки дают возможность производить групповые действия с портфолио, такие как: разместить документы, отменить документы или закрыть реально существующие позиции.
-
-\(3\) - Щелкните правой кнопкой мыши заголовок таблицы, чтобы отобразить контекстное меню, в котором трейдер может выбрать видимые столбцы.
-
-\(4\) - Нажав на флажки Anayse, пользователь может включить или исключить определенные позиции из портфеля.
-
-\(5\) - Кнопка Place позволяет разместить позицию бумаги
-
-\(6\) - Значок «Удалить» позволяет удалить позицию бумаги.
+\(1\) - Add underlier button allows to add a paper position of underlying symbol to the list of existing positions.  
+\(2\) - Hot buttons provide a possibility to make group actions with portfolio suh as: place papers, cancel papers or close real existing positions.  
+\(3\) - Right click on table's header will show a context menu where trader can select visible columns.  
+\(4\) - By clicking on Anayse checkboxes user can include or exclude certain positions from portfolio.  
+\(5\) - Place button allows to place a paper position  
+\(6\) - Remove icon allows to remove a paper position
 
