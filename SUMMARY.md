@@ -128,7 +128,7 @@
   * [Лента сделок](analytics-panels/time-and-sales.md)
   * [Статистика цен](analytics-panels/price-statistic.md)
   * [Поверхность DOM](analytics-panels/dom-surface.md)
-  * [Option Analytics](analytics-panels/option-analytics.md)
+  * [Анализ опционов](analytics-panels/option-analytics.md)
   * [TPO Profile Chart](analytics-panels/tpo-chart.md)
 * [Trading Panels](trading-panels/README.md)
   * [Crypto Order Entry](trading-panels/crypto-order-entry.md)

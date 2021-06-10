@@ -1,10 +1,10 @@
 ---
 description: >-
-  Option Analytics panel allows options traders to see prices, Greeks, build and
-  analyze risk profiles
+  Панель анализ опционов позволяет трейдерам по опционам видеть цены, греки,
+  строить и анализировать профили рисков.
 ---
 
-# Option Analytics
+# Анализ опционов
 
 Option Analytics is a professional panel for options traders that allows making strong options analysis and send orders in one click.
 
