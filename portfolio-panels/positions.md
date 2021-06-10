@@ -106,42 +106,42 @@ description: >-
   </tbody>
 </table>
 
-### Общие фильтры
+### Common actions
 
-| Группировать по | Группирует все строки по выбранному столбцу |
+| **Group by** | Groups all rows by the selected column |
 | :--- | :--- |
-| Видимость столбцов | Позволяет переключать видимость столбцов |
+| **Columns visibility** | Allows to toggle the columns visibility |
 
-## Управление позициями горячими кнопками
+## Hot buttons toolbar
 
-Чтобы эффективно управлять своей позицией, на панели «Позиции» есть панель «Горячие кнопки». Это позволяет трейдеру выполнять наиболее важные действия с каждой, несколькими или всеми доступными открытыми позициями в один клик.
+In order to manage your position efficiently, there is a Hot buttons toolbar in Positions panel. It allows trader to perform the most crucial actions with each, several or all available opened positions in one click.
 
 {% hint style="danger" %}
-В зависимости от настроек панели горячие кнопки могут работать без экрана подтверждения. Будьте осторожны при их использовании.
+Depending on the panel settings, hot buttons can proceed without confirmation screen. Please be careful while using them.
 {% endhint %}
 
-### Список горячих кнопок
+### Hot buttons list
 
-| Точка безубыточности |  |
+| **Breakeven** |  |
 | :--- | :--- |
-| **Закрыть все** | закрывает все открытые позиции |
-| **CLX все** | закрывает все открытые позиции и отменяет все ордера |
-| **Отменить все** | отменяет все позиции |
-| **Закрыть убыточные** | закрывает позиции с отрицательной прибылью / убытком |
-| **Закрыть прибыльные** | закрывает позиции с положительной прибылью / убытком |
-| **Закрыть позиции в лонг** | закрывает позиции с Side = Long |
-| **Закрыть позиции в шорт** | закрывает позиции с Side = Short |
-| **Закрыть по символу** | закрывает все позиции по выбранному символу и счету |
-| **Закрыть выбранное** | закрывает все выбранные позиции |
-| **Реверс** | меняет позиции по выбранному символу и счету |
-| **Реверс выбранного** | меняет все выбранные позиции на противоположные |
-| **CLX** | закрывает открытые позиции и отменяет заявки по выбранному символу и счету |
+| **Close all** | closes all opened positions |
+| **CLX all** | closes all opened positions and cancels all orders |
+| **Reverse all** | reverses all positions |
+| **Close negative** | closes the positions with negative P/L |
+| **Close positive** | closes the positions with positive P/L |
+| **Close long** | closes the positions with Side = Long |
+| **Close short** | closes the positions with Side = Short |
+| **Close** | closes all positions by selected symbol and account |
+| **Close selected** | closes all selected positions |
+| **Reverse** | reverses positions by selected symbol and account |
+| **Reverse selected** | reverses all selected positions |
+| **CLX** | closes opened positions and cancels orders by selected symbol and account |
 
-### Видимость горячих кнопок
+### Hot buttons visibility
 
-По умолчанию не все доступные горячие кнопки отображаются на панели инструментов панели «Позиции». Вы можете управлять видимостью этих кнопок с помощью контекстного меню: щелкните правой кнопкой мыши и переключите нужные кнопки.
+By default, not all of the available Hot buttons are displayed on Positions panel's toolbar. You can manage visibility of that buttons using the context menu: right-click with your mouse and toggle the desired buttons.
 
 {% hint style="info" %}
-Горячие кнопки расположены на панели инструментов панели, поэтому становятся недоступными после отключения панели инструментов для определенной панели в настройках панели.
+Hot buttons are situated on panel's toolbar, so become unavailable once you disable toolbar for specific panel in panel's settings.
 {% endhint %}
 
