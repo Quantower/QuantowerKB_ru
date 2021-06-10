@@ -44,17 +44,17 @@ description: >-
 
 ![&#x41E;&#x442;&#x43A;&#x440;&#x43E;&#x439;&#x442;&#x435; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x44B;&#x435; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x442;&#x44C; &#x440;&#x430;&#x431;&#x43E;&#x447;&#x443;&#x44E; &#x43E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C; &#x434;&#x43B;&#x44F; &#x442;&#x435;&#x441;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x43D;&#x430; &#x438;&#x441;&#x442;&#x43E;&#x440;&#x438;&#x438;.](../.gitbook/assets/market-replay-in-action.gif)
 
-## General and instruments settings
+## Общие настройки инструментов
 
-Before you start testing the strategy, you need to set up an initial trading balance, a simulation \(or modeling\) scheme for downloaded data, a commission size for a trading instrument, and the netting type.
+Перед тем, как начать тестирование стратегии, вам необходимо настроить начальный торговый баланс, схему имитации \(или моделирования\) для загружаемых данных, размер комиссии для торгового инструмента и тип неттинга.
 
 ![Set up the initial trading balance and modeling scheme](../.gitbook/assets/backtesting-environment-settings.png)
 
-Strategy testing can be performed by one of three schemes to choose from:
+Тестирование стратегии может выполняться по одной из трех схем на выбор:
 
-* **OHLC** - in this mode the sequence is constructed only by the OHLC prices of the minute bars, the number of the generated control points is significantly reduced - hence, so is the testing time.
-* **Open** - in this mode, all trades are opened at the opening price of the next bar. This mode is well suited for testing strategies, which process deals only at the opening of the bar and do not use pending orders, as well as StopLoss and TakeProfit orders.
-* **Close** - in this mode, all trades are opened at the closing price of the current bar.
+* **OHLC -** в этом режиме последовательность строится только по ценам OHLC минутных баров, количество сгенерированных контрольных точек значительно сокращается - отсюда и время тестирования.
+* **Открытие** - в этом режиме все сделки открываются по цене открытия следующего бара. Этот режим хорошо подходит для тестирования стратегий, которые обрабатывают сделки только при открытии бара и не используют отложенные ордера, а также ордера StopLoss и TakeProfit.
+* **Close** - в этом режиме все сделки открываются по цене закрытия текущего бара.
 
 {% hint style="info" %}
 "Open" and “Close” modes have the fastest testing time, but they are not suitable for all of the trading strategies. Select the desired test mode based on the characteristics of the trading system.
