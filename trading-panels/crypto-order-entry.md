@@ -15,15 +15,17 @@ description: >-
 Если криптобиржа подключена в информационном режиме, панель не будет активной.
 {% endhint %}
 
-![General view of Crypto Order Entry panel](../.gitbook/assets/crypto-oe-panel_general_view.png)
+![](../.gitbook/assets/kripto-order-binans-fbyuchersy.png)
 
-## **Order types and restrictions**
+## Типы заказов и ограничения
 
-Crypto Order Entry automatically lists all exchange-supported order types available for the associated instrument under the selected connection. Within our existed connections we support:
+Crypto Order Entry автоматически перечисляет все поддерживаемые обменом типы ордеров, доступные для связанного инструмента при выбранном соединении. В рамках существующих подключений мы поддерживаем:
 
-* **Market order** is an order placed without a price with the intention of hitting the best Bid or taking the best Offer currently available in the market. The order fills at the current best price. Unlike limit orders, where orders are placed on the order book, market orders are executed instantly at the current market price, meaning that you pay the fees as a market taker.
+* **Рыночный ордер** - это ордер, размещаемый без цены с намерением получить лучшую ставку или лучшее предложение, доступное в настоящее время на рынке. Ордер исполняется по текущей лучшей цене. В отличие от лимитных ордеров, в которых ордера размещаются в книге ордеров, рыночные ордера исполняются мгновенно по текущей рыночной цене, что означает, что вы платите комиссию как участник рынка.
 
-![Market Order in Crypto Order Entry](../.gitbook/assets/crypto-oe-market-orders.png)
 
-* **Limit order** allows submitting an order at a specific limit price or better.
+
+![](../.gitbook/assets/kripto-order.jpg)
+
+* **Лимитный ордер** позволяет выставить ордер по определенной лимитной цене или лучше.
 
