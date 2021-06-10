@@ -49,7 +49,7 @@ description: >-
 
 Перед тем, как начать тестирование стратегии, вам необходимо настроить начальный торговый баланс, схему имитации \(или моделирования\) для загружаемых данных, размер комиссии для торгового инструмента и тип неттинга.
 
-![Set up the initial trading balance and modeling scheme](../.gitbook/assets/backtesting-environment-settings.png)
+![](../.gitbook/assets/skhema-modelirovaniya.png)
 
 Тестирование стратегии может выполняться по одной из трех схем на выбор:
 
