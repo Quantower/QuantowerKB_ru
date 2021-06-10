@@ -1,47 +1,48 @@
 ---
 description: >-
-  Market Replay (or History Player) allows you to test strategies on any trading
-  instruments with any data provider or broker
+  Рыночный повтор (или Повтор истории) позволяет вам тестировать стратегии на
+  любых торговых инструментах с любым поставщиком данных или брокером.
 ---
 
-# Market Replay
+# Рыночный повтор
 
-\*\*\*\*[**First launch of the Market Replay**](history-player.md#first-launch-of-the-market-replay)  
-**\*\*\[**General and instruments settings_\*\]\(history-player.md\#general-and-instruments-settings\)\_\*\*\*
+* \*\*\*\*[**Что такое рыночный повтор**](history-player.md#chto-takoe-rynochnyi-povtor)\*\*\*\*
+* [**First launch of the Market Replay**](history-player.md#first-launch-of-the-market-replay)
+* **\[**General and instruments settings_\]\(history-player.md\#general-and-instruments-settings\)_
 
-## What is Market Replay
+## Что такое рыночный повтор
 
-Testing of trading strategies is one of the most important and necessary steps for successful trading. If you are an experienced algotrader, then the automatic testing method is ideal and you can use our Extension for Visual Studio. But unfortunately, many traders don't know the programming language, which makes testing their strategies difficult.
+Тестирование торговых стратегий - один из важнейших и необходимых шагов для успешной торговли. Если вы опытный алгоритмический трейдер, то метод автоматического тестирования идеален, и вы можете использовать наше [Расширение для Visual Studio.](https://help.quantower.com.ru/quantower-algo/installing-visual-studio) Но, к сожалению, многие трейдеры не знают языка программирования, что затрудняет тестирование их стратегий.
 
-Therefore Quantower provides the **Market Replay panel** for simple manual backtesting of any trading strategy.
+Поэтому Quantower предоставляет панель **Рыночный повтор** \(или Повтор истории\) для простого ручного тестирования любой торговой стратегии.
 
-![Testing process with Market Replay panel](../.gitbook/assets/history-player.png)
+![&#x41F;&#x440;&#x43E;&#x446;&#x435;&#x441;&#x441; &#x442;&#x435;&#x441;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x441; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x44C;&#x44E; &#x420;&#x44B;&#x43D;&#x43E;&#x447;&#x43D;&#x44B;&#x439; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;](../.gitbook/assets/history-player.png)
 
-Market Replay allows you to test on any trading instruments with any vendor or broker. This is especially useful when you have access to the data feed that does not allow execution of orders \(quotation date feeds like IQFeed or crypto exchange\).
+Повтор истории позволяет вам тестировать на любых торговых инструментах с любым поставщиком или брокером. Это особенно полезно, когда у вас есть доступ к потоку данных, который не позволяет выполнять заказы \(каналы даты котировок, такие как IQFeed или криптобиржа\).
 
-{% embed url="https://www.youtube.com/watch?v=za-eE8ZSmV8" caption="How to backtest a trading strategy with Market Replay panel" %}
+{% embed url="https://www.youtube.com/watch?v=za-eE8ZSmV8" caption="Как протестировать торговую стратегию на истории с панелью рыночный повтор" %}
 
-## First launch of the Market Replay
+## Первый запуск Рыночного повтора
 
-* Start the panel from the main application menu
-* Add a trading instrument for testing
-* Set the data type  — Tick, 1 minute, 1 day
-* Set the execution type  — Last or Bid/Ask/Last
-* Click on the "Start" button to start testing
+* **Запустите панель** **Рыночный повтор** из главного меню приложения
+* Добавьте торговый инструмент для тестирования
+* Установите тип данных - Тик, 1 минута, 1 день
+* Установите тип исполнения - Last или Bid / Ask / Last
+* Нажмите кнопку **«Пуск»**, чтобы начать тестирование.
 
-In our blog, we showed in detail the process of [manual backtesting of trading strategies using the Market Replay panel](https://www.quantower.com/blog/software-for-manual-backtesting-a-brief-review-of-history-player-plugin).
+В нашем блоге мы подробно показали [процесс ручного тестирования торговых стратегий с помощью панели Market Replay.](https://www.quantower.com/blog/software-for-manual-backtesting-a-brief-review-of-history-player-plugin)
 
-![Launch Market Replay panel](../.gitbook/assets/market-replay-start.png)
+![](../.gitbook/assets/menyu-rynochnyi-povtor.png)
 
-![General view of Market Replay with main settings](../.gitbook/assets/market-replay-for-new-instruments.png)
+![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; Market Replay &#x441; &#x43E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x44B;&#x43C;&#x438; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x430;&#x43C;&#x438;](../.gitbook/assets/market-replay-for-new-instruments.png)
 
 {% hint style="warning" %}
-If you click on the "**Stop"** button, all test progress will be canceled.
+Если вы нажмете кнопку «Стоп», весь процесс тестирования будет отменен.
 {% endhint %}
 
-When the testing is started you can open all the necessary panels for testing by clicking on the “Open panel” button.
+После запуска тестирования вы можете открыть все необходимые панели для тестирования, нажав кнопку «Открыть панель».
 
-![Open necessary panels to create a workspace for backtesting](../.gitbook/assets/market-replay-in-action.gif)
+![&#x41E;&#x442;&#x43A;&#x440;&#x43E;&#x439;&#x442;&#x435; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x44B;&#x435; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x442;&#x44C; &#x440;&#x430;&#x431;&#x43E;&#x447;&#x443;&#x44E; &#x43E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C; &#x434;&#x43B;&#x44F; &#x442;&#x435;&#x441;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x43D;&#x430; &#x438;&#x441;&#x442;&#x43E;&#x440;&#x438;&#x438;.](../.gitbook/assets/market-replay-in-action.gif)
 
 ## General and instruments settings
 
