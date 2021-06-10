@@ -53,29 +53,29 @@ description: >-
 
 Тестирование стратегии может выполняться по одной из трех схем на выбор:
 
-* **OHLC -** в этом режиме последовательность строится только по ценам OHLC минутных баров, количество сгенерированных контрольных точек значительно сокращается - отсюда и время тестирования.
-* **Открытие** - в этом режиме все сделки открываются по цене открытия следующего бара. Этот режим хорошо подходит для тестирования стратегий, которые обрабатывают сделки только при открытии бара и не используют отложенные ордера, а также ордера StopLoss и TakeProfit.
-* **Close** - в этом режиме все сделки открываются по цене закрытия текущего бара.
+* **OHLC -** в этом режиме последовательность строится только по ценам OHLC минутных баров, количество генерированных контрольных точек значительно сокращается - отсюда и время тестирования.
+* **По ценам открытия**- в этом режиме все сделки открываются по цене открытия следующего бара. Этот режим хорошо подходит для тестирования стратегий, которые обрабатывают сделки только при открытии бара и не используют отложенные ордера, а также ордера StopLoss и TakeProfit.
+* **По ценам закрытия**- в этом режиме все сделки открываются по цене закрытия текущего бара.
 
 {% hint style="info" %}
-Режимы «Открыть» и «Закрыть» имеют самое быстрое время тестирования, но они подходят не для всех торговых стратегий. Выберите желаемый режим тестирования исходя из характеристик торговой системы.
+Режимы «**По ценам открытия**» и «**По ценам закрытия**»» имеют самое быстрое время тестирования, но они подходят не для всех торговых стратегий. Выберите желаемый режим тестирования исходя из характеристик торговой системы.
 {% endhint %}
 
 Теперь рассмотрим основные настройки выбранного торгового инструмента.
 
-![Basic settings for trading instrument &#x2014; Netting type and Additional Fees](../.gitbook/assets/netting-types.png)
+![](../.gitbook/assets/tip-nettinga.png)
 
-In the **Netting type** section, you can choose the method by which to summarize existing and new positions:
+В разделе Тип неттинга вы можете выбрать метод суммирования существующих и новых позиций:
 
-* **One position** - it is possible to open one position for one instrument in one direction in this mode. If you previously opened a position to buy 1 lot, adding a position to sell 1 lot will close the previous position. New trades for buy will be summed by volume, and the entry price will be averaged.
+* **Одна позиция** - в этом режиме можно открыть одну позицию по одному инструменту в одном направлении. Если вы ранее открывали позицию на покупку 1 лота, добавление позиции на продажу 1 лота закроет предыдущую позицию. Новые сделки на покупку будут суммироваться по объему, а цена входа будет усреднена.
 
-![Positions are overlapped by the netting type called &quot;One Position&quot;](../.gitbook/assets/orders-matching-mode-one-position.gif)
+![&#x41F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x43A;&#x440;&#x44B;&#x432;&#x430;&#x44E;&#x442;&#x441;&#x44F; &#x442;&#x438;&#x43F;&#x43E;&#x43C; &#x432;&#x437;&#x430;&#x438;&#x43C;&#x43E;&#x437;&#x430;&#x447;&#x435;&#x442;&#x430;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x439; &#x43D;&#x430;&#x437;&#x44B;&#x432;&#x430;&#x435;&#x442;&#x441;&#x44F; &#xAB;&#x41E;&#x434;&#x43D;&#x430; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x44F;&#xBB;.](../.gitbook/assets/orders-matching-mode-one-position.gif)
 
-* **Multiple per Side** - this mode allows you to open many different positions in one direction.  For example, opening several positions in the sequence, they will be opened separately. Opposite trades \(for sale\) will close them.
+* **несколько с одной стороны** - этот режим позволяет открывать много разных позиций в одном направлении. Например, открывая несколько позиций в последовательности, они будут открываться отдельно. Противоположные сделки \(на продажу\) закроют их.
 
-![Positions are overlapped by the netting type called &quot;Multiple Per Side&quot;](../.gitbook/assets/orders-matching-mode-multiple-per-side.gif)
+![&#x41F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x43A;&#x440;&#x44B;&#x432;&#x430;&#x44E;&#x442;&#x441;&#x44F; &#x442;&#x438;&#x43F;&#x43E;&#x43C; &#x432;&#x437;&#x430;&#x438;&#x43C;&#x43E;&#x437;&#x430;&#x447;&#x435;&#x442;&#x430; &#x43F;&#x43E;&#x434; &#x43D;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x438;&#x435;&#x43C; &quot;&#x41D;&#x435;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43D;&#x430; &#x441;&#x442;&#x43E;&#x440;&#x43E;&#x43D;&#x443;&quot;.](../.gitbook/assets/orders-matching-mode-multiple-per-side.gif)
 
-* **Multiple Positions** - each new trade will be opened as a separate item, including the opposite trades.
+* **Несколько позиций** - каждая новая сделка будет открываться как отдельный элемент, включая противоположные сделки.
 
-![Positions are overlapped by the netting type called &quot;Multiple Position&quot;](../.gitbook/assets/orders-matching-mode-multiple-positions.gif)
+![&#x41F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438; &#x43F;&#x435;&#x440;&#x435;&#x43A;&#x440;&#x44B;&#x432;&#x430;&#x44E;&#x442;&#x441;&#x44F; &#x442;&#x438;&#x43F;&#x43E;&#x43C; &#x432;&#x437;&#x430;&#x438;&#x43C;&#x43E;&#x437;&#x430;&#x447;&#x435;&#x442;&#x430;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x439; &#x43D;&#x430;&#x437;&#x44B;&#x432;&#x430;&#x435;&#x442;&#x441;&#x44F; &quot;&#x41C;&#x43D;&#x43E;&#x436;&#x435;&#x441;&#x442;&#x432;&#x435;&#x43D;&#x43D;&#x430;&#x44F; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x44F;&quot;.](../.gitbook/assets/orders-matching-mode-multiple-positions.gif)
 
