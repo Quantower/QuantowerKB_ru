@@ -57,10 +57,10 @@ description: >-
 * **Close** - в этом режиме все сделки открываются по цене закрытия текущего бара.
 
 {% hint style="info" %}
-"Open" and “Close” modes have the fastest testing time, but they are not suitable for all of the trading strategies. Select the desired test mode based on the characteristics of the trading system.
+Режимы «Открыть» и «Закрыть» имеют самое быстрое время тестирования, но они подходят не для всех торговых стратегий. Выберите желаемый режим тестирования исходя из характеристик торговой системы.
 {% endhint %}
 
-Now let's look at the main settings of the selected trading instrument
+Теперь рассмотрим основные настройки выбранного торгового инструмента.
 
 ![Basic settings for trading instrument &#x2014; Netting type and Additional Fees](../.gitbook/assets/netting-types.png)
 
