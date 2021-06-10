@@ -8,6 +8,7 @@ description: >-
 
 * \*\*\*\*[**Что такое рыночный повтор**](history-player.md#chto-takoe-rynochnyi-povtor)\*\*\*\*
 * \*\*\*\*[**Первый запуск Рыночного повтора**](history-player.md#pervyi-zapusk-rynochnogo-povtora)\*\*\*\*
+* \*\*\*\*[**Общие настройки инструментов**](history-player.md#obshie-nastroiki-instrumentov)\*\*\*\*
 * **\[**General and instruments settings_\]\(history-player.md\#general-and-instruments-settings\)_
 
 ## Что такое рыночный повтор
@@ -42,7 +43,7 @@ description: >-
 
 После запуска тестирования вы можете открыть все необходимые панели для тестирования, нажав кнопку «Открыть панель».
 
-![&#x41E;&#x442;&#x43A;&#x440;&#x43E;&#x439;&#x442;&#x435; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x44B;&#x435; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x442;&#x44C; &#x440;&#x430;&#x431;&#x43E;&#x447;&#x443;&#x44E; &#x43E;&#x431;&#x43B;&#x430;&#x441;&#x442;&#x44C; &#x434;&#x43B;&#x44F; &#x442;&#x435;&#x441;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x43D;&#x430; &#x438;&#x441;&#x442;&#x43E;&#x440;&#x438;&#x438;.](../.gitbook/assets/market-replay-in-action.gif)
+![](../.gitbook/assets/vizualizaciya-povtora.gif)
 
 ## Общие настройки инструментов
 
