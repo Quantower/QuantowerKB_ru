@@ -137,11 +137,11 @@ description: >-
 | **Реверс выбранного** | меняет все выбранные позиции на противоположные |
 | **CLX** | закрывает открытые позиции и отменяет заявки по выбранному символу и счету |
 
-### Hot buttons visibility
+### Видимость горячих кнопок
 
-By default, not all of the available Hot buttons are displayed on Positions panel's toolbar. You can manage visibility of that buttons using the context menu: right-click with your mouse and toggle the desired buttons.
+По умолчанию не все доступные горячие кнопки отображаются на панели инструментов панели «Позиции». Вы можете управлять видимостью этих кнопок с помощью контекстного меню: щелкните правой кнопкой мыши и переключите нужные кнопки.
 
 {% hint style="info" %}
-Hot buttons are situated on panel's toolbar, so become unavailable once you disable toolbar for specific panel in panel's settings.
+Горячие кнопки расположены на панели инструментов панели, поэтому становятся недоступными после отключения панели инструментов для определенной панели в настройках панели.
 {% endhint %}
 
