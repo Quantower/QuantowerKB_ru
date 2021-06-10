@@ -18,30 +18,33 @@ Option Analytics - это профессиональная панель для �
 
 ![](../.gitbook/assets/optionanalytics.png)
 
-**Underlying Asset & Account** for selecting a trading instrument that has an option series and selecting trading account \(in case of multiple accounts\)
+**Базовый актив и счет для выбора торгового инструмента**, имеющего серию опционов, и выбора торгового счета \(в случае нескольких счетов\)
 
-**"Mode"** controls the visibility of additional panels — _**Options Desk, Options Risk Analyzer, Volatility Smile \(Skew\)**_
+**«Режим» управляет видимостью дополнительных панелей** - Options Desk, Options Risk Analyzer, Volatility Smile \(Skew\)
 
-**Level 1 Data** **bar** provides basic information about current Ask, Bid, Last prices, spread and day range of selected symbol
+**Панель данных уровня 1** предоставляет основную информацию о текущих ценах Ask, Bid, Last, спреде и дневном диапазоне выбранного символа.
 
-## **Options Desk**
+## **Таблица опционов**
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
-\(1\) - This control allows to manage simultaneously visible options series and strikes.  
-\(2\) - Right click on table's header will show a context menu where trader can select visible columns.  
-\(3\) - Paper column is an interactive column that used to add a paper position to porfolio, to do it - click on column's cell and set value.  
-\(4\) - Right click on a row will show a strike's context menu
+\(1\) - этот элемент управления позволяет управлять одновременно видимыми сериями опционов и страйками.
+
+\(2\) - Щелкните правой кнопкой мыши заголовок таблицы, чтобы отобразить контекстное меню, в котором трейдер может выбрать видимые столбцы.
+
+\(3\) - Столбец «Бумага» - это интерактивный столбец, который используется для добавления позиции бумаги в портфолио, для этого - щелкните ячейку столбца и установите значение.
+
+\(4\) - Щелкните правой кнопкой мыши по строке, чтобы отобразить контекстное меню удара.
 
 ![](../.gitbook/assets/image%20%286%29.png)
 
-\(5\) - Double click on Ask/Bid cells will open an Order Entry panel
+\(5\) - Двойной щелчок по ячейкам Ask / Bid откроет панель ввода ордеров.
 
-## **Joint mode of Option Desk & Analyzer**
+## Совместный режим Option Desk и Analyzer
 
-Add Paper positions in the options desk and the strategy analyzer will immediately show the option profile. This mode will allow you to see all changes in options desk — prices, volatility, options Greek values — and option profiles on one screen.
+Добавьте позиции Paper в панели опционов, и анализатор стратегии сразу же покажет профиль опциона. Этот режим позволит вам видеть все изменения в панели опционов - цены, волатильность, греческие значения опционов - и профили опционов на одном экране.
 
-![Option Analytics panel offers the joint mode of Options Desk and Analyzer](../.gitbook/assets/deskanalyzer.gif)
+![&#x41F;&#x430;&#x43D;&#x435;&#x43B;&#x44C; Option Analytics &#x43F;&#x440;&#x435;&#x434;&#x43B;&#x430;&#x433;&#x430;&#x435;&#x442; &#x441;&#x43E;&#x432;&#x43C;&#x435;&#x441;&#x442;&#x43D;&#x44B;&#x439; &#x440;&#x435;&#x436;&#x438;&#x43C; Options Desk &#x438; Analyzer.](../.gitbook/assets/deskanalyzer.gif)
 
 ## **Analyzer**
 
