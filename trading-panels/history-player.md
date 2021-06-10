@@ -9,7 +9,6 @@ description: >-
 * \*\*\*\*[**Что такое рыночный повтор**](history-player.md#chto-takoe-rynochnyi-povtor)\*\*\*\*
 * \*\*\*\*[**Первый запуск Рыночного повтора**](history-player.md#pervyi-zapusk-rynochnogo-povtora)\*\*\*\*
 * \*\*\*\*[**Общие настройки инструментов**](history-player.md#obshie-nastroiki-instrumentov)\*\*\*\*
-* **\[**General and instruments settings_\]\(history-player.md\#general-and-instruments-settings\)_
 
 ## Что такое рыночный повтор
 
