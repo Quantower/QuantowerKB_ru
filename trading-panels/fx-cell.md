@@ -1,32 +1,32 @@
 ---
 description: >-
-  The panel shows the best bid/ask price for a certain instrument and allows to
-  place a market order at these prices
+  Панель FX ячеек показывает лучшую цену покупки / продажи для определенного
+  инструмента и позволяет разместить рыночный ордер по этим ценам.
 ---
 
-# FX Cell
+# Панель ячеек FX
 
-## What is FX Cell
+## Что такое FX ячейки
 
-FX cell panel provides the combination of two important features - quote data and trading controls for order placement. It was designed with FX traders in mind but it can be used with any symbols for any market.
+Панель ячеек FX обеспечивает комбинацию двух важных функций - данных котировок и управления торговлей для размещения ордеров. Он был разработан для трейдеров FX, но его можно использовать с любыми символами для любого рынка.
 
 ![ ](../.gitbook/assets/fx-cell-general-view.png)
 
-The FX Cell panel menu contains:
+Меню панели FX Cell содержит:
 
-* **Edit**  — allows you to change the account or trading symbol;
-* **Link**  —  allows linking several panels by common symbol using the Color definition. Just select one link color in FX Cell and other panel and they will have a synchronized symbol parameter. Once linkage is applied, the panel’s title will be colored to the respective color.
-* **Duplicate panel** — allows you to create a copy of the panel with the same settings.
+* **Редактировать** - позволяет изменить счет или торговый символ;
+* **Связать** - позволяет связать несколько панелей общим символом с использованием определения цвета. Просто выберите один цвет ссылки в FX Cell и на другой панели, и у них будет параметр синхронизированного символа. После установки связи заголовок панели будет окрашен в соответствующий цвет.
+* **Дублировать панель** - позволяет создать копию панели с такими же настройками.
 
-## Trading with FX Cell
+## Торговля с ячеек FX
 
-* **Select a trading instrument and an account.** You can select a trading symbol manually or through linking to a [Watchlist](https://help.quantower.com/analytics-panels/watchlist) or to other panels.
+* **Выберите торговый инструмент и счет.** Вы можете выбрать торговый символ вручную или связав его со списком наблюдения или другими панелями.
 
 ![](../.gitbook/assets/fx-cell-select-the-symbol.png)
 
-* **Set the order size.** Click the size field and either type a new value or use the mouse wheel to move to a new value.
-* **Set the order duration \(TIF\).** Depending on the selected connection, the TIF types may vary.
-* **Place the order**. Orders are placed by clicking the buy or sell buttons. You must confirm the order before it is placed.
+* **Установите размер заказа.** Щелкните поле размера и введите новое значение или используйте колесико мыши для перехода к новому значению.
+* **Установите длительность заказа \(TIF\)**. В зависимости от выбранного подключения типы TIF могут различаться.
+* **Сделайте заказ.** Заказы размещаются путем нажатия кнопок покупки или продажи. Вы должны подтвердить заказ перед его размещением.
 
-You can manage your open positions with the [Position panel](https://help.quantower.com/portfolio-panels/positions).
+Вы можете управлять своими открытыми позициями с помощью панели [**Открытые позиции**](https://help.quantower.com.ru/portfolio-panels/positions)\*\*\*\*
 

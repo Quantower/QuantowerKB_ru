@@ -141,7 +141,7 @@
   * [Market depth](trading-panels/market-depth.md)
   * [Симулятор торговли](trading-panels/trading-simulator.md)
   * [Рыночный повтор](trading-panels/history-player.md)
-  * [FX Cell](trading-panels/fx-cell.md)
+  * [Панель ячеек FX](trading-panels/fx-cell.md)
 * [Portfolio Panels](portfolio-panels/README.md)
   * [Открытые позиции](portfolio-panels/positions.md)
   * [Working Orders](portfolio-panels/working-orders.md)
