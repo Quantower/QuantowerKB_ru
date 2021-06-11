@@ -138,7 +138,7 @@
     * [Order Types](trading-panels/order-entry/order-types.md)
   * [DOM Trader](trading-panels/dom-trader/README.md)
     * [How to set up Dom  for scalping](trading-panels/dom-trader/how-to-set-up-dom-for-scalping.md)
-  * [Market depth](trading-panels/market-depth.md)
+  * [Стакан ордеров](trading-panels/market-depth.md)
   * [Симулятор торговли](trading-panels/trading-simulator.md)
   * [Рыночный повтор](trading-panels/history-player.md)
   * [Ячейка FX](trading-panels/fx-cell.md)

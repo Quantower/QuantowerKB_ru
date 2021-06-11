@@ -1,40 +1,41 @@
 ---
 description: >-
-  Market Depth is a professional trading panel that provides single-click order
-  entry for an instrument while displaying market liquidity.
+  Стакан ордеров (MD - Market depth)  это профессиональная торговая панель,
+  которая обеспечивает ввод ордеров по инструменту одним щелчком мыши при
+  отображении рыночной ликвидности.
 ---
 
-# Market depth
+# Стакан ордеров
 
-## General info
+## Общая информация
 
-The Market Depth panel allows view the number of opening buy and sell orders at different price levels for a selected trading instrument. Thanks to this panel you can better understand the current market liquidity and determine where the supply and demand levels are.
+Панель «Стакан ордеров» \(MD - Market depth\) позволяет просматривать количество открывающихся ордеров на покупку и продажу на разных ценовых уровнях для выбранного торгового инструмента. Благодаря этой панели вы можете лучше понять текущую ликвидность рынка и определить уроСтакан ордероввни спроса и предложения.
 
-![General view of Market Depth](../.gitbook/assets/market-depth-in-action.gif)
+![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x441;&#x442;&#x430;&#x43A;&#x430;&#x43D;&#x430; &#x446;&#x435;&#x43D;](../.gitbook/assets/market-depth-in-action.gif)
 
-## Main parts of MD panel
+## Основные части панели стакана ордеров.
 
-Market Depth panel consists of the following parts:
+Панель стакана цен состоит из следующих частей:
 
-![](../.gitbook/assets/parts-of-md-panel.png)
+![](../.gitbook/assets/stakan-orderov.png)
 
-1. **Order Entry** where you can set the order quantity and other parameters before placing it.
-2. **Level 1 bar** shows market data for the selected instrument for the current trading session.
-3. **Position bar** displays a brief information about opened positions \(average open price, quantity and current P/L\)
-4. **Additional columns** that can be activated to display the extended market data.
+1. **Ввод ордера,** где вы можете установить количество заказа и другие параметры перед его размещением.
+2. **Инфо панель** - показывает рыночные данные по выбранному инструменту за текущую торговую сессию.
+3. **Панель позиций** отображает краткую информацию об открытых позициях \(средняя цена открытия, количество и текущий P / L\)
+4. **Дополнительные столбцы**, которые можно активировать для отображения расширенных рыночных данных
 
-## Trading with Market Depth
+## Как торговать по стакану ордеров
 
-Market depth panel gives you the ability to quickly and safely enter orders for an instrument with a single click. Using the order entry to configure an order in MD, you can select an account, order quantity, TIF and place an order by market or by Ask/Bid quote.
+Панель глубины рынка дает вам возможность быстро и безопасно вводить ордера по инструменту одним щелчком мыши. Используя ввод ордера для настройки ордера в стакане ордеров, вы можете выбрать счет, количество ордера, TIF и разместить ордер по рынку или по котировке Ask / Bid.
 
-To enter an order in MD:
+Чтобы выставить ордер в Стакане ордеров \(MD - Market depth\):
 
-* Select an account and order restriction \(TIF\) in the order entry;
-* Enter an order quantity;
-* Click on the Bid, Ask or Market button to place your order;
-* Confirm your placement by first checking all the parameters.
+* Выберите учетную запись и ограничение заказа \(TIF\) в вводе заказа;
+* Введите количество;
+* Нажмите кнопку Bid, Ask или Market, чтобы разместить ордер;
+* Подтвердите свое размещение, предварительно проверив все параметры.
 
-## Market Depth settings
+## Настройки стакана цен
 
 Additional settings of the market depth allow you to customize the appearance of the panel, set the custom name of the panel, and also set the color schemes of the table.
 
