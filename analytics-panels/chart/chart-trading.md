@@ -20,7 +20,7 @@ description: >-
 
 **Как установить свои индивидуальные значения в поле объем?**
 
--Перейдите в меню [**Настройки графика**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbeyqYlB3IwnbmL6nJY/analytics-panels/chart/chart-settings)**/ запись заказа**  
+-Перейдите в меню [**Настройки графика**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbeyqYlB3IwnbmL6nJY/analytics-panels/chart/chart-settings)**,** раздел **запись заказа**  
 - В поле "_кнопки ОЕ"_  вы можете выставить свои индивидуальные значения объема.  
 -Кроме этого, в поле можно устанавливать не только значения, **но и формулы**. Для быстрого изменения значения объема исходя из вашей торговли:
 
