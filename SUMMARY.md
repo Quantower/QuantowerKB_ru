@@ -135,6 +135,7 @@
   * [Ввод мульти-ордеров](trading-panels/multiple-order-entry.md)
   * [Ввод ордера](trading-panels/order-entry/README.md)
     * [Ввод ордера для CQG](trading-panels/order-entry/order-entry-for-cqg.md)
+    * [Ввод ордера для Bybit](trading-panels/order-entry/vvod-ordera-dlya-bybit.md)
     * [Order Types](trading-panels/order-entry/order-types.md)
   * [DOM Trader](trading-panels/dom-trader/README.md)
     * [How to set up Dom  for scalping](trading-panels/dom-trader/how-to-set-up-dom-for-scalping.md)
