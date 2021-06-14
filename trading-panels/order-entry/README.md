@@ -1,16 +1,26 @@
 ---
 description: >-
-  Order Entry allows to create trading orders with different conditions, such as
-  order quantity, price, side, order type and submit them on the market.
+  Ввод ордеров позволяет создавать торговые ордера с различными условиями,
+  такими как количество ордеров, цена, сторона, тип ордера, и отправлять их на
+  рынок.
 ---
 
-# Order Entry
+# Ввод ордера
 
-* \*\*\*\*[**Order Entry for CQG connection**](order-entry-for-cqg.md)\*\*\*\*
+* **Общая информация**
+* **Как открыть панель ввода заказов?**
+* **Выбор символа и счета**
+* **Типы заказов и ограничения**
+* **Защита ордера**
+* **Подтверждение заказа**
+
+
+
+* **Ввод ордера для CQG подключения**
 * Order Entry for Rithmic connection
 * Order Entry for Binance Futures
 
-## General info
+## Общая информация
 
 Order Entry panel allows to create trading orders with different conditions, such as order quantity, price, side, order type, and submit them on the market. From the Order Entry panel, you can supply all of the necessary information for order and easily submit it by clicking the appropriate action button.
 
@@ -24,13 +34,13 @@ The entire panel is conventionally divided into several zones:
 * setting of stop loss and take profit prices;
 * information on current Ask and Bid prices, spread size, VWAP prices, as well as an order placement button.
 
-## How to open the Order Entry panel?
+## Как открыть панель ввода заказов?
 
 Open the main menu by clicking the logo and in the **Trading section** click on the OE icon.
 
 ![Open Order Entry panle in general menu](../../.gitbook/assets/oe-general.png)
 
-## Symbol and account selection
+## Выбор символа и счета
 
 The selection of a trading instrument can be performed manually through the [Symbol Lookup](https://help.quantower.com/getting-started/instruments-lookup) or via linking the panel to other panels, for example, to the chart. Just select one link color in two panels and they will have a synchronized symbol parameter.
 
@@ -38,7 +48,7 @@ If there are several trading accounts available within your connection, you can 
 
 ![Select the required trading account ](../../.gitbook/assets/select-trading-account.png)
 
-## **Order types and restrictions**
+## Типы заказов и ограничения
 
 Order Entry automatically lists all exchange-supported order types available for the associated instrument under the selected connection. Within our existed connections we support:
 
@@ -62,9 +72,9 @@ Order Entry automatically lists all exchange-supported order types available for
 The TIF list can be different depends on connection, order type or instrument type!
 {% endhint %}
 
-## Order Protection
+## Защита ордера
 
-To protect the position from a significant loss, you can use the **Stop Loss** orders. To do this, activate the "_**Stop Loss**_" checkbox and specify the price at which the order will be closed.
+Чтобы защитить позицию от значительного убытка, вы можете использовать ордера **Stop Loss**. Для этого активируйте флажок **«Stop Loss»** и укажите цену, по которой ордер будет закрыт.
 
 Once the position becomes profitable, you can change the Stop Loss price to a break-even level. To automate this process, **Trailing Stop** was created. This tool is especially useful when price changes strongly in the same direction or when it is impossible to watch the market continuously for some reason.
 
@@ -84,7 +94,7 @@ Take Profit order can be set:
 * for Short positions below the current price
 {% endhint %}
 
-## Order Confirmation
+## Подтверждение заказа
 
 Once you have set all the necessary parameters of the order and clicked the **PLACE ORDER** button, the order confirmation screen will appear.
 

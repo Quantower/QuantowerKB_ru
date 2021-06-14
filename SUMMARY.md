@@ -133,7 +133,7 @@
 * [Торговые панели](trading-panels/README.md)
   * [Ввод крипто-ордера](trading-panels/crypto-order-entry.md)
   * [Ввод мульти-ордеров](trading-panels/multiple-order-entry.md)
-  * [Order Entry](trading-panels/order-entry/README.md)
+  * [Ввод ордера](trading-panels/order-entry/README.md)
     * [Order Entry for CQG](trading-panels/order-entry/order-entry-for-cqg.md)
     * [Order Types](trading-panels/order-entry/order-types.md)
   * [DOM Trader](trading-panels/dom-trader/README.md)
