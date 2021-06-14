@@ -102,15 +102,15 @@ description: >-
 
 ## Подтверждение заказа
 
-Once you have set all the necessary parameters of the order and clicked the **PLACE ORDER** button, the order confirmation screen will appear.
+После того, как вы установили все необходимые параметры заказа и нажали кнопку РАЗМЕСТИТЬ ЗАКАЗ, появится экран подтверждения заказа.
 
-This window contains summary information about your order, which will allow you to verify the correctness of the entered data - order type, trade instrument, price, quantity, prices of take profit and stop loss.
+Это окно содержит сводную информацию о вашем ордере, которая позволит вам проверить правильность введенных данных - тип ордера, торговый инструмент, цена, количество, цены тейк-профита и стоп-лосса.
 
-![Confirmation of the order placement](../../.gitbook/assets/order-confirmation.png)
+![&#x41F;&#x43E;&#x434;&#x442;&#x432;&#x435;&#x440;&#x436;&#x434;&#x435;&#x43D;&#x438;&#x435; &#x440;&#x430;&#x437;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x44F; &#x437;&#x430;&#x43A;&#x430;&#x437;&#x430;](../../.gitbook/assets/order-confirmation.png)
 
-![Confirmation of the order cancellation](../../.gitbook/assets/confirmation-of-order-cancel.png)
+![&#x41F;&#x43E;&#x434;&#x442;&#x432;&#x435;&#x440;&#x436;&#x434;&#x435;&#x43D;&#x438;&#x435; &#x43E;&#x442;&#x43C;&#x435;&#x43D;&#x44B; &#x437;&#x430;&#x43A;&#x430;&#x437;&#x430;](../../.gitbook/assets/confirmation-of-order-cancel.png)
 
 {% hint style="info" %}
-If you activate the "_**Do not show again**_" checkbox, the confirmation will not be displayed and the order will be immediately sent to the order book. In order to return these notifications, it is necessary to activate the "_**Confirm order placement**_" checkbox in the [General settings](https://help.quantower.com/getting-started/general-settings#confirmations) of the application
+Если вы активируете флажок **«Больше не показывать»**, подтверждение не будет отображаться, и заказ будет немедленно отправлен в книгу заказов. Для того, чтобы эти уведомления возвращались, необходимо в Общих настройках приложения установить флажок **«Подтвердить размещение заказа».**
 {% endhint %}
 
