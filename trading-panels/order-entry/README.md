@@ -22,49 +22,55 @@ description: >-
 
 ## Общая информация
 
-Order Entry panel allows to create trading orders with different conditions, such as order quantity, price, side, order type, and submit them on the market. From the Order Entry panel, you can supply all of the necessary information for order and easily submit it by clicking the appropriate action button.
+Панель ввода ордеров позволяет создавать торговые ордера с различными условиями, такими как количество ордеров, цена, сторона, тип ордера, и отправлять их на рынок. На панели ввода заказа вы можете предоставить всю необходимую информацию для заказа и легко отправить ее, нажав соответствующую кнопку действия.
 
-![General view of Order Entry panel](../../.gitbook/assets/order-entry-panel-in-quantower-platfrom.png)
+![](../../.gitbook/assets/sozdat-order.png)
 
-The entire panel is conventionally divided into several zones:
+Вся панель условно разделена на несколько зон:
 
-* choice of trading instrument and trading account;
-* setting the required order quantity and the order side \(Buy or Sell\);
-* choice of order type, its price and TIF condition;
-* setting of stop loss and take profit prices;
-* information on current Ask and Bid prices, spread size, VWAP prices, as well as an order placement button.
+* выбор торгового инструмента и торгового счета;
+* установка необходимого количества заказа и стороны заказа \(Купить или Продать\);
+* выбор типа заявки, ее цены и условия TIF;
+* установка цен стоп-лосс и тейк-профит;
+* информация о текущих ценах Ask и Bid, размере спреда, ценах VWAP, а также кнопка размещения ордера.
 
 ## Как открыть панель ввода заказов?
 
-Open the main menu by clicking the logo and in the **Trading section** click on the OE icon.
+Откройте главное меню, щелкнув логотип, и в разделе **«Торговые»** щелкните значок OE.
 
-![Open Order Entry panle in general menu](../../.gitbook/assets/oe-general.png)
+![](../../.gitbook/assets/kak-otkryt-panel-sozdat-order.png)
 
 ## Выбор символа и счета
 
-The selection of a trading instrument can be performed manually through the [Symbol Lookup](https://help.quantower.com/getting-started/instruments-lookup) or via linking the panel to other panels, for example, to the chart. Just select one link color in two panels and they will have a synchronized symbol parameter.
+Выбор торгового инструмента можно выполнить вручную через Поиск символов или [привязав панель к другим панелям](https://help.quantower.com.ru/general-settings/binds), например, к графику. Просто выберите один цвет ссылки на двух панелях, и у них будет параметр [синхронизированного символа](https://help.quantower.com.ru/general-settings/link-panels).
 
-If there are several trading accounts available within your connection, you can select the required account by clicking the **Select Account** button.
+{% hint style="info" %}
+В зависимости от выбранного подключения и торговой пары, панель ввода ордера автоматически перечислит и покажет все поддерживаемые данным коннектом типы ордеров и условия, доступные для связанного инструмента при выбранном соединении. 
+{% endhint %}
 
-![Select the required trading account ](../../.gitbook/assets/select-trading-account.png)
+Если в вашем подключении доступно несколько торговых счетов, вы можете выбрать необходимую учетную запись, нажав кнопку «Выбрать учетную запись».
+
+![](../../.gitbook/assets/vybor-podklyucheniya.png)
 
 ## Типы заказов и ограничения
 
-Order Entry automatically lists all exchange-supported order types available for the associated instrument under the selected connection. Within our existed connections we support:
+Ввод ордеров автоматически перечисляет все поддерживаемые обменом типы ордеров, доступные для связанного инструмента при выбранном соединении. В рамках существующих подключений мы поддерживаем:
 
-* **Market order** is an order placed without a price with the intention of hitting the best Bid or taking the best Offer currently available in the market. The order fills at the current best price.
-* **Limit order** allows submitting an order at a specific limit price or better.
-* **Stop order** allows submitting a buy or sell market order if and when the stop trigger price is touched.
+* **Рыночный ордер** - это ордер, размещаемый без цены с намерением получить лучшую ставку или лучшее предложение, доступное в настоящее время на рынке. Ордер исполняется по текущей лучшей цене.
+* **Лимитный ордер** позволяет выставить ордер по определенной лимитной цене или лучше.
+* **Стоп-ордер** позволяет подать рыночный ордер на покупку или продажу, если и когда будет достигнута цена срабатывания стоп-сигнала.  В каждом подключении могут быть свои особенные типы ордеров, доступные именно для выбранного соединения.
 
-![Order types](../../.gitbook/assets/order-types.png)
+![](../../.gitbook/assets/tipy-orderov.png)
 
-**Time-in-force** \(TIF\) instructions define the length of time over which an order will continue working before it is canceled. Within our existed connections we support many TIFs:
 
-* **DAY** is an order will be canceled if it is not executed within the current trading day;
-* **FOK** \(or Fill or Kill\) -  an order will be canceled if it is not executed in the entire volume as soon as it becomes available;
-* **GTC** \(Good till canceled\) orders will remain working until they are canceled by trader or the contract expires;
-* **IOC** \(Immediate or cancel\) requires that any portion of an order that is not filled as soon as it becomes available in the market is canceled;
-* **GTD** \(Good till date\) order will remain working within the system and in the marketplace, until it executes or until the close of the market on the date specified.
+
+Параметры **Time-in-Force \(TIF\)** определяют продолжительность времени, в течение которого ордер будет продолжать работать, прежде чем он будет отменен. В рамках существующих подключений мы поддерживаем множество **TIF:**
+
+* **DAY** - ордер будет отменен, если он не будет исполнен в течение текущего торгового дня;
+* **FOK** \(или Fill or Kill\) - ордер будет отменен, если он не будет исполнен в полном объеме, как только он станет доступен;
+* **Ордера GTC** \(действительны до отмены\) будут работать до тех пор, пока они не будут отменены трейдером или не истечет срок действия контракта;
+* **IOC** \(Немедленно или отменить\) требует, чтобы любая часть ордера, которая не была исполнена, как только она становится доступной на рынке, была отменена;
+* **Ордер GTD** \(Действителен до даты\) будет продолжать работать в системе и на рынке до тех пор, пока он не будет выполнен или до закрытия рынка в указанную дату.
 
 ![The list of TIF conditions](../../.gitbook/assets/tif-types.png)
 
