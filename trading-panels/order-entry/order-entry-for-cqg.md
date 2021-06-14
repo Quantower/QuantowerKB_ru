@@ -10,28 +10,28 @@
 
 ![](../../.gitbook/assets/vvod-ordera-cqg.png)
 
-## CQG OrderTypes, Time in Force \(TIF\), Algorithmic in Quantower
+## Типы заказов CQG, время действия \(TIF\), алгоритм в Quantower
 
-CQG provides various order types for trading via the Order Entry panel:
+CQG предоставляет различные типы ордеров для торговли через панель ввода ордеров:
 
-* Market order
-* Limit order
-* Stop order
-* Stop limit order
+* Рыночный порядок
+* Лимитный ордер
+* Стоп-ордер
+* Стоп-лимитный ордер
 
-![Order types in Quantower for CQG connection](../../.gitbook/assets/image%20%28218%29.png)
+![&#x422;&#x438;&#x43F;&#x44B; &#x43E;&#x440;&#x434;&#x435;&#x440;&#x43E;&#x432; &#x432; Quantower &#x434;&#x43B;&#x44F; &#x43F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x43A; CQG](../../.gitbook/assets/image%20%28218%29.png)
 
-**Time-in-force \(TIF\)** instructions define the length of time over which an order will continue working before it is canceled. CQG provides various TIFs:
+**Праметры Time-in-Force \(TIF\)** определяют продолжительность времени, в течение которого ордер будет продолжать работать, прежде чем он будет отменен. CQG предоставляет различные TIF:
 
-![Time in Force \(TIFs\) for CQG connection](../../.gitbook/assets/image%20%28217%29.png)
+![&#x412;&#x440;&#x435;&#x43C;&#x44F; &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x44F; \(TIF\) &#x434;&#x43B;&#x44F; &#x43F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x44F; CQG](../../.gitbook/assets/image%20%28217%29.png)
 
-* **GTC \(Good till canceled\)** — orders will remain working until they are canceled by trader or the contract expires;
-* **FOK \(or Fill or Kill\)** —  order will be canceled if it is not executed in the entire volume as soon as it becomes available;
-* **IOC \(Immediate or cancel\)** — requires that any portion of an order that is not filled as soon as it becomes available in the market is canceled;
-* **DAY** — order will be canceled if it is not executed within the current trading day;
-* **GTD \(Good till date\)** — order will remain working within the system and in the marketplace, until it executes or until the close of the market on the date specified.
-* **GTT \(Good till time\)** — order that remains open until a specified time. At that time, any unfilled lots are canceled.
-* **FAK** \(**Fill and Kill\)** — _\*\*_orders require that any remaining quantity after a partial fill be canceled.
-* **ATC \(At the Close Order\)** — order to buy or sell a stock at the closing price. One of the benefits of this type of order is that it can be placed prior to the actual end of the trading day requested. This would be the opposite of an at-the-open order.
-* **ATO \(At-The-Open Order\)** — order to buy or sell a stock at the opening price. ATO order is allowed during pre-open sessions \(morning and afternoon\) or even the night before.
+* GTC \(Годен до отмены\) - ордера будут работать до тех пор, пока они не будут отменены трейдером или не истечет срок действия контракта;
+* FOK \(или Fill or Kill\) - ордер будет отменен, если он не будет исполнен в полном объеме, как только он станет доступен;
+* IOC \(Немедленно или отменить\) - требует, чтобы любая часть ордера, которая не была исполнена, как только она становится доступной на рынке, была отменена;
+* ДЕНЬ - ордер будет отменен, если он не будет исполнен в течение текущего торгового дня;
+* GTD \(Действителен до даты\) - ордер будет продолжать работать в системе и на торговой площадке до тех пор, пока он не исполнится или до закрытия рынка в указанную дату.
+* GTT \(Действителен до времени\) - ордер, который остается открытым до указанного времени. В это время все невыполненные лоты аннулируются.
+* FAK \(Fill and Kill\) - заказы требуют отмены любого количества, оставшегося после частичного заполнения.
+* ATC \(At the Close Order\) - приказ на покупку или продажу акции по цене закрытия. Одним из преимуществ этого типа ордера является то, что его можно разместить до фактического окончания запрошенного торгового дня. Это было бы противоположностью открытого ордера.
+* ATO \(At-The-Open Order\) - приказ на покупку или продажу акции по цене открытия. Заказ АТО разрешен во время предоткрытых сессий \(утром и днем\) или даже накануне вечером.
 
