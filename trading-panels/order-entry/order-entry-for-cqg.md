@@ -1,14 +1,14 @@
-# Order Entry for CQG
+# Ввод ордера для CQG
 
-The general view of the Order Entry panel for CQG connection is as follows, and is divided into the following categories:
+Общий вид панели ввода заказов для подключения CQG выглядит следующим образом и разделен на следующие категории:
 
-* Account and symbol selection
-* Order side and its quantity
-* Order parameters — type, TIF, price, Algorithmic settings
-* Brackets mode for Stop Loss & Take Profit. Multi-Brackets
-* Order placing strategies
+* Выбор счета и символа
+* Направление ордера и его количество
+* Параметры ордера - тип, TIF, цена, алгоритмические настройки
+* Режим для стоп-лосса и тейк-профита. Мульти-кронштейны
+* Стратегии размещения заказов
 
-![](../../.gitbook/assets/image%20%28219%29.png)
+![](../../.gitbook/assets/vvod-ordera-cqg.png)
 
 ## CQG OrderTypes, Time in Force \(TIF\), Algorithmic in Quantower
 
