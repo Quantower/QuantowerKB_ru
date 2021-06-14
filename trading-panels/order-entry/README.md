@@ -72,32 +72,32 @@ description: >-
 * **IOC** \(Немедленно или отменить\) требует, чтобы любая часть ордера, которая не была исполнена, как только она становится доступной на рынке, была отменена;
 * **Ордер GTD** \(Действителен до даты\) будет продолжать работать в системе и на рынке до тех пор, пока он не будет выполнен или до закрытия рынка в указанную дату.
 
-![The list of TIF conditions](../../.gitbook/assets/tif-types.png)
+![&#x421;&#x43F;&#x438;&#x441;&#x43E;&#x43A; &#x443;&#x441;&#x43B;&#x43E;&#x432;&#x438;&#x439; TIF](../../.gitbook/assets/tif-types.png)
 
 {% hint style="info" %}
-The TIF list can be different depends on connection, order type or instrument type!
+Список TIF может быть разным в зависимости от подключения, типа заказа или типа инструмента!
 {% endhint %}
 
 ## Защита ордера
 
 Чтобы защитить позицию от значительного убытка, вы можете использовать ордера **Stop Loss**. Для этого активируйте флажок **«Stop Loss»** и укажите цену, по которой ордер будет закрыт.
 
-Once the position becomes profitable, you can change the Stop Loss price to a break-even level. To automate this process, **Trailing Stop** was created. This tool is especially useful when price changes strongly in the same direction or when it is impossible to watch the market continuously for some reason.
+Как только позиция станет прибыльной, вы можете изменить цену Stop Loss до уровня безубыточности. Для автоматизации этого процесса был создан трейлинг-стоп. Этот инструмент особенно полезен, когда цена сильно меняется в одном направлении или когда по какой-то причине невозможно постоянно наблюдать за рынком.
 
-![Activation of Trailing stop](../../.gitbook/assets/trailing-stop-order.png)
+![&#x410;&#x43A;&#x442;&#x438;&#x432;&#x430;&#x446;&#x438;&#x44F; &#x442;&#x440;&#x435;&#x439;&#x43B;&#x438;&#x43D;&#x433;-&#x441;&#x442;&#x43E;&#x43F;&#x430;](../../.gitbook/assets/trailing-stop-order.png)
 
-To gain profit, you can use the **Take Profit** order, which will automatically close the position at the specified price. To do this, activate the "_**Take Profit**_" checkbox and specify the price at which the order will be closed.
+Для получения прибыли можно использовать ордер **Take Profit**, который автоматически закроет позицию по указанной цене. Для этого активируйте флажок «**Take Profit»** и укажите цену, по которой ордер будет закрыт.
 
 {% hint style="info" %}
-Stop Loss order can be set:
+**Стоп-лосс ордер** можно установить:
 
-* for Long positions below the current price
-* for Short positions above the current price
+* для длинных позиций ниже текущей цены
+* для коротких позиций выше текущей цены
 
-Take Profit order can be set:
+**Ордер Take Profit** можно установить:
 
-* for Long positions above the current price
-* for Short positions below the current price
+* для длинных позиций выше текущей цены
+* для коротких позиций ниже текущей цены
 {% endhint %}
 
 ## Подтверждение заказа
