@@ -132,7 +132,7 @@
   * [TPO Profile Chart](analytics-panels/tpo-chart.md)
 * [Торговые панели](trading-panels/README.md)
   * [Ввод крипто-ордера](trading-panels/crypto-order-entry.md)
-  * [Multiple Order Entry](trading-panels/multiple-order-entry.md)
+  * [Ввод мульти-ордеров](trading-panels/multiple-order-entry.md)
   * [Order Entry](trading-panels/order-entry/README.md)
     * [Order Entry for CQG](trading-panels/order-entry/order-entry-for-cqg.md)
     * [Order Types](trading-panels/order-entry/order-types.md)

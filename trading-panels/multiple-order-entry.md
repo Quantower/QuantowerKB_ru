@@ -1,16 +1,16 @@
 ---
 description: >-
-  New powerful panel for creating a list of predefined orders, which can be sent
-  either individually or as a whole list
+  Новая мощная панель для создания списка предопределенных заказов, который
+  можно отправлять как по отдельности, так и целым списком
 ---
 
-# Multiple Order Entry
+# Ввод мульти-ордеров
 
-Multiple Order Entry allows creating a predefined list of orders for different symbols, accounts, connections, combine them into groups, modify their parameters, and most importantly, place them to the market.
+Панель ввода мульти-ордеров позволяет создавать заранее определенный список ордеров для разных символов, счетов, подключений, объединять их в группы, изменять их параметры и, самое главное, размещать их на рынке.
 
-{% embed url="https://youtu.be/h7QpoCEvVQw" caption="A brief description of Multiple Order Entry panel and its functionality" %}
+{% embed url="https://youtu.be/h7QpoCEvVQw" caption="Краткое описание панели ввода мульти-ордеров и ее функциональности" %}
 
-To open a new Multiple Order Entry panel, go to the _**Main menu**_ \(Logo icon\) and select _**Multiple Order Entry \(MOE\)**_ in the Trading section.
+Чтобы открыть новую панель ввода множественных ордеров, перейдите в главное меню \(значок с логотипом\) и выберите «Несколько входов» \(MOE\) в разделе «Торговля».
 
-![Open Multiple Order Entry panel via Main menu](../.gitbook/assets/multipleoe.png)
+![](../.gitbook/assets/menyu-panel-neskolko-vkhodov.png)
 
