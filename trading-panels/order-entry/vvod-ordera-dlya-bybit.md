@@ -16,7 +16,7 @@ description: Отличия и особенности панели ввода о
 
 Панель инструментов [**быстрой торговли с графика**](https://help.quantower.com.ru/analytics-panels/chart/chart-trading) **Bybit**  можно открыть, как указано на рисунке ниже:
 
-![](../../.gitbook/assets/bybit-panel-vvoda-ordera.png)
+![](../../.gitbook/assets/panel-oredra-baibit.png)
 
 ###  **Общий вид панели ввода** заказов
 
