@@ -45,46 +45,46 @@ DOM Трейдер позволяет отправлять торговые пр
 
 {% embed url="https://www.youtube.com/watch?v=8a19rPvy2nQ" caption="Панель DOM Трейдер в Quantower" %}
 
-## DOM Trader settings
+## Как настроить Панель DOM Трейдер
 
-Additional settings of the DOM Trader allow you to customize the general view for convenient display of data and the panel in general. To open DOM Trader settings, click on the Menu button on the left upper corner and select Settings item.
+Дополнительные настройки DOM Trader позволяют настроить общий вид для удобного отображения данных и панели в целом. Чтобы открыть настройки DOM Trader, нажмите кнопку «Меню» в левом верхнем углу и выберите пункт «Настройки».
 
-The general view of DOM Trader settings menu has the following subsections. Let's take a closer look at them:
+Общий вид меню настроек DOM Trader состоит из следующих подразделов. Рассмотрим их подробнее:
 
-* **View**
-* **Columns**
-* **Order Entry**
-* **Positions Bar**
-* **Hotkeys**
+* Вид
+* Столбцы
+* Ввод ордера
+* Панель позиций
+* Горячие клавиши
 
-### View settings
+### Настройка внешнего вида
 
-![](../../.gitbook/assets/image%20%28147%29.png)
+![](../../.gitbook/assets/vneshnii-vid-dum-treider.png)
 
-* **Custom title.** You can rename the DOM Trader panel as you wish.
-* **Refresh rate \(ms\)** controls the rate at which market data is updated. This determines how often the platform processes changes in depth of market. With a value of 1, all changes to the level2 data will be processed immediately. We recommend using value 50. 
-* **Use custom tick size.** 
-* **Short price format**
-* **Split size columns.** A mode that allows you to place Ask and Bid volume on one or different sides of the Size column;
-* **Custom session.** This item is for selecting trading sessions for Volume Analysis data primarily.
-* **Full-size cells.** Color scheme for Size column;
-* **Show order entry.** This option shows/hides an Order Entry on the panel for quick order placement;
-* **Collapse spread.** Hide or show the spread between the current Bid / Ask prices on the price ladder;
-* **Show day map.** Display the upper horizontal scale, which shows the current price position relative to the High and Low of the day;
-* **Show toolbar.**  This option shows/hides the top toolbar with the trading symbol and expands the "useful" area of the panel. It is recommended to use this option with the symbol link.
-* **Show Level 1 bar.** Shows/hides the header pane, which contains Level 1 market data for the selected instrument.
+* **Произвольное название**. Вы можете переименовать панель DOM Trader по своему желанию.
+* **Частота обновления \(мс\)** контролирует скорость обновления рыночных данных. Это определяет, как часто платформа обрабатывает изменения в стакане цен. При значении 1 все изменения данных уровня 2 будут обрабатываться немедленно. Мы рекомендуем использовать значение 50.
+* Использование **пользовательского размера тиков**.
+* **Краткий формат цены**
+* **Индивидуальная сессия**. Этот пункт предназначен для выбора торговых сессий в первую очередь для данных анализа объема.
+* **Цветовая схема ;**
+* **Показать/скрыть  заголовок таблицы ,** расширяет «полезную» область панели. 
+* **Показать/скрыть итоги,** расширяет «полезную» область панели. 
+* **Показать панель инструментов.** Эта опция показывает / скрывает верхнюю панель инструментов с торговым символом и расширяет «полезную» область панели. Рекомендуется использовать эту опцию с символьной ссылкой.
+* **Показать панель уровня 1.** Показывает / скрывает панель заголовка, содержащую рыночные данные уровня 1 для выбранного инструмента.
 
-### Position Bar settings
+### Настройки строки открытых позиций
 
-At the bottom of the DOM Trader is the Position Bar, which displays brief info about an open position on the current trading instrument — the number of contracts, the average open price, current Profit/Loss and Liquidation price.
+Внизу DOM Trader находится строка открытых позиций, которая отображает краткую информацию об открытых позициях по текущему торговому инструменту - количество контрактов, среднюю цену открытия, текущую прибыль / убыток и цену ликвидации.
 
-![Position Bar in DOM trading](../../.gitbook/assets/dom-position-bar1.png)
+![](../../.gitbook/assets/stroka-otkrytykh-pozicii.png)
 
-![Settings of position bar in DOM Trader panel](../../.gitbook/assets/image%20%28145%29.png)
+![&#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x430; &#x441;&#x442;&#x440;&#x43E;&#x43A;&#x438; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x44B;&#x445; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x439;](../../.gitbook/assets/nastroika-stroki-otkrytykh-pozicii.png)
 
-### Hotkeys
+### Горячие клавиши
 
-This tab is for configuring your keyboard shortcuts. Here you can configure the order size with one button and place it to the market. Cancel orders and many other useful functions.
+Эта вкладка предназначена для настройки сочетаний клавиш. Здесь вы можете настроить размер ордера с помощью одной кнопки и выставить его на рынок. Отмена заказов и множество других полезных функций.
 
-![](../../.gitbook/assets/image%20%28146%29.png)
+![](../../.gitbook/assets/goryachie-klavishi-stakan-orderov.png)
+
+
 
