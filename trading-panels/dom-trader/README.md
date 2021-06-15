@@ -1,42 +1,49 @@
 ---
 description: >-
-  DOM Trader panel shows the number of buy and sell orders placed at various
-  price levels around the current price for a particular instrument
+  Панель DOM Трейдер показывает количество ордеров на покупку и продажу,
+  размещенных на различных ценовых уровнях вокруг текущей цены для конкретного
+  инструмента.
 ---
 
-# DOM Trader
+# DOM Трейдер
 
-## General info about DOM Trader
+## Введение в DOM Трейдер
 
-**The Depth of Market** or **DOM Trader** panel shows the number of Buy and Sell orders placed at various price levels around the current price for a particular instrument \(most often for futures\). The more the number of orders is at a certain price level, the higher the interest in this level. The trading functionality of the panel allows you to quickly and efficiently place the required number of orders at the selected price, and also drag-and-drop, change or cancel them.
+**Панель стакана цен** или **DOM Трейдер** показывает количество ордеров на покупку и продажу, размещенных на различных ценовых уровнях вокруг текущей цены для определенного инструмента \(чаще всего для фьючерсов\). Чем больше заказов на определенном уровне цен, тем выше интерес к этому уровню. Торговый функционал панели позволяет быстро и эффективно размещать необходимое количество ордеров по выбранной цене, а также перетаскивать, изменять или отменять их.
 
-![General view of DOM Trader panel](../../.gitbook/assets/dom.png)
+![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; DOM &#x422;&#x440;&#x435;&#x439;&#x434;&#x435;&#x440;](../../.gitbook/assets/dom.png)
 
-## Trading with DOM Trader
+## Как торговать с DOM Трейдер
 
-DOM Trader allows to send trading orders in three ways — **Mouse Trading mode,** **Order Entry and Hotkeys.**
+DOM Трейдер позволяет отправлять торговые приказы тремя способами - режим торговли мышью, ввод ордеров и горячие клавиши.
 
-To place an order via Mouse Trading mode:
+Чтобы разместить ордер в режиме торговли мышью:
 
-* Select an account and order restriction \(TIF\) in the order entry;
-* Enter an order quantity;
-* Left-click at a specific price in the left column will place a Buy Limit order \(below the current market price\);
-* Left-click at specific prices in the right column will place a Sell Limit order \(above the current market price\). If you place the order below the current price it will be executed by market price;
-* _To place a **Stop order**_ is necessary to press and hold down the _**Shift**_ key and click at a required price.
+* Выберите учетную запись и ограничение заказа \(TIF\) в вводе заказа;
 
-![Mouse trading mode in DOM Trader](../../.gitbook/assets/dom-trader-via-mouse.gif)
+  Введите количество заказа;
 
-To place an order via Order Entry:
+* Щелкните левой кнопкой мыши по определенной цене в левом столбце, чтобы разместить лимитный ордер на покупку \(ниже текущей рыночной цены\);
+* Щелкните левой кнопкой мыши по определенным ценам в правом столбце, чтобы разместить лимитный ордер на продажу \(выше текущей рыночной цены\). Если вы разместите ордер ниже текущей цены, он будет исполнен по рыночной цене;
+* Для выставления стоп-приказа необходимо нажать и удерживать клавишу Shift и щелкнуть по нужной цене.
 
-* Select an account and order restriction \(TIF\) in the order entry;
-* Enter an order quantity;
-* Click on the Bid, Ask or Market button to place your order;
-* Set Stop Loss and Take Profit orders \(Bracket Orders\)
-* Confirm your placement by first checking all the parameters.
+![&#x420;&#x435;&#x436;&#x438;&#x43C; &#x442;&#x43E;&#x440;&#x433;&#x43E;&#x432;&#x43B;&#x438; &#x43C;&#x44B;&#x448;&#x44C;&#x44E;](../../.gitbook/assets/dom-trader-via-mouse.gif)
+
+Чтобы разместить заказ через панель Ввод заказов:
+
+* Выберите учетную запись и ограничение заказа \(TIF\) в вводе заказа;
+
+  Введите количество заказа;
+
+  Нажмите кнопку Bid, Ask или Market, чтобы разместить заказ;
+
+  Установите стоп-лосс и тейк-профит \(брекет-ордера\)
+
+  Подтвердите свое размещение, предварительно проверив все параметры.
 
 ![Placing a new position via Order Entry in DOM Trader ](../../.gitbook/assets/oco-dom.gif)
 
-{% embed url="https://www.youtube.com/watch?v=8a19rPvy2nQ" caption="DOM Trader panel in Quantower" %}
+{% embed url="https://www.youtube.com/watch?v=8a19rPvy2nQ" caption="Панель DOM Трейдер в Quantower" %}
 
 ## DOM Trader settings
 
