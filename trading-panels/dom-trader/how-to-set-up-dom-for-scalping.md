@@ -11,11 +11,15 @@ description: В этой статье мы рассмотрим основные
 Этот параметр влияет на то, как часто данные будут обновляться в Dom Трейдер.  
  Вам нужно поэкспериментировать и найти оптимальную настройку для вашего региона.
 
+{% hint style="info" %}
+Слишком частое обновление Dom Трейдер может привести к значительным задержкам в обработке данных, если у вас слабый компьютер.
+{% endhint %}
+
 
 
 ![](../../.gitbook/assets/image%20%28211%29.png)
 
-The essence of scalping is to see **large orders in the stack** and act in the context of the market situation. Let's take a look at how I set up the Dom. And so for that let's go to the column settings and select Bids and Asks. At first I remove the gradient setting it is a little uncomfortable for my eyes. I want to see contrasting volumes. Observe the Dom and choose really **big volumes** and specify that value in the settings
+**Суть скальпинга** - видеть в стакане большие ордера и действовать в контексте рыночной ситуации. Давайте посмотрим, как я настраивал Dom. Итак, для этого переходим в настройки столбца и выбираем Bids and Asks. Сначала убираю настройку градиента, это немного неудобно для моих глаз. Я хочу видеть контрастирующие объемы. Наблюдайте за Домом, выбирайте действительно большие объемы и указывайте это значение в настройках.
 
 ![](../../.gitbook/assets/image%20%28212%29.png)
 
