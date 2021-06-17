@@ -15,6 +15,12 @@ description: В этой статье мы рассмотрим основные
 Слишком частое обновление Dom Трейдер может привести к значительным задержкам в обработке данных, если у вас слабый компьютер.
 {% endhint %}
 
+### Как сделать важные уровни DOM более заметными <a id="how-to-make-more-visible-dom-levels"></a>
+
+![](../../.gitbook/assets/glubina-stakana-treided.gif)
+
+
+
 
 
 ![](../../.gitbook/assets/image%20%28211%29.png)
