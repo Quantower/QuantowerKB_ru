@@ -12,6 +12,7 @@ description: Как оптимизировать работу Quantower на с�
 * \*\*\*\*[**Загрузка объемного анализа**](optimizaciya-quantower-na-slabykh-pk.md#optimizaciya-quantower-na-slabykh-pk)\*\*\*\*
 * \*\*\*\*[**Одновременное открытие нескольких панелей**](optimizaciya-quantower-na-slabykh-pk.md#odnovremennoe-otkrytie-neskolkikh-panelei)\*\*\*\*
 * \*\*\*\*[**DOM Surface уменьшение истории**](optimizaciya-quantower-na-slabykh-pk.md#dom-surface-umenshenie-istorii)\*\*\*\*
+* \*\*\*\*[**Как уменьшить скорость обновления Dom Trader**](optimizaciya-quantower-na-slabykh-pk.md#kak-umenshit-skorost-obnovleniya-dom-trader)\*\*\*\*
 
 ## **Требования к ПК**
 
