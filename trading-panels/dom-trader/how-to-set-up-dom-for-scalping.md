@@ -1,8 +1,17 @@
 ---
-description: In this article we will look at the basic doom settings for scalping
+description: В этой статье мы рассмотрим основные настройки DOM Трейдер  для скальпинга.
 ---
 
-# How to set up Dom  for scalping
+# Как настроить панель DOM Трейдер для скальпинга
+
+## Скорость обновления Dom Trader
+
+![](../../.gitbook/assets/skorost-dum-treider.png)
+
+Этот параметр влияет на то, как часто данные будут обновляться в Dom Трейдер.  
+ Вам нужно поэкспериментировать и найти оптимальную настройку для вашего региона.
+
+
 
 ![](../../.gitbook/assets/image%20%28211%29.png)
 

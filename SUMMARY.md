@@ -138,7 +138,7 @@
     * [Ввод ордера для Bybit](trading-panels/order-entry/vvod-ordera-dlya-bybit.md)
     * [Типы ордеров](trading-panels/order-entry/order-types.md)
   * [DOM Трейдер](trading-panels/dom-trader/README.md)
-    * [How to set up Dom  for scalping](trading-panels/dom-trader/how-to-set-up-dom-for-scalping.md)
+    * [Как настроить панель DOM Трейдер для скальпинга](trading-panels/dom-trader/how-to-set-up-dom-for-scalping.md)
   * [Стакан ордеров](trading-panels/market-depth.md)
   * [Симулятор торговли](trading-panels/trading-simulator.md)
   * [Рыночный повтор](trading-panels/history-player.md)
