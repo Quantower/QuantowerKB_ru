@@ -52,27 +52,27 @@ description: >-
 
 ### Общие действия
 
-| **Group by** | Groups all rows by the selected column |
+| Сгруппировать по | Группирует все строки по выбранному столбцу |
 | :--- | :--- |
-| **Columns visibility** | Allows to toggle the columns visibility |
+| Видимость столбцов | Позволяет переключать видимость столбцов |
 
-## Hot buttons toolbar
+## Панель инструментов горячих кнопок
 
-In order to manage your orders efficiently, there is a Hot buttons toolbar in Working orders panel. It allows trader to perform the most crucial actions with each, several or all available order in one click.
+Чтобы эффективно управлять вашими заказами, на панели Рабочие заказы есть панель горячих кнопок. Это позволяет трейдеру выполнять наиболее важные действия с каждым, несколькими или всеми доступными ордерами в один клик.
 
 {% hint style="danger" %}
-Depending on the panel settings, hot buttons can proceed without confirmation screen. Please be careful while using them.
+В зависимости от настроек панели горячие кнопки могут работать без экрана подтверждения. Будьте осторожны при их использовании.
 {% endhint %}
 
-### Hot buttons list
+Список горячих кнопок
 
-| **Cancel all** | Cancel all orders |
+| Отменить все | Cancel all orders |
 | :--- | :--- |
-| **Cancel buy** | Cancel all buy orders |
-| **Cancel sell** | Cancel all sell orders |
-| **Cancel limits** | Cancel all limit orders |
-| **Cancel stops** | Cancel all stop orders |
-| **Cancel days** | Cancel all orders with TIF Day |
+| Отменить ордера на покупку | Cancel all buy orders |
+| Отменить ордера на продажу | Cancel all sell orders |
+| Отменить все лимитные ордера | Cancel all limit orders |
+| Отменить все стоп ордера | Cancel all stop orders |
+| Отменить ордера TIF -  Day | Отмените все заказы с  TIF -  Day |
 | **Cancel GTCs** | Cancel all orders with TIF GTC |
 | **Cancel selected** | Cancel all selected orders |
 | **Cancel &lt;Symbol&gt;** | Cancel all orders by selected Symbol |
