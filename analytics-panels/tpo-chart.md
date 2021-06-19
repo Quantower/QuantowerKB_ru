@@ -79,7 +79,7 @@ TPO profiles are used on their own to find areas of support and resistance, and 
 
 ![Add Volume Profiles on TPO Profile Chart](../.gitbook/assets/volume-analysis-tpo.gif)
 
-Switch Volume Profile between [**different data types**](chart/volume-analysis-tools/#data-types-of-volume-analysis-tools), such as delta, buy&sell, trades, volume, etc.
+Switch Volume Profile between [**different data types**](volume-analysis-tools/#data-types-of-volume-analysis-tools), such as delta, buy&sell, trades, volume, etc.
 
 ## Splitting & Merging of TPO Profile Chart
 

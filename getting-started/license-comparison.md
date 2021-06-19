@@ -338,7 +338,7 @@ Licenses that are marked with the symbol **\(\*\)** can be purchased separately.
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../analytics-panels/chart/volume-analysis-tools/cluster-chart.md">Cluster chart (Footprint)</a>
+      <td style="text-align:left"><a href="../analytics-panels/volume-analysis-tools/cluster-chart.md">Cluster chart (Footprint)</a>
       </td>
       <td style="text-align:left">&#x2716;</td>
       <td style="text-align:left">&#x2714;</td>
@@ -354,9 +354,9 @@ Licenses that are marked with the symbol **\(\*\)** can be purchased separately.
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><a href="../analytics-panels/chart/volume-analysis-tools/volume-profiles.md">All types of Volume Profiles</a>
+        <p><a href="../analytics-panels/volume-analysis-tools/volume-profiles.md">All types of Volume Profiles</a>
         </p>
-        <p><a href="../analytics-panels/chart/volume-analysis-tools/volume-profiles.md">(Right, Left, Custom, Step)</a>
+        <p><a href="../analytics-panels/volume-analysis-tools/volume-profiles.md">(Right, Left, Custom, Step)</a>
         </p>
       </td>
       <td style="text-align:left">&#x2716;</td>
@@ -365,7 +365,7 @@ Licenses that are marked with the symbol **\(\*\)** can be purchased separately.
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../analytics-panels/chart/volume-analysis-tools/time-statistics.md">Time Statistics</a>
+      <td style="text-align:left"><a href="../analytics-panels/volume-analysis-tools/time-statistics.md">Time Statistics</a>
       </td>
       <td style="text-align:left">&#x2716;</td>
       <td style="text-align:left">&#x2714;</td>
@@ -373,7 +373,7 @@ Licenses that are marked with the symbol **\(\*\)** can be purchased separately.
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../analytics-panels/chart/volume-analysis-tools/time-histogram.md">Time Histogram</a>
+      <td style="text-align:left"><a href="../analytics-panels/volume-analysis-tools/time-histogram.md">Time Histogram</a>
       </td>
       <td style="text-align:left">&#x2716;</td>
       <td style="text-align:left">&#x2714;</td>
