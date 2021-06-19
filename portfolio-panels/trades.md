@@ -2,43 +2,43 @@
 description: Панель сделок отображает вашу торговую историю
 ---
 
-# Trades
+# Сделки
 
-Панель «Сделки» связана с группой «Портфель» боковой панели Центра управления.
+Панель «Сделки» связана с группой «Портфолио панели» боковой панели Центра управления.
 
-![The common look of Trades panel](../.gitbook/assets/trades.png)
+![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x441;&#x434;&#x435;&#x43B;&#x43E;&#x43A;](../.gitbook/assets/trades.png)
 
-## Available columns
+## Доступные столбцы
 
-| **Account** | login name of an account that made a trade |
+| Счет | логин учетной записи, на которой была сделана сделка |
 | :--- | :--- |
-| **Date/Time** | Date and time when a trade was made |
-| **Symbol** | A traded symbol |
-| **Description** | Comments for symbol |
-| **Symbol type** | A symbol's market category \(CFD, spot, stocks, etc.\) |
-| **Expiration date** | Date of contract expiration |
-| **Strike price** | Price of option contract performance |
-| **Side** | Type of trade \(BUY or SELL\) |
-| **Order type** |  |
-| **Quantity** | Amount of a trade, either in lots or in units, depending on what is selected in the Settings dialog box |
-| **Price** | Price at which a trade was filled |
-| **Gross P/L** | Profit/loss in account currency, calculated on base of price difference |
-| **Fee** | Shows total commission amount taken for a trade |
-| **Net P/L** | Profit/loss for a trade excluding fee |
-| **Trade value** |  |
-| **Trade ID** | A unique number that the trading system assigns to each trade |
-| **Order ID** | A unique number that the trading system assigns to each order |
-| **Connection name** |  |
+| Дата / время | Дата и время совершения сделки |
+| Символ | Торговый символ |
+| Описание | Комментарии к символу |
+| Тип символа | Категория рынка символа \(CFD, спот, акции и т. Д.\) |
+| Дата окончания срока | Дата истечения контракта |
+| Цена исполнения | Цена исполнения  контракта |
+| Тип сделки | Тип сделки \(ПОКУПКА или ПРОДАЖА\) |
+| Тип ордера |  |
+| Сумма сделки, ед. | Сумма сделки в лотах или единицах, в зависимости от того, что выбрано в диалоговом окне «Настройки». |
+| Цена | Цена, по которой была совершена сделка |
+| Валовая прибыль / убыток | Прибыль / убыток в валюте счета, рассчитывается исходя из разницы в цене |
+| Комиссии | Показывает общую сумму комиссии, взятой за сделку |
+| Чистая прибыль / убыток | Прибыль / убыток по сделке без учета комиссии |
+| Сумма сделки |  |
+| ID сделки | Уникальный номер, который торговая система присваивает каждой сделке. |
+| ID ордера | Уникальный номер, который торговая система присваивает каждому ордеру. |
+| Название соединения |  |
 
-## Context menu actions
+## Действия в контекстном меню
 
-By right-clicking on each row of Trades panel, you will get a context menu with the following functions:
+Щелкнув правой кнопкой мыши на каждой строке панели сделок, вы получите контекстное меню со следующими функциями:
 
-![Context functions](../.gitbook/assets/tradescontextmenu.png)
+![&#x424;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x438; &#x43A;&#x43E;&#x43D;&#x442;&#x435;&#x43A;&#x441;&#x442;&#x43D;&#x43E;&#x433;&#x43E; &#x43C;&#x435;&#x43D;&#x44E;](../.gitbook/assets/tradescontextmenu.png)
 
-### Common actions
+### Общие действия
 
-| **Group by** | Groups all rows by the selected column |
+| **Группировать по** | Группирует все строки по выбранному столбцу |
 | :--- | :--- |
-| **Columns visibility** | Allows to toggle the columns visibility |
+| Видимость столбцов | Позволяет переключать видимость столбцов |
 
