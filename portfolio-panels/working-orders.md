@@ -66,24 +66,24 @@ description: >-
 
 Список горячих кнопок
 
-| Отменить все | Cancel all orders |
+| Отменить все | Отменить все ордера |
 | :--- | :--- |
-| Отменить ордера на покупку | Cancel all buy orders |
-| Отменить ордера на продажу | Cancel all sell orders |
-| Отменить все лимитные ордера | Cancel all limit orders |
-| Отменить все стоп ордера | Cancel all stop orders |
+| Отменить ордера на покупку | Отменить все открытые ордера на покупку |
+| Отменить ордера на продажу | Отменить все открытые ордера на продажу |
+| Отменить все лимитные ордера | Отменить все лимитные ордера |
+| Отменить все стоп приказы | Отменить все стоп-приказы |
 | Отменить ордера TIF -  Day | Отмените все заказы с  TIF -  Day |
-| **Cancel GTCs** | Cancel all orders with TIF GTC |
-| **Cancel selected** | Cancel all selected orders |
-| **Cancel &lt;Symbol&gt;** | Cancel all orders by selected Symbol |
-| **Modify order** | Show Modify order screen for selected orders |
-| **Change to Market** | Change order type to Market for selected orders |
+| Отменить ордера TIF GTC | Отменить все заказы с  TIF GTC |
+| Отменить выбранные |  |
+| Отменить все по символу | Отменить все заявки по выбранному символу |
+| Показать изменения | Показать экран изменения заказа для выбранных заказов |
+| Изменить на "маркет" | Изменить тип ордера на "маркет" для выбранных ордеров |
 
-### Hot buttons visibility
+### Видимость горячих кнопок
 
-By default, not all of the available Hot buttons are displayed on Working orders panel's toolbar. You can manage visibility of that buttons using the context menu: right-click with your mouse and toggle the desired buttons.
+По умолчанию не все доступные горячие кнопки отображаются на панели инструментов панели «Рабочие ордера». Вы можете управлять видимостью этих кнопок с помощью контекстного меню: щелкните правой кнопкой мыши и переключите нужные кнопки.
 
 {% hint style="info" %}
-Hot buttons are situated on panel's toolbar, so become unavailable once you disable toolbar for specific panel in panel's settings.
+Горячие кнопки расположены на панели инструментов панели, поэтому становятся недоступными после отключения панели инструментов для определенной панели в настройках панели.
 {% endhint %}
 
