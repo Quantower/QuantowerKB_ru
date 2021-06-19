@@ -1,23 +1,25 @@
 ---
-description: Working orders panel displays all currently placed orders.
+description: >-
+  На панели «Рабочие ордера» отображаются все размещенные на данный момент
+  заказы.
 ---
 
-# Working Orders
+# Рабочие ордера
 
-Once you places a new order, it appears in this panel and becomes available to be managed. Working orders panel is related to Portfolio group of Control Center sidebar.
+Как только вы разместите новый ордер, он появится на этой панели и станет доступным для управления. Панель рабочих заказов связана с группой Портфолио боковой панели Центра управления.
 
-![The common look of Working Orders panel](../.gitbook/assets/workingorders.png)
+![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#xAB;&#x420;&#x430;&#x431;&#x43E;&#x447;&#x438;&#x435; &#x43E;&#x440;&#x434;&#x435;&#x440;&#x430;&#xBB;](../.gitbook/assets/workingorders.png)
 
-## Available columns
+## Доступные столбцы
 
-| **Account** | Login name of an account that placed order |
+| Счет | Имя для входа в аккаунт, в котором размещен ордер |
 | :--- | :--- |
-| **Symbol** | A traded symbol |
-| **Description** | Comments for symbol |
-| **Symbol type** | A symbol's market category \(CFD, spot, stocks, etc.\) |
-| **Expiration date** | Date of contract expiration |
-| **Strike price** | Price of option contract performance |
-| **Side** | Type of trade \(BUY or SELL\) |
+| Символ | Торговый символ |
+| Описание | Комментарии к символу |
+| Тип символа | A symbol's market category \(CFD, spot, stocks, etc.\) |
+| Дата окончания  | Date of contract expiration |
+| Цена исполнения | Price of option contract performance |
+| **Тип сделки** | Type of trade \(BUY or SELL\) |
 | **Order type** | Type of order |
 | **Quantity** | Amount of a order, either in lots or in units, depending on what is selected in the Settings dialog box |
 | **Qty. filled** | Executed quantity of the order, in case of partial filling |

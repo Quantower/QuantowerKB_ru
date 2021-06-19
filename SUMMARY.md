@@ -145,7 +145,7 @@
   * [Ячейка FX](trading-panels/fx-cell.md)
 * [Портфолио панели](portfolio-panels/README.md)
   * [Позиции](portfolio-panels/positions.md)
-  * [Working Orders](portfolio-panels/working-orders.md)
+  * [Рабочие ордера](portfolio-panels/working-orders.md)
   * [Trades](portfolio-panels/trades.md)
   * [Orders History](portfolio-panels/orders-history.md)
   * [Synthetic Symbols](portfolio-panels/synthetic-symbols.md)
