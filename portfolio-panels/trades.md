@@ -1,10 +1,10 @@
 ---
-description: Trades panel displays your trading history
+description: Панель сделок отображает вашу торговую историю
 ---
 
 # Trades
 
-Trades panel is related to Portfolio group of Control Center sidebar.
+Панель «Сделки» связана с группой «Портфель» боковой панели Центра управления.
 
 ![The common look of Trades panel](../.gitbook/assets/trades.png)
 
