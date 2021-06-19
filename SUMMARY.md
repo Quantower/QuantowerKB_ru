@@ -144,7 +144,7 @@
   * [Рыночный повтор](trading-panels/history-player.md)
   * [Ячейка FX](trading-panels/fx-cell.md)
 * [Портфолио панели](portfolio-panels/README.md)
-  * [Открытые позиции](portfolio-panels/positions.md)
+  * [Позиции](portfolio-panels/positions.md)
   * [Working Orders](portfolio-panels/working-orders.md)
   * [Trades](portfolio-panels/trades.md)
   * [Orders History](portfolio-panels/orders-history.md)
