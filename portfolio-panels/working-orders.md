@@ -16,41 +16,41 @@ description: >-
 | :--- | :--- |
 | Символ | Торговый символ |
 | Описание | Комментарии к символу |
-| Тип символа | A symbol's market category \(CFD, spot, stocks, etc.\) |
-| Дата окончания  | Date of contract expiration |
-| Цена исполнения | Price of option contract performance |
-| **Тип сделки** | Type of trade \(BUY or SELL\) |
-| **Order type** | Type of order |
-| **Quantity** | Amount of a order, either in lots or in units, depending on what is selected in the Settings dialog box |
-| **Qty. filled** | Executed quantity of the order, in case of partial filling |
-| **Qty. remaining** | Difference between quantity and executed quantity, in case of partial filling |
-| **Price** | Price at which the order is to be executed. |
-| **Trigger price** |  |
-| **TIF** | The order's time in force |
-| **Status** | Order status |
-| **Current price** | Current market price for order's symbol |
-| **Stop loss** | Stop loss price set for a order |
-| **Take profit** | Take profit price set for a order |
-| **Date/Time** | Date and time when a order was placed |
-| **Order ID** | A unique number that the trading system assigns to each order |
-| **Order group ID** |  |
-| **Connection name** |  |
+| Тип символа | Категория рынка символа \(CFD, спот, акции и т. Д.\) |
+| Дата окончания  | Дата истечения контракта |
+| Цена исполнения | Цена исполнения  контракта |
+| Тип сделки | Тип сделки \(ПОКУПКА или ПРОДАЖА\) |
+| Тип ордера | Тип ордера |
+| Объем ордера | Объем ордера в лотах или единицах, в зависимости от того, что выбрано в диалоговом окне «Настройки». |
+| Объем ордера исполненный | Выполненное количество заказа, при частичном исполнении |
+| Объем ордера оставшийся | Разница между общим объемом ордера и исполненным |
+| Цена | Цена, по которой будет исполнен заказ. |
+| Триггер цена | Триггер цена, при достижении которой выставляется стоп лосс или тейк профит |
+| TIF | Срок действия ордера |
+| Статус | Статус ордера |
+| Текущая цена | Текущая рыночная цена на символ ордера |
+| Стоп лосс | Цена стоп-лосса, установленная для ордера |
+| Тейк профит | Цена тейк-профита, установленная для ордера |
+| Дата / время | Дата и время размещения заказа |
+| ID ордера | A unique number that the trading system assigns to each order |
+| ID группы ордеров |  |
+| Название соединения |  |
 
-## Context menu actions
+### Действия в контекстном меню
 
-By right-clicking on each row of Working orders panel, you will get a context menu with the following functions:
+Щелкнув правой кнопкой мыши на каждой строке панели «Рабочие ордера», ​​вы получите контекстное меню со следующими функциями:
 
-![Context functions](../.gitbook/assets/workingordersconextmenuselected.png)
+![&#x424;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x438; &#x43A;&#x43E;&#x43D;&#x442;&#x435;&#x43A;&#x441;&#x442;&#x430;](../.gitbook/assets/workingordersconextmenuselected.png)
 
-### Selected order\(s\) actions
+### Действия по выбранным ордерам
 
-| **Modify order** | Invokes the modification screen, allowing to modify orders parameters |
+| Изменить порядок | Вызывает экран модификации, позволяющий изменять параметры ордеров |
 | :--- | :--- |
-| **Quick SL/TP** | Allows quick adding SL/TP orders to selected orders |
-| **Change to Market** | Change order type to Market for selected orders |
-| **Cancel order** | Allows canceling all selected orders, all orders by selected symbol, all orders by selected account, all orders |
+| Быстрый SL / TP | Позволяет быстро добавлять ордера SL / TP к выбранным ордерам |
+| Изменить на "маркет" | Изменить тип ордера на "Маркет" для выбранных ордеров |
+| Отменить ордер | Позволяет отменить все выбранные ордера, все ордера по выбранному символу, все ордера по выбранной учетной записи, все ордера |
 
-### Common actions
+### Общие действия
 
 | **Group by** | Groups all rows by the selected column |
 | :--- | :--- |
