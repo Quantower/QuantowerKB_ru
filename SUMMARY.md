@@ -152,7 +152,7 @@
   * [Исторические символы](portfolio-panels/historical-symbols.md)
 * [Информационные панели](informational-panels/README.md)
   * [Информация о счете](informational-panels/account-info.md)
-  * [Crypto balances](informational-panels/crypto-balances.md)
+  * [Крипто-балансы](informational-panels/crypto-balances.md)
   * [Symbol Info](informational-panels/symbol-info.md)
   * [Currencies Exposure](informational-panels/currencies-exposure.md)
   * [Event Log](informational-panels/event-log.md)

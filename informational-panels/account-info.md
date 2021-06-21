@@ -1,16 +1,16 @@
-# Информация о счете
+# Account info
 
-Цель этой панели - показать пользователю всю доступную информацию об учетной записи. Информационная панель учетной записи должна иметь хотя бы одно активное соединение с торговым счетом для отображения данных.
+The purpose of this panel is to show all of the available account information to user. Account info panel is required to have at least one active connection with a trading account to show data about.
 
 ![](../.gitbook/assets/image%20%2894%29.png)
 
-Набор параметров диверсифицируется в зависимости от конкретной учетной записи \(Соединения, биржи, брокера\) и представляет собой общий перечень всех предоставленных поставщиком данных.
+The set of parameters diversify depending on a particular account \(Connection\) and represents the total list of all provided by the vendor data.
 
 {% hint style="success" %}
-Вы можете скрыть панель инструментов, содержащую поле «Поиск учетной записи» \(через Настройки\), если у вас только одно соединение, чтобы сэкономить место.
+You can hide the toolbar containing "Account lookup" field \(via Settings\) in case you have only one connection in order to save some space.
 {% endhint %}
 
-Чтобы открыть новую панель информации об учетной записи, перейдите в Главное меню \(значок с логотипом\) и выберите Информация об учетной записи \(ACC\) в разделе «Информация».
+To open a new Account info panel, go to the _**Main menu**_ \(Logo icon\) and select _**Account info \(ACC\)**_ in the Information section.
 
-![&#x41F;&#x430;&#x43D;&#x435;&#x43B;&#x44C; &#x418;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x446;&#x438;&#x44F; &#x43E; &#x441;&#x447;&#x435;&#x442;&#x435; &#x432; Quantower](../.gitbook/assets/image%20%2895%29.png)
+![Account Info panel in Quantower](../.gitbook/assets/image%20%2895%29.png)
 
