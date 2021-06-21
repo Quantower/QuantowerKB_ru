@@ -10,7 +10,7 @@
   * [Лицензии Quantower](getting-started/quantower-licenses.md)
   * [License Comparison](getting-started/license-comparison.md)
   * [Менеджер резервного копирования и восстановления](getting-started/backup-and-restore-manager.md)
-  * [Сбросить настройки до значений по умолчанию](getting-started/reset-settings-to-default.md)
+  * [Сбросить до значений по умолчанию](getting-started/reset-settings-to-default.md)
   * [Оплата FAQ](getting-started/payment-faq.md)
   * [“Coinpayments” оплата криптовалютой](getting-started/coinpayments-payment.md)
   * [Binance новый аккаунт](getting-started/binance-fresh-account.md)
