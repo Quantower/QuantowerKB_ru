@@ -1,27 +1,27 @@
-# Synthetic Symbols
+# Синтетические символы
 
-## What is Synthetic Symbols
+## Что такое синтетические символы
 
-**Synthetic Symbols** panel allows to create any non-standard instruments \(symbols\) or spreads that you can both trade and use as an indicator of the current market situation or market divergences.
+Панель "синтетические символы" позволяет создавать любые нестандартные инструменты \(символы\) или спреды, которыми вы можете торговать и использовать в качестве индикатора текущей рыночной ситуации или рыночных расхождений.
 
 {% embed url="https://youtu.be/D9MqY-M632U" caption="" %}
 
-Spread trading is a strategy that simultaneously creates a long and short position for different assets, in order to reduce the risk of the entire portfolio. Each side of the spread is called a "Leg", which is necessary to set the weighting factor for, i.e. the number of contracts for buy or sell. A market-neutral position, which does not depend on whether the market will go up or down is obtained with a proper selection of these coefficients.
+Торговля спредом - это стратегия, которая одновременно создает длинную и короткую позицию для разных активов, чтобы снизить риск всего портфеля. **Каждая транзакция в торговле спредом называется «ногой», для которой необходимо установить весовой коэффициент, то есть количество контрактов на покупку или продажу.** Нейтральная к рынку позиция, которая не зависит от того, пойдет ли рынок вверх или вниз, достигается при правильном выборе этих коэффициентов.
 
-![General view of Synthetic Symbols in Quantower platform](../.gitbook/assets/synthetic-symbols.png)
+![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x441;&#x438;&#x43D;&#x442;&#x435;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x445; &#x441;&#x438;&#x43C;&#x432;&#x43E;&#x43B;&#x43E;&#x432; &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435; Quantower](../.gitbook/assets/synthetic-symbols.png)
 
-## How to Create a Custom Spread in Quantower?
+## Как создать пользовательский спред в Quantower?
 
-For example, let's build a spread between different brokers within the same asset and see if there is a difference in prices. This is a classic example of Broker arbitrage.
+Например, давайте построим спред между разными брокерами в рамках одного актива и посмотрим, есть ли разница в ценах. Это классический пример брокерского арбитража.
 
-* Open the Synthetic Symbols panel and click "**Create Synthetic**".
-* Set the name for your spread and select a trading instrument.
-* Click "**Add Leg**" to add another instrument. You can add an unlimited number of instruments by creating new "legs"
-* Set the coefficients for each leg. In our example, we buy 1 lot of AUD/USD from the LMAX broker and sell 1 lot of AUD/USD from the OANDA broker.
-* Click the "**Save**" button to calculate the received spread.
-* Open the Chart panel and select your spread from the list of instruments.
+* Откройте панель «Синтетические символы» и нажмите «Создать синтетик».
+* Задайте название для своего спреда и выберите торговый инструмент.
+* Нажмите «Добавить ногу», чтобы добавить еще один инструмент. Вы можете добавлять неограниченное количество инструментов, создавая новые «ноги».
+* Установите коэффициенты для каждой ноги. В нашем примере мы покупаем 1 лот AUD / USD у брокера LMAX и продаем 1 лот AUD / USD у брокера OANDA.
+* Нажмите кнопку «Сохранить», чтобы рассчитать полученный спред.
+* Откройте панель «График» и выберите свой спред из списка инструментов.
 
-![Spread between different brokers within the same asset &#x2014; AUD/USD](../.gitbook/assets/synthetic-chart-of-aud_usd-beetwen-two-brokers.png)
+![&#x421;&#x43F;&#x440;&#x435;&#x434; &#x43C;&#x435;&#x436;&#x434;&#x443; &#x440;&#x430;&#x437;&#x43D;&#x44B;&#x43C;&#x438; &#x431;&#x440;&#x43E;&#x43A;&#x435;&#x440;&#x430;&#x43C;&#x438; &#x432; &#x440;&#x430;&#x43C;&#x43A;&#x430;&#x445; &#x43E;&#x434;&#x43D;&#x43E;&#x433;&#x43E; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x430; - AUD / USD](../.gitbook/assets/synthetic-chart-of-aud_usd-beetwen-two-brokers.png)
 
-![Spread between WTI and Brent Crude Oil](../.gitbook/assets/spread-between-wti-and-brent-crude-oil.png)
+![&#x421;&#x43F;&#x440;&#x44D;&#x434; &#x43C;&#x435;&#x436;&#x434;&#x443; WTI &#x438; Brent Crude Oil](../.gitbook/assets/spread-between-wti-and-brent-crude-oil.png)
 
