@@ -1,31 +1,31 @@
 ---
 description: >-
-  Order History panel shows you information about your opening and closing
-  orders
+  Панель истории ордеров показывает вам информацию об открытии и закрытии ваших
+  ордеров.
 ---
 
-# Orders History
+# История ордеров
 
-Order History panel is related to Portfolio group of Control Center sidebar.
+Панель «История ордеров» связана с группой «Портфолио» боковой панели Центра управления.
 
-![The common look of Order History panel](../.gitbook/assets/orderhistory.png)
+![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x438;&#x441;&#x442;&#x43E;&#x440;&#x438;&#x438; &#x437;&#x430;&#x43A;&#x430;&#x437;&#x43E;&#x432;](../.gitbook/assets/orderhistory.png)
 
-## Available columns
+## Доступные столбцы
 
-| **Account** | login name of an account that made a trade |
+| Счет | логин учетной записи, на которой была сделана сделка |
 | :--- | :--- |
-| **Symbol** | A traded symbol |
-| **Description** | Comments for symbol |
-| **Symbol type** | A symbol's market category \(CFD, spot, stocks, etc.\) |
-| **Expiration date** | Date of contract expiration |
-| **Strike price** | Price of option contract performance |
-| **Side** | Type of trade \(BUY or SELL\) |
-| **Order type** |  |
-| **Quantity** | Amount of a order, either in lots or in units, depending on what is selected in the Settings dialog box |
-| **Price** | Price at which the order was executed. |
-| **Trigger Price** |  |
-| **TIF** | The order's time in force |
-| **Status** | Order status |
+| Символ | Торговый символ |
+| Описание | Comments for symbol |
+| Тип символа | A symbol's market category \(CFD, spot, stocks, etc.\) |
+| Дата окончания срока | Date of contract expiration |
+| Цена исполнения | Price of option contract performance |
+| Тип сделки  | Тип сделки \(ПОКУПКА или ПРОДАЖА\) |
+| Тип ордера |  |
+| Количество | Сумма ордера в лотах или единицах, в зависимости от того, что выбрано в диалоговом окне «Настройки». |
+| Цена | Цена, по которой был исполнен заказ. |
+| триггер цена |  |
+| TIF | Срок действия приказа |
+| Статус | Order status |
 | **Date/Time** | Date and time when a order was placed |
 | **Order ID** | A unique number that the trading system assigns to each order |
 | **Order group ID** |  |

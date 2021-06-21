@@ -147,7 +147,7 @@
   * [Позиции](portfolio-panels/positions.md)
   * [Рабочие ордера](portfolio-panels/working-orders.md)
   * [Сделки](portfolio-panels/trades.md)
-  * [Orders History](portfolio-panels/orders-history.md)
+  * [История ордеров](portfolio-panels/orders-history.md)
   * [Synthetic Symbols](portfolio-panels/synthetic-symbols.md)
   * [Historical Symbols](portfolio-panels/historical-symbols.md)
 * [Information Panels](informational-panels/README.md)
