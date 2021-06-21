@@ -1,14 +1,14 @@
-# Crypto balances
+# Крипто-балансы
 
 {% hint style="info" %}
-This panel refers to the Crypto-specific panels, meaning that it can be used when the user has at least one active connection with crypto symbols.
+Эта панель относится к панелям, специально созданным для торговли криптовалютами, что означает, что ее можно использовать, когда у пользователя есть хотя бы одно активное соединение с крипто биржами.
 {% endhint %}
 
-Crypto balances panel shows all of your coin balances list. Here you can find info about the amounts per asset: total, available for trading, reserved in opened orders, calculated in BTC, calculated in USD.
+На панели «Крипто-балансы» отображаются все ваши балансы по монетам. Здесь вы можете найти информацию о суммах на актив: общая, доступная для торговли, зарезервированная в открытых ордерах, рассчитанная в BTC, рассчитанная в долларах США.
 
-![Active crypto balances list](../.gitbook/assets/cryptobalances.png)
+![&#x421;&#x43F;&#x438;&#x441;&#x43E;&#x43A; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x44B;&#x445; &#x43A;&#x440;&#x438;&#x43F;&#x442;&#x43E;&#x432;&#x430;&#x43B;&#x44E;&#x442;&#x43D;&#x44B;&#x445; &#x431;&#x430;&#x43B;&#x430;&#x43D;&#x441;&#x43E;&#x432;](../.gitbook/assets/cryptobalances.png)
 
-There is also an info bar with total amounts of your coins in BTC & USD. By default, we hid assets with zero balances, so the list looks more clear, but you can enable the full list via the panel settings \(“Hide zero balances” option\).
+Также есть информационная панель с общим количеством ваших монет в BTC и USD. По умолчанию мы скрываем активы с нулевым балансом, поэтому список выглядит более понятным, но вы можете включить полный список через настройки панели \(опция «Скрыть нулевые балансы»\).
 
-![Open Crypto Balances via the main menu](../.gitbook/assets/image%20%28198%29.png)
+![&#x41E;&#x442;&#x43A;&#x440;&#x43E;&#x439;&#x442;&#x435; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x44C; &#x41A;&#x440;&#x438;&#x43F;&#x442;&#x43E;-&#x431;&#x430;&#x43B;&#x430;&#x43D;&#x441;&#x44B; &#x447;&#x435;&#x440;&#x435;&#x437; &#x433;&#x43B;&#x430;&#x432;&#x43D;&#x43E;&#x435; &#x43C;&#x435;&#x43D;&#x44E;](../.gitbook/assets/image%20%28198%29.png)
 
