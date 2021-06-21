@@ -153,7 +153,7 @@
 * [Информационные панели](informational-panels/README.md)
   * [Информация о счете](informational-panels/account-info.md)
   * [Крипто-балансы](informational-panels/crypto-balances.md)
-  * [Symbol Info](informational-panels/symbol-info.md)
+  * [Информация о символе](informational-panels/symbol-info.md)
   * [Currencies Exposure](informational-panels/currencies-exposure.md)
   * [Event Log](informational-panels/event-log.md)
   * [RSS](informational-panels/rss.md)

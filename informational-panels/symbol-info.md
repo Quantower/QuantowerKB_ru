@@ -1,14 +1,14 @@
-# Symbol Info
+# Информация о символе
 
-This panel shows the detailed information about the selected Symbol. The list of parameters varies depending on Vendor and Symbol type.
+На этой панели отображается подробная информация о выбранном символе. Список параметров варьируется в зависимости от производителя и типа символа.
 
-![Info about AUD/CHF symbol](../.gitbook/assets/symbol_info.png)
+![&#x418;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x446;&#x438;&#x44F; &#x43E; &#x441;&#x438;&#x43C;&#x432;&#x43E;&#x43B;&#x435; AUD / CHF](../.gitbook/assets/symbol_info.png)
 
-You can link this panel with others to synchronize the Symbol select. It works well in bind with Watchlist, Chart, and other Symbol-related panels.
+Вы можете связать эту панель с другими, чтобы синхронизировать выбор символа. Он хорошо работает в привязке к Списку наблюдения, Графику и другим панелям, связанным с символами.
 
 {% hint style="success" %}
-A good practice is to link the Symbol info panel with watchlist and hide the toolbar containing Symbol lookup field. Thus you receive the watchlist with detailed info per each symbol.
+Рекомендуется связать информационную панель символа со списком наблюдения и скрыть панель инструментов, содержащую поле поиска символа. Таким образом, вы получаете список наблюдения с подробной информацией по каждому символу.
 {% endhint %}
 
-![Watchlist &amp; Symbol info bind example](../.gitbook/assets/symbol_watchlist.gif)
+![&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440; &#x43F;&#x440;&#x438;&#x432;&#x44F;&#x437;&#x43A;&#x438; &#x438;&#x43D;&#x444;&#x43E;&#x440;&#x43C;&#x430;&#x446;&#x438;&#x438; &#x43E; &#x441;&#x43F;&#x438;&#x441;&#x43A;&#x435; &#x43D;&#x430;&#x431;&#x43B;&#x44E;&#x434;&#x435;&#x43D;&#x438;&#x44F; &#x438; &#x441;&#x438;&#x43C;&#x432;&#x43E;&#x43B;&#x435;](../.gitbook/assets/symbol_watchlist.gif)
 
