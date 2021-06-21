@@ -61,11 +61,11 @@ description: >-
 | Размер тика | Это минимальное колебание цены выбранного торгового символа. |
 | Имя базовой валюты | Имя базовой валюты для загруженного символа \(USD, EUR, CHF\) |
 | Минимальное изменение базовой валюты | Это минимальное колебание цены выбранного торгового символа в денежном выражении за тик. |
-| **Quoting currency name** | The name of the quoting currency for the loaded symbol \(USD, EUR, CHF\) |
-| **Quoting currency minimum change** | It’s a minimum price fluctuation of quoting currency for the selected trading symbol in money value per tick. |
-| **Quoting type** | Available quoting type - Lot size, Tick cost |
-| **Lot Size** | The minimum available trade size for placing an order. For example, for currencies the standard lot is equal to 100,000 units of the base currency. |
-| **Lot Step** | The minimal step of changing the trading lot. For FX market lot step = 0,01 or less. For futures lot step = 1 |
-| **Min Lot** | The minimum number of lots available for trading |
-| **Max Lot** | The maximum number of lots available for trading |
+| Название котируемой валюты | Название котируемой валюты для загруженного символа \(USD, EUR, CHF\) |
+| минимальное колебание цены котируемой валюты | Это минимальное колебание цены котируемой валюты для выбранного торгового символа в денежной стоимости за тик. |
+| Тип котировки | Доступный тип котировки - Размер лота, Стоимость тика |
+| Размер лота | Минимальный доступный размер сделки для размещения заказа. Например, для валют стандартный лот равен 100 000 единиц базовой валюты. |
+| Шаг лота | Минимальный шаг смены торгового лота. Для валютного рынка шаг лота = 0,01 или меньше. Для фьючерса шаг лота = 1 |
+| **Мин. лот** | Минимальное количество лотов, доступных для торговли |
+| **Макс. лот** | Максимальное количество лотов, доступных для торговли |
 
