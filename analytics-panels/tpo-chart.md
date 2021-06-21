@@ -66,7 +66,7 @@ description: >-
 
 ![](../.gitbook/assets/migrating-poc.gif)
 
-* **Plot Symbol** — show/ hide the standard chart on the TPO Profile chart. Select a **\*\*\[**chart style**\]\(chart/chart-types/\#chart-types-and-styles\)**: **\_**Bar, Candle, Line, Area, Dotted Line, Quantower style\*\*\_.
+* **Plot Symbol** — показать / скрыть стандартный график на графике TPO Profile.  Для режима "показать" выберите список доступных типов графика.
 
 ![](../.gitbook/assets/overlaying-chart.gif)
 
