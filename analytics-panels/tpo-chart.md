@@ -33,8 +33,8 @@ description: >-
 
 На верхней панели инструментов панели TPO графика есть три основных элемента управления:
 
-* [**Aggregation**](tpo-chart.md#aggregation-of-tpo-profile-chart)
-* [**Style**](tpo-chart.md#style-settings-of-tpo-profile-chart)
+* \*\*\*\*[**Агрегирование диаграммы профиля TPO**](tpo-chart.md#agregirovanie-diagrammy-profilya-tpo)\*\*\*\*
+* \*\*\*\*[**Настройки стиля диаграммы профиля TPO**](tpo-chart.md#nastroiki-stilya-diagrammy-profilya-tpo)\*\*\*\*
 * [**Volume Analysis**](tpo-chart.md#volume-analysis)
 
 ### Агрегирование диаграммы профиля TPO
@@ -54,12 +54,15 @@ description: >-
 
 Выберите любую цветовую схему для лучшего представления и анализа профиля TPO, а также включите POC, Value Area, Singles, Standard Chart и т.д.
 
-* **Display** - режим отображения писем профиля TPO - Кубики с границами или Буквы 
+* **Display** - режим отображения писем профиля TPO - Ячейки  или Буквы 
 
-![Display TPO Profile as Filled Boxes or Letters](../.gitbook/assets/display-boxes-or-letters.png)
+![&#x41E;&#x442;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x440;&#x43E;&#x444;&#x438;&#x43B;&#x44F; TPO &#x432; &#x432;&#x438;&#x434;&#x435; &#x437;&#x430;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x43D;&#x44B;&#x445; &#x44F;&#x447;&#x435;&#x439;&#x43A;&#x438; &#x438;&#x43B;&#x438; &#x431;&#x443;&#x43A;&#x432;](../.gitbook/assets/display-boxes-or-letters.png)
 
 * **Coloring Mode —** choose any color scheme for better representation and analysis of the TPO profile. Currently, there are 10 different coloring modes available — **Single Color, Up/Down Profile, Up/Down Bars, Heatmap, Delta Profile, Delta Price, Delta Bars, Volume Profile, Volume Price, Volume Bars**. 
 * **POC типы** — уровень цен наибольшей активности на рынке или объем торгов на графике. Доступны два типа: **Final POC**, показывает единственную строку **Migrating POC**, которая показывает изменение POC в течение торгового дня или выбранной сессии.
+* Цветовая схема — выберите любую цветовую схему для лучшего представления и анализа профиля TPO. В настоящее время доступно 10 различных режимов окраски - один цвет, профиль вверх / вниз, полосы вверх / вниз, тепловая карта, профиль дельты, цена дельты, столбцы дельты, профиль объема, цена объема, столбцы объема.
+
+  POC типы — уровень цен наибольшей активности на рынке или объем торгов на графике. Доступны два типа: Final POC, показывает единственную строку Migrating POC, которая показывает изменение POC в течение торгового дня или выбранной сессии.
 
 ![](../.gitbook/assets/migrating-poc.gif)
 
