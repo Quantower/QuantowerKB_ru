@@ -150,7 +150,7 @@
   * [История ордеров](portfolio-panels/orders-history.md)
   * [Синтетические символы](portfolio-panels/synthetic-symbols.md)
   * [Исторические символы](portfolio-panels/historical-symbols.md)
-* [Information Panels](informational-panels/README.md)
+* [Информационные панели](informational-panels/README.md)
   * [Account info](informational-panels/account-info.md)
   * [Crypto balances](informational-panels/crypto-balances.md)
   * [Symbol Info](informational-panels/symbol-info.md)

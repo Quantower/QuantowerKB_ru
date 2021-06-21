@@ -1,2 +1,2 @@
-# Information Panels
+# Информационные панели
 
