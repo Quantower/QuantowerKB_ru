@@ -16,9 +16,9 @@ description: >-
 | :--- | :--- |
 | Символ | Торговый символ |
 | Описание | Комментарии к символу |
-| Тип символа | A symbol's market category \(CFD, spot, stocks, etc.\) |
-| Дата окончания срока | Date of contract expiration |
-| Цена исполнения | Price of option contract performance |
+| Тип символа | Категория рынка символа \(CFD, спот, акции и т. Д.\) |
+| Дата окончания срока | Дата истечения контракта |
+| Цена исполнения | Цена исполнения опционного контракта |
 | Тип сделки  | Тип сделки \(ПОКУПКА или ПРОДАЖА\) |
 | Тип ордера |  |
 | Количество | Сумма ордера в лотах или единицах, в зависимости от того, что выбрано в диалоговом окне «Настройки». |
@@ -31,15 +31,15 @@ description: >-
 | ID группы ордеров |  |
 | Название соединения |  |
 
-## Context menu actions
+## Действия в контекстном меню
 
-By right-clicking on each row of Order History panel, you will get a context menu with the following functions:
+Щелкнув правой кнопкой мыши на каждой строке панели истории заказов, вы получите контекстное меню со следующими функциями:
 
-![Context functions](../.gitbook/assets/orderhistorycontextmenu.png)
+![&#x424;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x438; &#x43A;&#x43E;&#x43D;&#x442;&#x435;&#x43A;&#x441;&#x442;&#x430;](../.gitbook/assets/orderhistorycontextmenu.png)
 
-### Common actions
+### Общие действия
 
-| **Group by** | Groups all rows by the selected column |
+| Группировать по | Группирует все строки по выбранному столбцу |
 | :--- | :--- |
-| **Columns visibility** | Allows to toggle the columns visibility |
+| Видимость столбцов | Позволяет переключать видимость столбцов |
 
