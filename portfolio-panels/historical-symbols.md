@@ -1,64 +1,66 @@
 ---
 description: >-
-  Historical Symbols panel is designed to import historical data from
-  third-party data providers to Quantower with performing a subsequent technical
-  analysis or backtesting.
+  Панель «Исторические символы» предназначена для импорта исторических данных от
+  сторонних поставщиков данных в Quantower с выполнением последующего
+  технического анализа или тестирования на истории.
 ---
 
-# Historical Symbols
+# Исторические символы
 
-If you need to import trading quotes to Quantower from a third-party data provider for performing a backtest or technical analysis, Historical Symbols will be indispensable in this case. For example, you can download any price data from Quandl, IQFeed, NASDAQ or Yahoo and test your trading idea on them.
+Если вам необходимо импортировать торговые котировки в Quantower от стороннего поставщика данных для выполнения бэктестирования или технического анализа, в этом случае незаменимы исторические символы. Например, вы можете загрузить любые данные о ценах с Quandl, IQFeed, NASDAQ или Yahoo и протестировать на них свою торговую идею.
 
-![General view of Historical Symbols panel](../.gitbook/assets/historical-symbols.png)
+![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x418;&#x441;&#x442;&#x43E;&#x440;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x435; &#x441;&#x438;&#x43C;&#x432;&#x43E;&#x43B;&#x44B;](../.gitbook/assets/historical-symbols.png)
 
-Let's take a brief look at how it works.
+Давайте вкратце посмотрим, как это работает.
 
-## How to add a new historical symbol?
+## Как добавить новый исторический символ?
 
-* First, you need to [configure parameters](https://help.quantower.com/portfolio-panels/historical-symbols#symbol-settings) of the symbol that you want to load. If you want to perform backtesting, it is important to correctly set all the parameters - asset class, tick size, etc. You can borrow parameters from an existing symbol.
-* Import historical quotes from a .csv file or from an existing symbol. For example, download the trading history of Crude Oil from Quandl.
+* Во-первых, вам нужно настроить параметры символа, который вы хотите загрузить. Если вы хотите провести бэктестинг, важно правильно установить все параметры - класс актива, размер тика и т. Д. 
+* Вы можете заимствовать параметры из существующего символа.
 
-![Import trading history from file](../.gitbook/assets/historical-symbol-settings-import-from-file.gif)
+  Импортируйте исторические котировки из файла .csv или из существующего символа. Например, загрузите историю торговли сырой нефтью из Quandl.
 
-* Press “Import History” button, select “Import from file” and specify the path to the required file.
-* After you have imported the file, you need to parse it. In the settings, carefully select the Separator, Date / Time format, specify all the necessary columns \(OHLC, Volume\).
+![&#x418;&#x43C;&#x43F;&#x43E;&#x440;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x442;&#x43E;&#x440;&#x433;&#x43E;&#x432;&#x443;&#x44E; &#x438;&#x441;&#x442;&#x43E;&#x440;&#x438;&#x44E; &#x438;&#x437; &#x444;&#x430;&#x439;&#x43B;&#x430;](../.gitbook/assets/historical-symbol-settings-import-from-file.gif)
 
-![Main settings for parsing a file](../.gitbook/assets/settings-for-imported-file%20%281%29.png)
+* Нажмите кнопку **«Импортировать историю»,** выберите «Импортировать из файла» и укажите путь к нужному файлу.
+* После того, как вы импортировали файл, вам нужно его проанализировать. В настройках внимательно выберите Разделитель, Формат даты / времени, укажите все необходимые столбцы \(OHLC, Volume\).
+
+![&#x41E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x44B;&#x435; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438; &#x434;&#x43B;&#x44F; &#x440;&#x430;&#x437;&#x431;&#x43E;&#x440;&#x430; &#x444;&#x430;&#x439;&#x43B;&#x430;](../.gitbook/assets/settings-for-imported-file%20%281%29.png)
 
 {% hint style="success" %}
-You can modify **Date/Time** format manually according to format in the file.
+Вы можете изменить формат даты / времени вручную в соответствии с форматом в файле.
 {% endhint %}
 
-* Select the aggregation \(Tick, Minute, Day\) and the data type \(Ask, Bid, Last\) at the bottom of the table.
-* After the import is completed you can work with this history -  performing a backtesting through History Player or make your technical analysis.
+* Выберите агрегирование \(Tick, Minute, Day\) и тип данных \(Ask, Bid, Last\) внизу таблицы.
+* После завершения импорта вы можете работать с этой историей, выполняя тестирование на истории через History Player или технический анализ.
 
-To view the chart of the imported history right from the Historical Symbols panel, right-click on the data line and open the chart.
+Чтобы просмотреть диаграмму импортированной истории прямо из панели «Исторические символы», щелкните правой кнопкой мыши строку данных и откройте диаграмму.
 
-![Open a chart to check the uploaded history](../.gitbook/assets/historical-symbol-open-chart.png)
+![&#x41E;&#x442;&#x43A;&#x440;&#x43E;&#x439;&#x442;&#x435; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x438;&#x442;&#x44C; &#x437;&#x430;&#x433;&#x440;&#x443;&#x436;&#x435;&#x43D;&#x43D;&#x443;&#x44E; &#x438;&#x441;&#x442;&#x43E;&#x440;&#x438;&#x44E;](../.gitbook/assets/historical-symbol-open-chart.png)
 
 {% hint style="warning" %}
-If the chart does not load, check the selected Data type on the chart. It must match to the loaded history.
+Если диаграмма не загружается, проверьте выбранный тип данных на диаграмме. Он должен соответствовать загруженной истории.
 {% endhint %}
 
-## **How to change or remove a historical symbol?**
+## Как изменить или удалить исторический символ?
 
-To change a trading symbol settings, you need to select the desired symbol and click on the gear icon.
+Чтобы изменить настройки торгового символа, вам нужно выбрать нужный символ и щелкнуть значок шестеренки.
 
-To delete a trading symbol, you need to select the required symbol and click on the trash bin icon. You can also delete only the imported history for the selected symbol. To do this, right-click on the imported data and select _**"Remove selected history"**_.
+Чтобы удалить торговый символ, вам нужно выбрать нужный символ и щелкнуть значок корзины. Вы также можете удалить только импортированную историю для выбранного символа. Для этого щелкните правой кнопкой мыши импортированные данные и выберите «Удалить выбранную историю».
 
-## Symbol settings
+## Настройки символа
 
-To correctly perform the backtesting, you need to configure parameters of the symbol that you want to load. If the requiring history refers to the existing trade symbol in Quantower, then the settings can be simply borrowed by pressing _**“Get from real symbol”**_ button.
+Чтобы правильно провести бэктестинг, вам необходимо настроить параметры символа, который вы хотите загрузить. Если запрашиваемая история относится к существующему торговому символу в Quantower, тогда настройки можно просто заимствовать, нажав кнопку «Получить из реального символа».
 
-![Symbol settings](../.gitbook/assets/historical-symbol-settings-first-step.gif)
+![&#x41D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438; &#x441;&#x438;&#x43C;&#x432;&#x43E;&#x43B;&#x430;](../.gitbook/assets/historical-symbol-settings-first-step.gif)
 
-| **Name** | The name of the loading symbol. It can be a ticker or a name that you understand. |
+| **Имя** | Имя символа загрузки. Это может быть тикер или название, которое вам понятно. |
 | :--- | :--- |
-| **Description** | Brief description of a symbol or its full name |
-| **Asset Class** | Available asset types - Forex, CFD, Equities, Futures, Crypto |
-| **Tick size** | It’s a minimum price fluctuation of the selected trading symbol |
-| **Base currency name** | The name of the base currency for the loaded symbol \(USD, EUR, CHF\) |
-| **Base currency minimum change** | It’s a minimum price fluctuation of the selected trading symbol in money value per tick. |
+| Описание | Краткое описание символа или его полное название |
+| Класс активов | Доступные типы активов - Forex, CFD, Equities, Futures, Crypto. |
+| Размер тика | Это минимальное колебание цены выбранного торгового символа. |
+| Имя базовой валюты | Имя базовой валюты для загруженного символа \(USD, EUR, CHF\) |
+| Минимальное изменение базовой валюты | Это минимальное колебание цены выбранного торгового символа в денежном выражении за тик. |
 | **Quoting currency name** | The name of the quoting currency for the loaded symbol \(USD, EUR, CHF\) |
 | **Quoting currency minimum change** | It’s a minimum price fluctuation of quoting currency for the selected trading symbol in money value per tick. |
 | **Quoting type** | Available quoting type - Lot size, Tick cost |

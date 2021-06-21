@@ -149,7 +149,7 @@
   * [Сделки](portfolio-panels/trades.md)
   * [История ордеров](portfolio-panels/orders-history.md)
   * [Синтетические символы](portfolio-panels/synthetic-symbols.md)
-  * [Historical Symbols](portfolio-panels/historical-symbols.md)
+  * [Исторические символы](portfolio-panels/historical-symbols.md)
 * [Information Panels](informational-panels/README.md)
   * [Account info](informational-panels/account-info.md)
   * [Crypto balances](informational-panels/crypto-balances.md)
