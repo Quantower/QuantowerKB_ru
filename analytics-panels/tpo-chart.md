@@ -1,65 +1,65 @@
 ---
 description: >-
-  See the price distribution during the specified time via the TPO Profile
-  (known as Market Profile®) & understand at which levels the price has spent
-  the most time
+  Просматривайте распределение цен в течение указанного времени через профиль
+  TPO (известный как профиль рынка®) и понимайте, на каких уровнях цена провела
+  больше всего времени.
 ---
 
-# TPO Profile Chart
+# TPO диаграмма
 
 {% embed url="https://youtu.be/BcDCx0tzlRA" caption="" %}
 
-**Time Price Opportunity** or **TPO Chart**, shows the price distribution during the specified time, thus forming a profile. This allows you to understand at which levels or ranges the price has spent the most time, as well as to determine the main support and resistance levels.
+**Time Price Opportunity**  или TPO график показывает распределение цен в течение указанного времени, формируя таким образом профиль. Это позволяет понять, на каких уровнях или диапазонах цена провела больше всего времени, а также определить основные уровни поддержки и сопротивления.
 
-![TPO Profile Chart \(Market Profile\) general view in Quantower platform](../.gitbook/assets/tpo-profile-chart-general-view.png)
+![&#x414;&#x438;&#x430;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x430; &#x43F;&#x440;&#x43E;&#x444;&#x438;&#x43B;&#x44F; TPO \(&#x43F;&#x440;&#x43E;&#x444;&#x438;&#x43B;&#x44C; &#x440;&#x44B;&#x43D;&#x43A;&#x430;\), &#x43E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435; Quantower](../.gitbook/assets/tpo-profile-chart-general-view.png)
 
-To open new TPO panel, go to _**Main menu**_ \(Logo icon\) and select _**TPO Chart**_ in the Analytics section.
+Чтобы открыть новую панель TPO, перейдите в Главное меню \(значок с логотипом\) и выберите «Диаграмма TPO» в разделе «Аналитика».
 
-![Open TPO Chart panel via Main menu](../.gitbook/assets/tpo_start.png)
+![](../.gitbook/assets/menyu-diagramma-tro.png)
 
-### Key Elements of TPO Profile Chart
+### Kлючевые элементы диаграммы профиля TPO
 
-![Main Elements of TPO Profile Chart \(a.k.a. Market Profile\) in Quantower](../.gitbook/assets/tpocontrols.png)
+![&#x41E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x44B;&#x435; &#x44D;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442;&#x44B; &#x434;&#x438;&#x430;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x44B; &#x43F;&#x440;&#x43E;&#x444;&#x438;&#x43B;&#x44F; TPO \(&#x442;&#x430;&#x43A;&#x436;&#x435; &#x438;&#x437;&#x432;&#x435;&#x441;&#x442;&#x43D;&#x43E;&#x433;&#x43E; &#x43A;&#x430;&#x43A; &#x43F;&#x440;&#x43E;&#x444;&#x438;&#x43B;&#x44C; &#x440;&#x44B;&#x43D;&#x43A;&#x430;\) &#x432; Quantower](../.gitbook/assets/tpocontrols.png)
 
-**Point of Control \(POC\)** — price level of the greatest market activity or trading volume. At this level, the price spent most time over the profile range.
+**Point of Control \(POC**\) - ценовой уровень наибольшей рыночной активности или объема торгов. На этом уровне цена большую часть времени проводила в диапазоне профиля.
 
-**Value Area** — price range in which approximately 68% - 70% of the market activity or trading volume took place.
+**Value Area** - ценовой диапазон, в котором происходило примерно 68% - 70% рыночной активности или объема торгов.
 
-**Singles** or **single prints** of the profile are placed in the middle of a profile structure, not at the upper or lower edge. They occur on impulse movements and are used as support/resistance zones, which the price can test in the near future. The singles line indicates where the singles begin to form \(in cases when there are several single prints\).
+**Отдельные или одиночные отпечатки** профиля размещаются в середине конструкции профиля, а не на верхнем или нижнем крае. Они возникают при импульсных движениях и используются как зоны поддержки / сопротивления, которые цена может протестировать в ближайшем будущем. Линия синглов указывает, где начинают формироваться синглы \(в случаях, когда имеется несколько одиночных отпечатков\).
 
-**TPO letters** — basic element of the TPO chart, where each letter corresponds to a specific time \("**Build From**"\).
+**Буквы TPO** - базовый элемент диаграммы TPO, где каждая буква соответствует определенному времени \(«Build From»\).
 
-## Main Controls of TPO Chart
+## Основные элементы управления TPO графика
 
-There are three main controls on the top toolbar of TPO chart panel:
+На верхней панели инструментов панели TPO графика есть три основных элемента управления:
 
-* \*\*\*\*[**Aggregation**](tpo-chart.md#aggregation-of-tpo-profile-chart)\*\*\*\*
-* \*\*\*\*[**Style**](tpo-chart.md#style-settings-of-tpo-profile-chart)\*\*\*\*
-* \*\*\*\*[**Volume Analysis**](tpo-chart.md#volume-analysis)\*\*\*\*
+* [**Aggregation**](tpo-chart.md#aggregation-of-tpo-profile-chart)
+* [**Style**](tpo-chart.md#style-settings-of-tpo-profile-chart)
+* [**Volume Analysis**](tpo-chart.md#volume-analysis)
 
-### Aggregation of TPO Profile Chart
+### Агрегирование диаграммы профиля TPO
 
-The base element of the TPO chart is letters that are used to build the market profile structure. Each letter initially represents a half-hour period. Quantower offers to specify in the aggregation settings any values on the basis of which the profile will be built. For example, a daily profile of 30-minute bars is considered as a “standard”. But you can set a lower value of “**Build From**” and the profile will be more granular. Conversely, set the value higher and the shape of the profile will be smoother.
+Базовым элементом диаграммы TPO являются буквы, которые используются для построения структуры профиля рынка. Каждая буква изначально представляет собой получасовой период. Quantower предлагает указать в настройках агрегирования любые значения, на основе которых будет строиться профиль. Например, дневной профиль из 30-минутных баров считается «стандартным». Но вы можете установить более низкое значение «Построить из», и профиль будет более детальным. И наоборот, установите значение выше, и форма профиля будет более гладкой.
 
 ![](../.gitbook/assets/custom-period.gif)
 
-![TPO Profile can be build with any custom period and base](../.gitbook/assets/screenshot_11.png)
+![&#x41F;&#x440;&#x43E;&#x444;&#x438;&#x43B;&#x44C; TPO &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x43F;&#x43E;&#x441;&#x442;&#x440;&#x43E;&#x438;&#x442;&#x44C; &#x441; &#x43B;&#x44E;&#x431;&#x44B;&#x43C; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x430;&#x438;&#x432;&#x430;&#x435;&#x43C;&#x44B;&#x43C; &#x43F;&#x435;&#x440;&#x438;&#x43E;&#x434;&#x43E;&#x43C; &#x438; &#x431;&#x430;&#x437;&#x43E;&#x439;](../.gitbook/assets/screenshot_11.png)
 
-* **Build From \(Minute, Hour, Day\)** — this parameter determines the length of time for building each letter \(for A, B, C etc.\).
-* **Profile Aggregation** — defines the range for each TPO profile. The standard range is 1 day, but there are several base ranges for building each profile — **Minute, Hour, Day**. For example, a 1 day range will start at the beginning of the trading day and finish at the end of the current trading day \(defined in the trading hours or by custom session\).
-* **History Range** — determines the depth of history for building TPO profiles. At a high depth of history, volume profiles can be built for a long time, because they use tick data.
-* **Custom Step \(Ticks\)** — this parameter defines the height and number of letters in the profile. _If enabled_, the letter height will correspond to the number of ticks which is set in the parameter. _If disabled_, the height and number of letters will be selected automatically using a smart algorithm. As a result, the chart will look the most optimal for analysis.
+* **Строить из \(**Минута, Час, День**\)** — этот параметр определяет продолжительность построения каждой буквы \(для A, B, C и т. д.\).
+* **Агрегация профиля** — определяет диапазон для каждого профиля TPO. Стандартный диапазон - 1 день, но есть несколько базовых диапазонов для построения каждого профиля - Минута, Час, День. Например, однодневный диапазон начинается в начале торгового дня и заканчивается в конце текущего торгового дня \(определяемого в торговых часах или индивидуальной сессией\).
+* **Диапазон истории** - определяет глубину истории для построения профилей TPO. При большой глубине истории профили объемов можно строить долго, потому что они используют тиковые данные.
+* **Пользовательский шаг \(тики\)** - этот параметр определяет высоту и количество букв в профиле. Если включено, высота буквы будет соответствовать количеству отметок, заданному в параметре. Если этот параметр отключен, высота и количество букв будут выбираться автоматически с использованием интеллектуального алгоритма. В результате график будет выглядеть наиболее оптимальным для анализа.
 
-### Style settings of TPO Profile Chart
+### Настройки стиля диаграммы профиля TPO
 
-Choose any color scheme for better representation and analysis of the TPO profile as well as enable POC, Value Area, Singles, Standard Chart etc.
+Выберите любую цветовую схему для лучшего представления и анализа профиля TPO, а также включите POC, Value Area, Singles, Standard Chart и т.д.
 
-* **Display** — mode for dispalying letters of TPO profile — **Boxes** or **Letters**.
+* **Display** - режим отображения писем профиля TPO - Кубики с границами или Буквы 
 
 ![Display TPO Profile as Filled Boxes or Letters](../.gitbook/assets/display-boxes-or-letters.png)
 
 * **Coloring Mode —** choose any color scheme for better representation and analysis of the TPO profile. Currently, there are 10 different coloring modes available — **Single Color, Up/Down Profile, Up/Down Bars, Heatmap, Delta Profile, Delta Price, Delta Bars, Volume Profile, Volume Price, Volume Bars**. 
-* **POC Type** — price level of the greatest market activity or trading volume on the chart. Available two types:  **Final POC**, shows the single line **Migrating POC**, which shows the change of POC during a trading day or a selected session.
+* **POC типы** — уровень цен наибольшей активности на рынке или объем торгов на графике. Доступны два типа: **Final POC**, показывает единственную строку **Migrating POC**, которая показывает изменение POC в течение торгового дня или выбранной сессии.
 
 ![](../.gitbook/assets/migrating-poc.gif)
 

@@ -129,7 +129,7 @@
   * [Статистика цен](analytics-panels/price-statistic.md)
   * [Поверхность DOM](analytics-panels/dom-surface.md)
   * [Анализ опционов](analytics-panels/option-analytics.md)
-  * [TPO Profile Chart](analytics-panels/tpo-chart.md)
+  * [TPO диаграмма](analytics-panels/tpo-chart.md)
 * [Торговые панели](trading-panels/README.md)
   * [Ввод крипто-ордера](trading-panels/crypto-order-entry.md)
   * [Ввод мульти-ордеров](trading-panels/multiple-order-entry.md)
