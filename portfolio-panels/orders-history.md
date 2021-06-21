@@ -15,7 +15,7 @@ description: >-
 | Счет | логин учетной записи, на которой была сделана сделка |
 | :--- | :--- |
 | Символ | Торговый символ |
-| Описание | Comments for symbol |
+| Описание | Комментарии к символу |
 | Тип символа | A symbol's market category \(CFD, spot, stocks, etc.\) |
 | Дата окончания срока | Date of contract expiration |
 | Цена исполнения | Price of option contract performance |
