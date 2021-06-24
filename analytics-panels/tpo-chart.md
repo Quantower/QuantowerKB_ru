@@ -76,7 +76,7 @@ description: >-
 
 ### Анализ объема
 
-TPO profiles are used on their own to find areas of support and resistance, and can also be used in conjunction with volume profiles. For this, we have added **Volume Analysis** control to the top toolbar of the panel. Here you can select the data type and show/hide the POC & Value Area.
+Профили TPO используются сами по себе для поиска областей поддержки и сопротивления, а также могут использоваться вместе с профилями объема. Для этого мы добавили элемент управления Volume Analysis на верхнюю панель инструментов панели. Здесь вы можете выбрать тип данных и показать / скрыть POC & Value Area.
 
 ![Add Volume Profiles on TPO Profile Chart](../.gitbook/assets/volume-analysis-tpo.gif)
 
