@@ -58,11 +58,10 @@ description: >-
 
 ![&#x41E;&#x442;&#x43E;&#x431;&#x440;&#x430;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x440;&#x43E;&#x444;&#x438;&#x43B;&#x44F; TPO &#x432; &#x432;&#x438;&#x434;&#x435; &#x437;&#x430;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x43D;&#x44B;&#x445; &#x44F;&#x447;&#x435;&#x439;&#x43A;&#x438; &#x438;&#x43B;&#x438; &#x431;&#x443;&#x43A;&#x432;](../.gitbook/assets/display-boxes-or-letters.png)
 
-* **Coloring Mode —** choose any color scheme for better representation and analysis of the TPO profile. Currently, there are 10 different coloring modes available — **Single Color, Up/Down Profile, Up/Down Bars, Heatmap, Delta Profile, Delta Price, Delta Bars, Volume Profile, Volume Price, Volume Bars**. 
-* **POC типы** — уровень цен наибольшей активности на рынке или объем торгов на графике. Доступны два типа: **Final POC**, показывает единственную строку **Migrating POC**, которая показывает изменение POC в течение торгового дня или выбранной сессии.
-* Цветовая схема — выберите любую цветовую схему для лучшего представления и анализа профиля TPO. В настоящее время доступно 10 различных режимов окраски - один цвет, профиль вверх / вниз, полосы вверх / вниз, тепловая карта, профиль дельты, цена дельты, столбцы дельты, профиль объема, цена объема, столбцы объема.
-
-  POC типы — уровень цен наибольшей активности на рынке или объем торгов на графике. Доступны два типа: Final POC, показывает единственную строку Migrating POC, которая показывает изменение POC в течение торгового дня или выбранной сессии.
+* **Цветовая схема** — выберите любую цветовую схему для лучшего представления и анализа профиля TPO. В настоящее время доступно 10 различных цветовых режимов  - **один цвет, профиль вверх / вниз, бары вверх / вниз, тепловая карта, профиль дельты, дельта прайс, дельта бар, профиль объема, цена объема, столбцы объема.**
+* **POC типы** — уровень цен наибольшей активности на рынке или объем торгов на графике. Доступны два типа: 
+  * окончательный, показывает единственную строку Migrating POC,
+  * перенос ,  показывает изменение POC в течение торгового дня или выбранной сессии.
 
 ![](../.gitbook/assets/migrating-poc.gif)
 
@@ -70,13 +69,12 @@ description: >-
 
 ![](../.gitbook/assets/overlaying-chart.gif)
 
-* **Show Point of Control \(POC\)** — enable a price level of the greatest market activity or trading volume on the chart. At this level, the price spent most time over the profile range. 
-* **Show Value Area** — enable price range in which approximately 68% - 70% of the market activity or trading volume took place. 
-* **Show Singles** or **single prints** of the profile are placed in the middle of a profile structure, not at the upper or lower edge. They occur on impulse movements and are used as support/resistance zones, which the price can test in the near future. The singles line indicates where the singles begin to form \(in cases when there are several single prints\).
+* **Показать значения областей** - включить ценовой диапазон, в котором имела место примерно 68% - 70% рыночной активности или объема торгов.
+* **Показать Одиночные** или одиночные отпечатки профиля размещаются в середине конструкции профиля, а не на верхнем или нижнем крае. Они возникают при импульсных движениях и используются как зоны поддержки / сопротивления, которые цена может протестировать в ближайшем будущем. Линия синглов указывает, где начинают формироваться синглы \(в случаях, когда имеется несколько одиночных отпечатков\).
 
-![Enable POC, Value Area and Singles on TPO Profile](../.gitbook/assets/key-elemetns-tpo.gif)
+![&#x412;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x44C; POC, Value Area &#x438; Singles &#x432; &#x43F;&#x440;&#x43E;&#x444;&#x438;&#x43B;&#x435; TPO](../.gitbook/assets/key-elemetns-tpo.gif)
 
-### Volume Analysis
+### Анализ объема
 
 TPO profiles are used on their own to find areas of support and resistance, and can also be used in conjunction with volume profiles. For this, we have added **Volume Analysis** control to the top toolbar of the panel. Here you can select the data type and show/hide the POC & Value Area.
 
