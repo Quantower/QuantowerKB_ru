@@ -12,13 +12,12 @@ description: Как экспортировать данные рынка в ре
 
 Используя **анализ данных в реальном режиме времени с помощью формулы RTD,** можно создать персональную аналитику данных, начиная от получения всех параметров котировок и заканчивая полноценным и глубоким анализом рынка в реальном режиме, с графиками и аналитикой. В данном разделе мы познакомим Вас с  основными возможностями, используя которые Вы сможете создать в  **Excel** свой пользовательский анализ данных в реальном режиме времени используя платформу **Quantower:**
 
-* \*\*\*\*[**Как активировать функцию RTD на платформе Quantower**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Md9ELYL843S_7il9Wp6/miscellaneous-panels/excel-rtd-trading#kak-aktivirovat-funkciyu-rtd-na-platforme-quantower)\*\*\*\*
-  * Как проверить разделитель аргументов?
-* **Как получить данные в реальном режиме времени со списка наблюдения в Excel?** 
-  * Получение данных путем копирования формулы
-  * Получение данных путем написания формулы
-* **Примеры самых популярных формул RTD с описанием         1. GetSymbolInfo** - информация о конкретном символе         **2. GetAccounInfo -** информация о конкретной учетной записи         **3. GetMarketData -** данные символа Bid, Ask, Last, Open, High и т. д         **4. GetLevel2Data  -** Level2 данные глубины рынка          **5. GetHistory** - история для указанного символа 
-* **Пример получения данных истории с построением простого графика, 5 минут.** 
+* \*\*\*\*[**Как активировать функцию RTD на платформе Quantower**](./#kak-aktivirovat-funkciyu-rtd-na-platforme-quantower)\*\*\*\*
+  * [Как проверить разделитель аргументов?](./#kak-proverit-razdelitel-argumentov)
+* \*\*\*\*[**Как получить данные в реальном режиме времени со списка наблюдения в Excel?** ](./#kak-poluchit-dannye-v-realnom-rezhime-vremeni-so-spiska-nablyudeniya-v-excel)\*\*\*\*
+  * [Получение данных путем копирования формулы](./#1-poluchenie-dannykh-putem-kopirovaniya-formuly)
+  * [Получение данных путем написания формулы](./#2-poluchenie-dannykh-putem-napisaniya-formuly)
+* \*\*\*\*[**Примеры самых популярных формул RTD с описанием**](./#primery-samykh-populyarnykh-formul-rtd-s-opisaniem)         ****[**1. GetSymbolInfo** - информация о конкретном символе](./#getsymbolinfo-informaciya-o-konkretnom-simvole)         [**2. GetAccounInfo -** информация о конкретной учетной записи](./#getaccouninfo-informaciya-o-konkretnoi-uchetnoi-zapisi)         **3.** [**GetMarketData -** данные символа Bid, Ask, Last, Open, High и т. д](./#getmarketdata-dannye-simvola-bid-ask-last-open-high-i-t-d)         **4.** [**GetLevel2Data  -** Level2 данные глубины рынка ](./#getlevel-2-data-level2-dannye-glubiny-rynka)         **5.** [**GetHistory** - история для указанного символа ](./#gethistory-istoriya-dlya-ukazannogo-simvola)
 
 ## Как активировать функцию RTD на платформе Quantower
 
@@ -206,6 +205,4 @@ _**Параметры**_
 | **"0"** | Индекс бара / тика в возвращаемом массиве истории. 0 означает самый новый бар. |
 | **"Bid"** | Тип истории Bid, Ask, Last. Оставьте поле пустым, чтобы получать историю по умолчанию для указанного символа. |
 | **"Emulator"** | Имя соединения, которое вы хотите использовать для поиска нужного символа. Вы можете оставить этот параметр пустым, если у вас только одно соединение. |
-
-
 
