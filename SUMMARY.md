@@ -167,7 +167,7 @@
   * [Exchange times](miscellaneous-panels/exchange-times.md)
   * [Quote Board](miscellaneous-panels/quote-board.md)
   * [Browser](miscellaneous-panels/browser.md)
-  * [Excel and RTD function](miscellaneous-panels/excel-rtd-trading/README.md)
+  * [Excel функции и RTD](miscellaneous-panels/excel-rtd-trading/README.md)
     * [Changing RTD Throttle Interval in Excel](miscellaneous-panels/excel-rtd-trading/changing-rtd-throttle-interval-in-excel.md)
   * [Quantower Telegram Bot](miscellaneous-panels/quantower-telegram-bot.md)
 * [Quantower алгоритмическая торговля](quantower-algo/README.md)

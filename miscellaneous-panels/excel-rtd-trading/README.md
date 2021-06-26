@@ -1,18 +1,33 @@
 ---
-description: How to export Real-Time data to Exel
+description: Как экспортировать данные в реальном времени в Exel
 ---
 
-# Excel and RTD function
+# Excel функции и RTD
 
-Start from version 1.39 Quantower supports **Real-Time Data \(RTD\)** for sending data and other market information to Microsoft Excel®. This feature opens up many opportunities for creating custom displays and other ways to better manage your workflow.
+Начиная с версии 1.39 Quantower поддерживает данные в реальном времени \(RTD\) для отправки данных и другой рыночной информации в Microsoft Excel®. Эта функция открывает множество возможностей для создания настраиваемых экранов и других способов более эффективного управления рабочим процессом.
 
-RTD is a newer protocol that offers several advantages over DDE, including more flexibility and better performance and reliability.
+RTD - это новый протокол, который предлагает несколько преимуществ по сравнению с DDE, включая большую гибкость, лучшую производительность и надежность.
 
-We prepared the spreadsheet that outlines the basic syntax of RTD formulas with details more complex formulas. Included is a collection of popular RTD formulas, which you can simply copy and paste into your own spreadsheet. [**Download the sample file**](https://updates.quantower.com/misc/RTD/rtd_samples.xlsx)**.**
+Мы подготовили электронную таблицу, в которой описан основной синтаксис формул RTD с подробным описанием более сложных формул. Включен набор популярных формул RTD, которые вы можете просто скопировать и вставить в свою электронную таблицу. [**Загрузите данный файл с примерами формул**](https://updates.quantower.com/misc/RTD/rtd_samples.xlsx)**.**
 
-Here is the General Syntax for getting symbol info via RTD function:
+Пример с данного файла для получения информации о символ**е** с помощью функции RTD:
 
-![](../../.gitbook/assets/screenshot_128%20%281%29.png)
+#### GetSymbolInfo -доступ к информации о конкретном символе
+
+Предоставляет доступ к информации о конкретном символе, такой как Description, ExchangeName, NettingType и других. Вы можете просто скопировать / вставить эту формулу для использования в файлах Excel или получить ее прямо из панели «Информация о символе» для выбранного символа. Щелкните правой кнопкой мыши на панели и выберите пункт меню: «Копировать формулу RTD» -&gt; «Значение».
+
+**Синтаксис:**
+
+> _**=RTD\("TradingPlatform";"";"GetSymbolInfo";"AUD\_USD";"SymbolType";"Emulator"\)"**_
+
+_**Праметры**_
+
+| _**Параметр**_ | Описание |
+| :--- | :--- |
+| **"TradingPlatform"** | Имя сервера Quantower RTD. Он исправлен, и вы можете использовать его во всех формулах. |
+| **"GetSymbolInfo"** |  |
+| **"AUD\_USD"** |  |
+| **"Emulator"** |  |
 
 {% embed url="https://www.youtube.com/watch?v=k1pbtSadX8I" caption="" %}
 
