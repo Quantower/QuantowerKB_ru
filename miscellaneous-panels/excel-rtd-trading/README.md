@@ -80,10 +80,10 @@ _**Параметры**_
 
 * Зайдите в Excel и вставьте скопированные формулы. Теперь данные будут обновляться автоматически.
 
-![Boadcasting real-time data to Excel](../../.gitbook/assets/rtd-quick-copying.gif)
+![&#x41F;&#x43E;&#x43B;&#x443;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445; &#x432; &#x440;&#x435;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x43C; &#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x438; &#x432; Excel](../../.gitbook/assets/rtd-quick-copying.gif)
 
 {% hint style="info" %}
-You may notice that the data is updated with some delay. This is a throttling interval that is set by default in Excel \(2000 milliseconds\). If you want to [increase the speed of updating data, read the instructions on how to do it](https://help.quantower.com/miscellaneous-panels/excel-rtd-trading/changing-rtd-throttle-interval-in-excel).
+Вы можете заметить, что данные обновляются с некоторой задержкой. **Это скорость обновления, установленная по умолчанию в Excel \(2000 миллисекунд\).** Если вы хотите увеличить [скорость обновления данных, прочтите инструкцию, как это сделать.](https://help.quantower.com/miscellaneous-panels/excel-rtd-trading/changing-rtd-throttle-interval-in-excel)
 {% endhint %}
 
 ### 2. Getting data through writing a formula
