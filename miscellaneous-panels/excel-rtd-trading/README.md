@@ -40,18 +40,18 @@ _**Параметры**_
 Для правильной работы функции платформа Quantower и Excel должны иметь одинаковую версию - 64 или 32 бит.
 {% endhint %}
 
-Launch Excel and after open the Task Manager to check the version of Excel \(32-bit or 64-bit\). The platform should have the same version in order to work with RTD function correctly.
+Запустите Excel, а затем откройте Диспетчер задач, чтобы проверить версию Excel \(32-разрядную или 64-разрядную\). Платформа должна иметь одну и ту же версию для правильной работы с функцией RTD.
 
 ![](../../.gitbook/assets/image%20%28150%29.png)
 
-Go to the [**General Settings**](../../general-settings/general-settings-1.md) of the platform, then to _section **Excel RTD**_ and tick off _**"Enable Microsoft Excel RTD"**_
+Зайдите в Общие настройки платформы, затем в раздел Excel RTD и отметьте «Включить Microsoft Excel RTD».
 
-![Activation of RTD function in Quantower](../../.gitbook/assets/assets_-ld6fsrvq3jgwjig6o7r_-lme4wbmrbk0ai3rafld_-lmeyazmdvqpbsftpr9b_rtd.png)
+![&#x410;&#x43A;&#x442;&#x438;&#x432;&#x430;&#x446;&#x438;&#x44F; &#x444;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x438; RTD](../../.gitbook/assets/eksport-v-eksel.png)
 
-Also in the settings, there are two important settings:
+Также в настройках есть две важные настройки:
 
-* **Custom RTD formula name** — depending on the language of your operating system, the name of the RTD function in Excel may be called differently. The original name of the function in the English version of Excel is RTD, but for the Russian version it's called "ДРВ".
-* **Custom argument separator** — the separator that participates in the formula. It depends on the localization of your operating system. Get to know [how to check argument separator in your system](./#how-to-check-argument-separator).
+* **Пользовательское название формулы RTD** - в зависимости от языка вашей операционной системы имя функции RTD в Excel может называться по-разному. Первоначальное название функции в английской версии Excel - RTD, а в русской версии - **«ДРВ»**.
+* **Пользовательский разделитель аргументов** - разделитель, участвующий в формуле. Это зависит от локализации вашей операционной системы. [Узнайте, как проверить разделитель аргументов в вашей системе.](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Md7BQiWmCbcAOTi9WkO/miscellaneous-panels/excel-rtd-trading#how-to-check-argument-separator)
 
 ## How to get the instrument data from Quantower?
 
