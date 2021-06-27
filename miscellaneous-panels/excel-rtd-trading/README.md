@@ -170,7 +170,7 @@ _**Параметры**_
 {% endhint %}
 
 ```text
- =ДРВ("TradingPlatform";"";"GetLevel2Data";"AUD_USD";"Bid";"0";"Emulator")
+ =ДРВ("tradingplatform";"";"GetLevel2Data";"BTCUSDT";"BidSize";"0";"Binance")
 ```
 
 _**Параметры**_
