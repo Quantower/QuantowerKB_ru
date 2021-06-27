@@ -148,7 +148,7 @@ _**Параметры**_
 {% endhint %}
 
 ```text
- =ДРВ("TradingPlatform";"";"GetMarketData";"AUD_USD";"Bid";"Emulator")
+=ДРВ("tradingplatform";"";"GetMarketData";"BTCUSDT";"Bid";"Binance Futures")
 ```
 
 _**Параметры**_
@@ -160,6 +160,8 @@ _**Параметры**_
 | **"AUD\_USD"** | ID символа, данные по которому вы хотите получить. Вы можете получить его из панели SymbolInfo. |
 | **"Bid"** | Указанный тип данных, которые вы хотите получать. Например: Bid, Ask, Last, Open, High |
 | **"Emulator"** | Имя соединения, которое вы хотите использовать для поиска нужного символа. Вы можете оставить этот параметр пустым, если у вас только одно соединение. |
+
+![](../../.gitbook/assets/getmarketdata-dannye-simvola.gif)
 
 ### 4. GetLevel2Data - Level2 данные глубины рынка 
 
