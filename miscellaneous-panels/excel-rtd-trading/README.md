@@ -126,7 +126,7 @@ _**Параметры**_
 {% endhint %}
 
 ```text
- =ДРВ("TradingPlatform";"";"GetAccountInfo";"BTCUSDT";"Balance";"Binance")
+=ДРВ("tradingplatform";"";"GetAccountInfo";"binance";"fullLicense";"Binance")
 ```
 
 _**Параметры**_
@@ -135,9 +135,11 @@ _**Параметры**_
 | :--- | :--- |
 | **"TradingPlatform"** | Имя сервера Quantower RTD. Вы можете использовать его во всех формулах. |
 | **"GetAccountInfo"** | Название метода |
-| **"BTCUSDT"** | ID символа, данные по которому вы хотите получить. Вы можете получить его из панели SymbolInfo.   |
-| **"Balance"** | Указанный тип данных, которые вы хотите получать. Например: Name, Description. Allowed order types |
+| **"binance"** | ID символа, имени, данные по которому вы хотите получить. Вы можете получить его из панели AccountInfo |
+| **"fullLicense"** | Указанный тип данных, которые вы хотите получать. Например: Name, Description, fullLicense,  |
 | **"Emulator"** | Имя соединения, которое вы хотите использовать для поиска нужного символа. Вы можете оставить этот параметр пустым, если у вас только одно соединение. |
+
+![](../../.gitbook/assets/akkaunt-info.gif)
 
 ### 3. GetMarketData - данные символа Bid, Ask, Last, Open, High и т. д
 
