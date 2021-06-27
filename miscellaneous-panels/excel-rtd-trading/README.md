@@ -117,6 +117,8 @@ _**Параметры**_
 
 ![](../../.gitbook/assets/eksel-kripto1.gif)
 
+![](../../.gitbook/assets/eksel-kripto-status.gif)
+
 ### 2. GetAccounInfo - информация о конкретной учетной записи
 
 {% hint style="success" %}
@@ -136,8 +138,6 @@ _**Параметры**_
 | **"BTCUSDT"** | ID символа, данные по которому вы хотите получить. Вы можете получить его из панели SymbolInfo.   |
 | **"Balance"** | Указанный тип данных, которые вы хотите получать. Например: Name, Description. Allowed order types |
 | **"Emulator"** | Имя соединения, которое вы хотите использовать для поиска нужного символа. Вы можете оставить этот параметр пустым, если у вас только одно соединение. |
-
-![](../../.gitbook/assets/eksel-kripto-status.gif)
 
 ### 3. GetMarketData - данные символа Bid, Ask, Last, Open, High и т. д
 
