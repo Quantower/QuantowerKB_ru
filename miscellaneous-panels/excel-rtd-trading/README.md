@@ -102,7 +102,7 @@ description: Как экспортировать данные рынка в ре
 {% endhint %}
 
 ```text
-=ДРВ("TradingPlatform";"";"GetSymbolInfo";"AUD_USD";"SymbolType";"Emulator")
+=ДРВ("TradingPlatform";"";"GetSymbolInfo";"BTCUSDT";"SymbolType";"Binance")
 ```
 
 _**Параметры**_
@@ -115,7 +115,7 @@ _**Параметры**_
 | **"SymbolType"** | Указанный тип данных, которые вы хотите получать.  Например: Имя, Описание. |
 | **"Emulator"** | Имя соединения, которое вы хотите использовать для поиска нужного символа. Вы можете оставить этот параметр пустым, если у вас только одно соединение.  |
 
-### 
+![](../../.gitbook/assets/eksel-kripto1.gif)
 
 ### 2. GetAccounInfo - информация о конкретной учетной записи
 
