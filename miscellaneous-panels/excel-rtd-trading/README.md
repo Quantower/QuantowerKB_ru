@@ -80,7 +80,7 @@ description: Как экспортировать данные рынка в ре
 Формула RTD использует следующую базовую структуру:
 
 ```text
-=RTD("TradingPlatform";"";"Param1";"Param2";"Param3";....")
+=ДРВ("TradingPlatform";"";"Param1";"Param2";"Param3";....")
 ```
 
 {% hint style="info" %}
@@ -102,7 +102,7 @@ description: Как экспортировать данные рынка в ре
 {% endhint %}
 
 ```text
-=RTD("TradingPlatform";"";"GetSymbolInfo";"AUD_USD";"SymbolType";"Emulator")
+=ДРВ("TradingPlatform";"";"GetSymbolInfo";"AUD_USD";"SymbolType";"Emulator")
 ```
 
 _**Параметры**_
@@ -124,7 +124,7 @@ _**Параметры**_
 {% endhint %}
 
 ```text
- =RTD("TradingPlatform";"";"GetAccountInfo";"101-004-4871421-001";"Balance";"Emulator")
+ =ДРВ("TradingPlatform";"";"GetAccountInfo";"101-004-4871421-001";"Balance";"Emulator")
 ```
 
 _**Параметры**_
@@ -146,7 +146,7 @@ _**Параметры**_
 {% endhint %}
 
 ```text
- =RTD("TradingPlatform";"";"GetMarketData";"AUD_USD";"Bid";"Emulator")
+ =ДРВ("TradingPlatform";"";"GetMarketData";"AUD_USD";"Bid";"Emulator")
 ```
 
 _**Параметры**_
@@ -166,7 +166,7 @@ _**Параметры**_
 {% endhint %}
 
 ```text
- =RTD("TradingPlatform";"";"GetLevel2Data";"AUD_USD";"Bid";"0";"Emulator")
+ =ДРВ("TradingPlatform";"";"GetLevel2Data";"AUD_USD";"Bid";"0";"Emulator")
 ```
 
 _**Параметры**_
@@ -189,7 +189,7 @@ _**Параметры**_
 {% endhint %}
 
 ```text
- =RTD("tradingplatform";"";"GetHistory";"AUD_USD";"1Day";"Close";"10Day";"0";"Bid";"Emulator")
+ =ДРВ("tradingplatform";"";"GetHistory";"AUD_USD";"1Day";"Close";"10Day";"0";"Bid";"Emulator")
 ```
 
 _**Параметры**_
