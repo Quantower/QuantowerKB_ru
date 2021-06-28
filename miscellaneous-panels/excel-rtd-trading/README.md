@@ -198,6 +198,14 @@ _**Параметры**_
  =ДРВ("tradingplatform";"";"GetHistory";"BTCUSDT";"1Day";"Low";"10Day";"0";"Last";"Binance")
 ```
 
+_**=ДРВ\("tradingplatform";"";"GetHistory";"BNBUSDT";"1Minute";"Close";"30Minute";"0";"Last";"Binance Futures"\)**_
+
+_**=ДРВ\("tradingplatform";"";"GetHistory";"BNBUSDT";"5Minute";"Open";"300Minute";"0";"Last";"Binance Futures"\)**_
+
+_**=ДРВ\("tradingplatform";"";"GetHistory";"BNBUSDT";"5Minute";"Open";"300Minute";"0";"Last";"Binance Futures"\)**_
+
+_\*\*\*\*_
+
 _**Параметры**_
 
 | _**Параметр**_ | _Описание_ |
