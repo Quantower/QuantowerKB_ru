@@ -12,8 +12,10 @@ description: >-
 * \*\*\*\*[**Как скопировать ВСЕ настройки на другой ПК**](reset-settings-to-default.md#kak-skopirovat-vse-nastroiki-na-drugoi-pk)\*\*\*\*
 * \*\*\*\*[**Как поделиться своими шаблонами, рабочими пространствами с другими трейдерами**](reset-settings-to-default.md#kak-podelitsya-svoimi-shablonami-rabochimi-prostranstvami-s-drugimi-treiderami)\*\*\*\*
 * \*\*\*\*[**Как предоставить настройки для разработчиков \(для проверки проблемы\)**](reset-settings-to-default.md#kak-predostavit-nastroiki-dlya-razrabotchikov-dlya-proverki-problemy)\*\*\*\*
+* \*\*\*\*[**Как предоставить файлы журнала истории** ](reset-settings-to-default.md#kak-predostavit-faily-zhurnala-istorii-logi-istorii)\*\*\*\*
 * Как сбросить настройки конкретной панели, рисунка, индикатора
-* Как поделиться своими шаблонами, рабочими пространствами с другими трейдерами
+
+
 
 {% embed url="https://www.youtube.com/watch?v=n0lUFu8FNN8&t=168s" caption="Настройки Quantower.  Как сохранить, скопировать, восстановить, сбросить" %}
 
