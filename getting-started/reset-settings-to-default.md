@@ -10,8 +10,8 @@ description: >-
 
 * \*\*\*\*[**Как сбросить все настройки до значений по умолчанию**](reset-settings-to-default.md#kak-sbrosit-vse-nastroiki-do-znachenii-po-umolchaniyu)\*\*\*\*
 * \*\*\*\*[**Как скопировать ВСЕ настройки на другой ПК**](reset-settings-to-default.md#kak-skopirovat-vse-nastroiki-na-drugoi-pk)\*\*\*\*
-* **Как поделиться своими шаблонами, рабочими пространствами с другими трейдерами**
-* **Как предоставить настройки для разработчиков \(для проверки проблемы\)**
+* \*\*\*\*[**Как поделиться своими шаблонами, рабочими пространствами с другими трейдерами**](reset-settings-to-default.md#kak-podelitsya-svoimi-shablonami-rabochimi-prostranstvami-s-drugimi-treiderami)\*\*\*\*
+* \*\*\*\*[**Как предоставить настройки для разработчиков \(для проверки проблемы\)**](reset-settings-to-default.md#kak-predostavit-nastroiki-dlya-razrabotchikov-dlya-proverki-problemy)\*\*\*\*
 * Как сбросить настройки конкретной панели, рисунка, индикатора
 * Как поделиться своими шаблонами, рабочими пространствами с другими трейдерами
 
