@@ -39,7 +39,7 @@
     * [Errors with CQG](connections/connection-to-cqg-amp-futures/errors-with-cqg.md)
   * [Connection to OANDA](connections/connection-to-oanda.md)
   * [Connection to FXCM](connections/connection-to-fxcm.md)
-  * [Connection to cTrader](connections/connection-to-ctrader/README.md)
+  * [Подключение к cTrader](connections/connection-to-ctrader/README.md)
     * [How to connect to FxPro via Quantower](connections/connection-to-ctrader/how-to-connect-to-fxpro-via-quantower.md)
     * [How to connect to Pepperstone via Quantower](connections/connection-to-ctrader/how-to-connect-to-pepperstone-via-quantower.md)
     * [How to connect to IC Markets via Quantower](connections/connection-to-ctrader/how-to-connect-to-ic-markets-via-quantower.md)

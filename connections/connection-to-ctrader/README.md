@@ -1,18 +1,18 @@
 ---
 description: >-
-  Use cTrader Gateway in Quantower platform for connection to any cTrader's
-  broker.
+  Используйте cTrader Gateway на платформе Quantower для подключения к любому
+  брокеру cTrader.
 ---
 
-# Connection to cTrader
+# Подключение к cTrader
 
-To connect Quantower to a broker that uses cTrader technology, it is sufficient to have \(or create a new\) account and log in with the cTrader ID. [**Full list of supported brokers** ](https://ctrader.com/featured-brokers/)you can find on official cTrader webstite.
+Чтобы подключить Quantower к брокеру, использующему технологию cTrader, достаточно иметь \(или создать новую\) учетную запись и войти в систему с идентификатором cTrader. [**Полный список поддерживаемых брокеров** ](https://ctrader.com/featured-brokers/)вы можете найти на официальном сайте cTrader.
 
-See the detailed connection instructions of several cTrader brokers below:
+Подробные инструкции по подключению нескольких брокеров cTrader ниже:
 
-* [**How to connect to FxPro via Quantower**](how-to-connect-to-fxpro-via-quantower.md)\*\*\*\*
-* \*\*\*\*[**How to connect to Pepperstone via Quantower**](how-to-connect-to-pepperstone-via-quantower.md)\*\*\*\*
-* \*\*\*\*[**How to connect to IC Markets via Quantower**](how-to-connect-to-ic-markets-via-quantower.md)\*\*\*\*
+* \*\*\*\*[**Как подключиться к FxPro через Quantower**](https://help.quantower.com.ru/connections/connection-to-ctrader/how-to-connect-to-fxpro-via-quantower)\*\*\*\*
+* \*\*\*\*[**Как подключиться к Pepperstone через Quantower**](https://help.quantower.com.ru/connections/connection-to-ctrader/how-to-connect-to-pepperstone-via-quantower)\*\*\*\*
+* \*\*\*\*[**Как подключиться к IC Markets через Quantower**](https://help.quantower.com.ru/connections/connection-to-ctrader/how-to-connect-to-ic-markets-via-quantower)\*\*\*\*
 
 {% embed url="https://youtu.be/FqR1nqsjMrI" caption="" %}
 
