@@ -7,39 +7,50 @@
 * Перейдите на официальный сайт FxPro и в ****[**разделе Инструменты**](https://www.fxpro.com/trading-platforms/ctrader) выберите платформу cTrader.
 * Создайте торговый счет, заполнив регистрационную форму. Демо-счет и реальный счет создаются под одним идентификатором cTrader ID, поэтому существует только одна форма для открытия счета. При регистрации всегда выбирайте платформу cTrader, где вам нужно ее указать.
 
-![Select cTrader platform during the registration process](../../.gitbook/assets/register-with-fxpro-_-select-ctrader.png)
+![](../../.gitbook/assets/platforma-ctrader-registraciya.png)
 
-* After registration, you need to create a demo account under your cTrader ID
 
-![](../../.gitbook/assets/fxpro-direct-create-demo.png)
 
-* Choose cTrader platform, leverage, account currency and account size
+![&#x412;&#x44B;&#x431;&#x435;&#x440;&#x438;&#x442;&#x435; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x443; cTrader &#x432; &#x43F;&#x440;&#x43E;&#x446;&#x435;&#x441;&#x441;&#x435; &#x440;&#x435;&#x433;&#x438;&#x441;&#x442;&#x440;&#x430;&#x446;&#x438;&#x438;](../../.gitbook/assets/register-with-fxpro-_-select-ctrader.png)
 
-![](../../.gitbook/assets/fxpro-direct-demo.png)
+* После регистрации вам необходимо создать демо-счет под своим cTrader ID.
 
-* After creating a demo account, check the E-Mail that you used when registering your account. In the letter with subject **"Welcome to cTrader ID"** is your ID that will be used as a login in platforms Quantower and cTrader. Set the password for authorization by clicking on the **"Set Password"** button.
+![](../../.gitbook/assets/demoschet.png)
 
-![](../../.gitbook/assets/set-password.png)
+* Выберите платформу cTrader, кредитное плечо, валюту счета и размер счета
+
+![](../../.gitbook/assets/demoschet-2.png.jpg)
+
+* После создания демо-учетной записи проверьте адрес электронной почты, который вы использовали при регистрации учетной записи. 
+
+![](../../.gitbook/assets/demoschet3.png.jpg)
 
 {% hint style="info" %}
-To enter the Quantower platform, use the **cTrader ID** and **password** that you set in the previous step.
+В письме с темой «Добро пожаловать в cTrader ID» указан ваш **идентификатор, который будет использоваться в качестве логина на платформах Quantower и cTrader.** Установите пароль для авторизации, нажав на кнопку «Установить пароль».
 {% endhint %}
 
-* Before connecting for the first time through Quantower platform, you need to activate your account in the cTrader system. You can do it via FxPro **cTrader Web-based** platform [https://ct.fxpro.com/](https://ct.fxpro.com/)
+{% hint style="info" %}
+Чтобы войти на платформу Quantower, используйте идентификатор cTrader и пароль, которые вы установили на предыдущем шаге.
+{% endhint %}
+
+* Перед первым подключением через платформу Quantower вам необходимо активировать свою учетную запись в системе cTrader. Вы можете сделать это через веб-платформу FxPro cTrader [https://ct.fxpro.com/](https://ct.fxpro.com/)
 
 ![](../../.gitbook/assets/fxpro-ctrader-activation.png)
 
-* Once you logged in to the cTrader web terminal, accept the agreement and switch to the demo account in the upper right corner of the web terminal. This is necessary to activate both the Real and Demo accounts separately.
+* Откройте веб- терминал  cTrader как указано на рисунке выше.
+* После входа в веб-терминал cTrader примите соглашение и переключитесь на демо-счет в правом верхнем углу веб-терминала. Это необходимо для активации как Реального, так и Демо-счетов по отдельности.
 
 ![](../../.gitbook/assets/select-demo-account.png)
 
-* After that, in the Quantower platform in the connection manager, select cTrader Gateway connection with Demo or Real and press **"Connect"** button. An authorization form will appear, where you need to specify an email or cTrader ID, as well as a password. This is a standard OAUTH authorization where you can see the connection information. **Allow access** and start trading :\)
+* После этого на платформе Quantower в диспетчере подключений выберите соединение cTrader Gateway с Demo или Real и нажмите кнопку «Подключить». Появится форма авторизации, где нужно указать адрес электронной почты или cTrader ID, а также пароль. Это стандартная авторизация OAUTH, где вы можете увидеть информацию о подключении. Разрешите доступ и начните торговать :\)
 
 ![](../../.gitbook/assets/ctrader-connection.gif)
 
 ![](../../.gitbook/assets/oauth-2019-08-14-18.57.12.png)
 
-* You can place orders via Quantower or cTrader. Good luck!
+* Вы можете размещать заказы через Quantower или cTrader. Удачи!
+
+![](../../.gitbook/assets/fkhpro.png)
 
 ![](../../.gitbook/assets/chart-on-ctrader-an-quantower.png)
 
