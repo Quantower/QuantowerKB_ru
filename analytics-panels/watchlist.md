@@ -28,7 +28,7 @@ description: >-
 
 ![](../.gitbook/assets/spisok-nablyudeniya-sokhranennyi.png)
 
-![](../.gitbook/assets/otkryt-spisok-.gif)
+![](../.gitbook/assets/otkryt-spisok-1.gif)
 
 Используя раскрывающийся список «Избранные списки», вы можете управлять текущими сохраненными списками \(редактировать имя, удалять\) и инициировать сохранение текущего списка.
 
