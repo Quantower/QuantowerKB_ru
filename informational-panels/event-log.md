@@ -1,25 +1,25 @@
 ---
-description: This panel displays all events happening in Quantower.
+description: 'В журнале событий отображаются все события, происходящие в Quantower.'
 ---
 
-# Event Log
+# Журнал событий
 
-Event Log panel displays detail information about all events that occurred during working with the trading platform. Event Log panel is related to Informational group of Control Center sidebar. if any error occurs, it will be logged here. You can see such important information about the platform here and pass it on to our technical support if necessary.
+Панель журнала событий отображает подробную информацию обо всех событиях, произошедших в процессе работы с торговой платформой. Панель журнала событий относится к информационной группе боковой панели Центра управления. Если произойдет какая-либо ошибка, она будет записана здесь. Вы можете увидеть здесь всю ​​важную информацию о платформе и при необходимости передать ее в нашу техподдержку.
 
-![The common look of Event Log panel](../.gitbook/assets/eventlog%20%281%29.png)
+![&#x41E;&#x431;&#x449;&#x438;&#x439; &#x432;&#x438;&#x434; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x438; &#x416;&#x443;&#x440;&#x43D;&#x430;&#x43B;&#x430; &#x441;&#x43E;&#x431;&#x44B;&#x442;&#x438;&#x439;](../.gitbook/assets/eventlog%20%281%29.png)
 
-## Available columns
+## Доступные столбцы
 
-| **Date/Time** | Date and time when a event was occured |
+| Дата / время | Дата и время, когда произошло событие |
 | :--- | :--- |
-| **Type** | Type of event. Can be: Trading, System or Exception |
-| **Event** | Short name of event |
-| **Message** | Full details of event |
-| **Connection name** | The name of connection, that event is related to |
+| **Тип** | Тип мероприятия. Может быть: Торговля, Система или Исключение. |
+| **Событие** | Краткое наименование события |
+| **Сообщение** | Полная информация о событии |
+| **Название соединения** | Название соединения, с которым связано это событие. |
 
-## Context menu actions
+## Действия в контекстном меню
 
-By right-clicking on each row of Event Log panel, you will get a context menu with the following functions:
+Кликнув правой кнопкой мыши на каждой строке панели журнала событий, вы получите контекстное меню со следующими функциями:
 
 ![Context functions](../.gitbook/assets/eventlogcontextmenu.png)
 

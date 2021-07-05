@@ -155,7 +155,7 @@
   * [Крипто-балансы](informational-panels/crypto-balances.md)
   * [Информация о символе](informational-panels/symbol-info.md)
   * [Currencies Exposure](informational-panels/currencies-exposure.md)
-  * [Event Log](informational-panels/event-log.md)
+  * [Журнал событий](informational-panels/event-log.md)
   * [RSS](informational-panels/rss.md)
   * [Reports](informational-panels/reports.md)
 * [Miscellaneous](miscellaneous-panels/README.md)
