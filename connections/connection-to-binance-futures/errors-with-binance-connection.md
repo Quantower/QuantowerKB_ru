@@ -23,7 +23,7 @@ description: >-
 * \*\*\*\*[**Error "Signature for this request is not valid"**](errors-with-binance-connection.md#error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna)
 * **E**[**rror "User data stream expired. You will be disconnected. If you see this error, please contact support"** ](errors-with-binance-connection.md#error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna-1)\*\*\*\*
 
-##   ****Ошибка «Недопустимый API-ключ, IP или разрешения на действие»
+## Ошибка «Недопустимый API-ключ, IP или разрешения на действие»
 
 **"Неверный ключ API"** эта ошибка появляется по следующим причинам:
 
