@@ -170,6 +170,7 @@
   * [Excel  RTD - данные в реальном  времени](miscellaneous-panels/excel-rtd-trading/README.md)
     * [Changing RTD Throttle Interval in Excel](miscellaneous-panels/excel-rtd-trading/changing-rtd-throttle-interval-in-excel.md)
   * [Quantower Telegram Bot](miscellaneous-panels/quantower-telegram-bot.md)
+* [Untitled](untitled.md)
 * [Quantower алгоритмическая торговля](quantower-algo/README.md)
   * [Вступление](quantower-algo/introduction.md)
   * [Установка Visual Studio](quantower-algo/installing-visual-studio.md)
