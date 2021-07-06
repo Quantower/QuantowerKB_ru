@@ -8,30 +8,30 @@
 
 ![](../../.gitbook/assets/pepperstone-demo-account.png)
 
-* After filling out the form and successful registration, you will be assigned a demo account number for MT platform. To connect Quantower to Pepperstone broker, you must create a demo for cTrader.
+* После заполнения формы и успешной регистрации вам будет присвоен номер демо-счета для платформы MT. Чтобы подключить Quantower к брокеру Pepperstone, вы должны создать демо для cTrader.
 
 ![](../../.gitbook/assets/pepperstone-secure-client-google-chrome-2019-08-15-16.42.43.png)
 
-* Click on **Request a new account** and choose the cTrader platform. Your account login credentials will be send to your registered email address.
+* Нажмите «Запросить новую учетную запись» и выберите платформу cTrader. Учетные данные для входа в вашу учетную запись будут отправлены на ваш зарегистрированный адрес электронной почты.
 
 ![](../../.gitbook/assets/request-demo-pepperstone.png)
 
-* After creating a demo account, check the E-Mail that you used when registering your account. In the letter with subject **"Welcome to cTrader ID"** is your ID that will be used as a login in platforms Quantower and cTrader. Set the password for authorization by clicking on the **"Set Password"** button.
+* После создания демо-учетной записи проверьте адрес электронной почты, который вы использовали при регистрации учетной записи. В письме с темой «Добро пожаловать в cTrader ID» указан ваш идентификатор, который будет использоваться в качестве логина на платформах Quantower и cTrader. Установите пароль для авторизации, нажав на кнопку «Установить пароль».
 
 ![](../../.gitbook/assets/set-password.png)
 
-* Before connecting for the first time through Quantower platform, you need to activate your account in the cTrader system. You can do it via Pepperstone **cTrader Web-based** platform [https://ct.pepperstone.com/](https://ct.pepperstone.com/)
+* Перед первым подключением через платформу Quantower вам необходимо **активировать свою учетную запись в системе cTrader.** Вы можете сделать это через веб-платформу Pepperstone cTrader [https://ct.pepperstone.com/](https://ct.pepperstone.com/)
 
 ![](../../.gitbook/assets/trading-accounts-_-ctrader-id.png)
 
-* Once you logged in to the cTrader paltform \(web, desktop or mobile\) you need to accept the License Agreement.
-* After that, in the Quantower platform in the connection manager, select cTrader Gateway connection with Demo or Real and press **"Connect"** button. An authorization form will appear, where you need to specify an email or cTrader ID, as well as a password. This is a standard OAUTH authorization where you can see the connection information. **Allow access** and start trading :\)
+* После входа в платформу cTrader \(веб, настольную или мобильную\) вам необходимо принять Лицензионное соглашение.
+* После этого на платформе Quantower в диспетчере подключений выберите соединение cTrader Gateway с Demo или Real и нажмите кнопку **«Подключить»**. Появится форма авторизации, где нужно указать адрес электронной почты или cTrader ID, а также пароль. Это стандартная авторизация OAUTH, где вы можете увидеть информацию о подключении. Разрешите доступ и начните торговать :\)
 
 ![](../../.gitbook/assets/ctrader-connection.gif)
 
 ![](../../.gitbook/assets/oauth-pepperstone.png)
 
-* You can place and manage your orders via Quantower or cTrader. Good luck!
+* Вы можете размещать свои ордера и управлять ими через Quantower или cTrader. Удачи!
 
 ![](../../.gitbook/assets/chart-on-ctrader-an-quantower.png)
 
