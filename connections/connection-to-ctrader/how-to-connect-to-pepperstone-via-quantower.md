@@ -1,10 +1,10 @@
-# How to connect to Pepperstone via Quantower
+# Как подключиться к Pepperstone через Quantower
 
-To connect Quantower platform to Pepperstone broker and send trading orders, you need to use cTrader Gateway. If you already have a trading account with Pepperstone, then go to the penultimate step in this manual.
+Чтобы подключить платформу Quantower к брокеру Pepperstone, вам необходимо использовать cTrader Gateway. Если у вас уже есть торговый счет в Pepperstone, перейдите к предпоследнему шагу в этом руководстве.
 
 {% embed url="https://youtu.be/FqR1nqsjMrI" caption="" %}
 
-* Go to the official [**Pepperstone**](https://pepperstone.com) website and **Create a trading account** by filling out the registration form. Pepperstone provides a demo account for a period of 30 days.
+* Перейдите на официальный сайт [**Pepperstone**](https://pepperstone.com/) и **создайте торговый счет**, заполнив регистрационную форму. Pepperstone предоставляет демо-счет сроком на 30 дней.
 
 ![](../../.gitbook/assets/pepperstone-demo-account.png)
 
