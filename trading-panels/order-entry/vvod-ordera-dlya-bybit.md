@@ -10,9 +10,9 @@ description: >-
 
 **Ввод ордеров** на платформе Quantower можно осуществлять разными вариантами, в зависимости от выбранного стиля торговли:
 
-* с панели Ввода ордера \(ОЕ \)
-* с панели [**с панели быстрой торговли с графика**](https://help.quantower.com.ru/analytics-panels/chart/chart-trading) ****
-* торговый режим мышью, быстрое размещения ордеров ****[**через область графика с помощью мыши**](https://help.quantower.com.ru/analytics-panels/chart/general-overview#verkhnyaya-panel-instrumentov-grafika)\*\*\*\*
+* с панели [**Ввода ордера \(ОЕ \)**](https://help.quantower.com.ru/trading-panels/order-entry)\*\*\*\*
+* с панели [**быстрой торговли с графика**](https://help.quantower.com.ru/analytics-panels/chart/chart-trading) ****
+* торговый режим мышью, визуальная торговля. Быстрое размещения ордеров ****[**через область графика с помощью мыши**](https://help.quantower.com.ru/analytics-panels/chart/general-overview#verkhnyaya-panel-instrumentov-grafika)**.**
 *  путем настройки и торговли с [**горячих клавиш.** ](https://help.quantower.com.ru/analytics-panels/chart/chart-settings#goryachie-klavishi)\*\*\*\*
 
 ### Как создать ордер Bybit с панели ОЕ \(ввода ордера\)
