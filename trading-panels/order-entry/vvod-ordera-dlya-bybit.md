@@ -10,14 +10,18 @@ description: >-
 
 **Ввод ордеров** на платформе Quantower можно осуществлять разными вариантами, в зависимости от выбранного стиля торговли:
 
-* _с панели Ввода ордера._ 
-* _с панели быстрого_ [_**ввода ордеров с графика**_ ](https://help.quantower.com.ru/analytics-panels/chart/chart-trading)_\*\*\*\*_
-* _торговый режим мышью, быстрое размещения ордеров ****_[_**через область графика с помощью мыши**_](https://help.quantower.com.ru/analytics-panels/chart/general-overview#verkhnyaya-panel-instrumentov-grafika)_\*\*\*\*_
-*  _путем настройки и торговли с_ [_**горячих клавиш.**_ ](https://help.quantower.com.ru/analytics-panels/chart/chart-settings#goryachie-klavishi)_\*\*\*\*_
+* с панели Ввода ордера \(ОЕ \)
+* с панели [**с панели быстрой торговли с графика**](https://help.quantower.com.ru/analytics-panels/chart/chart-trading) ****
+* торговый режим мышью, быстрое размещения ордеров ****[**через область графика с помощью мыши**](https://help.quantower.com.ru/analytics-panels/chart/general-overview#verkhnyaya-panel-instrumentov-grafika)\*\*\*\*
+*  путем настройки и торговли с [**горячих клавиш.** ](https://help.quantower.com.ru/analytics-panels/chart/chart-settings#goryachie-klavishi)\*\*\*\*
 
-### Ввод ордера Bybit с панели быстрого ввода ордеров с графика
+### Как создать ордер Bybit с панели ОЕ \(ввода ордера\)
 
-Ниже мы рассмотрим как создать ордер на бирже **Bybit** с панели быстрого ввода ордеров с графика. Прежде, чем это сделаем, убедитесь что вы успешно [**подключились к бирже Bybit,**](https://help.quantower.com.ru/connections/connection-to-bybit) ****и выбрали торговую пару с данного соединения.
+
+
+### Как создать ордер Bybit с панели быстрой торговли с графика
+
+Ниже мы рассмотрим как создать ордер на бирже **Bybit** с панели быстрого ввода ордера с графика. Прежде, чем это сделаем, убедитесь что вы успешно [**подключились к бирже Bybit,**](https://help.quantower.com.ru/connections/connection-to-bybit) ****и выбрали торговую пару с данного соединения.
 
 Панель инструментов [**быстрой торговли с графика**](https://help.quantower.com.ru/analytics-panels/chart/chart-trading) **Bybit**  можно открыть, как указано на рисунке ниже:
 
