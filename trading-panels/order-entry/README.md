@@ -17,7 +17,7 @@ description: >-
 
 
 * \*\*\*\*[**Ввод ордера для CQG подключения**](https://help.quantower.com.ru/trading-panels/order-entry/order-entry-for-cqg)\*\*\*\*
-* **Ввод ордера для Bybit**
+* \*\*\*\*[**Ввод ордера для Bybit**](https://help.quantower.com.ru/trading-panels/order-entry/vvod-ordera-dlya-bybit)\*\*\*\*
 * Order Entry for Rithmic connection
 * Order Entry for Binance Futures
 
