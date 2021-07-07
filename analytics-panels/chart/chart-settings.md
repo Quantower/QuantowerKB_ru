@@ -127,9 +127,7 @@ description: >-
 
 [Как пользоваться панелью ввода ордеров **читайте здесь**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbBCIqhkEW3xvohXN2Y/trading-panels/order-entry)\*\*\*\*
 
-![](../../.gitbook/assets/kreditnoe-plecho.png)
-
-
+![](../../.gitbook/assets/vvod-ordera-nastroiki-grafika.png)
 
 ## Информационное окно
 
