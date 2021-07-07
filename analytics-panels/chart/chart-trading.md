@@ -10,10 +10,6 @@ description: >-
 
 Торговля с помощью панели инструментов быстрой торговли Панель инструментов быстрой торговли появляется при нажатии на кнопку, отмеченную на картинке. Если у вас его нет, вы должны включить его в настройках диаграммы. [Посмотрите, как это делается.](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbBUVhc4TPnNLe_OOl1/analytics-panels/chart/chart-settings)
 
-{% hint style="info" %}
-Для подключений к криптовалютным биржам, лучше использовать [**Crypto Order Entry** ](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MbBbs2smxjsokgzN-Ki/trading-panels/crypto-order-entry)Эта панель идентична основной панели ввода ордеров, но работает только при активном торговом подключении к криптобирже.
-{% endhint %}
-
 ![](../../.gitbook/assets/vvod-ordera-panel.jpg)
 
 **Объем**- это количество лотов для сделки. Здесь вы можете установить свои индивидуальные значения в соответствии со своим риском и управлением капиталом. 
