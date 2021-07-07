@@ -10,9 +10,12 @@ description: >-
 
 **Ввод ордеров** на платформе Quantower можно осуществлять разными вариантами, в зависимости от выбранного стиля торговли:
 
-* _с панели быстрого ввода ордеров с графика \(для криптовалютных подключений так же с_ [_панели ввода крипто-ордера\)_](https://help.quantower.com.ru/trading-panels/crypto-order-entry)\_\_
-* _торговый режим мышью, быстрое размещения ордеров_ [_через область графика с помощью мыши_](https://help.quantower.com.ru/analytics-panels/chart/general-overview#verkhnyaya-panel-instrumentov-grafika)\_\_
-*  _путем настройки и торговли с_ [_горячих клавиш._ ](https://help.quantower.com.ru/analytics-panels/chart/chart-settings#goryachie-klavishi)\_\_
+* _с панели Ввода ордера._ 
+* _с панели быстрого_ [_**ввода ордеров с графика**_ ](https://help.quantower.com.ru/analytics-panels/chart/chart-trading)_\*\*\*\*_
+* _торговый режим мышью, быстрое размещения ордеров ****_[_**через область графика с помощью мыши**_](https://help.quantower.com.ru/analytics-panels/chart/general-overview#verkhnyaya-panel-instrumentov-grafika)_\*\*\*\*_
+*  _путем настройки и торговли с_ [_**горячих клавиш.**_ ](https://help.quantower.com.ru/analytics-panels/chart/chart-settings#goryachie-klavishi)_\*\*\*\*_
+
+### Ввод ордера Bybit с панели быстрого ввода ордеров с графика
 
 Ниже мы рассмотрим как создать ордер на бирже **Bybit** с панели быстрого ввода ордеров с графика. Прежде, чем это сделаем, убедитесь что вы успешно [**подключились к бирже Bybit,**](https://help.quantower.com.ru/connections/connection-to-bybit) ****и выбрали торговую пару с данного соединения.
 
