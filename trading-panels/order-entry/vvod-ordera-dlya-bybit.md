@@ -20,7 +20,7 @@ description: >-
 
 * \*\*\*\*[**Как создать ордер Bybit с панели ОЕ \(Ввода ордера\)**](vvod-ordera-dlya-bybit.md#kak-sozdat-order-bybit-s-paneli-oe-vvoda-ordera)\*\*\*\*
   * [Общий вид панели ОЕ \(Ввода ордера\) для биржи Bybit](vvod-ordera-dlya-bybit.md#obshii-vid-paneli-oe-vvoda-ordera-dlya-birzhi-bybit)
-  * [Выбор символа и счета и торгового счета; ](vvod-ordera-dlya-bybit.md#vybor-simvola-i-scheta-i-torgovogo-scheta)
+  * [Выбор символа и торгового счета; ](vvod-ordera-dlya-bybit.md#vybor-simvola-i-scheta-i-torgovogo-scheta)
   * [Выбор объема ордера Параметры ордера - тип, TIF, цена, алгоритмические настройки](vvod-ordera-dlya-bybit.md#vybor-obema-ordera)
   * [TP \(тейк-профит\) и SL стоп лимит \(стоп-лосс\) ордера](vvod-ordera-dlya-bybit.md#tp-i-sl-ordera-s-paneli-oe-vvod-ordera) 
 * \*\*\*\*[**Как создать ордер Bybit с панели быстрой торговли с графика**](vvod-ordera-dlya-bybit.md#kak-sozdat-order-bybit-s-paneli-bystroi-torgovli-s-grafika) ****
