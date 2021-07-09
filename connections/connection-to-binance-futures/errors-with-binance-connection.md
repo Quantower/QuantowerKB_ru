@@ -117,3 +117,11 @@ description: >-
 
 Данная ошибка говорит том, что одни и те же ключи используются одновременно. Это может быть либо дубль подключения, либо эти же ключи используются на другой платформе. Убедитесь что Ваши ключи надежно сохранены в недоступном месте. 
 
+## Error "All requests are forbidden manual. Approximate time to release - 00:00:0005022" <a id="error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna"></a>
+
+Данная ошибка говорит том, что превышен лимит запросов, мы блокируем это у себя, чтобы биржа  Binance не забанила аккаунт по айпи адресу.
+
+![](../../.gitbook/assets/oshibka-limit-zaprosov.png)
+
+
+
