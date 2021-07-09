@@ -22,6 +22,7 @@ description: >-
 * \*\*\*\*[**Error "Parameter 'start time' is invalid"**](errors-with-binance-connection.md#error-parameter-start-time-is-invalid-oshibka-parametr-vremya-nachala-nedeistvitelen)\*\*\*\*
 * \*\*\*\*[**Error "Signature for this request is not valid"**](errors-with-binance-connection.md#error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna)
 * **E**[**rror "User data stream expired. You will be disconnected. If you see this error, please contact support"** ](errors-with-binance-connection.md#error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna-1)\*\*\*\*
+* \*\*\*\*[**Error "All requests are forbidden manual. Approximate time to release - 00:00:0005022"**](errors-with-binance-connection.md#error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna-2)\*\*\*\*
 
 ## Ошибка «Недопустимый API-ключ, IP или разрешения на действие»
 
