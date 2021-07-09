@@ -82,7 +82,5 @@ description: >-
 
 После выбора стратегии с предложенного списка, кликнув на шестеренку, можно настроить условия:
 
-![](../../.gitbook/assets/strategiya.png)
-
-![](../../.gitbook/assets/market-if-touched-settings-2021-07-09-13.31.32.png)
+![](../../.gitbook/assets/strategiya.gif)
 
