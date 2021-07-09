@@ -147,3 +147,5 @@ Binance предлагает два типа маржи для торговли 
 
 ![](../../.gitbook/assets/rezhim-khedzhirovaniya.png)
 
+Подробнее о типах режимов Вы можете узнать со статьи биржи Binance [**Типы режимов позиции**](https://www.binance.com/ru/support/faq/360041513552) 
+
