@@ -20,8 +20,8 @@
 
 ![](../../.gitbook/assets/screenshot_30.png)
 
-* Once you logged in to the cTrader paltform \(web, desktop or mobile\) you need to accept the License Agreement.
-* After that, in the Quantower platform in the connection manager, select cTrader Gateway connection with Demo or Real and press **"Connect"** button. An authorization form will appear, where you need to specify an email or cTrader ID, as well as a password. This is a standard OAUTH authorization where you can see the connection information. **Allow access** and start trading :\)
+* После входа в платформу cTrader \(веб, настольную или мобильную\) вам необходимо принять Лицензионное соглашение.
+* После этого на платформе Quantower в диспетчере подключений выберите соединение cTrader Gateway с Demo или Real и нажмите кнопку «Подключить». Появится форма авторизации, где нужно указать адрес электронной почты или cTrader ID, а также пароль. Это стандартная авторизация OAUTH, где вы можете увидеть информацию о подключении. Разрешите доступ и начните торговать :\)
 
 ![](../../.gitbook/assets/ctrader-connection.gif)
 
