@@ -1,26 +1,38 @@
 ---
 description: >-
-  Get important notifications directly to your Telegram account about Price
-  Targets and Trading operations.
+  Получайте важные уведомления прямо на свой аккаунт Telegram о целевых ценах и
+  торговых операциях
 ---
 
 # Quantower Telegram Bot
 
-Quantower Alert Bot will send a message to your Telegram account about all events that you set in the platform. For example, set a price alert on the chart, and when the price will reach this level, a notification to the messenger will be sent.
+Quantower Alert Bot отправит сообщение в вашу учетную запись Telegram обо всех событиях, которые вы установили на платформе. Например, установите на график ценовое оповещение, и когда цена достигнет этого уровня, будет отправлено уведомление в мессенджер.
 
 ![](../.gitbook/assets/telegram-alerts.gif)
 
-## How to add Telegram Bot to your account?
+## Как добавить Telegram Bot в свой аккаунт?
 
-To add a bot to the Telegram, open the platform's **General Settings -&gt; Messengers -&gt; Duplicate alerts to Telegram**.
+Чтобы добавить бота в Telegram, откройте Общие настройки платформы. **-&gt; Messengers -&gt; Duplicate alerts to Telegram**.
 
-![Open General Setting for adding Quantower Telegram Bot](../.gitbook/assets/image%20%28171%29.png)
+![&#x41E;&#x442;&#x43A;&#x440;&#x43E;&#x439;&#x442;&#x435; &#x41E;&#x431;&#x449;&#x438;&#x435; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438; &#x434;&#x43B;&#x44F; &#x434;&#x43E;&#x431;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x431;&#x43E;&#x442;&#x430; Telegram Quantower](../.gitbook/assets/image%20%28171%29.png)
 
-1. Specify your personal chat ID, which you can find out by clicking on the **Get ID** button. 
-2. A new Chat ID Echo bot will open and it will show _**"Your Telegram Chat ID is: xxxxxxx".**_ Enter your chat ID in the corresponding field
-3. Connect to the Quantower Alert Bot.
+Укажите свой личный идентификатор чата, который вы можете узнать, нажав на кнопку «Получить идентификатор». 
 
-![](../.gitbook/assets/image%20%28137%29.png)
+![](../.gitbook/assets/aidi.png)
+
+Откроется новый бот **Chat ID Echo**, и он покажет **«Ваш идентификатор чата Telegram: xxxxxxx».** 
+
+![](../.gitbook/assets/bot-aidi.png)
+
+Скопируйте этот код с бота **Telegram** и введите этот ID чата в соответствующее поле в настройках Quantower:
+
+![](../.gitbook/assets/vvesti-kod.png)
+
+Подключитесь к Quantower Alert Bot
+
+![](../.gitbook/assets/podklyuchitsya.png)
+
+Вы автоматически будете направлены в @quantower\_alerts\_bot, и это означает что Вы подключили уведомления и можете перейти к настройкам самого уведомления.
 
 ## How to get notifications from Telegram Bot?
 
