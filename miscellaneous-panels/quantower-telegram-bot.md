@@ -34,11 +34,11 @@ Quantower Alert Bot отправит сообщение в вашу учетну
 
 Вы автоматически будете направлены в @quantower\_alerts\_bot, и это означает что Вы подключили уведомления и можете перейти к настройкам самого уведомления.
 
-## How to get notifications from Telegram Bot?
+## Как получать уведомления в Telegram Bot?
 
-Telegram Bot sends notifications about alerts that you have set on active Charts or through a Watchlist. If you don't have any alerts yet, the bot will be in standby mode.
+Telegram Bot отправляет уведомления об оповещениях, которые вы установили на активных графиках или через список наблюдения. Если у вас еще нет настроенных уведомлений, бот будет в режиме ожидания.
 
-Once your alert is triggered, you will receive a telegram notification with the following text:
+Как только ваше оповещение сработает, вы получите уведомление в телеграмме со следующим текстом:
 
 _**"Alert on ENQM21: price 13,379.00 reached."**_
 
@@ -46,7 +46,7 @@ _**"Alert on ENQM21: price 13,379.00 reached."**_
 
 ![](../.gitbook/assets/image%20%28172%29.png)
 
-If you activate the '**Duplicate Trading Notifications to Telegram'** option, all trading messages will be automatically forwarded to Telegram.
+Если вы активируете опцию **«Дублировать торговые уведомления в Telegram»**, то не только уведоления, а и все оповещения о торговых операциях будут автоматически перенаправляться в Telegram.
 
-![Duplicate trading notiffications to Telegram with Quantower Bot ](../.gitbook/assets/image%20%28169%29.png)
+![&#x414;&#x443;&#x431;&#x43B;&#x438;&#x440;&#x443;&#x44E;&#x449;&#x438;&#x435; &#x442;&#x43E;&#x440;&#x433;&#x43E;&#x432;&#x44B;&#x435; &#x443;&#x432;&#x435;&#x434;&#x43E;&#x43C;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x432; Telegram &#x441; &#x43F;&#x43E;&#x43C;&#x43E;&#x449;&#x44C;&#x44E; Quantower Bot](../.gitbook/assets/image%20%28169%29.png)
 
