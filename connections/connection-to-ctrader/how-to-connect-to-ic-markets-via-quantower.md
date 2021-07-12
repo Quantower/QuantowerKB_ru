@@ -1,22 +1,22 @@
-# How to connect to IC Markets via Quantower
+# Как подключиться к IC Markets через Quantower
 
-To connect Quantower platform to IC Markets broker and send trading orders, you need to use cTrader Gateway. If you already have a trading account with IC Markets, then go to the penultimate step in this manual.
+Чтобы подключить платформу Quantower к брокеру IC Markets и отправлять торговые приказы, вам необходимо использовать cTrader Gateway. Если у вас уже есть торговый счет в IC Markets, перейдите к предпоследнему шагу в этом руководстве.
 
 {% embed url="https://youtu.be/FqR1nqsjMrI" caption="" %}
 
-* Go to the official [**IC Markets**](https://www.icmarkets.com) website and **Create a trading account** by filling out the registration form.
+* Перейдите на официальный сайт [IC Markets](https://www.icmarkets.com/) и создайте торговый счет, заполнив регистрационную форму.
 
 ![](../../.gitbook/assets/screenshot_28.png)
 
-* During the registration, always choose the **cTrader** platform where you need to specify it.
+* При регистрации всегда выбирайте платформу cTrader, где вам нужно ее указать.
 
 ![](../../.gitbook/assets/screenshot_29.png)
 
-* After creating a demo account, check the E-Mail that you used when registering your account. In the letter with subject **"Welcome to cTrader ID"** is your ID that will be used as a login in platforms Quantower and cTrader. Set the password for authorization by clicking on the **"Set Password"** button.
+* После создания демо-учетной записи проверьте адрес электронной почты, который вы использовали при регистрации учетной записи. В письме с темой «Добро пожаловать в cTrader ID» указан ваш идентификатор, который будет использоваться в качестве логина на платформах Quantower и cTrader. Установите пароль для авторизации, нажав на кнопку «Установить пароль».
 
 ![](../../.gitbook/assets/set-password.png)
 
-* Before connecting for the first time through Quantower platform, you need to activate your account in the cTrader system. You can do it via IC Markets **cTrader Web-based** platform [https://ct.icmarkets.com/](https://ct.icmarkets.com/)
+* Перед первым подключением через платформу Quantower вам необходимо активировать свою учетную запись в системе cTrader. Вы можете сделать это через веб-платформу IC Markets cTrader [https://ct.icmarkets.com/](https://ct.icmarkets.com/)
 
 ![](../../.gitbook/assets/screenshot_30.png)
 
