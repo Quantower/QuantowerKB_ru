@@ -29,7 +29,7 @@
 
 ![](../../.gitbook/assets/screenshot_32.png)
 
-* Now you can place and manage your orders via Quantower or cTrader. Good luck!
+* Теперь вы можете размещать свои заказы и управлять ими через Quantower или cTrader. Удачи!
 
 ![](../../.gitbook/assets/chart-on-ctrader-an-quantower.png)
 
