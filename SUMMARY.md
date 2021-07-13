@@ -157,7 +157,7 @@
   * [Журнал событий](informational-panels/event-log.md)
   * [RSS](informational-panels/rss.md)
   * [Reports](informational-panels/reports.md)
-* [Miscellaneous](miscellaneous-panels/README.md)
+* [Вспомогательные](miscellaneous-panels/README.md)
   * [History Exporter](miscellaneous-panels/history-exporter.md)
   * [Symbol Mapping Manager](miscellaneous-panels/symbol-mapping-manager.md)
   * [Live Support](miscellaneous-panels/live-support.md)
