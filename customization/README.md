@@ -1,8 +1,8 @@
 ---
 description: >-
-  Благодаря модульной архитектуре платформу может настраивать пользователь.
-  Переключайтесь между разными языками интерфейса, темами и стилями.
+  Thanks to the modular architecture, the platform can be configured by the
+  user. Switch between different interface languages, themes and styles.
 ---
 
-# Кастомизация
+# Customization
 

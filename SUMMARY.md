@@ -193,7 +193,7 @@
   * [Access to advanced aggregations](quantower-algo/access-to-advanced-aggregations.md)
   * [Access to symbol/account additional fields](quantower-algo/access-to-symbol-account-additional-fields.md)
 * [Кастомизация](customization/README.md)
-  * [Localization](customization/localization.md)
+  * [Локализация](customization/localization.md)
 * [FAQ](faq/README.md)
   * [General Errors](faq/general-errors.md)
 * [Оптимизация Quantower на слабых ПК](optimizaciya-quantower-na-slabykh-pk.md)

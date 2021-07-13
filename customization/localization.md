@@ -1,14 +1,14 @@
-# Localization
+# Локализация
 
-Quantower offers users several languages, which greatly simplifies the process of working with the platform. In addition to English, there are 14 other languages available, which we are constantly updating and adding new ones.
+Quantower предлагает пользователям несколько языков, что значительно упрощает процесс работы с платформой. Помимо английского, доступно еще 14 языков, которые мы постоянно обновляем и добавляем новые.
 
-In case of errors or inaccuracies in translation, any user can make changes to the text. To do this, write to us in the support or change the text in the file, which is located on the Github repository. The next time you upgrade the platform, all your changes will be automatically applied.
+В случае ошибок или неточностей в переводе любой пользователь может внести изменения в текст. Для этого напишите нам в поддержку или измените текст в файле, который находится в репозитории Github. В следующий раз, когда вы обновите платформу, все ваши изменения будут применены автоматически.
 
-## How to make changes to the localization file on Github <a id="how-to-make-changes-to-the-localization-file-on-github"></a>
+## Как внести изменения в файл локализации на Github <a id="how-to-make-changes-to-the-localization-file-on-github"></a>
 
-* Go to the [**Quantower/Localization**](https://github.com/Quantower/Localization) section on Github, where the translation files for each panel are located. Here is the link [https://github.com/Quantower/Localization](https://github.com/Quantower/Localization) 
-* Register the account or log in to Github using your login and password. We can provide you with an account for making changes to localization files. To do this, write to us in support. 
-* Localization files are stored in two folders:     **Common** — contains all common phrases for the whole terminal;     **Plug-ins** — includes folders with all the panels that contain translation files for specific panels.
+* Перейдите в раздел [**Quantower / Localization на Github**](https://github.com/Quantower/Localization), где находятся файлы перевода для каждой панели. Вот ссылка [https://github.com/Quantower/Localization](https://github.com/Quantower/Localization)
+* Зарегистрируйте учетную запись или войдите в Github, используя свой логин и пароль. Мы можем предоставить вам учетную запись для внесения изменений в файлы локализации. Для этого напишите нам в поддержку.
+* Файлы локализации хранятся в двух папках: **Common** - содержит все общие фразы для всего терминала; **Плагины** - включают папки со всеми панелями, которые содержат файлы перевода для определенных панелей.
 
 ![There are two folders with localization files &#x2014; Common and Plugins](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LD6FsRvQ3jgwJIg6O7r%2F-LTS-tElGUeTdX9kBPhF%2F-LTSHidwy1dSkZKCRH-V%2FQuantower%20localization.png?alt=media&token=93298b44-40c2-4123-b8b8-68aca6d23077)
 
