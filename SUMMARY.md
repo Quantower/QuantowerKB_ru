@@ -109,6 +109,7 @@
         * [ZigZag](analytics-panels/chart/technical-indicators/trend/zigzag.md)
       * [Волатильность](analytics-panels/chart/technical-indicators/volatility/README.md)
         * [Average True Range](analytics-panels/chart/technical-indicators/volatility/average-true-range.md)
+        * [Change - Индикатор изменения цены за период](analytics-panels/chart/technical-indicators/volatility/change-indikator-izmeneniya-ceny-za-period.md)
         * [Standard deviation](analytics-panels/chart/technical-indicators/volatility/standard-deviation.md)
       * [Объем](analytics-panels/chart/technical-indicators/volume/README.md)
         * [Delta Flow](analytics-panels/chart/technical-indicators/volume/delta-flow.md)
