@@ -12,7 +12,7 @@ The Aroon indicator, developed by Tushar Chande, indicates if a price is trendin
 
 * If the Aroon-Up crosses above the Aroon-Down, then a new uptrend may start soon. Conversely, if Aroon-Down crosses above the Aroon-Up, then a new downtrend may start soon.
 
-![Aroon Indicator](../../../../.gitbook/assets/aroon-indicator.png)
+![Aroon Indicator](../../../.gitbook/assets/aroon-indicator.png)
 
 * When Aroon-Up reaches 100, a new uptrend may have begun. If it remains persistently between 70 and 100, and the Aroon-Down remains between 0 and 30, then a new uptrend is underway.
 * When Aroon-Up and Aroon-Down move in parallel \(horizontal, sloping up or down\) with each other at roughly the same level, then price is range trading or consolidating.
