@@ -365,7 +365,7 @@ description: >-
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.quantower.com/volumeanalysistools"><b>VOLUME ANALYSIS TOOLS</b></a>  <b>*</b>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.quantower.com/volumeanalysistools"><b>&#x418;&#x41D;&#x421;&#x422;&#x420;&#x423;&#x41C;&#x415;&#x41D;&#x422;&#x42B; &#x41E;&#x411;&#x42A;&#x415;&#x41C;&#x41D;&#x41E;&#x413;&#x41E; &#x410;&#x41D;&#x410;&#x41B;&#x418;&#x417;&#x410;</b></a><b>*</b>
       </td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
