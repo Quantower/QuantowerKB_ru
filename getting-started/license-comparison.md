@@ -36,7 +36,8 @@ description: >-
       <td style="text-align:left">&#x422;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43E;&#x434;&#x43D;&#x43E;
         &#x43F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x435;</td>
       <td
-      style="text-align:left">&#x422;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43A;&#x440;&#x438;&#x43F;&#x442;&#x43E;</td>
+      style="text-align:left">&#x422;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43A;&#x440;&#x438;&#x43F;&#x442;&#x43E;
+        &#x43F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x44F;</td>
         <td
         style="text-align:left">&#x411;&#x435;&#x437; &#x43E;&#x433;&#x440;&#x430;&#x43D;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x439;</td>
           <td
