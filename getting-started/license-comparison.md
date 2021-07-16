@@ -374,7 +374,7 @@ description: >-
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../analytics-panels/volume-analysis-tools/cluster-chart.md">Cluster chart (Footprint)</a>
+      <td style="text-align:left"><a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MejYt0kgCZUqOxuWIxx/analytics-panels/volume-analysis-tools/cluster-chart">&#x41A;&#x43B;&#x430;&#x441;&#x442;&#x435;&#x440; - &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A; &#x444;&#x443;&#x442;&#x43F;&#x440;&#x438;&#x43D;&#x442;</a>
       </td>
       <td style="text-align:left">&#x2716;</td>
       <td style="text-align:left">&#x2714;</td>
@@ -382,7 +382,8 @@ description: >-
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left">Footprint Imbalances</td>
+      <td style="text-align:left"><a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MejYt0kgCZUqOxuWIxx/analytics-panels/volume-analysis-tools/cluster-chart">&#x424;&#x443;&#x442;&#x43F;&#x440;&#x438;&#x43D;&#x442; &#x438;&#x43C;&#x431;&#x430;&#x43B;&#x430;&#x43D;&#x441;</a>
+      </td>
       <td style="text-align:left">&#x2716;</td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
@@ -390,10 +391,11 @@ description: >-
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><a href="../analytics-panels/volume-analysis-tools/volume-profiles.md">All types of Volume Profiles</a>
+        <p><a href="https://help.quantower.com.ru/analytics-panels/volume-analysis-tools/volume-profiles">&#x41F;&#x430;&#x43D;&#x435;&#x43B;&#x44C; &#x43E;&#x431;&#x44A;&#x435;&#x43C;&#x43D;&#x43E;&#x433;&#x43E; &#x430;&#x43D;&#x430;&#x43B;&#x438;&#x437;&#x430;</a>
         </p>
-        <p><a href="../analytics-panels/volume-analysis-tools/volume-profiles.md">(Right, Left, Custom, Step)</a>
-        </p>
+        <p>(&#x43B;&#x435;&#x432;&#x44B;&#x439;, &#x43F;&#x440;&#x430;&#x432;&#x44B;&#x439;,
+          &#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x441;&#x43A;&#x438;&#x439;,
+          &#x43F;&#x43E;&#x448;&#x430;&#x433;&#x43E;&#x432;&#x44B;&#x439; &#x43F;&#x440;&#x43E;&#x444;&#x438;&#x43B;&#x44C;)</p>
       </td>
       <td style="text-align:left">&#x2716;</td>
       <td style="text-align:left">&#x2714;</td>
@@ -401,7 +403,7 @@ description: >-
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../analytics-panels/volume-analysis-tools/time-statistics.md">Time Statistics</a>
+      <td style="text-align:left"><a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MejYt0kgCZUqOxuWIxx/analytics-panels/volume-analysis-tools/time-statistics">&#x421;&#x442;&#x430;&#x442;&#x438;&#x441;&#x442;&#x438;&#x43A;&#x430; &#x43F;&#x43E; &#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x438;</a>
       </td>
       <td style="text-align:left">&#x2716;</td>
       <td style="text-align:left">&#x2714;</td>
@@ -409,7 +411,7 @@ description: >-
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../analytics-panels/volume-analysis-tools/time-histogram.md">Time Histogram</a>
+      <td style="text-align:left"><a href="https://help.quantower.com.ru/analytics-panels/volume-analysis-tools/time-histogram">&#x412;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x430;&#x44F; &#x433;&#x438;&#x441;&#x442;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x43C;&#x430;</a>
       </td>
       <td style="text-align:left">&#x2716;</td>
       <td style="text-align:left">&#x2714;</td>
