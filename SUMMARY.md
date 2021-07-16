@@ -8,7 +8,7 @@
   * [Обновление платформы](getting-started/application-updates.md)
   * [Учетная запись Quantower](getting-started/quantower-account.md)
   * [Лицензии Quantower](getting-started/quantower-licenses.md)
-  * [License Comparison](getting-started/license-comparison.md)
+  * [Сравнение лицензий](getting-started/license-comparison.md)
   * [Менеджер резервного копирования и восстановления](getting-started/backup-and-restore-manager.md)
   * ["Настройки" управление папкой](getting-started/reset-settings-to-default.md)
   * [Оплата FAQ](getting-started/payment-faq.md)

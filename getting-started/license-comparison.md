@@ -1,45 +1,56 @@
 ---
 description: >-
-  Below you will find the detailed comparison table of licenses and platform
-  features. Prices are available on our official website
+  Ниже вы найдете подробную сравнительную таблицу лицензий и функций платформы.
+  Цены доступны на нашем официальном сайте
 ---
 
-# License Comparison
+# Сравнение лицензий
 
-We provide the most popular trading & analytics features for free, but some valuable and market-specific features are available under the paid License.
+Мы предоставляем самые популярные функции торговли и аналитики бесплатно, но некоторые ценные и специфичные для рынка функции доступны по платной лицензии.
 
-Below you will find the detailed comparison table of licenses and platform features. [Prices are available on our official website](https://www.quantower.com/pricing)
+Ниже вы найдете подробную сравнительную таблицу лицензий и функций платформы. Цены доступны на нашем официальном сайте
 
-Licenses that are marked with the symbol **\(\*\)** can be purchased separately.
+{% hint style="info" %}
+Лицензии, отмеченные символом \(\*\), можно приобрести отдельно.
+{% endhint %}
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Features</th>
-      <th style="text-align:left">Free version</th>
-      <th style="text-align:left">Crypto package</th>
-      <th style="text-align:left">Multi-Asset</th>
-      <th style="text-align:left">All-in-One</th>
+      <th style="text-align:left">&#x424;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x438;</th>
+      <th style="text-align:left">&#x411;&#x435;&#x441;&#x43F;&#x43B;&#x430;&#x442;&#x43D;&#x44B;&#x439;</th>
+      <th
+      style="text-align:left">&#x41A;&#x440;&#x438;&#x43F;&#x442;&#x43E; &#x43D;&#x430;&#x431;&#x43E;&#x440;</th>
+        <th
+        style="text-align:left">&#x41C;&#x443;&#x43B;&#x44C;&#x442;&#x438;-&#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x44B;&#x439;</th>
+          <th
+          style="text-align:left">&#x412;&#x441;&#x435; &#x432; &#x43E;&#x434;&#x43D;&#x43E;&#x43C;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">
-        <p><a href="https://www.quantower.com/connections">Connection to Broker,</a>
-        </p>
-        <p><a href="https://www.quantower.com/connections">Data feed, Exchange</a>
-        </p>
+      <td style="text-align:left"><a href="https://www.quantower.com/connections">&#x41F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x43A; &#x431;&#x440;&#x43E;&#x43A;&#x435;&#x440;&#x430;&#x43C;</a>,
+        <br
+        /><a href="https://www.quantower.com/connections">&#x43A; &#x43A;&#x430;&#x43D;&#x430;&#x43B;&#x430;&#x43C; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445;, <br />&#x43A; &#x411;&#x438;&#x440;&#x436;&#x430;&#x43C;.</a>
       </td>
-      <td style="text-align:left">To one any</td>
-      <td style="text-align:left">Only Crypto</td>
-      <td style="text-align:left">Any</td>
-      <td style="text-align:left">Any</td>
+      <td style="text-align:left">&#x422;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43E;&#x434;&#x43D;&#x43E;
+        &#x43F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x435;</td>
+      <td
+      style="text-align:left">&#x422;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43A;&#x440;&#x438;&#x43F;&#x442;&#x43E;</td>
+        <td
+        style="text-align:left">&#x411;&#x435;&#x437; &#x43E;&#x433;&#x440;&#x430;&#x43D;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x439;</td>
+          <td
+          style="text-align:left">&#x411;&#x435;&#x437; &#x43E;&#x433;&#x440;&#x430;&#x43D;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x439;</td>
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>Multiple <a href="../general-settings/workspaces-binds-groups.md">workspaces</a>,</p>
-        <p><a href="../general-settings/templates.md">templates</a>, <a href="../general-settings/binds.md">binds</a>,</p>
-        <p><a href="../general-settings/group-of-panels.md">groups</a> of panels</p>
+        <p>&#x41F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x43A;&#x430; &#x43D;&#x435;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x438;&#x445;
+          <a
+          href="https://help.quantower.com.ru/general-settings/workspaces-binds-groups">&#x440;&#x430;&#x431;&#x43E;&#x447;&#x438;&#x445; &#x43F;&#x440;&#x43E;&#x441;&#x442;&#x440;&#x430;&#x43D;&#x441;&#x442;&#x432;</a>,</p>
+        <p><a href="https://help.quantower.com.ru/general-settings/templates">&#x448;&#x430;&#x431;&#x43B;&#x43E;&#x43D;&#x43E;&#x432;</a>,
+          &#x441;&#x432;&#x44F;&#x437;&#x43A;&#x430; &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x435;&#x439;,</p>
+        <p>&#x433;&#x440;&#x443;&#x43F;&#x43F;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x430;
+          &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x435;&#x439;</p>
       </td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
