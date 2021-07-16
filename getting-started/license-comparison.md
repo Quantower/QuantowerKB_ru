@@ -194,11 +194,11 @@ description: >-
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p><a href="../quantower-algo/">Access to free API for developing</a>
-        </p>
-        <p><a href="../quantower-algo/">custom indicators, strategies</a>
-        </p>
+      <td style="text-align:left"><a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MejLMw1khYQ4InjRAys/quantower-algo">&#x414;&#x43E;&#x441;&#x442;&#x443;&#x43F; &#x43A; &#x431;&#x435;&#x441;&#x43F;&#x43B;&#x430;&#x442;&#x43D;&#x43E;&#x43C;&#x443; API &#x434;&#x43B;&#x44F; &#x440;&#x430;&#x437;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x43A;&#x438;</a>,
+        <a
+        href="https://help.quantower.com.ru/quantower-algo">&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x441;&#x43A;&#x438;&#x435;
+          &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440;&#x44B;,
+          &#x441;&#x442;&#x440;&#x430;&#x442;&#x435;&#x433;&#x438;&#x438;</a>
       </td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
@@ -206,7 +206,8 @@ description: >-
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left">Algo extension for Visual Studio</td>
+      <td style="text-align:left">&#x420;&#x430;&#x441;&#x448;&#x438;&#x440;&#x435;&#x43D;&#x438;&#x435;
+        Algo &#x434;&#x43B;&#x44F; Visual Studio</td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
@@ -220,37 +221,44 @@ description: >-
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.quantower.com/advancedfeatures"><b>ADVANCED FEATURES</b></a>  <b>*</b>
+      <td style="text-align:left"><a href="https://www.quantower.com/advancedfeatures"><b>*&#x420;&#x410;&#x421;&#x428;&#x418;&#x420;&#x415;&#x41D;&#x41D;&#x42B;&#x415; &#x412;&#x41E;&#x417;&#x41C;&#x41E;&#x416;&#x41D;&#x41E;&#x421;&#x422;&#x418; </b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"></td>
+        <td style="text-align:left"></td>
+        <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x41E;&#x434;&#x43D;&#x43E;&#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x44B;&#x435;
+        &#x43F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x44F;</td>
+      <td
+      style="text-align:left">&#x2716;</td>
+        <td style="text-align:left">&#x422;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43A;&#x440;&#x438;&#x43F;&#x442;&#x43E;</td>
+        <td
+        style="text-align:left">&#x411;&#x435;&#x437; &#x43E;&#x433;&#x440;&#x430;&#x43D;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x439;</td>
+          <td
+          style="text-align:left">&#x411;&#x435;&#x437; &#x43E;&#x433;&#x440;&#x430;&#x43D;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x439;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x41A;&#x43E;&#x43B;&#x438;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43E;
+        &#x438;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440;&#x43E;&#x432;
+        &#x434;&#x43B;&#x44F; &#x43E;&#x434;&#x43D;&#x43E;&#x433;&#x43E; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430;</td>
+      <td
+      style="text-align:left">2</td>
+        <td style="text-align:left">&#x221E;</td>
+        <td style="text-align:left">&#x221E;</td>
+        <td style="text-align:left">&#x221E;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MejLMw1khYQ4InjRAys/trading-panels/multiple-order-entry">&#x41F;&#x430;&#x43D;&#x435;&#x43B;&#x44C; &#x432;&#x432;&#x43E;&#x434;&#x430; &#x43C;&#x443;&#x43B;&#x44C;&#x442;&#x438;-&#x43E;&#x440;&#x434;&#x435;&#x440;&#x43E;&#x432;</a>
       </td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Simultaneous connections</td>
       <td style="text-align:left">&#x2716;</td>
-      <td style="text-align:left">Only Crypto</td>
-      <td style="text-align:left">Any</td>
-      <td style="text-align:left">Any</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Indicators per 1 chart</td>
-      <td style="text-align:left">2</td>
-      <td style="text-align:left">&#x221E;</td>
-      <td style="text-align:left">&#x221E;</td>
-      <td style="text-align:left">&#x221E;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../trading-panels/multiple-order-entry.md">Multiple Order Entry</a>
-      </td>
-      <td style="text-align:left">&#x2716;</td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../analytics-panels/chart/chart-overlays.md">Chart Overlays</a>
+      <td style="text-align:left"><a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MejLMw1khYQ4InjRAys/analytics-panels/chart/chart-overlays">&#x41D;&#x430;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x43E;&#x432;</a>
       </td>
       <td style="text-align:left">1</td>
       <td style="text-align:left">&#x221E;</td>
@@ -258,7 +266,39 @@ description: >-
       <td style="text-align:left">&#x221E;</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../analytics-panels/chart/chart-types/renko.md">Renko chart</a>
+      <td style="text-align:left"><a href="../analytics-panels/chart/chart-types/renko.md">Renko </a>&#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;</td>
+      <td
+      style="text-align:left">&#x2716;</td>
+        <td style="text-align:left">&#x2714;</td>
+        <td style="text-align:left">&#x2714;</td>
+        <td style="text-align:left">&#x2714;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="../analytics-panels/chart/chart-types/kagi.md">Kagi &#x433;</a>&#x440;&#x430;&#x444;&#x438;&#x43A;</td>
+      <td
+      style="text-align:left">&#x2716;</td>
+        <td style="text-align:left">&#x2714;</td>
+        <td style="text-align:left">&#x2714;</td>
+        <td style="text-align:left">&#x2714;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="../analytics-panels/chart/chart-types/points-and-figures.md">Point &amp; Figure </a>&#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;</td>
+      <td
+      style="text-align:left">&#x2716;</td>
+        <td style="text-align:left">&#x2714;</td>
+        <td style="text-align:left">&#x2714;</td>
+        <td style="text-align:left">&#x2714;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="../analytics-panels/chart/chart-types/heiken-ashi.md">Heiken Ashi</a> &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;</td>
+      <td
+      style="text-align:left">&#x2716;</td>
+        <td style="text-align:left">&#x2714;</td>
+        <td style="text-align:left">&#x2714;</td>
+        <td style="text-align:left">&#x2714;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MejLMw1khYQ4InjRAys/analytics-panels/chart/chart-types/range-bars">&#x420;&#x435;&#x43D;&#x434;&#x436; &#x431;&#x430;&#x440;&#x44B;</a>
       </td>
       <td style="text-align:left">&#x2716;</td>
       <td style="text-align:left">&#x2714;</td>
@@ -266,7 +306,7 @@ description: >-
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../analytics-panels/chart/chart-types/kagi.md">Kagi chart</a>
+      <td style="text-align:left"><a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MejLMw1khYQ4InjRAys/analytics-panels/chart/chart-types/volume-bars">&#x421;&#x442;&#x43E;&#x43B;&#x431;&#x438;&#x43A;&#x43E;&#x432;&#x44B;&#x439; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A; &#x43E;&#x431;&#x44A;&#x435;&#x43C;&#x430;</a>
       </td>
       <td style="text-align:left">&#x2716;</td>
       <td style="text-align:left">&#x2714;</td>
@@ -274,39 +314,7 @@ description: >-
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../analytics-panels/chart/chart-types/points-and-figures.md">Point &amp; Figure chart</a>
-      </td>
-      <td style="text-align:left">&#x2716;</td>
-      <td style="text-align:left">&#x2714;</td>
-      <td style="text-align:left">&#x2714;</td>
-      <td style="text-align:left">&#x2714;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../analytics-panels/chart/chart-types/heiken-ashi.md">Heiken Ashi</a>
-      </td>
-      <td style="text-align:left">&#x2716;</td>
-      <td style="text-align:left">&#x2714;</td>
-      <td style="text-align:left">&#x2714;</td>
-      <td style="text-align:left">&#x2714;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../analytics-panels/chart/chart-types/range-bars.md">Range Bars</a>
-      </td>
-      <td style="text-align:left">&#x2716;</td>
-      <td style="text-align:left">&#x2714;</td>
-      <td style="text-align:left">&#x2714;</td>
-      <td style="text-align:left">&#x2714;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../analytics-panels/chart/chart-types/volume-bars.md">Volume Bars</a>
-      </td>
-      <td style="text-align:left">&#x2716;</td>
-      <td style="text-align:left">&#x2714;</td>
-      <td style="text-align:left">&#x2714;</td>
-      <td style="text-align:left">&#x2714;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../analytics-panels/watchlist.md#indicators">Indicators in Watchlist</a>
+      <td style="text-align:left"><a href="https://help.quantower.com.ru/analytics-panels/watchlist#indicators">&#x418;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440;&#x44B; &#x432; &#x441;&#x43F;&#x438;&#x441;&#x43A;&#x435; &#x43D;&#x430;&#x431;&#x43B;&#x44E;&#x434;&#x435;&#x43D;&#x438;&#x44F;</a>
       </td>
       <td style="text-align:left">&#x2716;</td>
       <td style="text-align:left">&#x2714;</td>
