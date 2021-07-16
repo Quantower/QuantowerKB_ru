@@ -114,7 +114,7 @@ description: >-
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../trading-panels/dom-trader/">DOM Trader panel</a>
+      <td style="text-align:left"><a href="https://help.quantower.com.ru/trading-panels/dom-trader">&#x41F;&#x430;&#x43D;&#x435;&#x43B;&#x44C; DOM &#x422;&#x440;&#x435;&#x439;&#x434;&#x435;&#x440;</a>
       </td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
@@ -122,7 +122,7 @@ description: >-
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../analytics-panels/time-and-sales.md">Time &amp; sales panel</a>
+      <td style="text-align:left"><a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MejEw_TByUyEHd2gJTX/analytics-panels/time-and-sales">&#x41F;&#x430;&#x43D;&#x435;&#x43B;&#x44C; &quot;&#x41B;&#x435;&#x43D;&#x442;&#x430; &#x441;&#x434;&#x435;&#x43B;&#x43E;&#x43A;&quot;</a>
       </td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
@@ -130,49 +130,55 @@ description: >-
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left">Stat matrix panel</td>
+      <td style="text-align:left">Stat matrix &#x43F;&#x430;&#x43D;&#x435;&#x43B;&#x44C;</td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left">Market Heatmap panel</td>
+      <td style="text-align:left">&#x422;&#x435;&#x43F;&#x43B;&#x43E;&#x432;&#x430;&#x44F; &#x43A;&#x430;&#x440;&#x442;&#x430;
+        &#x440;&#x44B;&#x43D;&#x43A;&#x430;</td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left">Exchange times</td>
+      <td style="text-align:left">&#x41F;&#x435;&#x440;&#x438;&#x43E;&#x434;&#x44B; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x43E;&#x441;&#x442;&#x438;
+        &#x43C;&#x438;&#x440;&#x43E;&#x432;&#x44B;&#x445; &#x431;&#x438;&#x440;&#x436;</td>
+      <td
+      style="text-align:left">&#x2714;</td>
+        <td style="text-align:left">&#x2714;</td>
+        <td style="text-align:left">&#x2714;</td>
+        <td style="text-align:left">&#x2714;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://help.quantower.com.ru/getting-started/backup-and-restore-manager">&#x41C;&#x435;&#x43D;&#x435;&#x434;&#x436;&#x435;&#x440; &#x440;&#x435;&#x437;&#x435;&#x440;&#x432;&#x43D;&#x43E;&#x433;&#x43E; &#x43A;&#x43E;&#x43F;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F;</a>
+      </td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left">Backup manager</td>
+      <td style="text-align:left"><a href="https://help.quantower.com.ru/miscellaneous-panels/history-exporter">&#x42D;&#x43A;&#x441;&#x43F;&#x43E;&#x440;&#x442;&#x435;&#x440; &#x438;&#x441;&#x442;&#x43E;&#x440;&#x438;&#x438;</a>
+      </td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left">History Exporter</td>
+      <td style="text-align:left">&#x42D;&#x43A;&#x441;&#x43F;&#x43E;&#x440;&#x442; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445;
+        &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430;</td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left">Export chart data</td>
-      <td style="text-align:left">&#x2714;</td>
-      <td style="text-align:left">&#x2714;</td>
-      <td style="text-align:left">&#x2714;</td>
-      <td style="text-align:left">&#x2714;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../quantower-algo/strategy-runner.md">Strategy Runner panel</a>
+      <td style="text-align:left"><a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MejEw_TByUyEHd2gJTX/quantower-algo/strategy-runner">&#x417;&#x430;&#x43F;&#x443;&#x441;&#x43A; &#x438; &#x442;&#x435;&#x441;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x441;&#x442;&#x440;&#x430;&#x442;&#x435;&#x433;&#x438;&#x439;</a>
       </td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
