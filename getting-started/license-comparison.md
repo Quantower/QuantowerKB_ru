@@ -322,36 +322,40 @@ description: >-
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../portfolio-panels/synthetic-symbols.md">Synthetic Symbols &amp; Spreads</a>
+      <td style="text-align:left"><a href="../portfolio-panels/synthetic-symbols.md">&#x421;&#x438;&#x43D;&#x442;&#x435;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x435; &#x441;&#x438;&#x43C;&#x432;&#x43E;&#x43B;&#x44B;</a>
       </td>
       <td style="text-align:left">&#x2716;</td>
-      <td style="text-align:left">Only Crypto</td>
-      <td style="text-align:left">&#x2714;</td>
-      <td style="text-align:left">&#x2714;</td>
+      <td style="text-align:left">&#x422;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43A;&#x440;&#x438;&#x43F;&#x442;&#x43E;</td>
+      <td
+      style="text-align:left">&#x2714;</td>
+        <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../trading-panels/trading-simulator.md">Trading Simulator</a>
+      <td style="text-align:left"><a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MejUFFB_6oO73rD0z-w/trading-panels/trading-simulator">&#x421;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x442;&#x43E;&#x440; &#x442;&#x43E;&#x440;&#x433;&#x43E;&#x432;&#x43B;&#x438;</a>
       </td>
       <td style="text-align:left">&#x2716;</td>
-      <td style="text-align:left">Only Crypto</td>
-      <td style="text-align:left">&#x2714;</td>
-      <td style="text-align:left">&#x2714;</td>
+      <td style="text-align:left">&#x422;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43A;&#x440;&#x438;&#x43F;&#x442;&#x43E;</td>
+      <td
+      style="text-align:left">&#x2714;</td>
+        <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="../trading-panels/history-player.md">Market Replay</a>
       </td>
       <td style="text-align:left">&#x2716;</td>
-      <td style="text-align:left">Only Crypto</td>
-      <td style="text-align:left">&#x2714;</td>
-      <td style="text-align:left">&#x2714;</td>
+      <td style="text-align:left">&#x422;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43A;&#x440;&#x438;&#x43F;&#x442;&#x43E;</td>
+      <td
+      style="text-align:left">&#x2714;</td>
+        <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="../miscellaneous-panels/excel-rtd-trading/">RTD Excel function</a>
       </td>
       <td style="text-align:left">&#x2716;</td>
-      <td style="text-align:left">Only Crypto</td>
-      <td style="text-align:left">&#x2714;</td>
-      <td style="text-align:left">&#x2714;</td>
+      <td style="text-align:left">&#x422;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43A;&#x440;&#x438;&#x43F;&#x442;&#x43E;</td>
+      <td
+      style="text-align:left">&#x2714;</td>
+        <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
