@@ -340,7 +340,7 @@ description: >-
         <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../trading-panels/history-player.md">Market Replay</a>
+      <td style="text-align:left"><a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MejUnJotctXZLjVyvYM/trading-panels/history-player">&#x41F;&#x43E;&#x432;&#x442;&#x43E;&#x440; &#x438;&#x441;&#x442;&#x43E;&#x440;&#x438;&#x438; &#x434;&#x43B;&#x44F; &#x442;&#x435;&#x441;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x441;&#x442;&#x440;&#x430;&#x442;&#x435;&#x433;&#x438;&#x439;</a>
       </td>
       <td style="text-align:left">&#x2716;</td>
       <td style="text-align:left">&#x422;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43A;&#x440;&#x438;&#x43F;&#x442;&#x43E;</td>
@@ -349,7 +349,7 @@ description: >-
         <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../miscellaneous-panels/excel-rtd-trading/">RTD Excel function</a>
+      <td style="text-align:left"><a href="https://help.quantower.com.ru/miscellaneous-panels/excel-rtd-trading">&#x410;&#x43D;&#x430;&#x43B;&#x438;&#x437; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445; &#x432; Excel &#x432; &#x440;&#x435;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x43C; &#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x438;  - RTD &#x444;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x44F;</a>
       </td>
       <td style="text-align:left">&#x2716;</td>
       <td style="text-align:left">&#x422;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43A;&#x440;&#x438;&#x43F;&#x442;&#x43E;</td>
