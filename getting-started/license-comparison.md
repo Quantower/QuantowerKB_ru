@@ -186,7 +186,7 @@ description: >-
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../informational-panels/event-log.md">Event Log panel</a>
+      <td style="text-align:left"><a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MejL9Ji5ssg9DIKcZSY/informational-panels/event-log">&#x416;&#x443;&#x440;&#x43D;&#x430;&#x43B; &#x438;&#x441;&#x442;&#x43E;&#x440;&#x438;&#x438; &#x432;&#x441;&#x435;&#x445; &#x441;&#x43E;&#x431;&#x44B;&#x442;&#x438;&#x439;</a>
       </td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
