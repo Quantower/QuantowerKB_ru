@@ -138,8 +138,8 @@ description: >-
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left">&#x422;&#x435;&#x43F;&#x43B;&#x43E;&#x432;&#x430;&#x44F; &#x43A;&#x430;&#x440;&#x442;&#x430;
-        &#x440;&#x44B;&#x43D;&#x43A;&#x430;</td>
+      <td style="text-align:left"><a href="https://help.quantower.com.ru/miscellaneous-panels/market-heat-map">&#x422;&#x435;&#x43F;&#x43B;&#x43E;&#x432;&#x430;&#x44F; &#x43A;&#x430;&#x440;&#x442;&#x430; &#x440;&#x44B;&#x43D;&#x43A;&#x430;</a>
+      </td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
       <td style="text-align:left">&#x2714;</td>
