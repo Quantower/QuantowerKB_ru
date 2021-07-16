@@ -427,7 +427,7 @@ description: >-
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="../analytics-panels/chart/anchored-vwap.md">Anchored VWAP (custom)</a>
+      <td style="text-align:left"><a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Mej_u0ML051BEEcUysb/analytics-panels/chart/anchored-vwap">&#x41F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x441;&#x43A;&#x438;&#x439; VWAP</a>
       </td>
       <td style="text-align:left">&#x2716;</td>
       <td style="text-align:left">&#x2714;</td>
@@ -435,7 +435,7 @@ description: >-
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="https://www.quantower.com/blog/binance-futures-in-quantower-dynamic-poc-and-recent-bid-ask-in-the-dom#dynamic-vpoc-indicator">Dynamic VPOC indicator</a>
+      <td style="text-align:left"><a href="https://www.quantower.com/blog/binance-futures-in-quantower-dynamic-poc-and-recent-bid-ask-in-the-dom#dynamic-vpoc-indicator">&#x418;&#x43D;&#x434;&#x438;&#x43A;&#x430;&#x442;&#x43E;&#x440; Dynamic VPOC </a>
       </td>
       <td style="text-align:left">&#x2716;</td>
       <td style="text-align:left">&#x2714;</td>
@@ -450,15 +450,7 @@ description: >-
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="../analytics-panels/tpo-chart.md"><b>TPO Chart</b></a>  <b>*</b>
-      </td>
-      <td style="text-align:left">&#x2716;</td>
-      <td style="text-align:left">&#x2716;</td>
-      <td style="text-align:left">&#x2716;</td>
-      <td style="text-align:left">&#x2714;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.quantower.com/dom-surface"><b>DOM Surface</b></a> *</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Mej_u0ML051BEEcUysb/analytics-panels/tpo-chart"><b>TPO &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A; *</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">&#x2716;</td>
         <td style="text-align:left">&#x2716;</td>
@@ -466,7 +458,7 @@ description: >-
         <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="../analytics-panels/chart/power-trades.md"><b>Power Trades</b></a> *</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.quantower.com/dom-surface"><b>&#x41F;&#x43E;&#x432;&#x435;&#x440;&#x445;&#x43D;&#x43E;&#x441;&#x442;&#x44C; DOM*</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">&#x2716;</td>
         <td style="text-align:left">&#x2716;</td>
@@ -474,7 +466,15 @@ description: >-
         <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="../analytics-panels/option-analytics.md"><b>Option Analytics</b></a> *</td>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Mej_u0ML051BEEcUysb/analytics-panels/chart/power-trades"><b>Power Trades &#x441;&#x43A;&#x430;&#x43D;&#x435;&#x440; *</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td
+      style="text-align:left">&#x2716;</td>
+        <td style="text-align:left">&#x2716;</td>
+        <td style="text-align:left">&#x2716;</td>
+        <td style="text-align:left">&#x2714;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>*</b><a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Mej_u0ML051BEEcUysb/analytics-panels/option-analytics"><b>&#x410;&#x43D;&#x430;&#x43B;&#x438;&#x437; &#x43E;&#x43F;&#x446;&#x438;&#x43E;&#x43D;&#x43E;&#x432;</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:left">4 strikes</td>
         <td style="text-align:left">4 strikes</td>
@@ -484,5 +484,5 @@ description: >-
   </tbody>
 </table>
 
-Licenses that are marked with the symbol \(\*\) can be purchased separately.
+Лицензии, отмеченные символом \(\*\), можно приобрести отдельно.
 
