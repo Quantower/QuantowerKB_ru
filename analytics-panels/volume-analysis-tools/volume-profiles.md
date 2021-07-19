@@ -47,7 +47,7 @@ description: >-
 
 Вы можете изменить "шаг" построения профиля объема в настройках, как указано ниже:
 
-![](../../.gitbook/assets/polzoatelskii-shag-levyi-obem.gif)
+![](../../.gitbook/assets/polzoatelskii-shag-levyi-obem-ru.gif)
 
 ## Пользовательский профиль объема
 
