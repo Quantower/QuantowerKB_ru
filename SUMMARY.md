@@ -46,7 +46,7 @@
   * [Connection to Rithmic](connections/connection-to-rithmic.md)
   * [Connection to Interactive Brokers](connections/connect-quantower-to-interactive-broker.md)
   * [Подключение к Bybit](connections/connection-to-bybit.md)
-  * [Connection to MetaStock](connections/connection-to-metastock.md)
+  * [Подключение к MetaStock](connections/connection-to-metastock.md)
   * [Connection to IQFeed](connections/connection-to-iqfeed.md)
   * [Connection to Exante](connections/connection-to-exante.md)
   * [Connection to Quandl](connections/connection-to-quandl.md)
