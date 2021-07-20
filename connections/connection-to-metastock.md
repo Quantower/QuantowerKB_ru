@@ -31,9 +31,9 @@ Metastock предлагает базу данных различных анал
 
 ## Запуск Quantower с подключением к Metastock
 
-Select Metastock connection in the Quantower connection manager and press Connect. That will also launch Metastock software. Enter the credentials you’ve got from Metastock in their application.
+Выберите соединение с Metastock в диспетчере соединений Quantower и нажмите "Подключить". Это также запустит программное обеспечение Metastock. Введите учетные данные, полученные от Metastock, в их приложение.
 
-![Click on the Connect button and the platform will start Eikon platform automatically](../.gitbook/assets/connection-to-metastock.png)
+![&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x43A;&#x43D;&#x43E;&#x43F;&#x43A;&#x443; &#xAB;&#x41F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x44C;&#x441;&#x44F;&#xBB;, &#x438; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x430; &#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438; &#x437;&#x430;&#x43F;&#x443;&#x441;&#x442;&#x438;&#x442; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x443; Eikon.](../.gitbook/assets/connection-to-metastock.png)
 
-![MetaStock XENITH Eikon lauching](../.gitbook/assets/thomson-reuters-eikon-connection.png)
+![&#x417;&#x430;&#x43F;&#x443;&#x441;&#x43A; MetaStock XENITH Eikon](../.gitbook/assets/thomson-reuters-eikon-connection.png)
 
