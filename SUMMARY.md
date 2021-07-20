@@ -132,7 +132,7 @@
   * [Анализ опционов](analytics-panels/option-analytics.md)
   * [TPO диаграмма](analytics-panels/tpo-chart.md)
 * [Торговые панели](trading-panels/README.md)
-  * [Визуальный трейдинг](trading-panels/vizualnyi-treiding.md)
+  * [Торговля с графика](trading-panels/vizualnyi-treiding.md)
   * [Панель OE \(Ввод ордера\)](trading-panels/order-entry/README.md)
     * [Ввод ордера для CQG](trading-panels/order-entry/order-entry-for-cqg.md)
     * [Ввод ордера для Bybit](trading-panels/order-entry/vvod-ordera-dlya-bybit.md)
