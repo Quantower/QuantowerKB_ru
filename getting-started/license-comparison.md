@@ -17,14 +17,15 @@ description: >-
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">&#x424;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x438;</th>
-      <th style="text-align:left">&#x411;&#x435;&#x441;&#x43F;&#x43B;&#x430;&#x442;&#x43D;&#x44B;&#x439;</th>
+      <th style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.quantower.com.ru/pricing"><b>&#x424;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x438;</b></a>&lt;b&gt;&lt;/b&gt;</th>
       <th
-      style="text-align:left">&#x41A;&#x440;&#x438;&#x43F;&#x442;&#x43E; &#x43D;&#x430;&#x431;&#x43E;&#x440;</th>
+      style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.quantower.com.ru/pricing"><b>&#x411;&#x435;&#x441;&#x43F;&#x43B;&#x430;&#x442;&#x43D;&#x44B;&#x439;</b></a>&lt;b&gt;&lt;/b&gt;</th>
         <th
-        style="text-align:left">&#x41C;&#x443;&#x43B;&#x44C;&#x442;&#x438;-&#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x44B;&#x439;</th>
+        style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.quantower.com.ru/pricing"><b>&#x41A;&#x440;&#x438;&#x43F;&#x442;&#x43E; &#x43D;&#x430;&#x431;&#x43E;&#x440;</b></a>&lt;b&gt;&lt;/b&gt;</th>
           <th
-          style="text-align:left">&#x412;&#x441;&#x435; &#x432; &#x43E;&#x434;&#x43D;&#x43E;&#x43C;</th>
+          style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.quantower.com.ru/pricing"><b>&#x41C;&#x443;&#x43B;&#x44C;&#x442;&#x438;-&#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x44B;&#x439;</b></a>&lt;b&gt;&lt;/b&gt;</th>
+            <th
+            style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.quantower.com.ru/pricing"><b>&#x412;&#x441;&#x435; &#x432; &#x43E;&#x434;&#x43D;&#x43E;&#x43C;</b></a>&lt;b&gt;&lt;/b&gt;</th>
     </tr>
   </thead>
   <tbody>
@@ -224,10 +225,14 @@ description: >-
     <tr>
       <td style="text-align:left"><a href="https://www.quantower.com/advancedfeatures"><b>*&#x420;&#x410;&#x421;&#x428;&#x418;&#x420;&#x415;&#x41D;&#x41D;&#x42B;&#x415; &#x412;&#x41E;&#x417;&#x41C;&#x41E;&#x416;&#x41D;&#x41E;&#x421;&#x422;&#x418; </b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
-      style="text-align:left"></td>
-        <td style="text-align:left"></td>
-        <td style="text-align:left"></td>
-        <td style="text-align:left"></td>
+      style="text-align:left"><b>&#x411;&#x435;&#x441;&#x43F;&#x43B;&#x430;&#x442;&#x43D;&#x44B;&#x439;</b>
+        </td>
+        <td style="text-align:left"><b>&#x41A;&#x440;&#x438;&#x43F;&#x442;&#x43E; &#x43D;&#x430;&#x431;&#x43E;&#x440;</b>
+        </td>
+        <td style="text-align:left"><b>&#x41C;&#x443;&#x43B;&#x44C;&#x442;&#x438;-&#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x44B;&#x439;</b>
+        </td>
+        <td style="text-align:left"><b>&#x412;&#x441;&#x435; &#x432; &#x43E;&#x434;&#x43D;&#x43E;&#x43C;</b>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">&#x41E;&#x434;&#x43D;&#x43E;&#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x44B;&#x435;
@@ -368,10 +373,14 @@ description: >-
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://www.quantower.com/volumeanalysistools"><b>&#x418;&#x41D;&#x421;&#x422;&#x420;&#x423;&#x41C;&#x415;&#x41D;&#x422;&#x42B; &#x41E;&#x411;&#x42A;&#x415;&#x41C;&#x41D;&#x41E;&#x413;&#x41E; &#x410;&#x41D;&#x410;&#x41B;&#x418;&#x417;&#x410;</b></a><b>*</b>
       </td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"><b>&#x411;&#x435;&#x441;&#x43F;&#x43B;&#x430;&#x442;&#x43D;&#x44B;&#x439;</b>
+      </td>
+      <td style="text-align:left"><b>&#x41A;&#x440;&#x438;&#x43F;&#x442;&#x43E; &#x43D;&#x430;&#x431;&#x43E;&#x440;</b>
+      </td>
+      <td style="text-align:left"><b>&#x41C;&#x443;&#x43B;&#x44C;&#x442;&#x438;-&#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x44B;&#x439;</b>
+      </td>
+      <td style="text-align:left"><b>&#x412;&#x441;&#x435; &#x432; &#x43E;&#x434;&#x43D;&#x43E;&#x43C;</b>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MejYt0kgCZUqOxuWIxx/analytics-panels/volume-analysis-tools/cluster-chart">&#x41A;&#x43B;&#x430;&#x441;&#x442;&#x435;&#x440; - &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A; &#x444;&#x443;&#x442;&#x43F;&#x440;&#x438;&#x43D;&#x442;</a>
@@ -448,6 +457,18 @@ description: >-
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>*&#x41C;&#x43E;&#x436;&#x43D;&#x43E; &#x43F;&#x440;&#x438;&#x43E;&#x431;&#x440;&#x435;&#x441;&#x442;&#x438; &#x41E;&#x422;&#x414;&#x415;&#x41B;&#x42C;&#x41D;&#x41E;</b>
+      </td>
+      <td style="text-align:left"><b>&#x411;&#x435;&#x441;&#x43F;&#x43B;&#x430;&#x442;&#x43D;&#x44B;&#x439;</b>
+      </td>
+      <td style="text-align:left"><b>&#x41A;&#x440;&#x438;&#x43F;&#x442;&#x43E; &#x43D;&#x430;&#x431;&#x43E;&#x440;</b>
+      </td>
+      <td style="text-align:left"><b>&#x41C;&#x443;&#x43B;&#x44C;&#x442;&#x438;-&#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x44B;&#x439;</b>
+      </td>
+      <td style="text-align:left"><b>&#x412;&#x441;&#x435; &#x432; &#x43E;&#x434;&#x43D;&#x43E;&#x43C;</b>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Mej_u0ML051BEEcUysb/analytics-panels/tpo-chart"><b>TPO &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A; *</b></a>&lt;b&gt;&lt;/b&gt;</td>
