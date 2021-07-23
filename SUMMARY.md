@@ -120,7 +120,7 @@
       * [Delta Flow](analytics-panels/technical-indicators/volume/delta-flow.md)
       * [Delta Rotation](analytics-panels/technical-indicators/volume/delta-rotation.md)
       * [Level2 indicator](analytics-panels/technical-indicators/volume/level2-indicator.md)
-  * [Инструменты объемного анализа, профили объема, кластер, VWAP](analytics-panels/volume-analysis-tools/README.md)
+  * [Инструменты объемного анализа, профили объема, кластер](analytics-panels/volume-analysis-tools/README.md)
     * [Кластер](analytics-panels/volume-analysis-tools/cluster-chart.md)
     * [Профили объема](analytics-panels/volume-analysis-tools/volume-profiles.md)
     * [Статистика по времени](analytics-panels/volume-analysis-tools/time-statistics.md)
