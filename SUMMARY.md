@@ -6,6 +6,7 @@
   * [Установка программы и требования к ПК](getting-started/installation.md)
   * [Первый старт](getting-started/first-start.md)
   * [Обновление платформы](getting-started/application-updates.md)
+  * [Quantower Бета версия](getting-started/quantower-beta-versiya.md)
   * [Учетная запись Quantower](getting-started/quantower-account.md)
   * [Лицензии Quantower](getting-started/quantower-licenses.md)
   * [Сравнение лицензий](getting-started/license-comparison.md)
