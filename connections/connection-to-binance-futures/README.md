@@ -63,6 +63,12 @@ description: >-
 
 ![](../../.gitbook/assets/image%20%2890%29.png)
 
+{% hint style="danger" %}
+Перейдите в раздел фьючерсной торговли и пройдите тест, чтобы активировать свой фьючерсный счет.
+{% endhint %}
+
+![](../../.gitbook/assets/image%20%283%29.png)
+
 ### Как подключится  Binance Futures или Binance spot используя  Quantower
 
 * Запустите платформу Quantower и откройте диспетчер подключений. Выберите в списке Binance Futures или  Binance и выберите тип подключений - ИНФОРМАЦИОННЫЙ или ТОРГОВЫЙ режим. 
