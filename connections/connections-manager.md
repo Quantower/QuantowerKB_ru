@@ -20,16 +20,16 @@ description: >-
 
 Окно диспетчера подключений состоит из двух столбцов: список подключений и информация о подключении. Столбец информации о подключении содержит информацию об активном подключении или форме входа в систему, если текущее подключение неактивно.
 
-Each active connection is marked with green Status dot by the left hand from its name. The "_**Star**_" icon indicates that connection is favorite and displayed on Control center toolbar. This icon is also used to **add/remove** a connection **from favorites**.
+Каждое активное соединение отмечается зеленой точкой состояния слева от его имени. Значок «Звездочка» указывает на то, что соединение является избранным и отображается на панели инструментов Центра управления. Этот значок также используется для добавления / удаления соединения из избранного.
 
-Connection login form varies depending on integration requirements. Usually, it has Login & password fields and “_**Connect**_” button. This button initiates the authorization process. Some integrations have settings \(a “_**Gear**_” icon on the right side of connection logo\) and account creation button \(a “_**User with plus**_” icon on the right side of “_**Connect**_” button\). Account creation redirects you to the integration vendor website.
+Форма входа для подключения зависит от требований интеграции. Обычно в нем есть поля для входа и пароля, а также кнопка «**Подключиться**». Эта кнопка запускает процесс авторизации. Некоторые интеграции имеют свои [**настройки подключения.**](connections-manager.md#nastroiki-podklyucheniya) Создание учетной записи перенаправляет вас на веб-сайт поставщика интеграции.
 
-Once connected, info column will contain the data about ping and current connection status text. There is a “_**Disconnect**_” button also.
+После подключения информационная колонка будет содержать данные о пинге и текст текущего статуса подключения. Также есть кнопка «**Отключить**».
 
-## Multi-connect
+## Мультиподключение
 
 {% hint style="info" %}
-Quantower supports multiple connections simultaneously, but this function available under paid licenses — Advanced Features, Crypto Package, Multi-Asset package and All-In-One License.
+Quantower поддерживает несколько подключений одновременно, но эта функция доступна по платным лицензиям - Advanced Features, Crypto Package, Multi-Asset package и All-In-One License. На странице [**сравнение лицензий**](https://help.quantower.com.ru/getting-started/license-comparison) ****можно увидеть ограничения по мультиподключениям для бесплатной лицензии.
 {% endhint %}
 
 ![Multiple connections in Quantower at the same time ](../.gitbook/assets/multiple-connections.png)
