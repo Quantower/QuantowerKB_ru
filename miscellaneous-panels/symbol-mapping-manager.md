@@ -1,12 +1,12 @@
 ---
 description: >-
-  This panel is used to receive data from one broker that provides it and trade
-  with another broker.
+  Эта панель используется для получения данных от одного брокера, который их
+  предоставляет, и для торговли с другим брокером.
 ---
 
-# Symbol Mapping Manager
+# Диспетчер сопоставления символов
 
-For example, Lmax provides tick history to build a volume profile, but Oanda does not. So you can get volume data on Lmax and trade on Oanda. Watch the video for more details
+Например, Lmax предоставляет тиковую историю для построения профиля объема, а Oanda - нет. Таким образом, вы можете получать данные об объеме на Lmax и торговать на Oanda. Смотрите видео для более подробной информации
 
 {% embed url="https://www.youtube.com/watch?v=V\_v4VXTXd2c" caption="" %}
 

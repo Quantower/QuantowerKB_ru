@@ -162,7 +162,7 @@
   * [Reports](informational-panels/reports.md)
 * [Вспомогательные](miscellaneous-panels/README.md)
   * [History Exporter](miscellaneous-panels/history-exporter.md)
-  * [Symbol Mapping Manager](miscellaneous-panels/symbol-mapping-manager.md)
+  * [Диспетчер сопоставления символов](miscellaneous-panels/symbol-mapping-manager.md)
   * [Live Support](miscellaneous-panels/live-support.md)
   * [Market Heat map](miscellaneous-panels/market-heat-map.md)
   * [Stat matrix](miscellaneous-panels/stat-matrix.md)
