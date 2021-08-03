@@ -16,9 +16,9 @@ description: >-
 
 **Диспетчер подключений** - это экран, который позволяет вам выбрать из доступных подключений те, с которыми вы торгуете, и подключиться к ним, используя свои учетные записи. При подключении к любому брокеру или бирже диспетчер подключений запоминает ваши учетные данные и будет использовать их для дальнейших автоматических подключений \(повторное подключение в случае ошибок\). Если вы не хотите хранить свои учетные данные в диспетчере, просто щелкните значок «Заблокировать» в форме входа.
 
-![Connections manager screen with multiple accounts](../.gitbook/assets/multiple-accounts.gif)
+![&#x41E;&#x43A;&#x43D;&#x43E; &#x434;&#x438;&#x441;&#x43F;&#x435;&#x442;&#x447;&#x435;&#x440;&#x430; &#x43F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x439; &#x441; &#x43D;&#x435;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x438;&#x43C;&#x438; &#x443;&#x447;&#x435;&#x442;&#x43D;&#x44B;&#x43C;&#x438; &#x437;&#x430;&#x43F;&#x438;&#x441;&#x44F;&#x43C;&#x438;](../.gitbook/assets/multiple-accounts.gif)
 
-Connections manager screen consists of two columns: connections list & connection info. Connection info column holds information about the active connection or Login form, in case if the current connection is not active.
+Окно диспетчера подключений состоит из двух столбцов: список подключений и информация о подключении. Столбец информации о подключении содержит информацию об активном подключении или форме входа в систему, если текущее подключение неактивно.
 
 Each active connection is marked with green Status dot by the left hand from its name. The "_**Star**_" icon indicates that connection is favorite and displayed on Control center toolbar. This icon is also used to **add/remove** a connection **from favorites**.
 
