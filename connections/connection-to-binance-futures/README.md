@@ -34,7 +34,7 @@ description: >-
 {% endhint %}
 
 * Если Вы хотите открыть реальный счет, перейдите по ссылке [https://www.binance.com/en/futures](https://www.binance.com/en/futures)
-* Если нужно открыть тестовый счет, перейдите по ссылке [https://testnet.binancefuture.com/en/futures/BTCUSDT](https://testnet.binancefuture.com/en/futures/BTCUSDT)
+* Если нужно открыть тестовый счет, перейдите по ссылке [https://testnet.binancefuture.com/](https://testnet.binancefuture.com/en/futures/BTCUSDT)
 
 ![](../../.gitbook/assets/create-account-binance-futures.png)
 
