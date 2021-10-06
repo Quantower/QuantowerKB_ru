@@ -11,12 +11,8 @@ description: >-
 
 * \*\*\*\*[**Как открыть панель "копирование сделок" и где она находится.**](kopirovanie-sdelok.md#kak-otkryt-panel-kopirovanie-sdelok-i-gde-ona-nakhoditsya)\*\*\*\*
 * \*\*\*\*[**Как работает панель "копирование сделок" и в чем ее отличие от панели "Мультиордера"**](kopirovanie-sdelok.md#kak-rabotaet-panel-kopirovanie-sdelok-i-v-chem-ee-otlichie-ot-paneli-multiordera)\*\*\*\*
-
-  * \*\*\*\*[**Список созданных алгоритмов \(ботов\)**](kopirovanie-sdelok.md#spisok-sozdannykh-algoritmov-botov)\*\*\*\*
-  * \*\*\*\*
-
-  \*\*\*\*
-
+  * \*\*\*\*[**Верхняя часть - Список созданных алгоритмов \(ботов\)**](kopirovanie-sdelok.md#verkhnyaya-chast-spisok-sozdannykh-algoritmov-botov)\*\*\*\*
+  * \*\*\*\*[**Нижняя часть - Журнал всех действий**](kopirovanie-sdelok.md#nizhnyaya-chast-zhurnal-vsekh-deistvii)\*\*\*\*
 * 
 \*\*\*\*
 
