@@ -25,6 +25,10 @@ description: >-
 
 Данная панель позволяет полностью автоматизировать сделки между мультиаккаунтами одного соединения по заранее созданному сценарию.   В отличии от панели  [**"Мультиордера"**](https://help.quantower.com.ru/trading-panels/multiple-order-entry)**,**  на данной панели единожды ****создав алгоритм для бота, сделки в дальнейшем будут полностью автоматически копироваться без участия трейдера  в указанный аккаунт при каждом совершенном трейде.
 
+{% hint style="info" %}
+Панель "Копирование сделок" поддерживает следующие соединения: [**"FTX"**](https://help.quantower.com.ru/connections/connection-to-ftx)**,** [**"Binance", "Binance Futures"**,](https://help.quantower.com.ru/connections/connection-to-binance-futures) "Bitfinex", [**"Rithmic",**](https://help.quantower.com.ru/connections/connection-to-rithmic) ****[**"Bybit",** ](../connections/connection-to-bybit.md)"BitMEX",[ **"Interactive Brokers"**](https://help.quantower.com.ru/connections/connect-quantower-to-interactive-broker)\*\*\*\*
+{% endhint %}
+
 При этом можно наблюдать визуально полную синхронизацию сделок открыв одновременно два графика. Можно увидеть отображение тех сделок на графике, которые бот создает автоматически. Каждое передвижение позиций, SL/TP будет автоматически продублировано на второй коннект.
 
 ![](../.gitbook/assets/kopirovanie-sdelok-obshii-vid.png)
