@@ -145,6 +145,7 @@
   * [Симулятор торговли](trading-panels/trading-simulator.md)
   * [Рыночный повтор](trading-panels/history-player.md)
   * [Ячейка FX](trading-panels/fx-cell.md)
+  * [Копирование сделок](trading-panels/kopirovanie-sdelok.md)
 * [Портфолио панели](portfolio-panels/README.md)
   * [Позиции](portfolio-panels/positions.md)
   * [Рабочие ордера](portfolio-panels/working-orders.md)
