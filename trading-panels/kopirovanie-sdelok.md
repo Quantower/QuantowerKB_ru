@@ -13,7 +13,8 @@ description: >-
 * \*\*\*\*[**Как работает панель "копирование сделок" и в чем ее отличие от панели "Мультиордера"**](kopirovanie-sdelok.md#kak-rabotaet-panel-kopirovanie-sdelok-i-v-chem-ee-otlichie-ot-paneli-multiordera)\*\*\*\*
   * \*\*\*\*[**Верхняя часть - Список созданных алгоритмов \(ботов\)**](kopirovanie-sdelok.md#verkhnyaya-chast-spisok-sozdannykh-algoritmov-botov)\*\*\*\*
   * \*\*\*\*[**Нижняя часть - Журнал всех действий**](kopirovanie-sdelok.md#nizhnyaya-chast-zhurnal-vsekh-deistvii)\*\*\*\*
-* 
+* \*\*\*\*[**Родительские и дочерние подключения**](kopirovanie-sdelok.md#roditelskie-i-dochernie-podklyucheniya)\*\*\*\*
+
 ### **Как открыть панель "копирование сделок" и где она находится.**
 
 Панель относится к торговым панелям и ее можно найти в группе "торговых панелей" в главном меню платформы, нажав на кнопку в верхнем левом углу.
