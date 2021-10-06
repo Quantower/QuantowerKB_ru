@@ -19,7 +19,7 @@ description: >-
 * \*\*\*\*[**Создание  бота по копированию торговли**](kopirovanie-sdelok.md#sozdanie-bota-po-kopirovaniyu-torgovli)\*\*\*\*
 * \*\*\*\*[**QTY copy mode - два режима для выбора объема торговли на дочерних счетах \(коннектах\)**](kopirovanie-sdelok.md#qty-copy-mode-dva-rezhima-dlya-vybora-obema-torgovli-na-dochernikh-schetakh-konnektakh)\*\*\*\*
   * \*\*\*\*[**Percentage - % на сделку от баланса пропорционально родительскому счету \(аккаунту\)**](kopirovanie-sdelok.md#percentage-na-sdelku-ot-balansa-proporcionalno-roditelskomu-schetu-akkauntu)\*\*\*\*
-  * 
+  * \*\*\*\*[**Multiplier - множитель, К от сделки родительского счета**](kopirovanie-sdelok.md#multiplier-mnozhitel-k-ot-sdelki-roditelskogo-scheta)\*\*\*\*
 
 ### **Как открыть панель "копирование сделок" и где она находится.**
 
