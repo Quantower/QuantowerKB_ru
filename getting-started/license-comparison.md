@@ -124,6 +124,14 @@ description: >-
       <td style="text-align:left">&#x2714;</td>
     </tr>
     <tr>
+      <td style="text-align:left"><a href="https://help.quantower.com.ru/trading-panels/kopirovanie-sdelok">&#x41F;&#x430;&#x43D;&#x435;&#x43B;&#x44C; &#x41A;&#x43E;&#x43F;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x441;&#x434;&#x435;&#x43B;&#x43E;&#x43A;</a>
+      </td>
+      <td style="text-align:left">&#x2714;</td>
+      <td style="text-align:left">&#x2714;</td>
+      <td style="text-align:left">&#x2714;</td>
+      <td style="text-align:left">&#x2714;</td>
+    </tr>
+    <tr>
       <td style="text-align:left"><a href="https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-MejEw_TByUyEHd2gJTX/analytics-panels/time-and-sales">&#x41F;&#x430;&#x43D;&#x435;&#x43B;&#x44C; &quot;&#x41B;&#x435;&#x43D;&#x442;&#x430; &#x441;&#x434;&#x435;&#x43B;&#x43E;&#x43A;&quot;</a>
       </td>
       <td style="text-align:left">&#x2714;</td>
