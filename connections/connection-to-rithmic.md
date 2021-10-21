@@ -1,42 +1,42 @@
 ---
 description: >-
-  Rithmic technology provides access for trading futures and options on CME,
-  CBOT, NYMEX and other exchanges. Full market depth, reliable data and great
-  execution are main features of Rithmic.
+  Технология Rithmic обеспечивает доступ к торговле фьючерсами и опционами на
+  CME, CBOT, NYMEX и других биржах. Полная глубина рынка, надежные данные и
+  отличное исполнение - вот основные характеристики
 ---
 
 # Connection to Rithmic
 
-To connect Quantower to a broker that uses Rithmic technology, it is sufficient to have \(or create a new\) account.
+Чтобы подключить Quantower к брокеру, использующему технологию Rithmic, достаточно иметь (или создать новую) учетную запись.
 
-* \*\*\*\*[**Connection for Existed Accounts**](connection-to-rithmic.md#connection-for-existed-accounts)\*\*\*\*
-* \*\*\*\*[**Connection for New Accounts**](connection-to-rithmic.md#connection-for-new-accounts)\*\*\*\*
-* \*\*\*\*[**Problems during the connection to Rithmic**](connection-to-rithmic.md#problems-during-the-connection-to-rithmic)\*\*\*\*
+* ****[**Как подключить существующую учетную запись**](connection-to-rithmic.md#kak-podklyuchit-sushestvuyushuyu-uchetnuyu-zapis)****
+* ****[**Создание и подключение новой учетной записи.**](connection-to-rithmic.md#creating-a-new-accounts-and-further-connection)****
+* [**Problems during the connection to Rithmic**](connection-to-rithmic.md#problems-during-the-connection-to-rithmic)
 
-## Connection for Existed Accounts
+## Как подключить существующую учетную запись
 
-* \*\*\*\*[**Download and install R Trader Pro**](http://yyy3.rithmic.com/?page_id=16) from Rithmic official website.
-* Open connection manager, select **Rithmic** and specify the type of connection \(**Demo / Real**\). 
-* Click on **Connection Settings** and **activate Use RTrader** option to avoid additonal fees for subscription to market data. If necessary, trader can change the server. By default, the Rithmic Paper Chicago server is set for demo accounts and the Rithmic Aurora Chicago server is set for real accounts.
-* Enter your login and password and click **Connect.**
+* [**Загрузите и установите RTrader Pro**](https://yyy3.rithmic.com/?page\_id=16) с официального сайта Rithmic
+* Откройте диспетчер соединений на платформе Quantower, выберите Rithmic и укажите тип соединения (Demo / Real).
+* Нажмите «Настройки подключения» и активируйте опцию «Использовать RTrader», чтобы избежать дополнительной оплаты за подписку на рыночные данные. При необходимости трейдер может изменить сервер. По умолчанию сервер Rithmic Paper Chicago настроен для демо счетов, а сервер Rithmic Aurora Chicago настроен для реальных счетов.
+* Введите свой логин и пароль и нажмите "Подключиться".
 
-![Enter login data for connection to Rithmic](../.gitbook/assets/rithmic-connection.png)
+![Введите данные для входа в систему для подключения к Rithmic.](../.gitbook/assets/rithmic-connection.png)
 
 {% hint style="info" %}
-Starting from May 1, the [CME exchange сhanged the rules for determining a professional market participant](http://yyy3.rithmic.com/?p=1069), and as a result, increased the fee for the market data. In order to correctly define the professional participant, Ritmic has changed the connection parameters in their platform, as well as in API for platforms such as Quantower.
+С 1 мая 2020, биржа [**CME изменила правила определения профессионального участника рынка**](https://yyy3.rithmic.com/?p=1069) и, как следствие, увеличила комиссию за рыночные данные. Чтобы правильно определить профессионального участника, Ritmic изменил параметры подключения на своей платформе, а также в API для таких платформ, как Quantower.&#x20;
 
-To avoid additional fees for subscription to market data, a trader needs to login through the R Trader Pro platform and activate the setting in Quantower, which is called **Use RTrader**.
+Чтобы избежать дополнительной оплаты за подписку на рыночные данные, трейдеру необходимо подключиться через платформу RTrader Pro в режиме **Allow Plugins,** а также активировать настройку в Quantower, которая называется **Use RTrader**.
 {% endhint %}
 
-![Activate Use RTrader option to avoid additonal fees for subscription to market data](../.gitbook/assets/rithmic-plugin.gif)
+![Активируйте опцию Use RTrader, чтобы избежать дополнительной оплаты за подписку на рыночные данные](../.gitbook/assets/rithmic-plugin.gif)
 
-## Creating a New Accounts and further connection
+## Создание и подключение новой учетной записи.
 
-* \*\*\*\*[**Create a new demo**](https://rithmic.com/demo.html#sign-up) or open a real account with any broker supporting Rithmic technology, accept agreements, and start using our platform.
+* [**Create a new demo**](https://rithmic.com/demo.html#sign-up) or open a real account with any broker supporting Rithmic technology, accept agreements, and start using our platform.
 
-{% embed url="https://youtu.be/3kpiOCiqE5Q" caption="" %}
+{% embed url="https://youtu.be/3kpiOCiqE5Q" %}
 
-* To register [**Rithmic Demo**](https://rithmic.com/demo.html#sign-up) **go to their official website or** follow this [link](https://rithmic.com/demo.html#sign-up)
+* To register [**Rithmic Demo**](https://rithmic.com/demo.html#sign-up) **go to their official website or **follow this [link](https://rithmic.com/demo.html#sign-up)
 * Fill in all the required fields
 * Accept _**"Market Data Subscription Agreement"**_ and _"**Market Data Self-Certification"**_
 * Account will be activated within 30-60 minutes.
@@ -45,7 +45,7 @@ To avoid additional fees for subscription to market data, a trader needs to logi
 
 Sometimes, when connecting to the Rithmic, you may see the error **"**_**Market Data Connection Closed".**_
 
-![Rithmic error &quot;Market Data Connection Closed&quot; in Quantower](../.gitbook/assets/connections-error-with-rithmic.png)
+![Rithmic error "Market Data Connection Closed" in Quantower](../.gitbook/assets/connections-error-with-rithmic.png)
 
 This error message is most commonly encountered by _**new Rithmic users for various reasons**_ and is not within the control of Quantower platform. More often it occurs for the following reasons:
 
@@ -57,5 +57,4 @@ This error message is most commonly encountered by _**new Rithmic users for vari
 
 If you enable Use RTrader plugin in Connection Settings and still can not connect to Rithmic, please check that you have more than 1 active session for Market data.
 
-![](../.gitbook/assets/image%20%28100%29.png)
-
+![](<../.gitbook/assets/image (100).png>)
