@@ -4,7 +4,10 @@ description: Мощнейшие инструменты для рисования
 
 # Инструменты рисования
 
-{% embed url="https://www.youtube.com/watch?v=NSX4JQq6i7U" caption="Как добавить любимые инструменты рисования на боковую панель" %}
+{% embed url="https://www.youtube.com/watch?v=NSX4JQq6i7U" %}
+Как добавить любимые инструменты рисования на боковую панель
+{% endembed %}
 
-{% embed url="https://www.youtube.com/watch?v=BtC9iJEOcjY" caption="Узнайте, как синхронизировать инструменты рисования между несколькими диаграммами" %}
-
+{% embed url="https://www.youtube.com/watch?v=BtC9iJEOcjY" %}
+Узнайте, как синхронизировать инструменты рисования между несколькими диаграммами
+{% endembed %}

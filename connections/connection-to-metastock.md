@@ -7,24 +7,24 @@ description: >-
 
 # Подключение к MetaStock
 
-* \*\*\*\*[**Как создать учетную запись MetaStock XENITH / EIKON?**](connection-to-metastock.md#kak-sozdat-uchetnuyu-zapis-metastock-xenith-eikon)\*\*\*\*
-* [**Скачайте и установите Metastock XENITH**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Mf2S4zWrMsbBFI05SuA/connections/connection-to-metastock#download-and-install-metastock-xenith)\*\*\*\*
-* \*\*\*\*[**Запуск Quantower с подключением к Metastock**](https://app.gitbook.com/@quantower/s/quantower-ru/~/drafts/-Mf2S4zWrMsbBFI05SuA/connections/connection-to-metastock#launch-quantower-with-metastock-connection)\*\*\*\*
-* \*\*\*\*[**Как добавить символ на график или на другую панель**](connection-to-metastock.md#kak-dobavit-simvol-na-grafik-ili-na-druguyu-panel)\*\*\*\*
+* ****[**Как создать учетную запись MetaStock XENITH / EIKON?**](connection-to-metastock.md#kak-sozdat-uchetnuyu-zapis-metastock-xenith-eikon)****
+* [**Скачайте и установите Metastock XENITH**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-Mf2S4zWrMsbBFI05SuA/connections/connection-to-metastock#download-and-install-metastock-xenith)****
+* ****[**Запуск Quantower с подключением к Metastock**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-Mf2S4zWrMsbBFI05SuA/connections/connection-to-metastock#launch-quantower-with-metastock-connection)****
+* ****[**Как добавить символ на график или на другую панель**](connection-to-metastock.md#kak-dobavit-simvol-na-grafik-ili-na-druguyu-panel)****
 
 ## Как создать учетную запись MetaStock XENITH / EIKON?
 
-[**Перейдите по ссылке**](https://www.metastock.com/offer/ek/?whc=quantowerek&pc=Eq-quantower) и нажмите кнопку _**«Получить БЕСПЛАТНУЮ пробную версию XENITH на 1 месяц»**_. Выберите рыночные данные, на которые вы хотите подписаться.
+[**Перейдите по ссылке**](https://www.metastock.com/offer/ek/?whc=quantowerek\&pc=Eq-quantower) и нажмите кнопку _**«Получить БЕСПЛАТНУЮ пробную версию XENITH на 1 месяц»**_. Выберите рыночные данные, на которые вы хотите подписаться.
 
-![&#x426;&#x435;&#x43D;&#x44B; &#x43D;&#x430; &#x43F;&#x43E;&#x434;&#x43F;&#x438;&#x441;&#x43A;&#x443; &#x43D;&#x430; &#x431;&#x438;&#x440;&#x436;&#x435;&#x432;&#x44B;&#x435; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435; MetaStock XENITH](../.gitbook/assets/pricing-metastoc-xenith-_-eikon.png)
+![Цены на подписку на биржевые данные MetaStock XENITH](../.gitbook/assets/pricing-metastoc-xenith-\_-eikon.png)
 
-Metastock предлагает базу данных различных аналитических данных, разделенных не только по типам, но и по регионам. Например, если вам нужны рыночные данные для конкретной биржи или региона \(Азия, Европа\), вы можете легко выбрать их на их веб-сайте. Но мы рекомендуем использовать для этого обратиться в поддержку Metastock, которая поможет вам создать план данных, соответствующий вашим требованиям.
+Metastock предлагает базу данных различных аналитических данных, разделенных не только по типам, но и по регионам. Например, если вам нужны рыночные данные для конкретной биржи или региона (Азия, Европа), вы можете легко выбрать их на их веб-сайте. Но мы рекомендуем использовать для этого обратиться в поддержку Metastock, которая поможет вам создать план данных, соответствующий вашим требованиям.
 
-![MetaStock Eikon &#x432; &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x438;](../.gitbook/assets/screenshot_3%20%281%29.png)
+![MetaStock Eikon в действии](<../.gitbook/assets/screenshot\_3 (1).png>)
 
 **Создайте учетную запись**, чтобы получать их продукты. Если у вас уже есть учетная запись, войдите в систему.
 
-![&#x412;&#x43E;&#x439;&#x434;&#x438;&#x442;&#x435; &#x432; &#x441;&#x432;&#x43E;&#x44E; &#x443;&#x447;&#x435;&#x442;&#x43D;&#x443;&#x44E; &#x437;&#x430;&#x43F;&#x438;&#x441;&#x44C; &#x438;&#x43B;&#x438; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x439;&#x442;&#x435; &#x43D;&#x43E;&#x432;&#x443;&#x44E;](../.gitbook/assets/create-an-account-metastock.png)
+![Войдите в свою учетную запись или создайте новую](../.gitbook/assets/create-an-account-metastock.png)
 
 ## Скачайте и установите Metastock XENITH
 
@@ -34,31 +34,29 @@ Metastock предлагает базу данных различных анал
 
 Выберите соединение с Metastock в диспетчере соединений Quantower и нажмите "Подключить". Это также запустит программное обеспечение Metastock. Введите учетные данные, полученные от Metastock, в их приложение.
 
-![&#x41D;&#x430;&#x436;&#x43C;&#x438;&#x442;&#x435; &#x43A;&#x43D;&#x43E;&#x43F;&#x43A;&#x443; &#xAB;&#x41F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x44C;&#x441;&#x44F;&#xBB;, &#x438; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x430; &#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438; &#x437;&#x430;&#x43F;&#x443;&#x441;&#x442;&#x438;&#x442; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x443; Eikon.](../.gitbook/assets/connection-to-metastock.png)
+![Нажмите кнопку «Подключиться», и платформа автоматически запустит платформу Eikon.](../.gitbook/assets/connection-to-metastock.png)
 
-![&#x417;&#x430;&#x43F;&#x443;&#x441;&#x43A; MetaStock XENITH Eikon](../.gitbook/assets/thomson-reuters-eikon-connection.png)
+![Запуск MetaStock XENITH Eikon](../.gitbook/assets/thomson-reuters-eikon-connection.png)
 
 ## Как добавить символ на график или на другую панель
 
 {% hint style="info" %}
-Из-за ограничений API подключение к MetaStock Xenith позволяет находить символы только по точному тикеру \(!\)
+Из-за ограничений API подключение к MetaStock Xenith позволяет находить символы только по точному тикеру (!)
 {% endhint %}
 
 Поисковая система на платформе Eikon позволяет искать акции по текстовому описанию или буквам любого регистра. К сожалению, этот механизм не распространяется на другие платформы через API.
 
 По этой причине важно использовать точный тикер акций, представленный на платформе Eikon. В противном случае вы не получите результатов поиска.
 
-![&#x418;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x439;&#x442;&#x435; &#x442;&#x43E;&#x447;&#x43D;&#x44B;&#x439; &#x442;&#x438;&#x43A;&#x435;&#x440; &#x430;&#x43A;&#x446;&#x438;&#x439;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x430;&#x442;&#x44C; &#x440;&#x44B;&#x43D;&#x43E;&#x447;&#x43D;&#x44B;&#x435; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x432; Quantower](../.gitbook/assets/tiker-poisk.png)
+![Используйте точный тикер акций, чтобы получать рыночные данные в Quantower](../.gitbook/assets/tiker-poisk.png)
 
-![&#x418;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x439;&#x442;&#x435; &#x442;&#x43E;&#x447;&#x43D;&#x44B;&#x439; &#x442;&#x438;&#x43A;&#x435;&#x440; &#x430;&#x43A;&#x446;&#x438;&#x439;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x430;&#x442;&#x44C; &#x440;&#x44B;&#x43D;&#x43E;&#x447;&#x43D;&#x44B;&#x435; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x432; Quantower](../.gitbook/assets/tiker-2%20%281%29.png)
+![Используйте точный тикер акций, чтобы получать рыночные данные в Quantower](<../.gitbook/assets/tiker-2 (1).png>)
 
-![&#x41F;&#x43E;&#x438;&#x441;&#x43A; &#x43F;&#x43E; &#x43E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x44E; &#x43D;&#x435; &#x43D;&#x430;&#x439;&#x434;&#x435;&#x442; &#x430;&#x43A;&#x446;&#x438;&#x438;](../.gitbook/assets/poisk-po-opisaniyu.png)
+![Поиск по описанию не найдет акции](../.gitbook/assets/poisk-po-opisaniyu.png)
 
-![&#x41F;&#x43E;&#x438;&#x441;&#x43A; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;&#x435;&#x442; &#x442;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43F;&#x43E; &#x442;&#x43E;&#x447;&#x43D;&#x43E;&#x43C;&#x443; &#x442;&#x438;&#x43A;&#x435;&#x440;&#x443;](../.gitbook/assets/poisk-po-tochnomu-tikeru.png)
+![Поиск работает только по точному тикеру](../.gitbook/assets/poisk-po-tochnomu-tikeru.png)
 
-![&#x41F;&#x43E;&#x438;&#x441;&#x43A; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;&#x435;&#x442; &#x442;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43F;&#x43E; &#x442;&#x43E;&#x447;&#x43D;&#x43E;&#x43C;&#x443; &#x442;&#x438;&#x43A;&#x435;&#x440;&#x443;](../.gitbook/assets/tiker-2.png)
-
-
+![Поиск работает только по точному тикеру](../.gitbook/assets/tiker-2.png)
 
 
 

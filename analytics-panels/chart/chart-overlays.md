@@ -4,5 +4,6 @@ description: Как добавить несколько активов на од
 
 # Наложения графиков
 
-{% embed url="https://youtu.be/MafWv\_TMaa8" caption="Как добавить несколько активов на один график" %}
-
+{% embed url="https://youtu.be/MafWv_TMaa8" %}
+Как добавить несколько активов на один график
+{% endembed %}

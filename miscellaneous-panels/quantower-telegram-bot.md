@@ -12,15 +12,15 @@ Quantower Alert Bot отправит сообщение в вашу учетну
 
 ## Как добавить Telegram Bot в свой аккаунт?
 
-Чтобы добавить бота в Telegram, откройте Общие настройки платформы. **-&gt; Messengers -&gt; Duplicate alerts to Telegram**.
+Чтобы добавить бота в Telegram, откройте Общие настройки платформы.** -> Messengers -> Duplicate alerts to Telegram**.
 
 ![](../.gitbook/assets/nastroika-telegram-bot.png)
 
-Укажите свой личный **идентификатор чата,** который вы можете узнать, нажав на кнопку «Получить идентификатор». 
+Укажите свой личный **идентификатор чата,** который вы можете узнать, нажав на кнопку «Получить идентификатор».&#x20;
 
 ![](../.gitbook/assets/aidi.png)
 
-Откроется новый бот **Chat ID Echo**, и он покажет **«Ваш идентификатор чата Telegram: xxxxxxx».** 
+Откроется новый бот **Chat ID Echo**, и он покажет **«Ваш идентификатор чата Telegram: xxxxxxx».**&#x20;
 
 ![](../.gitbook/assets/bot-aidi.png)
 
@@ -42,11 +42,10 @@ Telegram Bot отправляет уведомления об оповещени
 
 _**"Alert on ENQM21: price 13,379.00 reached."**_
 
-![](../.gitbook/assets/image%20%28173%29.png)
+![](<../.gitbook/assets/image (173).png>)
 
-![](../.gitbook/assets/image%20%28172%29.png)
+![](<../.gitbook/assets/image (172).png>)
 
 Если вы активируете опцию **«Дублировать торговые уведомления в Telegram»**, то не только уведомления, а и все оповещения о торговых операциях будут автоматически перенаправляться в Telegram.
 
-![&#x414;&#x443;&#x431;&#x43B;&#x438;&#x440;&#x443;&#x44E;&#x449;&#x438;&#x435; &#x442;&#x43E;&#x440;&#x433;&#x43E;&#x432;&#x44B;&#x435; &#x443;&#x432;&#x435;&#x434;&#x43E;&#x43C;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x432; Telegram &#x441; &#x43F;&#x43E;&#x43C;&#x43E;&#x449;&#x44C;&#x44E; Quantower Bot](../.gitbook/assets/image%20%28169%29.png)
-
+![Дублирующие торговые уведомления в Telegram с помощью Quantower Bot](<../.gitbook/assets/image (169).png>)

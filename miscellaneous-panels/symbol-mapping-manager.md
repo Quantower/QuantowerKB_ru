@@ -8,5 +8,4 @@ description: >-
 
 Например, Lmax предоставляет тиковую историю для построения профиля объема, а Oanda - нет. Таким образом, вы можете получать данные об объеме на Lmax и торговать на Oanda. Смотрите видео для более подробной информации
 
-{% embed url="https://www.youtube.com/watch?v=V\_v4VXTXd2c" caption="" %}
-
+{% embed url="https://www.youtube.com/watch?v=V_v4VXTXd2c" %}

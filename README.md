@@ -11,28 +11,42 @@ description: >-
 
 Чтобы получить ответы на вопросы, которые вы не можете найти в Базе знаний, свяжитесь с нами, используя следующие способы:
 
-* [**Telegram индивидуальная поддержк**](https://t.me/quantower)**а \(1 линия\)**
-* [**Telegram** ](https://t.me/quantower)[**индивидуальная поддержк**](https://t.me/quantower)**а \(2 линия\)**
-* [**Живой чат на нашем сайте** ](https://www.quantower.com/)\(всплывающее окно в правом нижнем углу\)
+* [**Telegram индивидуальная поддержк**](https://t.me/quantower)**а (1 линия)**
+* [**Telegram **](https://t.me/quantower)[**индивидуальная поддержк**](https://t.me/quantower)**а (2 линия)**
+* [**Живой чат на нашем сайте **](https://www.quantower.com)(всплывающее окно в правом нижнем углу)
 * По почте:  **info@quantower.com**
 
 Для удобства навигации База знаний разделена на несколько категорий, которые позволят вам быстро найти нужную информацию:
 
-{% page-ref page="getting-started/" %}
+{% content-ref url="getting-started/" %}
+[getting-started](getting-started/)
+{% endcontent-ref %}
 
-{% page-ref page="analytics-panels/" %}
+{% content-ref url="analytics-panels/" %}
+[analytics-panels](analytics-panels/)
+{% endcontent-ref %}
 
-{% page-ref page="trading-panels/" %}
+{% content-ref url="trading-panels/" %}
+[trading-panels](trading-panels/)
+{% endcontent-ref %}
 
-{% page-ref page="portfolio-panels/" %}
+{% content-ref url="portfolio-panels/" %}
+[portfolio-panels](portfolio-panels/)
+{% endcontent-ref %}
 
-{% page-ref page="informational-panels/" %}
+{% content-ref url="informational-panels/" %}
+[informational-panels](informational-panels/)
+{% endcontent-ref %}
 
-{% page-ref page="miscellaneous-panels/" %}
+{% content-ref url="miscellaneous-panels/" %}
+[miscellaneous-panels](miscellaneous-panels/)
+{% endcontent-ref %}
 
-{% page-ref page="quantower-algo/" %}
+{% content-ref url="quantower-algo/" %}
+[quantower-algo](quantower-algo/)
+{% endcontent-ref %}
 
-{% page-ref page="customization/" %}
-
-
+{% content-ref url="customization/" %}
+[customization](customization/)
+{% endcontent-ref %}
 

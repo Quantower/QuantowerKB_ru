@@ -11,7 +11,11 @@ description: >-
 
 * ****[**Как подключить существующую учетную запись**](connection-to-rithmic.md#kak-podklyuchit-sushestvuyushuyu-uchetnuyu-zapis)****
 * ****[**Создание и подключение новой учетной записи.**](connection-to-rithmic.md#creating-a-new-accounts-and-further-connection)****
-* [**Problems during the connection to Rithmic**](connection-to-rithmic.md#problems-during-the-connection-to-rithmic)
+*   ****[**Проблемы при подключении к Rithmic**](connection-to-rithmic.md#problemy-pri-podklyuchenii-k-rithmic)****
+
+    __[_Ошибка Market Data Connection Closed (Broken)_](connection-to-rithmic.md#market-data-connection-closed-broken)__
+
+    __[_Нет данных Level2 для некоторых символов_](connection-to-rithmic.md#net-dannykh-level2-dlya-nekotorykh-simvolov)
 
 ## Как подключить существующую учетную запись
 
@@ -32,29 +36,84 @@ description: >-
 
 ## Создание и подключение новой учетной записи.
 
-* [**Create a new demo**](https://rithmic.com/demo.html#sign-up) or open a real account with any broker supporting Rithmic technology, accept agreements, and start using our platform.
+* [**Создайте новый демо счет**](https://rithmic.com/demo.html#sign-up)** **или откройте реальный счет у любого брокера, поддерживающего технологию Rithmic, примите соглашения и начните использовать нашу платформу.
 
 {% embed url="https://youtu.be/3kpiOCiqE5Q" %}
 
-* To register [**Rithmic Demo**](https://rithmic.com/demo.html#sign-up) **go to their official website or **follow this [link](https://rithmic.com/demo.html#sign-up)
-* Fill in all the required fields
-* Accept _**"Market Data Subscription Agreement"**_ and _"**Market Data Self-Certification"**_
-* Account will be activated within 30-60 minutes.
+* Для регистрации [**Rithmic Demo**](https://rithmic.com/demo.html#sign-up) перейдите на их официальный сайт или [перейдите по этой ссылке ](https://rithmic.com/demo.html#sign-up)
+* Заполните все обязательные поля.&#x20;
+* Примите «Соглашение о подписке на рыночные данные» и «Самостоятельная сертификация рыночных данных»&#x20;
+* Аккаунт будет активирован в течение 30-60 минут.
 
-## **Problems during the connection to Rithmic**
+## Проблемы при подключении к Rithmic
 
-Sometimes, when connecting to the Rithmic, you may see the error **"**_**Market Data Connection Closed".**_
+### **Ошибка Market Data Connection Closed (Broken)**
 
-![Rithmic error "Market Data Connection Closed" in Quantower](../.gitbook/assets/connections-error-with-rithmic.png)
+Иногда при подключении к Rithmic вы можете увидеть ошибку «**Market Data Connection Closed (Broken) **». Ниже мы опишем возможные причины, а также решения.
 
-This error message is most commonly encountered by _**new Rithmic users for various reasons**_ and is not within the control of Quantower platform. More often it occurs for the following reasons:
+{% hint style="warning" %}
+Чаще всего это сообщение об ошибке встречается **новыми пользователями Rithmic** по разным причинам и не контролируется платформой Quantower.
+{% endhint %}
 
-* You didn't accept aggrements "_Market Data Subscription Agreement"_ and _"Market Data Self-Certification"_  during the registration on Rithmic's website or in R Trader platform. _We recommend connecting through **R Trader** or **R Trader Pro** platforms to check your account._
-* A new account was created less than an hour ago. Usually the **full activation of a new account takes from 30 minutes to 1 hour**.
-* The error can be encountered because the Rithmic server is unavailable to be connected to. This error commonly can be encountered over the weekend. In this case it is best to wait until Sunday evening to see if you can connect to determine if this is the problem or there is some other problem.
-* Rithmic demo accounts are limited to 14 days per exchange guidelines on providing live, streaming data. If you have used a Rithmic demo previously you will _not_ be able to login with a new Rithmic demo Username.
-* If you are unable to connect within a few days, you need to contact your broker about this issue.
+![Ошибка "Соединение с рыночными данными прервано" ](../.gitbook/assets/connections-error-with-rithmic.png)
 
-If you enable Use RTrader plugin in Connection Settings and still can not connect to Rithmic, please check that you have more than 1 active session for Market data.
+![Ошибка "Соединение с рыночными данными прервано" ](<../.gitbook/assets/ритмик 2 (1).png>)
+
+#### Подключиться к Rithmic можно двумя способами:
+
+1. Напрямую, **без использования платформы RTrader Pro**. Такой способ позволяет подключать только одну платформу (!).
+
+![](<../.gitbook/assets/подключение без ритмик.png>)
+
+2\. **Через платформу RTrader Pro.** Это соединение использует режим плагина и позволяет подключать несколько платформ одновременно (!)
+
+![Используйте режим плагина Rithmic для множественного доступа](<../.gitbook/assets/несколько платформ.png>)
+
+**Причины, по которым может возникнуть эта ошибка и варианты решений: **
+
+*   Вы не приняли соглашения «Соглашение о подписке на рыночные данные» и «Самостоятельная сертификация рыночных данных» во время регистрации на веб-сайте Rithmic или в платформе RTrader. Мы рекомендуем подключиться через платформы RTrader или RTrader Pro, чтобы проверить свою учетную запись.
+
+    ✅ _**Решение: **_примите соглашения в платформе RTrader Pro
+*   Новая учетная запись была создана менее часа назад. Обычно полная активация новой учетной записи занимает от 30 минут до 1 часа.
+
+    ✅ _**Решение: **_откройте платформу RTrader Pro и подключитесь со своим логином. Если подключение прошло успешно, значит ваша учетная запись уже активна в системе Rithmic.
+*   Убедитесь, что ваш логин соответствует Демо или Реальному подключению
+
+    ✅ _**Решение:**_ попробуйте оба варианта подключения в Quantower
+
+![](<../.gitbook/assets/два варианта ритмик демо и реальный.png>)
+
+*   Если Quantower был подключен к Rithmic раньше через плагин RTrader (т.е. активен флажок **Использовать RTrader**), и в данный момент платформа RTrader Pro не подключена или опция **Allow Plugins** не активна, тогда Quantower не сможет подключиться.
+
+    ✅ _**Решения (несколько вариантов):**_
+
+    1\)_ _Запустите платформу RTrader Pro** **с включенным плагином** (Allow Plugins) **и снова подключитесь к своей учетной записи в Quantower;
+
+    2\) Попробуйте подключиться к Rithmic как прямое соединение: закройте платформу RTrader Pro, отключите опцию Use Rtrader в настройках Quantower и перезапустите Quantower. После этого снова запустите Quantower и подключитесь к своей учетной записи как прямое соединение;
+
+![](<../.gitbook/assets/2 варианта ритмик.png>)
+
+*   В случае прямого подключения (без режима RTrader Plugin) вы не можете использовать один и тот же логин на разных платформах одновременно. Подключение может быть только одним логином на одной платформе (!). При попытке подключения с одним логином на разных платформах, произойдет выход с первой платформы (которая была подключена), но логин на второй платформе не будет успешно подключен (на которой мы пытаемся войти)
+
+    ✅ **Решение:** используйте режим плагина RTrader для нескольких подключений или закройте все платформы и подключитесь через Quantower в качестве прямого подключения (без режима плагина Rtrader).
+
+![](<../.gitbook/assets/коннект ритмик другие платформы.png>)
+
+*   Ошибка может возникнуть из-за того, что сервер Rithmic недоступен для подключения. Обычно с этой ошибкой можно столкнуться на выходных.&#x20;
+
+    ✅ _**Решение: **_В этом случае лучше подождать до вечера воскресенья, чтобы посмотреть, сможете ли вы подключиться, чтобы определить, является ли это проблемой или есть какая-то другая проблема.
+* Демо-счета Rithmic имеют ограничение 14 дней на каждую биржу по предоставлению потоковых данных в реальном времени. Если вы ранее использовали демо Rithmic, вы не сможете войти в систему с новым демо Rithmic.
+* Если вы не можете подключиться в течение нескольких дней, вам необходимо связаться с вашим брокером по этому поводу.
+
+Если вы включили плагин Use RTrader в настройках подключения, но по-прежнему не можете подключиться к Rithmic, убедитесь, что у вас более одного активного сеанса для данных Market.
 
 ![](<../.gitbook/assets/image (100).png>)
+
+### Нет данных Level2 для некоторых символов
+
+Эта проблема может быть связана с тем, что у вас нет подписки на данные Level2. Чтобы проверить это, запустите платформу RTrader Pro и откройте панель «Книга заказов» (Order Book).&#x20;
+
+Если у вас нет данных по Bid / Ask на платформе RTrader, вам необходимо подписаться на эти данные через поддержку Rithmic. После этого вы также увидите данные Level2 на нашей платформе.
+
+![](<../.gitbook/assets/нет левел2.png>)
+
