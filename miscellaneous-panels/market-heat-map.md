@@ -1,30 +1,49 @@
 ---
-description: 'A market heat map, is a real-time visual representation of market conditions.'
+description: >-
+  Тепловая карта рынка - это визуальное представление рыночных условий в
+  реальном времени.
 ---
 
-# Market Heat map
+# Тепловая карта рынка
 
-## What is the quantower Heat map
+## Общий обзор панели "Тепловая карта рынка" в Quantower
 
-You can use these maps as an investment research tool to view the performance of various market indices, sectors, asset classes or individual stocks. You can compare the stock market of a particular country with that of another country.
+Трейдер может использовать эту панель в качестве инструмента исследования для просмотра эффективности различных активов (акций, криптовалют, фьючерсов). Разные цвета и удобное компактное представление позволят быстро оценить состояние инструментов относительно друг друга.
 
-Given the wide variety of data these maps provide, the data values are presented in different colors to help you quickly understand the information.
+![Общий вид панели Market Heatmap](<../.gitbook/assets/тепловая карта рынка.png>)
 
-In addition to their attractive appearance, Quantower market heat maps have features that make investment research both informative and interesting
+## Как работать с панелью "Тепловая карта рынка"?
 
-![](../.gitbook/assets/image%20%28190%29.png)
+* Откройте панель "Тепловая карта рынка" из Центра управления. Панель находится в категории "Прочие".
 
-## How Quantower heat map works.
+![](<../.gitbook/assets/открыть карту теплового рынка.png>)
 
-![](../.gitbook/assets/image%20%28194%29.png)
+* Добавьте необходимые символы, нажав на значок «**+**».
 
-To get started, you need to specify which symbols or markets you are going to work with. You can choose a single symbol or all of the symbols at a given broker. I chose a few symbols at random to show you how it works.
+![](<../.gitbook/assets/добавить символы.png>)
 
-![](../.gitbook/assets/123%20%281%29.gif)
+*   Панель позволяет отображать данные в двух режимах:
 
-You can change the Quantower heat map display. Setup - Threemap shows the fastest symbols with the largest size. The Sells setting sorts the symbols from largest to smallest value
+    **  **_**Режим карты дерева**_, в котором размер ячейки зависит от значения изменения цены или объема.
 
-![](../.gitbook/assets/123.gif)
+    &#x20; _**Клетка**_ отображает ячейки с символами от наибольшего до наименьшего значения (изменение цены или объема).
 
-You can choose the type of sorting by largest volume or percentage change.
+![](<../.gitbook/assets/смена клетки и дерево.gif>)
 
+*   Вы можете переключаться между двумя режимами сортировки&#x20;
+
+    **  Изменение,% (за день), **
+
+    **  Объем**
+
+![](<../.gitbook/assets/изменение и объем.gif>)
+
+* Вы можете сохранять и переключаться между различными списками активов. Например, создайте список популярных криптовалют или список основных фьючерсов США. После сохранения вы можете выбрать желаемые действия:
+  * **Добавить в **[**список наблюдения**](https://help.quantower.com.ru/analytics-panels/watchlist) — позволяет добавить ранее сохраненный список к текущему.
+  * **Заменить**[** список наблюдения**](https://help.quantower.com.ru/analytics-panels/watchlist) — позволяет удалить текущий список и добавить все инструменты из ранее сохраненного.
+
+![](<../.gitbook/assets/заменить список.gif>)
+
+* Панель позволяет сравнивать изменения объемов и цен за прошлый день. Выберите нужную дату в прошлом, и панель загрузит данные для анализа.
+
+![Анализ исторических данных](<../.gitbook/assets/история и реальное время.gif>)
