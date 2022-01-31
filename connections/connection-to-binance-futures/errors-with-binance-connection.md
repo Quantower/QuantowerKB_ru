@@ -18,10 +18,10 @@ description: >-
 * ****[**Error "Balance is insufficient"**](errors-with-binance-connection.md#error-balance-is-insufficient-oshibka-balans-nedostatochen)****
 * ****[**Error "This listenKey does not exist"**](errors-with-binance-connection.md#error-this-listenkey-does-not-exist-oshibka-etot-listenkey-ne-sushestvuet)****
 * ****[**Не могу закрыть позицию**](errors-with-binance-connection.md#an-error-has-occurred-i-cant-close-the-position-request-was-executed-partially-the-value-of-the-open-position-is-less-than-usd-5-proizoshla-oshibka-ne-mogu-zakryt-poziciyu-zapros-vypolnen-chastichno-stoimost-otkrytoi-pozicii-menshe-5-dollarov)****
-* ****[**Error "Too much requests weight used; current limit is 1200 request weight per 1 minute**](errors-with-binance-connection.md#error-too-much-requests-weight-used-current-limit-is-1200-request-weight-per-1-minute-please-use-the-websocket-for-live-updates-to-avoid-polling-the-api-oshibka-ispolzovan-slishkom-bolshoi-ves-zaprosov-tekushii-predel-sostavlyaet-1200-zaprosov-v-minutu-ispolzuite-veb-soket-dlya-obnovlenii-v-realnom-vremeni-chtoby-izbezhat-oprosa-api)**. **
+* ****[**Error "Too much requests weight used; current limit is 1200 request weight per 1 minute**](errors-with-binance-connection.md#error-too-much-requests-weight-used-current-limit-is-1200-request-weight-per-1-minute-please-use-the-websocket-for-live-updates-to-avoid-polling-the-api-oshibka-ispolzovan-slishkom-bolshoi-ves-zaprosov-tekushii-predel-sostavlyaet-1200-zaprosov-v-minutu-ispolzuite-veb-soket-dlya-obnovlenii-v-realnom-vremeni-chtoby-izbezhat-oprosa-api)**.**&#x20;
 * ****[**Error "Parameter 'start time' is invalid"**](errors-with-binance-connection.md#error-parameter-start-time-is-invalid-oshibka-parametr-vremya-nachala-nedeistvitelen)****
 * ****[**Error "Signature for this request is not valid"**](errors-with-binance-connection.md#error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna)
-* **E**[**rror "User data stream expired. You will be disconnected. If you see this error, please contact support" **](errors-with-binance-connection.md#error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna-1)****
+* **E**[**rror "User data stream expired. You will be disconnected. If you see this error, please contact support"** ](errors-with-binance-connection.md#error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna-1)****
 * ****[**Error "All requests are forbidden manual. Approximate time to release - 00:00:0005022"**](errors-with-binance-connection.md#error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna-2)****
 
 ## Ошибка «Недопустимый API-ключ, IP или разрешения на действие»
@@ -43,7 +43,7 @@ description: >-
 
 ## Error "API key format invalid" Ошибка «Недействительный формат ключа API»
 
-Убедитесь, что ваш **ключ API и секрет API **указаны правильно
+Убедитесь, что ваш **ключ API и секрет API** указаны правильно
 
 ## Error "Timestamp for this request was 1000ms ahead of the server's time" Ошибка "Отметка времени для этого запроса на 1000 мс опережает время сервера"
 
@@ -104,7 +104,7 @@ description: >-
 
 ‌ Binance установил лимит запросов на определенное время (например, отправка ордера, запрос таблицы инструментов). При превышении лимита может появиться соответствующее сообщение, либо IP будет заблокирован для выполнения запросов на некоторое время.
 
-## **Error "Parameter 'start time' is invalid" **Ошибка «Параметр« время начала »недействителен»&#x20;
+## **Error "Parameter 'start time' is invalid"** Ошибка «Параметр« время начала »недействителен»&#x20;
 
 ![](<../../.gitbook/assets/image (221).png>)
 
@@ -114,11 +114,11 @@ description: >-
 
 Обычно ошибка указывает на то, что ключи введены неправильно. Вероятно, что ключ API / секретный ключ введен правильно, но, возможно, «сломан». Убедитесь, что APIKey и APISecret введены правильно, или сгенерируйте ключи.
 
-## Error "User data stream expired. You will be disconnected. If you see this error, please contact support" Ошибка «Срок действия потока пользовательских данных истек. Вы будете отключены. Если вы видите эту ошибку, обратитесь в службу поддержки.» <a href="error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna" id="error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna"></a>
+## Error "User data stream expired. You will be disconnected. If you see this error, please contact support" Ошибка «Срок действия потока пользовательских данных истек. Вы будете отключены. Если вы видите эту ошибку, обратитесь в службу поддержки.» <a href="#error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna" id="error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna"></a>
 
 Данная ошибка говорит том, что одни и те же ключи используются одновременно. Это может быть либо дубль подключения, либо эти же ключи используются на другой платформе. Убедитесь что Ваши ключи надежно сохранены в недоступном месте.&#x20;
 
-## Error "All requests are forbidden manual. Approximate time to release - 00:00:0005022" <a href="error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna" id="error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna"></a>
+## Error "All requests are forbidden manual. Approximate time to release - 00:00:0005022" <a href="#error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna" id="error-signature-for-this-request-is-not-valid-oshibka-podpis-dlya-etogo-zaprosa-nedeistvitelna"></a>
 
 Данная ошибка говорит том, что превышен лимит запросов, мы блокируем это у себя, чтобы биржа  Binance не забанила аккаунт по айпи адресу.
 

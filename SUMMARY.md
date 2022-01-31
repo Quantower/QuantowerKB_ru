@@ -138,6 +138,8 @@
     * [Ввод ордера для CQG](trading-panels/order-entry/order-entry-for-cqg.md)
     * [Ввод ордера для Bybit](trading-panels/order-entry/vvod-ordera-dlya-bybit.md)
     * [Типы ордеров](trading-panels/order-entry/order-types.md)
+    * [Стратегии отправки ордеров](trading-panels/order-entry/strategii-otpravki-orderov/README.md)
+      * [Локальные SL/TP](trading-panels/order-entry/strategii-otpravki-orderov/lokalnye-sl-tp.md)
   * [Ввод мульти-ордеров](trading-panels/multiple-order-entry.md)
   * [DOM Трейдер](trading-panels/dom-trader/README.md)
     * [Как настроить панель DOM Трейдер для скальпинга](trading-panels/dom-trader/how-to-set-up-dom-for-scalping.md)

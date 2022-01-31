@@ -12,7 +12,7 @@ Quantower Alert Bot отправит сообщение в вашу учетну
 
 ## Как добавить Telegram Bot в свой аккаунт?
 
-Чтобы добавить бота в Telegram, откройте Общие настройки платформы.** -> Messengers -> Duplicate alerts to Telegram**.
+Чтобы добавить бота в Telegram, откройте Общие настройки платформы. **-> Messengers -> Duplicate alerts to Telegram**.
 
 ![](../.gitbook/assets/nastroika-telegram-bot.png)
 

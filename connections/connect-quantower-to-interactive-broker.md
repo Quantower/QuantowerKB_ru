@@ -57,7 +57,7 @@ Also necessary in the **Settings** section deactivate the **Read-Only API** to p
 
 ![Activate all checkboxes in the IB Gateway or TWS API settings](../.gitbook/assets/api-settings-for-ib.png)
 
-1. If you connect via the TWS platform, please select **API** section - > **Settings** and check to **Enable ActiveX and Socket Clients** box as well **\*\*uncheck **Read-Only API\*\*:
+1. If you connect via the TWS platform, please select **API** section - > **Settings** and check to **Enable ActiveX and Socket Clients** box as well **\*\*uncheck** Read-Only API\*\*:
 
 ![Diactivate Read-Only API and check Socket Clients in TWS platform](../.gitbook/assets/trader-workstation-api-settings.png)
 

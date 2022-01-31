@@ -62,7 +62,7 @@ var timeBarHistoricalData = this.Symbol.GetHistory(new HistoryRequestParameters(
 
 ### Heiken-Ashi aggregation
 
-The [**HistoryAggregationHeikenAshi** ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.html)class is used to build the [**Heiken-Ashi**](https://help.quantower.com/analytics-panels/chart/chart-types/heiken-ashi)** **chart.
+The [**HistoryAggregationHeikenAshi** ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.html)class is used to build the [**Heiken-Ashi**](https://help.quantower.com/analytics-panels/chart/chart-types/heiken-ashi) **** chart.
 
 ```csharp
 new HistoryAggregationHeikenAshi(HeikenAshiSource source, int value);
@@ -84,7 +84,7 @@ var heikenAshiHistoricalData = this.Symbol.GetHistory(new HistoryRequestParamete
 
 ### Range Bars aggregation
 
-The [**HistoryAggregationRangeBars** ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationRangeBars.html)class is used to build the [**Range Bars**](https://help.quantower.com/analytics-panels/chart/chart-types/range-bars)** **chart.
+The [**HistoryAggregationRangeBars** ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationRangeBars.html)class is used to build the [**Range Bars**](https://help.quantower.com/analytics-panels/chart/chart-types/range-bars) **** chart.
 
 ```csharp
 new HistoryAggregationRangeBars(int rangeBars);
@@ -128,7 +128,7 @@ var renkoHistoricalData = this.Symbol.GetHistory(new HistoryRequestParameters()
 
 ### Line break aggregation
 
-The [**HistoryAggregationLineBreak**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationLineBreak.html) **class is used to build the **[Line break](https://help.quantower.com/analytics-panels/chart/chart-types/line-break) chart.
+The [**HistoryAggregationLineBreak**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationLineBreak.html) **class is used to build the** [Line break](https://help.quantower.com/analytics-panels/chart/chart-types/line-break) chart.
 
 ```csharp
 new HistoryAggregationLineBreak(Period period, int lineBreak);
@@ -272,7 +272,7 @@ In this section, we will carry out the first, second and fourth points.
 {% hint style="info" %}
 Pay attention to line **24**. Here we create instance of [**HistoryAggregationRenko**](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationRenko.html) class and pass required parameters.
 
-Pay attention **\*\*to line **30**. Here we subscribe '**NewHistoryItem\*\*' event. Another words, our 'RenkoHistoricalData\_NewHistoryItem' handler will trigger on each new brick item.
+Pay attention **\*\*to line** 30**. Here we subscribe '**NewHistoryItem\*\*' event. Another words, our 'RenkoHistoricalData\_NewHistoryItem' handler will trigger on each new brick item.
 {% endhint %}
 
 ```csharp
