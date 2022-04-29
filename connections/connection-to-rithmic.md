@@ -11,6 +11,7 @@ description: >-
 
 * ****[**Как подключить существующую учетную запись**](connection-to-rithmic.md#kak-podklyuchit-sushestvuyushuyu-uchetnuyu-zapis)****
 * ****[**Создание и подключение новой учетной записи.**](connection-to-rithmic.md#creating-a-new-accounts-and-further-connection)****
+* ****[**Как активировать данные Market by Order (MBO)**](connection-to-rithmic.md#kak-aktivirovat-dannye-market-by-order-mbo)****
 *   ****[**Проблемы при подключении к Rithmic**](connection-to-rithmic.md#problemy-pri-podklyuchenii-k-rithmic)****
 
     __[_Ошибка Market Data Connection Closed (Broken)_](connection-to-rithmic.md#market-data-connection-closed-broken)__
@@ -44,6 +45,21 @@ description: >-
 * Заполните все обязательные поля.&#x20;
 * Примите «Соглашение о подписке на рыночные данные» и «Самостоятельная сертификация рыночных данных»&#x20;
 * Аккаунт будет активирован в течение 30-60 минут.
+
+## Как активировать данные Market by Order (MBO)
+
+Данные «Market by Order» (MBO) показывают объем индивидуального ордера, стоящего в очереди в данных level2 по определенной цене. Чтобы активировать отображение этих данных, откройте настройки подключения и установите флажок «Включить режим «Market by Order»(MBO)».
+
+![Включить данные MBO Market by Order для Rithmic на платформе Quantower](<../.gitbook/assets/включить в настройках.png>)
+
+После активации вы сможете увидеть эти данные в панели [DOM Trader](https://help.quantower.com.ru/trading-panels/dom-trader).
+
+На панели [DOM Trader](https://help.quantower.com.ru/trading-panels/dom-trader) откройте "_Настройки" -> "Столбцы" -> "Биды/Аски" (если вы используете режим разделения или "Биды" и "Аски" как отдельные столбцы) -> "Цветовая схема размера" -> "MBO"._ \
+__Кроме того, вы можете установить **Фильтр для ордеров больше, чем (MBO)**, если хотите видеть ордера определенного размера.
+
+![Активация данных MBO на платформе Quantower](<../.gitbook/assets/биды аски.png>)
+
+![Визуальное сравнение между Market by Orders (MBO) и Market by Price (MBP)](<../.gitbook/assets/MBO vs MBP.png>)
 
 ## Проблемы при подключении к Rithmic
 
