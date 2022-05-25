@@ -33,7 +33,7 @@
 Чтобы войти на платформу Quantower, используйте идентификатор cTrader и пароль, которые вы установили на предыдущем шаге.
 {% endhint %}
 
-* Перед первым подключением через платформу Quantower вам необходимо активировать свою учетную запись в системе cTrader. Вы можете сделать это через веб-платформу FxPro cTrader [https://ct.fxpro.com/](https://ct.fxpro.com)
+* Перед первым подключением через платформу Quantower вам необходимо активировать свою учетную запись в системе cTrader. Вы можете сделать это через веб-платформу FxPro cTrader [https://ct.fxpro.com/](https://ct.fxpro.com/)
 
 ![](../../.gitbook/assets/fxpro-ctrader-activation.png)
 

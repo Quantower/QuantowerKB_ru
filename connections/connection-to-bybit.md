@@ -28,7 +28,7 @@ description: >-
 {% hint style="info" %}
 Для РЕАЛЬНОЙ торговли, пожалуйста, создайте учетную запись на Bybit.com [https://www.bybit.com/en-US/invite/?ref=n9X0D](https://www.bybit.com/en-US/invite/?ref=n9X0D)
 
-Для DEMO торговли создайте учетную запись на Testnet.Bybit.com [https://testnet.bybit.com/](https://testnet.bybit.com)
+Для DEMO торговли создайте учетную запись на Testnet.Bybit.com [https://testnet.bybit.com/](https://testnet.bybit.com/)
 {% endhint %}
 
 Переходите на **Bybit official website** используя [**эту ссылку**](https://www.bybit.com/en-US/invite?ref=n9X0D) и пройдите процедуру регистрации нового аккаунта на бирже.
