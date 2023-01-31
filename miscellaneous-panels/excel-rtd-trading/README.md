@@ -109,7 +109,18 @@ description: >-
 {% endhint %}
 
 ```
-=ДРВ("TradingPlatform";"";"GetSymbolInfo";"BTCUSDT";"SymbolType";"Binance")
+Примеры: 
+
+=ДРВ("tradingplatform";"";"GetSymbolInfo";"1INCHBTC";"Name";"Binance Spot")
+
+=ДРВ("tradingplatform";"";"GetSymbolInfo";"1000LUNCBUSD";"Name";"Binance USDT-M Futures")
+
+=ДРВ("tradingplatform";"";"GetSymbolInfo";"1INCHUSDT_SPOT";"Name";"Bybit")
+
+=ДРВ("TradingPlatform";"";"GetSymbolInfo";"10000NFTUSDT_SWAP";"Name";"Bybit")
+
+=ДРВ("TradingPlatform";"";"GetSymbolInfo";"BTCUSDT";"SymbolType";"Binance Spot")
+
 ```
 
 _**Параметры**_
@@ -120,7 +131,7 @@ _**Параметры**_
 | **"GetSymbolInfo"**   | Название метода                                                                                                                                         |
 | **"BTCUSDT"**         | ID символа, данные по которому вы хотите получить. Вы можете получить его из панели SymbolInfo.                                                         |
 | **"SymbolType"**      | <p>Указанный тип данных, которые вы хотите получать. <br>Например: Имя, Описание.</p>                                                                   |
-| **"Binance"**         | Имя соединения, которое вы хотите использовать для поиска нужного символа. Вы можете оставить этот параметр пустым, если у вас только одно соединение.  |
+| **"Binance Spot"**    | Имя соединения, которое вы хотите использовать для поиска нужного символа. Вы можете оставить этот параметр пустым, если у вас только одно соединение.  |
 
 ![](../../.gitbook/assets/eksel-kripto1.gif)
 
@@ -132,19 +143,30 @@ _**Параметры**_
 Предоставляет доступ к информации о конкретной учетной записи, такой как имя, баланс, NettingType и другие. Вы можете просто скопировать / вставить эту формулу для использования в файлах Excel или получить ее непосредственно из панели «Информация об учетной записи» для выбранной учетной записи. Щелкните правой кнопкой мыши на панели и выберите пункт меню: «Копировать формулу RTD» -> «Значение».
 {% endhint %}
 
-```
-=ДРВ("tradingplatform";"";"GetAccountInfo";"binance";"fullLicense";"Binance")
-```
+<pre><code><strong>
+</strong><strong>
+</strong><strong>=ДРВ("tradingplatform";"";"GetAccountInfo";"binance";"Balance";"Binance USDT-M Futures")
+</strong>
+=ДРВ("tradingplatform";"";"GetAccountInfo";"binance";"DOTavailableBalance";"Binance USDT-M Futures")
+
+=ДРВ("tradingplatform";"";"GetAccountInfo";"binance";"hedgeMode";"Binance USDT-M Futures")
+
+=ДРВ("tradingplatform";"";"GetAccountInfo";"3111865";"Balance";"Bybit")
+
+=ДРВ("tradingplatform";"";"GetAccountInfo";"3111865";"openPositions";"Bybit")
+
+=ДРВ("tradingplatform";"";"GetAccountInfo";"3111865";"Id";"Bybit")
+</code></pre>
 
 _**Параметры**_
 
-| _**Параметр**_        | _Описание_                                                                                                                                             |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **"TradingPlatform"** | Имя сервера Quantower RTD. Вы можете использовать его во всех формулах.                                                                                |
-| **"GetAccountInfo"**  | Название метода                                                                                                                                        |
-| **"binance"**         | ID символа, имени, данные по которому вы хотите получить. Вы можете получить его из панели AccountInfo                                                 |
-| **"fullLicense"**     | Указанный тип данных, которые вы хотите получать. Например: Name, Description, fullLicense,                                                            |
-| **"Binance"**         | Имя соединения, которое вы хотите использовать для поиска нужного символа. Вы можете оставить этот параметр пустым, если у вас только одно соединение. |
+| _**Параметр**_               | _Описание_                                                                                                                                             |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **"TradingPlatform"**        | Имя сервера Quantower RTD. Вы можете использовать его во всех формулах.                                                                                |
+| **"GetAccountInfo"**         | Название метода                                                                                                                                        |
+| **"binance"**                | ID символа, имени, данные по которому вы хотите получить. Вы можете получить его из панели AccountInfo                                                 |
+| **"fullLicense"**            | Указанный тип данных, которые вы хотите получать. Например: Name, Description, fullLicense,                                                            |
+| **"Binance USDT-M Futures"** | Имя соединения, которое вы хотите использовать для поиска нужного символа. Вы можете оставить этот параметр пустым, если у вас только одно соединение. |
 
 ![](../../.gitbook/assets/akkaunt-info.gif)
 
@@ -155,18 +177,34 @@ _**Параметры**_
 {% endhint %}
 
 ```
-=ДРВ("tradingplatform";"";"GetMarketData";"BTCUSDT";"Bid";"Binance Futures")
+Примеры:
+
+=ДРВ("tradingplatform";"";"GetMarketData";"1INCHUSDT_SPOT";"Last";"Bybit")
+
+=ДРВ("tradingplatform";"";"GetMarketData";"10000NFTUSDT_SWAP";"Last";"Bybit")
+
+=ДРВ("tradingplatform";"";"GetMarketData";"1INCHBTC";"Last";"Binance Spot")
+
+=ДРВ("tradingplatform";"";"GetMarketData";"1000LUNCBUSD";"Last";"Binance USDT-M Futures")
+
+=ДРВ("tradingplatform";"";"GetMarketData";"1INCHUSDT_SPOT";"ChangePercentage";"Bybit")
+
+=ДРВ("tradingplatform";"";"GetMarketData";"10000NFTUSDT_SWAP";"ChangePercentage";"Bybit")
+
+=ДРВ("tradingplatform";"";"GetMarketData";"1INCHBTC";"ChangePercentage";"Binance Spot")
+
+=ДРВ("tradingplatform";"";"GetMarketData";"1000LUNCBUSD";"ChangePercentage";"Binance USDT-M Futures")
 ```
 
 _**Параметры**_
 
-| _**Параметр**_        | _Описание_                                                                                                                                             |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **"TradingPlatform"** | Имя сервера Quantower RTD. Вы можете использовать его во всех формулах.                                                                                |
-| **"GetMarketData"**   | Название метода                                                                                                                                        |
-| **"BTCUSDT"**         | ID символа, данные по которому вы хотите получить. Вы можете получить его из панели SymbolInfo.                                                        |
-| **"Bid"**             | Указанный тип данных, которые вы хотите получать. Например: Bid, Ask, Last, Open, High                                                                 |
-| **"Binance Futures"** | Имя соединения, которое вы хотите использовать для поиска нужного символа. Вы можете оставить этот параметр пустым, если у вас только одно соединение. |
+| _**Параметр**_               | _Описание_                                                                                                                                             |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **"TradingPlatform"**        | Имя сервера Quantower RTD. Вы можете использовать его во всех формулах.                                                                                |
+| **"GetMarketData"**          | Название метода                                                                                                                                        |
+| **"BTCUSDT"**                | ID символа, данные по которому вы хотите получить. Вы можете получить его из панели SymbolInfo.                                                        |
+| **"Bid"**                    | Указанный тип данных, которые вы хотите получать. Например: Bid, Ask, Last, Open, High                                                                 |
+| **"Binance USDT-M Futures"** | Имя соединения, которое вы хотите использовать для поиска нужного символа. Вы можете оставить этот параметр пустым, если у вас только одно соединение. |
 
 ![](../../.gitbook/assets/getmarketdata-dannye-simvola.gif)
 
@@ -177,7 +215,13 @@ _**Параметры**_
 {% endhint %}
 
 ```
- =ДРВ("tradingplatform";"";"GetLevel2Data";"BTCUSDT";"BidSize";"0";"Binance")
+=ДРВ("tradingplatform";"";"GetLevel2Data";"BTCUSDT";"BidSize";"0";"Binance Spot")
+
+=ДРВ("tradingplatform";"";"GetLevel2Data";"BTCUSDT";"BidSize";"0";"Binance USDT-M Futures")
+
+=ДРВ("tradingplatform";"";"GetLevel2Data";"BTCUSDT_SPOT";"BidSize";"0";"Bybit")
+
+=ДРВ("tradingplatform";"";"GetLevel2Data";"10000NFTUSDT_SWAP";"BidSize";"0";"Bybit")
 ```
 
 _**Параметры**_
@@ -189,7 +233,7 @@ _**Параметры**_
 | **"BTCUSDT"**         | ID символа, данные по которому вы хотите получить. Вы можете получить его из панели SymbolInfo.                                                        |
 | **"BidSize"**         | Указанный тип данных, которые вы хотите получать. Например: Bid, Ask, BidSize, AskSize.                                                                |
 | **"0"**               | Порядковый номер уровня в стакане цен. Начинается с 0.                                                                                                 |
-| **"Binance"**         | Имя соединения, которое вы хотите использовать для поиска нужного символа. Вы можете оставить этот параметр пустым, если у вас только одно соединение. |
+| **"Binance Spot"**    | Имя соединения, которое вы хотите использовать для поиска нужного символа. Вы можете оставить этот параметр пустым, если у вас только одно соединение. |
 
 ![](../../.gitbook/assets/getlevel2data-level2-dannye-glubiny-rynka-.gif)
 
@@ -200,14 +244,20 @@ _**Параметры**_
 {% endhint %}
 
 ```
- =ДРВ("tradingplatform";"";"GetHistory";"BTCUSDT";"1Day";"Low";"10Day";"0";"Last";"Binance")
+Примеры:
+
+=ДРВ("tradingplatform";"";"GetHistory";"BTCUSDT";"1Day";"Low";"10Day";"0";"Last";"Binance Spot")
+
+=ДРВ("tradingplatform";"";"GetHistory";"BNBUSDT";"1Minute";"Close";"30Minute";"0";"Last";"Binance USDT-M Futures")
+
+=ДРВ("tradingplatform";"";"GetHistory";"BTCUSDT";"5Minute";"Open";"300Minute";"0";"Last";"Binance USDT-M Futures")
+
+=ДРВ("tradingplatform";"";"GetHistory";"ADAUSDT";"1Hour";"Low";"24Hour";"0";"Last";"Binance Spot")
+
+=ДРВ("tradingplatform";"";"GetHistory";"BTCUSDT_SPOT";"1Hour";"Low";"24Hour";"0";"Last";"Bybit")
+
+=ДРВ("tradingplatform";"";"GetHistory";"10000NFTUSDT_SWAP";"1Hour";"Low";"24Hour";"0";"Last";"Bybit")
 ```
-
-_**=ДРВ("tradingplatform";"";"GetHistory";"BNBUSDT";"1Minute";"Close";"30Minute";"0";"Last";"Binance Futures")**_
-
-_**=ДРВ("tradingplatform";"";"GetHistory";"BTCUSDT";"5Minute";"Open";"300Minute";"0";"Last";"Binance Futures")**_
-
-_**=ДРВ("tradingplatform";"";"GetHistory";"ADAUSDT";"1Hour";"Low";"24Hour";"0";"Last";"Binance ")**_
 
 _****_
 
@@ -223,6 +273,6 @@ _**Параметры**_
 | **"10Day"**           | Требуемый диапазон истории: 10 дней, 300 минут и т. д. Доступные диапазоны: Minute, Hour, Day, Month, Year.                                            |
 | **"0"**               | Индекс бара / тика в возвращаемом массиве истории. 0 означает самый новый бар.                                                                         |
 | **"Last"**            | Тип истории Bid, Ask, Last. Оставьте поле пустым, чтобы получать историю по умолчанию для указанного символа.                                          |
-| **"Binance"**         | Имя соединения, которое вы хотите использовать для поиска нужного символа. Вы можете оставить этот параметр пустым, если у вас только одно соединение. |
+| **"Binance Spot"**    | Имя соединения, которое вы хотите использовать для поиска нужного символа. Вы можете оставить этот параметр пустым, если у вас только одно соединение. |
 
 ![BTCUSDT, История минимумов последних 10 дней,  биржа Binance  ](../../.gitbook/assets/gethistory-istoriya-dlya-ukazannogo-simvola.png)
