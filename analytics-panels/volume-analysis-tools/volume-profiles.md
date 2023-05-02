@@ -11,10 +11,10 @@ description: >-
 Платформа Quantower предлагает четыре типа профилей объема:
 
 * [**Пошаговый профиль объема**](volume-profiles.md#poshagovyi-profil-obema)&#x20;
-* ****[**Общие настройки**](volume-profiles.md#obshie-nastroiki)****
-* ****[**Левый и правый профиль объема**](volume-profiles.md#levyi-i-pravyi-profil-obema)****
-* ****[**Пользовательский профиль объема**](volume-profiles.md#polzovatelskii-profil-obema)****
-* ****[**Дополнительные настройки** ](volume-profiles.md#dopolnitelnye-nastroiki-dlya-polzovatelskogo-profilya)****
+* [**Общие настройки**](volume-profiles.md#obshie-nastroiki)
+* [**Левый и правый профиль объема**](volume-profiles.md#levyi-i-pravyi-profil-obema)
+* [**Пользовательский профиль объема**](volume-profiles.md#polzovatelskii-profil-obema)
+* [**Дополнительные настройки** ](volume-profiles.md#dopolnitelnye-nastroiki-dlya-polzovatelskogo-profilya)
 
 ## Пошаговый профиль объема&#x20;
 
@@ -29,7 +29,7 @@ description: >-
 ![](../../.gitbook/assets/poshagovyi-profil1.gif)
 
 * **Период шага и значение шага** - определяют шаг построения профиля. Период шага имеет четыре типа: минута, час, день, неделя.
-* **Тип данных** - выберите любой из **** [**20+ типов данных** ](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MbGwguxgp06fdcWVgd1/analytics-panels/chart/volume-analysis-tools#data-types-of-volume-analysis-tools)для создания профиля шага
+* **Тип данных** - выберите любой из [**20+ типов данных** ](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MbGwguxgp06fdcWVgd1/analytics-panels/chart/volume-analysis-tools#data-types-of-volume-analysis-tools)для создания профиля шага
 * **Положение гистограммы** - расположение профиля слева или справа относительно начальной точки.
 * **Положение значения гистограммы** - определяет положение значения данных: слева, справа или нет
 * **Ширина гистограммы (в %)** - показывает ценовую зону с 70% торговой активности за указанный временной диапазон. По умолчанию установлено значение 70%, но пользователь может изменить его по своему усмотрению.

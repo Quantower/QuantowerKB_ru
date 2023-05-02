@@ -7,10 +7,10 @@ description: >-
 
 # Подключение к MetaStock
 
-* ****[**Как создать учетную запись MetaStock XENITH / EIKON?**](connection-to-metastock.md#kak-sozdat-uchetnuyu-zapis-metastock-xenith-eikon)****
-* [**Скачайте и установите Metastock XENITH**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-Mf2S4zWrMsbBFI05SuA/connections/connection-to-metastock#download-and-install-metastock-xenith)****
-* ****[**Запуск Quantower с подключением к Metastock**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-Mf2S4zWrMsbBFI05SuA/connections/connection-to-metastock#launch-quantower-with-metastock-connection)****
-* ****[**Как добавить символ на график или на другую панель**](connection-to-metastock.md#kak-dobavit-simvol-na-grafik-ili-na-druguyu-panel)****
+* [**Как создать учетную запись MetaStock XENITH / EIKON?**](connection-to-metastock.md#kak-sozdat-uchetnuyu-zapis-metastock-xenith-eikon)
+* [**Скачайте и установите Metastock XENITH**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-Mf2S4zWrMsbBFI05SuA/connections/connection-to-metastock#download-and-install-metastock-xenith)
+* [**Запуск Quantower с подключением к Metastock**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-Mf2S4zWrMsbBFI05SuA/connections/connection-to-metastock#launch-quantower-with-metastock-connection)
+* [**Как добавить символ на график или на другую панель**](connection-to-metastock.md#kak-dobavit-simvol-na-grafik-ili-na-druguyu-panel)
 
 ## Как создать учетную запись MetaStock XENITH / EIKON?
 

@@ -6,9 +6,9 @@ description: >-
 
 # Установка программы и требования к ПК
 
-* [**Требования к ПК**](installation.md#trebovaniya-k-pk)****
-* ****[**Пошаговая установка**](installation.md#poshagovaya-ustanovka)****
-* [**Удаление программы** ](installation.md#udalenie-programmy)****
+* [**Требования к ПК**](installation.md#trebovaniya-k-pk)
+* [**Пошаговая установка**](installation.md#poshagovaya-ustanovka)
+* [**Удаление программы** ](installation.md#udalenie-programmy)
 
 После того, как вы загрузили приложение Quantower с [официального сайта Quantower,](https://www.quantower.com/) вы готовы начать процесс установки. С этого момента мы должны прояснить основные различия между "процессом установки" Quantower и стандартным Windows® процессом установки, к которому привыкло большинство пользователей.
 
@@ -42,7 +42,7 @@ Quantower не копирует свои файлы в системные пап
 
 ![Экран установщика Quantower](../.gitbook/assets/extract-files-quantower.png)
 
-1. [**Загрузите установщик приложения**](https://updates.quantower.com/Quantower/x64/latest/Quantower.exe) **** и запустите _**Quantower.exe**_ файл.
+1. [**Загрузите установщик приложения**](https://updates.quantower.com/Quantower/x64/latest/Quantower.exe) и запустите _**Quantower.exe**_ файл.
 2. Выберите папку для извлечения файлов приложения
 3. После завершения процесса извлечения платформа автоматически запустится с подключением к **Binance** в информационном режиме и с рабочим пространством по умолчанию.
 

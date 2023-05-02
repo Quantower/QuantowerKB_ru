@@ -17,15 +17,15 @@ description: >-
 
 Общий вид меню настроек графика состоит из следующих подразделов. Рассмотрим их подробнее:
 
-* ****[**Вид**](chart-settings.md#nastroiki-vneshnego-vida)****
-* ****[**Стиль данных**](chart-settings.md#stil-dannykh)****
-* ****[**Шкала времени**](chart-settings.md#shkala-vremeni)****
-* ****[**Шакала цен**](chart-settings.md#shakala-cen)****
-* ****[**Визуальная торговля**](chart-settings.md#vizualnaya-torgovlya)****
-* ****[**Запись заказа. Ввод ордеров.** ](chart-settings.md#vvod-ordera)****
-* ****[**Информационное окно**](chart-settings.md#informacionnoe-okno)****
-* ****[**Объемные бары**](chart-settings.md#obemnye-bary)****
-* ****[**Горячие клавиши**](chart-settings.md#goryachie-klavishi)****
+* [**Вид**](chart-settings.md#nastroiki-vneshnego-vida)
+* [**Стиль данных**](chart-settings.md#stil-dannykh)
+* [**Шкала времени**](chart-settings.md#shkala-vremeni)
+* [**Шакала цен**](chart-settings.md#shakala-cen)
+* [**Визуальная торговля**](chart-settings.md#vizualnaya-torgovlya)
+* [**Запись заказа. Ввод ордеров.** ](chart-settings.md#vvod-ordera)
+* [**Информационное окно**](chart-settings.md#informacionnoe-okno)
+* [**Объемные бары**](chart-settings.md#obemnye-bary)
+* [**Горячие клавиши**](chart-settings.md#goryachie-klavishi)
 
 ![Общий вид настроек меню графика](../../.gitbook/assets/menyu-nastroek-grafika.png)
 
@@ -125,7 +125,7 @@ description: >-
 
 Это настройки панели ввода ордеров. Самое интересное здесь то, что вы можете установить стандартное количество входных ордеров, которое соответствует вашим рискам. Это очень удобно для ручной торговли.
 
-[Как пользоваться панелью ввода ордеров **читайте здесь**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MbBCIqhkEW3xvohXN2Y/trading-panels/order-entry)****
+[Как пользоваться панелью ввода ордеров **читайте здесь**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MbBCIqhkEW3xvohXN2Y/trading-panels/order-entry)
 
 ![](../../.gitbook/assets/vvod-ordera-nastroiki-grafika.png)
 

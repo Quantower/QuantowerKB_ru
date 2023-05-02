@@ -6,12 +6,12 @@ description: >-
 
 # Кластер
 
-* ****[**Что такое Кластер?**](cluster-chart.md#chto-takoe-klaster)****
-* ****[**Как включить кластерный график?**](cluster-chart.md#kak-vklyuchit-klasternyi-grafik)****
-* ****[**Общие настройки кластерного графика**](cluster-chart.md#obshie-nastroiki-klasternogo-grafika)****
-* ****[**Как установить отфильтрованный объем?**](cluster-chart.md#kak-ustanovit-otfiltrovannyi-obem)****
-* ****[**Что такое Пользовательский шаг и как его правильно настроить?**](cluster-chart.md#chto-takoe-polzovatelskii-shag-i-kak-ego-pravilno-nastroit)****
-* ****[**Дисбаланс**](cluster-chart.md#imbalance-chart)****
+* [**Что такое Кластер?**](cluster-chart.md#chto-takoe-klaster)
+* [**Как включить кластерный график?**](cluster-chart.md#kak-vklyuchit-klasternyi-grafik)
+* [**Общие настройки кластерного графика**](cluster-chart.md#obshie-nastroiki-klasternogo-grafika)
+* [**Как установить отфильтрованный объем?**](cluster-chart.md#kak-ustanovit-otfiltrovannyi-obem)
+* [**Что такое Пользовательский шаг и как его правильно настроить?**](cluster-chart.md#chto-takoe-polzovatelskii-shag-i-kak-ego-pravilno-nastroit)
+* [**Дисбаланс**](cluster-chart.md#imbalance-chart)
 
 {% embed url="https://youtu.be/xnUxEjMrKKM" %}
 
@@ -30,7 +30,7 @@ description: >-
 
 ## Как включить кластерный график?
 
-Перед активацией кластерной диаграммы необходимо включить панель инструментов Volume Analysis. Для этого в правом верхнем углу панели диаграммы **щелкните значок «Лупа**». Внизу диаграммы появится панель инструментов с инструментами анализа объема - кластер, [**пошаговый профиль, левый профиль, правый профиль,**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MbGJgxlm-Fa2OVgQcQw/analytics-panels/chart/volume-analysis-tools/volume-profiles) **** [статистика по времени](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MbGJgxlm-Fa2OVgQcQw/analytics-panels/chart/volume-analysis-tools/time-statistics), [гистограмма по времени](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MbGJgxlm-Fa2OVgQcQw/analytics-panels/chart/volume-analysis-tools/time-histogram), [**T\&S по барам**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MbGJgxlm-Fa2OVgQcQw/analytics-panels/chart/volume-analysis-tools/historical-time-and-sales)**,** [**пользовательский объем.**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MbGJgxlm-Fa2OVgQcQw/analytics-panels/chart/volume-analysis-tools/volume-profiles#custom-volume-profile)****
+Перед активацией кластерной диаграммы необходимо включить панель инструментов Volume Analysis. Для этого в правом верхнем углу панели диаграммы **щелкните значок «Лупа**». Внизу диаграммы появится панель инструментов с инструментами анализа объема - кластер, [**пошаговый профиль, левый профиль, правый профиль,**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MbGJgxlm-Fa2OVgQcQw/analytics-panels/chart/volume-analysis-tools/volume-profiles) [статистика по времени](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MbGJgxlm-Fa2OVgQcQw/analytics-panels/chart/volume-analysis-tools/time-statistics), [гистограмма по времени](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MbGJgxlm-Fa2OVgQcQw/analytics-panels/chart/volume-analysis-tools/time-histogram), [**T\&S по барам**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MbGJgxlm-Fa2OVgQcQw/analytics-panels/chart/volume-analysis-tools/historical-time-and-sales)**,** [**пользовательский объем.**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MbGJgxlm-Fa2OVgQcQw/analytics-panels/chart/volume-analysis-tools/volume-profiles#custom-volume-profile)
 
 1. Щелкните **кластер** и включите его.
 2. Выберите тип данных (вы можете выбрать один или два разных типа данных одновременно)

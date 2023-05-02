@@ -62,7 +62,7 @@ var timeBarHistoricalData = this.Symbol.GetHistory(new HistoryRequestParameters(
 
 ### Heiken-Ashi aggregation
 
-The [**HistoryAggregationHeikenAshi** ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.html)class is used to build the [**Heiken-Ashi**](https://help.quantower.com/analytics-panels/chart/chart-types/heiken-ashi) **** chart.
+The [**HistoryAggregationHeikenAshi** ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationHeikenAshi.html)class is used to build the [**Heiken-Ashi**](https://help.quantower.com/analytics-panels/chart/chart-types/heiken-ashi) chart.
 
 ```csharp
 new HistoryAggregationHeikenAshi(HeikenAshiSource source, int value);
@@ -84,7 +84,7 @@ var heikenAshiHistoricalData = this.Symbol.GetHistory(new HistoryRequestParamete
 
 ### Range Bars aggregation
 
-The [**HistoryAggregationRangeBars** ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationRangeBars.html)class is used to build the [**Range Bars**](https://help.quantower.com/analytics-panels/chart/chart-types/range-bars) **** chart.
+The [**HistoryAggregationRangeBars** ](https://api.quantower.com/docs/TradingPlatform.BusinessLayer.HistoryAggregationRangeBars.html)class is used to build the [**Range Bars**](https://help.quantower.com/analytics-panels/chart/chart-types/range-bars) chart.
 
 ```csharp
 new HistoryAggregationRangeBars(int rangeBars);

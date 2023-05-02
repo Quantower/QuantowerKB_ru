@@ -11,20 +11,20 @@ description: >-
 
 **Ввод ордеров** на платформе Quantower  можно осуществлять разными вариантами, в зависимости от выбранного стиля торговли:
 
-* _с панели_ [_**Ввода ордера (ОЕ )**_](https://help.quantower.com.ru/trading-panels/order-entry)_****_
-* _с панели_ [_**быстрой торговли с графика**_](https://help.quantower.com.ru/analytics-panels/chart/chart-trading) _****_&#x20;
-* _торговый режим мышью, визуальная торговля. Быстрое размещения ордеров ****_ [_**через область графика с помощью мыши**_](https://help.quantower.com.ru/analytics-panels/chart/general-overview#verkhnyaya-panel-instrumentov-grafika)_**.**_
-* &#x20;_путем настройки и торговли с_ [_**горячих клавиш.**_ ](https://help.quantower.com.ru/analytics-panels/chart/chart-settings#goryachie-klavishi)_****_
+* _с панели_ [_**Ввода ордера (ОЕ )**_](https://help.quantower.com.ru/trading-panels/order-entry)
+* _с панели_ [_**быстрой торговли с графика**_](https://help.quantower.com.ru/analytics-panels/chart/chart-trading)&#x20;
+* _торговый режим мышью, визуальная торговля. Быстрое размещения ордеров_ [_**через область графика с помощью мыши**_](https://help.quantower.com.ru/analytics-panels/chart/general-overview#verkhnyaya-panel-instrumentov-grafika)_**.**_
+* &#x20;_путем настройки и торговли с_ [_**горячих клавиш.**_ ](https://help.quantower.com.ru/analytics-panels/chart/chart-settings#goryachie-klavishi)
 
 В данной статье покажем:
 
-* ****[**Как создать ордер Bybit с панели ОЕ (Ввода ордера)**](vvod-ordera-dlya-bybit.md#kak-sozdat-order-bybit-s-paneli-oe-vvoda-ordera)****
+* [**Как создать ордер Bybit с панели ОЕ (Ввода ордера)**](vvod-ordera-dlya-bybit.md#kak-sozdat-order-bybit-s-paneli-oe-vvoda-ordera)
   * [Общий вид панели ОЕ (Ввода ордера) для биржи Bybit](vvod-ordera-dlya-bybit.md#obshii-vid-paneli-oe-vvoda-ordera-dlya-birzhi-bybit)
   * [Выбор символа и торгового счета; ](vvod-ordera-dlya-bybit.md#vybor-simvola-i-scheta-i-torgovogo-scheta)
   * [Выбор объема ордера ](vvod-ordera-dlya-bybit.md#vybor-obema-ordera)
   * [TP (тейк-профит) и SL стоп лимит (стоп-лосс) ордера](vvod-ordera-dlya-bybit.md#tp-i-sl-ordera-s-paneli-oe-vvod-ordera)\
 
-* ****[**Как создать ордер Bybit с панели быстрой торговли с графика**](vvod-ordera-dlya-bybit.md#kak-sozdat-order-bybit-s-paneli-bystroi-torgovli-s-grafika) ****&#x20;
+* [**Как создать ордер Bybit с панели быстрой торговли с графика**](vvod-ordera-dlya-bybit.md#kak-sozdat-order-bybit-s-paneli-bystroi-torgovli-s-grafika)&#x20;
   * [Общий вид панели быстрой торговли с графика для Bybit ](vvod-ordera-dlya-bybit.md#obshii-vid-paneli-bystroi-torgovli-s-grafika-dlya-bybit)
   * [Выбор объема ордера ](vvod-ordera-dlya-bybit.md#vybor-obema-ordera-1)
   * [Кнопки быстрого изменения суммы заказа ](vvod-ordera-dlya-bybit.md#knopki-bystrogo-izmeneniya-summy-zakaza)
@@ -32,7 +32,7 @@ description: >-
 
 ## **К**ак создать ордер Bybit с панели ОЕ (Ввода ордера)
 
-Ниже мы рассмотрим как создать ордер на бирже **Bybit** с панели ОЕ (ввода ордера).  Прежде, чем это сделаем, убедитесь что вы успешно [**подключились к бирже Bybit,**](https://help.quantower.com.ru/connections/connection-to-bybit) **** и выбрали торговую пару с данного соединения.
+Ниже мы рассмотрим как создать ордер на бирже **Bybit** с панели ОЕ (ввода ордера).  Прежде, чем это сделаем, убедитесь что вы успешно [**подключились к бирже Bybit,**](https://help.quantower.com.ru/connections/connection-to-bybit) и выбрали торговую пару с данного соединения.
 
 Панель ОЕ (Ввода ордера) можно открыть, как указано на рисунке ниже:
 
@@ -76,7 +76,7 @@ description: >-
 
 ## Как создать ордер Bybit с панели быстрой торговли с графика
 
-Ниже мы рассмотрим как создать ордер на бирже **Bybit** с панели быстрого ввода ордера с графика. Прежде, чем это сделаем, убедитесь что вы успешно [**подключились к бирже Bybit,**](https://help.quantower.com.ru/connections/connection-to-bybit) **** и выбрали торговую пару с данного соединения.
+Ниже мы рассмотрим как создать ордер на бирже **Bybit** с панели быстрого ввода ордера с графика. Прежде, чем это сделаем, убедитесь что вы успешно [**подключились к бирже Bybit,**](https://help.quantower.com.ru/connections/connection-to-bybit) и выбрали торговую пару с данного соединения.
 
 Панель инструментов [**быстрой торговли с графика**](https://help.quantower.com.ru/analytics-panels/chart/chart-trading) **Bybit**  можно открыть, как указано на рисунке ниже:
 
@@ -96,7 +96,7 @@ description: >-
 
 ### **Выбор объема ордера**
 
-Выбрать объем ордера **** можно **** указав количество в валюте котировки и в процентах от доступной маржи. Сделать это можно, как описано ниже , на Ваш выбор, в зависимости от типа и стиля торговли.:
+Выбрать объем ордера можно указав количество в валюте котировки и в процентах от доступной маржи. Сделать это можно, как описано ниже , на Ваш выбор, в зависимости от типа и стиля торговли.:
 
 * ввести нужное количество монет/лотов исходя из выбранной торговой пары;
 * кнопками быстрого изменения суммы заказа;
@@ -148,7 +148,7 @@ description: >-
 
 ![](../../.gitbook/assets/stop-i-teik-baibit.gif)
 
-****
+
 
 Далее идет большой блок **функций для управления текущей позицией**. Вы можете удалять или ограничивать ордера или стопы. Вы также можете перевернуть свою позицию с помощью одной кнопки или установить без потерь. Это очень функциональные кнопки, не пропустите их.
 

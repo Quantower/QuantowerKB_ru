@@ -16,15 +16,15 @@ description: >-
 
 В этом руководстве вы узнаете о следующих функциях:
 
-* ****[**Настройка главной панели инструментов**](main-toolbar.md#nastroika-glavnoi-paneli-instrumentov)****
-* ****[**Главное меню со всеми поверхностями**](main-toolbar.md#glavnoe-menyu-so-vsemi-poverkhnostyami)****
-* ****[**Как добавить поверхность в избранное**](main-toolbar.md#kak-dobavit-poverkhnost-v-izbrannoe)****
-* ****[**Как заблокировать торговлю**](main-toolbar.md#kak-zablokirovat-torgovlyu)****
-* ****[**Workspaces - менеджер организации рабочего пространства**](main-toolbar.md#workspaces-menedzher-organizacii-rabochego-prostranstva)****
-* ****[**Менеджер торговых подключений**](main-toolbar.md#menedzher-torgovykh-podklyuchenii)****
-* ****[**Боковая панель со всеми уведомлениями**](main-toolbar.md#centr-uvedomlenii)****
-* ****[**Общие настройки платформы**](main-toolbar.md#obshie-nastroiki)****
-* ****[**Время и часовые пояса**](main-toolbar.md#vremya-i-chasovye-poyasa)****
+* [**Настройка главной панели инструментов**](main-toolbar.md#nastroika-glavnoi-paneli-instrumentov)
+* [**Главное меню со всеми поверхностями**](main-toolbar.md#glavnoe-menyu-so-vsemi-poverkhnostyami)
+* [**Как добавить поверхность в избранное**](main-toolbar.md#kak-dobavit-poverkhnost-v-izbrannoe)
+* [**Как заблокировать торговлю**](main-toolbar.md#kak-zablokirovat-torgovlyu)
+* [**Workspaces - менеджер организации рабочего пространства**](main-toolbar.md#workspaces-menedzher-organizacii-rabochego-prostranstva)
+* [**Менеджер торговых подключений**](main-toolbar.md#menedzher-torgovykh-podklyuchenii)
+* [**Боковая панель со всеми уведомлениями**](main-toolbar.md#centr-uvedomlenii)
+* [**Общие настройки платформы**](main-toolbar.md#obshie-nastroiki)
+* [**Время и часовые пояса**](main-toolbar.md#vremya-i-chasovye-poyasa)
 
 Поскольку панель инструментов является основной панелью управления, у нее есть возможность свернуть весь интерфейс платформы, щелкнув значок «**Свернуть**». В результате этого действия все панели приложений сворачиваются на панель задач и буквально исчезают с ваших экранов; она влияет на все панели на всех экранах.
 
@@ -96,7 +96,7 @@ description: >-
 
 ## **Менеджер торговых подключений**
 
-****
+
 
 Список **избранных** подключений можно увидеть на Главной панели инструментов в блоке "Избранные подключения". По умолчанию вы увидите здесь несколько элементов, каждый из которых представляет одно из доступных подключений. Экран диспетчера подключений открывается при нажатии любого элемента в блоке "Избранные подключения".
 

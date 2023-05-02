@@ -38,4 +38,4 @@ Visual Studio - это интегрированная среда разрабо�
 
 ![](../.gitbook/assets/sozdat-proekt-indikator.jpg)
 
-Теперь все готово для создания [**вашего первого индикатора.**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MbWdSvrjFLRXlV514IW/quantower-algo/simple-indicator)****
+Теперь все готово для создания [**вашего первого индикатора.**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MbWdSvrjFLRXlV514IW/quantower-algo/simple-indicator)

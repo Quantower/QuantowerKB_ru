@@ -6,13 +6,13 @@ description: Как оптимизировать работу Quantower на с�
 
 Если Ваше оборудование не соответствует требованиям для оптимальной работы Quantower , то данная статья  поможет ускорить работу терминала на вашем ПК для комфортной работы и позволит пользователям с более слабой системой воспользоваться всеми преимуществами платформы при меньшей нагрузке.
 
-* ****[**Требования к ПК**](optimizaciya-quantower-na-slabykh-pk.md#trebovaniya-k-pk)****
-* [**Скорость передачи данных**](optimizaciya-quantower-na-slabykh-pk.md#skorost-peredachi-dannykh)****
-* ****[**Список наблюдения**](optimizaciya-quantower-na-slabykh-pk.md#spisok-nablyudeniya)****
-* ****[**Загрузка объемного анализа**](optimizaciya-quantower-na-slabykh-pk.md#optimizaciya-quantower-na-slabykh-pk)****
-* ****[**Одновременное открытие нескольких панелей**](optimizaciya-quantower-na-slabykh-pk.md#odnovremennoe-otkrytie-neskolkikh-panelei)****
-* ****[**DOM Surface уменьшение истории**](optimizaciya-quantower-na-slabykh-pk.md#dom-surface-umenshenie-istorii)****
-* ****[**Как уменьшить скорость обновления Dom Trader**](optimizaciya-quantower-na-slabykh-pk.md#kak-umenshit-skorost-obnovleniya-dom-trader)****
+* [**Требования к ПК**](optimizaciya-quantower-na-slabykh-pk.md#trebovaniya-k-pk)
+* [**Скорость передачи данных**](optimizaciya-quantower-na-slabykh-pk.md#skorost-peredachi-dannykh)
+* [**Список наблюдения**](optimizaciya-quantower-na-slabykh-pk.md#spisok-nablyudeniya)
+* [**Загрузка объемного анализа**](optimizaciya-quantower-na-slabykh-pk.md#optimizaciya-quantower-na-slabykh-pk)
+* [**Одновременное открытие нескольких панелей**](optimizaciya-quantower-na-slabykh-pk.md#odnovremennoe-otkrytie-neskolkikh-panelei)
+* [**DOM Surface уменьшение истории**](optimizaciya-quantower-na-slabykh-pk.md#dom-surface-umenshenie-istorii)
+* [**Как уменьшить скорость обновления Dom Trader**](optimizaciya-quantower-na-slabykh-pk.md#kak-umenshit-skorost-obnovleniya-dom-trader)
 
 ## **Требования к ПК**
 
@@ -28,7 +28,7 @@ description: Как оптимизировать работу Quantower на с�
 
 {% hint style="warning" %}
 **Microsoft официально прекратила поддержку Windows 8 и Windows 7**. Поэтому платформа может не запускаться или работать некорректно. Более подробную информацию о поддерживаемых версиях смотрите на официальном сайте Microsoft. \
-****\
+\
 **Мы поддерживаем работу только на Windows 10.**
 {% endhint %}
 
@@ -99,4 +99,3 @@ Quantower позволяет одновременное открытие нео�
 
 
 
-****

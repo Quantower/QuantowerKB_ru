@@ -12,14 +12,14 @@ description: >-
 
 Все настройки сгруппированы в несколько вкладок:
 
-* &#x20;**** [**Общие настройки**](general-settings-1.md#vkladka-obshie-nastroiki)****
-* &#x20;**** [**Центр управления**](general-settings-1.md#control-center)****
-* &#x20;**** [**Звуки**](general-settings-1.md#zvuki)****
-* &#x20;**** [**Подтверждения**](general-settings-1.md#podtverzhdeniya)****
-* &#x20;**** [**Настройки часового пояса**](general-settings-1.md#chasovye-poyasa)****
-* &#x20;**** [**Excel RTD**](general-settings-1.md#excel-rtd)****
-* &#x20;**** [**Мессенджеры**](general-settings-1.md#messendzhery)****
-* &#x20;**** [**Горячие клавиши**](general-settings-1.md#goryachie-klavishi)****
+* &#x20;[**Общие настройки**](general-settings-1.md#vkladka-obshie-nastroiki)
+* &#x20;[**Центр управления**](general-settings-1.md#control-center)
+* &#x20;[**Звуки**](general-settings-1.md#zvuki)
+* &#x20;[**Подтверждения**](general-settings-1.md#podtverzhdeniya)
+* &#x20;[**Настройки часового пояса**](general-settings-1.md#chasovye-poyasa)
+* &#x20;[**Excel RTD**](general-settings-1.md#excel-rtd)
+* &#x20;[**Мессенджеры**](general-settings-1.md#messendzhery)
+* &#x20;[**Горячие клавиши**](general-settings-1.md#goryachie-klavishi)
 
 {% hint style="info" %}
 Большинство настроек применяются автоматически после их изменения, но в некоторых случаях вам будет предложено подтвердить применение изменений; это действие требуется для сложных настроек, где одно изменение повлияет на сложную логику.

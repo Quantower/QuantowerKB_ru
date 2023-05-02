@@ -31,7 +31,7 @@ description: >-
 ## Мультиподключение
 
 {% hint style="info" %}
-Quantower поддерживает несколько подключений одновременно, но эта функция доступна по платным лицензиям - Advanced Features, Crypto Package, Multi-Asset package и All-In-One License. На странице [**сравнение лицензий**](https://help.quantower.com.ru/getting-started/license-comparison) **** можно увидеть ограничения по мультиподключениям для бесплатной лицензии.
+Quantower поддерживает несколько подключений одновременно, но эта функция доступна по платным лицензиям - Advanced Features, Crypto Package, Multi-Asset package и All-In-One License. На странице [**сравнение лицензий**](https://help.quantower.com.ru/getting-started/license-comparison) можно увидеть ограничения по мультиподключениям для бесплатной лицензии.
 {% endhint %}
 
 ![Multiple connections in Quantower at the same time ](../.gitbook/assets/multiple-connections.png)

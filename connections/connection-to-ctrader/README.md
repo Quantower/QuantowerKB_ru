@@ -10,8 +10,8 @@ description: >-
 
 Подробные инструкции по подключению нескольких брокеров cTrader ниже:
 
-* ****[**Как подключиться к FxPro через Quantower**](https://help.quantower.com.ru/connections/connection-to-ctrader/how-to-connect-to-fxpro-via-quantower)****
-* ****[**Как подключиться к Pepperstone через Quantower**](https://help.quantower.com.ru/connections/connection-to-ctrader/how-to-connect-to-pepperstone-via-quantower)****
-* ****[**Как подключиться к IC Markets через Quantower**](https://help.quantower.com.ru/connections/connection-to-ctrader/how-to-connect-to-ic-markets-via-quantower) ****&#x20;
+* [**Как подключиться к FxPro через Quantower**](https://help.quantower.com.ru/connections/connection-to-ctrader/how-to-connect-to-fxpro-via-quantower)
+* [**Как подключиться к Pepperstone через Quantower**](https://help.quantower.com.ru/connections/connection-to-ctrader/how-to-connect-to-pepperstone-via-quantower)
+* [**Как подключиться к IC Markets через Quantower**](https://help.quantower.com.ru/connections/connection-to-ctrader/how-to-connect-to-ic-markets-via-quantower)&#x20;
 
 {% embed url="https://youtu.be/FqR1nqsjMrI" %}

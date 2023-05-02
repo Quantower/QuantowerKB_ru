@@ -5,9 +5,9 @@ description: В этом разделе мы покажем вам, наскол
 # Простой индикатор
 
 {% hint style="info" %}
-Мы будем использовать расширение Quantower Algo для Visual Studio, но основные принципы действительны для всех сред разработки. Если у вас не установлено расширение Visual Studio или Quantower Algo, вы можете прочитать руководство [**Как установить Quantower Algo.**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-Mb\_LzyI38AnKls7m3Ia/quantower-algo/installing-visual-studio)****
+Мы будем использовать расширение Quantower Algo для Visual Studio, но основные принципы действительны для всех сред разработки. Если у вас не установлено расширение Visual Studio или Quantower Algo, вы можете прочитать руководство [**Как установить Quantower Algo.**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-Mb\_LzyI38AnKls7m3Ia/quantower-algo/installing-visual-studio)
 
-Смотрите примеры некоторых стратегий, интеграций и индикаторов в нашем [**репозитории Github.**](https://github.com/Quantower/Examples)****
+Смотрите примеры некоторых стратегий, интеграций и индикаторов в нашем [**репозитории Github.**](https://github.com/Quantower/Examples)
 {% endhint %}
 
 ## Итак, что такое индикатор в целом?
@@ -134,4 +134,4 @@ protected override void OnUpdate(UpdateArgs args)
 
 ![Вы увидите все свои изменения сразу после перестройки](../.gitbook/assets/indicator-after-changes.png)
 
-Используя этот базовый пример, вы можете легко создать свой собственный индикатор - вам доступны все возможности языка C #. В следующем разделе мы покажем вам, как добавить возможность настройки вашего [**индикатора с помощью входных параметров.**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-Mb\_ghthoUhM1PT07NwU/quantower-algo/input-parameters)****
+Используя этот базовый пример, вы можете легко создать свой собственный индикатор - вам доступны все возможности языка C #. В следующем разделе мы покажем вам, как добавить возможность настройки вашего [**индикатора с помощью входных параметров.**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-Mb\_ghthoUhM1PT07NwU/quantower-algo/input-parameters)

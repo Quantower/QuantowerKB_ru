@@ -14,12 +14,12 @@ description: >-
 
 Используя **анализ данных в реальном режиме времени с помощью формулы RTD,** можно создать персональную аналитику данных, начиная от получения всех параметров котировок и заканчивая полноценным анализом рынка в реальном режиме, с графиками, и финансовым анализом. В данном разделе мы познакомим Вас с  основными возможностями, используя которые Вы сможете создать в  **Excel** свой пользовательский анализ данных в реальном режиме времени используя платформу **Quantower:**
 
-* ****[**Как активировать функцию RTD на платформе Quantower**](./#kak-aktivirovat-funkciyu-rtd-na-platforme-quantower)****
+* [**Как активировать функцию RTD на платформе Quantower**](./#kak-aktivirovat-funkciyu-rtd-na-platforme-quantower)
   * [Как проверить разделитель аргументов?](./#kak-proverit-razdelitel-argumentov)
-* ****[**Как получить данные в реальном режиме времени со списка наблюдения в Excel?** ](./#kak-poluchit-dannye-v-realnom-rezhime-vremeni-so-spiska-nablyudeniya-v-excel)****
+* [**Как получить данные в реальном режиме времени со списка наблюдения в Excel?** ](./#kak-poluchit-dannye-v-realnom-rezhime-vremeni-so-spiska-nablyudeniya-v-excel)
   * [Получение данных путем копирования формулы](./#1-poluchenie-dannykh-putem-kopirovaniya-formuly)
   * [Получение данных путем написания формулы](./#2-poluchenie-dannykh-putem-napisaniya-formuly)
-* ****[**Примеры самых популярных формул RTD с описанием**](./#primery-samykh-populyarnykh-formul-rtd-s-opisaniem)****\
+* [**Примеры самых популярных формул RTD с описанием**](./#primery-samykh-populyarnykh-formul-rtd-s-opisaniem)\
   &#x20;       **1.** [**GetSymbolInfo** - информация о конкретном символе](./#1-getsymbolinfo-informaciya-o-konkretnom-simvole)\
   &#x20;       **2.** [**GetAccounInfo -** информация о конкретной учетной записи](./#2-getaccouninfo-informaciya-o-konkretnoi-uchetnoi-zapisi)\
   &#x20;       **3.**[ **GetMarketData -** данные символа Bid, Ask, Last, Open, High и т. д](./#3-getmarketdata-dannye-simvola-bid-ask-last-open-high-i-t-d)\
@@ -98,9 +98,9 @@ description: >-
 
 ## **Примеры самых популярных формул RTD с описанием**
 
-Ниже описаны примеры **самых популярных формул RTD с описанием основного синтаксиса** на примере биржи Binance. Используя их, можно получить именно те данные, которые нужны для анализа и вставить в свою электронную таблицу. Так же Вы можете данные примеры загрузить с[ **данного файла Excel.**](https://updates.quantower.com/misc/RTD/rtd\_samples.xlsx)****
+Ниже описаны примеры **самых популярных формул RTD с описанием основного синтаксиса** на примере биржи Binance. Используя их, можно получить именно те данные, которые нужны для анализа и вставить в свою электронную таблицу. Так же Вы можете данные примеры загрузить с[ **данного файла Excel.**](https://updates.quantower.com/misc/RTD/rtd\_samples.xlsx)
 
-****
+
 
 ### 1.GetSymbolInfo - информация о конкретном символе
 
@@ -259,7 +259,7 @@ _**Параметры**_
 =ДРВ("tradingplatform";"";"GetHistory";"10000NFTUSDT_SWAP";"1Hour";"Low";"24Hour";"0";"Last";"Bybit")
 ```
 
-_****_
+
 
 _**Параметры**_
 

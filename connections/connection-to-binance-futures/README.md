@@ -15,14 +15,14 @@ description: >-
 
 Для того, чтобы начать торговать на Binance Futures через платформу Quantower, вам необходимо открыть учетную запись и создать **API-ключ** и **Секретный ключ**. В этом руководстве мы шаг за шагом покажем вам, как настроить соединение, изменить тип маржи и размер кредитного плеча.
 
-* ****[**Как создать новую учетную запись Binance Futures**](./#kak-sozdat-novuyu-uchetnuyu-zapis-binance-futures)**?**
-* ****[**Как подключится  Binance Futures или Binance spot используя  Quantower?**](./#kak-podklyuchitsya-binance-futures-ili-binance-spot-ispolzuya-quantower)****
-* ****[**Как получить бесплатно все функции Quantower для Binance?**](./#kak-poluchit-besplatno-vse-funkcii-quantower-dlya-binance)****
-* ****[**Как очистить cookie файлы идентификатора реферала**](./#kak-ochistit-cookie-faily-identifikatora-referala)****
-* ****[**Как проверить что у вас полная лицензия Quantower?**](./#kak-proverit-chto-u-vas-polnaya-licenziya-quantower)****
-* ****[**Как загрузить историю прошлых сделок (за предыдущие дни)**](./#kak-zagruzit-istoriyu-proshlykh-sdelok-za-predydushie-dni)****
-* ****[**Как сменить кредитное плеч**](./#kak-smenit-kreditnoe-pleche)**о**
-* ****[**Как изменить Тип режима для позиций** ](./#kak-izmenit-tip-rezhima-dlya-pozicii)****
+* [**Как создать новую учетную запись Binance Futures**](./#kak-sozdat-novuyu-uchetnuyu-zapis-binance-futures)**?**
+* [**Как подключится  Binance Futures или Binance spot используя  Quantower?**](./#kak-podklyuchitsya-binance-futures-ili-binance-spot-ispolzuya-quantower)
+* [**Как получить бесплатно все функции Quantower для Binance?**](./#kak-poluchit-besplatno-vse-funkcii-quantower-dlya-binance)
+* [**Как очистить cookie файлы идентификатора реферала**](./#kak-ochistit-cookie-faily-identifikatora-referala)
+* [**Как проверить что у вас полная лицензия Quantower?**](./#kak-proverit-chto-u-vas-polnaya-licenziya-quantower)
+* [**Как загрузить историю прошлых сделок (за предыдущие дни)**](./#kak-zagruzit-istoriyu-proshlykh-sdelok-za-predydushie-dni)
+* [**Как сменить кредитное плеч**](./#kak-smenit-kreditnoe-pleche)**о**
+* [**Как изменить Тип режима для позиций** ](./#kak-izmenit-tip-rezhima-dlya-pozicii)
 * [**Possible Errors with Binance Futures connection**](errors-with-binance-connection.md)
 
 ### Как создать новую учетную запись Binance Futures
@@ -107,7 +107,7 @@ description: >-
 
 ### Как проверить что у вас полная лицензия Quantower?
 
-После того, как вы создали новую учетную запись на Binance Spot, Binance Futures, войдите на платформу в режиме торговли с вашими ключами API. После этого откройте **** Панель информации об учетной записи  и убедитесь, что напротив поля **"Полная лицензия"** установлено **- "Доступна"** .
+После того, как вы создали новую учетную запись на Binance Spot, Binance Futures, войдите на платформу в режиме торговли с вашими ключами API. После этого откройте  Панель информации об учетной записи  и убедитесь, что напротив поля **"Полная лицензия"** установлено **- "Доступна"** .
 
 ![](<../../.gitbook/assets/image (167).png>)
 

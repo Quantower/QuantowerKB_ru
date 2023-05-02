@@ -10,7 +10,7 @@ description: >-
 
 Чтобы сэкономить вашу работу по настройке рабочего пространства, мы разработали функцию «**Шаблоны**». Это поможет вам сохранить ваши настройки в специальных объектах - шаблонах - и создать их позже, сохранив все примененные настройки.
 
-Вы можете сохранять любые [**Одиночные панели**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MaEToFHUmH6IcARPyfA/general-settings/standalone-panels), [**сгрупированные поверхности**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MaEToFHUmH6IcARPyfA/general-settings/group-of-panels) **** или [**Bind**](binds.md) **(**Объединенные поверхности), как шаблон, так что его полезность очень многообещающая.&#x20;
+Вы можете сохранять любые [**Одиночные панели**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MaEToFHUmH6IcARPyfA/general-settings/standalone-panels), [**сгрупированные поверхности**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MaEToFHUmH6IcARPyfA/general-settings/group-of-panels) или [**Bind**](binds.md) **(**Объединенные поверхности), как шаблон, так что его полезность очень многообещающая.&#x20;
 
 ## Как создать шаблон?
 

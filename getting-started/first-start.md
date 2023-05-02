@@ -11,7 +11,7 @@ description: >-
 
 При первом запуске терминала Quantower вы получите несколько элементов платформы, автоматически созданных для целей тестирования:
 
-* [**Workspace**](https://help.quantower.com/getting-started/workspaces-binds-groups#workspaces) **** менеджер организации рабочего пространства
+* [**Workspace**](https://help.quantower.com/getting-started/workspaces-binds-groups#workspaces) менеджер организации рабочего пространства
 * **"**[**Bind**](https://help.quantower.com/getting-started/workspaces-binds-groups#binds)**"** с несколькими самыми популярными торговыми панелями
 * Активное подключение к **Binance в информационном режиме**
 

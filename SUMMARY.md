@@ -121,6 +121,7 @@
       * [Delta Rotation](analytics-panels/technical-indicators/volume/delta-rotation.md)
       * [Level2 indicator](analytics-panels/technical-indicators/volume/level2-indicator.md)
       * [Abnormal Volume](analytics-panels/technical-indicators/volume/abnormal-volume.md)
+      * [Abnormal Trades](analytics-panels/technical-indicators/volume/abnormal-trades.md)
   * [Инструменты объемного анализа, профили объема, кластер](analytics-panels/volume-analysis-tools/README.md)
     * [Кластер](analytics-panels/volume-analysis-tools/cluster-chart.md)
     * [Профили объема](analytics-panels/volume-analysis-tools/volume-profiles.md)

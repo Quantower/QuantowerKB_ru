@@ -8,13 +8,13 @@ description: >-
 
 Этот менеджер настройки позволяет вам установить определенное поведение при изменении некоторых данных в таблице. Эта функция доступна в панелях:
 
-* [**Список наблюдения**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MaYzvomjGa\_2w\_IlU3-/analytics-panels/watchlist)****
-* [**Лента сделок**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MaYzvomjGa\_2w\_IlU3-/analytics-panels/time-and-sales#setup-actions-filters-and-actions)****
-* [**Статистика цен**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MaYzvomjGa\_2w\_IlU3-/analytics-panels/price-statistic)****
-* ****[**Рабочие ордера**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MaYzvomjGa\_2w\_IlU3-/portfolio-panels/working-orders)****
-* [**Позиции**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MaYzvomjGa\_2w\_IlU3-/portfolio-panels/positions)****
-* [**Сделки**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MaYzvomjGa\_2w\_IlU3-/portfolio-panels/trades)****
-* [**История ордеров**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MaYzvomjGa\_2w\_IlU3-/portfolio-panels/orders-history)****
+* [**Список наблюдения**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MaYzvomjGa\_2w\_IlU3-/analytics-panels/watchlist)
+* [**Лента сделок**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MaYzvomjGa\_2w\_IlU3-/analytics-panels/time-and-sales#setup-actions-filters-and-actions)
+* [**Статистика цен**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MaYzvomjGa\_2w\_IlU3-/analytics-panels/price-statistic)
+* [**Рабочие ордера**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MaYzvomjGa\_2w\_IlU3-/portfolio-panels/working-orders)
+* [**Позиции**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MaYzvomjGa\_2w\_IlU3-/portfolio-panels/positions)
+* [**Сделки**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MaYzvomjGa\_2w\_IlU3-/portfolio-panels/trades)
+* [**История ордеров**](https://app.gitbook.com/@quantower/s/quantower-ru/\~/drafts/-MaYzvomjGa\_2w\_IlU3-/portfolio-panels/orders-history)
 
 ![](../.gitbook/assets/filtry-i-alerty.jpg)
 

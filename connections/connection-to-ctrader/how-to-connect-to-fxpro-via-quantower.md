@@ -4,7 +4,7 @@
 
 {% embed url="https://youtu.be/FqR1nqsjMrI" %}
 
-* Перейдите на официальный сайт FxPro и в **** [**разделе Инструменты**](https://www.fxpro.com/trading-platforms/ctrader) выберите платформу cTrader.
+* Перейдите на официальный сайт FxPro и в [**разделе Инструменты**](https://www.fxpro.com/trading-platforms/ctrader) выберите платформу cTrader.
 * Создайте торговый счет, заполнив регистрационную форму. Демо-счет и реальный счет создаются под одним идентификатором cTrader ID, поэтому существует только одна форма для открытия счета. При регистрации всегда выбирайте платформу cTrader, где вам нужно ее указать.
 
 ![](../../.gitbook/assets/platforma-ctrader-registraciya.png)

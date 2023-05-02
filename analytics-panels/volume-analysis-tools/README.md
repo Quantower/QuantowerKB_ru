@@ -11,11 +11,11 @@ Quantower предоставляет [**инструменты анализа о
 
 Инструменты объемного анализа включают фирменные и хорошо известные аналитики:
 
-* ****[**Кластер** ](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/cluster-chart)(Footprint график ли OrderFlow график);
-* ****[**Профили объема**](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/volume-profiles) — Пошаговый, Правый, Левый и Пользовательский профили объема;
-* ****[**Статистика по времени** ](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/time-statistics)— объемные данные для каждого бара в виде таблицы;
-* ****[**Гистограмма по времени** __ ](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/time-histogram)— данные объема на каждом баре в виде вертикальной гистограммы;
-* ****[**Пользовательский VWAP** ](https://help.quantower.com.ru/analytics-panels/chart/anchored-vwap)— может быть прикреплен к любому выбранному бару в качестве отправной точки расчета;
+* [**Кластер** ](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/cluster-chart)(Footprint график ли OrderFlow график);
+* [**Профили объема**](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/volume-profiles) — Пошаговый, Правый, Левый и Пользовательский профили объема;
+* [**Статистика по времени** ](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/time-statistics)— объемные данные для каждого бара в виде таблицы;
+* [**Гистограмма по времени** ](https://help.quantower.com.ru/analytics-panels/chart/volume-analysis-tools/time-histogram)— данные объема на каждом баре в виде вертикальной гистограммы;
+* [**Пользовательский VWAP** ](https://help.quantower.com.ru/analytics-panels/chart/anchored-vwap)— может быть прикреплен к любому выбранному бару в качестве отправной точки расчета;
 * [**VWAP**](../chart/vwap.md) — мульти VWAP для одного графика
 * [**T\&S бара**](https://help.quantower.com/analytics-panels/chart/volume-analysis-tools/historical-time-and-sales)— таблица всех сделок для любого выбранного бара.
 
